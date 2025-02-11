@@ -121,15 +121,8 @@ def get_diff_stacked_hidden_states(train_dataset, model, model_config, tokenizer
         fs_hs_by_layer = torch.vstack([fs_hs[layer+1].detach().cpu()[:,-1,:] for layer in range(model_config['n_layers'])])
         del fs_hs
 
-        edit_layer = []
-        for i in range(model_config['n_layers']):
-            intervention_fn = add_icv(edit_layer, activation_storage[n], device, idx=-1)
-            with TraceDict(model, layers = model_config['layer_hook_names'], edit_output=intervention_fn):
-                zs_hs = model(**zs_inputs, output_hidden_states = True, return_dict = True).hidden_states
-                zs_hs_by_layer = torch.vstack([zs_hs[layer+1].detach().cpu()[:,-1,:] for layer in range(model_config['n_layers'])])
-                del zs_hs
-            activation_storage[n][i]=fs_hs_by_layer[i]-zs_hs_by_layer[i]
-            edit_layer.append(i)
+        act = add_activation_by_layer(zs_inputs, model, model_config, fs_hs_by_layer)
+        activation_storage[n] = act
     mean_hidden_states = activation_storage.mean(dim=0)
     return mean_hidden_states
 
@@ -175,7 +168,6 @@ def add_activation_by_layer(inputs, model, model_config, fs_hs_by_layer):
     rotary_emb = model.model.rotary_emb
     norm = model.model.norm
     device = model.device
-
     inputs_embeds = embedding_layer(inputs.input_ids)
     past_key_values = DynamicCache()
     past_seen_tokens = past_key_values.get_seq_length() if past_key_values is not None else 0
@@ -184,19 +176,20 @@ def add_activation_by_layer(inputs, model, model_config, fs_hs_by_layer):
     )
     position_ids = cache_position.unsqueeze(0)
 
+    causal_mask = model.model._update_causal_mask(
+            attention_mask=None, input_tensor=inputs_embeds, cache_position=cache_position, past_key_values=past_key_values, output_attentions=False
+        )
     hidden_states = inputs_embeds
-
     position_embeddings = rotary_emb(hidden_states, position_ids)
-
     l_idx = 0
     for l in decode_layers:
         layer_outputs = l(
             hidden_states,
-            attention_mask = None,
+            attention_mask = causal_mask,
             position_ids = position_ids,
             past_key_values = past_key_values,
             output_attentions=False,
-            use_cache=False,
+            use_cache=True,
             cache_position = cache_position,
             position_embeddings = position_embeddings,
         )

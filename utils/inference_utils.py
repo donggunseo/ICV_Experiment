@@ -4,7 +4,8 @@ import random
 from utils.prompt_utils import *
 import torch
 from utils.intervention_utils import *
-from sklearn.metrics import f1_score
+from sklearn.metrics import f1_score, accuracy_score
+import re
 
 
 def instruction_kv_caching(model, tokenizer, prefixes=None, separators=None):
@@ -36,9 +37,10 @@ def icl_without_intervention(train_dataset, test_dataset, n_shots, model, tokeni
         test_target = test_dataset[j]['output']
 
         MAX_NEW_TOKENS = 50
-        output = model.generate(**inputs, max_new_tokens = MAX_NEW_TOKENS, pad_token_id=tokenizer.eos_token_id, stop_strings = "\n\n", tokenizer=tokenizer).detach().cpu()
+        output = model.generate(**inputs, max_new_tokens = MAX_NEW_TOKENS, pad_token_id=tokenizer.eos_token_id, stop_strings = ["\n","\n\n",'<|eot_id|>'], tokenizer=tokenizer).detach().cpu()
         output_str = tokenizer.decode(output.squeeze()[len(inputs.input_ids.squeeze()):])
         output_str = output_str.lower().strip()
+        output_str = re.sub(r'^\d+\.\s*', '', output_str)
         res.append({
             "input_prompt" : prompt,
             "test_query" : test_query,
@@ -46,12 +48,9 @@ def icl_without_intervention(train_dataset, test_dataset, n_shots, model, tokeni
             "prediction" : output_str 
         })
         gt.append(test_target)
-        if n_shots==0:
-            if test_target in output_str:
-                output_str = test_target
         pred.append(output_str)
-    fs_f1 = f1_score(gt, pred, average='macro')
-    return res, fs_f1
+    score = accuracy_score(gt, pred)
+    return res, score
 
 
 def icl_with_intervention(test_dataset, icv, model, model_config, tokenizer, prefixes, separators, eval_edit_layer=-1):
@@ -70,11 +69,11 @@ def icl_with_intervention(test_dataset, icv, model, model_config, tokenizer, pre
             "input_prompt" : prompt,
             "test_query" : test_query,
             "gt" : test_target,
-            "intervention_prediction" : intervention_output
+            "prediction" : intervention_output
         })
         gt.append(test_target)
         intervention_pred.append(intervention_output)
-    intervention_f1 = f1_score(gt, intervention_pred, average="macro")
-    return res, intervention_f1
+    intervention_score = accuracy_score(gt, intervention_pred)
+    return res, intervention_score
 
 

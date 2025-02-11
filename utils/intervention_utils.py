@@ -1,7 +1,6 @@
 from baukit import TraceDict, get_module
 import torch
 import re
-import bitsandbytes as bnb
 
 
 def add_icv(edit_layer, icv, device, idx=-1):
