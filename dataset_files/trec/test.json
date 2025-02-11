@@ -1,1 +1,402 @@
-[{"input": "How far is it from Denver to Aspen ?", "output": "number"}, {"input": "What county is Modesto, California in ?", "output": "location"}, {"input": "Who was Galileo ?", "output": "human"}, {"input": "What is an atom ?", "output": "description"}, {"input": "When did Hawaii become a state ?", "output": "number"}, {"input": "How tall is the Sears Building ?", "output": "number"}, {"input": "George Bush purchased a small interest in which baseball team ?", "output": "human"}, {"input": "What is Australia's national flower ?", "output": "entity"}, {"input": "Why does the moon turn orange ?", "output": "description"}, {"input": "What is autism ?", "output": "description"}, {"input": "What city had a world fair in 1900 ?", "output": "location"}, {"input": "What person's head is on a dime ?", "output": "human"}, {"input": "What is the average weight of a Yellow Labrador ?", "output": "number"}, {"input": "Who was the first man to fly across the Pacific Ocean ?", "output": "human"}, {"input": "When did Idaho become a state ?", "output": "number"}, {"input": "What is the life expectancy for crickets ?", "output": "number"}, {"input": "What metal has the highest melting point ?", "output": "entity"}, {"input": "Who developed the vaccination against polio ?", "output": "human"}, {"input": "What is epilepsy ?", "output": "description"}, {"input": "What year did the Titanic sink ?", "output": "number"}, {"input": "Who was the first American to walk in space ?", "output": "human"}, {"input": "What is a biosphere ?", "output": "description"}, {"input": "What river in the US is known as the Big Muddy ?", "output": "location"}, {"input": "What is bipolar disorder ?", "output": "description"}, {"input": "What is cholesterol ?", "output": "description"}, {"input": "Who developed the Macintosh computer ?", "output": "human"}, {"input": "What is caffeine ?", "output": "description"}, {"input": "What imaginary line is halfway between the North and South Poles ?", "output": "location"}, {"input": "Where is John Wayne airport ?", "output": "location"}, {"input": "What hemisphere is the Philippines in ?", "output": "location"}, {"input": "What is the average speed of the horses at the Kentucky Derby ?", "output": "number"}, {"input": "Where are the Rocky Mountains ?", "output": "location"}, {"input": "What are invertebrates ?", "output": "description"}, {"input": "What is the temperature at the center of the earth ?", "output": "number"}, {"input": "When did John F. Kennedy get elected as President ?", "output": "number"}, {"input": "How old was Elvis Presley when he died ?", "output": "number"}, {"input": "Where is the Orinoco River ?", "output": "location"}, {"input": "How far is the service line from the net in tennis ?", "output": "number"}, {"input": "How much fiber should you have per day ?", "output": "number"}, {"input": "How many Great Lakes are there ?", "output": "number"}, {"input": "Material called linen is made from what plant ?", "output": "entity"}, {"input": "What is Teflon ?", "output": "description"}, {"input": "What is amitriptyline ?", "output": "description"}, {"input": "What is a shaman ?", "output": "description"}, {"input": "What is the proper name for a female walrus ?", "output": "entity"}, {"input": "What is a group of turkeys called ?", "output": "entity"}, {"input": "How long did Rip Van Winkle sleep ?", "output": "number"}, {"input": "What are triglycerides ?", "output": "description"}, {"input": "How many liters in a gallon ?", "output": "number"}, {"input": "What is the name of the chocolate company in San Francisco ?", "output": "human"}, {"input": "What are amphibians ?", "output": "description"}, {"input": "Who discovered x-rays ?", "output": "human"}, {"input": "Which comedian's signature line is `` Can we talk'' ?", "output": "human"}, {"input": "What is fibromyalgia ?", "output": "description"}, {"input": "What is done with worn or outdated flags ?", "output": "description"}, {"input": "What does cc in engines mean ?", "output": "description"}, {"input": "When did Elvis Presley die ?", "output": "number"}, {"input": "What is the capital of Yugoslavia ?", "output": "location"}, {"input": "Where is Milan ?", "output": "location"}, {"input": "What is the speed hummingbirds fly ?", "output": "number"}, {"input": "What is the oldest city in the United States ?", "output": "location"}, {"input": "What was W.C. Fields' real name ?", "output": "human"}, {"input": "What river flows between Fargo, North Dakota and Moorhead, Minnesota ?", "output": "location"}, {"input": "What do bats eat ?", "output": "entity"}, {"input": "What state did the Battle of Bighorn take place in ?", "output": "location"}, {"input": "Who was Abraham Lincoln ?", "output": "human"}, {"input": "What do you call a newborn kangaroo ?", "output": "entity"}, {"input": "What are spider veins ?", "output": "description"}, {"input": "What day and month did John Lennon die ?", "output": "number"}, {"input": "What strait separates North America from Asia ?", "output": "location"}, {"input": "What is the population of Seattle ?", "output": "number"}, {"input": "How much was a ticket for the Titanic ?", "output": "number"}, {"input": "What is the largest city in the world ?", "output": "location"}, {"input": "What American composer wrote the music for `` West Side Story'' ?", "output": "human"}, {"input": "Where is the Mall of the America ?", "output": "location"}, {"input": "What is the pH scale ?", "output": "description"}, {"input": "What type of currency is used in Australia ?", "output": "entity"}, {"input": "How tall is the Gateway Arch in St. Louis, MO ?", "output": "number"}, {"input": "How much does the human adult female brain weigh ?", "output": "number"}, {"input": "Who was the first governor of Alaska ?", "output": "human"}, {"input": "What is a prism ?", "output": "description"}, {"input": "When was the first liver transplant ?", "output": "number"}, {"input": "Who was elected president of South Africa in 1994 ?", "output": "human"}, {"input": "What is the population of China ?", "output": "number"}, {"input": "When was Rosa Parks born ?", "output": "number"}, {"input": "Why is a ladybug helpful ?", "output": "description"}, {"input": "What is amoxicillin ?", "output": "description"}, {"input": "Who was the first female United States Representative ?", "output": "human"}, {"input": "What are xerophytes ?", "output": "description"}, {"input": "What country did Ponce de Leon come from ?", "output": "location"}, {"input": "The U.S. Department of Treasury first issued paper currency for the U.S. during which war ?", "output": "entity"}, {"input": "What is desktop publishing ?", "output": "description"}, {"input": "What is the temperature of the sun's surface ?", "output": "number"}, {"input": "What year did Canada join the United Nations ?", "output": "number"}, {"input": "What is the oldest university in the US ?", "output": "human"}, {"input": "Where is Prince Edward Island ?", "output": "location"}, {"input": "Mercury, what year was it discovered ?", "output": "number"}, {"input": "What is cryogenics ?", "output": "description"}, {"input": "What are coral reefs ?", "output": "description"}, {"input": "What is the longest major league baseball-winning streak ?", "output": "entity"}, {"input": "What is neurology ?", "output": "description"}, {"input": "Who invented the calculator ?", "output": "human"}, {"input": "How do you measure earthquakes ?", "output": "description"}, {"input": "Who is Duke Ellington ?", "output": "human"}, {"input": "What county is Phoenix, AZ in ?", "output": "location"}, {"input": "What is a micron ?", "output": "description"}, {"input": "The sun's core, what is the temperature ?", "output": "number"}, {"input": "What is the Ohio state bird ?", "output": "entity"}, {"input": "When were William Shakespeare's twins born ?", "output": "number"}, {"input": "What is the highest dam in the U.S. ?", "output": "location"}, {"input": "What color is a poison arrow frog ?", "output": "entity"}, {"input": "What is acupuncture ?", "output": "description"}, {"input": "What is the length of the coastline of the state of Alaska ?", "output": "number"}, {"input": "What is the name of Neil Armstrong's wife ?", "output": "human"}, {"input": "What is Hawaii's state flower ?", "output": "entity"}, {"input": "Who won Ms. American in 1989 ?", "output": "human"}, {"input": "When did the Hindenberg crash ?", "output": "number"}, {"input": "What mineral helps prevent osteoporosis ?", "output": "entity"}, {"input": "What was the last year that the Chicago Cubs won the World Series ?", "output": "number"}, {"input": "Where is Perth ?", "output": "location"}, {"input": "What year did WWII begin ?", "output": "number"}, {"input": "What is the diameter of a golf ball ?", "output": "number"}, {"input": "What is an eclipse ?", "output": "description"}, {"input": "Who discovered America ?", "output": "human"}, {"input": "What is the earth's diameter ?", "output": "number"}, {"input": "Which president was unmarried ?", "output": "human"}, {"input": "How wide is the Milky Way galaxy ?", "output": "number"}, {"input": "During which season do most thunderstorms occur ?", "output": "number"}, {"input": "What is Wimbledon ?", "output": "description"}, {"input": "What is the gestation period for a cat ?", "output": "number"}, {"input": "How far is a nautical mile ?", "output": "number"}, {"input": "Who was the abolitionist who led the raid on Harper's Ferry in 1859 ?", "output": "human"}, {"input": "What does target heart rate mean ?", "output": "description"}, {"input": "What was the first satellite to go into space ?", "output": "entity"}, {"input": "What is foreclosure ?", "output": "description"}, {"input": "What is the major fault line near Kentucky ?", "output": "entity"}, {"input": "Where is the Holland Tunnel ?", "output": "location"}, {"input": "Who wrote the hymn `` Amazing Grace'' ?", "output": "human"}, {"input": "What position did Willie Davis play in baseball ?", "output": "human"}, {"input": "What are platelets ?", "output": "description"}, {"input": "What is severance pay ?", "output": "description"}, {"input": "What is the name of Roy Roger's dog ?", "output": "entity"}, {"input": "Where are the National Archives ?", "output": "location"}, {"input": "What is a baby turkey called ?", "output": "entity"}, {"input": "What is poliomyelitis ?", "output": "description"}, {"input": "What is the longest bone in the human body ?", "output": "entity"}, {"input": "Who is a German philosopher ?", "output": "human"}, {"input": "What were Christopher Columbus' three ships ?", "output": "entity"}, {"input": "What does Phi Beta Kappa mean ?", "output": "description"}, {"input": "What is nicotine ?", "output": "description"}, {"input": "What is another name for vitamin B1 ?", "output": "entity"}, {"input": "Who discovered radium ?", "output": "human"}, {"input": "What are sunspots ?", "output": "description"}, {"input": "When was Algeria colonized ?", "output": "number"}, {"input": "What baseball team was the first to make numbers part of their uniform ?", "output": "human"}, {"input": "What continent is Egypt on ?", "output": "location"}, {"input": "What is the capital of Mongolia ?", "output": "location"}, {"input": "What is nanotechnology ?", "output": "description"}, {"input": "In the late 1700's British convicts were used to populate which colony ?", "output": "location"}, {"input": "What state is the geographic center of the lower 48 states ?", "output": "location"}, {"input": "What is an obtuse angle ?", "output": "description"}, {"input": "What are polymers ?", "output": "description"}, {"input": "When is hurricane season in the Caribbean ?", "output": "number"}, {"input": "Where is the volcano Mauna Loa ?", "output": "location"}, {"input": "What is another astronomic term for the Northern Lights ?", "output": "entity"}, {"input": "What peninsula is Spain part of ?", "output": "location"}, {"input": "When was Lyndon B. Johnson born ?", "output": "number"}, {"input": "What is acetaminophen ?", "output": "description"}, {"input": "What state has the least amount of rain per year ?", "output": "location"}, {"input": "Who founded American Red Cross ?", "output": "human"}, {"input": "What year did the Milwaukee Braves become the Atlanta Braves ?", "output": "number"}, {"input": "How fast is alcohol absorbed ?", "output": "number"}, {"input": "When is the summer solstice ?", "output": "number"}, {"input": "What is supernova ?", "output": "description"}, {"input": "Where is the Shawnee National Forest ?", "output": "location"}, {"input": "What U.S. state's motto is `` Live free or Die'' ?", "output": "location"}, {"input": "Where is the Lourve ?", "output": "location"}, {"input": "When was the first stamp issued ?", "output": "number"}, {"input": "What primary colors do you mix to make orange ?", "output": "entity"}, {"input": "How far is Pluto from the sun ?", "output": "number"}, {"input": "What body of water are the Canary Islands in ?", "output": "location"}, {"input": "What is neuropathy ?", "output": "description"}, {"input": "Where is the Euphrates River ?", "output": "location"}, {"input": "What is cryptography ?", "output": "description"}, {"input": "What is natural gas composed of ?", "output": "entity"}, {"input": "Who is the Prime Minister of Canada ?", "output": "human"}, {"input": "What French ruler was defeated at the battle of Waterloo ?", "output": "human"}, {"input": "What is leukemia ?", "output": "description"}, {"input": "Where did Howard Hughes die ?", "output": "location"}, {"input": "What is the birthstone for June ?", "output": "entity"}, {"input": "What is the sales tax in Minnesota ?", "output": "entity"}, {"input": "What is the distance in miles from the earth to the sun ?", "output": "number"}, {"input": "What is the average life span for a chicken ?", "output": "number"}, {"input": "When was the first Wal-Mart store opened ?", "output": "number"}, {"input": "What is relative humidity ?", "output": "description"}, {"input": "What city has the zip code of 35824 ?", "output": "location"}, {"input": "What currency is used in Algeria ?", "output": "entity"}, {"input": "Who invented the hula hoop ?", "output": "human"}, {"input": "What was the most popular toy in 1957 ?", "output": "entity"}, {"input": "What is pastrami made of ?", "output": "entity"}, {"input": "What is the name of the satellite that the Soviet Union sent into space in 1957 ?", "output": "entity"}, {"input": "What city's newspaper is called `` The Enquirer'' ?", "output": "location"}, {"input": "Who invented the slinky ?", "output": "human"}, {"input": "What are the animals that don't have backbones called ?", "output": "entity"}, {"input": "What is the melting point of copper ?", "output": "number"}, {"input": "Where is the volcano Olympus Mons located ?", "output": "location"}, {"input": "Who was the 23rd president of the United States ?", "output": "human"}, {"input": "What is the average body temperature ?", "output": "number"}, {"input": "What does a defibrillator do ?", "output": "description"}, {"input": "What is the effect of acid rain ?", "output": "description"}, {"input": "What year did the United States abolish the draft ?", "output": "number"}, {"input": "How fast is the speed of light ?", "output": "number"}, {"input": "What province is Montreal in ?", "output": "location"}, {"input": "What New York City structure is also known as the Twin Towers ?", "output": "location"}, {"input": "What is fungus ?", "output": "description"}, {"input": "What is the most frequently spoken language in the Netherlands ?", "output": "entity"}, {"input": "What is sodium chloride ?", "output": "description"}, {"input": "What are the spots on dominoes called ?", "output": "entity"}, {"input": "How many pounds in a ton ?", "output": "number"}, {"input": "What is influenza ?", "output": "description"}, {"input": "What is ozone depletion ?", "output": "description"}, {"input": "What year was the Mona Lisa painted ?", "output": "number"}, {"input": "What does `` Sitting Shiva'' mean ?", "output": "description"}, {"input": "What is the electrical output in Madrid, Spain ?", "output": "entity"}, {"input": "Which mountain range in North America stretches from Maine to Georgia ?", "output": "location"}, {"input": "What is plastic made of ?", "output": "entity"}, {"input": "What is the population of Nigeria ?", "output": "number"}, {"input": "What does your spleen do ?", "output": "description"}, {"input": "Where is the Grand Canyon ?", "output": "location"}, {"input": "Who invented the telephone ?", "output": "human"}, {"input": "What year did the U.S. buy Alaska ?", "output": "number"}, {"input": "What is the name of the leader of Ireland ?", "output": "human"}, {"input": "What is phenylalanine ?", "output": "description"}, {"input": "How many gallons of water are there in a cubic foot ?", "output": "number"}, {"input": "What are the two houses of the Legislative branch ?", "output": "entity"}, {"input": "What is sonar ?", "output": "description"}, {"input": "In Poland, where do most people live ?", "output": "location"}, {"input": "What is phosphorus ?", "output": "description"}, {"input": "What is the location of the Sea of Tranquility ?", "output": "location"}, {"input": "How fast is sound ?", "output": "number"}, {"input": "What French province is cognac produced in ?", "output": "location"}, {"input": "What is Valentine's Day ?", "output": "description"}, {"input": "What causes gray hair ?", "output": "description"}, {"input": "What is hypertension ?", "output": "description"}, {"input": "What is bandwidth ?", "output": "description"}, {"input": "What is the longest suspension bridge in the U.S. ?", "output": "location"}, {"input": "What is a parasite ?", "output": "description"}, {"input": "What is home equity ?", "output": "description"}, {"input": "What do meteorologists do ?", "output": "description"}, {"input": "What is the criterion for being legally blind ?", "output": "entity"}, {"input": "Who is the tallest man in the world ?", "output": "human"}, {"input": "What are the twin cities ?", "output": "location"}, {"input": "What did Edward Binney and Howard Smith invent in 1903 ?", "output": "entity"}, {"input": "What is the statue of liberty made of ?", "output": "entity"}, {"input": "What is pilates ?", "output": "description"}, {"input": "What planet is known as the `` red'' planet ?", "output": "location"}, {"input": "What is the depth of the Nile river ?", "output": "number"}, {"input": "What is the colorful Korean traditional dress called ?", "output": "entity"}, {"input": "What is Mardi Gras ?", "output": "description"}, {"input": "Mexican pesos are worth what in U.S. dollars ?", "output": "number"}, {"input": "Who was the first African American to play for the Brooklyn Dodgers ?", "output": "human"}, {"input": "Who was the first Prime Minister of Canada ?", "output": "human"}, {"input": "How many Admirals are there in the U.S. Navy ?", "output": "number"}, {"input": "What instrument did Glenn Miller play ?", "output": "entity"}, {"input": "How old was Joan of Arc when she died ?", "output": "number"}, {"input": "What does the word fortnight mean ?", "output": "description"}, {"input": "What is dianetics ?", "output": "description"}, {"input": "What is the capital of Ethiopia ?", "output": "location"}, {"input": "For how long is an elephant pregnant ?", "output": "number"}, {"input": "How did Janice Joplin die ?", "output": "description"}, {"input": "What is the primary language in Iceland ?", "output": "entity"}, {"input": "What is the difference between AM radio stations and FM radio stations ?", "output": "description"}, {"input": "What is osteoporosis ?", "output": "description"}, {"input": "Who was the first woman governor in the U.S. ?", "output": "human"}, {"input": "What is peyote ?", "output": "description"}, {"input": "What is the esophagus used for ?", "output": "description"}, {"input": "What is viscosity ?", "output": "description"}, {"input": "What year did Oklahoma become a state ?", "output": "number"}, {"input": "What is the abbreviation for Texas ?", "output": "abbreviation"}, {"input": "What is a mirror made out of ?", "output": "entity"}, {"input": "Where on the body is a mortarboard worn ?", "output": "location"}, {"input": "What was J.F.K.'s wife's name ?", "output": "human"}, {"input": "What does I.V. stand for ?", "output": "abbreviation"}, {"input": "What is the chunnel ?", "output": "description"}, {"input": "Where is Hitler buried ?", "output": "location"}, {"input": "What are antacids ?", "output": "description"}, {"input": "What is pulmonary fibrosis ?", "output": "description"}, {"input": "What are Quaaludes ?", "output": "description"}, {"input": "What is naproxen ?", "output": "description"}, {"input": "What is strep throat ?", "output": "description"}, {"input": "What is the largest city in the U.S. ?", "output": "location"}, {"input": "What is foot and mouth disease ?", "output": "entity"}, {"input": "What is the life expectancy of a dollar bill ?", "output": "number"}, {"input": "What do you call a professional map drawer ?", "output": "entity"}, {"input": "What are Aborigines ?", "output": "description"}, {"input": "What is hybridization ?", "output": "description"}, {"input": "What color is indigo ?", "output": "entity"}, {"input": "How old do you have to be in order to rent a car in Italy ?", "output": "number"}, {"input": "What does a barometer measure ?", "output": "entity"}, {"input": "What color is a giraffe's tongue ?", "output": "entity"}, {"input": "What does USPS stand for ?", "output": "abbreviation"}, {"input": "What year did the NFL go on strike ?", "output": "number"}, {"input": "What is solar wind ?", "output": "description"}, {"input": "What date did Neil Armstrong land on the moon ?", "output": "number"}, {"input": "When was Hiroshima bombed ?", "output": "number"}, {"input": "Where is the Savannah River ?", "output": "location"}, {"input": "Who was the first woman killed in the Vietnam War ?", "output": "human"}, {"input": "What planet has the strongest magnetic field of all the planets ?", "output": "location"}, {"input": "Who is the governor of Alaska ?", "output": "human"}, {"input": "What year did Mussolini seize power in Italy ?", "output": "number"}, {"input": "What is the capital of Persia ?", "output": "location"}, {"input": "Where is the Eiffel Tower ?", "output": "location"}, {"input": "How many hearts does an octopus have ?", "output": "number"}, {"input": "What is pneumonia ?", "output": "description"}, {"input": "What is the deepest lake in the US ?", "output": "location"}, {"input": "What is a fuel cell ?", "output": "description"}, {"input": "Who was the first U.S. president to appear on TV ?", "output": "human"}, {"input": "Where is the Little League Museum ?", "output": "location"}, {"input": "What are the two types of twins ?", "output": "entity"}, {"input": "What is the brightest star ?", "output": "location"}, {"input": "What is diabetes ?", "output": "description"}, {"input": "When was President Kennedy shot ?", "output": "number"}, {"input": "What is TMJ ?", "output": "abbreviation"}, {"input": "What color is yak milk ?", "output": "entity"}, {"input": "What date was Dwight D. Eisenhower born ?", "output": "number"}, {"input": "What does the technical term ISDN mean ?", "output": "abbreviation"}, {"input": "Why is the sun yellow ?", "output": "description"}, {"input": "What is the conversion rate between dollars and pounds ?", "output": "number"}, {"input": "When was Abraham Lincoln born ?", "output": "number"}, {"input": "What is the Milky Way ?", "output": "description"}, {"input": "What is mold ?", "output": "description"}, {"input": "What year was Mozart born ?", "output": "number"}, {"input": "What is a group of frogs called ?", "output": "entity"}, {"input": "What is the name of William Penn's ship ?", "output": "entity"}, {"input": "What is the melting point of gold ?", "output": "number"}, {"input": "What is the street address of the White House ?", "output": "location"}, {"input": "What is semolina ?", "output": "description"}, {"input": "What fruit is Melba sauce made from ?", "output": "entity"}, {"input": "What is Ursa Major ?", "output": "description"}, {"input": "What is the percentage of water content in the human body ?", "output": "number"}, {"input": "How much does water weigh ?", "output": "number"}, {"input": "What was President Lyndon Johnson's reform program called ?", "output": "entity"}, {"input": "What is the murder rate in Windsor, Ontario ?", "output": "number"}, {"input": "Who is the only president to serve 2 non-consecutive terms ?", "output": "human"}, {"input": "What is the population of Australia ?", "output": "number"}, {"input": "Who painted the ceiling of the Sistine Chapel ?", "output": "human"}, {"input": "Name a stimulant.", "output": "entity"}, {"input": "What is the effect of volcanoes on the climate ?", "output": "description"}, {"input": "What year did the Andy Griffith show begin ?", "output": "number"}, {"input": "What is acid rain ?", "output": "description"}, {"input": "What is the date of Mexico's independence ?", "output": "number"}, {"input": "What is the location of Lake Champlain ?", "output": "location"}, {"input": "What is the Illinois state flower ?", "output": "entity"}, {"input": "What is Maryland's state bird ?", "output": "entity"}, {"input": "What is quicksilver ?", "output": "description"}, {"input": "Who wrote `` The Divine Comedy'' ?", "output": "human"}, {"input": "What is the speed of light ?", "output": "number"}, {"input": "What is the width of a football field ?", "output": "number"}, {"input": "Why in tennis are zero points called love ?", "output": "description"}, {"input": "What kind of dog was Toto in the Wizard of Oz ?", "output": "entity"}, {"input": "What is a thyroid ?", "output": "description"}, {"input": "What does ciao mean ?", "output": "description"}, {"input": "What is the only artery that carries blue blood from the heart to the lungs ?", "output": "entity"}, {"input": "How often does Old Faithful erupt at Yellowstone National Park ?", "output": "number"}, {"input": "What is acetic acid ?", "output": "description"}, {"input": "What is the elevation of St. Louis, MO ?", "output": "number"}, {"input": "What color does litmus paper turn when it comes into contact with a strong acid ?", "output": "entity"}, {"input": "What are the colors of the German flag ?", "output": "entity"}, {"input": "What is the Moulin Rouge ?", "output": "description"}, {"input": "What soviet seaport is on the Black Sea ?", "output": "location"}, {"input": "What is the atomic weight of silver ?", "output": "number"}, {"input": "What currency do they use in Brazil ?", "output": "entity"}, {"input": "What are pathogens ?", "output": "description"}, {"input": "What is mad cow disease ?", "output": "description"}, {"input": "Name a food high in zinc.", "output": "entity"}, {"input": "When did North Carolina enter the union ?", "output": "number"}, {"input": "Where do apple snails live ?", "output": "location"}, {"input": "What are ethics ?", "output": "description"}, {"input": "What does CPR stand for ?", "output": "abbreviation"}, {"input": "What is an annuity ?", "output": "description"}, {"input": "Who killed John F. Kennedy ?", "output": "human"}, {"input": "Who was the first vice president of the U.S. ?", "output": "human"}, {"input": "What birthstone is turquoise ?", "output": "entity"}, {"input": "Who was the first US President to ride in an automobile to his inauguration ?", "output": "human"}, {"input": "How old was the youngest president of the United States ?", "output": "number"}, {"input": "When was Ulysses S. Grant born ?", "output": "number"}, {"input": "What is Muscular Dystrophy ?", "output": "description"}, {"input": "Who lived in the Neuschwanstein castle ?", "output": "human"}, {"input": "What is propylene glycol ?", "output": "description"}, {"input": "What is a panic disorder ?", "output": "description"}, {"input": "Who invented the instant Polaroid camera ?", "output": "human"}, {"input": "What is a carcinogen ?", "output": "description"}, {"input": "What is a baby lion called ?", "output": "entity"}, {"input": "What is the world's population ?", "output": "number"}, {"input": "What is nepotism ?", "output": "description"}, {"input": "What is die-casting ?", "output": "description"}, {"input": "What is myopia ?", "output": "description"}, {"input": "What is the sales tax rate in New York ?", "output": "number"}, {"input": "Developing nations comprise what percentage of the world's population ?", "output": "number"}, {"input": "What is the fourth highest mountain in the world ?", "output": "location"}, {"input": "What is Shakespeare's nickname ?", "output": "human"}, {"input": "What is the heaviest naturally occurring element ?", "output": "entity"}, {"input": "When is Father's Day ?", "output": "number"}, {"input": "What does the acronym NASA stand for ?", "output": "abbreviation"}, {"input": "How long is the Columbia River in miles ?", "output": "number"}, {"input": "What city's newspaper is called `` The Star'' ?", "output": "location"}, {"input": "What is carbon dioxide ?", "output": "description"}, {"input": "Where is the Mason/Dixon line ?", "output": "location"}, {"input": "When was the Boston tea party ?", "output": "number"}, {"input": "What is metabolism ?", "output": "description"}, {"input": "Which U.S.A. president appeared on `` Laugh-In'' ?", "output": "human"}, {"input": "What are cigarettes made of ?", "output": "entity"}, {"input": "What is the capital of Zimbabwe ?", "output": "location"}, {"input": "What does NASA stand for ?", "output": "abbreviation"}, {"input": "What is the state flower of Michigan ?", "output": "entity"}, {"input": "What are semiconductors ?", "output": "description"}, {"input": "What is nuclear power ?", "output": "description"}, {"input": "What is a tsunami ?", "output": "description"}, {"input": "Who is the congressman from state of Texas on the armed forces committee ?", "output": "human"}, {"input": "Who was president in 1913 ?", "output": "human"}, {"input": "When was the first kidney transplant ?", "output": "number"}, {"input": "What are Canada's two territories ?", "output": "location"}, {"input": "What was the name of the plane Lindbergh flew solo across the Atlantic ?", "output": "entity"}, {"input": "What is genocide ?", "output": "description"}, {"input": "What continent is Argentina on ?", "output": "location"}, {"input": "What monastery was raided by Vikings in the late eighth century ?", "output": "entity"}, {"input": "What is an earthquake ?", "output": "description"}, {"input": "Where is the tallest roller coaster located ?", "output": "location"}, {"input": "What are enzymes ?", "output": "description"}, {"input": "Who discovered oxygen ?", "output": "human"}, {"input": "What is bangers and mash ?", "output": "description"}, {"input": "What is the name given to the Tiger at Louisiana State University ?", "output": "entity"}, {"input": "Where are the British crown jewels kept ?", "output": "location"}, {"input": "Who was the first person to reach the North Pole ?", "output": "human"}, {"input": "What is an ulcer ?", "output": "description"}, {"input": "What is vertigo ?", "output": "description"}, {"input": "What is the spirometer test ?", "output": "description"}, {"input": "When is the official first day of summer ?", "output": "number"}, {"input": "What does the abbreviation SOS mean ?", "output": "abbreviation"}, {"input": "What is the smallest bird in Britain ?", "output": "entity"}, {"input": "Who invented Trivial Pursuit ?", "output": "human"}, {"input": "What gasses are in the troposphere ?", "output": "entity"}, {"input": "Which country has the most water pollution ?", "output": "location"}, {"input": "What is the scientific name for elephant ?", "output": "entity"}, {"input": "Who is the actress known for her role in the movie `` Gypsy'' ?", "output": "human"}, {"input": "What breed of hunting dog did the Beverly Hillbillies own ?", "output": "entity"}, {"input": "What is the rainiest place on Earth ?", "output": "location"}, {"input": "Who was the first African American to win the Nobel Prize in literature ?", "output": "human"}, {"input": "When is St. Patrick's Day ?", "output": "number"}, {"input": "What was FDR's dog's name ?", "output": "entity"}, {"input": "What colors need to be mixed to get the color pink ?", "output": "entity"}, {"input": "What is the most popular sport in Japan ?", "output": "entity"}, {"input": "What is the active ingredient in baking soda ?", "output": "entity"}, {"input": "When was Thomas Jefferson born ?", "output": "number"}, {"input": "How cold should a refrigerator be ?", "output": "number"}, {"input": "When was the telephone invented ?", "output": "number"}, {"input": "What is the most common eye color ?", "output": "entity"}, {"input": "Where was the first golf course in the United States ?", "output": "location"}, {"input": "What is schizophrenia ?", "output": "description"}, {"input": "What is angiotensin ?", "output": "description"}, {"input": "What did Jesse Jackson organize ?", "output": "human"}, {"input": "What is New York's state bird ?", "output": "entity"}, {"input": "What is the National Park in Utah ?", "output": "location"}, {"input": "What is Susan B. Anthony's birthday ?", "output": "number"}, {"input": "In which state would you find the Catskill Mountains ?", "output": "location"}, {"input": "What do you call a word that is spelled the same backwards and forwards ?", "output": "entity"}, {"input": "What are pediatricians ?", "output": "description"}, {"input": "What chain store is headquartered in Bentonville, Arkansas ?", "output": "human"}, {"input": "What are solar cells ?", "output": "description"}, {"input": "What is compounded interest ?", "output": "description"}, {"input": "What are capers ?", "output": "description"}, {"input": "What is an antigen ?", "output": "description"}, {"input": "What currency does Luxembourg use ?", "output": "entity"}, {"input": "What is the population of Venezuela ?", "output": "number"}, {"input": "What type of polymer is used for bulletproof vests ?", "output": "entity"}, {"input": "What currency does Argentina use ?", "output": "entity"}, {"input": "What is a thermometer ?", "output": "description"}, {"input": "What Canadian city has the largest population ?", "output": "location"}, {"input": "What color are crickets ?", "output": "entity"}, {"input": "Which country gave New York the Statue of Liberty ?", "output": "location"}, {"input": "What was the name of the first U.S. satellite sent into space ?", "output": "entity"}, {"input": "What precious stone is a form of pure carbon ?", "output": "entity"}, {"input": "What kind of gas is in a fluorescent bulb ?", "output": "entity"}, {"input": "What is rheumatoid arthritis ?", "output": "description"}, {"input": "What river runs through Rowe, Italy ?", "output": "location"}, {"input": "What is cerebral palsy ?", "output": "description"}, {"input": "What city is also known as `` The Gateway to the West'' ?", "output": "location"}, {"input": "How far away is the moon ?", "output": "number"}, {"input": "What is the source of natural gas ?", "output": "entity"}, {"input": "In what spacecraft did U.S. astronaut Alan Shepard make his historic 1961 flight ?", "output": "entity"}, {"input": "What is pectin ?", "output": "description"}, {"input": "What is bio-diversity ?", "output": "description"}, {"input": "What's the easiest way to remove wallpaper ?", "output": "entity"}, {"input": "What year did the Titanic start on its journey ?", "output": "number"}, {"input": "How much of an apple is water ?", "output": "number"}, {"input": "Who was the 22nd President of the US ?", "output": "human"}, {"input": "What is the money they use in Zambia ?", "output": "entity"}, {"input": "How many feet in a mile ?", "output": "number"}, {"input": "What is the birthstone of October ?", "output": "entity"}, {"input": "What is e-coli ?", "output": "description"}]
+[
+    {
+        "input": "What is the Illinois state flower ?",
+        "output": "entity:plant"
+    },
+    {
+        "input": "What colors need to be mixed to get the color pink ?",
+        "output": "entity:color"
+    },
+    {
+        "input": "What is the sales tax in Minnesota ?",
+        "output": "entity:other"
+    },
+    {
+        "input": "What is the spirometer test ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What is the criterion for being legally blind ?",
+        "output": "entity:other"
+    },
+    {
+        "input": "What are the animals that don't have backbones called ?",
+        "output": "entity:animal"
+    },
+    {
+        "input": "What do you call a newborn kangaroo ?",
+        "output": "entity:equivalent term"
+    },
+    {
+        "input": "How many liters in a gallon ?",
+        "output": "numeric:count"
+    },
+    {
+        "input": "Who painted the ceiling of the Sistine Chapel ?",
+        "output": "human:individual"
+    },
+    {
+        "input": "What does `` Sitting Shiva'' mean ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "When was the telephone invented ?",
+        "output": "numeric:date"
+    },
+    {
+        "input": "How far is it from Denver to Aspen ?",
+        "output": "numeric:distance"
+    },
+    {
+        "input": "What peninsula is Spain part of ?",
+        "output": "location:other"
+    },
+    {
+        "input": "What is the life expectancy for crickets ?",
+        "output": "numeric:other"
+    },
+    {
+        "input": "What is acupuncture ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What American composer wrote the music for `` West Side Story'' ?",
+        "output": "human:individual"
+    },
+    {
+        "input": "What is a fuel cell ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "Which comedian's signature line is `` Can we talk'' ?",
+        "output": "human:individual"
+    },
+    {
+        "input": "What strait separates North America from Asia ?",
+        "output": "location:other"
+    },
+    {
+        "input": "What is an ulcer ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What is the murder rate in Windsor, Ontario ?",
+        "output": "numeric:percentage"
+    },
+    {
+        "input": "Who was the first governor of Alaska ?",
+        "output": "human:individual"
+    },
+    {
+        "input": "The U.S. Department of Treasury first issued paper currency for the U.S. during which war ?",
+        "output": "entity:event"
+    },
+    {
+        "input": "What is a baby turkey called ?",
+        "output": "entity:animal"
+    },
+    {
+        "input": "What is the average speed of the horses at the Kentucky Derby ?",
+        "output": "numeric:speed"
+    },
+    {
+        "input": "What kind of dog was Toto in the Wizard of Oz ?",
+        "output": "entity:animal"
+    },
+    {
+        "input": "What is peyote ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What is the largest city in the U.S. ?",
+        "output": "location:city"
+    },
+    {
+        "input": "What are xerophytes ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What is the brightest star ?",
+        "output": "location:other"
+    },
+    {
+        "input": "Which mountain range in North America stretches from Maine to Georgia ?",
+        "output": "location:mountain"
+    },
+    {
+        "input": "What currency does Luxembourg use ?",
+        "output": "entity:currency"
+    },
+    {
+        "input": "What instrument did Glenn Miller play ?",
+        "output": "entity:instrument"
+    },
+    {
+        "input": "What was FDR's dog's name ?",
+        "output": "entity:animal"
+    },
+    {
+        "input": "What is the conversion rate between dollars and pounds ?",
+        "output": "numeric:money"
+    },
+    {
+        "input": "When was Abraham Lincoln born ?",
+        "output": "numeric:date"
+    },
+    {
+        "input": "How cold should a refrigerator be ?",
+        "output": "numeric:temperature"
+    },
+    {
+        "input": "What does cc in engines mean ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "Where was the first golf course in the United States ?",
+        "output": "location:other"
+    },
+    {
+        "input": "What is vertigo ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What is the state flower of Michigan ?",
+        "output": "entity:plant"
+    },
+    {
+        "input": "What is neuropathy ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What is semolina ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What is severance pay ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "Why does the moon turn orange ?",
+        "output": "description:reason"
+    },
+    {
+        "input": "When was the Boston tea party ?",
+        "output": "numeric:date"
+    },
+    {
+        "input": "What continent is Argentina on ?",
+        "output": "location:other"
+    },
+    {
+        "input": "What gasses are in the troposphere ?",
+        "output": "entity:substance"
+    },
+    {
+        "input": "Where is the Shawnee National Forest ?",
+        "output": "location:other"
+    },
+    {
+        "input": "Where is the Orinoco River ?",
+        "output": "location:other"
+    },
+    {
+        "input": "Where is Milan ?",
+        "output": "location:city"
+    },
+    {
+        "input": "What did Edward Binney and Howard Smith invent in 1903 ?",
+        "output": "entity:other"
+    },
+    {
+        "input": "During which season do most thunderstorms occur ?",
+        "output": "numeric:date"
+    },
+    {
+        "input": "What does a defibrillator do ?",
+        "output": "description:description"
+    },
+    {
+        "input": "Where is the tallest roller coaster located ?",
+        "output": "location:other"
+    },
+    {
+        "input": "What breed of hunting dog did the Beverly Hillbillies own ?",
+        "output": "entity:animal"
+    },
+    {
+        "input": "What is the deepest lake in the US ?",
+        "output": "location:other"
+    },
+    {
+        "input": "What is viscosity ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "When was Algeria colonized ?",
+        "output": "numeric:date"
+    },
+    {
+        "input": "What is the scientific name for elephant ?",
+        "output": "entity:animal"
+    },
+    {
+        "input": "When was Ulysses S. Grant born ?",
+        "output": "numeric:date"
+    },
+    {
+        "input": "What is the street address of the White House ?",
+        "output": "location:other"
+    },
+    {
+        "input": "What is Australia's national flower ?",
+        "output": "entity:plant"
+    },
+    {
+        "input": "What hemisphere is the Philippines in ?",
+        "output": "location:other"
+    },
+    {
+        "input": "Where is the volcano Mauna Loa ?",
+        "output": "location:other"
+    },
+    {
+        "input": "What are the spots on dominoes called ?",
+        "output": "entity:equivalent term"
+    },
+    {
+        "input": "What is pectin ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What does Phi Beta Kappa mean ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "Where is the Lourve ?",
+        "output": "location:other"
+    },
+    {
+        "input": "What is caffeine ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What is ozone depletion ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "Who was elected president of South Africa in 1994 ?",
+        "output": "human:individual"
+    },
+    {
+        "input": "What is the proper name for a female walrus ?",
+        "output": "entity:animal"
+    },
+    {
+        "input": "What is the diameter of a golf ball ?",
+        "output": "numeric:distance"
+    },
+    {
+        "input": "What are the colors of the German flag ?",
+        "output": "entity:color"
+    },
+    {
+        "input": "Where is Prince Edward Island ?",
+        "output": "location:other"
+    },
+    {
+        "input": "What does CPR stand for ?",
+        "output": "abbreviation:expression"
+    },
+    {
+        "input": "For how long is an elephant pregnant ?",
+        "output": "numeric:period"
+    },
+    {
+        "input": "Where are the Rocky Mountains ?",
+        "output": "location:mountain"
+    },
+    {
+        "input": "What is pneumonia ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What year did Mussolini seize power in Italy ?",
+        "output": "numeric:date"
+    },
+    {
+        "input": "What is the melting point of gold ?",
+        "output": "numeric:other"
+    },
+    {
+        "input": "What is sonar ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What year did the Titanic sink ?",
+        "output": "numeric:date"
+    },
+    {
+        "input": "What date was Dwight D. Eisenhower born ?",
+        "output": "numeric:date"
+    },
+    {
+        "input": "What year did the United States abolish the draft ?",
+        "output": "numeric:date"
+    },
+    {
+        "input": "What is the melting point of copper ?",
+        "output": "numeric:other"
+    },
+    {
+        "input": "When was the first liver transplant ?",
+        "output": "numeric:date"
+    },
+    {
+        "input": "What are capers ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "Who was the first US President to ride in an automobile to his inauguration ?",
+        "output": "human:individual"
+    },
+    {
+        "input": "How fast is alcohol absorbed ?",
+        "output": "numeric:speed"
+    },
+    {
+        "input": "When was Thomas Jefferson born ?",
+        "output": "numeric:date"
+    },
+    {
+        "input": "Who was the first Prime Minister of Canada ?",
+        "output": "human:individual"
+    },
+    {
+        "input": "What is the statue of liberty made of ?",
+        "output": "entity:substance"
+    },
+    {
+        "input": "Who invented the slinky ?",
+        "output": "human:individual"
+    },
+    {
+        "input": "Which U.S.A. president appeared on `` Laugh-In'' ?",
+        "output": "human:individual"
+    },
+    {
+        "input": "What is the longest major league baseball-winning streak ?",
+        "output": "entity:other"
+    },
+    {
+        "input": "What is pulmonary fibrosis ?",
+        "output": "description:definition"
+    },
+    {
+        "input": "What is the capital of Yugoslavia ?",
+        "output": "location:city"
+    },
+    {
+        "input": "What is naproxen ?",
+        "output": "description:definition"
+    }
+]

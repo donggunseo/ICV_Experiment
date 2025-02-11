@@ -1,0 +1,402 @@
+[
+    {
+        "input": "Can I have my card delivered on a specific day?",
+        "output": "card_delivery_estimate"
+    },
+    {
+        "input": "Will salary be received through this?",
+        "output": "receiving_money"
+    },
+    {
+        "input": "What are the rules for transferring to a beneficiary?",
+        "output": "beneficiary_not_allowed"
+    },
+    {
+        "input": "Hello I made a bank transfer couple hours ago from my UK account but it doesn't show up yet. Can you please check if everything is alright with it?",
+        "output": "balance_not_updated_after_bank_transfer"
+    },
+    {
+        "input": "I am not satisfied with your company and would like to delete my accounts!",
+        "output": "terminate_account"
+    },
+    {
+        "input": "I want to close my account",
+        "output": "terminate_account"
+    },
+    {
+        "input": "I'm not quite understanding why my cash withdrawal is showing as pending.",
+        "output": "pending_cash_withdrawal"
+    },
+    {
+        "input": "When topping up by transfer, will I be charged?",
+        "output": "top_up_by_bank_transfer_charge"
+    },
+    {
+        "input": "I am still waiting for my card after 1 week.  Is this ok?",
+        "output": "card_arrival"
+    },
+    {
+        "input": "I took out cash abroad and the exchange rate isn't correct.",
+        "output": "wrong_exchange_rate_for_cash_withdrawal"
+    },
+    {
+        "input": "What countries are you currently in?",
+        "output": "country_support"
+    },
+    {
+        "input": "When will my funds transfer?",
+        "output": "transfer_not_received_by_recipient"
+    },
+    {
+        "input": "What do I have to do to get a Visa credit card?",
+        "output": "visa_or_mastercard"
+    },
+    {
+        "input": "I thought cash withdrawals didn't have a fee",
+        "output": "cash_withdrawal_charge"
+    },
+    {
+        "input": "My funding to my card didn't go through.",
+        "output": "top_up_failed"
+    },
+    {
+        "input": "Any hidden fees associated with the international card if money is added?",
+        "output": "top_up_by_card_charge"
+    },
+    {
+        "input": "I believe someone is using my card without my agreement!",
+        "output": "compromised_card"
+    },
+    {
+        "input": "Can I top up using an international card",
+        "output": "top_up_by_card_charge"
+    },
+    {
+        "input": "I made a transfer and am still waiting.",
+        "output": "balance_not_updated_after_bank_transfer"
+    },
+    {
+        "input": "How do I change my address?",
+        "output": "edit_personal_details"
+    },
+    {
+        "input": "I made a deposit this morning but it is still pending?",
+        "output": "balance_not_updated_after_cheque_or_cash_deposit"
+    },
+    {
+        "input": "can i do a transfer with swift",
+        "output": "top_up_by_bank_transfer_charge"
+    },
+    {
+        "input": "What countries do you support?",
+        "output": "country_support"
+    },
+    {
+        "input": "How to change my address.",
+        "output": "edit_personal_details"
+    },
+    {
+        "input": "There was an extra charge when I made a transfer.",
+        "output": "transfer_fee_charged"
+    },
+    {
+        "input": "How come I was charged extra when I withdrew cash?",
+        "output": "cash_withdrawal_charge"
+    },
+    {
+        "input": "Are there any ATM machines near me?",
+        "output": "atm_support"
+    },
+    {
+        "input": "How long does it take for transfers to finish?  I sent funds to my pal, and she says that she has not gotten anything.",
+        "output": "transfer_not_received_by_recipient"
+    },
+    {
+        "input": "What can I use my card to pay for?",
+        "output": "card_acceptance"
+    },
+    {
+        "input": "Why did I get a fee?",
+        "output": "cash_withdrawal_charge"
+    },
+    {
+        "input": "Where is the transaction I made to a friend?",
+        "output": "transfer_not_received_by_recipient"
+    },
+    {
+        "input": "May I have another card?",
+        "output": "getting_spare_card"
+    },
+    {
+        "input": "How can I fix a problem where my virtual card is rejected?",
+        "output": "virtual_card_not_working"
+    },
+    {
+        "input": "I have a top up that didn't go through.  Why?",
+        "output": "top_up_failed"
+    },
+    {
+        "input": "I would like to know how I can verify my Identity.",
+        "output": "verify_my_identity"
+    },
+    {
+        "input": "how do i change name?",
+        "output": "edit_personal_details"
+    },
+    {
+        "input": "My card is still pending, I've been waiting a while.",
+        "output": "pending_card_payment"
+    },
+    {
+        "input": "I need to know the time frame that is typical for a transfer from a UK account. I just made a transfer and it doesn't appear. I want to make sure everything is okay.",
+        "output": "balance_not_updated_after_bank_transfer"
+    },
+    {
+        "input": "locations to withdraw money",
+        "output": "atm_support"
+    },
+    {
+        "input": "I cant find my card, it's gone.",
+        "output": "lost_or_stolen_card"
+    },
+    {
+        "input": "Why is my payment pending?",
+        "output": "pending_card_payment"
+    },
+    {
+        "input": "Why was my card payment cancelled?",
+        "output": "reverted_card_payment?"
+    },
+    {
+        "input": "i tried to make a transfer to a beneficiary and it didn't go through",
+        "output": "beneficiary_not_allowed"
+    },
+    {
+        "input": "Please tell me which cash machines will allow me to change my pin.",
+        "output": "change_pin"
+    },
+    {
+        "input": "Something went wrong, I was charged an extra pound?",
+        "output": "extra_charge_on_statement"
+    },
+    {
+        "input": "How can i check if my card is working?",
+        "output": "card_not_working"
+    },
+    {
+        "input": "Hello, I found the card I misplaced and I need to reactive it, how do I do that?",
+        "output": "card_linking"
+    },
+    {
+        "input": "What options do I have for holding currencies?",
+        "output": "fiat_currency_support"
+    },
+    {
+        "input": "I couldn't get cash at the atm",
+        "output": "declined_cash_withdrawal"
+    },
+    {
+        "input": "Is PIN delivered separately?",
+        "output": "get_physical_card"
+    },
+    {
+        "input": "I won't verify my identity.",
+        "output": "why_verify_identity"
+    },
+    {
+        "input": "When can I expect my card to be delivered to the US?",
+        "output": "card_delivery_estimate"
+    },
+    {
+        "input": "Can I use your app if I am from the EU?",
+        "output": "country_support"
+    },
+    {
+        "input": "I don't like that I have to fill out so much information about my identity.",
+        "output": "why_verify_identity"
+    },
+    {
+        "input": "How old do you have to be to get an account?",
+        "output": "age_limit"
+    },
+    {
+        "input": "I made a deposit of cash and check that has not been added to my balance.",
+        "output": "balance_not_updated_after_cheque_or_cash_deposit"
+    },
+    {
+        "input": "I want to know why I have been unable to withdrawn funds.",
+        "output": "declined_cash_withdrawal"
+    },
+    {
+        "input": "Help me find my card pin!",
+        "output": "get_physical_card"
+    },
+    {
+        "input": "How do I obtain a disposable virtual card?",
+        "output": "get_disposable_virtual_card"
+    },
+    {
+        "input": "I see what looks like duplicate charges on account.",
+        "output": "transaction_charged_twice"
+    },
+    {
+        "input": "I attempted to get cash but was declined.",
+        "output": "declined_cash_withdrawal"
+    },
+    {
+        "input": "I would like a refund on the extra pound I was charged.",
+        "output": "extra_charge_on_statement"
+    },
+    {
+        "input": "What should I do if I lost my card?",
+        "output": "lost_or_stolen_card"
+    },
+    {
+        "input": "cash from this morning has not deposited",
+        "output": "balance_not_updated_after_cheque_or_cash_deposit"
+    },
+    {
+        "input": "I just completed a bank transfer and the balance didn't update",
+        "output": "balance_not_updated_after_bank_transfer"
+    },
+    {
+        "input": "I didn't get cash from an ATM, but according to the app a transaction was made when i didn't make it.",
+        "output": "cash_withdrawal_not_recognised"
+    },
+    {
+        "input": "I'm out of money, can I add money with my bank?",
+        "output": "transfer_into_account"
+    },
+    {
+        "input": "Is there a fee for exchanging cash?",
+        "output": "wrong_exchange_rate_for_cash_withdrawal"
+    },
+    {
+        "input": "Is it possible to tell if my top up has reverted?",
+        "output": "top_up_reverted"
+    },
+    {
+        "input": "What is the extra  \u20ac1 fee in my statement",
+        "output": "extra_charge_on_statement"
+    },
+    {
+        "input": "Can I resent my passcode?",
+        "output": "passcode_forgotten"
+    },
+    {
+        "input": "Which country's currency do you support?",
+        "output": "fiat_currency_support"
+    },
+    {
+        "input": "Is there an amount limit to my top-up?",
+        "output": "top_up_limits"
+    },
+    {
+        "input": "I have a duplicate payment showing up on the app. How do I stop myself being charged for the thing twice?",
+        "output": "transaction_charged_twice"
+    },
+    {
+        "input": "I followed the instructions to transfer money using my card, but then the money disappeared and I don't know what happened.",
+        "output": "topping_up_by_card"
+    },
+    {
+        "input": "How can I fix my card, it got declined twice.",
+        "output": "declined_transfer"
+    },
+    {
+        "input": "There is an error, the app says I made an ATM withdrawal and I didn't.",
+        "output": "cash_withdrawal_not_recognised"
+    },
+    {
+        "input": "What are the charges for receiving money?",
+        "output": "top_up_by_bank_transfer_charge"
+    },
+    {
+        "input": "The exchange rate for my transaction last Saturday seems to have been wrong I got charged extra.  Please fix.",
+        "output": "card_payment_wrong_exchange_rate"
+    },
+    {
+        "input": "Can I still use my account, even though the identity verification has not passed yet?",
+        "output": "why_verify_identity"
+    },
+    {
+        "input": "What is the best way to exchange currency?",
+        "output": "exchange_via_app"
+    },
+    {
+        "input": "I broke my card",
+        "output": "card_not_working"
+    },
+    {
+        "input": "Can I make multiple online transactions with my virtual card?",
+        "output": "virtual_card_not_working"
+    },
+    {
+        "input": "There is a suspicious direct debit payment.",
+        "output": "direct_debit_payment_not_recognised"
+    },
+    {
+        "input": "How do I reset my PIN?",
+        "output": "pin_blocked"
+    },
+    {
+        "input": "I need AUD not GBP, how do I change it?",
+        "output": "exchange_via_app"
+    },
+    {
+        "input": "Will I get a real card?",
+        "output": "order_physical_card"
+    },
+    {
+        "input": "So what items  actually come  with  extra  fees",
+        "output": "card_payment_fee_charged"
+    },
+    {
+        "input": "Why did I not get my cash back after I withdrew?",
+        "output": "wrong_amount_of_cash_received"
+    },
+    {
+        "input": "the balance on my account didnt change when i transferred money",
+        "output": "balance_not_updated_after_bank_transfer"
+    },
+    {
+        "input": "Where do you support?",
+        "output": "country_support"
+    },
+    {
+        "input": "Can I exchange money from abroad without additional costs?",
+        "output": "exchange_charge"
+    },
+    {
+        "input": "Is it possible to get a transfer from SWIFT?",
+        "output": "top_up_by_bank_transfer_charge"
+    },
+    {
+        "input": "Can I transfer money to my credit card?",
+        "output": "topping_up_by_card"
+    },
+    {
+        "input": "I'm pretty sure something went wrong with my exchange. I changed Russian Ruble to UK pounds and was charged way too much!",
+        "output": "card_payment_wrong_exchange_rate"
+    },
+    {
+        "input": "I don't understand how to top up my account, can you please explain the process?",
+        "output": "transfer_into_account"
+    },
+    {
+        "input": "Hi I'm a new customer and tried topping up for the first time today, seems it's not working, the thing shows up as pending since half an hour already! Please fix it!",
+        "output": "pending_top_up"
+    },
+    {
+        "input": "Is there a limit to top-ups?",
+        "output": "top_up_limits"
+    },
+    {
+        "input": "I want my account deleted!",
+        "output": "terminate_account"
+    },
+    {
+        "input": "Is there a limit to how high I can top-up?",
+        "output": "top_up_limits"
+    }
+]

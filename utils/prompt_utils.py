@@ -1,9 +1,9 @@
 from utils.data_utils import *
 import random
 
-def create_prompt(demonstrations, test_query, prefixes, separators):
+def create_prompt(demonstrations, test_query, prefixes, separators, insert_inst = False):
     prompt = ""
-    if prefixes['instructions']!="":
+    if prefixes['instructions']!="" and insert_inst:
         prompt += prefixes['instructions'] + separators['instructions']
 
     for example in demonstrations:
