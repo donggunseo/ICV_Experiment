@@ -63,47 +63,22 @@ def get_diff_mean_hidden_states(train_dataset, model, model_config, tokenizer, n
     mean_hidden_states = activation_storage.mean(dim=0)
     return mean_hidden_states
 
-def get_attn_diff_hidden_states(train_dataset, model, model_config, tokenizer, n_icl_examples, N_TRIALS, prefixes=None, separators=None):
-    dummy_dataset = random.sample(train_dataset, N_TRIALS)
-    train_dataset_filtered = [item for item in train_dataset if item not in dummy_dataset]
-    device = model.device
-    activation_storage = torch.zeros(N_TRIALS, model_config['n_layers'], model_config['resid_dim'])
-    ratio_storage = torch.zeros(N_TRIALS, model_config['n_layers'])
-    for n in tqdm(range(N_TRIALS)):
-        demonstrations = random.sample(train_dataset_filtered, n_icl_examples)
+ACTIVATION_STOR = []
 
-        dummy_query = dummy_dataset[n]['input']
-        prompt = create_prompt(demonstrations, dummy_query, prefixes, separators)
-        
-        inputs = tokenizer(prompt, return_tensors='pt').to(device)
+def diff_act(edit_layer, act, device, idx=-1):
+    def add_act(output, layer_name):
+        current_layer = int(layer_name.split(".")[2])
+        if current_layer in edit_layer:
+            if isinstance(output, tuple):
+                ACTIVATION_STOR.append(act[current_layer]-output[0][:, idx].detach().cpu())
+                output[0][:, idx] = act[current_layer].to(device)
+                return output
+            else:
+                return output
+        else:
+            return output
+    return add_act
 
-        output_dict = model(**inputs, output_attentions = True, output_hidden_states = True, return_dict = True)
-
-        fs_hs_by_layer = torch.vstack([output_dict.hidden_states[layer+1].detach().cpu()[:,-1,:] for layer in range(model_config['n_layers'])])
-
-        attn_by_layer = torch.vstack([output_dict.attentions[layer].detach().cpu()[:,:,-1,:] for layer in range(model_config['n_layers'])])
-        attn_by_layer = attn_by_layer.mean(dim=1) ## average by head
-
-        del output_dict
-
-        zs_prompt = create_prompt([],dummy_query,prefixes,separators)
-        zs_inputs = tokenizer(zs_prompt, return_tensors='pt').to(device)
-        zs_output_dict = model(**inputs, output_hidden_states = True, return_dict = True)
-
-        zs_hs_by_layer = torch.vstack([zs_output_dict.hidden_states[layer+1].detach().cpu()[:,-1,:] for layer in range(model_config['n_layers'])])
-
-        del zs_output_dict
-
-        zs_length = zs_inputs.input_ids.detach().shape[1]-1
-        zs_attn_ratio = attn_by_layer[:,-zs_length:].sum(dim=-1)
-
-        icv = (fs_hs_by_layer - (zs_attn_ratio.unsqueeze(-1) * zs_hs_by_layer))/((torch.ones(zs_attn_ratio.shape[0])-zs_attn_ratio).unsqueeze(-1))
-        activation_storage[n] = icv
-        ratio_storage[n] = zs_attn_ratio
-    mean_hidden_states = activation_storage.mean(dim=0)
-    mean_ratio = ratio_storage.mean(dim=0)
-    return mean_hidden_states, mean_ratio
-         
 def get_diff_stacked_hidden_states(train_dataset, model, model_config, tokenizer, n_icl_examples, N_TRIALS, prefixes=None, separators=None):
     dummy_dataset = random.sample(train_dataset, N_TRIALS)
     train_dataset_filtered = [item for item in train_dataset if item not in dummy_dataset]
@@ -121,8 +96,12 @@ def get_diff_stacked_hidden_states(train_dataset, model, model_config, tokenizer
         fs_hs_by_layer = torch.vstack([fs_hs[layer+1].detach().cpu()[:,-1,:] for layer in range(model_config['n_layers'])])
         del fs_hs
 
-        act = add_activation_by_layer(zs_inputs, model, model_config, fs_hs_by_layer)
-        activation_storage[n] = act
+        last_idx = zs_inputs.input_ids.shape[1]
+        intervention_fn = diff_act(list(range(model_config['n_layers'])), fs_hs_by_layer, device, idx=last_idx-1)
+        with TraceDict(model, layers = model_config['layer_hook_names'], edit_output=intervention_fn):
+            model(**zs_inputs)
+        activation_storage[n]= torch.vstack(ACTIVATION_STOR)
+        ACTIVATION_STOR.clear()
     mean_hidden_states = activation_storage.mean(dim=0)
     return mean_hidden_states
 
@@ -161,52 +140,10 @@ def get_diff_stacked_hidden_states_filtered(train_dataset, model, model_config, 
     return mean_hidden_states
 
 
-def add_activation_by_layer(inputs, model, model_config, fs_hs_by_layer):
-    activation_storage = torch.zeros(model_config['n_layers'], model_config['resid_dim'])
-    embedding_layer = model.model.embed_tokens
-    decode_layers = model.model.layers
-    rotary_emb = model.model.rotary_emb
-    norm = model.model.norm
-    device = model.device
-    inputs_embeds = embedding_layer(inputs.input_ids)
-    past_key_values = DynamicCache()
-    past_seen_tokens = past_key_values.get_seq_length() if past_key_values is not None else 0
-    cache_position = torch.arange(
-        past_seen_tokens, past_seen_tokens + inputs_embeds.shape[1], device=inputs_embeds.device
-    )
-    position_ids = cache_position.unsqueeze(0)
-
-    causal_mask = model.model._update_causal_mask(
-            attention_mask=None, input_tensor=inputs_embeds, cache_position=cache_position, past_key_values=past_key_values, output_attentions=False
-        )
-    hidden_states = inputs_embeds
-    position_embeddings = rotary_emb(hidden_states, position_ids)
-    l_idx = 0
-    for l in decode_layers:
-        layer_outputs = l(
-            hidden_states,
-            attention_mask = causal_mask,
-            position_ids = position_ids,
-            past_key_values = past_key_values,
-            output_attentions=False,
-            use_cache=True,
-            cache_position = cache_position,
-            position_embeddings = position_embeddings,
-        )
-        hidden_states = layer_outputs[0]
-        zs_hs = hidden_states[:,-1,:].squeeze().detach().cpu()
-        icv_by_layer = fs_hs_by_layer[l_idx]-zs_hs
-        activation_storage[l_idx] = icv_by_layer
-        hidden_states[:,-1,:]+= icv_by_layer.unsqueeze(0).to(device)
-        l_idx+=1
-        del layer_outputs
-
-    return activation_storage
 
         
 
 
-        
 
 
 

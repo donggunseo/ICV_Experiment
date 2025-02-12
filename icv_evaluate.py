@@ -395,7 +395,8 @@ if __name__ == "__main__":
 
 
     print("Diff-ICV Stacked")
-    icv = get_diff_stacked_hidden_states(train_dataset=train_dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots, N_TRIALS=len(test_dataset), prefixes=prefixes, separators=separators)
+    # icv = get_diff_stacked_hidden_states(train_dataset=train_dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots, N_TRIALS=len(test_dataset), prefixes=prefixes, separators=separators)
+    icv = torch.load('./results/banking77/100shots/42/stacked_diff_icv_100shots.pt')
     edit_layer = list(range(model_config['n_layers']))
     stacked_diff_icv_res, stacked_diff_icv_score = icl_with_intervention(test_dataset=test_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer)
     print(f"Diff-ICV Stacked result : {stacked_diff_icv_score}")
