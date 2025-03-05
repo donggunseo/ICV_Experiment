@@ -4,6 +4,7 @@ import os
 import re
 import json
 import random
+from tqdm import tqdm
 
 def general_detokenize(string):
     string = string.replace(" n't", "n't")
@@ -11,6 +12,8 @@ def general_detokenize(string):
     string = string.replace("( ", "(")
     string = string.replace('" ', '"')
     string = string.replace(' "', '"')
+    string = string.replace("\n\n", "")
+    string = string.replace("\n", "")
     string = re.sub(r" (['.,])", r"\1", string)
     return string
 
@@ -21,7 +24,7 @@ def preprocess_data(dataset, id2label=None):
         label = dataset['label']
         label = [id2label[l] for l in label]
     else:
-        label = dataset['label_text']
+        label = dataset['label']
     return text, label
 
 def convert_to_dict(text,label):
@@ -30,6 +33,14 @@ def convert_to_dict(text,label):
         d.append({"input":t, "output":l})
     return d
     
+def preprocess_data_wmt19(dataset):
+    code_list = ['en', 'de']
+    item = list(dataset['translation'])
+    for c in tqdm(code_list):
+        text = [i[c] for i in item]
+        dataset = dataset.add_column(c, text)
+    dataset = dataset.remove_column('translation')
+    return dataset['en'], dataset['de']
 
 
 if __name__ == "__main__":
@@ -288,14 +299,30 @@ if __name__ == "__main__":
             149: "meta:reset_settings",
             150: "meta:maybe"
         }
-    
+    elif dataset_name == "xlsum":
+        raw_data = load_dataset('GEM/xlsum', 'english', trust_remote_code=True)
+        raw_data = raw_data.rename_column('target', 'label')
+        id2label=None
+    elif dataset_name == "wmt19":
+        raw_data = load_dataset('wmt/wmt19', 'de-en', trust_remote_code=True)
+        print(f"Original dataset statistics\ntrain:{len(raw_data['train'])}\nvalidation:{len(raw_data['validation'])}")
+        raw_data['test'] = raw_data['validation']
+        raw_data['validation'] = raw_data['train'][0:100]
+        raw_data['train'] = raw_data['train'][100:]
+
+
     train = raw_data['train']
     val = raw_data['validation']
     test = raw_data['test']
 
-    train_text, train_label = preprocess_data(train, id2label)
-    val_text, val_label = preprocess_data(val, id2label)
-    test_text, test_label = preprocess_data(test, id2label)
+    if dataset_name == "wmt19":
+        train_text, train_label = preprocess_data_wmt19(train)
+        val_text, val_label = preprocess_data_wmt19(val)
+        test_text, test_label = preprocess_data_wmt19(test)
+    else:
+        train_text, train_label = preprocess_data(train, id2label)
+        val_text, val_label = preprocess_data(val, id2label)
+        test_text, test_label = preprocess_data(test, id2label)
     
     train_dataset = convert_to_dict(train_text, train_label)
     val_dataset = convert_to_dict(val_text, val_label)

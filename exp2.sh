@@ -1,3 +1,3 @@
-CUDA_VISIBLE_DEVICES=0 python3 icv_evaluate.py --dataset_name clinc150 --seed 42 --n_shots 100
-CUDA_VISIBLE_DEVICES=0 python3 icv_evaluate.py --dataset_name clinc150 --seed 41 --n_shots 100
-CUDA_VISIBLE_DEVICES=0 python3 icv_evaluate.py --dataset_name clinc150 --seed 40 --n_shots 100
+CUDA_VISIBLE_DEVICES=1 python3 icv_evaluate.py --dataset_name xlsum --seed 42 --save_path_root ./results_bf16 --n_shots 50
+CUDA_VISIBLE_DEVICES=1 python3 icv_evaluate.py --dataset_name xlsum --seed 41 --save_path_root ./results_bf16 --n_shots 50
+CUDA_VISIBLE_DEVICES=1 python3 icv_evaluate.py --dataset_name xlsum --seed 40 --save_path_root ./results_bf16 --n_shots 50

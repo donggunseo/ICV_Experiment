@@ -291,11 +291,19 @@ Please analyze the question and return the most suitable coarse category from th
 149.meta:reset_settings
 150.meta:maybe
 Please analyze the query and return the most suitable category from the list above. If the query does not fit perfectly into one category, select the category that best matches the main topic of the query. Only return intent category text and don't return any other words or numbers.""",
+    'xlsum' : """Your objective is to generate a concise and coherent summary of a given news article. The summary should accurately capture the main points and key information presented in the article while maintaining fluency and readability.
+Guidelines:
+1. Conciseness: The summary should be significantly shorter than the original text, retaining only essential details.
+2. Factual Accuracy: Ensure that the summary correctly represents the information from the article without adding, altering, or omitting critical facts.
+3. Coherence and Readability: The summary should be well-structured, grammatically correct, and easy to understand.
+4. Neutral and Objective Tone: Avoid personal opinions, biases, or subjective interpretations. Stick to the facts presented in the article.
+5. Language Matching: Maintain the same language as the original article when generating the summary."""
 }
 PREFIX_DICT={
     "banking77" : {"input": "Query:", "output" : "Intent:", "instructions" : INS_DICT["banking77"]},
     "trec" : {"input": "Question:", "output" : "Type:", "instructions" : INS_DICT["trec"]},
     "clinc150": {"input": "Query:", "output" : "Intent:", "instructions" : INS_DICT["clinc150"]},
+    "xlsum": {"input": "Article:", "output" : "TL;DR:", "instructions" : INS_DICT["xlsum"]},
 }
 
 if __name__ == "__main__":
@@ -304,7 +312,7 @@ if __name__ == "__main__":
 
     parser.add_argument('--dataset_name', help='Name of the dataset to be loaded', type=str, required=True)
     parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default="meta-llama/Meta-Llama-3.1-8B-Instruct")
-    parser.add_argument('--save_path_root', help='File path to save to', type=str, required=False, default='./results')
+    parser.add_argument('--save_path_root', help='File path to save to', type=str, required=False, default='./results_fp16')
     parser.add_argument('--seed', help='Randomized seed', type=int, required=False, default=42)
     parser.add_argument('--device', help='Device to run on',type=str, required=False, default='cuda' if torch.cuda.is_available() else 'cpu')
     parser.add_argument('--n_shots', help="Number of shots in each in-context prompt", type=int, required=False, default=100)
@@ -320,14 +328,22 @@ if __name__ == "__main__":
     prefixes = PREFIX_DICT[dataset_name]
     separators = {"input":"\n", "output":"\n\n", "instructions":"\n"}
 
+    if dataset_name in ["xlsum","wmt19"]:
+        generate_str=True
+    else:
+        generate_str=False
+
+    generate_str=False
+
+
 
     print(args)
     set_seed(seed)
     # Load Model & Tokenizer
-    torch.set_grad_enabled(False)
     print("Loading Model")
     model, tokenizer, model_config = load_model_and_tokenizer(model_name, device=device)
     model.eval()
+    torch.set_grad_enabled(False)
 
     if not os.path.exists(save_path_root):
         os.makedirs(save_path_root, exist_ok=True)
@@ -336,73 +352,74 @@ if __name__ == "__main__":
     train_dataset, val_dataset, test_dataset = load_dataset(dataset_name)
 
 
-    # print("load KV-cache of Instruction prompt")
-    # kv_cache = instruction_kv_caching(model, tokenizer, prefixes, separators)
 
-    # print(f"Vanilla {n_shots}ICL")
-    # fs_result, fs_score= icl_without_intervention(train_dataset=train_dataset, test_dataset=test_dataset, n_shots=n_shots, model=model, tokenizer=tokenizer, prefixes=prefixes, separators=separators)
-    # print(f"Vanilla ICL result: {fs_score}")
-    # fs_result = {'score': fs_score, 'result':fs_result}
-    # with open(save_path_root+"fs_result.json", 'w') as f:
-    #     json.dump(fs_result, f)
+    print(f"Vanilla {n_shots}ICL")
+    fs_result, fs_score= icl_without_intervention(train_dataset=train_dataset, test_dataset=test_dataset, n_shots=n_shots, model=model, tokenizer=tokenizer, prefixes=prefixes, separators=separators, generate_str=generate_str)
+    print(f"Vanilla ICL result: {fs_score}")
+    fs_result = {'score': fs_score, 'result':fs_result}
+    with open(save_path_root+"fs_result.json", 'w') as f:
+        json.dump(fs_result, f)
     
-    # print("Zero-shot")
-    # zs_result, zs_score= icl_without_intervention(train_dataset=train_dataset, test_dataset=test_dataset, n_shots=0, model=model, tokenizer=tokenizer, prefixes=prefixes, separators=separators)
-    # print(f"Zero-shot ICL result: {zs_score}")
-    # zs_result = {'score': zs_score, 'result':zs_result}
-    # with open(save_path_root+"zs_result.json", 'w') as f:
-    #     json.dump(zs_result, f)
+    print("Zero-shot")
+    zs_result, zs_score= icl_without_intervention(train_dataset=train_dataset, test_dataset=test_dataset, n_shots=0, model=model, tokenizer=tokenizer, prefixes=prefixes, separators=separators, generate_str=generate_str)
+    print(f"Zero-shot ICL result: {zs_score}")
+    zs_result = {'score': zs_score, 'result':zs_result}
+    with open(save_path_root+"zs_result.json", 'w') as f:
+        json.dump(zs_result, f)
 
-    # EDIT_LAYER = [11,12,13,14,15,16,17,18]
+    # EDIT_LAYER = list(range(model_config['n_layers']))
     
-    # print("Baseline ICV")
-    # if os.path.exists(os.path.join(save_path_root, f"baseline_icv_{n_shots}shots.pt")):
-    #     icv = torch.load(os.path.join(save_path_root, f"baseline_icv_{n_shots}shots.pt"))
-    # else:
-    #     icv = get_mean_hidden_states(train_dataset=train_dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots, N_TRIALS=len(test_dataset), prefixes=prefixes, separators=separators)
-    #     torch.save(icv, os.path.join(save_path_root, f"baseline_icv_{n_shots}shots.pt"))
-    # val_f1_per_layer = {l:0 for l in EDIT_LAYER}
+    # print("Task-Vector")
+    # icv = get_mean_hidden_states(train_dataset=train_dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots, N_TRIALS=len(test_dataset), prefixes=prefixes, separators=separators)
+    # val_acc_per_layer = {l:0 for l in EDIT_LAYER}
     # for l in tqdm(EDIT_LAYER):
     #     edit_layer = [l]
-    #     _, baseline_icv_val_f1 = icl_with_intervention(test_dataset=val_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer)
-    #     val_f1_per_layer[l] = baseline_icv_val_f1
-    # edit_layer = [max(val_f1_per_layer, key=val_f1_per_layer.get)]
-    # baseline_icv_res, baseline_icv_f1 = icl_with_intervention(test_dataset=test_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer)
-    # print(f"Baseline-ICV result: {baseline_icv_f1} with edit layer {edit_layer[0]}")
-    # baseline_icv_val_f1_per_layer = val_f1_per_layer
-    # baseline_icv_res = {'score': baseline_icv_f1, 'result':baseline_icv_res, 'val_f1_per_layer': baseline_icv_val_f1_per_layer}
-    # with open(save_path_root+"baseline_icv_result.json", "w") as f:
-    #     json.dump(baseline_icv_res, f)
+    #     _, task_vector_val_acc = icl_with_intervention(test_dataset=val_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer, add=False)
+    #     val_acc_per_layer[l] = task_vector_val_acc
+    # edit_layer = [max(val_acc_per_layer, key=val_acc_per_layer.get)]
+    # task_vector_res, task_vector_acc = icl_with_intervention(test_dataset=test_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer, add=False)
+    # print(f"Task-Vector result: {task_vector_acc} with edit layer {edit_layer[0]}")
+    # task_vector_val_acc_per_layer = val_acc_per_layer
+    # task_vector_res = {'score': task_vector_acc, 'result':task_vector_res, 'val_f1_per_layer':task_vector_val_acc_per_layer}
+    # with open(save_path_root+"task_vector_result.json", "w") as f:
+    #     json.dump(task_vector_res, f)
     
     # print("Diff-ICV Baseline")
-    # if os.path.exists(os.path.join(save_path_root, f"baseline_diff_icv_{n_shots}shots.pt")):
-    #     icv = torch.load(os.path.join(save_path_root, f"baseline_diff_icv_{n_shots}shots.pt"))
-    # else:
-    #     icv = get_diff_mean_hidden_states(train_dataset=train_dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots, N_TRIALS=len(test_dataset), prefixes=prefixes, separators=separators)
-    #     torch.save(icv, os.path.join(save_path_root, f"baseline_diff_icv_{n_shots}shots.pt"))
-    # val_f1_per_layer = {l:0 for l in EDIT_LAYER}
+    # icv = get_diff_mean_hidden_states(train_dataset=train_dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots, N_TRIALS=len(test_dataset), prefixes=prefixes, separators=separators)
+    # val_acc_per_layer = {l:0 for l in EDIT_LAYER}
     # for l in tqdm(EDIT_LAYER):
     #     edit_layer = [l]
-    #     _, baseline_diff_icv_val_f1 = icl_with_intervention(test_dataset=val_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer)
-    #     val_f1_per_layer[l] = baseline_diff_icv_val_f1
-    # edit_layer = [max(val_f1_per_layer, key=val_f1_per_layer.get)]
-    # baseline_diff_icv_res, baseline_diff_icv_f1 = icl_with_intervention(test_dataset=test_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer)
-    # print(f"Diff-ICV Baseline result: {baseline_diff_icv_f1} with edit layer {edit_layer[0]}")
-    # baseline_diff_icv_val_f1_per_layer = val_f1_per_layer
-    # baseline_diff_icv_res = {'score': baseline_diff_icv_f1, 'result':baseline_diff_icv_res, 'val_f1_per_layer': baseline_diff_icv_val_f1_per_layer}
+    #     _, diff_icv_baseline_val_acc = icl_with_intervention(test_dataset=val_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer)
+    #     val_acc_per_layer[l] = diff_icv_baseline_val_acc
+    # edit_layer = [max(val_acc_per_layer, key=val_acc_per_layer.get)]
+    # diff_icv_baseline_res, diff_icv_baseline_acc = icl_with_intervention(test_dataset=test_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer)
+    # print(f"Diff-ICV Baseline result: {diff_icv_baseline_acc } with edit layer {edit_layer[0]}")
+    # diff_icv_baseline_val_acc_per_layer = val_acc_per_layer
+    # diff_icv_baseline_res = {'score': diff_icv_baseline_acc, 'result':diff_icv_baseline_res, 'val_f1_per_layer': diff_icv_baseline_val_acc_per_layer}
     # with open(save_path_root+"baseline_diff_icv_result.json", "w") as f:
-    #     json.dump(baseline_diff_icv_res, f)
+    #     json.dump(diff_icv_baseline_res, f)
 
 
     print("Diff-ICV Stacked")
-    # icv = get_diff_stacked_hidden_states(train_dataset=train_dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots, N_TRIALS=len(test_dataset), prefixes=prefixes, separators=separators)
-    icv = torch.load('./results/banking77/100shots/42/stacked_diff_icv_100shots.pt')
+    icv= get_diff_stacked_hidden_states(train_dataset=train_dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots, N_TRIALS=len(test_dataset), prefixes=prefixes, separators=separators)
+    torch.save(icv, save_path_root+'stacked_diff_icv.pt')
+    # icv = torch.load(save_path_root+'stacked_diff_icv.pt')
+    # icv, lens_agg= get_diff_stacked_hidden_states_iterate(train_dataset=train_dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots, N_TRIALS=len(test_dataset), prefixes=prefixes, separators=separators)
+    # torch.save(icv, save_path_root+'stacked_diff_icv_iterate.pt')
+    # with open(save_path_root+"stacked_diff_icv_lens.json", 'w') as f:
+    #     json.dump(lens_agg, f)
     edit_layer = list(range(model_config['n_layers']))
-    stacked_diff_icv_res, stacked_diff_icv_score = icl_with_intervention(test_dataset=test_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer)
+    # edit_layer = list(range(20))
+    stacked_diff_icv_res, stacked_diff_icv_score = icl_with_intervention(test_dataset=test_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer, generate_str=generate_str)
     print(f"Diff-ICV Stacked result : {stacked_diff_icv_score}")
     stacked_diff_icv_res = {'score': stacked_diff_icv_score, 'result': stacked_diff_icv_res}
     with open(save_path_root+"stacked_diff_icv_result.json", "w") as f:
         json.dump(stacked_diff_icv_res, f)
+
+    # icv= get_diff_stacked_hidden_states(train_dataset=train_dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots, N_TRIALS=len(test_dataset), prefixes=prefixes, separators=separators)
+    # stacked_diff_icv_test_lens = icl_with_intervention_lens(test_dataset=test_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators)
+    # with open(save_path_root+"stacked_diff_icv_test_lens.json", "w") as f:
+    #     json.dump(stacked_diff_icv_test_lens, f)
 
 
 
