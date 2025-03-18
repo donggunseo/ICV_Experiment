@@ -12,8 +12,6 @@ def general_detokenize(string):
     string = string.replace("( ", "(")
     string = string.replace('" ', '"')
     string = string.replace(' "', '"')
-    string = string.replace("\n\n", "")
-    string = string.replace("\n", "")
     string = re.sub(r" (['.,])", r"\1", string)
     return string
 
@@ -24,7 +22,7 @@ def preprocess_data(dataset, id2label=None):
         label = dataset['label']
         label = [id2label[l] for l in label]
     else:
-        label = dataset['label']
+        label = dataset['label_text']
     return text, label
 
 def convert_to_dict(text,label):
@@ -34,13 +32,28 @@ def convert_to_dict(text,label):
     return d
     
 def preprocess_data_wmt19(dataset):
-    code_list = ['en', 'de']
+    code_list = {'en':[], 'de':[]}
     item = list(dataset['translation'])
-    for c in tqdm(code_list):
+
+    for c in code_list:
         text = [i[c] for i in item]
-        dataset = dataset.add_column(c, text)
-    dataset = dataset.remove_column('translation')
-    return dataset['en'], dataset['de']
+        code_list[c].extend(text)
+    return code_list['en'], code_list['de']
+
+def preprocess_data_gsm8k(dataset):
+    text = dataset['question']
+    text = [general_detokenize(t).strip() for t in text]
+    answer = dataset['answer']
+    answer = [general_detokenize(t).strip() for t in answer]
+    return text, answer
+
+def preprocess_data_math(dataset):
+    text = dataset['problem']
+    text = [general_detokenize(t).strip() for t in text]
+    answer = dataset['solution']
+    answer = [general_detokenize(t).strip() for t in answer]
+    return text, answer
+
 
 
 if __name__ == "__main__":
@@ -303,14 +316,54 @@ if __name__ == "__main__":
         raw_data = load_dataset('GEM/xlsum', 'english', trust_remote_code=True)
         raw_data = raw_data.rename_column('target', 'label')
         id2label=None
-    elif dataset_name == "wmt19":
+    elif dataset_name == "wmt19": ## train 34782245 val 2998
         raw_data = load_dataset('wmt/wmt19', 'de-en', trust_remote_code=True)
         print(f"Original dataset statistics\ntrain:{len(raw_data['train'])}\nvalidation:{len(raw_data['validation'])}")
         raw_data['test'] = raw_data['validation']
+        raw_data['train'] = raw_data['train'].shuffle()
         raw_data['validation'] = raw_data['train'][0:100]
-        raw_data['train'] = raw_data['train'][100:]
-
-
+        raw_data['train'] = raw_data['train'][100:10100]
+    elif dataset_name == 'gsm8k': ##train 7473 test 1319
+        raw_data = load_dataset('openai/gsm8k', 'main')
+        d = raw_data['train'].train_test_split(test_size=500)
+        raw_data['validation'] = d['test']
+        raw_data['train'] = d['train']
+    elif dataset_name == 'math_algebra':
+        raw_data = load_dataset('EleutherAI/hendrycks_math', 'algebra')
+        d = raw_data['train'].train_test_split(test_size=100)
+        raw_data['validation'] = d['test']
+        raw_data['train'] = d['train']
+    elif dataset_name == 'math_counting_and_probability':
+        raw_data = load_dataset('EleutherAI/hendrycks_math', 'counting_and_probability')
+        d = raw_data['train'].train_test_split(test_size=100)
+        raw_data['validation'] = d['test']
+        raw_data['train'] = d['train']
+    elif dataset_name == 'math_geometry':
+        raw_data = load_dataset('EleutherAI/hendrycks_math', 'geometry')
+        d = raw_data['train'].train_test_split(test_size=100)
+        raw_data['validation'] = d['test']
+        raw_data['train'] = d['train']
+    elif dataset_name == 'math_intermediate_algebra':
+        raw_data = load_dataset('EleutherAI/hendrycks_math', 'intermediate_algebra')
+        d = raw_data['train'].train_test_split(test_size=100)
+        raw_data['validation'] = d['test']
+        raw_data['train'] = d['train']
+    elif dataset_name == 'math_number_theory':
+        raw_data = load_dataset('EleutherAI/hendrycks_math', 'number_theory')
+        d = raw_data['train'].train_test_split(test_size=100)
+        raw_data['validation'] = d['test']
+        raw_data['train'] = d['train']
+    elif dataset_name == 'math_prealgebra':
+        raw_data = load_dataset('EleutherAI/hendrycks_math', 'prealgebra')
+        d = raw_data['train'].train_test_split(test_size=100)
+        raw_data['validation'] = d['test']
+        raw_data['train'] = d['train']
+    elif dataset_name == 'math_precalculus':
+        raw_data = load_dataset('EleutherAI/hendrycks_math', 'precalculus')
+        d = raw_data['train'].train_test_split(test_size=100)
+        raw_data['validation'] = d['test']
+        raw_data['train'] = d['train']
+        
     train = raw_data['train']
     val = raw_data['validation']
     test = raw_data['test']
@@ -319,6 +372,14 @@ if __name__ == "__main__":
         train_text, train_label = preprocess_data_wmt19(train)
         val_text, val_label = preprocess_data_wmt19(val)
         test_text, test_label = preprocess_data_wmt19(test)
+    elif dataset_name == "gsm8k":
+        train_text, train_label = preprocess_data_gsm8k(train)
+        val_text, val_label = preprocess_data_gsm8k(val)
+        test_text, test_label = preprocess_data_gsm8k(test)
+    elif 'math' in dataset_name:
+        train_text, train_label = preprocess_data_math(train)
+        val_text, val_label = preprocess_data_math(val)
+        test_text, test_label = preprocess_data_math(test)
     else:
         train_text, train_label = preprocess_data(train, id2label)
         val_text, val_label = preprocess_data(val, id2label)

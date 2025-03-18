@@ -1,0 +1,90 @@
+[
+    {
+        "input": "CC",
+        "output": "DD"
+    },
+    {
+        "input": "two",
+        "output": "three"
+    },
+    {
+        "input": "16",
+        "output": "17"
+    },
+    {
+        "input": "20",
+        "output": "21"
+    },
+    {
+        "input": "uu",
+        "output": "vv"
+    },
+    {
+        "input": "march",
+        "output": "april"
+    },
+    {
+        "input": "EE",
+        "output": "FF"
+    },
+    {
+        "input": "ii",
+        "output": "jj"
+    },
+    {
+        "input": "4",
+        "output": "5"
+    },
+    {
+        "input": "24",
+        "output": "25"
+    },
+    {
+        "input": "R",
+        "output": "S"
+    },
+    {
+        "input": "1",
+        "output": "2"
+    },
+    {
+        "input": "ww",
+        "output": "xx"
+    },
+    {
+        "input": "i",
+        "output": "ii"
+    },
+    {
+        "input": "X",
+        "output": "Y"
+    },
+    {
+        "input": "g",
+        "output": "h"
+    },
+    {
+        "input": "November",
+        "output": "December"
+    },
+    {
+        "input": "b",
+        "output": "c"
+    },
+    {
+        "input": "sixteen",
+        "output": "seventeen"
+    },
+    {
+        "input": "o",
+        "output": "p"
+    },
+    {
+        "input": "V",
+        "output": "W"
+    },
+    {
+        "input": "dd",
+        "output": "ee"
+    }
+]

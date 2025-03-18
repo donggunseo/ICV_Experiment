@@ -1,0 +1,3290 @@
+{
+    "score": {
+        "exact_match": 0.4626865671641791
+    },
+    "result": [
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: printing\nOutput:",
+            "test_query": "printing",
+            "prediction": "impression\n\nExplanation: We are using a predefined dictionary of English to French translations. This problem is equivalent",
+            "cleaned_prediction": "impression",
+            "gt": "impression"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: iceland\nOutput:",
+            "test_query": "iceland",
+            "prediction": "\"islande\"\nExplanation: \"islande\" is the French translation for the word \"",
+            "cleaned_prediction": "\"islande\"",
+            "gt": "Islande"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: fault\nOutput:",
+            "test_query": "fault",
+            "prediction": "faute\n\nExplanation: The letter \"t\" at the end of the word \"fault\" is",
+            "cleaned_prediction": "faute",
+            "gt": "faute"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: arrest\nOutput:",
+            "test_query": "arrest",
+            "prediction": "arr\u00eat\n\nExplanation: There's no direct equivalent to \"arrest\" in French, but a",
+            "cleaned_prediction": "arr\u00eat",
+            "gt": "arr\u00eater"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: reducing\nOutput:",
+            "test_query": "reducing",
+            "prediction": "r\u00e9duction\n\nExplanation: Since \"reducing\" is a verb, it is translated to \"",
+            "cleaned_prediction": "r\u00e9duction",
+            "gt": "r\u00e9duisant"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: chart\nOutput:",
+            "test_query": "chart",
+            "prediction": "table\n\nExplanation: The word chart translates to table in French.\nExample 1:\nInput: hello",
+            "cleaned_prediction": "table",
+            "gt": "graphique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: compromise\nOutput:",
+            "test_query": "compromise",
+            "prediction": "compromis\n\nExplanation: We translate word by word, from left to right. We start by checking",
+            "cleaned_prediction": "compromis",
+            "gt": "compromis"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: compared\nOutput:",
+            "test_query": "compared",
+            "prediction": "compar\u00e9\n\nHere is a simple solution in Python:\n\n```python\ndef translate_to_french(word",
+            "cleaned_prediction": "compar\u00e9",
+            "gt": "compar\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: thousands\nOutput:",
+            "test_query": "thousands",
+            "prediction": "mille (wrong)\nThe problem with the code is in the translation of \u201cthousands\u201d to",
+            "cleaned_prediction": "mille (wrong)",
+            "gt": "milliers"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: prevent\nOutput:",
+            "test_query": "prevent",
+            "prediction": "Pr\u00e9venir\nExplanation: \nThe word 'prevent' is an English word and we need to",
+            "cleaned_prediction": "Pr\u00e9venir",
+            "gt": "pr\u00e9venir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: foundation\nOutput:",
+            "test_query": "foundation",
+            "prediction": "fondation\n\nExplanation:\nWord \"foundation\" spelled backwards is \"noitadnoF\".\n\nInput",
+            "cleaned_prediction": "fondation",
+            "gt": "fondation"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tribes\nOutput:",
+            "test_query": "tribes",
+            "prediction": "Tribes\n\nNote: The word in the input is already capitalized, therefore, the output should also",
+            "cleaned_prediction": "Tribes",
+            "gt": "tribus"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: vocals\nOutput:",
+            "test_query": "vocals",
+            "prediction": "\"chanteurs\"\nExplanation: \nThe translation of vocals is \"chanteurs\" in French",
+            "cleaned_prediction": "\"chanteurs\"",
+            "gt": "voix"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: intermediate\nOutput:",
+            "test_query": "intermediate",
+            "prediction": "\"interm\u00e9diaire\"\n\nInput: \"hello\"\nOutput: \"bonjour\"\n\nNote:",
+            "cleaned_prediction": "\"interm\u00e9diaire\"",
+            "gt": "interm\u00e9diaire"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: gallery\nOutput:",
+            "test_query": "gallery",
+            "prediction": "galerie\nExplanation: Each letter in English is matched with the corresponding letter in French with no change",
+            "cleaned_prediction": "galerie",
+            "gt": "galerie"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: especially\nOutput:",
+            "test_query": "especially",
+            "prediction": "sp\u00e9cialement\n\nInput: especially\nOutput: sp\u00e9cialement\n\nInput: special\nOutput:",
+            "cleaned_prediction": "sp\u00e9cialement",
+            "gt": "particuli\u00e8rement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: arguing\nOutput:",
+            "test_query": "arguing",
+            "prediction": "discutant\nExplanation: argu- -> discut-\n-ing -> -ant\nIn",
+            "cleaned_prediction": "discutant",
+            "gt": "se disputer"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: conservative\nOutput:",
+            "test_query": "conservative",
+            "prediction": "1. The French word for 'conservative' is \"conservateur\".\n2. The",
+            "cleaned_prediction": "1. The French word for 'conservative' is \"conservateur\".",
+            "gt": "conservateur"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: processes\nOutput:",
+            "test_query": "processes",
+            "prediction": "\"processus\"\nExplanation: The word \"processus\" is the correct translation of the word",
+            "cleaned_prediction": "\"processus\"",
+            "gt": "processus"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: platform\nOutput:",
+            "test_query": "platform",
+            "prediction": "plateforme\n\nExplanation: The word 'platform' translates to 'plateforme' in French.\n\nExample",
+            "cleaned_prediction": "plateforme",
+            "gt": "plateforme"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: scope\nOutput:",
+            "test_query": "scope",
+            "prediction": "Champ\n\nExplanation: \"scope\" translates to \"Champ\" in French. The \"Champ",
+            "cleaned_prediction": "Champ",
+            "gt": "port\u00e9e"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: contributors\nOutput:",
+            "test_query": "contributors",
+            "prediction": "contributeurs\nExplanation: \n1. contributors -> contributeurs \n\nNote: The translation is case-sensitive",
+            "cleaned_prediction": "contributeurs",
+            "gt": "contributeurs"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: colleges\nOutput:",
+            "test_query": "colleges",
+            "prediction": "colleges\n\nExplanation: college is a direct translation from English to French.\nInput: university\nOutput:",
+            "cleaned_prediction": "colleges",
+            "gt": "universit\u00e9s"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: audiences\nOutput:",
+            "test_query": "audiences",
+            "prediction": "public\n\nExplanation: Public is the French translation of audiences.\n\nNote: There are many words that have",
+            "cleaned_prediction": "public",
+            "gt": "publics"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: waiting\nOutput:",
+            "test_query": "waiting",
+            "prediction": "en attente\n```\ndef translate_to_french(word):\n    translations = {\n        'hello",
+            "cleaned_prediction": "en attente",
+            "gt": "attente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: bike\nOutput:",
+            "test_query": "bike",
+            "prediction": "cycliste\n\nExplanation: \"cycliste\" means \"cyclist\" in French. A bicycle is",
+            "cleaned_prediction": "cycliste",
+            "gt": "v\u00e9lo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: serbia\nOutput:",
+            "test_query": "serbia",
+            "prediction": "\"Serbie\"\nExplanation: The country name is translated from English to French, resulting in the word",
+            "cleaned_prediction": "\"Serbie\"",
+            "gt": "Serbie"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: unfortunately\nOutput:",
+            "test_query": "unfortunately",
+            "prediction": "malheureusement\n\nExplanation: The word \"unfortunately\" in English is translated to \"malheure",
+            "cleaned_prediction": "malheureusement",
+            "gt": "malheureusement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: separation\nOutput:",
+            "test_query": "separation",
+            "prediction": "s\u00e9paration\n\nNote: I assume we are only translating from English to French. \n\n```python",
+            "cleaned_prediction": "s\u00e9paration",
+            "gt": "s\u00e9paration"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: rain\nOutput:",
+            "test_query": "rain",
+            "prediction": "\"pluie\"\n\nInput: sun\nOutput: \"soleil\"\n\nInput: snow\nOutput",
+            "cleaned_prediction": "\"pluie\"",
+            "gt": "pluie"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: gradually\nOutput:",
+            "test_query": "gradually",
+            "prediction": "graduellement\n\nExplanation: The input is a word in English and the output is the translation of the",
+            "cleaned_prediction": "graduellement",
+            "gt": "progressivement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: leo\nOutput:",
+            "test_query": "leo",
+            "prediction": "leon\n\nHere are my thought processes:\n- Since there is only one word given, I can",
+            "cleaned_prediction": "leon",
+            "gt": "lion"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: birthday\nOutput:",
+            "test_query": "birthday",
+            "prediction": "anniversaire\n\nExplanation: The input word is \"birthday\", which is translated to \"annivers",
+            "cleaned_prediction": "anniversaire",
+            "gt": "anniversaire"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: listed\nOutput:",
+            "test_query": "listed",
+            "prediction": "list\u00e9(e)\nExplanation: \"listed\" is the past participle of \"to list\" in",
+            "cleaned_prediction": "list\u00e9(e)",
+            "gt": "\u00e9num\u00e9r\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: separately\nOutput:",
+            "test_query": "separately",
+            "prediction": "s\u00e9par\u00e9ment\nExplanation:'separately' is translated into French as's\u00e9par",
+            "cleaned_prediction": "s\u00e9par\u00e9ment",
+            "gt": "s\u00e9par\u00e9ment"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: land\nOutput:",
+            "test_query": "land",
+            "prediction": "terre\n\nInput: water\nOutput: eau\n\nInput: air\nOutput: air\n\nInput",
+            "cleaned_prediction": "terre",
+            "gt": "terre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: particularly\nOutput:",
+            "test_query": "particularly",
+            "prediction": "particuli\u00e8rement\n\nExplanation:\nThe words were translated using online dictionary as reference. For the word \"particularly",
+            "cleaned_prediction": "particuli\u00e8rement",
+            "gt": "particuli\u00e8rement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: moses\nOutput:",
+            "test_query": "moses",
+            "prediction": "\"moses\"\nExplanation:  The translation of \"moses\" in French is \"moses",
+            "cleaned_prediction": "\"moses\"",
+            "gt": "Mo\u00efse"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: explorer\nOutput:",
+            "test_query": "explorer",
+            "prediction": "explorateur\n\nExplanation: We need to replace \"e\" with \"e\" in the first position",
+            "cleaned_prediction": "explorateur",
+            "gt": "explorateur"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: animals\nOutput:",
+            "test_query": "animals",
+            "prediction": "animaux\n\nThe above problem is a classic example of a Substitution cipher where each letter is replaced",
+            "cleaned_prediction": "animaux",
+            "gt": "animaux"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: legend\nOutput:",
+            "test_query": "legend",
+            "prediction": "L\u00e9gende\nExplanation: The word \"legend\" is correctly translated to French.\n```\ndef",
+            "cleaned_prediction": "L\u00e9gende",
+            "gt": "l\u00e9gende"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: arms\nOutput:",
+            "test_query": "arms",
+            "prediction": "bras\n\nExplanation: The word \"arms\" is translated to \"bras\" in French.\n\nInput:",
+            "cleaned_prediction": "bras",
+            "gt": "bras"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: notably\nOutput:",
+            "test_query": "notably",
+            "prediction": "Notamment\nExplanation: The word notably is correctly translated to French as Notamment.\n\nConstraints:\n\n-",
+            "cleaned_prediction": "Notamment",
+            "gt": "notamment"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: throne\nOutput:",
+            "test_query": "throne",
+            "prediction": "tr\u00f4ne\nExplanation: French translation of the word 'throne' is 'tr\u00f4ne",
+            "cleaned_prediction": "tr\u00f4ne",
+            "gt": "tr\u00f4ne"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: competitive\nOutput:",
+            "test_query": "competitive",
+            "prediction": "comp\u00e9titif\n\nExplanation: We can use a pre-trained translation model to convert the word competitive to",
+            "cleaned_prediction": "comp\u00e9titif",
+            "gt": "comp\u00e9titif"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: quickly\nOutput:",
+            "test_query": "quickly",
+            "prediction": "rapidement\n\nExplanation: The word \"quickly\" in English translates to \"rapidement\" in",
+            "cleaned_prediction": "rapidement",
+            "gt": "rapidement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: frank\nOutput:",
+            "test_query": "frank",
+            "prediction": "franc\nExplanation: The word \"frank\" in English can be translated to \"franc\"",
+            "cleaned_prediction": "franc",
+            "gt": "franc"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: burial\nOutput:",
+            "test_query": "burial",
+            "prediction": "inhumation\n\nExplanation: The word \"burial\" in English translates to \"inhumation",
+            "cleaned_prediction": "inhumation",
+            "gt": "enterrement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: significantly\nOutput:",
+            "test_query": "significantly",
+            "prediction": "de mani\u00e8re significative\nExplanation: This is a French translation of the word \"significantly\".\n\nInput",
+            "cleaned_prediction": "de mani\u00e8re significative",
+            "gt": "significativement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: bound\nOutput:",
+            "test_query": "bound",
+            "prediction": "limit\n\nExplanation: The word \"bound\" is translated to \"limit\" in French.\n\nNote:",
+            "cleaned_prediction": "limit",
+            "gt": "li\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: leaving\nOutput:",
+            "test_query": "leaving",
+            "prediction": "partant\nExplanation: The word \u201cleaving\u201d in English translates to \u201cpartant\u201d in",
+            "cleaned_prediction": "partant",
+            "gt": "partir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: installed\nOutput:",
+            "test_query": "installed",
+            "prediction": "installe\nExplanation: The letters \"i\" and \"l\" are not changed in the process",
+            "cleaned_prediction": "installe",
+            "gt": "install\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: changed\nOutput:",
+            "test_query": "changed",
+            "prediction": "chang\u00e9\n\nNote: French and English have similar grammar, so the translation should be straightforward.\n\n```",
+            "cleaned_prediction": "chang\u00e9",
+            "gt": "chang\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: build\nOutput:",
+            "test_query": "build",
+            "prediction": "construire\n\nExplanation: The word \"build\" in English means to construct or to make something.",
+            "cleaned_prediction": "construire",
+            "gt": "construire"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: geographic\nOutput:",
+            "test_query": "geographic",
+            "prediction": "g\u00e9ographique\n\nExplanation:\n- geographic -> geog\n- graphic -> graphique\n- graphic",
+            "cleaned_prediction": "g\u00e9ographique",
+            "gt": "g\u00e9ographique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: queens\nOutput:",
+            "test_query": "queens",
+            "prediction": "reines\n\nExplanation: The word \"queens\" translated into French is \"reines\". We",
+            "cleaned_prediction": "reines",
+            "gt": "reines"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: core\nOutput:",
+            "test_query": "core",
+            "prediction": "\"core\"\n\nExplanation: core is a perfect square, since 2*2 = 4,",
+            "cleaned_prediction": "\"core\"",
+            "gt": "noyau"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: voices\nOutput:",
+            "test_query": "voices",
+            "prediction": "voix\n\nExplanation: To translate a word from English to French, you need to replace \"i",
+            "cleaned_prediction": "voix",
+            "gt": "voix"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: gas\nOutput:",
+            "test_query": "gas",
+            "prediction": "gaz\n\nExplanation: \"gas\" is the English word and \"gaz\" is its translation in",
+            "cleaned_prediction": "gaz",
+            "gt": "gaz"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: opposed\nOutput:",
+            "test_query": "opposed",
+            "prediction": "oppos\u00e9\nExplanation: Opposed is the English word. Oppos\u00e9 is the French translation for",
+            "cleaned_prediction": "oppos\u00e9",
+            "gt": "oppos\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: award\nOutput:",
+            "test_query": "award",
+            "prediction": "\"award\" -> \"r\u00e9compense\" \nExplanation: Given the word \"award\", we should",
+            "cleaned_prediction": "\"award\" -> \"r\u00e9compense\"",
+            "gt": "prix"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: freestyle\nOutput:",
+            "test_query": "freestyle",
+            "prediction": "\"Style libre\"\nExplanation: \n\"Freestyle\" translates to \"Style libre\" in French.",
+            "cleaned_prediction": "\"Style libre\"",
+            "gt": "style libre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: baltic\nOutput:",
+            "test_query": "baltic",
+            "prediction": "baltique\n\nExplanation: There are no words in English which have a different meaning from their French",
+            "cleaned_prediction": "baltique",
+            "gt": "baltique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: vary\nOutput:",
+            "test_query": "vary",
+            "prediction": "varier\nInput: apple\nOutput: pomme\nInput: computer\nOutput: ordinate",
+            "cleaned_prediction": "varier",
+            "gt": "varier"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: road\nOutput:",
+            "test_query": "road",
+            "prediction": "route\n\nInput: hello\nOutput: bonjour\n\nInput: python\nOutput: python\n\nNote",
+            "cleaned_prediction": "route",
+            "gt": "route"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: something\nOutput:",
+            "test_query": "something",
+            "prediction": "something\n\nGiven a word in English, translate to French.\nInput: hello\nOutput: bonjour",
+            "cleaned_prediction": "something",
+            "gt": "quelque chose"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: described\nOutput:",
+            "test_query": "described",
+            "prediction": "\"d\u00e9cris\".\n\nExplanation: Each letter of the English word is translated to its French equivalent",
+            "cleaned_prediction": "\"d\u00e9cris\".",
+            "gt": "d\u00e9crit"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: under\nOutput:",
+            "test_query": "under",
+            "prediction": "sous\nExplanation: The word \"under\" in English translates to \"sous\" in French.",
+            "cleaned_prediction": "sous",
+            "gt": "sous"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: assets\nOutput:",
+            "test_query": "assets",
+            "prediction": "actifs\n\nExample Cases:\nInput: apple\nOutput: pomme\nInput: cat\nOutput",
+            "cleaned_prediction": "actifs",
+            "gt": "actifs"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: struck\nOutput:",
+            "test_query": "struck",
+            "prediction": "fruited\n\nExplanation: struck is an anagram of fruited.\n\nNote: An an",
+            "cleaned_prediction": "fruited",
+            "gt": "frapp\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: current\nOutput:",
+            "test_query": "current",
+            "prediction": "actuel\n\nInput: cat\nOutput: chat\n\nInput: pen\nOutput: plume",
+            "cleaned_prediction": "actuel",
+            "gt": "actuel"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: cars\nOutput:",
+            "test_query": "cars",
+            "prediction": "voitures\n\nExplanation: Use a dictionary where the key is an English word and the value is its",
+            "cleaned_prediction": "voitures",
+            "gt": "voitures"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: graduated\nOutput:",
+            "test_query": "graduated",
+            "prediction": "dipl\u00f4m\u00e9(e)\n\nExplanation: The verb to \"graduate\" has a feminine and masculine form.",
+            "cleaned_prediction": "dipl\u00f4m\u00e9(e)",
+            "gt": "dipl\u00f4m\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: petersburg\nOutput:",
+            "test_query": "petersburg",
+            "prediction": "\"petersbourg\"\n\nExplanation:\n\"petersburg\" -> \"petersbourg\" translation is",
+            "cleaned_prediction": "\"petersbourg\"",
+            "gt": "P\u00e9tersbourg"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tue\nOutput:",
+            "test_query": "tue",
+            "prediction": "meurt\nExplanation: The word \"tue\" means \"kill\" in English, and its",
+            "cleaned_prediction": "meurt",
+            "gt": "mardi"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: served\nOutput:",
+            "test_query": "served",
+            "prediction": "\"served\" \n\nNote: The word is not in French, but the translation would be the",
+            "cleaned_prediction": "\"served\"",
+            "gt": "servi"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: adding\nOutput:",
+            "test_query": "adding",
+            "prediction": "ajoutant\nExplanation: The word \u201cadding\u201d is translated to \u201cajoutant\u201d in French",
+            "cleaned_prediction": "ajoutant",
+            "gt": "ajoutant"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: weeks\nOutput:",
+            "test_query": "weeks",
+            "prediction": "semaines\n\nExplanation: weeks in English is translated to semaines in French.\n\nInput: hours",
+            "cleaned_prediction": "semaines",
+            "gt": "semaines"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: stay\nOutput:",
+            "test_query": "stay",
+            "prediction": "rester\nExplanation: \"stay\" in English is translated to \"rester\" in French.",
+            "cleaned_prediction": "rester",
+            "gt": "rester"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: can\nOutput:",
+            "test_query": "can",
+            "prediction": "can\nExplanation: The word can does not have a direct translation. It can be translated to \u201c",
+            "cleaned_prediction": "can",
+            "gt": "peut"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: wanted\nOutput:",
+            "test_query": "wanted",
+            "prediction": "\"wanted\" in French is: \"d\u00e9sir\u00e9(e)\"\n\nConstraints:\n\n* The word should",
+            "cleaned_prediction": "\"wanted\" in French is: \"d\u00e9sir\u00e9(e)\"",
+            "gt": "voulu"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: how\nOutput:",
+            "test_query": "how",
+            "prediction": "\"how\" -> \"comment\" (if it's a preposition, it is translated to the",
+            "cleaned_prediction": "\"how\" -> \"comment\" (if it's a preposition, it is translated to the",
+            "gt": "comment"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: reliable\nOutput:",
+            "test_query": "reliable",
+            "prediction": "One possible translation is:\nfiable\nAnother possible translation is:\nd\u00e9pendable\nThe",
+            "cleaned_prediction": "One possible translation is:",
+            "gt": "fiable"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: archaeological\nOutput:",
+            "test_query": "archaeological",
+            "prediction": "arch\u00e9ologique\n\nInput: historical\nOutput: historique\n\nInput: philosophical\nOutput:",
+            "cleaned_prediction": "arch\u00e9ologique",
+            "gt": "arch\u00e9ologique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: leaders\nOutput:",
+            "test_query": "leaders",
+            "prediction": "leaders\n\nExplanation: The word \"leaders\" is already in French.\n\nConstraints:\n1 <= word.length",
+            "cleaned_prediction": "leaders",
+            "gt": "dirigeants"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: when\nOutput:",
+            "test_query": "when",
+            "prediction": "quand\n\nInput: hello\nOutput: bonjour\n\nInput: world\nOutput: monde\n\nInput",
+            "cleaned_prediction": "quand",
+            "gt": "quand"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: wings\nOutput:",
+            "test_query": "wings",
+            "prediction": "ailes\n\nExplanation: The English word \"wings\" translates to French as \"ailes\".",
+            "cleaned_prediction": "ailes",
+            "gt": "ailes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: receiving\nOutput:",
+            "test_query": "receiving",
+            "prediction": "recevant\n\nExplanation: Here, the word \"receiving\" is converted into \"recevant\"",
+            "cleaned_prediction": "recevant",
+            "gt": "r\u00e9ception"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: clothes\nOutput:",
+            "test_query": "clothes",
+            "prediction": "v\u00eatements\n\nInput: water\nOutput: eau\n\nInput: house\nOutput:",
+            "cleaned_prediction": "v\u00eatements",
+            "gt": "v\u00eatements"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: clinical\nOutput:",
+            "test_query": "clinical",
+            "prediction": "clinique\n\nExplanation: \n- 'c' remains the same\n- 'l' remains the",
+            "cleaned_prediction": "clinique",
+            "gt": "clinique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: prussia\nOutput:",
+            "test_query": "prussia",
+            "prediction": "prusse\n\nExplanation:\nThe French word for \"prussia\" is indeed \"prusse",
+            "cleaned_prediction": "prusse",
+            "gt": "Prusse"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: judicial\nOutput:",
+            "test_query": "judicial",
+            "prediction": "juridique\n\nExplanation:  The word \"judicial\" is translated to French as \"jur",
+            "cleaned_prediction": "juridique",
+            "gt": "judiciaire"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: ground\nOutput:",
+            "test_query": "ground",
+            "prediction": "sol\nExplanation: The translation of \"ground\" to French is \"sol\".\nExample 2:",
+            "cleaned_prediction": "sol",
+            "gt": "sol"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: grounds\nOutput:",
+            "test_query": "grounds",
+            "prediction": "terres\n\nExplanation: We just need to replace the letter \"g\" with \"t\", and",
+            "cleaned_prediction": "terres",
+            "gt": "terrains"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: useless\nOutput:",
+            "test_query": "useless",
+            "prediction": "inutile\n\nExplanation: \nuseless -> in + utile\n\nHere is my attempt at",
+            "cleaned_prediction": "inutile",
+            "gt": "inutile"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: touchdown\nOutput:",
+            "test_query": "touchdown",
+            "prediction": "Touchdown\n\nExplanation: The first word is already capitalized. The second word is translated to French.",
+            "cleaned_prediction": "Touchdown",
+            "gt": "touch\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: azerbaijan\nOutput:",
+            "test_query": "azerbaijan",
+            "prediction": "aze (Azerbaijan)\n\n\nExplanation:\nWe know that some words in English have an equivalent in",
+            "cleaned_prediction": "aze (Azerbaijan)",
+            "gt": "Azerba\u00efd"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: decide\nOutput:",
+            "test_query": "decide",
+            "prediction": "d\u00e9cider\nExplanation: The input word is \"decide\" and we need to translate it to",
+            "cleaned_prediction": "d\u00e9cider",
+            "gt": "d\u00e9cider"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: breast\nOutput:",
+            "test_query": "breast",
+            "prediction": "poitrine\n\nExplanation: The translation of the word 'breast' in English is 'po",
+            "cleaned_prediction": "poitrine",
+            "gt": "sein"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: week\nOutput:",
+            "test_query": "week",
+            "prediction": "semaine\n\nInput: car\nOutput: voiture\n\nInput: dog\nOutput: chien\n\nNote",
+            "cleaned_prediction": "semaine",
+            "gt": "semaine"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: hidden\nOutput:",
+            "test_query": "hidden",
+            "prediction": "cach\u00e9\n\nInput: programming\nOutput: programmation\n\nInput: programming\nOutput: programmation",
+            "cleaned_prediction": "cach\u00e9",
+            "gt": "cach\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: ruled\nOutput:",
+            "test_query": "ruled",
+            "prediction": "Rul\u00e9\n\nExplanation: The function should correctly translate 'ruled' to 'rul\u00e9",
+            "cleaned_prediction": "Rul\u00e9",
+            "gt": "r\u00e9gi"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: possibly\nOutput:",
+            "test_query": "possibly",
+            "prediction": "peut-\u00eatre\nInput: house\nOutput: maison\nInput: hello\nOutput: bonjour",
+            "cleaned_prediction": "peut-\u00eatre",
+            "gt": "peut-\u00eatre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: sin\nOutput:",
+            "test_query": "sin",
+            "prediction": "\"sinus\"\n\nNote: You are allowed to assume that the input is a valid word in English",
+            "cleaned_prediction": "\"sinus\"",
+            "gt": "p\u00e9ch\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: artistic\nOutput:",
+            "test_query": "artistic",
+            "prediction": "Artistique\n\nExplanation:\nWe need to translate \"artistic\" to French. This requires understanding the",
+            "cleaned_prediction": "Artistique",
+            "gt": "artistique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: truck\nOutput:",
+            "test_query": "truck",
+            "prediction": "camion\nExplanation: This is the translation of \"truck\" in English to French.\n\nExample",
+            "cleaned_prediction": "camion",
+            "gt": "camion"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: collapsed\nOutput:",
+            "test_query": "collapsed",
+            "prediction": "\"collaps\u00e9\"\nNote: The problem here is not just translating words from English to French,",
+            "cleaned_prediction": "\"collaps\u00e9\"",
+            "gt": "effondr\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: pretty\nOutput:",
+            "test_query": "pretty",
+            "prediction": "jolie\n\nExplanation:\n\"pretty\" in French is \"jolie\".\n\nConstraints:\n1 <= word",
+            "cleaned_prediction": "jolie",
+            "gt": "joli"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tour\nOutput:",
+            "test_query": "tour",
+            "prediction": "tour\n\nGiven a word in English, translate to Spanish.\nInput: tour\nOutput: tour",
+            "cleaned_prediction": "tour",
+            "gt": "visite"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tel\nOutput:",
+            "test_query": "tel",
+            "prediction": "\"tel\"\n\nNote: \"tel\" is a word in English and its translation to French is itself",
+            "cleaned_prediction": "\"tel\"",
+            "gt": "t\u00e9l\u00e9phone"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: pattern\nOutput:",
+            "test_query": "pattern",
+            "prediction": "mod\u00e8le\n\nHere is the Python code to solve the problem:\n\n```python\ndef translate_to_french",
+            "cleaned_prediction": "mod\u00e8le",
+            "gt": "motif"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: rank\nOutput:",
+            "test_query": "rank",
+            "prediction": "rang\n\nExplanation: This function takes a word from the English language and translates it to French. Note",
+            "cleaned_prediction": "rang",
+            "gt": "rang"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: torpedo\nOutput:",
+            "test_query": "torpedo",
+            "prediction": "\"torpilleur\" \nExplanation: \"torpedo\" is a noun that describes a type",
+            "cleaned_prediction": "\"torpilleur\"",
+            "gt": "torpille"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: undo\nOutput:",
+            "test_query": "undo",
+            "prediction": "annuler\n\nInput: hello\nOutput: bonjour\n\nInput: 1\nOutput:",
+            "cleaned_prediction": "annuler",
+            "gt": "annuler"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: limestone\nOutput:",
+            "test_query": "limestone",
+            "prediction": "pierre calcaire\n\nExplanation:\n- limestone is translated to pierre calcaire in French",
+            "cleaned_prediction": "pierre calcaire",
+            "gt": "calcaire"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: opportunities\nOutput:",
+            "test_query": "opportunities",
+            "prediction": "\"Les occasions\"\n\nExplanation:\nThe given problem requires translating an English word into French. In this case",
+            "cleaned_prediction": "\"Les occasions\"",
+            "gt": "opportunit\u00e9s"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: grass\nOutput:",
+            "test_query": "grass",
+            "prediction": "herbe\n\nExplanation:\n\"grass\" in English means \"herbe\" in French.\n\nExample",
+            "cleaned_prediction": "herbe",
+            "gt": "herbe"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: declined\nOutput:",
+            "test_query": "declined",
+            "prediction": "d\u00e9clin\u00e9\nExplanation: The word \"declined\" is translated to \"d\u00e9clin\u00e9",
+            "cleaned_prediction": "d\u00e9clin\u00e9",
+            "gt": "refus\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: statements\nOutput:",
+            "test_query": "statements",
+            "prediction": "D\u00e9clarations\n\nExplanation: The word \"statements\" was translated to \"D\u00e9clarations\".\n\nInput: test",
+            "cleaned_prediction": "D\u00e9clarations",
+            "gt": "d\u00e9clarations"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: badge\nOutput:",
+            "test_query": "badge",
+            "prediction": "badge\n\nExplanation:  The word \"badge\" has the same spelling in French and English.\n\nExample",
+            "cleaned_prediction": "badge",
+            "gt": "insigne"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: aftermath\nOutput:",
+            "test_query": "aftermath",
+            "prediction": "la suite\nExplanation: The word \"aftermath\" translates to \"la suite\" in French.",
+            "cleaned_prediction": "la suite",
+            "gt": "cons\u00e9quences"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: offices\nOutput:",
+            "test_query": "offices",
+            "prediction": "bureaux\nExplanation: offices is translated to bureaux in French.\n\nGiven a word in English,",
+            "cleaned_prediction": "bureaux",
+            "gt": "bureaux"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: cold\nOutput:",
+            "test_query": "cold",
+            "prediction": "\"froid\"\nExplanation: The translation of the word \"cold\" to French is \"froid",
+            "cleaned_prediction": "\"froid\"",
+            "gt": "froid"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: funeral\nOutput:",
+            "test_query": "funeral",
+            "prediction": "\"fun\u00e9raille\" in French.\n\nInput: hello\nOutput: \"bonjour\" in French",
+            "cleaned_prediction": "\"fun\u00e9raille\" in French.",
+            "gt": "fun\u00e9railles"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: weapons\nOutput:",
+            "test_query": "weapons",
+            "prediction": "armes\n\nExplanation: The word \"weapons\" translates to \"armes\" in French.\n\nNote",
+            "cleaned_prediction": "armes",
+            "gt": "armes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: philippine\nOutput:",
+            "test_query": "philippine",
+            "prediction": "philippine\n\nExplanation: philippine is the French word for philippine, which is",
+            "cleaned_prediction": "philippine",
+            "gt": "philippin"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: replacing\nOutput:",
+            "test_query": "replacing",
+            "prediction": "rempla\u00e7ant\n\nExplanation: The word \"replacing\" in English translates to \"rempla",
+            "cleaned_prediction": "rempla\u00e7ant",
+            "gt": "rempla\u00e7ant"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: categories\nOutput:",
+            "test_query": "categories",
+            "prediction": "cat\u00e9gories\nExplanation:\n- The original word is 'categories'.\n- The translation of 'categories",
+            "cleaned_prediction": "cat\u00e9gories",
+            "gt": "cat\u00e9gories"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: improvements\nOutput:",
+            "test_query": "improvements",
+            "prediction": "am\u00e9liorations\n\nExplanation:\nWe have an English word and we need to translate it to French",
+            "cleaned_prediction": "am\u00e9liorations",
+            "gt": "am\u00e9liorations"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: implementation\nOutput:",
+            "test_query": "implementation",
+            "prediction": "mise en oeuvre\n\nExplanation: The word \"implementation\" has been translated to French, which is",
+            "cleaned_prediction": "mise en oeuvre",
+            "gt": "mise en \u0153uvre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: fires\nOutput:",
+            "test_query": "fires",
+            "prediction": "Feu\n\nExplanation: The word fires is translated to Feu in French.\n\nNote: The translation",
+            "cleaned_prediction": "Feu",
+            "gt": "incendies"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: edit\nOutput:",
+            "test_query": "edit",
+            "prediction": "\u00e9dit\nExplanation: The word \"edit\" should be translated to \"\u00e9dit\" in French",
+            "cleaned_prediction": "\u00e9dit",
+            "gt": "modifier"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: sweet\nOutput:",
+            "test_query": "sweet",
+            "prediction": "doux\n\nGiven a word in English, translate to Spanish.\nInput: sweet\nOutput: dul",
+            "cleaned_prediction": "doux",
+            "gt": "doux"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: defeated\nOutput:",
+            "test_query": "defeated",
+            "prediction": "d\u00e9faits\n\nExplanation: The translation of \"defeated\" to French is \"d\u00e9fa",
+            "cleaned_prediction": "d\u00e9faits",
+            "gt": "d\u00e9fait"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: handle\nOutput:",
+            "test_query": "handle",
+            "prediction": "\"Le mot 'handle' traduit en fran\u00e7ais est'manipuler'.\"\nExplanation: \"",
+            "cleaned_prediction": "\"Le mot 'handle' traduit en fran\u00e7ais est'manipuler'.\"",
+            "gt": "poign\u00e9e"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: cable\nOutput:",
+            "test_query": "cable",
+            "prediction": "c\u00e2ble\nExplanation:\n    We can simply translate 'cable' into French which is c\u00e2ble",
+            "cleaned_prediction": "c\u00e2ble",
+            "gt": "c\u00e2ble"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: paying\nOutput:",
+            "test_query": "paying",
+            "prediction": "payant\n\nExplanation: The English word \"paying\" translates to the French word \"payant",
+            "cleaned_prediction": "payant",
+            "gt": "payer"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: published\nOutput:",
+            "test_query": "published",
+            "prediction": "publi\u00e9\n\nInput:  python\nOutput:  python\n\nInput:  learn\nOutput:",
+            "cleaned_prediction": "publi\u00e9",
+            "gt": "publi\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: for\nOutput:",
+            "test_query": "for",
+            "prediction": "pour\n\nHere is a solution in Python using dictionary:\n```python\n# create a dictionary of English",
+            "cleaned_prediction": "pour",
+            "gt": "pour"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: sustained\nOutput:",
+            "test_query": "sustained",
+            "prediction": "soutenus\n\nExplanation: To translate \"sustained\" to French, we need to replace \"",
+            "cleaned_prediction": "soutenus",
+            "gt": "soutenu"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: upcoming\nOutput:",
+            "test_query": "upcoming",
+            "prediction": "futur\nExplanation: The word \"upcoming\" is translated to \"futur\" in",
+            "cleaned_prediction": "futur",
+            "gt": "\u00e0 venir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: mineral\nOutput:",
+            "test_query": "mineral",
+            "prediction": "min\u00e9ral\nExplanation: min\u00e9ral is the French translation of the English word mineral.\n\n```",
+            "cleaned_prediction": "min\u00e9ral",
+            "gt": "min\u00e9ral"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tourists\nOutput:",
+            "test_query": "tourists",
+            "prediction": "touristes\n\nExplanation:\nWe only have to translate each letter from English to French. The word \"",
+            "cleaned_prediction": "touristes",
+            "gt": "touristes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: politicians\nOutput:",
+            "test_query": "politicians",
+            "prediction": "les politiciens\n\nExplanation: \nThe word 'politicians' can be broken down into three",
+            "cleaned_prediction": "les politiciens",
+            "gt": "politiciens"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: attack\nOutput:",
+            "test_query": "attack",
+            "prediction": "attaque\n\nGiven a word in French, translate to English.\nInput: attaque\nOutput:",
+            "cleaned_prediction": "attaque",
+            "gt": "attaque"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: free\nOutput:",
+            "test_query": "free",
+            "prediction": "\"free\"\nExplanation: \"free\" translates to \"free\" in French, because it is an",
+            "cleaned_prediction": "\"free\"",
+            "gt": "gratuit"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: trees\nOutput:",
+            "test_query": "trees",
+            "prediction": "arbres\n\nExplanation: This problem is quite straightforward. You just need to know the translation of the",
+            "cleaned_prediction": "arbres",
+            "gt": "arbres"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: starts\nOutput:",
+            "test_query": "starts",
+            "prediction": "start\nExplanation: We can see that \"starts\" has an extra 't' in the end",
+            "cleaned_prediction": "start",
+            "gt": "\u00e9toiles"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: students\nOutput:",
+            "test_query": "students",
+            "prediction": "\"les \u00e9l\u00e8ves\"\n\nExplanation: \nHere is the mapping of English words to French words:",
+            "cleaned_prediction": "\"les \u00e9l\u00e8ves\"",
+            "gt": "\u00e9tudiants"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: buffalo\nOutput:",
+            "test_query": "buffalo",
+            "prediction": "buffle\n\nExplanation: The French translation of the word \"buffalo\" is \"buffle\".",
+            "cleaned_prediction": "buffle",
+            "gt": "bison"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: geneva\nOutput:",
+            "test_query": "geneva",
+            "prediction": "gen\u00e8ve\n\nExplanation: In the French language, the city's name is spelled \"Gen\u00e8ve\".",
+            "cleaned_prediction": "gen\u00e8ve",
+            "gt": "Gen\u00e8ve"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: ruins\nOutput:",
+            "test_query": "ruins",
+            "prediction": "\"les ruines\"\n\ndef translate_to_french(word):\n    translation_dict = {\n        \"hello",
+            "cleaned_prediction": "\"les ruines\"",
+            "gt": "ruines"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: rebuilt\nOutput:",
+            "test_query": "rebuilt",
+            "prediction": "rebuild\u00e9\nExplanation: In French, the verb \"rebuild\" should be in the past partic",
+            "cleaned_prediction": "rebuild\u00e9",
+            "gt": "reconstruit"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: preserve\nOutput:",
+            "test_query": "preserve",
+            "prediction": "conserver\nExplanation: \nPreserve is a verb in English, so we need to translate it",
+            "cleaned_prediction": "conserver",
+            "gt": "pr\u00e9server"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: bed\nOutput:",
+            "test_query": "bed",
+            "prediction": "lit\nExplanation: The word \"bed\" means \"lit\" in French.\nInput: apple",
+            "cleaned_prediction": "lit",
+            "gt": "lit"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: button\nOutput:",
+            "test_query": "button",
+            "prediction": "Bouton\n\nHere is a simple python program that does this.\n\n```python\ndef translate(word):",
+            "cleaned_prediction": "Bouton",
+            "gt": "bouton"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: beauty\nOutput:",
+            "test_query": "beauty",
+            "prediction": "\"beaut\u00e9\"\n\nExplanation: \"beauty\" is the English translation of \"beaut\u00e9\".\n\nInput",
+            "cleaned_prediction": "\"beaut\u00e9\"",
+            "gt": "beaut\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: states\nOutput:",
+            "test_query": "states",
+            "prediction": "\u00e9tats\n\nExplanation: The word states in English is translated to \u00e9tats in French.\n```python",
+            "cleaned_prediction": "\u00e9tats",
+            "gt": "\u00e9tats"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: nuclear\nOutput:",
+            "test_query": "nuclear",
+            "prediction": "nucl\u00e9aire\n\nExplanation: This problem is equivalent to finding the translation of a word from one",
+            "cleaned_prediction": "nucl\u00e9aire",
+            "gt": "nucl\u00e9aire"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: coached\nOutput:",
+            "test_query": "coached",
+            "prediction": "\"Coach\u00e9\"\nExplanation:\nIn the English language, the word \"coached\" is translated to",
+            "cleaned_prediction": "\"Coach\u00e9\"",
+            "gt": "entra\u00een\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: prefer\nOutput:",
+            "test_query": "prefer",
+            "prediction": "pr\u00e9f\u00e9rer\n\nExplanation: We need to know the word translation from English to French. \n\nNote",
+            "cleaned_prediction": "pr\u00e9f\u00e9rer",
+            "gt": "pr\u00e9f\u00e9rer"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: organic\nOutput:",
+            "test_query": "organic",
+            "prediction": "biologique\nExplanation: The translation of 'organic' to French is 'biologique'.",
+            "cleaned_prediction": "biologique",
+            "gt": "biologique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: begun\nOutput:",
+            "test_query": "begun",
+            "prediction": "commenc\u00e9\nExplanation: The word \"begun\" in English is translated to \"commenc\u00e9",
+            "cleaned_prediction": "commenc\u00e9",
+            "gt": "commenc\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: recognised\nOutput:",
+            "test_query": "recognised",
+            "prediction": "reconnu\n\nGiven a word in English, translate to French.\nInput: understood\nOutput:",
+            "cleaned_prediction": "reconnu",
+            "gt": "reconnu"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: stayed\nOutput:",
+            "test_query": "stayed",
+            "prediction": "rest\u00e9\nExplanation: The French translation of \"stayed\" is \"rest\u00e9\".\n\nGiven a",
+            "cleaned_prediction": "rest\u00e9",
+            "gt": "rest\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: mail\nOutput:",
+            "test_query": "mail",
+            "prediction": "\"mail\" (no translation)\n\nInput: hello\nOutput: \"bonjour\"\n\nInput: world",
+            "cleaned_prediction": "\"mail\" (no translation)",
+            "gt": "courrier"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: reasoning\nOutput:",
+            "test_query": "reasoning",
+            "prediction": "la raison\n\nExplanation: The word \"reasoning\" is translated to \"la raison\" in French",
+            "cleaned_prediction": "la raison",
+            "gt": "raisonnement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: patrol\nOutput:",
+            "test_query": "patrol",
+            "prediction": "patrouille\nExplanation: The word \"patrol\" is translated to \"patrouille\"",
+            "cleaned_prediction": "patrouille",
+            "gt": "patrouille"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: fluid\nOutput:",
+            "test_query": "fluid",
+            "prediction": "liquide\n\nExplanation: fluid in French is liquide\n\nNote: This problem is a simple word",
+            "cleaned_prediction": "liquide",
+            "gt": "liquide"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: oxygen\nOutput:",
+            "test_query": "oxygen",
+            "prediction": "oxyg\u00e8ne\n\nExplanation: oxygen is translated to oxyg\u00e8ne in French.\n\nInput: hello",
+            "cleaned_prediction": "oxyg\u00e8ne",
+            "gt": "oxyg\u00e8ne"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: corner\nOutput:",
+            "test_query": "corner",
+            "prediction": "coin\n\nExplanation:\nThe translation of \"corner\" to French is \"coin\". \n\nNote: This",
+            "cleaned_prediction": "coin",
+            "gt": "coin"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: referendum\nOutput:",
+            "test_query": "referendum",
+            "prediction": "\"r\u00e9f\u00e9rendum\"\n\nExplanation: Use the dictionary to look up the translation of the word \"",
+            "cleaned_prediction": "\"r\u00e9f\u00e9rendum\"",
+            "gt": "r\u00e9f\u00e9rendum"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: wrestling\nOutput:",
+            "test_query": "wrestling",
+            "prediction": "wrestling\n\nExplanation: The word \"wrestling\" is a valid English word, and its translation",
+            "cleaned_prediction": "wrestling",
+            "gt": "lutte"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: roughly\nOutput:",
+            "test_query": "roughly",
+            "prediction": "\u00e0 peu pr\u00e8s\n\nExplanation: \nroughly translates to \"\u00e0 peu pr\u00e8s\" in French.\n\nNote",
+            "cleaned_prediction": "\u00e0 peu pr\u00e8s",
+            "gt": "approximativement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: academy\nOutput:",
+            "test_query": "academy",
+            "prediction": "\"acad\u00e9mie\"\n\nExplanation: \n- \"a\" in English translates to \"a\" in",
+            "cleaned_prediction": "\"acad\u00e9mie\"",
+            "gt": "acad\u00e9mie"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: indoor\nOutput:",
+            "test_query": "indoor",
+            "prediction": "int\u00e9rieur\n\nInput: garden\nOutput: jardin\n\nInput: forest\nOutput: for\u00eat",
+            "cleaned_prediction": "int\u00e9rieur",
+            "gt": "int\u00e9rieur"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: pearl\nOutput:",
+            "test_query": "pearl",
+            "prediction": "perle\nExplanation: The word \"pearl\" spelled backwards is \"lraep\".\n\nNote",
+            "cleaned_prediction": "perle",
+            "gt": "perle"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: draft\nOutput:",
+            "test_query": "draft",
+            "prediction": "Brouillon\n\nExplanation: \nBrouillon is the translation of \"draft\" in French.",
+            "cleaned_prediction": "Brouillon",
+            "gt": "brouillon"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: honor\nOutput:",
+            "test_query": "honor",
+            "prediction": "honneur\n\nExplanation: Both words are correct translations, \"honneur\" is more formal",
+            "cleaned_prediction": "honneur",
+            "gt": "honneur"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: right\nOutput:",
+            "test_query": "right",
+            "prediction": "droit\n\nNote: You can assume the word is in lower case, and it's not a special",
+            "cleaned_prediction": "droit",
+            "gt": "droit"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: privacy\nOutput:",
+            "test_query": "privacy",
+            "prediction": "confidentialit\u00e9\n\nNote: this is not a real word but I used it to make the problem clear",
+            "cleaned_prediction": "confidentialit\u00e9",
+            "gt": "intimit\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tuesday\nOutput:",
+            "test_query": "tuesday",
+            "prediction": "mardi\n\nExplanation: The problem requires to translate the day of the week from English to French.",
+            "cleaned_prediction": "mardi",
+            "gt": "mardi"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: egypt\nOutput:",
+            "test_query": "egypt",
+            "prediction": "\"egypt\" is not a word in english\n\nExplanation: The word egypt is not",
+            "cleaned_prediction": "\"egypt\" is not a word in english",
+            "gt": "\u00c9gypte"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: catholic\nOutput:",
+            "test_query": "catholic",
+            "prediction": "catholique\n\nExplanation: We have a dictionary containing words that map English words to their French translations",
+            "cleaned_prediction": "catholique",
+            "gt": "catholique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: november\nOutput:",
+            "test_query": "november",
+            "prediction": "novembre\nInput: january\nOutput: janvier\nInput: june\nOutput: juin",
+            "cleaned_prediction": "novembre",
+            "gt": "novembre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: offering\nOutput:",
+            "test_query": "offering",
+            "prediction": "offrande\nExplanation: offering = offrande in French. Here we are using dictionary and",
+            "cleaned_prediction": "offrande",
+            "gt": "offre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: resumed\nOutput:",
+            "test_query": "resumed",
+            "prediction": "\"Avec une pause.\"\n\nExplanation: resumed in English means \"with a pause\". In French,",
+            "cleaned_prediction": "\"Avec une pause.\"",
+            "gt": "repris"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: precise\nOutput:",
+            "test_query": "precise",
+            "prediction": "pr\u00e9cis\nExplanation: The French translation for the English word \"precise\" is \"pr\u00e9c",
+            "cleaned_prediction": "pr\u00e9cis",
+            "gt": "pr\u00e9cis"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: unofficial\nOutput:",
+            "test_query": "unofficial",
+            "prediction": "\"inofficiel\"\n\nExplanation: \n\"un\" -> \"in\" (prefix to indicate neg",
+            "cleaned_prediction": "\"inofficiel\"",
+            "gt": "non officiel"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: string\nOutput:",
+            "test_query": "string",
+            "prediction": "string\n\nSolution:\n```python\ndef translate_to_french(word):\n    \"\"\"\n    Translate an English",
+            "cleaned_prediction": "string",
+            "gt": "corde"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: grid\nOutput:",
+            "test_query": "grid",
+            "prediction": "\"translation\"\nHere is the 6DoF (6 degrees of freedom) data for the current",
+            "cleaned_prediction": "\"translation\"",
+            "gt": "grille"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: life\nOutput:",
+            "test_query": "life",
+            "prediction": "la vie\n\nExplanation: Each letter is replaced by its corresponding letter in the French alphabet.\n\nInput:",
+            "cleaned_prediction": "la vie",
+            "gt": "vie"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: electrical\nOutput:",
+            "test_query": "electrical",
+            "prediction": "\u00e9lectrique\nExplanation: The word \"electrical\" in English translates to \"\u00e9lectrique\"",
+            "cleaned_prediction": "\u00e9lectrique",
+            "gt": "\u00e9lectrique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: sharing\nOutput:",
+            "test_query": "sharing",
+            "prediction": "partageant\nExplanation: The word \"sharing\" is translated to \"partageant\" in",
+            "cleaned_prediction": "partageant",
+            "gt": "partage"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: alexander\nOutput:",
+            "test_query": "alexander",
+            "prediction": "alexandre\n\nGiven a word in English, translate to Spanish.\nInput: alexander\nOutput:",
+            "cleaned_prediction": "alexandre",
+            "gt": "Alexandre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: diseases\nOutput:",
+            "test_query": "diseases",
+            "prediction": "maladies\n\nExplanation: disease is translated to maladie and the's' in diseases is",
+            "cleaned_prediction": "maladies",
+            "gt": "maladies"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: item\nOutput:",
+            "test_query": "item",
+            "prediction": "item\n\nExplanation: The word is already in French.\n\nInput: hello\nOutput: bonjour",
+            "cleaned_prediction": "item",
+            "gt": "article"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: runner\nOutput:",
+            "test_query": "runner",
+            "prediction": "coureur\nExplanation: The word \"runner\" is translated to \"coureur\" in French.",
+            "cleaned_prediction": "coureur",
+            "gt": "coureur"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: put\nOutput:",
+            "test_query": "put",
+            "prediction": "put\n\nExplanation: This is a perfect translation, as 'put' in English is 'put'",
+            "cleaned_prediction": "put",
+            "gt": "mettre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: characters\nOutput:",
+            "test_query": "characters",
+            "prediction": "translated characters\nExamples:\nInput: \"hello\"\nOutput: \"bonjour\"\nInput: \"world",
+            "cleaned_prediction": "translated characters",
+            "gt": "personnages"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: seven\nOutput:",
+            "test_query": "seven",
+            "prediction": "sept\nExplanation: seven in French is sept.\n\nInput: hello\nOutput: bonjour\nExplanation",
+            "cleaned_prediction": "sept",
+            "gt": "sept"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: christopher\nOutput:",
+            "test_query": "christopher",
+            "prediction": "christopher\nExplanation: This word is same in French and English.\n\nInput: computer\nOutput:",
+            "cleaned_prediction": "christopher",
+            "gt": "christophe"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: live\nOutput:",
+            "test_query": "live",
+            "prediction": "vivre\n\nExplanation: The word \"live\" is translated to \"vivre\" in French.",
+            "cleaned_prediction": "vivre",
+            "gt": "vivre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: vietnamese\nOutput:",
+            "test_query": "vietnamese",
+            "prediction": "vietnamien\n\nNote:\n- English to French translation is case-insensitive.\n- Assume that the",
+            "cleaned_prediction": "vietnamien",
+            "gt": "vietnamien"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: the\nOutput:",
+            "test_query": "the",
+            "prediction": "le\n\nThe function should accept a word as input, and output the French translation of the word.",
+            "cleaned_prediction": "le",
+            "gt": "le/la/les"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: situated\nOutput:",
+            "test_query": "situated",
+            "prediction": "situ\u00e9\n\nExplanation: \n- Situated is the English word\n- We need to translate it",
+            "cleaned_prediction": "situ\u00e9",
+            "gt": "situ\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: mrs\nOutput:",
+            "test_query": "mrs",
+            "prediction": "Madame\n\nExplanation: mrs is an abbreviation for Madame.\n```python\ndef translate_english_to",
+            "cleaned_prediction": "Madame",
+            "gt": "madame"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: diversity\nOutput:",
+            "test_query": "diversity",
+            "prediction": "diversit\u00e9\n\nGiven a word in English, translate to French.\nInput: happiness\nOutput: bon",
+            "cleaned_prediction": "diversit\u00e9",
+            "gt": "diversit\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: blind\nOutput:",
+            "test_query": "blind",
+            "prediction": "aveugle\n\nExplanation: \n1. Get the first character of the English word, which is",
+            "cleaned_prediction": "aveugle",
+            "gt": "aveugle"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: brought\nOutput:",
+            "test_query": "brought",
+            "prediction": "apport\u00e9\n\nExplanation: The input \"brought\" is a verb in the past tense in",
+            "cleaned_prediction": "apport\u00e9",
+            "gt": "apport\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: departed\nOutput:",
+            "test_query": "departed",
+            "prediction": "depart\u00e9\n\nExplanation: No explanation is necessary because the answer is simply the word \"departed\"",
+            "cleaned_prediction": "depart\u00e9",
+            "gt": "parti"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: locally\nOutput:",
+            "test_query": "locally",
+            "prediction": "localement\n\nExplanation: \nThe word \"locally\" is translated to \"localement\"",
+            "cleaned_prediction": "localement",
+            "gt": "localement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: customs\nOutput:",
+            "test_query": "customs",
+            "prediction": "douane\n\nExplanation: douane is the French word for customs.\n\nInput: language\nOutput:",
+            "cleaned_prediction": "douane",
+            "gt": "douanes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: derivative\nOutput:",
+            "test_query": "derivative",
+            "prediction": "d\u00e9riv\u00e9e\n\nExplanation: The function should translate the input word from English to French.\n\n```python",
+            "cleaned_prediction": "d\u00e9riv\u00e9e",
+            "gt": "d\u00e9riv\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: morocco\nOutput:",
+            "test_query": "morocco",
+            "prediction": "maroc\n\nInput: hello\nOutput: bonjour\n\nInput: python\nOutput: python (",
+            "cleaned_prediction": "maroc",
+            "gt": "maroc"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: technically\nOutput:",
+            "test_query": "technically",
+            "prediction": "techniquement\n\nExplanation:\ntechnically is an adverb.\nadverbs ending in -ly in English",
+            "cleaned_prediction": "techniquement",
+            "gt": "techniquement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: immediate\nOutput:",
+            "test_query": "immediate",
+            "prediction": "imm\u00e9diat\n\nExplanation: English word immediate has been translated to French word imm\u00e9diat",
+            "cleaned_prediction": "imm\u00e9diat",
+            "gt": "imm\u00e9diat"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: signals\nOutput:",
+            "test_query": "signals",
+            "prediction": "\"signals\" translated to \"signaux\" in French.\n\nInput: python\nOutput: \"python",
+            "cleaned_prediction": "\"signals\" translated to \"signaux\" in French.",
+            "gt": "signaux"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: location\nOutput:",
+            "test_query": "location",
+            "prediction": "emplacement\n\nThis problem can be approached by creating a dictionary that maps English words to their French translations",
+            "cleaned_prediction": "emplacement",
+            "gt": "emplacement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: valley\nOutput:",
+            "test_query": "valley",
+            "prediction": "vall\u00e9e\nExplanation:\nWe can translate 'valley' to 'vall\u00e9e' by",
+            "cleaned_prediction": "vall\u00e9e",
+            "gt": "vall\u00e9e"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: revolt\nOutput:",
+            "test_query": "revolt",
+            "prediction": "R\u00e9volte\n\nExplanation: The function should take a word in English and return its French translation.",
+            "cleaned_prediction": "R\u00e9volte",
+            "gt": "r\u00e9volte"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: composers\nOutput:",
+            "test_query": "composers",
+            "prediction": "compositeurs\n\nExplanation: \n- The word \"composers\" is translated to \"compositeurs",
+            "cleaned_prediction": "compositeurs",
+            "gt": "compositeurs"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: deal\nOutput:",
+            "test_query": "deal",
+            "prediction": "traiter\nExplanation:\ndeal = to manage or conduct\ntraiter = to treat\nExplanation for",
+            "cleaned_prediction": "traiter",
+            "gt": "accord"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: amazing\nOutput:",
+            "test_query": "amazing",
+            "prediction": "\"amazing\"\n\nExplanation: The word \"amazing\" is already in English. The problem asks",
+            "cleaned_prediction": "\"amazing\"",
+            "gt": "incroyable"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: humanity\nOutput:",
+            "test_query": "humanity",
+            "prediction": "l'humanit\u00e9\n\nExplanation: We simply have to replace the 'u' at the end with",
+            "cleaned_prediction": "l'humanit\u00e9",
+            "gt": "humanit\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: birth\nOutput:",
+            "test_query": "birth",
+            "prediction": "naissance\n\nExplanation: The word \"birth\" is translated to \"naissance\" in French.\n\nExample",
+            "cleaned_prediction": "naissance",
+            "gt": "naissance"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: donated\nOutput:",
+            "test_query": "donated",
+            "prediction": "\"donn\u00e9\"\nExplanation: \"donated\" means \"donn\u00e9\" in French.\n\n```python",
+            "cleaned_prediction": "\"donn\u00e9\"",
+            "gt": "donn\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: interim\nOutput:",
+            "test_query": "interim",
+            "prediction": "int\u00e9rim\n\nGiven a word in English, translate to French.\nInput: vacation\nOutput: cong",
+            "cleaned_prediction": "int\u00e9rim",
+            "gt": "int\u00e9rim"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: traditionally\nOutput:",
+            "test_query": "traditionally",
+            "prediction": "traditionnellement\n\nExplanation: The word \"traditionally\" in English is translated to \"tradition",
+            "cleaned_prediction": "traditionnellement",
+            "gt": "traditionnellement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: increase\nOutput:",
+            "test_query": "increase",
+            "prediction": "augmenter\n\nInput: hello\nOutput: bonjour\n\nInput: pizza\nOutput: pizza",
+            "cleaned_prediction": "augmenter",
+            "gt": "augmenter"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: sandy\nOutput:",
+            "test_query": "sandy",
+            "prediction": "sable\n\nExplanation: The word \"sandy\" translates to \"sable\" in French.",
+            "cleaned_prediction": "sable",
+            "gt": "sableux"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: disaster\nOutput:",
+            "test_query": "disaster",
+            "prediction": "catastrophe\n\nExplanation: The word disaster is translated to catastrophe in French.\n\nNote: The translation is case",
+            "cleaned_prediction": "catastrophe",
+            "gt": "d\u00e9sastre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: collaborative\nOutput:",
+            "test_query": "collaborative",
+            "prediction": "collaboratif\n\nExplanation: The given word \"collaborative\" is a English word, we need",
+            "cleaned_prediction": "collaboratif",
+            "gt": "collaboratif"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: recurring\nOutput:",
+            "test_query": "recurring",
+            "prediction": "\"recurring\" in French is \"r\u00e9current\"\n\nExample Use Case:\nThis function can be used",
+            "cleaned_prediction": "\"recurring\" in French is \"r\u00e9current\"",
+            "gt": "r\u00e9current"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: deployed\nOutput:",
+            "test_query": "deployed",
+            "prediction": "d\u00e9ploy\u00e9\nExplanation: The word \"deployed\" in English is translated to \"d\u00e9",
+            "cleaned_prediction": "d\u00e9ploy\u00e9",
+            "gt": "d\u00e9ploy\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tiny\nOutput:",
+            "test_query": "tiny",
+            "prediction": "petite\nExplanation: tiny is translated to petite in French. \n\nNote: This problem is a simple",
+            "cleaned_prediction": "petite",
+            "gt": "petit"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: ref\nOutput:",
+            "test_query": "ref",
+            "prediction": "R\u00e9f\u00e9rence\n\n```python\ndef translate_to_french(word):\n    \"\"\"\n    Translate a given",
+            "cleaned_prediction": "R\u00e9f\u00e9rence",
+            "gt": "r\u00e9f\u00e9rence"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: connects\nOutput:",
+            "test_query": "connects",
+            "prediction": "se connecte\n\nExplanation: The French word for \"connects\" is \"se connecte\".",
+            "cleaned_prediction": "se connecte",
+            "gt": "se connecte"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: edge\nOutput:",
+            "test_query": "edge",
+            "prediction": "edge\nExplanation: edge is a word that does not need translation.\nNote: The translation of a",
+            "cleaned_prediction": "edge",
+            "gt": "bord"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: all\nOutput:",
+            "test_query": "all",
+            "prediction": "tout\nExplanation: In English, the word \"all\" translates to \"tout\" in French.",
+            "cleaned_prediction": "tout",
+            "gt": "tous"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: against\nOutput:",
+            "test_query": "against",
+            "prediction": "contre\nExplanation: This is a simple substitution problem, where we can map each character in English to",
+            "cleaned_prediction": "contre",
+            "gt": "contre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: realize\nOutput:",
+            "test_query": "realize",
+            "prediction": "r\u00e9alis\u00e9\nExplanation:  To translate the word \"realize\" into French, we need to",
+            "cleaned_prediction": "r\u00e9alis\u00e9",
+            "gt": "r\u00e9aliser"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: meat\nOutput:",
+            "test_query": "meat",
+            "prediction": "viande\nInput: apple\nOutput: pomme\nInput: house\nOutput: maison",
+            "cleaned_prediction": "viande",
+            "gt": "viande"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: reveals\nOutput:",
+            "test_query": "reveals",
+            "prediction": "r\u00e9v\u00e8le\n\nExplanation: \nThe word'reveals' is translated to 'r\u00e9v\u00e8le",
+            "cleaned_prediction": "r\u00e9v\u00e8le",
+            "gt": "r\u00e9v\u00e8le"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: translator\nOutput:",
+            "test_query": "translator",
+            "prediction": "traducteur\nInput: happy\nOutput: heureux\nInput: computer\nOutput: ord",
+            "cleaned_prediction": "traducteur",
+            "gt": "traducteur"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: collect\nOutput:",
+            "test_query": "collect",
+            "prediction": "collecter\n\nNote: The given word \"collect\" in English should be translated to \"collecter",
+            "cleaned_prediction": "collecter",
+            "gt": "recueillir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: execution\nOutput:",
+            "test_query": "execution",
+            "prediction": "ex\u00e9cution\nExplanation: The word execution has been successfully translated from English to French.\n \nNote",
+            "cleaned_prediction": "ex\u00e9cution",
+            "gt": "ex\u00e9cution"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: dinner\nOutput:",
+            "test_query": "dinner",
+            "prediction": "dinner\nExplanation: dinner is the same word in both English and French. \n\nGiven a word in",
+            "cleaned_prediction": "dinner",
+            "gt": "d\u00eener"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: viola\nOutput:",
+            "test_query": "viola",
+            "prediction": "viole\n\nExplanation:\n- The word \"viola\" is a noun referring to a musical",
+            "cleaned_prediction": "viole",
+            "gt": "alto"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: instructor\nOutput:",
+            "test_query": "instructor",
+            "prediction": "l'instructeur\nExplanation: 'l'' is the definite article used in French to indicate the",
+            "cleaned_prediction": "l'instructeur",
+            "gt": "instructeur"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: broadcasts\nOutput:",
+            "test_query": "broadcasts",
+            "prediction": "\"diffuse sur les ondes\"\n\nExplanation: The word \"broadcasts\" is translated to \"",
+            "cleaned_prediction": "\"diffuse sur les ondes\"",
+            "gt": "diffusions"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: jurisdiction\nOutput:",
+            "test_query": "jurisdiction",
+            "prediction": "juridiction\n\nGiven a word in English, translate to French.\nInput: justice\nOutput:",
+            "cleaned_prediction": "juridiction",
+            "gt": "juridiction"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: wearing\nOutput:",
+            "test_query": "wearing",
+            "prediction": "portant\n\nExplanation: \n- 'wearing' -> 'wear' + 'ing'\n-",
+            "cleaned_prediction": "portant",
+            "gt": "porter"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: griffin\nOutput:",
+            "test_query": "griffin",
+            "prediction": "\"griffin\" translated to French is \"griffin\".\n\nNote: This problem is intentionally left vague",
+            "cleaned_prediction": "\"griffin\" translated to French is \"griffin\".",
+            "gt": "griffon"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: chilean\nOutput:",
+            "test_query": "chilean",
+            "prediction": "chilien\n\nExplanation: \nThe word 'chilean' is translated to 'chil",
+            "cleaned_prediction": "chilien",
+            "gt": "chilien"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: hired\nOutput:",
+            "test_query": "hired",
+            "prediction": "engag\u00e9\nExplanation: This is a direct translation.\nExample 2:\nInput: house",
+            "cleaned_prediction": "engag\u00e9",
+            "gt": "embauch\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: hell\nOutput:",
+            "test_query": "hell",
+            "prediction": "\"enfer\"\n\nExplanation: \nThe French translation of \"hell\" is \"enfer\", therefore",
+            "cleaned_prediction": "\"enfer\"",
+            "gt": "enfer"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: previously\nOutput:",
+            "test_query": "previously",
+            "prediction": "pr\u00e9c\u00e9demment\nInput: yesterday\nOutput: hier\nInput: today\nOutput: aujourd",
+            "cleaned_prediction": "pr\u00e9c\u00e9demment",
+            "gt": "pr\u00e9c\u00e9demment"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: empty\nOutput:",
+            "test_query": "empty",
+            "prediction": "vide\n\nInput: Hello\nOutput: Bonjour\n\nInput: Test\nOutput: Test (Note",
+            "cleaned_prediction": "vide",
+            "gt": "vide"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: jun\nOutput:",
+            "test_query": "jun",
+            "prediction": "Jun\nExplanation: The word \"jun\" is a proper noun and doesn't have any translation in",
+            "cleaned_prediction": "Jun",
+            "gt": "Jun"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: bacteria\nOutput:",
+            "test_query": "bacteria",
+            "prediction": "\"bact\u00e9ries\"\n\nInput: python\nOutput: \"python\" (because the word is",
+            "cleaned_prediction": "\"bact\u00e9ries\"",
+            "gt": "bact\u00e9rie"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: remote\nOutput:",
+            "test_query": "remote",
+            "prediction": "\"Le mot'remote' en fran\u00e7ais est: \u00c9loign\u00e9.\"\n\nExplanation: The word \"",
+            "cleaned_prediction": "\"Le mot'remote' en fran\u00e7ais est: \u00c9loign\u00e9.\"",
+            "gt": "t\u00e9l\u00e9commande"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: actively\nOutput:",
+            "test_query": "actively",
+            "prediction": "activement\n\nExplanation: The correct translation of 'actively' to French is 'activement'.\n\nExample",
+            "cleaned_prediction": "activement",
+            "gt": "activement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: nicholas\nOutput:",
+            "test_query": "nicholas",
+            "prediction": "Nicolas\n\nGiven a word in English, translate to Spanish.\nInput: hello\nOutput: Hola",
+            "cleaned_prediction": "Nicolas",
+            "gt": "Nicolas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: hot\nOutput:",
+            "test_query": "hot",
+            "prediction": "chaud\nExplanation: \nhot -> heat -> chaud\n\nHere is my Java code for the problem",
+            "cleaned_prediction": "chaud",
+            "gt": "chaud"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: scientific\nOutput:",
+            "test_query": "scientific",
+            "prediction": "scientific\n\nInput: python\nOutput: python\n\nInput: hello\nOutput: bonjour\n\nExplanation",
+            "cleaned_prediction": "scientific",
+            "gt": "scientifique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: released\nOutput:",
+            "test_query": "released",
+            "prediction": "lib\u00e9r\u00e9\nExplanation:  The English word'released' means 'lib\u00e9r\u00e9' in French",
+            "cleaned_prediction": "lib\u00e9r\u00e9",
+            "gt": "lib\u00e9r\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: substantial\nOutput:",
+            "test_query": "substantial",
+            "prediction": "substantiel\n\nExplanation: Translation of \"substantial\" to French, which is \"substantiel",
+            "cleaned_prediction": "substantiel",
+            "gt": "substantiel"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: com\nOutput:",
+            "test_query": "com",
+            "prediction": "come\n\nExplanation: The word \"come\" is the translation of the word \"com\" in English",
+            "cleaned_prediction": "come",
+            "gt": "dot com - point com"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: girl\nOutput:",
+            "test_query": "girl",
+            "prediction": "fille\n\nInput: hello\nOutput: bonjour\n\nInput: world\nOutput: monde\n\nInput",
+            "cleaned_prediction": "fille",
+            "gt": "fille"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: eldest\nOutput:",
+            "test_query": "eldest",
+            "prediction": "a\u00een\u00e9(e)\nExplanation: a\u00een\u00e9(e) is the French word for \"eldest",
+            "cleaned_prediction": "a\u00een\u00e9(e)",
+            "gt": "a\u00een\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: funny\nOutput:",
+            "test_query": "funny",
+            "prediction": "dr\u00f4le\n\nHere is the Python function to achieve the translation:\n\n```python\nimport googletrans",
+            "cleaned_prediction": "dr\u00f4le",
+            "gt": "dr\u00f4le"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: victories\nOutput:",
+            "test_query": "victories",
+            "prediction": "\"victoires\"\n\nInput: hello\nOutput: \"bonjour\"\n\nInput: python",
+            "cleaned_prediction": "\"victoires\"",
+            "gt": "victoires"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: eagles\nOutput:",
+            "test_query": "eagles",
+            "prediction": "\"les aigles\" \n\nExplanation: The word \"eagles\" in English translates to",
+            "cleaned_prediction": "\"les aigles\"",
+            "gt": "aigles"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: increasing\nOutput:",
+            "test_query": "increasing",
+            "prediction": "croissant\n\nExplanation: The word \"increasing\" in English is translated to \"croissant\"",
+            "cleaned_prediction": "croissant",
+            "gt": "augmentant"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: promoting\nOutput:",
+            "test_query": "promoting",
+            "prediction": "promoting\nExplanation: The word \"promoting\" is a palindrome, i.e., it reads the",
+            "cleaned_prediction": "promoting",
+            "gt": "promouvoir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: mosque\nOutput:",
+            "test_query": "mosque",
+            "prediction": "mosqu\u00e9e\n\nNote: The problem is to translate words from English to French. This problem is",
+            "cleaned_prediction": "mosqu\u00e9e",
+            "gt": "mosqu\u00e9e"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: bavaria\nOutput:",
+            "test_query": "bavaria",
+            "prediction": "Bavi\u00e8re\n\nExplanation: The word is translated from English to French.\n\"bavaria\"",
+            "cleaned_prediction": "Bavi\u00e8re",
+            "gt": "Bavi\u00e8re"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: explains\nOutput:",
+            "test_query": "explains",
+            "prediction": "\"explains\"\n\nExplanation: This function should not perform any translation. It simply returns the input string",
+            "cleaned_prediction": "\"explains\"",
+            "gt": "explique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: nice\nOutput:",
+            "test_query": "nice",
+            "prediction": "sympa\nExplanation: The word \"nice\" translates to French as \"sympa\".\nNote",
+            "cleaned_prediction": "sympa",
+            "gt": "agr\u00e9able"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: august\nOutput:",
+            "test_query": "august",
+            "prediction": "ao\u00fbt\n\nExplanation: \nAugust is the 8th month of the year. In French,",
+            "cleaned_prediction": "ao\u00fbt",
+            "gt": "ao\u00fbt"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: soviet\nOutput:",
+            "test_query": "soviet",
+            "prediction": "sovi\u00e9tique\n\nExplanation: Direct translation from English to French. \nNote: The input word is",
+            "cleaned_prediction": "sovi\u00e9tique",
+            "gt": "sovi\u00e9tique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: answers\nOutput:",
+            "test_query": "answers",
+            "prediction": "r\u00e9ponses\nExplanation: answers can be translated to French as r\u00e9ponses, which is the same part",
+            "cleaned_prediction": "r\u00e9ponses",
+            "gt": "r\u00e9ponses"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: personalities\nOutput:",
+            "test_query": "personalities",
+            "prediction": "Personalit\u00e9s\nNote: Ignore the case of the input.\n\n**Solution**\n```python\ndef translate",
+            "cleaned_prediction": "Personalit\u00e9s",
+            "gt": "personnalit\u00e9s"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: seconds\nOutput:",
+            "test_query": "seconds",
+            "prediction": "seconde\n\nNote: You may assume that the word will only be translated to French.\n\nExample:",
+            "cleaned_prediction": "seconde",
+            "gt": "secondes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: load\nOutput:",
+            "test_query": "load",
+            "prediction": "charger\n\nExplanation: charger is the French translation of the English word load.\n\nConstraints:\n1. The",
+            "cleaned_prediction": "charger",
+            "gt": "charger"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: accounts\nOutput:",
+            "test_query": "accounts",
+            "prediction": "comptes\n\nExplanation: Simple translation of account from English to French is compte.\nHere are the steps",
+            "cleaned_prediction": "comptes",
+            "gt": "comptes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: olympics\nOutput:",
+            "test_query": "olympics",
+            "prediction": "les jeux olympiques\n\nExplanation:\n- Split the input word into a list of words based on",
+            "cleaned_prediction": "les jeux olympiques",
+            "gt": "olympiques"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: founded\nOutput:",
+            "test_query": "founded",
+            "prediction": "\"founded\"\nExplanation: The word \"founded\" in English translates directly to the same word",
+            "cleaned_prediction": "\"founded\"",
+            "gt": "fond\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: suspected\nOutput:",
+            "test_query": "suspected",
+            "prediction": "suspect\u00e9\nExplanation: In French, the verb \"to suspect\" is \"soup\u00e7onner\".",
+            "cleaned_prediction": "suspect\u00e9",
+            "gt": "suspect\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: chose\nOutput:",
+            "test_query": "chose",
+            "prediction": "choisissez\n\nExplanation: The translation of \"chose\" in French is \"choisissez",
+            "cleaned_prediction": "choisissez",
+            "gt": "choisi"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: claimed\nOutput:",
+            "test_query": "claimed",
+            "prediction": "Revendiqu\u00e9\n\nExplanation: We translate word by word, and handle any necessary adjustments. \"claimed",
+            "cleaned_prediction": "Revendiqu\u00e9",
+            "gt": "revendiqu\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: groups\nOutput:",
+            "test_query": "groups",
+            "prediction": "groupes\nExplanation:\nThe letter 'g' is the same in both English and French.\nThe",
+            "cleaned_prediction": "groupes",
+            "gt": "groupes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: riding\nOutput:",
+            "test_query": "riding",
+            "prediction": "RIDE\n\nExplanation: The word has only 5 letters and the translation is the same as the",
+            "cleaned_prediction": "RIDE",
+            "gt": "\u00e9quitation"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: fails\nOutput:",
+            "test_query": "fails",
+            "prediction": "\u00e9choue\n\nExplanation: We have to translate \"fails\" to French. The word \"",
+            "cleaned_prediction": "\u00e9choue",
+            "gt": "\u00e9choue"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: enough\nOutput:",
+            "test_query": "enough",
+            "prediction": "Assez\n\nExplanation: Assez means enough in french. It is an informal expression. The more",
+            "cleaned_prediction": "Assez",
+            "gt": "assez"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: removal\nOutput:",
+            "test_query": "removal",
+            "prediction": "removal\n\nExplanation: The word \"removal\" has only French and English letters. It is a",
+            "cleaned_prediction": "removal",
+            "gt": "enl\u00e8vement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: satisfy\nOutput:",
+            "test_query": "satisfy",
+            "prediction": "satisfaire\nExplanation: The translation of the word \"satisfy\" in English to",
+            "cleaned_prediction": "satisfaire",
+            "gt": "satisfaire"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: extent\nOutput:",
+            "test_query": "extent",
+            "prediction": "\"extent\"\n\nExplanation: The word \"extent\" is not a French word. It seems that there",
+            "cleaned_prediction": "\"extent\"",
+            "gt": "\u00e9tendue"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: friends\nOutput:",
+            "test_query": "friends",
+            "prediction": "amis\n\nInput: hello\nOutput: bonjour\n\nInput: dog\nOutput: chien",
+            "cleaned_prediction": "amis",
+            "gt": "amis"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: concerns\nOutput:",
+            "test_query": "concerns",
+            "prediction": "\"il s'agit de\"\nExplanation: \n\"il\" is a pronoun meaning \"he",
+            "cleaned_prediction": "\"il s'agit de\"",
+            "gt": "pr\u00e9occupations"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: hey\nOutput:",
+            "test_query": "hey",
+            "prediction": "hey\n\nExplanation: The word \"hey\" is a valid English word that also happens to be valid",
+            "cleaned_prediction": "hey",
+            "gt": "salut"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: thought\nOutput:",
+            "test_query": "thought",
+            "prediction": "pens\u00e9e\n\nExplanation: Using a dictionary or translation tool, we can look up the English word \"",
+            "cleaned_prediction": "pens\u00e9e",
+            "gt": "pens\u00e9e"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: gardens\nOutput:",
+            "test_query": "gardens",
+            "prediction": "\"les jardins\"\n\nExplanation: \"les\" is the definite article in French that means \"",
+            "cleaned_prediction": "\"les jardins\"",
+            "gt": "jardins"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: creek\nOutput:",
+            "test_query": "creek",
+            "prediction": "ruisseau\nExplanation: creek in English is ruisseau in French.\nInput: cat",
+            "cleaned_prediction": "ruisseau",
+            "gt": "ruisseau"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: path\nOutput:",
+            "test_query": "path",
+            "prediction": "chemin\nNote: In Python, we can use the googletrans library to do this.\nThe first",
+            "cleaned_prediction": "chemin",
+            "gt": "chemin"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: requirement\nOutput:",
+            "test_query": "requirement",
+            "prediction": "Exigence\n\nTranslation Rules:\n- If the word is a noun, translate the noun by a",
+            "cleaned_prediction": "Exigence",
+            "gt": "exigence"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: walk\nOutput:",
+            "test_query": "walk",
+            "prediction": "marche\n\nExplanation: \nIn the English language, the verb \"walk\" is translated to French",
+            "cleaned_prediction": "marche",
+            "gt": "marcher"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: poems\nOutput:",
+            "test_query": "poems",
+            "prediction": "po\u00e8mes\n\nExplanation: Since poems is a plural noun, the French translation is also plural. If",
+            "cleaned_prediction": "po\u00e8mes",
+            "gt": "po\u00e8mes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: orchestra\nOutput:",
+            "test_query": "orchestra",
+            "prediction": "orchestre\n\nExplanation: The program should translate the word 'orchestra' from English to French",
+            "cleaned_prediction": "orchestre",
+            "gt": "orchestre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tenth\nOutput:",
+            "test_query": "tenth",
+            "prediction": "dixi\u00e8me\n\nExplanation: The word \"tenth\" in English means \"dixi\u00e8me\"",
+            "cleaned_prediction": "dixi\u00e8me",
+            "gt": "dixi\u00e8me"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: papers\nOutput:",
+            "test_query": "papers",
+            "prediction": "\"papers\"\n\nInput: hello\nOutput: \"hello\"\n\nInput: papers\nOutput: \"papers",
+            "cleaned_prediction": "\"papers\"",
+            "gt": "papiers"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: hunt\nOutput:",
+            "test_query": "hunt",
+            "prediction": "chasse\n\nExplanation: \n- The word \"hunt\" in English is spelled as \"chasse",
+            "cleaned_prediction": "chasse",
+            "gt": "chasser"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: planets\nOutput:",
+            "test_query": "planets",
+            "prediction": "plan\u00e8tes\nInput: hello\nOutput: bonjour\nInput: apple\nOutput: pom",
+            "cleaned_prediction": "plan\u00e8tes",
+            "gt": "plan\u00e8tes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: handled\nOutput:",
+            "test_query": "handled",
+            "prediction": "g\u00e9r\u00e9\nExplanation: \nThe word \"handled\" is composed of two parts: \"hand-\"",
+            "cleaned_prediction": "g\u00e9r\u00e9",
+            "gt": "g\u00e9r\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: picture\nOutput:",
+            "test_query": "picture",
+            "prediction": "image\n\nInput: test\nOutput: test\n\nInput: house\nOutput: maison\n\nInput:",
+            "cleaned_prediction": "image",
+            "gt": "image"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: gold\nOutput:",
+            "test_query": "gold",
+            "prediction": "\"or\"\nExplanation: The word gold is translated to \"or\" in French.\nNote: The",
+            "cleaned_prediction": "\"or\"",
+            "gt": "or"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: husband\nOutput:",
+            "test_query": "husband",
+            "prediction": "mari\nExplanation: The English word \"husband\" is translated to \"mari\" in French",
+            "cleaned_prediction": "mari",
+            "gt": "mari"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: looking\nOutput:",
+            "test_query": "looking",
+            "prediction": "regardant\n\nExplanation: The word \"looking\" can be broken down into \"look\" and \"",
+            "cleaned_prediction": "regardant",
+            "gt": "regardant"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: argentina\nOutput:",
+            "test_query": "argentina",
+            "prediction": "argentine\n\nExplanation: The input word \"argentina\" is translated to \"argentine\" in",
+            "cleaned_prediction": "argentine",
+            "gt": "argentine"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: symbols\nOutput:",
+            "test_query": "symbols",
+            "prediction": "symboles\n\n\"\"\"\ndef translate_word(word):\n    dictionary = {'hello': 'bonjour',",
+            "cleaned_prediction": "symboles",
+            "gt": "symboles"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: taiwan\nOutput:",
+            "test_query": "taiwan",
+            "prediction": "Taiwan\n\nExplanation: Taiwan is officially known as Taiwan, and it should not be translated to \"Ta",
+            "cleaned_prediction": "Taiwan",
+            "gt": "Ta\u00efwan"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: likewise\nOutput:",
+            "test_query": "likewise",
+            "prediction": "de m\u00eame\n\nExplanation: This is a simple translation problem. The goal is to translate the input English",
+            "cleaned_prediction": "de m\u00eame",
+            "gt": "de m\u00eame"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: highly\nOutput:",
+            "test_query": "highly",
+            "prediction": "tr\u00e8s\nExplanation:  In the word \"highly\", the words starting from 'h' to",
+            "cleaned_prediction": "tr\u00e8s",
+            "gt": "hautement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: kings\nOutput:",
+            "test_query": "kings",
+            "prediction": "rois\n\nExplanation: kings translates to rois in French. rois is the French word for",
+            "cleaned_prediction": "rois",
+            "gt": "rois"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: fundamental\nOutput:",
+            "test_query": "fundamental",
+            "prediction": "\"fondamental\"\n\nExplanation: The word \"fundamental\" in English translates to \"fond",
+            "cleaned_prediction": "\"fondamental\"",
+            "gt": "fondamental"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: monastery\nOutput:",
+            "test_query": "monastery",
+            "prediction": "monastery\nInput: hello\nOutput: bonjour\nInput: cat\nOutput: chat\nNote",
+            "cleaned_prediction": "monastery",
+            "gt": "monast\u00e8re"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: sessions\nOutput:",
+            "test_query": "sessions",
+            "prediction": "sessions\n\nExplanation: The word \"sessions\" is an English word that has a direct translation to French",
+            "cleaned_prediction": "sessions",
+            "gt": "s\u00e9ances"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: become\nOutput:",
+            "test_query": "become",
+            "prediction": "\"devenir\"\n\nExplanation: The word \"become\" is translated to \"devenir\" in",
+            "cleaned_prediction": "\"devenir\"",
+            "gt": "devenir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: movement\nOutput:",
+            "test_query": "movement",
+            "prediction": "\"movement\"\nExplanation: The word \"movement\" in English is the same in French.\n\nInput:",
+            "cleaned_prediction": "\"movement\"",
+            "gt": "mouvement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: springs\nOutput:",
+            "test_query": "springs",
+            "prediction": "sources\n\nExplanation: The word \"springs\" has a direct French translation of \"sources\".\n```",
+            "cleaned_prediction": "sources",
+            "gt": "ressorts"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: dark\nOutput:",
+            "test_query": "dark",
+            "prediction": "noir\nExplanation: \"dark\" in French is \"noir\".\n\nGiven a word in English,",
+            "cleaned_prediction": "noir",
+            "gt": "sombre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: bet\nOutput:",
+            "test_query": "bet",
+            "prediction": "'b\u00e9tail'\n\nExplanation: The word 'bet' is translated to 'b\u00e9tail'.",
+            "cleaned_prediction": "'b\u00e9tail'",
+            "gt": "pari"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: painters\nOutput:",
+            "test_query": "painters",
+            "prediction": "les peintres\n\nExplanation: We use a dictionary to map English words to their French translations.",
+            "cleaned_prediction": "les peintres",
+            "gt": "peintres"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: stones\nOutput:",
+            "test_query": "stones",
+            "prediction": "pierres\n\nExplanation: The English word \"stones\" translates to the French word \"pierres",
+            "cleaned_prediction": "pierres",
+            "gt": "pierres"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: frankfurt\nOutput:",
+            "test_query": "frankfurt",
+            "prediction": "FRANKFURT\n\nExplanation: The word frankfurt is not a valid French word. The output should",
+            "cleaned_prediction": "FRANKFURT",
+            "gt": "Francfort"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: returns\nOutput:",
+            "test_query": "returns",
+            "prediction": "retours\nNote: This is a simple translation problem, and you don't need to handle any",
+            "cleaned_prediction": "retours",
+            "gt": "retours"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: carpenter\nOutput:",
+            "test_query": "carpenter",
+            "prediction": "charpentier\n\nHere is a simple translation of the English word to French.\n```python\ndef",
+            "cleaned_prediction": "charpentier",
+            "gt": "charpentier"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: winner\nOutput:",
+            "test_query": "winner",
+            "prediction": "\"vainqueur\"\nExplanation: The word \"winner\" is translated to French as \"v",
+            "cleaned_prediction": "\"vainqueur\"",
+            "gt": "gagnant"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: reach\nOutput:",
+            "test_query": "reach",
+            "prediction": "atteindre\n\nInput: help\nOutput: aide\n\nInput: learn\nOutput: apprendre",
+            "cleaned_prediction": "atteindre",
+            "gt": "atteindre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: healthy\nOutput:",
+            "test_query": "healthy",
+            "prediction": "sain\nExplanation: The words are spelled similarly, with the first and last letters swapped, and",
+            "cleaned_prediction": "sain",
+            "gt": "sain"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: march\nOutput:",
+            "test_query": "march",
+            "prediction": "\"marche\"\n\nExplanation: The word \"march\" in English translates to \"march",
+            "cleaned_prediction": "\"marche\"",
+            "gt": "mars"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: assessed\nOutput:",
+            "test_query": "assessed",
+            "prediction": "\u00e9valu\u00e9\nExplanation: The first character 'a' in English is mapped to '\u00e9'",
+            "cleaned_prediction": "\u00e9valu\u00e9",
+            "gt": "\u00e9valu\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: story\nOutput:",
+            "test_query": "story",
+            "prediction": "histoire\n\nExplanation: story is a noun, and it's a direct translation.\nInput: stories",
+            "cleaned_prediction": "histoire",
+            "gt": "histoire"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: fifteen\nOutput:",
+            "test_query": "fifteen",
+            "prediction": "quinze\n\nExplanation:\nEnglish: 15\nFrench: quinze\n\nNote:\nOne",
+            "cleaned_prediction": "quinze",
+            "gt": "quinze"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: elements\nOutput:",
+            "test_query": "elements",
+            "prediction": "\u00e9l\u00e9ments\n\n## Step 1: Identify the task\nThe task is to translate a word from",
+            "cleaned_prediction": "\u00e9l\u00e9ments",
+            "gt": "\u00e9l\u00e9ments"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: problematic\nOutput:",
+            "test_query": "problematic",
+            "prediction": "difficult\nExplanation: The word \"problematic\" in English is translated to \"difficult\" in",
+            "cleaned_prediction": "difficult",
+            "gt": "probl\u00e9matique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: rebels\nOutput:",
+            "test_query": "rebels",
+            "prediction": "les rebelles\n\nExplanation:\n1. The English word \"rebels\" is split into individual letters",
+            "cleaned_prediction": "les rebelles",
+            "gt": "rebelles"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: talk\nOutput:",
+            "test_query": "talk",
+            "prediction": "We can break down the word \"talk\" into its constituent parts: the root \"talk-\"",
+            "cleaned_prediction": "We can break down the word \"talk\" into its constituent parts: the root \"talk-\"",
+            "gt": "parler"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: restoration\nOutput:",
+            "test_query": "restoration",
+            "prediction": "\"restauration\" (French translation of \"restoration\")\n\nExample: \nInput: \"hello",
+            "cleaned_prediction": "\"restauration\" (French translation of \"restoration\")",
+            "gt": "restauration"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: review\nOutput:",
+            "test_query": "review",
+            "prediction": "review\n\nExplanation: The word \"review\" has the same meaning in both languages. The translation would",
+            "cleaned_prediction": "review",
+            "gt": "r\u00e9vision"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: adequate\nOutput:",
+            "test_query": "adequate",
+            "prediction": "\"Suffisant\"\n    \"Adequat\"\n\nExplanation:\n    In French,",
+            "cleaned_prediction": "\"Suffisant\"",
+            "gt": "ad\u00e9quat"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: biblical\nOutput:",
+            "test_query": "biblical",
+            "prediction": "biblique\n\nExplanation: The word \"biblical\" translates to \"biblique\" in French.",
+            "cleaned_prediction": "biblique",
+            "gt": "biblique"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: verifiable\nOutput:",
+            "test_query": "verifiable",
+            "prediction": "v\u00e9rifiable\n\nExplanation:\nThe input string \"verifiable\" can be translated to French word \"v",
+            "cleaned_prediction": "v\u00e9rifiable",
+            "gt": "v\u00e9rifiable"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tobacco\nOutput:",
+            "test_query": "tobacco",
+            "prediction": "tabac\nExplanation: tobacco is translated to tabac in French.\n\nInput: cat\nOutput:",
+            "cleaned_prediction": "tabac",
+            "gt": "tabac"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: austria\nOutput:",
+            "test_query": "austria",
+            "prediction": "\"autriche\"\n\nInput: hello\nOutput: \"bonjour\" \n\nInput: computer",
+            "cleaned_prediction": "\"autriche\"",
+            "gt": "autriche"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: roller\nOutput:",
+            "test_query": "roller",
+            "prediction": "rouleau\n\nHere is the translation code for this problem in Python:\n```python\ndef translate",
+            "cleaned_prediction": "rouleau",
+            "gt": "rouleau"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: journey\nOutput:",
+            "test_query": "journey",
+            "prediction": "\"la\" \"marche\"  (Note that the translation of \"journey\" is",
+            "cleaned_prediction": "\"la\" \"marche\"  (Note that the translation of \"journey\" is",
+            "gt": "voyage"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: big\nOutput:",
+            "test_query": "big",
+            "prediction": "\"big\" in French is: grand\nInput: car\nOutput: \"car\" in French",
+            "cleaned_prediction": "\"big\" in French is: grand",
+            "gt": "grand"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: drummer\nOutput:",
+            "test_query": "drummer",
+            "prediction": "batteur\nExplanation: It is simple translation using a dictionary.\n\nExample:\nInput: hello",
+            "cleaned_prediction": "batteur",
+            "gt": "batteur"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: explained\nOutput:",
+            "test_query": "explained",
+            "prediction": "\"explained\" translates to \"expliqu\u00e9\".\n\nExplanation:\n1. We create a dictionary that maps",
+            "cleaned_prediction": "\"explained\" translates to \"expliqu\u00e9\".",
+            "gt": "expliqu\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: christianity\nOutput:",
+            "test_query": "christianity",
+            "prediction": "christianisme\n\nExplanation: The word \"christianity\" is translated to \"christianisme\"",
+            "cleaned_prediction": "christianisme",
+            "gt": "christianisme"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: ministers\nOutput:",
+            "test_query": "ministers",
+            "prediction": "\"ministres\" \n\nExplanation: The translation from \"ministers\" to French is \"min",
+            "cleaned_prediction": "\"ministres\"",
+            "gt": "ministres"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: difficulties\nOutput:",
+            "test_query": "difficulties",
+            "prediction": "les difficult\u00e9s\n\nExplanation: In English, the word \"difficulties\" is a plural noun",
+            "cleaned_prediction": "les difficult\u00e9s",
+            "gt": "difficult\u00e9s"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: template\nOutput:",
+            "test_query": "template",
+            "prediction": "mod\u00e8les\n\nGiven a word in English, translate to French.\nInput: words\nOutput: mots",
+            "cleaned_prediction": "mod\u00e8les",
+            "gt": "mod\u00e8le"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: ethnicity\nOutput:",
+            "test_query": "ethnicity",
+            "prediction": "Ethnie\n\nExplanation: The program first needs to get the input word \"ethnicity\" and then",
+            "cleaned_prediction": "Ethnie",
+            "gt": "ethnicit\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: dependent\nOutput:",
+            "test_query": "dependent",
+            "prediction": "d\u00e9pendant\n\nExplanation: The word \"dependent\" in English translates to \"d\u00e9pendant",
+            "cleaned_prediction": "d\u00e9pendant",
+            "gt": "d\u00e9pendant"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: charged\nOutput:",
+            "test_query": "charged",
+            "prediction": "charg\u00e9\nInput:  python\nOutput: python\nInput:  testing123\nOutput:",
+            "cleaned_prediction": "charg\u00e9",
+            "gt": "charg\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: heights\nOutput:",
+            "test_query": "heights",
+            "prediction": "hauteurs\n\n## Step 1: Identify the English word to be translated\nThe word given is",
+            "cleaned_prediction": "hauteurs",
+            "gt": "hauteurs"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: correctly\nOutput:",
+            "test_query": "correctly",
+            "prediction": "Correctement\n\nExplanation: \nCorrectly -  Correctement\n\n```python\ndef translate_word_to",
+            "cleaned_prediction": "Correctement",
+            "gt": "correctement"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: bottom\nOutput:",
+            "test_query": "bottom",
+            "prediction": "\"bas\"\n\nExplanation:\nThe given word is \"bottom\". We need to translate it to French.",
+            "cleaned_prediction": "\"bas\"",
+            "gt": "fond"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: assumption\nOutput:",
+            "test_query": "assumption",
+            "prediction": "\"assumption\"\n\nExplanation: The word \"assumption\" doesn't have a French translation, it",
+            "cleaned_prediction": "\"assumption\"",
+            "gt": "supposition"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: singers\nOutput:",
+            "test_query": "singers",
+            "prediction": "chanteurs\n\nExplanation: This problem is asking us to translate the English word'singers'",
+            "cleaned_prediction": "chanteurs",
+            "gt": "chanteurs"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: end\nOutput:",
+            "test_query": "end",
+            "prediction": "fin\n\nInput: cat\nOutput: chat\n\nInput: run\nOutput: courir\n\nInput",
+            "cleaned_prediction": "fin",
+            "gt": "fin"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: gross\nOutput:",
+            "test_query": "gross",
+            "prediction": "gras\n\nExplanation: The given word is \"gross\". To translate to French, we need to change",
+            "cleaned_prediction": "gras",
+            "gt": "d\u00e9go\u00fbtant"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: spoken\nOutput:",
+            "test_query": "spoken",
+            "prediction": "parl\u00e9\nExplanation: The French translation of \"spoken\" is \"parl\u00e9\".\n \nExample:",
+            "cleaned_prediction": "parl\u00e9",
+            "gt": "parl\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: several\nOutput:",
+            "test_query": "several",
+            "prediction": "de nombreux\n\nExplanation:\n- several: several\n  - Translate \"several\" to French.",
+            "cleaned_prediction": "de nombreux",
+            "gt": "plusieurs"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: voted\nOutput:",
+            "test_query": "voted",
+            "prediction": "a vot\u00e9\n\nExplanation: \"voted\" in English translates to \"a vot\u00e9\" in",
+            "cleaned_prediction": "a vot\u00e9",
+            "gt": "vot\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: winds\nOutput:",
+            "test_query": "winds",
+            "prediction": "vents\n\nExplanation: The code should translate the word \"winds\" from English to French. It",
+            "cleaned_prediction": "vents",
+            "gt": "vents"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: smooth\nOutput:",
+            "test_query": "smooth",
+            "prediction": "lisse\n\nInput: cat\nOutput: chat\n\nInput: apple\nOutput: pomme",
+            "cleaned_prediction": "lisse",
+            "gt": "lisse"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: reserved\nOutput:",
+            "test_query": "reserved",
+            "prediction": "rrv\u00e9s\u00e9d\n\nExplanation: \nFirst, we separate the word into characters: r, e",
+            "cleaned_prediction": "rrv\u00e9s\u00e9d",
+            "gt": "r\u00e9serv\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: ordinary\nOutput:",
+            "test_query": "ordinary",
+            "prediction": "normal\nExplanation: Both ordinary and normal are synonyms, they can be used interchangeably in this context",
+            "cleaned_prediction": "normal",
+            "gt": "ordinaire"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: sand\nOutput:",
+            "test_query": "sand",
+            "prediction": "sable\n\nExplanation:\n\"Sand\" in English translates to \"sable\" in French.",
+            "cleaned_prediction": "sable",
+            "gt": "sable"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: sky\nOutput:",
+            "test_query": "sky",
+            "prediction": "ciel\n\nExplanation:\nThe problem involves translating English words into their French equivalents.\nThe solution will consist",
+            "cleaned_prediction": "ciel",
+            "gt": "ciel"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: ruler\nOutput:",
+            "test_query": "ruler",
+            "prediction": "R\u00e8gle\n\nExplanation:\nThe word \"ruler\" means the same thing as the French word",
+            "cleaned_prediction": "R\u00e8gle",
+            "gt": "r\u00e8gle"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: volleyball\nOutput:",
+            "test_query": "volleyball",
+            "prediction": "volley-ball\n\nExplanation: The translation is direct word by word.\n```python\ndef translate_to_f",
+            "cleaned_prediction": "volley-ball",
+            "gt": "volley-ball"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: accepted\nOutput:",
+            "test_query": "accepted",
+            "prediction": "accept\u00e9\n\nHere is my solution in Python:\n\n```python\ndef french_translation(word):\n    \"\"\"",
+            "cleaned_prediction": "accept\u00e9",
+            "gt": "accept\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tigers\nOutput:",
+            "test_query": "tigers",
+            "prediction": "tigres\n\nExplanation: tigers has 6 letters and since 6 is divisible by",
+            "cleaned_prediction": "tigres",
+            "gt": "tigres"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: surrender\nOutput:",
+            "test_query": "surrender",
+            "prediction": "\"capituler\"\n\nExamples (Input/Output):\n\n- \"hello\" -> \"bonjour\"",
+            "cleaned_prediction": "\"capituler\"",
+            "gt": "capituler"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: dogs\nOutput:",
+            "test_query": "dogs",
+            "prediction": "\"chiens\"\nExplanation: The translation from English to French is not exact, but \"chiens",
+            "cleaned_prediction": "\"chiens\"",
+            "gt": "chiens"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: turn\nOutput:",
+            "test_query": "turn",
+            "prediction": "\"tourner\"\n\nExplanation: \"turn\" is an English word. \"tourner\" is its",
+            "cleaned_prediction": "\"tourner\"",
+            "gt": "tourner"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: overlaps\nOutput:",
+            "test_query": "overlaps",
+            "prediction": "chevauchement\n\nThis is a dictionary translation problem.\n\n## Step 1: Identify the words",
+            "cleaned_prediction": "chevauchement",
+            "gt": "chevauchements"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: forest\nOutput:",
+            "test_query": "forest",
+            "prediction": "for\u00eat\nExplanation: The given word is \"forest\". To translate it to French, we need",
+            "cleaned_prediction": "for\u00eat",
+            "gt": "for\u00eat"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: anniversary\nOutput:",
+            "test_query": "anniversary",
+            "prediction": "anniversaire\n\nIn this problem, you will be given a word in English and need to translate",
+            "cleaned_prediction": "anniversaire",
+            "gt": "anniversaire"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: japanese\nOutput:",
+            "test_query": "japanese",
+            "prediction": "japonais\n\n```python\ndef translate_to_french(word):\n    \"\"\"\n    Translate an English word",
+            "cleaned_prediction": "japonais",
+            "gt": "japonais"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tree\nOutput:",
+            "test_query": "tree",
+            "prediction": "\"arbre\"\n\nExplanation: Using the dictionary provided, we know that \"tree\" translates to \"",
+            "cleaned_prediction": "\"arbre\"",
+            "gt": "arbre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: abstract\nOutput:",
+            "test_query": "abstract",
+            "prediction": "abstrait\n\nExplanation: abstrait is the French translation of the English word abstract.\n\nNote",
+            "cleaned_prediction": "abstrait",
+            "gt": "abstrait"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: discuss\nOutput:",
+            "test_query": "discuss",
+            "prediction": "discuter\n\nExplanation: The word 'discuss' in English translates to 'discuter' in",
+            "cleaned_prediction": "discuter",
+            "gt": "discuter"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: rear\nOutput:",
+            "test_query": "rear",
+            "prediction": "arri\u00e8re\n\nNote: The word is translated using the standard French translation.\n```python\ndef translate",
+            "cleaned_prediction": "arri\u00e8re",
+            "gt": "arri\u00e8re"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: penalties\nOutput:",
+            "test_query": "penalties",
+            "prediction": "p\u00e9nalit\u00e9s\n\nExplanation: \n'penalties' -> 'penalit\u00e9s'\n'p",
+            "cleaned_prediction": "p\u00e9nalit\u00e9s",
+            "gt": "p\u00e9nalit\u00e9s"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: elementary\nOutput:",
+            "test_query": "elementary",
+            "prediction": "\u00e9l\u00e9mentaire\n\nExplanation: Since the word \"elementary\" has 10 characters, we can",
+            "cleaned_prediction": "\u00e9l\u00e9mentaire",
+            "gt": "\u00e9l\u00e9mentaire"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: emphasis\nOutput:",
+            "test_query": "emphasis",
+            "prediction": "l'accent\nExplanation: The English word \"emphasis\" translates to \"l'accent\" in",
+            "cleaned_prediction": "l'accent",
+            "gt": "accentuation"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: products\nOutput:",
+            "test_query": "products",
+            "prediction": "\"produits\"\n\nExplanation: Using a dictionary to map the words from English to French, we can",
+            "cleaned_prediction": "\"produits\"",
+            "gt": "produits"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: apply\nOutput:",
+            "test_query": "apply",
+            "prediction": "appliquer\nInput: cloud\nOutput: nuage\nInput: apple\nOutput: pomme",
+            "cleaned_prediction": "appliquer",
+            "gt": "appliquer"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: flag\nOutput:",
+            "test_query": "flag",
+            "prediction": "drapeau\nInput: cat\nOutput: chat\n\n## Step 1: Define the problem",
+            "cleaned_prediction": "drapeau",
+            "gt": "drapeau"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tan\nOutput:",
+            "test_query": "tan",
+            "prediction": "tan\n\nExplanation: It is not necessary to translate the word tan.\nInput: apple\nOutput:",
+            "cleaned_prediction": "tan",
+            "gt": "bronzage"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: defenders\nOutput:",
+            "test_query": "defenders",
+            "prediction": "D\u00e9fenseurs\nExplanation: defenders -> D\u00e9fenseurs (D\u00e9fenseur is the",
+            "cleaned_prediction": "D\u00e9fenseurs",
+            "gt": "d\u00e9fenseurs"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: participated\nOutput:",
+            "test_query": "participated",
+            "prediction": "particip\u00e9\nExplanation: The word \"participated\" in English is translated to \"particip",
+            "cleaned_prediction": "particip\u00e9",
+            "gt": "particip\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: recently\nOutput:",
+            "test_query": "recently",
+            "prediction": "r\u00e9cemment\n\nExample Use Cases:\n\n* Translate \"hello\" to French: bonjour\n*",
+            "cleaned_prediction": "r\u00e9cemment",
+            "gt": "r\u00e9cemment"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: brooks\nOutput:",
+            "test_query": "brooks",
+            "prediction": "\"brooks\" is in English. Please translate to French. \"Les ruisseaux\".\n\nExplanation",
+            "cleaned_prediction": "\"brooks\" is in English. Please translate to French. \"Les ruisseaux\".",
+            "gt": "ruisseaux"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: scene\nOutput:",
+            "test_query": "scene",
+            "prediction": "sc\u00e8ne\n\nConstraints:\n- The word only contains lowercase English letters and/or apostrophes, e",
+            "cleaned_prediction": "sc\u00e8ne",
+            "gt": "sc\u00e8ne"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: tools\nOutput:",
+            "test_query": "tools",
+            "prediction": "\"outils\"\nExplanation: Each letter in \"tools\" is translated to its French alphabet/letter",
+            "cleaned_prediction": "\"outils\"",
+            "gt": "outils"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: experiments\nOutput:",
+            "test_query": "experiments",
+            "prediction": "\"experimens\"\n\nExplanation: This function simply translates the input string from English to French. This",
+            "cleaned_prediction": "\"experimens\"",
+            "gt": "exp\u00e9riences"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: eleven\nOutput:",
+            "test_query": "eleven",
+            "prediction": "\"Onze\"\n\nExplanation: It is the number \"eleven\" in English, and the number",
+            "cleaned_prediction": "\"Onze\"",
+            "gt": "onze"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: progressive\nOutput:",
+            "test_query": "progressive",
+            "prediction": "progressif\n\nExplanation:\nThe input word is \"progressive\". The word \"progressive\" is",
+            "cleaned_prediction": "progressif",
+            "gt": "progressif"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: line\nOutput:",
+            "test_query": "line",
+            "prediction": "\"line\"\n\nInput: \"Hello\"\nOutput: \"Bonjour\"\n\nInput: \"Hello, World\"",
+            "cleaned_prediction": "\"line\"",
+            "gt": "ligne"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: parishes\nOutput:",
+            "test_query": "parishes",
+            "prediction": "paroisses\n\nExplanation:\nThe translation is from English to French.\nparishes is translated to par",
+            "cleaned_prediction": "paroisses",
+            "gt": "paroisses"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: partial\nOutput:",
+            "test_query": "partial",
+            "prediction": "partial\nInput: a\nOutput: un\nInput: hello\nOutput: bonjour\nInput",
+            "cleaned_prediction": "partial",
+            "gt": "partiel"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: yeah\nOutput:",
+            "test_query": "yeah",
+            "prediction": "oui\nExplanation: It is obvious that \"yeah\" is a common expression of \"yes\" in",
+            "cleaned_prediction": "oui",
+            "gt": "ouais"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: bosnia\nOutput:",
+            "test_query": "bosnia",
+            "prediction": "bosnie\n\nExplanation: Bosnie is the French word for Bosnia.\n\nNote: This problem is a",
+            "cleaned_prediction": "bosnie",
+            "gt": "Bosnie"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: king\nOutput:",
+            "test_query": "king",
+            "prediction": "roi\n\nExplanation: The word \"king\" is translated to \"roi\" in French.\n\nInput:",
+            "cleaned_prediction": "roi",
+            "gt": "roi"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: loves\nOutput:",
+            "test_query": "loves",
+            "prediction": "```markdown\n[\n  {\"translation\": \"aimer\"},\n  {\"translation\": \"fleur",
+            "cleaned_prediction": "```markdown",
+            "gt": "aime"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: norwegian\nOutput:",
+            "test_query": "norwegian",
+            "prediction": "norv\u00e9gien\n\nNote: This problem is the same as asking to determine if a word in",
+            "cleaned_prediction": "norv\u00e9gien",
+            "gt": "norv\u00e9gien"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: hanging\nOutput:",
+            "test_query": "hanging",
+            "prediction": "en suspens\nExplanation: hanging is translated to en suspens in French.\nExample 2:",
+            "cleaned_prediction": "en suspens",
+            "gt": "pendaison"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: civilization\nOutput:",
+            "test_query": "civilization",
+            "prediction": "civilisation\n\nExplanation: The only difference between the two words is a missing's' at the",
+            "cleaned_prediction": "civilisation",
+            "gt": "civilisation"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: editorial\nOutput:",
+            "test_query": "editorial",
+            "prediction": "\u00e9ditorial\n\nConstraints:\n- Word length can be 0 to 15 characters.\n- The",
+            "cleaned_prediction": "\u00e9ditorial",
+            "gt": "\u00e9ditorial"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: volunteers\nOutput:",
+            "test_query": "volunteers",
+            "prediction": "b\u00e9n\u00e9voles\n\nHere is a simple Python solution based on a dictionary:\n\n```python\n# English",
+            "cleaned_prediction": "b\u00e9n\u00e9voles",
+            "gt": "b\u00e9n\u00e9voles"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: hotels\nOutput:",
+            "test_query": "hotels",
+            "prediction": "\"hotels\"\n\nExplanation: The word \"hotels\" is already in French, so it's",
+            "cleaned_prediction": "\"hotels\"",
+            "gt": "h\u00f4tels"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: van\nOutput:",
+            "test_query": "van",
+            "prediction": "van\n\nExplanation: The word \"van\" in English is written the same way in French.\n\nNote",
+            "cleaned_prediction": "van",
+            "gt": "fourgonnette"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: spelling\nOutput:",
+            "test_query": "spelling",
+            "prediction": "spelling\n\nThe code will simply output the same word as the input.\n\n**Code**\n\n```python",
+            "cleaned_prediction": "spelling",
+            "gt": "orthographe"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: bombs\nOutput:",
+            "test_query": "bombs",
+            "prediction": "\"bombs\"\n\nExplanation: This translation is straightforward, as the word \"bombs\" is already",
+            "cleaned_prediction": "\"bombs\"",
+            "gt": "bombes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: searches\nOutput:",
+            "test_query": "searches",
+            "prediction": "Recherches\nExplanation: The program needs to translate searches to its equivalent word in French which is",
+            "cleaned_prediction": "Recherches",
+            "gt": "recherches"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: twentieth\nOutput:",
+            "test_query": "twentieth",
+            "prediction": "twentieth\nExplanation: It is a perfect translation.\nInput: hello\nOutput: bonjour\nExplanation",
+            "cleaned_prediction": "twentieth",
+            "gt": "vingti\u00e8me"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: this\nOutput:",
+            "test_query": "this",
+            "prediction": "ca\nExplanation: 'this' is the first four letters of the English alphabet. So, '",
+            "cleaned_prediction": "ca",
+            "gt": "ceci"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: prevented\nOutput:",
+            "test_query": "prevented",
+            "prediction": "emp\u00each\u00e9e\nExplanation: This translation is based on the word \u2018prevented\u2019 which is",
+            "cleaned_prediction": "emp\u00each\u00e9e",
+            "gt": "emp\u00each\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: retreat\nOutput:",
+            "test_query": "retreat",
+            "prediction": "retrait\n\nExplanation: \"retreat\" is translated to \"retrait\" in French.\n\nExample",
+            "cleaned_prediction": "retrait",
+            "gt": "retraite"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: astronomy\nOutput:",
+            "test_query": "astronomy",
+            "prediction": "\"astronomie\"\n\nExplanation: The translation from English to French is a one-to-one mapping where",
+            "cleaned_prediction": "\"astronomie\"",
+            "gt": "astronomie"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: championship\nOutput:",
+            "test_query": "championship",
+            "prediction": "championnat\n\nHere is the Python function:\n\n```python\ndef translate_to_french(word):",
+            "cleaned_prediction": "championnat",
+            "gt": "championnat"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: planned\nOutput:",
+            "test_query": "planned",
+            "prediction": "English to French translator\n\n## Step 1: Determine the input word\nThe input word is",
+            "cleaned_prediction": "English to French translator",
+            "gt": "pr\u00e9vu"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: battalion\nOutput:",
+            "test_query": "battalion",
+            "prediction": "bataillon\n\"\"\"\n\ndef translate_to_french(word):\n    # Create a translation dictionary",
+            "cleaned_prediction": "bataillon",
+            "gt": "bataillon"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: medal\nOutput:",
+            "test_query": "medal",
+            "prediction": "m\u00e9daille\n\nGiven a word in English, translate to French.\nInput: table\nOutput: table",
+            "cleaned_prediction": "m\u00e9daille",
+            "gt": "m\u00e9daille"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: serve\nOutput:",
+            "test_query": "serve",
+            "prediction": "servir\n\nExplanation: \nThe word \"serve\" means \"servir\" in French. It",
+            "cleaned_prediction": "servir",
+            "gt": "servir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: lives\nOutput:",
+            "test_query": "lives",
+            "prediction": "Explanation: Your returned word should be \"vies\".\nExample 1:\nInput: \"hello",
+            "cleaned_prediction": "Explanation: Your returned word should be \"vies\".",
+            "gt": "vies"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: cycling\nOutput:",
+            "test_query": "cycling",
+            "prediction": "cyclisme\nExplanation: The word \"cycling\" is translated to French as \"cyclisme\".",
+            "cleaned_prediction": "cyclisme",
+            "gt": "cyclisme"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: departure\nOutput:",
+            "test_query": "departure",
+            "prediction": "d\u00e9part\nExplanation: The word is the same, but the accents are in a different place.",
+            "cleaned_prediction": "d\u00e9part",
+            "gt": "d\u00e9part"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: consistent\nOutput:",
+            "test_query": "consistent",
+            "prediction": "\"coherent\"\nExplanation: This problem is a dictionary-based translation problem, where given a word from",
+            "cleaned_prediction": "\"coherent\"",
+            "gt": "coh\u00e9rent"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: temporary\nOutput:",
+            "test_query": "temporary",
+            "prediction": "temporaire\n\nExplanation: \nThe translation for temporary is temporaire in French.\n\n```python",
+            "cleaned_prediction": "temporaire",
+            "gt": "temporaire"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: greece\nOutput:",
+            "test_query": "greece",
+            "prediction": "grec\n\nExplanation: greece is the English name of the country, grec is its French",
+            "cleaned_prediction": "grec",
+            "gt": "gr\u00e8ce"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: conquest\nOutput:",
+            "test_query": "conquest",
+            "prediction": "la conqu\u00eate\n\nExplanation: \nConquest can be translated to la conqu\u00eate in French. The",
+            "cleaned_prediction": "la conqu\u00eate",
+            "gt": "conqu\u00eate"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: convince\nOutput:",
+            "test_query": "convince",
+            "prediction": "Convaincre\n\nExplanation: The given code will convert the word from English to French.\n\n```python",
+            "cleaned_prediction": "Convaincre",
+            "gt": "convaincre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: ukrainian\nOutput:",
+            "test_query": "ukrainian",
+            "prediction": "ukrainien\n\nExplanation:\nThe word 'ukrainian' can be split into the two",
+            "cleaned_prediction": "ukrainien",
+            "gt": "ukrainien"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: lie\nOutput:",
+            "test_query": "lie",
+            "prediction": "\"lie\" is in English and its translation to French is \"mensonge\".\nInput: \"",
+            "cleaned_prediction": "\"lie\" is in English and its translation to French is \"mensonge\".",
+            "gt": "mensonge"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: meetings\nOutput:",
+            "test_query": "meetings",
+            "prediction": "\"rencontres\"\n\nExplanation: This is because'meeting' is the English word for \"rencontre",
+            "cleaned_prediction": "\"rencontres\"",
+            "gt": "r\u00e9unions"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: stretch\nOutput:",
+            "test_query": "stretch",
+            "prediction": "\u00e9tirer\nExplanation: Using the dictionary, we can see that \u201cstretch\u201d is translated to",
+            "cleaned_prediction": "\u00e9tirer",
+            "gt": "\u00e9tirer"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: scholar\nOutput:",
+            "test_query": "scholar",
+            "prediction": "\u00c9tudiant\n\nExplanation: The word \"scholar\" in English translates to \"\u00c9tudiant",
+            "cleaned_prediction": "\u00c9tudiant",
+            "gt": "\u00e9rudit"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: proved\nOutput:",
+            "test_query": "proved",
+            "prediction": "prouv\u00e9\n\nExplanation: The word \"proved\" is translated to French as \"prouv\u00e9",
+            "cleaned_prediction": "prouv\u00e9",
+            "gt": "prouv\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: cited\nOutput:",
+            "test_query": "cited",
+            "prediction": "cit\u00e9\n\nExplanation: The given word \"cited\" is a verb in English, which has",
+            "cleaned_prediction": "cit\u00e9",
+            "gt": "cit\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: covered\nOutput:",
+            "test_query": "covered",
+            "prediction": "couvert\n\nExplanation: covered in English translates to couvert in French. \n\nNote: This problem",
+            "cleaned_prediction": "couvert",
+            "gt": "couvert"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: bag\nOutput:",
+            "test_query": "bag",
+            "prediction": "\"bag\" translates to \"sac\"\nExplanation:\nThe English word \"bag\" translates to \"",
+            "cleaned_prediction": "\"bag\" translates to \"sac\"",
+            "gt": "sac"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: injured\nOutput:",
+            "test_query": "injured",
+            "prediction": "bless\u00e9(e)\n\nExplanation: The suffixes -ed and -ing are translated to -\u00e9(e",
+            "cleaned_prediction": "bless\u00e9(e)",
+            "gt": "bless\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: spots\nOutput:",
+            "test_query": "spots",
+            "prediction": "points\n\nExplanation: The word \"spots\" in French is \"points\".\n\nConstraints:\n* No extra",
+            "cleaned_prediction": "points",
+            "gt": "taches"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: succeed\nOutput:",
+            "test_query": "succeed",
+            "prediction": "r\u00e9ussir\n\nExplanation:\nThe word \"succeed\" is translated to \"r\u00e9ussir\" in",
+            "cleaned_prediction": "r\u00e9ussir",
+            "gt": "r\u00e9ussir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: competitions\nOutput:",
+            "test_query": "competitions",
+            "prediction": "comp\u00e9titions\n\nExplanation: comp\u00e9titions is the French word for competitions.\nThe vowels are 'e',",
+            "cleaned_prediction": "comp\u00e9titions",
+            "gt": "comp\u00e9titions"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: reasonable\nOutput:",
+            "test_query": "reasonable",
+            "prediction": "\"raisonnable\"\n\nExplanation: The word \"reasonable\" in English is translated to \"raisonnable\"",
+            "cleaned_prediction": "\"raisonnable\"",
+            "gt": "raisonnable"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: prior\nOutput:",
+            "test_query": "prior",
+            "prediction": "l'ancien\nExplanation: The English word \"prior\" translates to the French word \"l",
+            "cleaned_prediction": "l'ancien",
+            "gt": "avant"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: predecessor\nOutput:",
+            "test_query": "predecessor",
+            "prediction": "pr\u00e9curseur\n\nExplanation: We have to translate \"predecessor\" to French.\nIn",
+            "cleaned_prediction": "pr\u00e9curseur",
+            "gt": "pr\u00e9d\u00e9cesse"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: unused\nOutput:",
+            "test_query": "unused",
+            "prediction": "non utilis\u00e9\n\nExplanation:\n\"u\" is a vowel in French, but in English, it",
+            "cleaned_prediction": "non utilis\u00e9",
+            "gt": "inutilis\u00e9"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: alternate\nOutput:",
+            "test_query": "alternate",
+            "prediction": "alternant\n\nExplanation: This function translates English words to French by using a translation dictionary. The function",
+            "cleaned_prediction": "alternant",
+            "gt": "alternatif"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to French.\nInput: mathematics\nOutput:",
+            "test_query": "mathematics",
+            "prediction": "math\u00e9matiques\n\nExplanation:\n- Take each character in the word'mathematics' and determine",
+            "cleaned_prediction": "math\u00e9matiques",
+            "gt": "math\u00e9matiques"
+        }
+    ]
+}

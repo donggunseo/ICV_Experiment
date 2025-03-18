@@ -1,0 +1,82 @@
+[
+    {
+        "input": "purse",
+        "output": "purses"
+    },
+    {
+        "input": "glass",
+        "output": "glasses"
+    },
+    {
+        "input": "tree",
+        "output": "trees"
+    },
+    {
+        "input": "refrigerator",
+        "output": "refrigerators"
+    },
+    {
+        "input": "eyeshadow",
+        "output": "eyeshadows"
+    },
+    {
+        "input": "lotion",
+        "output": "lotions"
+    },
+    {
+        "input": "oven",
+        "output": "ovens"
+    },
+    {
+        "input": "mug",
+        "output": "mugs"
+    },
+    {
+        "input": "toothbrush",
+        "output": "toothbrushes"
+    },
+    {
+        "input": "wallet",
+        "output": "wallets"
+    },
+    {
+        "input": "jacket",
+        "output": "jackets"
+    },
+    {
+        "input": "grater",
+        "output": "graters"
+    },
+    {
+        "input": "lighter",
+        "output": "lighters"
+    },
+    {
+        "input": "sandal",
+        "output": "sandals"
+    },
+    {
+        "input": "mixer",
+        "output": "mixers"
+    },
+    {
+        "input": "cup",
+        "output": "cups"
+    },
+    {
+        "input": "ship",
+        "output": "ships"
+    },
+    {
+        "input": "roller",
+        "output": "rollers"
+    },
+    {
+        "input": "dryer",
+        "output": "dryers"
+    },
+    {
+        "input": "trash can",
+        "output": "trash cans"
+    }
+]

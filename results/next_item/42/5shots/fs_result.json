@@ -1,0 +1,161 @@
+{
+    "score": {
+        "exact_match": 0.8181818181818182
+    },
+    "result": [
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: november\nOutput: december\n\nInput: 14\nOutput: 15\n\nInput: seven\nOutput: eight\n\nInput: S\nOutput: T\n\nInput: I\nOutput: J\n\nInput: CC\nOutput:",
+            "test_query": "CC",
+            "prediction": "CCC\n\nInput: 0000\nOutput: 0001\n\nInput: 1\nOutput",
+            "cleaned_prediction": "CCC",
+            "gt": "DD"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: C\nOutput: D\n\nInput: 23\nOutput: 24\n\nInput: 11\nOutput: 12\n\nInput: May\nOutput: June\n\nInput: viii\nOutput: ix\n\nInput: two\nOutput:",
+            "test_query": "two",
+            "prediction": "three\n\nInput: three\nOutput: four\n\nInput: 1\nOutput: 2",
+            "cleaned_prediction": "three",
+            "gt": "three"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 7\nOutput: 8\n\nInput: thursday\nOutput: friday\n\nInput: nn\nOutput: oo\n\nInput: nine\nOutput: ten\n\nInput: eight\nOutput: nine\n\nInput: 16\nOutput:",
+            "test_query": "16",
+            "prediction": "17\n\nInput: seven\nOutput: eight\n\nInput: 14\nOutput: 15",
+            "cleaned_prediction": "17",
+            "gt": "17"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 8\nOutput: 9\n\nInput: A\nOutput: B\n\nInput: E\nOutput: F\n\nInput: XVI\nOutput: XVII\n\nInput: january\nOutput: february\n\nInput: 20\nOutput:",
+            "test_query": "20",
+            "prediction": "21\n\nInput: February\nOutput: March\n\nInput: 2020\nOutput:",
+            "cleaned_prediction": "21",
+            "gt": "21"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: seven\nOutput: eight\n\nInput: xii\nOutput: xiii\n\nInput: s\nOutput: t\n\nInput: Thursday\nOutput: Friday\n\nInput: Sunday\nOutput: Monday\n\nInput: uu\nOutput:",
+            "test_query": "uu",
+            "prediction": "vv\n\nInput: lll\nOutput: lll\n\nInput: abc\nOutput: bcd",
+            "cleaned_prediction": "vv",
+            "gt": "vv"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: viii\nOutput: ix\n\nInput: mm\nOutput: nn\n\nInput: B\nOutput: C\n\nInput: xx\nOutput: yy\n\nInput: wednesday\nOutput: thursday\n\nInput: march\nOutput:",
+            "test_query": "march",
+            "prediction": "april\n\nInput: october\nOutput: november\n\nThe pattern for each sequence seems to be increment",
+            "cleaned_prediction": "april",
+            "gt": "april"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: T\nOutput: U\n\nInput: one\nOutput: two\n\nInput: f\nOutput: g\n\nInput: december\nOutput: january\n\nInput: nn\nOutput: oo\n\nInput: EE\nOutput:",
+            "test_query": "EE",
+            "prediction": "FF\n\nThis problem is a simple string pattern recognition problem, and can be solved by generating all possible",
+            "cleaned_prediction": "FF",
+            "gt": "FF"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: OO\nOutput: PP\n\nInput: T\nOutput: U\n\nInput: d\nOutput: e\n\nInput: A\nOutput: B\n\nInput: NN\nOutput: OO\n\nInput: ii\nOutput:",
+            "test_query": "ii",
+            "prediction": "jj\n```\ndef next_item(s):\n    if s == 'O':\n        return 'P",
+            "cleaned_prediction": "jj",
+            "gt": "jj"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 11\nOutput: 12\n\nInput: 8\nOutput: 9\n\nInput: aa\nOutput: bb\n\nInput: 9\nOutput: 10\n\nInput: TT\nOutput: UU\n\nInput: 4\nOutput:",
+            "test_query": "4",
+            "prediction": "5\n\nInput: a\nOutput: b\n\nInput: 5\nOutput: 6",
+            "cleaned_prediction": "5",
+            "gt": "5"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: PP\nOutput: QQ\n\nInput: january\nOutput: february\n\nInput: N\nOutput: O\n\nInput: thirteen\nOutput: fourteen\n\nInput: III\nOutput: IV\n\nInput: 24\nOutput:",
+            "test_query": "24",
+            "prediction": "25\n\nNote: All inputs will be lowercase.\n\n### Pattern Inference and Sequence Generation\n\nThis",
+            "cleaned_prediction": "25",
+            "gt": "25"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: vi\nOutput: vii\n\nInput: 18\nOutput: 19\n\nInput: YY\nOutput: ZZ\n\nInput: 5\nOutput: 6\n\nInput: x\nOutput: xi\n\nInput: R\nOutput:",
+            "test_query": "R",
+            "prediction": "S\n\nInput: AB\nOutput: AC\n\nInput: 1\nOutput: 2",
+            "cleaned_prediction": "S",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: AA\nOutput: BB\n\nInput: august\nOutput: september\n\nInput: june\nOutput: july\n\nInput: UU\nOutput: VV\n\nInput: xvii\nOutput: xviii\n\nInput: 1\nOutput:",
+            "test_query": "1",
+            "prediction": "2\n\nInput: 12\nOutput: 13\n\nInput: abc\nOutput: ab",
+            "cleaned_prediction": "2",
+            "gt": "2"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: r\nOutput: s\n\nInput: December\nOutput: January\n\nInput: 0\nOutput: 1\n\nInput: thirteen\nOutput: fourteen\n\nInput: January\nOutput: February\n\nInput: ww\nOutput:",
+            "test_query": "ww",
+            "prediction": "wx\n\nInput: 3\nOutput: 4\n\nInput: c\nOutput: d",
+            "cleaned_prediction": "wx",
+            "gt": "xx"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: D\nOutput: E\n\nInput: Y\nOutput: Z\n\nInput: 5\nOutput: 6\n\nInput: E\nOutput: F\n\nInput: 10\nOutput: 11\n\nInput: i\nOutput:",
+            "test_query": "i",
+            "prediction": "j\n\nInput: l\nOutput: m\n\nInput: n\nOutput: o\n\nInput:",
+            "cleaned_prediction": "j",
+            "gt": "ii"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: aa\nOutput: bb\n\nInput: T\nOutput: U\n\nInput: II\nOutput: III\n\nInput: october\nOutput: november\n\nInput: VV\nOutput: WW\n\nInput: X\nOutput:",
+            "test_query": "X",
+            "prediction": "Y\n\nInput: a\nOutput: b\n\nInput: b\nOutput: c\n\nInput:",
+            "cleaned_prediction": "Y",
+            "gt": "Y"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: h\nOutput: i\n\nInput: WW\nOutput: XX\n\nInput: RR\nOutput: SS\n\nInput: x\nOutput: y\n\nInput: March\nOutput: April\n\nInput: g\nOutput:",
+            "test_query": "g",
+            "prediction": "h\n\nInput: f\nOutput: g\n\nInput: A\nOutput: B\n\nInput:",
+            "cleaned_prediction": "h",
+            "gt": "h"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: O\nOutput: P\n\nInput: Sunday\nOutput: Monday\n\nInput: June\nOutput: July\n\nInput: Tuesday\nOutput: Wednesday\n\nInput: 2\nOutput: 3\n\nInput: November\nOutput:",
+            "test_query": "November",
+            "prediction": "December\n\nInput: 2018\nOutput: 2019\n\nInput: 4\nOutput",
+            "cleaned_prediction": "December",
+            "gt": "December"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: february\nOutput: march\n\nInput: october\nOutput: november\n\nInput: j\nOutput: k\n\nInput: v\nOutput: vi\n\nInput: I\nOutput: J\n\nInput: b\nOutput:",
+            "test_query": "b",
+            "prediction": "c\n\nInput: c\nOutput: d\n\nInput: d\nOutput: e\n\nInput:",
+            "cleaned_prediction": "c",
+            "gt": "c"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: h\nOutput: i\n\nInput: IV\nOutput: V\n\nInput: aa\nOutput: bb\n\nInput: Q\nOutput: R\n\nInput: november\nOutput: december\n\nInput: sixteen\nOutput:",
+            "test_query": "sixteen",
+            "prediction": "seventeen\n\nInput: a\nOutput: a\n\nInput: bbb\nOutput: ccc",
+            "cleaned_prediction": "seventeen",
+            "gt": "seventeen"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: October\nOutput: November\n\nInput: xi\nOutput: xii\n\nInput: B\nOutput: C\n\nInput: September\nOutput: October\n\nInput: KK\nOutput: LL\n\nInput: o\nOutput:",
+            "test_query": "o",
+            "prediction": "p\n\nInput: 4\nOutput: 5\n\nInput: 1998\nOutput:",
+            "cleaned_prediction": "p",
+            "gt": "p"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: seventeen\nOutput: eighteen\n\nInput: D\nOutput: E\n\nInput: nine\nOutput: ten\n\nInput: HH\nOutput: II\n\nInput: gg\nOutput: hh\n\nInput: V\nOutput:",
+            "test_query": "V",
+            "prediction": "VI\n\nInput: IV\nOutput: V\n\nInput: MM\nOutput: NN\n\nInput:",
+            "cleaned_prediction": "VI",
+            "gt": "W"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: O\nOutput: P\n\nInput: nineteen\nOutput: twenty\n\nInput: y\nOutput: z\n\nInput: xiv\nOutput: xv\n\nInput: HH\nOutput: II\n\nInput: dd\nOutput:",
+            "test_query": "dd",
+            "prediction": "ee\n\nInput: yy\nOutput: zz\n\nInput: AAA\nOutput: BBB\n\nInput:",
+            "cleaned_prediction": "ee",
+            "gt": "ee"
+        }
+    ]
+}

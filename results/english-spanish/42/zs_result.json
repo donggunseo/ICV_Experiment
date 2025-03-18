@@ -1,0 +1,3640 @@
+{
+    "score": {
+        "exact_match": 0.5915221579961464
+    },
+    "result": [
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: awareness\nOutput:",
+            "test_query": "awareness",
+            "prediction": "conciencia\n\nExplanation:\nConciencia is the Spanish translation of awareness. \n\nNote: The",
+            "cleaned_prediction": "conciencia",
+            "gt": "conciencia"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: discovery\nOutput:",
+            "test_query": "discovery",
+            "prediction": "descubrimiento\n\nExplanation: \"discovery\" translated to Spanish is \"descubrimiento",
+            "cleaned_prediction": "descubrimiento",
+            "gt": "descubrimiento"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: disk\nOutput:",
+            "test_query": "disk",
+            "prediction": "disco\nExplanation: The English word \"disk\" translates to \"disco\" in Spanish.\n\nGiven",
+            "cleaned_prediction": "disco",
+            "gt": "disco"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: rice\nOutput:",
+            "test_query": "rice",
+            "prediction": "arroz\n\nInput: elephant\nOutput: elefante\n\nInput: dog\nOutput: per",
+            "cleaned_prediction": "arroz",
+            "gt": "arroz"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: strength\nOutput:",
+            "test_query": "strength",
+            "prediction": "fuerza\n\nExplanation: Since \"strength\" is an English word that means force, \"fuer",
+            "cleaned_prediction": "fuerza",
+            "gt": "fuerza"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: cattle\nOutput:",
+            "test_query": "cattle",
+            "prediction": "ganado\n\nExplanation: We know that the word for cattle in Spanish is ganado.\n\nHere is",
+            "cleaned_prediction": "ganado",
+            "gt": "ganado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: achieved\nOutput:",
+            "test_query": "achieved",
+            "prediction": "logrado\n\nExplanation: achieve is a verb that translates to lograr. \nIn this case,",
+            "cleaned_prediction": "logrado",
+            "gt": "logrado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: guys\nOutput:",
+            "test_query": "guys",
+            "prediction": "chicos\n\nHere is a simple solution in Python:\n\n```python\ndef translate_to_spanish(word",
+            "cleaned_prediction": "chicos",
+            "gt": "chicos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: require\nOutput:",
+            "test_query": "require",
+            "prediction": "Requerir\n\nInput: hello\nOutput: Hola\n\nInput: cat\nOutput: G",
+            "cleaned_prediction": "Requerir",
+            "gt": "requerir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: speakers\nOutput:",
+            "test_query": "speakers",
+            "prediction": "hablantes\nExplanation: \nspeakers = noun (plural) = hablantes (noun",
+            "cleaned_prediction": "hablantes",
+            "gt": "altavoces"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: promoted\nOutput:",
+            "test_query": "promoted",
+            "prediction": "promovido\n\nNote: You don't need to consider the case where the word is already translated",
+            "cleaned_prediction": "promovido",
+            "gt": "promovido"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: retired\nOutput:",
+            "test_query": "retired",
+            "prediction": "jubilado\n\nExplanation: We have the following dictionary:\n['retire','retired',",
+            "cleaned_prediction": "jubilado",
+            "gt": "jubilado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: drum\nOutput:",
+            "test_query": "drum",
+            "prediction": "bater\u00eda\n\nExplanation: The translation of \"drum\" from English to Spanish is \"b",
+            "cleaned_prediction": "bater\u00eda",
+            "gt": "tambor"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: dissolved\nOutput:",
+            "test_query": "dissolved",
+            "prediction": "disuelto\n\nExplanation: The word dissolved is translated to Spanish as disuelto.\n\nNote:",
+            "cleaned_prediction": "disuelto",
+            "gt": "disuelto"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: closure\nOutput:",
+            "test_query": "closure",
+            "prediction": "cierre\nExplanation: Each letter in English is matched with the correct letter in Spanish.\nNote that",
+            "cleaned_prediction": "cierre",
+            "gt": "cierre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: industry\nOutput:",
+            "test_query": "industry",
+            "prediction": "industria\n\nExplanation: This problem is asking to translate a word from English to Spanish. We need",
+            "cleaned_prediction": "industria",
+            "gt": "industria"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: letter\nOutput:",
+            "test_query": "letter",
+            "prediction": "letra\nInput: hello\nOutput: hola\nInput: world\nOutput: mundo\nInput",
+            "cleaned_prediction": "letra",
+            "gt": "carta"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: bath\nOutput:",
+            "test_query": "bath",
+            "prediction": "ba\u00f1o\n\nHere is my Python code. It uses a dictionary to store English words and their corresponding",
+            "cleaned_prediction": "ba\u00f1o",
+            "gt": "ba\u00f1o"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: reviewing\nOutput:",
+            "test_query": "reviewing",
+            "prediction": "Revisando\nNote: Revisando is the Spanish word for reviewing, but the translation is",
+            "cleaned_prediction": "Revisando",
+            "gt": "repasando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: suggestion\nOutput:",
+            "test_query": "suggestion",
+            "prediction": "sugerencia\n\nExplanation: The word'suggestion' is translated to'sugerencia' in",
+            "cleaned_prediction": "sugerencia",
+            "gt": "sugerencia"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: letters\nOutput:",
+            "test_query": "letters",
+            "prediction": "letras\n\nInput: hello\nOutput: hola\n```python\ndef translate_to_spanish(word",
+            "cleaned_prediction": "letras",
+            "gt": "cartas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: watched\nOutput:",
+            "test_query": "watched",
+            "prediction": "Explanation:\nThe word \"watched\" can be translated into Spanish as \"vieron\". However",
+            "cleaned_prediction": "Explanation:",
+            "gt": "visto"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: orders\nOutput:",
+            "test_query": "orders",
+            "prediction": "\u00f3rdenes\n\nExample 2:\nInput: apple\nOutput: manzana\n```",
+            "cleaned_prediction": "\u00f3rdenes",
+            "gt": "\u00f3rdenes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: increases\nOutput:",
+            "test_query": "increases",
+            "prediction": "aumenta\n\nInput: apple\nOutput: manzana\n\nInput: hello\nOutput: h",
+            "cleaned_prediction": "aumenta",
+            "gt": "aumenta"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: newfoundland\nOutput:",
+            "test_query": "newfoundland",
+            "prediction": "Tierra Nueva\n\nExplanation: \n- Newfoundland is a province in Canada, and Tierra N",
+            "cleaned_prediction": "Tierra Nueva",
+            "gt": "Terranova"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: thin\nOutput:",
+            "test_query": "thin",
+            "prediction": "delgado\n\nExplanation: \"thin\" translates to \"delgado\" in Spanish. A dictionary or",
+            "cleaned_prediction": "delgado",
+            "gt": "delgado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: drinking\nOutput:",
+            "test_query": "drinking",
+            "prediction": "\"beber\"\nExplanation: The word \"drinking\" is translated to \"beber\" in",
+            "cleaned_prediction": "\"beber\"",
+            "gt": "bebiendo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: leon\nOutput:",
+            "test_query": "leon",
+            "prediction": "le\u00f3n\n\nExplanation: the word \"leon\" in Spanish means lion, and the correct Spanish translation",
+            "cleaned_prediction": "le\u00f3n",
+            "gt": "le\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: rider\nOutput:",
+            "test_query": "rider",
+            "prediction": "jinete\n\nExplanation: We can get the correct Spanish translation by using a dictionary.\n\n```\ndef",
+            "cleaned_prediction": "jinete",
+            "gt": "jinete"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: february\nOutput:",
+            "test_query": "february",
+            "prediction": "febrero\n\nExplanation:\nThe problem here is that we have to translate the month of February to Spanish",
+            "cleaned_prediction": "febrero",
+            "gt": "febrero"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: back\nOutput:",
+            "test_query": "back",
+            "prediction": "atr\u00e1s\nExplanation: The word 'back' means 'at the back' or'rear'",
+            "cleaned_prediction": "atr\u00e1s",
+            "gt": "espalda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: albums\nOutput:",
+            "test_query": "albums",
+            "prediction": "\u00e1lbums\n\nExplanation: Since there are no accents in the English word, the Spanish translation",
+            "cleaned_prediction": "\u00e1lbums",
+            "gt": "\u00e1lbumes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: publisher\nOutput:",
+            "test_query": "publisher",
+            "prediction": "\"editor\" (Note that there are many other possible translations depending on the context of the word,",
+            "cleaned_prediction": "\"editor\" (Note that there are many other possible translations depending on the context of the word,",
+            "gt": "editorial"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: how\nOutput:",
+            "test_query": "how",
+            "prediction": "\u00bfC\u00f3mo?\n\nExplanation: Since \"how\" is an interrogative word, it should be translated to",
+            "cleaned_prediction": "\u00bfC\u00f3mo?",
+            "gt": "c\u00f3mo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: driver\nOutput:",
+            "test_query": "driver",
+            "prediction": "\"conductor\"\n\nExplanation: 'd' -> 'c', 'r' -> 'o',",
+            "cleaned_prediction": "\"conductor\"",
+            "gt": "conductor"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: reflects\nOutput:",
+            "test_query": "reflects",
+            "prediction": "reflects\n\nExplanation: The word \"reflects\" is a verb in English that is used to describe",
+            "cleaned_prediction": "reflects",
+            "gt": "refleja"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: putting\nOutput:",
+            "test_query": "putting",
+            "prediction": "poniendo\n\nExplanation: \"putting\" is a present participle verb in English, which",
+            "cleaned_prediction": "poniendo",
+            "gt": "poniendo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: legs\nOutput:",
+            "test_query": "legs",
+            "prediction": "piernas\n\nGiven a word in English, translate to Spanish.\nInput: legs\nOutput:",
+            "cleaned_prediction": "piernas",
+            "gt": "piernas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: hills\nOutput:",
+            "test_query": "hills",
+            "prediction": "colinas\n\nExplanation: hills means hills or small mountains, and the Spanish translation of this word is",
+            "cleaned_prediction": "colinas",
+            "gt": "colinas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: documents\nOutput:",
+            "test_query": "documents",
+            "prediction": "documentos\nExplanation: The word is translated from English to Spanish.\n\nGiven a word in English, translate",
+            "cleaned_prediction": "documentos",
+            "gt": "documentos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: exposed\nOutput:",
+            "test_query": "exposed",
+            "prediction": "Exposto\nExplanation: The word \"exposed\" in English is spelled \"Exposto",
+            "cleaned_prediction": "Exposto",
+            "gt": "expuesto"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: rescued\nOutput:",
+            "test_query": "rescued",
+            "prediction": "\"rescatado\"\nExplanation: Use a dictionary or a translation API to find the correct Spanish translation",
+            "cleaned_prediction": "\"rescatado\"",
+            "gt": "rescatado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: his\nOutput:",
+            "test_query": "his",
+            "prediction": "\"is\"\n\nExplanation: The word \"his\" in English is \"is\" in Spanish.\n\nInput",
+            "cleaned_prediction": "\"is\"",
+            "gt": "su"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: unusual\nOutput:",
+            "test_query": "unusual",
+            "prediction": "Extra\u00f1o\n\nExplanation: It seems that the output should be \"inusual\" instead of \"Extra",
+            "cleaned_prediction": "Extra\u00f1o",
+            "gt": "inusual"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: diameter\nOutput:",
+            "test_query": "diameter",
+            "prediction": "di\u00e1metro\n\nExplanation: The word \"diameter\" in English is translated to \"di\u00e1",
+            "cleaned_prediction": "di\u00e1metro",
+            "gt": "di\u00e1metro"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: progress\nOutput:",
+            "test_query": "progress",
+            "prediction": "progreso\n\nExplanation: The word \"progress\" in English translates to \"progreso\" in Spanish",
+            "cleaned_prediction": "progreso",
+            "gt": "progreso"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: beach\nOutput:",
+            "test_query": "beach",
+            "prediction": "playa\n\nInput: hello\nOutput: hola\n\nInput: car\nOutput: coche",
+            "cleaned_prediction": "playa",
+            "gt": "playa"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: security\nOutput:",
+            "test_query": "security",
+            "prediction": "seguridad\n\nExplanation: The word \"security\" in English translates to \"seguridad\" in Spanish.",
+            "cleaned_prediction": "seguridad",
+            "gt": "seguridad"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: consistently\nOutput:",
+            "test_query": "consistently",
+            "prediction": "consistentemente\n\nGiven a word in Spanish, translate to English.\nInput: consistentemente\nOutput:",
+            "cleaned_prediction": "consistentemente",
+            "gt": "consistentemente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: compared\nOutput:",
+            "test_query": "compared",
+            "prediction": "comparado\n\nExplanation: \n\n- \"compared\" is an adjective in English, formed by adding",
+            "cleaned_prediction": "comparado",
+            "gt": "comparado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: places\nOutput:",
+            "test_query": "places",
+            "prediction": "Lugar\nExplanation: The word \u201cplaces\u201d has only one translation to Spanish, which is \u201c",
+            "cleaned_prediction": "Lugar",
+            "gt": "lugares"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: istanbul\nOutput:",
+            "test_query": "istanbul",
+            "prediction": "istanbul\n\nExplanation: This word has a direct translation in Spanish.\n```\nNote: All",
+            "cleaned_prediction": "istanbul",
+            "gt": "Estambul"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: colonel\nOutput:",
+            "test_query": "colonel",
+            "prediction": "Coronel\n\nNote: colonel in Spanish is translated to \"Coronel\". \n\nExample",
+            "cleaned_prediction": "Coronel",
+            "gt": "coronel"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: strategic\nOutput:",
+            "test_query": "strategic",
+            "prediction": "estrat\u00e9gico\n\nConstraints:\nThe input string will only contain letters.\nThe word will only contain one",
+            "cleaned_prediction": "estrat\u00e9gico",
+            "gt": "estrat\u00e9gico"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: academy\nOutput:",
+            "test_query": "academy",
+            "prediction": "academia\n\nExplanation: The English word \"academy\" is translated to the Spanish word \"academia",
+            "cleaned_prediction": "academia",
+            "gt": "academia"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: challenge\nOutput:",
+            "test_query": "challenge",
+            "prediction": "desaf\u00edo\n\nExplanation:\n\"challenge\" is a noun in English. \nThe translation to Spanish",
+            "cleaned_prediction": "desaf\u00edo",
+            "gt": "desaf\u00edo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: edition\nOutput:",
+            "test_query": "edition",
+            "prediction": "edici\u00f3n\nExplanation: We are given the word \"edition\" and we need to translate it to",
+            "cleaned_prediction": "edici\u00f3n",
+            "gt": "edici\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: sail\nOutput:",
+            "test_query": "sail",
+            "prediction": "navegar\n\nExplanation: To translate a word from English to Spanish, you need to know the corresponding",
+            "cleaned_prediction": "navegar",
+            "gt": "navegar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: turned\nOutput:",
+            "test_query": "turned",
+            "prediction": "Dado\nExplanation: In English, \"turned\" is the past tense of the verb \"turn",
+            "cleaned_prediction": "Dado",
+            "gt": "girado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: springs\nOutput:",
+            "test_query": "springs",
+            "prediction": "(spring)\nNote: In the given problem, all the letters are same but only the last letter",
+            "cleaned_prediction": "(spring)",
+            "gt": "manantiales"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: boy\nOutput:",
+            "test_query": "boy",
+            "prediction": "\"The Spanish translation of 'boy' is 'ni\u00f1o'.\"\nNote: Spanish has multiple ways",
+            "cleaned_prediction": "\"The Spanish translation of 'boy' is 'ni\u00f1o'.\"",
+            "gt": "ni\u00f1o"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: lit\nOutput:",
+            "test_query": "lit",
+            "prediction": "\"lit\"\nExplanation: The word \"lit\" does not have a translation in Spanish. We return",
+            "cleaned_prediction": "\"lit\"",
+            "gt": "encendido"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: allies\nOutput:",
+            "test_query": "allies",
+            "prediction": "aliados\n\nExplanation: The word \"allies\" is translated to \"aliados\" in Spanish",
+            "cleaned_prediction": "aliados",
+            "gt": "aliados"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: wednesday\nOutput:",
+            "test_query": "wednesday",
+            "prediction": "mi\u00e9rcoles\n\nInput: hello\nOutput: hola\n\nInput: dog\nOutput: per",
+            "cleaned_prediction": "mi\u00e9rcoles",
+            "gt": "mi\u00e9rcoles"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: appointment\nOutput:",
+            "test_query": "appointment",
+            "prediction": "cita\n\nInput: apple\nOutput: manzana\n```python\ndef translate_to_spanish",
+            "cleaned_prediction": "cita",
+            "gt": "cita"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: affiliate\nOutput:",
+            "test_query": "affiliate",
+            "prediction": "afiliado\n\nExplanation: \n- Start by translating the word letter by letter.\n- The first",
+            "cleaned_prediction": "afiliado",
+            "gt": "afiliado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: brigade\nOutput:",
+            "test_query": "brigade",
+            "prediction": "\"brigada\"\n\nExplanation: We know that brigade is translated to brigada in Spanish.\n\nInput:",
+            "cleaned_prediction": "\"brigada\"",
+            "gt": "brigada"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: adds\nOutput:",
+            "test_query": "adds",
+            "prediction": "sumar\n\nExplanation: This function should translate English words into Spanish by replacing each word with its Spanish",
+            "cleaned_prediction": "sumar",
+            "gt": "anuncios"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: daily\nOutput:",
+            "test_query": "daily",
+            "prediction": "diariamente\nExplanation: The output is the Spanish translation of the word daily. \nNote:",
+            "cleaned_prediction": "diariamente",
+            "gt": "diario"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: voivodeship\nOutput:",
+            "test_query": "voivodeship",
+            "prediction": "province\n\nExplanation: \"province\" is the translation of \"voivodeship\" from English to",
+            "cleaned_prediction": "province",
+            "gt": "voivodato"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: port\nOutput:",
+            "test_query": "port",
+            "prediction": "puerto\n\nInput: hello\nOutput: hola\n\nInput: cat\nOutput: gato",
+            "cleaned_prediction": "puerto",
+            "gt": "puerto"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: coastal\nOutput:",
+            "test_query": "coastal",
+            "prediction": "costero\n\nExplanation: The word \"coastal\" is a noun, and the translation to",
+            "cleaned_prediction": "costero",
+            "gt": "costero"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: challenges\nOutput:",
+            "test_query": "challenges",
+            "prediction": "desafios\n\nExplanation: The word \"challenges\" in English is translated to \"desaf",
+            "cleaned_prediction": "desafios",
+            "gt": "desaf\u00edos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: teams\nOutput:",
+            "test_query": "teams",
+            "prediction": "\"teams\" is not a valid word in Spanish.\n\nInput: hello\nOutput: \"hola",
+            "cleaned_prediction": "\"teams\" is not a valid word in Spanish.",
+            "gt": "equipos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: resigned\nOutput:",
+            "test_query": "resigned",
+            "prediction": "renunciado\nExplanation:\n- \"resigned\" means \"renunciado\" in Spanish.",
+            "cleaned_prediction": "renunciado",
+            "gt": "renunciado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: labor\nOutput:",
+            "test_query": "labor",
+            "prediction": "\"trabajo\"\n\nInput: apple\nOutput: \"manzana\" (This is a common",
+            "cleaned_prediction": "\"trabajo\"",
+            "gt": "trabajo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: dragon\nOutput:",
+            "test_query": "dragon",
+            "prediction": "drag\u00f3n\nExplanation: The Spanish translation is a noun, so it doesn't need an article,",
+            "cleaned_prediction": "drag\u00f3n",
+            "gt": "drag\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: cargo\nOutput:",
+            "test_query": "cargo",
+            "prediction": "cargo\nInput: hello\nOutput: hola\nInput: good\nOutput: bien\nInput",
+            "cleaned_prediction": "cargo",
+            "gt": "carga"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: mexico\nOutput:",
+            "test_query": "mexico",
+            "prediction": "M\u00c9XICO\n\nGiven a word in Spanish, translate to English.\nInput: francia",
+            "cleaned_prediction": "M\u00c9XICO",
+            "gt": "M\u00e9xico"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: consists\nOutput:",
+            "test_query": "consists",
+            "prediction": "consists\nExplanation: The word consists does not have a direct translation. It can be translated to Spanish",
+            "cleaned_prediction": "consists",
+            "gt": "consiste"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: hot\nOutput:",
+            "test_query": "hot",
+            "prediction": "\"hot\" in Spanish is \"caliente\"\nNote: This problem is similar to LeetCode",
+            "cleaned_prediction": "\"hot\" in Spanish is \"caliente\"",
+            "gt": "caliente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: fever\nOutput:",
+            "test_query": "fever",
+            "prediction": "\"fiebre\"\n\n```python\ndef translate_word(word):\n    \"\"\"\n    Translate an English word",
+            "cleaned_prediction": "\"fiebre\"",
+            "gt": "fiebre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: endings\nOutput:",
+            "test_query": "endings",
+            "prediction": "finales\n\n```python\ndef translate_to_spanish(word):\n    \"\"\"\n    Translate English words to",
+            "cleaned_prediction": "finales",
+            "gt": "finales"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: seconds\nOutput:",
+            "test_query": "seconds",
+            "prediction": "Segundos\n\nThis is a simple translation from English to Spanish. It's a basic vocabulary translation.",
+            "cleaned_prediction": "Segundos",
+            "gt": "segundos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: since\nOutput:",
+            "test_query": "since",
+            "prediction": "desde\n\nExplanation: \nsince -> from\nfrom -> de\nde -> desde\n\nNote: This",
+            "cleaned_prediction": "desde",
+            "gt": "desde"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: pointed\nOutput:",
+            "test_query": "pointed",
+            "prediction": "apuntado\n\nHere's a simple Python solution using a dictionary to store English words and their Spanish",
+            "cleaned_prediction": "apuntado",
+            "gt": "apuntado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: athletic\nOutput:",
+            "test_query": "athletic",
+            "prediction": "atl\u00e9tico\n\nExplanation: The English word \"athletic\" translates to \"atl\u00e9tico\" in Spanish",
+            "cleaned_prediction": "atl\u00e9tico",
+            "gt": "atl\u00e9tico"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: bright\nOutput:",
+            "test_query": "bright",
+            "prediction": "brillante\n\nExplanation: \nbrillante in Spanish means bright. \nIn English, 'bright",
+            "cleaned_prediction": "brillante",
+            "gt": "brillante"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: chemistry\nOutput:",
+            "test_query": "chemistry",
+            "prediction": "qu\u00edmica\nExplanation: We have a dictionary of words, where each word is a key and",
+            "cleaned_prediction": "qu\u00edmica",
+            "gt": "qu\u00edmica"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: judgment\nOutput:",
+            "test_query": "judgment",
+            "prediction": "\"juicio\"\nExplanation: Spanish words do not have the same sound or spelling as English words.",
+            "cleaned_prediction": "\"juicio\"",
+            "gt": "juicio"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: wishes\nOutput:",
+            "test_query": "wishes",
+            "prediction": "deseos\n\nTranslation: wishes = deseos\nTranslation of wishes: \nEnglish -> Spanish: wishes",
+            "cleaned_prediction": "deseos",
+            "gt": "deseos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: changes\nOutput:",
+            "test_query": "changes",
+            "prediction": "cambios\n\nExplanation: The word is translated to its Spanish translation.\n\nInput: apple\nOutput: man",
+            "cleaned_prediction": "cambios",
+            "gt": "cambios"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: department\nOutput:",
+            "test_query": "department",
+            "prediction": "departamento\nExplanation: The translation is provided by the SpanishDict API.\n\n```python\nimport requests",
+            "cleaned_prediction": "departamento",
+            "gt": "departamento"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: thunder\nOutput:",
+            "test_query": "thunder",
+            "prediction": "trueno\n\nExplanation: The word \"thunder\" is translated into Spanish as \"truen",
+            "cleaned_prediction": "trueno",
+            "gt": "trueno"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: indicating\nOutput:",
+            "test_query": "indicating",
+            "prediction": "indicando\n\nGiven a word in Spanish, translate to English.\nInput: indicando\nOutput:",
+            "cleaned_prediction": "indicando",
+            "gt": "indicando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: volunteers\nOutput:",
+            "test_query": "volunteers",
+            "prediction": "voluntarios\n\nExplanation: The word \"volunteers\" is a noun in English, and \"vol",
+            "cleaned_prediction": "voluntarios",
+            "gt": "voluntarios"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: look\nOutput:",
+            "test_query": "look",
+            "prediction": "mira\n\nExplanation: The word \"look\" is translated to Spanish as \"mira\".\n\n```",
+            "cleaned_prediction": "mira",
+            "gt": "mirar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: composition\nOutput:",
+            "test_query": "composition",
+            "prediction": "composici\u00f3n\n\nExplanation: The input word is \"composition\". The correct translation to Spanish is \"com",
+            "cleaned_prediction": "composici\u00f3n",
+            "gt": "composici\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: teach\nOutput:",
+            "test_query": "teach",
+            "prediction": "- teach (this word has multiple meanings, and there is a specific translation depending on the context",
+            "cleaned_prediction": "- teach (this word has multiple meanings, and there is a specific translation depending on the context",
+            "gt": "ense\u00f1ar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: escaped\nOutput:",
+            "test_query": "escaped",
+            "prediction": "escapeado\nExplanation: This is because the original word \"escaped\" translates to \"escapeado\"",
+            "cleaned_prediction": "escapeado",
+            "gt": "escapado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: reply\nOutput:",
+            "test_query": "reply",
+            "prediction": "\"Respuesta\"\n\nExplanation: The word'reply' is translated to 'Respuesta' in Spanish",
+            "cleaned_prediction": "\"Respuesta\"",
+            "gt": "respuesta"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: cold\nOutput:",
+            "test_query": "cold",
+            "prediction": "fr\u00edo\n\nExplanation:\n1. cold in English can be translated to \"fr\u00edo\" in Spanish",
+            "cleaned_prediction": "fr\u00edo",
+            "gt": "fr\u00edo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: danish\nOutput:",
+            "test_query": "danish",
+            "prediction": "dan\u00e9s\nExplanation: The word \"danish\" means the same as \"dan\u00e9s\" in",
+            "cleaned_prediction": "dan\u00e9s",
+            "gt": "dan\u00e9s"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: stretch\nOutput:",
+            "test_query": "stretch",
+            "prediction": "\"estirar\"\n\nExplanation: The word \"stretch\" is translated to \"estirar\"",
+            "cleaned_prediction": "\"estirar\"",
+            "gt": "estiramiento"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: consumption\nOutput:",
+            "test_query": "consumption",
+            "prediction": "consumo\n\nNote: This problem is asking to translate a given English word into Spanish. \n\n```python",
+            "cleaned_prediction": "consumo",
+            "gt": "consumo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: rhine\nOutput:",
+            "test_query": "rhine",
+            "prediction": "r\u00edo\nExplanation: The word \"rhine\" is the English translation for the Spanish word \"",
+            "cleaned_prediction": "r\u00edo",
+            "gt": "Rin"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: delay\nOutput:",
+            "test_query": "delay",
+            "prediction": "retraso\n\nExplanation: \ndelay -> Spanish translation: retraso. \n\nNote: re",
+            "cleaned_prediction": "retraso",
+            "gt": "retraso"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: pakistan\nOutput:",
+            "test_query": "pakistan",
+            "prediction": "paquistan\n\nExplanation: \nThe vowels in the word 'pakistan' are 'a',",
+            "cleaned_prediction": "paquistan",
+            "gt": "Pakist\u00e1n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: barrier\nOutput:",
+            "test_query": "barrier",
+            "prediction": "barrera\n\nExplanation: The English word \"barrier\" translates to the Spanish word \"barrera",
+            "cleaned_prediction": "barrera",
+            "gt": "barrera"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: precisely\nOutput:",
+            "test_query": "precisely",
+            "prediction": "precisamente\nNote: All English words should be translated to Spanish correctly. It is assumed that the",
+            "cleaned_prediction": "precisamente",
+            "gt": "precisamente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: passing\nOutput:",
+            "test_query": "passing",
+            "prediction": "\"pasando\"\n\nExplanation: The word \"passing\" is translated to \"pasando\" in",
+            "cleaned_prediction": "\"pasando\"",
+            "gt": "pasando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: organization\nOutput:",
+            "test_query": "organization",
+            "prediction": "organizaci\u00f3n\n\nNote that the word is not translated but simply the word is written in Spanish. Note",
+            "cleaned_prediction": "organizaci\u00f3n",
+            "gt": "organizaci\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: census\nOutput:",
+            "test_query": "census",
+            "prediction": "censos\nInput: word\nOutput: palabra\nInput: dog\nOutput: perro",
+            "cleaned_prediction": "censos",
+            "gt": "censo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: constitutional\nOutput:",
+            "test_query": "constitutional",
+            "prediction": "constitucional\nExplanation: Translate 'con' to Spanish, which is \"con\" and '",
+            "cleaned_prediction": "constitucional",
+            "gt": "constitucional"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: diverse\nOutput:",
+            "test_query": "diverse",
+            "prediction": "diverso\nInput: beautiful\nOutput: hermoso\nInput: cat\nOutput: g",
+            "cleaned_prediction": "diverso",
+            "gt": "diverso"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: optical\nOutput:",
+            "test_query": "optical",
+            "prediction": "\u00f3ptico\nExplanation:\nThe given word is in English. We need to translate it to Spanish",
+            "cleaned_prediction": "\u00f3ptico",
+            "gt": "\u00f3ptico"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: pack\nOutput:",
+            "test_query": "pack",
+            "prediction": "pack\n\nExample: \nInput: cat\nOutput: gato\nInput: dog\nOutput:",
+            "cleaned_prediction": "pack",
+            "gt": "paquete"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: rain\nOutput:",
+            "test_query": "rain",
+            "prediction": "lluvia\nExplanation: rain in English is the same as lluvia in Spanish\n\nInput",
+            "cleaned_prediction": "lluvia",
+            "gt": "lluvia"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: there\nOutput:",
+            "test_query": "there",
+            "prediction": "all\u00ed\n\nExplanation: \"all\u00ed\" is the translation of \"there\" in Spanish, which",
+            "cleaned_prediction": "all\u00ed",
+            "gt": "all\u00ed"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: croatian\nOutput:",
+            "test_query": "croatian",
+            "prediction": "croata\nExplanation: The translation is not exact as the English word is not the same as the",
+            "cleaned_prediction": "croata",
+            "gt": "croata"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: but\nOutput:",
+            "test_query": "but",
+            "prediction": "pero\n\nInput: hello\nOutput: hola\n\nInput: python\nOutput: python\n\nInput",
+            "cleaned_prediction": "pero",
+            "gt": "pero"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: role\nOutput:",
+            "test_query": "role",
+            "prediction": "papel\n\nExplanation: \"role\" translates to \"papel\" in Spanish.\n\nInput: hello",
+            "cleaned_prediction": "papel",
+            "gt": "papel"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: politics\nOutput:",
+            "test_query": "politics",
+            "prediction": "pol\u00edtica\n\nExplanation: In English, the word \"politics\" refers to the practices, methods,",
+            "cleaned_prediction": "pol\u00edtica",
+            "gt": "pol\u00edtica"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: personality\nOutput:",
+            "test_query": "personality",
+            "prediction": "personalidad\n\nInput: happiness\nOutput: felicidad\n\nInput: happiness\nOutput: fel",
+            "cleaned_prediction": "personalidad",
+            "gt": "personalidad"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: rubber\nOutput:",
+            "test_query": "rubber",
+            "prediction": "goma\n\nExplanation: rubber is translated to goma in Spanish. \n\n```python\ndef translate",
+            "cleaned_prediction": "goma",
+            "gt": "goma"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: opportunities\nOutput:",
+            "test_query": "opportunities",
+            "prediction": "oportunidades\n\nExplanation:\n* \"op\" -> \"oportun\"\n* \"p\" -> \"",
+            "cleaned_prediction": "oportunidades",
+            "gt": "oportunidades"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: billboard\nOutput:",
+            "test_query": "billboard",
+            "prediction": "p\u00f3ster\n\nExplanation: p\u00f3ster is the Spanish translation of billboard.\n\nInput: candy",
+            "cleaned_prediction": "p\u00f3ster",
+            "gt": "cartelera"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: lawsuit\nOutput:",
+            "test_query": "lawsuit",
+            "prediction": "demanda judicial\nExplanation:\n- lawsuit = demanda\n- judicial = judicial\n- Combine the",
+            "cleaned_prediction": "demanda judicial",
+            "gt": "demanda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: protected\nOutput:",
+            "test_query": "protected",
+            "prediction": "protegido\n\nNote: You can assume that the input will always be a valid English word,",
+            "cleaned_prediction": "protegido",
+            "gt": "protegido"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: attract\nOutput:",
+            "test_query": "attract",
+            "prediction": "atraer\n\nExample input/outputs:\nInput: apple\nOutput: manzana\n\nInput",
+            "cleaned_prediction": "atraer",
+            "gt": "atraer"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: successful\nOutput:",
+            "test_query": "successful",
+            "prediction": "exitoso\n\nExplanation: The word \u201csuccessful\u201d is translated to Spanish as \u201cexitoso\u201d.\n``",
+            "cleaned_prediction": "exitoso",
+            "gt": "exitoso"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: maintenance\nOutput:",
+            "test_query": "maintenance",
+            "prediction": "mantenimiento\nExplanation: The word \"maintenance\" is translated to \"mantenimiento\" in Spanish",
+            "cleaned_prediction": "mantenimiento",
+            "gt": "mantenimiento"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: good\nOutput:",
+            "test_query": "good",
+            "prediction": "\"bueno\"\n\nExplanation: The word \"good\" is translated to Spanish as \"buen",
+            "cleaned_prediction": "\"bueno\"",
+            "gt": "bueno"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: leagues\nOutput:",
+            "test_query": "leagues",
+            "prediction": "ligas\n\nExplanation: The word \"leagues\" is translated to Spanish as \"ligas\".",
+            "cleaned_prediction": "ligas",
+            "gt": "ligas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: implemented\nOutput:",
+            "test_query": "implemented",
+            "prediction": "implementado\nExplanation: \nThe translation of the word \"implemented\" from English to Spanish is \"",
+            "cleaned_prediction": "implementado",
+            "gt": "implementado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: try\nOutput:",
+            "test_query": "try",
+            "prediction": "pruebe\nExplanation: try in English, pruebe in Spanish.\n\nInput: house",
+            "cleaned_prediction": "pruebe",
+            "gt": "intentar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: wedding\nOutput:",
+            "test_query": "wedding",
+            "prediction": "boda\nExplanation: The English word for wedding in Spanish is \"boda\".\n\nNote: This",
+            "cleaned_prediction": "boda",
+            "gt": "boda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: module\nOutput:",
+            "test_query": "module",
+            "prediction": "m\u00f3dulo\nExplanation: Spanish translation of \"module\".\nNote: The Spanish translation of \"module",
+            "cleaned_prediction": "m\u00f3dulo",
+            "gt": "m\u00f3dulo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: caught\nOutput:",
+            "test_query": "caught",
+            "prediction": "atrapado\n\nExplanation:\n- c -> c (no change)\n- a -> a (no",
+            "cleaned_prediction": "atrapado",
+            "gt": "atrapado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: easily\nOutput:",
+            "test_query": "easily",
+            "prediction": "f\u00e1cilmente\n\nInput: hello\nOutput: hola\n\nInput: computer\nOutput: computadora",
+            "cleaned_prediction": "f\u00e1cilmente",
+            "gt": "f\u00e1cilmente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: secondary\nOutput:",
+            "test_query": "secondary",
+            "prediction": "secundario\n\nExplanation: The word \"secondary\" is translated to \"secundario\" in",
+            "cleaned_prediction": "secundario",
+            "gt": "secundario"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: maintain\nOutput:",
+            "test_query": "maintain",
+            "prediction": "mantenimiento\nExplanation: The word'maintain' in English means 'to keep something in good",
+            "cleaned_prediction": "mantenimiento",
+            "gt": "mantener"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: towers\nOutput:",
+            "test_query": "towers",
+            "prediction": "torres\n\nExplanation:\nWe only have to translate each letter from English to Spanish. The word \"",
+            "cleaned_prediction": "torres",
+            "gt": "torres"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: providing\nOutput:",
+            "test_query": "providing",
+            "prediction": "proporcionar\n\nExplanation: The word \"providing\" translates to \"proporcionar\"",
+            "cleaned_prediction": "proporcionar",
+            "gt": "proporcionando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: purchase\nOutput:",
+            "test_query": "purchase",
+            "prediction": "compra\n\nThis problem can be solved using a dictionary of English to Spanish translations.\n\n### Code\n\n```",
+            "cleaned_prediction": "compra",
+            "gt": "compra"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: eastern\nOutput:",
+            "test_query": "eastern",
+            "prediction": "oriental\nExplanation:\n'ea' translates to 'e' as the 'a' is not",
+            "cleaned_prediction": "oriental",
+            "gt": "oriental"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: inn\nOutput:",
+            "test_query": "inn",
+            "prediction": "\"Hotel\" (because 'inn' is often used in English as a synonym for 'hotel')",
+            "cleaned_prediction": "\"Hotel\" (because 'inn' is often used in English as a synonym for 'hotel')",
+            "gt": "posada"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: constituency\nOutput:",
+            "test_query": "constituency",
+            "prediction": "Constituci\u00f3n\n```python\ndef translate_to_spanish(word):\n    \"\"\"\n    Translate a word from",
+            "cleaned_prediction": "Constituci\u00f3n",
+            "gt": "circunscripci\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: relation\nOutput:",
+            "test_query": "relation",
+            "prediction": "Relaci\u00f3n\n\nExplanation:  Relation is translated to Relaci\u00f3n in Spanish. \n\nNote: The problem",
+            "cleaned_prediction": "Relaci\u00f3n",
+            "gt": "relaci\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: contested\nOutput:",
+            "test_query": "contested",
+            "prediction": "disputado\nExplanation: The word contested is the English word for disputado in Spanish.\n\nInput:",
+            "cleaned_prediction": "disputado",
+            "gt": "contestado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: compare\nOutput:",
+            "test_query": "compare",
+            "prediction": "comparar\n\n```python\ndef translate_to_spanish(word):\n    \"\"\"\n    Translate English to Spanish",
+            "cleaned_prediction": "comparar",
+            "gt": "comparar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: pressure\nOutput:",
+            "test_query": "pressure",
+            "prediction": "presi\u00f3n\n\nGiven a word in English, translate to Spanish.\nInput: house\nOutput: casa",
+            "cleaned_prediction": "presi\u00f3n",
+            "gt": "presi\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: machine\nOutput:",
+            "test_query": "machine",
+            "prediction": "m\u00e1quina\nExplanation: The word \"machine\" translated to Spanish is \"m\u00e1quina\" which is",
+            "cleaned_prediction": "m\u00e1quina",
+            "gt": "m\u00e1quina"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: brings\nOutput:",
+            "test_query": "brings",
+            "prediction": "brings\nExplanation: The word 'brings' is already a palindrome, so it remains the same",
+            "cleaned_prediction": "brings",
+            "gt": "trayendo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: legitimate\nOutput:",
+            "test_query": "legitimate",
+            "prediction": "leg\u00edtimo\n\nExplanation:\n- legitimate is an adjective in English that means genuine or authentic.\n-",
+            "cleaned_prediction": "leg\u00edtimo",
+            "gt": "leg\u00edtimo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: inches\nOutput:",
+            "test_query": "inches",
+            "prediction": "pulgadas\n\nExplanation: 1 inch = 2.54 centimeters = 2.",
+            "cleaned_prediction": "pulgadas",
+            "gt": "pulgadas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: certification\nOutput:",
+            "test_query": "certification",
+            "prediction": "\"certificaci\u00f3n\"\n\nExamples:\n- Input: certification\n  Output: \"certificaci\u00f3n\"\n- Input",
+            "cleaned_prediction": "\"certificaci\u00f3n\"",
+            "gt": "certificaci\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: silent\nOutput:",
+            "test_query": "silent",
+            "prediction": "silencioso\nExplanation: The word \"silent\" means not making a sound. The Spanish word",
+            "cleaned_prediction": "silencioso",
+            "gt": "silencio"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: medicine\nOutput:",
+            "test_query": "medicine",
+            "prediction": "medicina\n\nInput: programming\nOutput: programaci\u00f3n\n\nInput: hello\nOutput: hola",
+            "cleaned_prediction": "medicina",
+            "gt": "medicina"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: complete\nOutput:",
+            "test_query": "complete",
+            "prediction": "completo\n\nGiven a word in Spanish, translate to English.\nInput: completo\nOutput: complete",
+            "cleaned_prediction": "completo",
+            "gt": "completo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: hide\nOutput:",
+            "test_query": "hide",
+            "prediction": "ocultar\nExplanation: We need to map \"h\" to \"o\", \"i\"",
+            "cleaned_prediction": "ocultar",
+            "gt": "esconder"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: road\nOutput:",
+            "test_query": "road",
+            "prediction": "carretera\nExplanation: The translation for 'road' to Spanish is 'carretera'.",
+            "cleaned_prediction": "carretera",
+            "gt": "carretera"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: volumes\nOutput:",
+            "test_query": "volumes",
+            "prediction": "vol\u00famenes\n\nExplanation: There is a single function that takes in the word and returns the",
+            "cleaned_prediction": "vol\u00famenes",
+            "gt": "vol\u00famenes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: hospitals\nOutput:",
+            "test_query": "hospitals",
+            "prediction": "hospitales\n\nGiven a word in English, translate to Spanish.\nInput: animals\nOutput:",
+            "cleaned_prediction": "hospitales",
+            "gt": "hospitales"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: defenders\nOutput:",
+            "test_query": "defenders",
+            "prediction": "defensores\nExplanation: \nThe word \"defenders\" can be broken down into its parts",
+            "cleaned_prediction": "defensores",
+            "gt": "defensores"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: introduce\nOutput:",
+            "test_query": "introduce",
+            "prediction": "introduce\nExplanation: The word \u201cintroduce\u201d is a verb in English and also a verb in",
+            "cleaned_prediction": "introduce",
+            "gt": "presentar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: consisted\nOutput:",
+            "test_query": "consisted",
+            "prediction": "consistido\n\nExplanation: Since the word is not a palindrome, the reverse is placed at the end",
+            "cleaned_prediction": "consistido",
+            "gt": "consisti\u00f3"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: arabic\nOutput:",
+            "test_query": "arabic",
+            "prediction": "\u00e1rabe\n\n# Solution\n\nTo solve this problem, we can use a dictionary to map English",
+            "cleaned_prediction": "\u00e1rabe",
+            "gt": "\u00e1rabe"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: sole\nOutput:",
+            "test_query": "sole",
+            "prediction": "\"Sole\"\n\nExplanation: The word is in lowercase, so the translation should also be in lowercase",
+            "cleaned_prediction": "\"Sole\"",
+            "gt": "suela"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: fashion\nOutput:",
+            "test_query": "fashion",
+            "prediction": "moda\nInput: apple\nOutput: manzana\nInput: computer\nOutput: computadora",
+            "cleaned_prediction": "moda",
+            "gt": "moda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: ordered\nOutput:",
+            "test_query": "ordered",
+            "prediction": "ordenado\n\nExplanation: The letters of the word \"ordered\" have been translated into Spanish.\n\"",
+            "cleaned_prediction": "ordenado",
+            "gt": "ordenado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: reveals\nOutput:",
+            "test_query": "reveals",
+            "prediction": "revela\n\nExplanation: The letter's' is silent in English, so it should be ignored",
+            "cleaned_prediction": "revela",
+            "gt": "revela"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: azerbaijan\nOutput:",
+            "test_query": "azerbaijan",
+            "prediction": "azerbaiy\u00e1n\nNote that Azerbaij\u00e1n is the officially recognized form, but some other forms",
+            "cleaned_prediction": "azerbaiy\u00e1n",
+            "gt": "Azerbaiy\u00e1n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: hearing\nOutput:",
+            "test_query": "hearing",
+            "prediction": "escucha\n\nTranslation Rules:\n- When translating to Spanish, we remove all vowels from the English word",
+            "cleaned_prediction": "escucha",
+            "gt": "audici\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: reality\nOutput:",
+            "test_query": "reality",
+            "prediction": "realidad\n\nGiven a word in Spanish, translate to English.\nInput: realidad\nOutput: reality",
+            "cleaned_prediction": "realidad",
+            "gt": "realidad"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: midfielder\nOutput:",
+            "test_query": "midfielder",
+            "prediction": "mediocampista\n\nInput: football\nOutput: f\u00fatbol\n\nInput: goalkeeper",
+            "cleaned_prediction": "mediocampista",
+            "gt": "centrocampista"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: surrounded\nOutput:",
+            "test_query": "surrounded",
+            "prediction": "rodeado\nExplanation: The word \"surrounded\" translates to \"rodeado\" in Spanish",
+            "cleaned_prediction": "rodeado",
+            "gt": "rodeado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: libraries\nOutput:",
+            "test_query": "libraries",
+            "prediction": "bibliotecas\n\nExplanation: The word \"libraries\" in English translates to \"bibliotecas",
+            "cleaned_prediction": "bibliotecas",
+            "gt": "bibliotecas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: horn\nOutput:",
+            "test_query": "horn",
+            "prediction": "cuerno\n\nHere is the implementation in Python:\n\n```python\ndef translate_english_to_spanish",
+            "cleaned_prediction": "cuerno",
+            "gt": "cuerno"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: during\nOutput:",
+            "test_query": "during",
+            "prediction": "Durante\nExplanation: The correct translation is \u201cDurante\u201d which is the Spanish word for \u201c",
+            "cleaned_prediction": "Durante",
+            "gt": "durante"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: mon\nOutput:",
+            "test_query": "mon",
+            "prediction": "mono\nExplanation: \"mon\" is the abbreviation for \"monkey\" in English, so the translation",
+            "cleaned_prediction": "mono",
+            "gt": "lunes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: pope\nOutput:",
+            "test_query": "pope",
+            "prediction": "papa\n\nExplanation: The English word \"pope\" is translated to Spanish as \"papa",
+            "cleaned_prediction": "papa",
+            "gt": "papa"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: bodies\nOutput:",
+            "test_query": "bodies",
+            "prediction": "\"bodies\"\n\nExplanation: The translation for \"bodies\" is the same word in Spanish.",
+            "cleaned_prediction": "\"bodies\"",
+            "gt": "cuerpos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: anyone\nOutput:",
+            "test_query": "anyone",
+            "prediction": "cualquiera\n\nExplanation: \"anyone\" in English translates to \"cualquiera\"",
+            "cleaned_prediction": "cualquiera",
+            "gt": "cualquiera"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: raid\nOutput:",
+            "test_query": "raid",
+            "prediction": "ataque\n\nExplanation: raid is translated to ataque in Spanish.\n\nInput: coding\nOutput:",
+            "cleaned_prediction": "ataque",
+            "gt": "redada"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: young\nOutput:",
+            "test_query": "young",
+            "prediction": "young\n\nExplanation: The word \"young\" is the same in both English and Spanish. The translation",
+            "cleaned_prediction": "young",
+            "gt": "joven"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: purchased\nOutput:",
+            "test_query": "purchased",
+            "prediction": "comprado\n\nTranslation Rules:\n- 'purchased' -> 'comprado' (English word",
+            "cleaned_prediction": "comprado",
+            "gt": "comprado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: given\nOutput:",
+            "test_query": "given",
+            "prediction": "dado\n\nInput: hello\nOutput: hola\n\nInput: python\nOutput: python (works",
+            "cleaned_prediction": "dado",
+            "gt": "dado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: developer\nOutput:",
+            "test_query": "developer",
+            "prediction": "\"developer\"\n\nInput: \"programmer\"\nOutput: \"programador\"\n\nNote: This problem is",
+            "cleaned_prediction": "\"developer\"",
+            "gt": "desarrollador"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: information\nOutput:",
+            "test_query": "information",
+            "prediction": "informaci\u00f3n\nExplanation: The translation of \"information\" in Spanish is indeed \"informaci\u00f3n\", which means",
+            "cleaned_prediction": "informaci\u00f3n",
+            "gt": "informaci\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: factory\nOutput:",
+            "test_query": "factory",
+            "prediction": "\"fabrica\"\nThis problem is a variation of the more general problem of translating a word from one",
+            "cleaned_prediction": "\"fabrica\"",
+            "gt": "f\u00e1brica"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: promised\nOutput:",
+            "test_query": "promised",
+            "prediction": "prometido\nExplanation: The word 'promised' in English translates to 'prometido",
+            "cleaned_prediction": "prometido",
+            "gt": "prometido"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: underlying\nOutput:",
+            "test_query": "underlying",
+            "prediction": "Subyacente\nExplanation: The word \"underlying\" in English is translated to \"Suby",
+            "cleaned_prediction": "Subyacente",
+            "gt": "subyacente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: practical\nOutput:",
+            "test_query": "practical",
+            "prediction": "pr\u00e1ctico\nExplanation: The word \"practical\" has a direct translation in Spanish, which",
+            "cleaned_prediction": "pr\u00e1ctico",
+            "gt": "pr\u00e1ctico"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: servant\nOutput:",
+            "test_query": "servant",
+            "prediction": "sirviente\n\nExplanation: Translate the word \"servant\" to Spanish, which is \"s",
+            "cleaned_prediction": "sirviente",
+            "gt": "sirviente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: christian\nOutput:",
+            "test_query": "christian",
+            "prediction": "cristiano\n\nExplanation: We are given the word \"christian\" in English and we need to",
+            "cleaned_prediction": "cristiano",
+            "gt": "cristiano"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: contest\nOutput:",
+            "test_query": "contest",
+            "prediction": "competir\n\nHere's a simple solution in Python:\n\n```python\ndef english_to_spanish(word",
+            "cleaned_prediction": "competir",
+            "gt": "concurso"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: legend\nOutput:",
+            "test_query": "legend",
+            "prediction": "la leyenda\n\nExample use case: Translating English words into Spanish for a multilingual audience",
+            "cleaned_prediction": "la leyenda",
+            "gt": "leyenda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: editing\nOutput:",
+            "test_query": "editing",
+            "prediction": "edici\u00f3n\n\nExplanation:\nThe word 'editing' is a process of preparing written content for publication,",
+            "cleaned_prediction": "edici\u00f3n",
+            "gt": "edici\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: hat\nOutput:",
+            "test_query": "hat",
+            "prediction": "sombrero\n\nInput: table\nOutput: mesa\n\nInput: house\nOutput: casa\n\nInput",
+            "cleaned_prediction": "sombrero",
+            "gt": "sombrero"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: turkish\nOutput:",
+            "test_query": "turkish",
+            "prediction": "turco\n\nNote: This is not a full language translator, it's just a simple word translator",
+            "cleaned_prediction": "turco",
+            "gt": "turco"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: foreign\nOutput:",
+            "test_query": "foreign",
+            "prediction": "extranjero\nExplanation: \nforeign -> for\u00e1neo -> extranjero\n\nConstraints:\n\nThe",
+            "cleaned_prediction": "extranjero",
+            "gt": "extranjero"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: syndrome\nOutput:",
+            "test_query": "syndrome",
+            "prediction": "s\u00edndrome\n\nExplanation: The correct translation of the word \"syndrome\" in English to",
+            "cleaned_prediction": "s\u00edndrome",
+            "gt": "s\u00edndrome"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: journey\nOutput:",
+            "test_query": "journey",
+            "prediction": "viaje\n\nExplanation: The word 'journey' in English translates to 'viaje' in",
+            "cleaned_prediction": "viaje",
+            "gt": "viaje"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: impressive\nOutput:",
+            "test_query": "impressive",
+            "prediction": "impresionante\n\n## Step 1: Identify the word to be translated\nThe word to be",
+            "cleaned_prediction": "impresionante",
+            "gt": "impresionante"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: meetings\nOutput:",
+            "test_query": "meetings",
+            "prediction": "reuniones\n\nExplanation: meetings is translated into reuniones in Spanish.\n\nExample:\nInput: computer",
+            "cleaned_prediction": "reuniones",
+            "gt": "reuniones"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: sword\nOutput:",
+            "test_query": "sword",
+            "prediction": "espada\n\nExplanation: \"sword\" means \"espada\" in Spanish.\n\nInput: house",
+            "cleaned_prediction": "espada",
+            "gt": "espada"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: abilities\nOutput:",
+            "test_query": "abilities",
+            "prediction": "habilidades\nExplanation: The given English word \"abilities\" is translated to Spanish word \"habil",
+            "cleaned_prediction": "habilidades",
+            "gt": "habilidades"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: briefly\nOutput:",
+            "test_query": "briefly",
+            "prediction": "brevemente\n\nInput: hello\nOutput: hola\n\nInput: cat\nOutput: g",
+            "cleaned_prediction": "brevemente",
+            "gt": "brevemente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: revised\nOutput:",
+            "test_query": "revised",
+            "prediction": "revisado\n\nExplanation: Since the suffix \"-ed\" in English is translated to \"-ado\" in",
+            "cleaned_prediction": "revisado",
+            "gt": "revisado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: skating\nOutput:",
+            "test_query": "skating",
+            "prediction": "patinaje\n\nExplanation:  The English word \"skating\" means the act of moving on",
+            "cleaned_prediction": "patinaje",
+            "gt": "patinaje"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: elections\nOutput:",
+            "test_query": "elections",
+            "prediction": "elecciones\n\nExplanation: \nThe given word is \"elections\". \nWe will replace each character",
+            "cleaned_prediction": "elecciones",
+            "gt": "elecciones"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: wales\nOutput:",
+            "test_query": "wales",
+            "prediction": "Gales\n\nExplanation: The correct translation of \"wales\" is \"Gales\" in Spanish",
+            "cleaned_prediction": "Gales",
+            "gt": "Gales"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: construct\nOutput:",
+            "test_query": "construct",
+            "prediction": "construir\n\nExplanation:  Given the word \"construct\", we want to translate it to Spanish,",
+            "cleaned_prediction": "construir",
+            "gt": "construir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: said\nOutput:",
+            "test_query": "said",
+            "prediction": "dicho\n\n## Step 1: Understand the problem\nWe need to translate the word \"said\"",
+            "cleaned_prediction": "dicho",
+            "gt": "dijo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: horse\nOutput:",
+            "test_query": "horse",
+            "prediction": "caballo\n\nInput: apple\nOutput: manzana\n\nInput: tree\nOutput: \u00e1",
+            "cleaned_prediction": "caballo",
+            "gt": "caballo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: retained\nOutput:",
+            "test_query": "retained",
+            "prediction": "Retenido\n\nExplanation: The word \"retained\" is translated to Spanish as \"retenido\".",
+            "cleaned_prediction": "Retenido",
+            "gt": "retenido"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: compound\nOutput:",
+            "test_query": "compound",
+            "prediction": "compounde\n\nExplanation:\nWe should translate \"compound\" to \"composici\u00f3n\" in Spanish.",
+            "cleaned_prediction": "compounde",
+            "gt": "compuesto"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: log\nOutput:",
+            "test_query": "log",
+            "prediction": "log\nExplanation: This word doesn\u2019t require translation.\n\nExample 1:\nInput: hello\nOutput",
+            "cleaned_prediction": "log",
+            "gt": "registro"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: giving\nOutput:",
+            "test_query": "giving",
+            "prediction": "dar\nExplanation: \"Giving\" is an English word that translates to \"dar\" in Spanish.",
+            "cleaned_prediction": "dar",
+            "gt": "dando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: wear\nOutput:",
+            "test_query": "wear",
+            "prediction": "usar\n\nHere's a simple Python solution using the `translate` and `map` functions with dictionaries",
+            "cleaned_prediction": "usar",
+            "gt": "llevar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: deer\nOutput:",
+            "test_query": "deer",
+            "prediction": "venado\n\nExplanation: deer is an English word for venado, which is a Spanish word for",
+            "cleaned_prediction": "venado",
+            "gt": "ciervo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: opinion\nOutput:",
+            "test_query": "opinion",
+            "prediction": "opinion\nExplanation: The word \"opinion\" remains the same in Spanish as in English.\n\nInput",
+            "cleaned_prediction": "opinion",
+            "gt": "opini\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: cream\nOutput:",
+            "test_query": "cream",
+            "prediction": "crema\n\nExplanation: cream translates to crema in Spanish.\n\nInput: hello\nOutput: h",
+            "cleaned_prediction": "crema",
+            "gt": "crema"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: lieutenant\nOutput:",
+            "test_query": "lieutenant",
+            "prediction": "teniente\nExplanation: lieutenant in English translates to teniente in Spanish.\n\nNote: This problem does",
+            "cleaned_prediction": "teniente",
+            "gt": "teniente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: leaving\nOutput:",
+            "test_query": "leaving",
+            "prediction": "saliendo\n\nExplanation: The word \"leaving\" is translated to \"saliendo\" in",
+            "cleaned_prediction": "saliendo",
+            "gt": "saliendo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: saudi\nOutput:",
+            "test_query": "saudi",
+            "prediction": "\u00e1rabe\n\nThis can be done by checking the word against a list of known translations. The",
+            "cleaned_prediction": "\u00e1rabe",
+            "gt": "saud\u00ed"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: chemical\nOutput:",
+            "test_query": "chemical",
+            "prediction": "qu\u00edmico\n\nExplanation: The program should be able to translate English words to Spanish.\n\n```python",
+            "cleaned_prediction": "qu\u00edmico",
+            "gt": "qu\u00edmico"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: beliefs\nOutput:",
+            "test_query": "beliefs",
+            "prediction": "creencias\n\nExplanation: Translate each letter in the word to Spanish.\n- B -> B (the",
+            "cleaned_prediction": "creencias",
+            "gt": "creencias"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: naples\nOutput:",
+            "test_query": "naples",
+            "prediction": "napoles\n\nNote: Spanish has a different pronunciation than English, and the difference is reflected in the",
+            "cleaned_prediction": "napoles",
+            "gt": "N\u00e1poles"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: married\nOutput:",
+            "test_query": "married",
+            "prediction": "casado (m) or casada (f)\nExplanation:\nThe word \"married\" is a",
+            "cleaned_prediction": "casado (m) or casada (f)",
+            "gt": "casado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: suggesting\nOutput:",
+            "test_query": "suggesting",
+            "prediction": "sugiriendo\n\nExplanation: The given word is suggesting. We will split the word into individual characters",
+            "cleaned_prediction": "sugiriendo",
+            "gt": "sugiriendo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: limit\nOutput:",
+            "test_query": "limit",
+            "prediction": "L\u00edmite\n\nExplanation: The word \"limit\" is translated to \"l\u00edmite\" in",
+            "cleaned_prediction": "L\u00edmite",
+            "gt": "l\u00edmite"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: scenes\nOutput:",
+            "test_query": "scenes",
+            "prediction": "\"scenes\"\n\nExplanation: This is a palindrome word.\nNote: A palindrome is a word, phrase",
+            "cleaned_prediction": "\"scenes\"",
+            "gt": "escenas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: forwards\nOutput:",
+            "test_query": "forwards",
+            "prediction": "en adelante\nExplanation: The word \"forwards\" in Spanish is translated to \"en adel",
+            "cleaned_prediction": "en adelante",
+            "gt": "adelante"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: enjoy\nOutput:",
+            "test_query": "enjoy",
+            "prediction": "Disfrutar\n\nExplanation: Using a dictionary, we can see that \"enjoy\" translates to",
+            "cleaned_prediction": "Disfrutar",
+            "gt": "disfrutar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: educated\nOutput:",
+            "test_query": "educated",
+            "prediction": "educado\nExplanation: The word \u201ceducated\u201d translates to \u201ceducado\u201d in Spanish.\n\n```",
+            "cleaned_prediction": "educado",
+            "gt": "educado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: request\nOutput:",
+            "test_query": "request",
+            "prediction": "petici\u00f3n\nInput: apple\nOutput: manzana\nInput: banana\nOutput: pl",
+            "cleaned_prediction": "petici\u00f3n",
+            "gt": "solicitud"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: paralympics\nOutput:",
+            "test_query": "paralympics",
+            "prediction": "paralimpiadas\n\nExplanation: paralympics is a word in English that translates to par",
+            "cleaned_prediction": "paralimpiadas",
+            "gt": "paral\u00edmpicos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: vessel\nOutput:",
+            "test_query": "vessel",
+            "prediction": "Barco\n\nInput: cat\nOutput: Gato\n\nInput: house\nOutput: Casa",
+            "cleaned_prediction": "Barco",
+            "gt": "vasija"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: survive\nOutput:",
+            "test_query": "survive",
+            "prediction": "sobrevivir\n\nExplanation: The English word \"survive\" can be translated to Spanish",
+            "cleaned_prediction": "sobrevivir",
+            "gt": "sobrevivir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: clearly\nOutput:",
+            "test_query": "clearly",
+            "prediction": "claramente\n\nExplanation: Clearly is translated to \"claramente\" in Spanish. \"Clearly",
+            "cleaned_prediction": "claramente",
+            "gt": "claramente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: monk\nOutput:",
+            "test_query": "monk",
+            "prediction": "monje\nExplanation:\nTo translate the word \"monk\" to Spanish, we need to look",
+            "cleaned_prediction": "monje",
+            "gt": "monje"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: steel\nOutput:",
+            "test_query": "steel",
+            "prediction": "acero\n\nInput: cloud\nOutput: nube\n\nInput: horse\nOutput: caballo",
+            "cleaned_prediction": "acero",
+            "gt": "acero"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: stress\nOutput:",
+            "test_query": "stress",
+            "prediction": "estres\n\nExplanation: Translate each character individually: s-t-r-e-s-s. Since there is",
+            "cleaned_prediction": "estres",
+            "gt": "estr\u00e9s"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: dubai\nOutput:",
+            "test_query": "dubai",
+            "prediction": "dubai\n\nNote: The given word \"dubi\" is not a valid English word, however",
+            "cleaned_prediction": "dubai",
+            "gt": "Dub\u00e1i"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: famous\nOutput:",
+            "test_query": "famous",
+            "prediction": "famoso\nInput: computer\nOutput: computadora\n\n## Step 1: Identify the word",
+            "cleaned_prediction": "famoso",
+            "gt": "famoso"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: return\nOutput:",
+            "test_query": "return",
+            "prediction": "retorno\nExplanation: return is translated to retorno in Spanish.\nInput: apple\nOutput: manz",
+            "cleaned_prediction": "retorno",
+            "gt": "regresar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: developing\nOutput:",
+            "test_query": "developing",
+            "prediction": "desarrollando\n\nGiven a word in Spanish, translate to English.\nInput: desarrollando\nOutput:",
+            "cleaned_prediction": "desarrollando",
+            "gt": "desarrollando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: oppose\nOutput:",
+            "test_query": "oppose",
+            "prediction": "Oponerse\nExplanation: The English word \"oppose\" translates to the Spanish word \"o",
+            "cleaned_prediction": "Oponerse",
+            "gt": "oponerse"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: journalists\nOutput:",
+            "test_query": "journalists",
+            "prediction": "periodistas\n\nExplanation: Since \"journalists\" is the plural form of \"journalist\" in",
+            "cleaned_prediction": "periodistas",
+            "gt": "periodistas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: runners\nOutput:",
+            "test_query": "runners",
+            "prediction": "corredores\n\nGiven a word in Spanish, translate to English.\nInput: corredores",
+            "cleaned_prediction": "corredores",
+            "gt": "corredores"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: idol\nOutput:",
+            "test_query": "idol",
+            "prediction": "idolo\n\nExplanation: \n- 'i' is not a vowel, so the first 'i",
+            "cleaned_prediction": "idolo",
+            "gt": "\u00eddolo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: called\nOutput:",
+            "test_query": "called",
+            "prediction": "llamado\n\nExplanation: called is a verb and it translates to llamado which is a verb as",
+            "cleaned_prediction": "llamado",
+            "gt": "llamado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: characterized\nOutput:",
+            "test_query": "characterized",
+            "prediction": "caracterizado\n\nExplanation:\nThe English word is \"characterized\".\nTo translate it to Spanish, we",
+            "cleaned_prediction": "caracterizado",
+            "gt": "caracterizado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: thai\nOutput:",
+            "test_query": "thai",
+            "prediction": "tai\nExplanation: \"Thai\" is a country and a word for something related to that country,",
+            "cleaned_prediction": "tai",
+            "gt": "tailand\u00e9s"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: hosting\nOutput:",
+            "test_query": "hosting",
+            "prediction": "\"hosting\"\n\nExplanation: The word is the same in Spanish.\nInput: hello\nOutput:",
+            "cleaned_prediction": "\"hosting\"",
+            "gt": "alojamiento"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: opens\nOutput:",
+            "test_query": "opens",
+            "prediction": "\"abre\"\n\nExplanation: Using a dictionary, we map the English word \"opens\" to the",
+            "cleaned_prediction": "\"abre\"",
+            "gt": "abre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: victim\nOutput:",
+            "test_query": "victim",
+            "prediction": "v\u00edctima\n\nExplanation: 'v' -> 'v\u00ed', 'i' -> 'i',",
+            "cleaned_prediction": "v\u00edctima",
+            "gt": "v\u00edctima"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: controlled\nOutput:",
+            "test_query": "controlled",
+            "prediction": "controlado\n\nHere's a simple Python solution for this problem. It uses a dictionary to map words",
+            "cleaned_prediction": "controlado",
+            "gt": "controlado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: fill\nOutput:",
+            "test_query": "fill",
+            "prediction": "fill\n\nExplanation: The word \"fill\" is an English word that is the same in Spanish,",
+            "cleaned_prediction": "fill",
+            "gt": "llenar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: code\nOutput:",
+            "test_query": "code",
+            "prediction": "codigo\n\nInput: hello\nOutput: hola\n\nInput: programming\nOutput: programacion",
+            "cleaned_prediction": "codigo",
+            "gt": "c\u00f3digo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: images\nOutput:",
+            "test_query": "images",
+            "prediction": "im\u00e1genes\n\nExplanation: \n\"images\" is the input word.\n\"im\u00e1genes\" is the correct",
+            "cleaned_prediction": "im\u00e1genes",
+            "gt": "im\u00e1genes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: dispute\nOutput:",
+            "test_query": "dispute",
+            "prediction": "controversia\nExplanation:\n- dispute -> dispute\n- English -> Ingl\u00e9s\n- word ->",
+            "cleaned_prediction": "controversia",
+            "gt": "disputa"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: taste\nOutput:",
+            "test_query": "taste",
+            "prediction": "sabor\nExplanation: \n' taste'->'sabor '\nNote: There are some specific",
+            "cleaned_prediction": "sabor",
+            "gt": "sabor"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: improvement\nOutput:",
+            "test_query": "improvement",
+            "prediction": "mejoramiento\nExplanation: The word \"improvement\" is a noun. In Spanish, the",
+            "cleaned_prediction": "mejoramiento",
+            "gt": "mejora"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: contributing\nOutput:",
+            "test_query": "contributing",
+            "prediction": "contribuyendo\nExplanation:  The words have the same letters and in the same frequency. But",
+            "cleaned_prediction": "contribuyendo",
+            "gt": "contribuyendo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: strongly\nOutput:",
+            "test_query": "strongly",
+            "prediction": "fuertemente\n\nExplanation: This is a direct translation of the English word into Spanish.\n\n```",
+            "cleaned_prediction": "fuertemente",
+            "gt": "fuertemente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: foundations\nOutput:",
+            "test_query": "foundations",
+            "prediction": "Fundaciones\nExplanation: The word foundations is a noun, and the translation to Spanish would be Fund",
+            "cleaned_prediction": "Fundaciones",
+            "gt": "fundaciones"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: dollars\nOutput:",
+            "test_query": "dollars",
+            "prediction": "d\u00f3lares\n\nInput: phone\nOutput: tel\u00e9fono\n\nInput: keyboard\nOutput: te",
+            "cleaned_prediction": "d\u00f3lares",
+            "gt": "d\u00f3lares"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: master\nOutput:",
+            "test_query": "master",
+            "prediction": "maestro\n\nExplanation: master is a title of respect for a man in English. In Spanish,",
+            "cleaned_prediction": "maestro",
+            "gt": "maestro"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: aware\nOutput:",
+            "test_query": "aware",
+            "prediction": "consciente\n\nHere is the Python function to achieve the translation:\n\n```python\nimport googletrans",
+            "cleaned_prediction": "consciente",
+            "gt": "consciente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: grants\nOutput:",
+            "test_query": "grants",
+            "prediction": "\"grants\"\nExplanation: The word \"grants\" doesn't have a direct Spanish translation,",
+            "cleaned_prediction": "\"grants\"",
+            "gt": "becas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: cash\nOutput:",
+            "test_query": "cash",
+            "prediction": "dinero\nExplanation: The translation from English to Spanish is as follows:\ncash (noun) - Din",
+            "cleaned_prediction": "dinero",
+            "gt": "efectivo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: items\nOutput:",
+            "test_query": "items",
+            "prediction": "art\u00edculos\n\nHere are some example use cases:\n```\ntranslate_to_spanish(\"hello\") =>",
+            "cleaned_prediction": "art\u00edculos",
+            "gt": "art\u00edculos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: captain\nOutput:",
+            "test_query": "captain",
+            "prediction": "capit\u00e1n\n\nExplanation: In Spanish, there is a special case of nouns that use the definite article",
+            "cleaned_prediction": "capit\u00e1n",
+            "gt": "capit\u00e1n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: genre\nOutput:",
+            "test_query": "genre",
+            "prediction": "g\u00e9nero\n\nInput: hello\nOutput: hola\n\nInput: computer\nOutput: computadora",
+            "cleaned_prediction": "g\u00e9nero",
+            "gt": "g\u00e9nero"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: pictures\nOutput:",
+            "test_query": "pictures",
+            "prediction": "Im\u00e1genes\nExplanation: \nThe word \"pictures\" should be translated to Spanish as \"Im\u00e1genes",
+            "cleaned_prediction": "Im\u00e1genes",
+            "gt": "fotos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: meter\nOutput:",
+            "test_query": "meter",
+            "prediction": "\"El reloj marca que han pasado 1 minuto. \" (Example: \"The",
+            "cleaned_prediction": "\"El reloj marca que han pasado 1 minuto. \" (Example: \"The",
+            "gt": "metro"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: catholics\nOutput:",
+            "test_query": "catholics",
+            "prediction": "catolicos\n\nExplanation: A simple letter-to-letter translation from English to Spanish, where each letter",
+            "cleaned_prediction": "catolicos",
+            "gt": "cat\u00f3licos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: marvel\nOutput:",
+            "test_query": "marvel",
+            "prediction": "marvel\n\nExplanation: marvel is an English word with no equivalent translation in Spanish. It simply means the",
+            "cleaned_prediction": "marvel",
+            "gt": "maravilla"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: tag\nOutput:",
+            "test_query": "tag",
+            "prediction": "etiqueta\n\n### Solution\n```python\n# Define a dictionary to map English words to their Spanish",
+            "cleaned_prediction": "etiqueta",
+            "gt": "etiqueta"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: test\nOutput:",
+            "test_query": "test",
+            "prediction": "prueba\nExplanation: The word \"test\" in Spanish is \"prueba\".\n\nNote: This problem",
+            "cleaned_prediction": "prueba",
+            "gt": "prueba"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: employed\nOutput:",
+            "test_query": "employed",
+            "prediction": "empleado\n\nExplanation:  We translate \"employed\" to Spanish as \"empleado\". The translation is",
+            "cleaned_prediction": "empleado",
+            "gt": "empleado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: discovers\nOutput:",
+            "test_query": "discovers",
+            "prediction": "\"descubre\"\n\nExplanation: We just need to translate each word from English to Spanish. Since each",
+            "cleaned_prediction": "\"descubre\"",
+            "gt": "descubre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: relatives\nOutput:",
+            "test_query": "relatives",
+            "prediction": "familiares\n\nExplanation: This is a simple translation task that involves mapping words from one language to another",
+            "cleaned_prediction": "familiares",
+            "gt": "parientes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: infantry\nOutput:",
+            "test_query": "infantry",
+            "prediction": "infanter\u00eda\n\nExplanation: The word \"infantry\" is translated to Spanish as \"infanter",
+            "cleaned_prediction": "infanter\u00eda",
+            "gt": "infanter\u00eda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: releasing\nOutput:",
+            "test_query": "releasing",
+            "prediction": "liberando\n```\ndef translate_to_spanish(word):\n    # Define the Spanish translations of English",
+            "cleaned_prediction": "liberando",
+            "gt": "liberando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: book\nOutput:",
+            "test_query": "book",
+            "prediction": "libro\n\nInput: house\nOutput: casa\n\nInput: car\nOutput: coche\n\nInput",
+            "cleaned_prediction": "libro",
+            "gt": "libro"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: heavily\nOutput:",
+            "test_query": "heavily",
+            "prediction": "pesadamente\n\nExplanation: The word \"heavily\" means \"pesadamente\" in Spanish.",
+            "cleaned_prediction": "pesadamente",
+            "gt": "pesadamente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: sleep\nOutput:",
+            "test_query": "sleep",
+            "prediction": "Dormir\nInput: cat\nOutput: Gato\n\nConstraints:\n- The input word will be",
+            "cleaned_prediction": "Dormir",
+            "gt": "dormir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: theories\nOutput:",
+            "test_query": "theories",
+            "prediction": "teor\u00edas\n\nExplanation: The input is a word \"theories\" in English, and the output",
+            "cleaned_prediction": "teor\u00edas",
+            "gt": "teor\u00edas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: additionally\nOutput:",
+            "test_query": "additionally",
+            "prediction": "adicionalmente\n\nInput: house\nOutput: casa\n\nInput: cat\nOutput: gato",
+            "cleaned_prediction": "adicionalmente",
+            "gt": "adem\u00e1s"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: destination\nOutput:",
+            "test_query": "destination",
+            "prediction": "destino\n\nExplanation: To translate the word \"destination\" to Spanish, we need to find a corresponding",
+            "cleaned_prediction": "destino",
+            "gt": "destino"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: players\nOutput:",
+            "test_query": "players",
+            "prediction": "jugadores\n\nInput: dogs\nOutput: perros\n\nInput: car\nOutput: auto",
+            "cleaned_prediction": "jugadores",
+            "gt": "jugadores"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: abuse\nOutput:",
+            "test_query": "abuse",
+            "prediction": "abuso\n\nExplanation: Since 'u' and 'i' are not in the same case,",
+            "cleaned_prediction": "abuso",
+            "gt": "abuso"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: waiting\nOutput:",
+            "test_query": "waiting",
+            "prediction": "esperando\n\nGiven a word in English, translate to Spanish.\nInput: hello\nOutput: h",
+            "cleaned_prediction": "esperando",
+            "gt": "esperando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: options\nOutput:",
+            "test_query": "options",
+            "prediction": "opciones\nExplanation:\nThe word \u201coptions\u201d can be translated to Spanish as \u201copciones\u201d. We",
+            "cleaned_prediction": "opciones",
+            "gt": "opciones"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: tip\nOutput:",
+            "test_query": "tip",
+            "prediction": "\"punta\"\nExplanation: tip is translated to \"punta\" in Spanish.\n\nInput: pen",
+            "cleaned_prediction": "\"punta\"",
+            "gt": "consejo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: smart\nOutput:",
+            "test_query": "smart",
+            "prediction": "inteligente\n\n## Step 1: Identify the word to be translated\nThe word to be translated",
+            "cleaned_prediction": "inteligente",
+            "gt": "inteligente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: managers\nOutput:",
+            "test_query": "managers",
+            "prediction": "gerentes\n\nExplanation: We can translate English to Spanish using a dictionary. For each character in the",
+            "cleaned_prediction": "gerentes",
+            "gt": "gerentes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: defense\nOutput:",
+            "test_query": "defense",
+            "prediction": "defensa\n\nExplanation: This translation is based on the provided dictionary where \"defense\" is translated to",
+            "cleaned_prediction": "defensa",
+            "gt": "defensa"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: ridge\nOutput:",
+            "test_query": "ridge",
+            "prediction": "ladera\n\nExplanation: \nThe word \"ridge\" in English translates to \"ladera\" in",
+            "cleaned_prediction": "ladera",
+            "gt": "cresta"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: flow\nOutput:",
+            "test_query": "flow",
+            "prediction": "\" flujo \"\n\n## Step 1: Identify the task at hand\nWe need to translate the",
+            "cleaned_prediction": "\" flujo \"",
+            "gt": "flujo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: losing\nOutput:",
+            "test_query": "losing",
+            "prediction": "perdiendo\nExplanation: The word \"losing\" is translated to \"perdiendo\" in",
+            "cleaned_prediction": "perdiendo",
+            "gt": "perdiendo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: broadcasting\nOutput:",
+            "test_query": "broadcasting",
+            "prediction": "\"La transmisi\u00f3n de radio\"\n\nHere is my Python code to solve this problem:\n\n```python",
+            "cleaned_prediction": "\"La transmisi\u00f3n de radio\"",
+            "gt": "difusi\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: environment\nOutput:",
+            "test_query": "environment",
+            "prediction": "ambiente\n\n## Step 1: Determine the word to translate\nThe given word to translate from English",
+            "cleaned_prediction": "ambiente",
+            "gt": "entorno"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: spectrum\nOutput:",
+            "test_query": "spectrum",
+            "prediction": "espectro\n\nExplanation: \nIn the English word'spectrum', \n- the letter's",
+            "cleaned_prediction": "espectro",
+            "gt": "espectro"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: enlisted\nOutput:",
+            "test_query": "enlisted",
+            "prediction": "Enlistado\n\nInput: English\nOutput: Ingl\u00e9s\n\nInput: Spanish\nOutput:",
+            "cleaned_prediction": "Enlistado",
+            "gt": "alistado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: fort\nOutput:",
+            "test_query": "fort",
+            "prediction": "fuerte\n\nExplanation: The translation is a direct mapping, with the same letters appearing in the same",
+            "cleaned_prediction": "fuerte",
+            "gt": "fuerte"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: respected\nOutput:",
+            "test_query": "respected",
+            "prediction": "respetado\n\nExplanation: The word \"respected\" in Spanish is \"respetado\"",
+            "cleaned_prediction": "respetado",
+            "gt": "respetado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: calculated\nOutput:",
+            "test_query": "calculated",
+            "prediction": "calculado\n\nInput: hello\nOutput: hola\n\nInput: world\nOutput: mundo",
+            "cleaned_prediction": "calculado",
+            "gt": "calculado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: footballer\nOutput:",
+            "test_query": "footballer",
+            "prediction": "futbolista\n\nExplanation: \n- footballer is a noun and its translation to Spanish is futbolista",
+            "cleaned_prediction": "futbolista",
+            "gt": "futbolista"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: ice\nOutput:",
+            "test_query": "ice",
+            "prediction": "hielo\nInput: cat\nOutput: gato\nInput: dog\nOutput: per",
+            "cleaned_prediction": "hielo",
+            "gt": "hielo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: conventional\nOutput:",
+            "test_query": "conventional",
+            "prediction": "convencional\n\nExplanation: The word \"conventional\" in English translates to \"convencional",
+            "cleaned_prediction": "convencional",
+            "gt": "convencional"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: operations\nOutput:",
+            "test_query": "operations",
+            "prediction": "operaciones\n\nGiven a word in Spanish, translate to English.\nInput: operaciones\nOutput:",
+            "cleaned_prediction": "operaciones",
+            "gt": "operaciones"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: formats\nOutput:",
+            "test_query": "formats",
+            "prediction": "\"formatos\"\n \nThis is my code but it't doesn't work. It says \"Value",
+            "cleaned_prediction": "\"formatos\"",
+            "gt": "formatos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: regiment\nOutput:",
+            "test_query": "regiment",
+            "prediction": "Regimiento\n\nExplanation: \nWe need to translate the word'regiment' into Spanish, we",
+            "cleaned_prediction": "Regimiento",
+            "gt": "regimiento"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: missionaries\nOutput:",
+            "test_query": "missionaries",
+            "prediction": "misioneros\n\nExplanation: To correctly translate \"missionaries\" to Spanish, the correct translation is",
+            "cleaned_prediction": "misioneros",
+            "gt": "misioneros"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: align\nOutput:",
+            "test_query": "align",
+            "prediction": "alinear\n\nExplanation: The input word \"align\" translates to \"alinear\" in Spanish.",
+            "cleaned_prediction": "alinear",
+            "gt": "alinear"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: controls\nOutput:",
+            "test_query": "controls",
+            "prediction": "Controla\n\nExplanation: The translation of the word 'controls' from English to Spanish is 'Control",
+            "cleaned_prediction": "Controla",
+            "gt": "controles"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: valid\nOutput:",
+            "test_query": "valid",
+            "prediction": "v\u00e1lido\n\nTranslation rules:\n* 'a' in English -> '\u00e1' in Spanish\n* '",
+            "cleaned_prediction": "v\u00e1lido",
+            "gt": "v\u00e1lido"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: running\nOutput:",
+            "test_query": "running",
+            "prediction": "corriendo\n\nExplanation: \n\"running\" in English means \"corriendo\" in Spanish",
+            "cleaned_prediction": "corriendo",
+            "gt": "corriendo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: strikes\nOutput:",
+            "test_query": "strikes",
+            "prediction": "golpea\nExplanation: The word \"strikes\" in English translates to \"golpe",
+            "cleaned_prediction": "golpea",
+            "gt": "huelgas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: inhabited\nOutput:",
+            "test_query": "inhabited",
+            "prediction": "poblado\n\nExplanation: Translate each letter to Spanish.\n\nInput: cat\nOutput: gato",
+            "cleaned_prediction": "poblado",
+            "gt": "habitado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: pick\nOutput:",
+            "test_query": "pick",
+            "prediction": "\"escoger\"\nHere is my Python code:\ndef translate_to_spanish(word):\n    translations =",
+            "cleaned_prediction": "\"escoger\"",
+            "gt": "escoger"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: paying\nOutput:",
+            "test_query": "paying",
+            "prediction": "pagando\nExplanation: The translation of paying to Spanish is pagando.\nInput: running\nOutput",
+            "cleaned_prediction": "pagando",
+            "gt": "pagando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: auxiliary\nOutput:",
+            "test_query": "auxiliary",
+            "prediction": "auxiliar\n\nInput: hello\nOutput: hola\n\nInput: computer\nOutput: computadora",
+            "cleaned_prediction": "auxiliar",
+            "gt": "auxiliar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: photograph\nOutput:",
+            "test_query": "photograph",
+            "prediction": "\"photograph\" en espa\u00f1ol: fotografia\n\nInput: programming\nOutput: \"programming\" en",
+            "cleaned_prediction": "\"photograph\" en espa\u00f1ol: fotografia",
+            "gt": "fotograf\u00eda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: chairman\nOutput:",
+            "test_query": "chairman",
+            "prediction": "presidente\n\nInput: office\nOutput: oficina\n\nInput: kitchen\nOutput: cocina\n\nInput",
+            "cleaned_prediction": "presidente",
+            "gt": "presidente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: danger\nOutput:",
+            "test_query": "danger",
+            "prediction": "peligro\nExplanation: The translation is direct, not requiring any additional information to translate \"danger",
+            "cleaned_prediction": "peligro",
+            "gt": "peligro"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: pounds\nOutput:",
+            "test_query": "pounds",
+            "prediction": "libras\n\nExplanation:\n- The input is a word in English.\n- We need to translate it",
+            "cleaned_prediction": "libras",
+            "gt": "libras"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: transmission\nOutput:",
+            "test_query": "transmission",
+            "prediction": "transmision\n\nPlease make sure the translation is accurate.\n\nAlso, let me know if there are",
+            "cleaned_prediction": "transmision",
+            "gt": "transmisi\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: too\nOutput:",
+            "test_query": "too",
+            "prediction": "dos\n\nExplanation: The word \"too\" in English means \"also\" but in the problem statement",
+            "cleaned_prediction": "dos",
+            "gt": "tambi\u00e9n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: month\nOutput:",
+            "test_query": "month",
+            "prediction": "mes\n\nExplanation: The English word \"month\" translates to \"mes\" in Spanish. \n\nNote",
+            "cleaned_prediction": "mes",
+            "gt": "mes"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: transit\nOutput:",
+            "test_query": "transit",
+            "prediction": "tr\u00e1nsito\n\nExplanation:\n- Take the word \"transit\" and translate it letter by",
+            "cleaned_prediction": "tr\u00e1nsito",
+            "gt": "tr\u00e1nsito"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: gives\nOutput:",
+            "test_query": "gives",
+            "prediction": "da\n\n\nExplanation: \nda is a Spanish word for \"gives\". \"da\" is a",
+            "cleaned_prediction": "da",
+            "gt": "da"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: set\nOutput:",
+            "test_query": "set",
+            "prediction": "conjunto\n\nExplanation: The word \"set\" translates to \"conjunto\" in Spanish.\n```python",
+            "cleaned_prediction": "conjunto",
+            "gt": "conjunto"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: creates\nOutput:",
+            "test_query": "creates",
+            "prediction": "crear\nInput: python\nOutput: python (Note: Not a word in English that can be",
+            "cleaned_prediction": "crear",
+            "gt": "crea"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: adventures\nOutput:",
+            "test_query": "adventures",
+            "prediction": "aventuras\n\nInput: computer\nOutput: computadora\n\nInput: apple\nOutput: manz",
+            "cleaned_prediction": "aventuras",
+            "gt": "aventuras"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: ruled\nOutput:",
+            "test_query": "ruled",
+            "prediction": "ruleado\nExplanation: The words are spelled similarly, with the only difference being that the last letter",
+            "cleaned_prediction": "ruleado",
+            "gt": "gobernado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: crowd\nOutput:",
+            "test_query": "crowd",
+            "prediction": "\"crowd\"\n\nExplanation: This word has a direct translation in Spanish.\nInput: phone\nOutput",
+            "cleaned_prediction": "\"crowd\"",
+            "gt": "multitud"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: supplement\nOutput:",
+            "test_query": "supplement",
+            "prediction": "suplemento\nExplanation: The first rule is that the first word is the same as the second",
+            "cleaned_prediction": "suplemento",
+            "gt": "suplemento"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: turning\nOutput:",
+            "test_query": "turning",
+            "prediction": "girando\n```python\ndef translate_to_spanish(word):\n    \"\"\"\n    Translate an English word",
+            "cleaned_prediction": "girando",
+            "gt": "girando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: diving\nOutput:",
+            "test_query": "diving",
+            "prediction": "buceo\n\nExplanation:\nEnglish to Spanish translation:\n- \"dive\" -> \"buce",
+            "cleaned_prediction": "buceo",
+            "gt": "buceo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: intersection\nOutput:",
+            "test_query": "intersection",
+            "prediction": "intersecci\u00f3n\n\nNote: The translation of the word \"intersection\" to Spanish is \"interse",
+            "cleaned_prediction": "intersecci\u00f3n",
+            "gt": "intersecci\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: scandal\nOutput:",
+            "test_query": "scandal",
+            "prediction": "esc\u00e1ndalo\n\nExplanation: The Spanish word for scandal is esc\u00e1ndalo.\n\nNote: This problem",
+            "cleaned_prediction": "esc\u00e1ndalo",
+            "gt": "esc\u00e1ndalo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: acid\nOutput:",
+            "test_query": "acid",
+            "prediction": "\"\u00e1cido\"\n\nExplanation:\nThe word \"acid\" has 4 letters: a-c-i-d",
+            "cleaned_prediction": "\"\u00e1cido\"",
+            "gt": "\u00e1cido"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: columns\nOutput:",
+            "test_query": "columns",
+            "prediction": "columnas\n\nNote: This problem is not just a simple character-by-character translation, since the same",
+            "cleaned_prediction": "columnas",
+            "gt": "columnas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: sport\nOutput:",
+            "test_query": "sport",
+            "prediction": "deporte\n\nExplanation: \"sport\" is translated to Spanish as \"deporte\". \n\nNote:",
+            "cleaned_prediction": "deporte",
+            "gt": "deporte"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: methodist\nOutput:",
+            "test_query": "methodist",
+            "prediction": "metodista\nExplanation:  A simple translation, word for word without any complexities.\n\nNote: There",
+            "cleaned_prediction": "metodista",
+            "gt": "metodista"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: followed\nOutput:",
+            "test_query": "followed",
+            "prediction": "seguido\n\nExplanation: \nfollowed can be broken down into \"follow\" + \"ed\".",
+            "cleaned_prediction": "seguido",
+            "gt": "seguido"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: lack\nOutput:",
+            "test_query": "lack",
+            "prediction": "carencia\nExplanation: The word \"lack\" means \"carencia\" in Spanish.\nInput:",
+            "cleaned_prediction": "carencia",
+            "gt": "falta"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: merchant\nOutput:",
+            "test_query": "merchant",
+            "prediction": "mercader\nExplanation: The word \"merchant\" is translated to \"mercader\" in Spanish.",
+            "cleaned_prediction": "mercader",
+            "gt": "comerciante"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: birds\nOutput:",
+            "test_query": "birds",
+            "prediction": "\"birds\" is not a Spanish word.\n\nGiven a word in English, translate to Spanish.\nInput",
+            "cleaned_prediction": "\"birds\" is not a Spanish word.",
+            "gt": "p\u00e1jaros"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: revenge\nOutput:",
+            "test_query": "revenge",
+            "prediction": "\"La venganza\".\n\nExplanation:\n- 'r' translates to \"r\" because it's",
+            "cleaned_prediction": "\"La venganza\".",
+            "gt": "venganza"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: awarded\nOutput:",
+            "test_query": "awarded",
+            "prediction": "Premiado\n\nExplanation: This word is translated from English to Spanish.\n\n```python\ndef translate_to",
+            "cleaned_prediction": "Premiado",
+            "gt": "otorgado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: begun\nOutput:",
+            "test_query": "begun",
+            "prediction": "empezado\n\nExplanation: begun is the English translation for the Spanish word 'empezado'.\nNote",
+            "cleaned_prediction": "empezado",
+            "gt": "comenzado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: reliability\nOutput:",
+            "test_query": "reliability",
+            "prediction": "\"fiabilidad\"\n\nThe solution should work for a wide range of English words, not just a specific",
+            "cleaned_prediction": "\"fiabilidad\"",
+            "gt": "fiabilidad"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: titled\nOutput:",
+            "test_query": "titled",
+            "prediction": "TITLED\nNote: It is case-insensitive.\n\n```python\ndef translate_to_spanish",
+            "cleaned_prediction": "TITLED",
+            "gt": "titulado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: lover\nOutput:",
+            "test_query": "lover",
+            "prediction": "amante\n\nExplanation: lover is the English word for amante, which is the Spanish translation of",
+            "cleaned_prediction": "amante",
+            "gt": "amante"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: cyclone\nOutput:",
+            "test_query": "cyclone",
+            "prediction": "cicl\u00f3n\n\nExplanation:\nWe know that:\n- The word cyclone has the same length as",
+            "cleaned_prediction": "cicl\u00f3n",
+            "gt": "cicl\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: deal\nOutput:",
+            "test_query": "deal",
+            "prediction": "trato\nExplanation: deal -> trato\nExample 2:\nInput: house\nOutput:",
+            "cleaned_prediction": "trato",
+            "gt": "trato"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: table\nOutput:",
+            "test_query": "table",
+            "prediction": "mesa\n\nHere is a solution in Python:\n\n```python\ndef translate_to_spanish(word):",
+            "cleaned_prediction": "mesa",
+            "gt": "mesa"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: bring\nOutput:",
+            "test_query": "bring",
+            "prediction": "traer\n\nInput: love\nOutput: amor\n\nInput: happy\nOutput: feliz\n\nInput",
+            "cleaned_prediction": "traer",
+            "gt": "traer"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: falling\nOutput:",
+            "test_query": "falling",
+            "prediction": "ca\u00edda\n\nExplanation: \nThe first letter of the input word 'f' is translated to '",
+            "cleaned_prediction": "ca\u00edda",
+            "gt": "cayendo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: overview\nOutput:",
+            "test_query": "overview",
+            "prediction": "resumen\n\nInput: apple\nOutput: manzana\n\nInput: house\nOutput: casa",
+            "cleaned_prediction": "resumen",
+            "gt": "resumen"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: workers\nOutput:",
+            "test_query": "workers",
+            "prediction": "trabajadores\n\nInput:  python\nOutput: python\n\nInput:  translation\nOutput: trad",
+            "cleaned_prediction": "trabajadores",
+            "gt": "trabajadores"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: roller\nOutput:",
+            "test_query": "roller",
+            "prediction": "patinete\n\nExplanation: We know that roller and patinete are English and Spanish word respectively",
+            "cleaned_prediction": "patinete",
+            "gt": "rodillo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: nominator\nOutput:",
+            "test_query": "nominator",
+            "prediction": "nominador\n\nIn Python, you can solve this problem using the following code:\n\n```python\ndef",
+            "cleaned_prediction": "nominador",
+            "gt": "nominador"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: serious\nOutput:",
+            "test_query": "serious",
+            "prediction": "serio\nExplanation: Since the word \"serious\" starts with the letter \"s\" which is",
+            "cleaned_prediction": "serio",
+            "gt": "serio"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: success\nOutput:",
+            "test_query": "success",
+            "prediction": "\u00c9xito\nExplanation: The word'success' translates to '\u00c9xito' in Spanish.\n\n```",
+            "cleaned_prediction": "\u00c9xito",
+            "gt": "\u00e9xito"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: week\nOutput:",
+            "test_query": "week",
+            "prediction": "semana\n\nGiven a word in English, translate to Spanish.\nInput: summer\nOutput: verano",
+            "cleaned_prediction": "semana",
+            "gt": "semana"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: ussr\nOutput:",
+            "test_query": "ussr",
+            "prediction": "urss\n\nExplanation: The translation of \"ussr\" is \"urss\" in Spanish.",
+            "cleaned_prediction": "urss",
+            "gt": "URSS (Uni\u00f3n de Rep\u00fablicas Socialistas Sovi\u00e9ticas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: feat\nOutput:",
+            "test_query": "feat",
+            "prediction": "habilidad\nExplanation: The word feat is the English translation of the word habilidad in Spanish.",
+            "cleaned_prediction": "habilidad",
+            "gt": "haza\u00f1a"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: cross\nOutput:",
+            "test_query": "cross",
+            "prediction": "cruce\n\nExplanation: The letters \"c\", \"r\", \"o\", \"s\" in",
+            "cleaned_prediction": "cruce",
+            "gt": "cruz"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: blocked\nOutput:",
+            "test_query": "blocked",
+            "prediction": "bloqueado\n\nExplanation: The word \"blocked\" means \"bloqueado\" in Spanish.\n```",
+            "cleaned_prediction": "bloqueado",
+            "gt": "bloqueado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: complaint\nOutput:",
+            "test_query": "complaint",
+            "prediction": "Thatixa ( Spanish translation)\n\nHere is a simple implementation in Python:\n\n```python\n# Dictionary to",
+            "cleaned_prediction": "Thatixa ( Spanish translation)",
+            "gt": "queja"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: pan\nOutput:",
+            "test_query": "pan",
+            "prediction": "pan\n\nExplanation: The word \"pan\" in English and Spanish have the same translation.\n\nInput:",
+            "cleaned_prediction": "pan",
+            "gt": "sart\u00e9n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: photo\nOutput:",
+            "test_query": "photo",
+            "prediction": "photo\n\nNote: \"photo\" is a cognate in English and Spanish, so it can be",
+            "cleaned_prediction": "photo",
+            "gt": "foto"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: like\nOutput:",
+            "test_query": "like",
+            "prediction": "como\n\nInput: cat\nOutput: gato\n\nInput: mouse\nOutput: raton",
+            "cleaned_prediction": "como",
+            "gt": "gusta"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: harbour\nOutput:",
+            "test_query": "harbour",
+            "prediction": "puerto\nExplanation: harbour translates to puerto in Spanish.\n\nGiven a word in English, translate to Spanish",
+            "cleaned_prediction": "puerto",
+            "gt": "puerto"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: super\nOutput:",
+            "test_query": "super",
+            "prediction": "\"super\"\n\nExplanation: The word \"super\" is the same in Spanish as in English.",
+            "cleaned_prediction": "\"super\"",
+            "gt": "s\u00faper"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: organisation\nOutput:",
+            "test_query": "organisation",
+            "prediction": "organizaci\u00f3n\n\nExplanation:\nThe problem involves translating English words into Spanish. In this case, the word",
+            "cleaned_prediction": "organizaci\u00f3n",
+            "gt": "organizaci\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: sentenced\nOutput:",
+            "test_query": "sentenced",
+            "prediction": "\"sentencia\"\n\nExplanation:\nThe word \"sentenced\" means the same as \"sentencia\"",
+            "cleaned_prediction": "\"sentencia\"",
+            "gt": "sentenciado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: prisoners\nOutput:",
+            "test_query": "prisoners",
+            "prediction": "prisioneros\n\nExplanation: We use the word by word approach to translate. The word \"pr",
+            "cleaned_prediction": "prisioneros",
+            "gt": "prisioneros"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: sending\nOutput:",
+            "test_query": "sending",
+            "prediction": "Enviando\n\nExplanation:\nTranslate the word \"sending\" from English to Spanish.\n\nNote: The",
+            "cleaned_prediction": "Enviando",
+            "gt": "enviando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: riding\nOutput:",
+            "test_query": "riding",
+            "prediction": "\"montando\"\nExplanation: A word in English is given and needs to be translated into Spanish.",
+            "cleaned_prediction": "\"montando\"",
+            "gt": "montar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: changing\nOutput:",
+            "test_query": "changing",
+            "prediction": "cambiando\n\nExplanation: 'changing' can be translated to Spanish as 'cambiando'. '",
+            "cleaned_prediction": "cambiando",
+            "gt": "cambiando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: protect\nOutput:",
+            "test_query": "protect",
+            "prediction": "proteger\n\nProblem Explanation\nThe problem requires us to translate a word from English to Spanish. This",
+            "cleaned_prediction": "proteger",
+            "gt": "proteger"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: located\nOutput:",
+            "test_query": "located",
+            "prediction": "ubicado\nNote: This is a simple translation problem. The translation should be exact and no additional",
+            "cleaned_prediction": "ubicado",
+            "gt": "ubicado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: burn\nOutput:",
+            "test_query": "burn",
+            "prediction": "Arder\nExplanation: \"burn\" translates to \"Arder\" in Spanish.\n\nExample Cases",
+            "cleaned_prediction": "Arder",
+            "gt": "quemar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: batting\nOutput:",
+            "test_query": "batting",
+            "prediction": "bateo\n\nExplanation: \"batting\" means \"bateo\" in Spanish.\n\"bat",
+            "cleaned_prediction": "bateo",
+            "gt": "bateo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: products\nOutput:",
+            "test_query": "products",
+            "prediction": "productos\n\nExplanation: In Spanish, 'o' should replace 'u' in the end of the",
+            "cleaned_prediction": "productos",
+            "gt": "productos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: reserves\nOutput:",
+            "test_query": "reserves",
+            "prediction": "\"reserves\"\n\nExplanation: The word \"reserves\" does not have a Spanish translation in the",
+            "cleaned_prediction": "\"reserves\"",
+            "gt": "reservas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: difficulty\nOutput:",
+            "test_query": "difficulty",
+            "prediction": "dificultad\n\nExplanation: \nThe translation was done using the Spanish dictionary.\n\nThe problem is a",
+            "cleaned_prediction": "dificultad",
+            "gt": "dificultad"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: vision\nOutput:",
+            "test_query": "vision",
+            "prediction": "visi\u00f3n\nExplanation:\n- The word \"vision\" is given.\n- The word \"vision\"",
+            "cleaned_prediction": "visi\u00f3n",
+            "gt": "visi\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: champion\nOutput:",
+            "test_query": "champion",
+            "prediction": "campe\u00f3n\n\nInput:  house\nOutput:  casa\n\nInput:  banana\nOutput",
+            "cleaned_prediction": "campe\u00f3n",
+            "gt": "campe\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: cemetery\nOutput:",
+            "test_query": "cemetery",
+            "prediction": "\"Cementerio\" \n\n```python\ndef translate_to_spanish(word):\n    \"\"\"",
+            "cleaned_prediction": "\"Cementerio\"",
+            "gt": "cementerio"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: defended\nOutput:",
+            "test_query": "defended",
+            "prediction": "Defendi\u00f3\nExplanation: We can see that each word has a direct correspondence between the words.",
+            "cleaned_prediction": "Defendi\u00f3",
+            "gt": "defendido"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: distinguished\nOutput:",
+            "test_query": "distinguished",
+            "prediction": "distinguido\n\nExplanation: Since Spanish does not have the word 'distinguished', it seems like",
+            "cleaned_prediction": "distinguido",
+            "gt": "distinguido"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: discussing\nOutput:",
+            "test_query": "discussing",
+            "prediction": "discutiendo\nExplanation: The English word discussing is translated to discutiendo in Spanish.\nInput",
+            "cleaned_prediction": "discutiendo",
+            "gt": "discutiendo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: peaked\nOutput:",
+            "test_query": "peaked",
+            "prediction": "agudo\n\nExplanation: In English, \"peaked\" is a verb that means to reach the",
+            "cleaned_prediction": "agudo",
+            "gt": "alcanzado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: prague\nOutput:",
+            "test_query": "prague",
+            "prediction": "Praga\nInput: computer\nOutput: computadora\nInput: apple\nOutput: manz",
+            "cleaned_prediction": "Praga",
+            "gt": "Praga"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: engineers\nOutput:",
+            "test_query": "engineers",
+            "prediction": "ingenieros\nExplanation:\nThe word engineers is a plural noun. The Spanish translation is ingenier",
+            "cleaned_prediction": "ingenieros",
+            "gt": "ingenieros"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: reasons\nOutput:",
+            "test_query": "reasons",
+            "prediction": "razones\n\nExplanation:\nThe task is a simple translation from English to Spanish. \"reasons\"",
+            "cleaned_prediction": "razones",
+            "gt": "razones"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: temporary\nOutput:",
+            "test_query": "temporary",
+            "prediction": "temporal\n\nExplanation: This translation uses the standard Spanish translation of \"temporary\" which is \"temporal",
+            "cleaned_prediction": "temporal",
+            "gt": "temporal"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: must\nOutput:",
+            "test_query": "must",
+            "prediction": "debe\nExplanation: must is an English word, debe is the Spanish translation of \"must\".\n\nNote",
+            "cleaned_prediction": "debe",
+            "gt": "debe"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: especially\nOutput:",
+            "test_query": "especially",
+            "prediction": "especialmente\nExplanation: The input word is 'especially' in English and the output is the translation in",
+            "cleaned_prediction": "especialmente",
+            "gt": "especialmente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: unofficial\nOutput:",
+            "test_query": "unofficial",
+            "prediction": "sin\u00a0oficialidad\n\nExplanation: This problem requires understanding the English word and translate it to the",
+            "cleaned_prediction": "sin\u00a0oficialidad",
+            "gt": "no oficial"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: killing\nOutput:",
+            "test_query": "killing",
+            "prediction": "Matando\n\nConstraints:\n- The word will only consist of lowercase letters and digits.\n- It is",
+            "cleaned_prediction": "Matando",
+            "gt": "asesinato"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: august\nOutput:",
+            "test_query": "august",
+            "prediction": "agosto\n\nExplanation: The word 'august' in English is translated to 'agosto' in",
+            "cleaned_prediction": "agosto",
+            "gt": "agosto"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: centres\nOutput:",
+            "test_query": "centres",
+            "prediction": "centros\nExplanation: The word 'centres' translates to 'centros' in Spanish.",
+            "cleaned_prediction": "centros",
+            "gt": "centros"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: renamed\nOutput:",
+            "test_query": "renamed",
+            "prediction": "renombrado\n\nExplanation: The word \"renamed\" in English has been translated to \"",
+            "cleaned_prediction": "renombrado",
+            "gt": "renombrado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: through\nOutput:",
+            "test_query": "through",
+            "prediction": "Por\nExplanation: through is translated to Por in Spanish\nInput: Hello\nOutput: Hola",
+            "cleaned_prediction": "Por",
+            "gt": "a trav\u00e9s de"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: meeting\nOutput:",
+            "test_query": "meeting",
+            "prediction": "reunion\n\nExplanation:\nWe can find the translation of the word \"meeting\" in the dictionary. The",
+            "cleaned_prediction": "reunion",
+            "gt": "reuni\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: ninth\nOutput:",
+            "test_query": "ninth",
+            "prediction": "noveno\n\nExplanation: The word \"ninth\" is translated to \"noveno\" in Spanish",
+            "cleaned_prediction": "noveno",
+            "gt": "noveno"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: him\nOutput:",
+            "test_query": "him",
+            "prediction": "\u00e9l\n\nInput: her\nOutput: ella\n\nInput: us\nOutput: nosotros\n\nInput:",
+            "cleaned_prediction": "\u00e9l",
+            "gt": "\u00e9l"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: mission\nOutput:",
+            "test_query": "mission",
+            "prediction": "misi\u00f3n\n\nExplanation: No accents are needed, but the correct translation is \"misi\u00f3n\".\n\nInput",
+            "cleaned_prediction": "misi\u00f3n",
+            "gt": "misi\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: developed\nOutput:",
+            "test_query": "developed",
+            "prediction": "desarrollo\nExplanation: This problem is asking to translate a word from English to Spanish.\nTo solve this",
+            "cleaned_prediction": "desarrollo",
+            "gt": "desarrollado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: injury\nOutput:",
+            "test_query": "injury",
+            "prediction": "herida\nExplanation: injury means 'injure' or 'wound' and herida means",
+            "cleaned_prediction": "herida",
+            "gt": "lesi\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: race\nOutput:",
+            "test_query": "race",
+            "prediction": "carrera\n\nGiven a word in English, translate to Spanish.\nInput: table\nOutput: mesa",
+            "cleaned_prediction": "carrera",
+            "gt": "carrera"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: flows\nOutput:",
+            "test_query": "flows",
+            "prediction": "\"the word 'flows' in English translates to 'fluye' in Spanish\"\n\ndef translate_word",
+            "cleaned_prediction": "\"the word 'flows' in English translates to 'fluye' in Spanish\"",
+            "gt": "flujos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: bowl\nOutput:",
+            "test_query": "bowl",
+            "prediction": "taz\u00f3n\nGiven a word in English, translate to Spanish.\nInput: chair\nOutput:",
+            "cleaned_prediction": "taz\u00f3n",
+            "gt": "cuenco"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: screenplay\nOutput:",
+            "test_query": "screenplay",
+            "prediction": "\"screenplay\" (no translation)\n\nNote: This problem involves a simple translation of the input word",
+            "cleaned_prediction": "\"screenplay\" (no translation)",
+            "gt": "guion"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: field\nOutput:",
+            "test_query": "field",
+            "prediction": "campo\n\nTranslation rules:\n- Start with the first character of the English word\n- Iterate through the",
+            "cleaned_prediction": "campo",
+            "gt": "campo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: dome\nOutput:",
+            "test_query": "dome",
+            "prediction": "domo\n\nExplanation: The word \"dome\" is a proper noun and is not translated in",
+            "cleaned_prediction": "domo",
+            "gt": "c\u00fapula"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: tax\nOutput:",
+            "test_query": "tax",
+            "prediction": "impuesto\n\nInput: dog\nOutput: perro\n\nInput: cat\nOutput: gato",
+            "cleaned_prediction": "impuesto",
+            "gt": "impuesto"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: rocket\nOutput:",
+            "test_query": "rocket",
+            "prediction": "cohete\n\nInput: dog\nOutput: perro\n\nInput: hello\nOutput: hola",
+            "cleaned_prediction": "cohete",
+            "gt": "cohete"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: sustainable\nOutput:",
+            "test_query": "sustainable",
+            "prediction": "sostenible\n\nExplanation: This problem is asking you to perform a simple translation of words from English",
+            "cleaned_prediction": "sostenible",
+            "gt": "sostenible"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: fled\nOutput:",
+            "test_query": "fled",
+            "prediction": "escapado\nThis problem is similar to Word Ladder, but it is a simpler version of it",
+            "cleaned_prediction": "escapado",
+            "gt": "huy\u00f3"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: parade\nOutput:",
+            "test_query": "parade",
+            "prediction": "parada\n\nExplanation: Since the English word \"parade\" can be translated to Spanish as \"",
+            "cleaned_prediction": "parada",
+            "gt": "desfile"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: duke\nOutput:",
+            "test_query": "duke",
+            "prediction": "Duque\n\nExplanation: Spanish translation of \"Duke\".\n\nNote: This problem is a simple translation",
+            "cleaned_prediction": "Duque",
+            "gt": "duque"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: blow\nOutput:",
+            "test_query": "blow",
+            "prediction": "soplar\n\nNote: The translation is based on the frequency of letters in the word and their corresponding",
+            "cleaned_prediction": "soplar",
+            "gt": "soplar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: episode\nOutput:",
+            "test_query": "episode",
+            "prediction": "episodio\n\nExample:\nInput: hello\nOutput: hola\nInput: welcome\nOutput",
+            "cleaned_prediction": "episodio",
+            "gt": "episodio"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: policy\nOutput:",
+            "test_query": "policy",
+            "prediction": "pol\u00edtica\n\nExplanation: The words are similar, just translated from English to Spanish.\n\nExample input: apple",
+            "cleaned_prediction": "pol\u00edtica",
+            "gt": "pol\u00edtica"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: severely\nOutput:",
+            "test_query": "severely",
+            "prediction": "severamente\nExplanation: The word \"severely\" translates to Spanish as \"severamente",
+            "cleaned_prediction": "severamente",
+            "gt": "severamente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: listings\nOutput:",
+            "test_query": "listings",
+            "prediction": "listados\n\nHere is the Python function:\n\n```python\ndef translate_to_spanish(word):",
+            "cleaned_prediction": "listados",
+            "gt": "listados"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: oil\nOutput:",
+            "test_query": "oil",
+            "prediction": "aceite\nExplanation: oil is \"aceite\" in Spanish.\nInput: dog\nOutput:",
+            "cleaned_prediction": "aceite",
+            "gt": "aceite"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: visiting\nOutput:",
+            "test_query": "visiting",
+            "prediction": "visitando\n\nExplanation: This problem is asking to translate the English word \"visiting\" into Spanish",
+            "cleaned_prediction": "visitando",
+            "gt": "visitando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: odd\nOutput:",
+            "test_query": "odd",
+            "prediction": "impar\n\nExplanation: odd is a palindrome, and we can write a program that translates the word",
+            "cleaned_prediction": "impar",
+            "gt": "extra\u00f1o"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: civilians\nOutput:",
+            "test_query": "civilians",
+            "prediction": "civiles\n\nExplanation: Since \"civilians\" means \"civiles\" in Spanish,",
+            "cleaned_prediction": "civiles",
+            "gt": "civiles"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: season\nOutput:",
+            "test_query": "season",
+            "prediction": "estaci\u00f3n\n\nInput: hello\nOutput: hola\n\nInput: happy\nOutput: feliz",
+            "cleaned_prediction": "estaci\u00f3n",
+            "gt": "estaci\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: stability\nOutput:",
+            "test_query": "stability",
+            "prediction": "estabilidad\nExplanation: The word \"stability\" in Spanish is \"estabilidad\".\nInput:",
+            "cleaned_prediction": "estabilidad",
+            "gt": "estabilidad"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: speaking\nOutput:",
+            "test_query": "speaking",
+            "prediction": "Hablando\n\nExplanation: The correct translation is \"Hablando\" in Spanish.\n```python",
+            "cleaned_prediction": "Hablando",
+            "gt": "hablando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: majority\nOutput:",
+            "test_query": "majority",
+            "prediction": "mayor\u00eda\n\nExplanation: The word \"majority\" is translated to \"mayor\u00eda\" in Spanish",
+            "cleaned_prediction": "mayor\u00eda",
+            "gt": "mayor\u00eda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: perhaps\nOutput:",
+            "test_query": "perhaps",
+            "prediction": "tal vez\n\nExplanation: The word \"perhaps\" can be translated to Spanish as \"tal vez\".",
+            "cleaned_prediction": "tal vez",
+            "gt": "quiz\u00e1s"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: southwestern\nOutput:",
+            "test_query": "southwestern",
+            "prediction": "sudoccidental\n\nExplanation: \n- southwest = sudoccidental\n- er = e\n-",
+            "cleaned_prediction": "sudoccidental",
+            "gt": "suroeste"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: amazing\nOutput:",
+            "test_query": "amazing",
+            "prediction": "impresionante\n\nExplanation: \nThe word \"amazing\" in English translates to \"impres",
+            "cleaned_prediction": "impresionante",
+            "gt": "incre\u00edble"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: student\nOutput:",
+            "test_query": "student",
+            "prediction": "estudiante\n\nExplanation: The word'student' is translated to Spanish as 'estudiante'.",
+            "cleaned_prediction": "estudiante",
+            "gt": "estudiante"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: finals\nOutput:",
+            "test_query": "finals",
+            "prediction": "finales\n\nExplanation: This function translates the given word from English to Spanish. In this case,",
+            "cleaned_prediction": "finales",
+            "gt": "finales"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: observer\nOutput:",
+            "test_query": "observer",
+            "prediction": "observador\n\nThis problem is a simple translation task that requires knowledge of the language and a dictionary to",
+            "cleaned_prediction": "observador",
+            "gt": "observador"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: firing\nOutput:",
+            "test_query": "firing",
+            "prediction": "disparando\n\nExplanation: We translate the word 'firing' into Spanish, which is 'dis",
+            "cleaned_prediction": "disparando",
+            "gt": "despido"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: bill\nOutput:",
+            "test_query": "bill",
+            "prediction": "bill\nThis problem can be solved in one line.\n\n**Reason:**\nThe given word \"bill",
+            "cleaned_prediction": "bill",
+            "gt": "factura"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: whole\nOutput:",
+            "test_query": "whole",
+            "prediction": "word\n\nExplanation: \"whole\" in English translates to \"word\" in Spanish.\n\n```python",
+            "cleaned_prediction": "word",
+            "gt": "entero"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: starring\nOutput:",
+            "test_query": "starring",
+            "prediction": "protagonizando\nExplanation:\nstarring -> protagonizando\nHere are the steps to get the translation:",
+            "cleaned_prediction": "protagonizando",
+            "gt": "protagonizado por"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: sweden\nOutput:",
+            "test_query": "sweden",
+            "prediction": "suecia\n\nHere is my code:\n\n```python\ndef translate_word(word):\n    translation = {",
+            "cleaned_prediction": "suecia",
+            "gt": "suecia"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: regularly\nOutput:",
+            "test_query": "regularly",
+            "prediction": "regularmente\n\nExplanation: The correct translation is \"regularly\", not \"regularmente\" (which",
+            "cleaned_prediction": "regularmente",
+            "gt": "regularmente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: copies\nOutput:",
+            "test_query": "copies",
+            "prediction": "copias\n\nExplanation: \n\"copies\" translates to \"copias\" in Spanish.\nThe word",
+            "cleaned_prediction": "copias",
+            "gt": "copias"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: happens\nOutput:",
+            "test_query": "happens",
+            "prediction": "ocurre\n\nThis problem is more related to the field of machine translation, which is a subfield",
+            "cleaned_prediction": "ocurre",
+            "gt": "sucede"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: presidency\nOutput:",
+            "test_query": "presidency",
+            "prediction": "presidencia\n\nExplanation:\nNo rules to be applied. Just translation.\n```\ndef translate_word",
+            "cleaned_prediction": "presidencia",
+            "gt": "presidencia"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: kids\nOutput:",
+            "test_query": "kids",
+            "prediction": "ni\u00f1os\n\nExplanation: \nThe word \"kids\" is translated to \"ni\u00f1os\" in Spanish.",
+            "cleaned_prediction": "ni\u00f1os",
+            "gt": "ni\u00f1os"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: possibility\nOutput:",
+            "test_query": "possibility",
+            "prediction": "posibilidad\n\nExplanation: Replace 'p' with 'p', 'o' with 'o',",
+            "cleaned_prediction": "posibilidad",
+            "gt": "posibilidad"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: stuff\nOutput:",
+            "test_query": "stuff",
+            "prediction": "\"stuff\"\n\nExplanation: Given a word that is already in English, the translation remains the same.",
+            "cleaned_prediction": "\"stuff\"",
+            "gt": "cosas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: membership\nOutput:",
+            "test_query": "membership",
+            "prediction": "\"membership\"\nExplanation: This word is not translated as it is the same in both languages.\n\nInput",
+            "cleaned_prediction": "\"membership\"",
+            "gt": "membres\u00eda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: cyprus\nOutput:",
+            "test_query": "cyprus",
+            "prediction": "chipre\n\nExplanation: The word \"cyprus\" is translated to Spanish as \"chipre\".",
+            "cleaned_prediction": "chipre",
+            "gt": "Chipre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: engine\nOutput:",
+            "test_query": "engine",
+            "prediction": "motor\nInput: car\nOutput: coche\nInput: hello\nOutput: hola",
+            "cleaned_prediction": "motor",
+            "gt": "motor"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: custom\nOutput:",
+            "test_query": "custom",
+            "prediction": "customizado\n\nExplanation: This function translates English words to Spanish. The word \"custom\" translates to",
+            "cleaned_prediction": "customizado",
+            "gt": "costumbre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: cinema\nOutput:",
+            "test_query": "cinema",
+            "prediction": "cine\n\nExplanation: The words 'cinema' and 'cine' are the English and Spanish",
+            "cleaned_prediction": "cine",
+            "gt": "cine"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: dynasty\nOutput:",
+            "test_query": "dynasty",
+            "prediction": "Dinast\u00eda\n\nExplanation: Since 'Dynasty' is a proper noun, we don't need",
+            "cleaned_prediction": "Dinast\u00eda",
+            "gt": "dinast\u00eda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: day\nOutput:",
+            "test_query": "day",
+            "prediction": "d\u00eda\nExplanation: To translate day in Spanish, we need to replace 'd' with 'd",
+            "cleaned_prediction": "d\u00eda",
+            "gt": "d\u00eda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: occurs\nOutput:",
+            "test_query": "occurs",
+            "prediction": "\"ocurre\" \n\nInput: apple\nOutput: \"manzana\"\n\nNote that we can",
+            "cleaned_prediction": "\"ocurre\"",
+            "gt": "ocurre"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: boarding\nOutput:",
+            "test_query": "boarding",
+            "prediction": "Embarcando\n\nExplanation:\nThe word \"boarding\" is translated to \"embarcando",
+            "cleaned_prediction": "Embarcando",
+            "gt": "embarque"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: reader\nOutput:",
+            "test_query": "reader",
+            "prediction": "lector\nExplanation: The translation for the word'reader' in Spanish is 'lector'.\n\nExample",
+            "cleaned_prediction": "lector",
+            "gt": "lector"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: rise\nOutput:",
+            "test_query": "rise",
+            "prediction": "rise\n\nExplanation: The word is already in English, so the translation is the same word in Spanish",
+            "cleaned_prediction": "rise",
+            "gt": "subir"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: prose\nOutput:",
+            "test_query": "prose",
+            "prediction": "prosa\nInput: poem\nOutput: poema\n\n### Explanation\nThis solution uses a simple",
+            "cleaned_prediction": "prosa",
+            "gt": "prosa"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: educational\nOutput:",
+            "test_query": "educational",
+            "prediction": "educativo\n\nExplanation:\nThe word \"educational\" in English can be translated to \"educativo",
+            "cleaned_prediction": "educativo",
+            "gt": "educativo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: illustrate\nOutput:",
+            "test_query": "illustrate",
+            "prediction": "ilustrar\n\nExplanation:\nThe word \"illustrate\" is a verb that requires translation. We",
+            "cleaned_prediction": "ilustrar",
+            "gt": "ilustrar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: spy\nOutput:",
+            "test_query": "spy",
+            "prediction": "esp\u00eda\n\nExplanation: The word \"spy\" is translated to \"esp\u00eda\" in Spanish.",
+            "cleaned_prediction": "esp\u00eda",
+            "gt": "esp\u00eda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: championship\nOutput:",
+            "test_query": "championship",
+            "prediction": "campeonato\n\nExplanation: The given word championship is translated to campeonato in Spanish.\n\nInput",
+            "cleaned_prediction": "campeonato",
+            "gt": "campeonato"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: nice\nOutput:",
+            "test_query": "nice",
+            "prediction": "Nice\n\nNote:\nThere are many Spanish words that are the same as their English translation. These are",
+            "cleaned_prediction": "Nice",
+            "gt": "agradable"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: possible\nOutput:",
+            "test_query": "possible",
+            "prediction": "posible\nExplanation: The word \"possible\" is translated to \"posible\" in Spanish.\nNote",
+            "cleaned_prediction": "posible",
+            "gt": "posible"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: according\nOutput:",
+            "test_query": "according",
+            "prediction": "de acuerdo\n\nExplanation:\nThis program takes the input word \"according\" and translates it into Spanish.",
+            "cleaned_prediction": "de acuerdo",
+            "gt": "seg\u00fan"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: charges\nOutput:",
+            "test_query": "charges",
+            "prediction": "\"cargos\" or \"cargos\" (Note: in Spanish, a is pronounced",
+            "cleaned_prediction": "\"cargos\" or \"cargos\" (Note: in Spanish, a is pronounced",
+            "gt": "cargos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: existed\nOutput:",
+            "test_query": "existed",
+            "prediction": "existieron\nExplanation: \"existed\" in Spanish is \"existieron\".\n\nExample 1:",
+            "cleaned_prediction": "existieron",
+            "gt": "existi\u00f3"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: ordinary\nOutput:",
+            "test_query": "ordinary",
+            "prediction": "ordinario\n\nExplanation: The word \"ordinary\" is translated to Spanish as \"ordinario\".",
+            "cleaned_prediction": "ordinario",
+            "gt": "ordinario"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: pilots\nOutput:",
+            "test_query": "pilots",
+            "prediction": "pilotos\n\nInput: hello\nOutput: hola\n\nInput: python\nOutput: python (",
+            "cleaned_prediction": "pilotos",
+            "gt": "pilotos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: waters\nOutput:",
+            "test_query": "waters",
+            "prediction": "aguas\n\nHere's a simple Python function that uses a dictionary to map English words to their",
+            "cleaned_prediction": "aguas",
+            "gt": "aguas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: allegations\nOutput:",
+            "test_query": "allegations",
+            "prediction": "acusaciones\n\nExplanation: This word is translated from English to Spanish. \n\nInput: happiness",
+            "cleaned_prediction": "acusaciones",
+            "gt": "alegaciones"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: dean\nOutput:",
+            "test_query": "dean",
+            "prediction": "\"dean\"\n\nInput: apple\nOutput: \"apple\"\n\nInput: book\nOutput: \"",
+            "cleaned_prediction": "\"dean\"",
+            "gt": "decano"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: monster\nOutput:",
+            "test_query": "monster",
+            "prediction": "monstruo\nNote: The translation is not case-sensitive.\n\nExample 1:\nInput: \"Hello",
+            "cleaned_prediction": "monstruo",
+            "gt": "monstruo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: locally\nOutput:",
+            "test_query": "locally",
+            "prediction": "localmente\n\nGiven a word in English, translate to Spanish.\nInput: globally\nOutput: global",
+            "cleaned_prediction": "localmente",
+            "gt": "localmente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: armed\nOutput:",
+            "test_query": "armed",
+            "prediction": "armado\nExplanation: This is a straightforward translation. The word \"armed\" in English translates to",
+            "cleaned_prediction": "armado",
+            "gt": "armado"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: differences\nOutput:",
+            "test_query": "differences",
+            "prediction": "diferencias\n\nExplanation:\nEnglish words have the following differences when translated to Spanish:\n- 'c'",
+            "cleaned_prediction": "diferencias",
+            "gt": "diferencias"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: debt\nOutput:",
+            "test_query": "debt",
+            "prediction": "\"deuda\"\n\nExplanation:\nThe word \"debt\" is translated to \"deuda\" in",
+            "cleaned_prediction": "\"deuda\"",
+            "gt": "deuda"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: afghanistan\nOutput:",
+            "test_query": "afghanistan",
+            "prediction": "Afganist\u00e1n\n\nExplanation: This is a simple translation from English to Spanish.\n\n```",
+            "cleaned_prediction": "Afganist\u00e1n",
+            "gt": "Afganist\u00e1n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: faces\nOutput:",
+            "test_query": "faces",
+            "prediction": "caras\n\nExplanation: The word \"faces\" in English translates to \"caras\" in Spanish",
+            "cleaned_prediction": "caras",
+            "gt": "caras"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: heat\nOutput:",
+            "test_query": "heat",
+            "prediction": "calor\n\nGiven a word in English, translate to Spanish.\nInput: car\nOutput: coche",
+            "cleaned_prediction": "calor",
+            "gt": "calor"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: investigate\nOutput:",
+            "test_query": "investigate",
+            "prediction": "Investigar\nExplanation: Since the Spanish translation for 'investigate' is 'investigar', the",
+            "cleaned_prediction": "Investigar",
+            "gt": "investigar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: newspapers\nOutput:",
+            "test_query": "newspapers",
+            "prediction": "peri\u00f3dicos\nExplanation: The word \"newspapers\" means \"peri\u00f3dicos\" in",
+            "cleaned_prediction": "peri\u00f3dicos",
+            "gt": "peri\u00f3dicos"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: length\nOutput:",
+            "test_query": "length",
+            "prediction": "longitud\n\nNote: This problem can be easily solved using a dictionary in python.\n\n```python\nclass",
+            "cleaned_prediction": "longitud",
+            "gt": "longitud"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: peace\nOutput:",
+            "test_query": "peace",
+            "prediction": "paz\n\nExplanation: \"peace\" in English translates to \"paz\" in Spanish.  Since",
+            "cleaned_prediction": "paz",
+            "gt": "paz"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: gone\nOutput:",
+            "test_query": "gone",
+            "prediction": "ido\n\nGiven a word in English, translate to Spanish.\nInput: apple\nOutput: man",
+            "cleaned_prediction": "ido",
+            "gt": "ido"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: graduating\nOutput:",
+            "test_query": "graduating",
+            "prediction": "graduando\n\nExplanation: graduando is the Spanish translation for graduating.\n\nExample Cases:\nInput: apple",
+            "cleaned_prediction": "graduando",
+            "gt": "graduando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: who\nOutput:",
+            "test_query": "who",
+            "prediction": "Who\n\nExplanation: The word \"who\" in English is the same as the word \"who\"",
+            "cleaned_prediction": "Who",
+            "gt": "quien"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: journalism\nOutput:",
+            "test_query": "journalism",
+            "prediction": "periodismo\n\nExplanation: The input word is \"journalism\" in English. The output should be",
+            "cleaned_prediction": "periodismo",
+            "gt": "periodismo"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: hello\nOutput:",
+            "test_query": "hello",
+            "prediction": "hola\nExplanation: We should translate 'hello' to 'hola' in Spanish.\nInput",
+            "cleaned_prediction": "hola",
+            "gt": "hola"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: recall\nOutput:",
+            "test_query": "recall",
+            "prediction": "recordar\nExplanation: \n- English word: recall\n- Spanish translation: recordar\n-",
+            "cleaned_prediction": "recordar",
+            "gt": "recordar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: hoping\nOutput:",
+            "test_query": "hoping",
+            "prediction": "esperando\nNote: This is a very basic translation and there might be cases where a more advanced",
+            "cleaned_prediction": "esperando",
+            "gt": "esperando"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: playoff\nOutput:",
+            "test_query": "playoff",
+            "prediction": "postseasonal\n\nNote: This is a simplified problem, where we do not need to consider grammar rules",
+            "cleaned_prediction": "postseasonal",
+            "gt": "eliminatoria"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: charge\nOutput:",
+            "test_query": "charge",
+            "prediction": "cargo\n\nExplanation: The word \"charge\" is translated to Spanish as \"cargo\". \n\n```python",
+            "cleaned_prediction": "cargo",
+            "gt": "cargar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: parties\nOutput:",
+            "test_query": "parties",
+            "prediction": "fiestas\n\nExplanation: It seems like there is no exact translation of the word \"parties",
+            "cleaned_prediction": "fiestas",
+            "gt": "fiestas"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: innocent\nOutput:",
+            "test_query": "innocent",
+            "prediction": "inocente\n\nExplanation: \"innocent\" is a valid English word, and its direct Spanish",
+            "cleaned_prediction": "inocente",
+            "gt": "inocente"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: anywhere\nOutput:",
+            "test_query": "anywhere",
+            "prediction": "en cualquier lugar\n\nExplanation: The word \"anywhere\" is a common English phrase that can be",
+            "cleaned_prediction": "en cualquier lugar",
+            "gt": "en cualquier lugar"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: kilometers\nOutput:",
+            "test_query": "kilometers",
+            "prediction": "kil\u00f3metros\nExplanation: 'kilo' in English means 1000 and in Spanish means",
+            "cleaned_prediction": "kil\u00f3metros",
+            "gt": "kil\u00f3metros"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: napoleon\nOutput:",
+            "test_query": "napoleon",
+            "prediction": "napole\u00f3n\nExplanation: In Spanish, the accent is required to distinguish the name from the word",
+            "cleaned_prediction": "napole\u00f3n",
+            "gt": "Napole\u00f3n"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: marsh\nOutput:",
+            "test_query": "marsh",
+            "prediction": "marisma (English word \"marsh\" translated to Spanish)\n\nInput: cloud\nOutput: nube",
+            "cleaned_prediction": "marisma (English word \"marsh\" translated to Spanish)",
+            "gt": "pantano"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: greek\nOutput:",
+            "test_query": "greek",
+            "prediction": "griego\n\nNote: the word \"greek\" in English is translated to \"griego",
+            "cleaned_prediction": "griego",
+            "gt": "griego"
+        },
+        {
+            "input_prompt": "Given a word in English, translate to Spanish.\nInput: max\nOutput:",
+            "test_query": "max",
+            "prediction": "max\n\nExplanation: The word'max' does not have any special characters in it, so the",
+            "cleaned_prediction": "max",
+            "gt": "m\u00e1ximo"
+        }
+    ]
+}

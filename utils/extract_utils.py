@@ -10,7 +10,6 @@ from tqdm import tqdm
 from .prompt_utils import *
 from .inference_utils import *
 from .model_utils import *
-from .intervention_utils import *
 
 import torch.nn.functional as F
 
@@ -94,15 +93,17 @@ def get_diff_stacked_hidden_states(train_dataset, model, model_config, tokenizer
         fs_inputs = tokenizer(fs_prompt, return_tensors='pt').to(device)
         zs_prompt = create_prompt([],dummy_query,prefixes, separators, insert_inst=True)
         zs_inputs = tokenizer(zs_prompt, return_tensors='pt').to(device)
-        with TraceDict(model, layers = model_config['layer_hook_names'], retain_output=True) as td:
-            model(**fs_inputs)
+        with torch.no_grad():
+            with TraceDict(model, layers = model_config['layer_hook_names'], retain_output=True) as td:
+                model(**fs_inputs)
         fs_hs_by_layer = torch.vstack([td[l].output[0][:,-1,:].detach().cpu() for l in model_config['layer_hook_names']])
         del td
         del fs_inputs
         last_idx = zs_inputs.input_ids.shape[1]
         intervention_fn = diff_act(list(range(model_config['n_layers'])), fs_hs_by_layer, device, idx=last_idx-1)
-        with TraceDict(model, layers = model_config['layer_hook_names'], edit_output=intervention_fn):
-            model(**zs_inputs)
+        with torch.no_grad():
+            with TraceDict(model, layers = model_config['layer_hook_names'], edit_output=intervention_fn):
+                model(**zs_inputs)
         activation_storage[n]= torch.vstack(ACTIVATION_STOR)
         ACTIVATION_STOR.clear()
     mean_hidden_states = activation_storage.mean(dim=0)

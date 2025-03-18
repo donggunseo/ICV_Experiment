@@ -1,0 +1,574 @@
+{
+    "score": {
+        "exact_match": 1.0
+    },
+    "result": [
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: bunny\nOutput: B\n\nInput: camel\nOutput: C\n\nInput: despite\nOutput: D\n\nInput: aardvark\nOutput: A\n\nInput: consult\nOutput: C\n\nInput: drum\nOutput:",
+            "test_query": "drum",
+            "prediction": "D\n\nInput: eagle\nOutput: E\n\nInput: fungus\nOutput: F\n```",
+            "cleaned_prediction": "D",
+            "gt": "D"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: spoon\nOutput: S\n\nInput: yourself\nOutput: Y\n\nInput: ostrich\nOutput: O\n\nInput: learn\nOutput: L\n\nInput: daring\nOutput: D\n\nInput: caribou\nOutput:",
+            "test_query": "caribou",
+            "prediction": "C\n\nInput: monkey\nOutput: M\n\nInput: rabbit\nOutput: R\n\nInput:",
+            "cleaned_prediction": "C",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: bitter\nOutput: B\n\nInput: yearn\nOutput: Y\n\nInput: bee\nOutput: B\n\nInput: doubt\nOutput: D\n\nInput: whom\nOutput: W\n\nInput: octopus\nOutput:",
+            "test_query": "octopus",
+            "prediction": "O\n```\n### Code\n```python\ndef capitalized_first_letter(word):\n    \"\"\"\n    Returns",
+            "cleaned_prediction": "O",
+            "gt": "O"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: think\nOutput: T\n\nInput: at\nOutput: A\n\nInput: naughty\nOutput: N\n\nInput: guava\nOutput: G\n\nInput: window\nOutput: W\n\nInput: sofa\nOutput:",
+            "test_query": "sofa",
+            "prediction": "S\n```java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String",
+            "cleaned_prediction": "S",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: qualify\nOutput: Q\n\nInput: ostrich\nOutput: O\n\nInput: measure\nOutput: M\n\nInput: enthusiastic\nOutput: E\n\nInput: duster\nOutput: D\n\nInput: pensive\nOutput:",
+            "test_query": "pensive",
+            "prediction": "P\n\nInput: luscious\nOutput: L\n\nInput: magnificent\nOutput: M",
+            "cleaned_prediction": "P",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: huckleberry\nOutput: H\n\nInput: through\nOutput: T\n\nInput: jump\nOutput: J\n\nInput: know\nOutput: K\n\nInput: bitter\nOutput: B\n\nInput: naive\nOutput:",
+            "test_query": "naive",
+            "prediction": "N\n\nInput: honey\nOutput: H\n\nInput: pretty\nOutput: P\n\nInput:",
+            "cleaned_prediction": "N",
+            "gt": "N"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: but\nOutput: B\n\nInput: through\nOutput: T\n\nInput: bicycle\nOutput: B\n\nInput: unique\nOutput: U\n\nInput: kite\nOutput: K\n\nInput: garlic\nOutput:",
+            "test_query": "garlic",
+            "prediction": "G\n\nInput: cake\nOutput: C\n\nInput: cloud\nOutput: C\n\nInput:",
+            "cleaned_prediction": "G",
+            "gt": "G"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: yourself\nOutput: Y\n\nInput: laughing\nOutput: L\n\nInput: passionate\nOutput: P\n\nInput: ice\nOutput: I\n\nInput: toward\nOutput: T\n\nInput: blissful\nOutput:",
+            "test_query": "blissful",
+            "prediction": "B\n```\ndef first_letter_capitalized(word):\n    return word[0].upper()",
+            "cleaned_prediction": "B",
+            "gt": "B"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: incense\nOutput: I\n\nInput: those\nOutput: T\n\nInput: youthful\nOutput: Y\n\nInput: divide\nOutput: D\n\nInput: test\nOutput: T\n\nInput: he\nOutput:",
+            "test_query": "he",
+            "prediction": "H\nInput: He\nOutput: H\n\nInput: House\nOutput: H\nInput:",
+            "cleaned_prediction": "H",
+            "gt": "H"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: clementine\nOutput: C\n\nInput: remove\nOutput: R\n\nInput: hairbrush\nOutput: H\n\nInput: armadillo\nOutput: A\n\nInput: wet\nOutput: W\n\nInput: woodpecker\nOutput:",
+            "test_query": "woodpecker",
+            "prediction": "W\n\nInput: gargoyle\nOutput: G\n\nInput: chameleon\nOutput: C",
+            "cleaned_prediction": "W",
+            "gt": "W"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: change\nOutput: C\n\nInput: giraffe\nOutput: G\n\nInput: wallet\nOutput: W\n\nInput: knit\nOutput: K\n\nInput: caterpillar\nOutput: C\n\nInput: beyond\nOutput:",
+            "test_query": "beyond",
+            "prediction": "B\n\nInput: smile\nOutput: S\n\nInput: pineapple\nOutput: P\n\nInput:",
+            "cleaned_prediction": "B",
+            "gt": "B"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: hot\nOutput: H\n\nInput: with\nOutput: W\n\nInput: kick\nOutput: K\n\nInput: reflect\nOutput: R\n\nInput: basketball\nOutput: B\n\nInput: amiable\nOutput:",
+            "test_query": "amiable",
+            "prediction": "A\n\nInput: dexterity\nOutput: D\n\nInput: jaded\nOutput: J",
+            "cleaned_prediction": "A",
+            "gt": "A"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: oven\nOutput: O\n\nInput: think\nOutput: T\n\nInput: natural\nOutput: N\n\nInput: passionate\nOutput: P\n\nInput: through\nOutput: T\n\nInput: agreeable\nOutput:",
+            "test_query": "agreeable",
+            "prediction": "A\n\nInput: lovely\nOutput: L\n\nInput: careful\nOutput: C\nInput:",
+            "cleaned_prediction": "A",
+            "gt": "A"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: pink\nOutput: P\n\nInput: explore\nOutput: E\n\nInput: dolphin\nOutput: D\n\nInput: it\nOutput: I\n\nInput: zoom\nOutput: Z\n\nInput: nectarine\nOutput:",
+            "test_query": "nectarine",
+            "prediction": "N\n\nInput: lollipop\nOutput: L\n\nInput: lemon\nOutput: L\n\nInput",
+            "cleaned_prediction": "N",
+            "gt": "N"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: which\nOutput: W\n\nInput: between\nOutput: B\n\nInput: fox\nOutput: F\n\nInput: ruler\nOutput: R\n\nInput: watermelon\nOutput: W\n\nInput: dove\nOutput:",
+            "test_query": "dove",
+            "prediction": "D\n\nInput: happy\nOutput: H\n\nInput: eagle\nOutput: E\n\nInput:",
+            "cleaned_prediction": "D",
+            "gt": "D"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: explore\nOutput: E\n\nInput: read\nOutput: R\n\nInput: grape\nOutput: G\n\nInput: aardvark\nOutput: A\n\nInput: jolly\nOutput: J\n\nInput: juggle\nOutput:",
+            "test_query": "juggle",
+            "prediction": "J\n\nInput: jelly\nOutput: J\n\nInput: jellyfish\nOutput: J\n\nInput",
+            "cleaned_prediction": "J",
+            "gt": "J"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: gumball\nOutput: G\n\nInput: leopard\nOutput: L\n\nInput: sad\nOutput: S\n\nInput: sensible\nOutput: S\n\nInput: opossum\nOutput: O\n\nInput: considering\nOutput:",
+            "test_query": "considering",
+            "prediction": "C\n```python\ndef capitalize_first_letter(word):\n    return word[0].upper()\n\n#",
+            "cleaned_prediction": "C",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: below\nOutput: B\n\nInput: socks\nOutput: S\n\nInput: teapot\nOutput: T\n\nInput: yearn\nOutput: Y\n\nInput: fascinating\nOutput: F\n\nInput: capybara\nOutput:",
+            "test_query": "capybara",
+            "prediction": "C\n\nInput: cactus\nOutput: C\n\nInput: coffee\nOutput: C\n\nInput",
+            "cleaned_prediction": "C",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: themselves\nOutput: T\n\nInput: dingo\nOutput: D\n\nInput: apricot\nOutput: A\n\nInput: diligent\nOutput: D\n\nInput: cactus\nOutput: C\n\nInput: mellow\nOutput:",
+            "test_query": "mellow",
+            "prediction": "M\n\nInput: wok\nOutput: W\n\nInput: apricot\nOutput: A",
+            "cleaned_prediction": "M",
+            "gt": "M"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: fish\nOutput: F\n\nInput: inventive\nOutput: I\n\nInput: produce\nOutput: P\n\nInput: wise\nOutput: W\n\nInput: make\nOutput: M\n\nInput: relax\nOutput:",
+            "test_query": "relax",
+            "prediction": "R\n\nInput: good\nOutput: G\n\nInput: help\nOutput: H\n\nInput:",
+            "cleaned_prediction": "R",
+            "gt": "R"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: across\nOutput: A\n\nInput: try\nOutput: T\n\nInput: spoon\nOutput: S\n\nInput: necklace\nOutput: N\n\nInput: window\nOutput: W\n\nInput: firefly\nOutput:",
+            "test_query": "firefly",
+            "prediction": "F\n\nInput: pineapple\nOutput: P\n\nInput: bubble\nOutput: B\n\nInput:",
+            "cleaned_prediction": "F",
+            "gt": "F"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: crow\nOutput: C\n\nInput: seal\nOutput: S\n\nInput: hungry\nOutput: H\n\nInput: lemon\nOutput: L\n\nInput: cake\nOutput: C\n\nInput: hedgehog\nOutput:",
+            "test_query": "hedgehog",
+            "prediction": "H\n\nInput: house\nOutput: H\n```\n# Problem: Capitalize the First Letter",
+            "cleaned_prediction": "H",
+            "gt": "H"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: kettle\nOutput: K\n\nInput: knit\nOutput: K\n\nInput: opossum\nOutput: O\n\nInput: moth\nOutput: M\n\nInput: cry\nOutput: C\n\nInput: jeans\nOutput:",
+            "test_query": "jeans",
+            "prediction": "J\n\nInput: mirth\nOutput: M\n\nInput: fume\nOutput: F",
+            "cleaned_prediction": "J",
+            "gt": "J"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: about\nOutput: A\n\nInput: fast\nOutput: F\n\nInput: quizzical\nOutput: Q\n\nInput: dry\nOutput: D\n\nInput: define\nOutput: D\n\nInput: view\nOutput:",
+            "test_query": "view",
+            "prediction": "V\n\nInput: quick\nOutput: Q\n\nInput: test\nOutput: T\n\nInput:",
+            "cleaned_prediction": "V",
+            "gt": "V"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: pork\nOutput: P\n\nInput: know\nOutput: K\n\nInput: bitter\nOutput: B\n\nInput: reindeer\nOutput: R\n\nInput: squirrel\nOutput: S\n\nInput: lecture\nOutput:",
+            "test_query": "lecture",
+            "prediction": "L\n\nInput: dolphin\nOutput: D\n\nInput: whale\nOutput: W\n\nInput:",
+            "cleaned_prediction": "L",
+            "gt": "L"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: remote\nOutput: R\n\nInput: teach\nOutput: T\n\nInput: reindeer\nOutput: R\n\nInput: intrepid\nOutput: I\n\nInput: kind\nOutput: K\n\nInput: kneel\nOutput:",
+            "test_query": "kneel",
+            "prediction": "K\n\nInput: knock\nOutput: K\n\nInput: knots\nOutput: K\n\nInput:",
+            "cleaned_prediction": "K",
+            "gt": "K"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: operate\nOutput: O\n\nInput: maracas\nOutput: M\n\nInput: airplane\nOutput: A\n\nInput: door\nOutput: D\n\nInput: clementine\nOutput: C\n\nInput: long\nOutput:",
+            "test_query": "long",
+            "prediction": "L\n\nInput: moon\nOutput: M\n\nInput: house\nOutput: H\n\nInput:",
+            "cleaned_prediction": "L",
+            "gt": "L"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: fox\nOutput: F\n\nInput: but\nOutput: B\n\nInput: bunny\nOutput: B\n\nInput: change\nOutput: C\n\nInput: turtle\nOutput: T\n\nInput: snorkel\nOutput:",
+            "test_query": "snorkel",
+            "prediction": "S\nExplanation: Capitalize the first letter of each word in the input string.\n```python",
+            "cleaned_prediction": "S",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: scissors\nOutput: S\n\nInput: pink\nOutput: P\n\nInput: yarn\nOutput: Y\n\nInput: seal\nOutput: S\n\nInput: narwhal\nOutput: N\n\nInput: zesty\nOutput:",
+            "test_query": "zesty",
+            "prediction": "Z\n```python\ndef capitalize_first_letter(word):\n    return word[0].upper()\n\n#",
+            "cleaned_prediction": "Z",
+            "gt": "Z"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: jackal\nOutput: J\n\nInput: old\nOutput: O\n\nInput: motorcycle\nOutput: M\n\nInput: concerning\nOutput: C\n\nInput: mouse\nOutput: M\n\nInput: deliver\nOutput:",
+            "test_query": "deliver",
+            "prediction": "D\n```\n# This function takes a word as input and returns the capitalized first letter of the",
+            "cleaned_prediction": "D",
+            "gt": "D"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: old\nOutput: O\n\nInput: watermelon\nOutput: W\n\nInput: qualify\nOutput: Q\n\nInput: define\nOutput: D\n\nInput: fishing pole\nOutput: F\n\nInput: out\nOutput:",
+            "test_query": "out",
+            "prediction": "O\n\nInput: blue\nOutput: B\n\nInput: 123\nOutput: 1",
+            "cleaned_prediction": "O",
+            "gt": "O"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: gloves\nOutput: G\n\nInput: approve\nOutput: A\n\nInput: thoughtful\nOutput: T\n\nInput: whose\nOutput: W\n\nInput: earmuffs\nOutput: E\n\nInput: joyous\nOutput:",
+            "test_query": "joyous",
+            "prediction": "J\n\nInput: grateful\nOutput: G\n\nInput: excited\nOutput: E\n\nInput:",
+            "cleaned_prediction": "J",
+            "gt": "J"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: grateful\nOutput: G\n\nInput: breathe\nOutput: B\n\nInput: paintbrush\nOutput: P\n\nInput: bunny\nOutput: B\n\nInput: wristwatch\nOutput: W\n\nInput: consider\nOutput:",
+            "test_query": "consider",
+            "prediction": "C\n\nInput: coffee\nOutput: C\n\nInput: pencil\nOutput: P\n\nInput:",
+            "cleaned_prediction": "C",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: mandrill\nOutput: M\n\nInput: save\nOutput: S\n\nInput: indigo\nOutput: I\n\nInput: cheerful\nOutput: C\n\nInput: cactus\nOutput: C\n\nInput: cranberry\nOutput:",
+            "test_query": "cranberry",
+            "prediction": "C\n\nInput: chocolate\nOutput: C\n\nInput: raspberry\nOutput: R\n\nInput:",
+            "cleaned_prediction": "C",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: armadillo\nOutput: A\n\nInput: race\nOutput: R\n\nInput: around\nOutput: A\n\nInput: sail\nOutput: S\n\nInput: paint\nOutput: P\n\nInput: vibrant\nOutput:",
+            "test_query": "vibrant",
+            "prediction": "V\n\nInput: house\nOutput: H\n\nInput: apple\nOutput: A\n\nInput:",
+            "cleaned_prediction": "V",
+            "gt": "V"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: xerox\nOutput: X\n\nInput: flower\nOutput: F\n\nInput: me\nOutput: M\n\nInput: bear\nOutput: B\n\nInput: happy\nOutput: H\n\nInput: up\nOutput:",
+            "test_query": "up",
+            "prediction": "U\n\nInput: fly\nOutput: F\n\nInput: house\nOutput: H\n\nInput:",
+            "cleaned_prediction": "U",
+            "gt": "U"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: try\nOutput: T\n\nInput: juice\nOutput: J\n\nInput: orange\nOutput: O\n\nInput: overcome\nOutput: O\n\nInput: diligent\nOutput: D\n\nInput: pasta\nOutput:",
+            "test_query": "pasta",
+            "prediction": "P\n\nInput: potato\nOutput: P\n\nInput: puffy\nOutput: P\n\nInput",
+            "cleaned_prediction": "P",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: approve\nOutput: A\n\nInput: short\nOutput: S\n\nInput: chicken\nOutput: C\n\nInput: kettle\nOutput: K\n\nInput: fishing pole\nOutput: F\n\nInput: hamster\nOutput:",
+            "test_query": "hamster",
+            "prediction": "H\n\nInput: computer\nOutput: C\n\nInput: apple\nOutput: A\n\nInput:",
+            "cleaned_prediction": "H",
+            "gt": "H"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: herself\nOutput: H\n\nInput: quick-witted\nOutput: Q\n\nInput: uncover\nOutput: U\n\nInput: boat\nOutput: B\n\nInput: warmhearted\nOutput: W\n\nInput: reliable\nOutput:",
+            "test_query": "reliable",
+            "prediction": "R\nInput: reasonable\nOutput: R\nInput: reasonable\nOutput: R\nInput:",
+            "cleaned_prediction": "R",
+            "gt": "R"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: insightful\nOutput: I\n\nInput: squirrel\nOutput: S\n\nInput: violin\nOutput: V\n\nInput: except\nOutput: E\n\nInput: fig\nOutput: F\n\nInput: plant\nOutput:",
+            "test_query": "plant",
+            "prediction": "P\n\nInput: jelly\nOutput: J\n\nInput: zesty\nOutput: Z\n\nInput",
+            "cleaned_prediction": "P",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: net\nOutput: N\n\nInput: parrot\nOutput: P\n\nInput: fig\nOutput: F\n\nInput: enthusiastic\nOutput: E\n\nInput: eraser\nOutput: E\n\nInput: bright\nOutput:",
+            "test_query": "bright",
+            "prediction": "B\n\nInput: 2plus\nOutput: 2 (no need to handle numbers)\n\nInput",
+            "cleaned_prediction": "B",
+            "gt": "B"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: honest\nOutput: H\n\nInput: silver\nOutput: S\n\nInput: rake\nOutput: R\n\nInput: teapot\nOutput: T\n\nInput: exist\nOutput: E\n\nInput: past\nOutput:",
+            "test_query": "past",
+            "prediction": "P\n\nInput: nest\nOutput: N\n\nInput: fox\nOutput: F\n\nInput:",
+            "cleaned_prediction": "P",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: yearn\nOutput: Y\n\nInput: zipper\nOutput: Z\n\nInput: honest\nOutput: H\n\nInput: keep\nOutput: K\n\nInput: lively\nOutput: L\n\nInput: hear\nOutput:",
+            "test_query": "hear",
+            "prediction": "H\n\nInput: wish\nOutput: W\n\nInput: brave\nOutput: B\n\nInput:",
+            "cleaned_prediction": "H",
+            "gt": "H"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: hippopotamus\nOutput: H\n\nInput: around\nOutput: A\n\nInput: predict\nOutput: P\n\nInput: approve\nOutput: A\n\nInput: wolverine\nOutput: W\n\nInput: throughout\nOutput:",
+            "test_query": "throughout",
+            "prediction": "T\n\nInput: rainbow\nOutput: R\n\nInput: elephant\nOutput: E\n\nInput:",
+            "cleaned_prediction": "T",
+            "gt": "T"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: lynx\nOutput: L\n\nInput: walk\nOutput: W\n\nInput: yogurt\nOutput: Y\n\nInput: table\nOutput: T\n\nInput: piano\nOutput: P\n\nInput: charming\nOutput:",
+            "test_query": "charming",
+            "prediction": "C\n\nExplanation: The capitalized first letter of each word is outputted. \n\nConstraints: \nThe",
+            "cleaned_prediction": "C",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: lovable\nOutput: L\n\nInput: land\nOutput: L\n\nInput: ice\nOutput: I\n\nInput: humble\nOutput: H\n\nInput: chair\nOutput: C\n\nInput: moose\nOutput:",
+            "test_query": "moose",
+            "prediction": "M\n\nInput: cake\nOutput: C\n\nInput: python\nOutput: P\n```",
+            "cleaned_prediction": "M",
+            "gt": "M"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: overcome\nOutput: O\n\nInput: during\nOutput: D\n\nInput: falcon\nOutput: F\n\nInput: yak\nOutput: Y\n\nInput: solve\nOutput: S\n\nInput: painting\nOutput:",
+            "test_query": "painting",
+            "prediction": "P\n\nInput: cactus\nOutput: C\n\nInput: dizziness\nOutput: D",
+            "cleaned_prediction": "P",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: gorilla\nOutput: G\n\nInput: sheep\nOutput: S\n\nInput: carrot\nOutput: C\n\nInput: elk\nOutput: E\n\nInput: bowl\nOutput: B\n\nInput: durian\nOutput:",
+            "test_query": "durian",
+            "prediction": "D\n\nInput: tuna\nOutput: T\n\nInput: apricot\nOutput: A\n\nInput",
+            "cleaned_prediction": "D",
+            "gt": "D"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: hot\nOutput: H\n\nInput: lovable\nOutput: L\n\nInput: clementine\nOutput: C\n\nInput: duster\nOutput: D\n\nInput: uplifting\nOutput: U\n\nInput: lantern\nOutput:",
+            "test_query": "lantern",
+            "prediction": "L\n\nInput: sparkle\nOutput: S\n\nInput: thunder\nOutput: T\n\nInput:",
+            "cleaned_prediction": "L",
+            "gt": "L"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: bitter\nOutput: B\n\nInput: tambourine\nOutput: T\n\nInput: hippopotamus\nOutput: H\n\nInput: gumball\nOutput: G\n\nInput: patient\nOutput: P\n\nInput: alarm\nOutput:",
+            "test_query": "alarm",
+            "prediction": "A\n\nInput: bubblegum\nOutput: B\n\nInput: fiddle\nOutput: F",
+            "cleaned_prediction": "A",
+            "gt": "A"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: jovial\nOutput: J\n\nInput: notebook\nOutput: N\n\nInput: bottle\nOutput: B\n\nInput: solve\nOutput: S\n\nInput: funny\nOutput: F\n\nInput: wonderful\nOutput:",
+            "test_query": "wonderful",
+            "prediction": "W\n\nInput: learn\nOutput: L\n\nInput: cake\nOutput: C\n\nInput:",
+            "cleaned_prediction": "W",
+            "gt": "W"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: memorize\nOutput: M\n\nInput: after\nOutput: A\n\nInput: doubt\nOutput: D\n\nInput: clean\nOutput: C\n\nInput: quokka\nOutput: Q\n\nInput: label\nOutput:",
+            "test_query": "label",
+            "prediction": "L\n\nInput: russia\nOutput: R\n\nInput: fable\nOutput: F",
+            "cleaned_prediction": "L",
+            "gt": "L"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: piano\nOutput: P\n\nInput: around\nOutput: A\n\nInput: dislike\nOutput: D\n\nInput: climb\nOutput: C\n\nInput: themselves\nOutput: T\n\nInput: resourceful\nOutput:",
+            "test_query": "resourceful",
+            "prediction": "R\nInput: \nOutput: \nInput: 1234\nOutput: \nInput:",
+            "cleaned_prediction": "R",
+            "gt": "R"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: rake\nOutput: R\n\nInput: pepper\nOutput: P\n\nInput: leopard\nOutput: L\n\nInput: quill\nOutput: Q\n\nInput: judge\nOutput: J\n\nInput: win\nOutput:",
+            "test_query": "win",
+            "prediction": "W\n\nInput: fish\nOutput: F\n\nInput: rain\nOutput: R\n\nInput:",
+            "cleaned_prediction": "W",
+            "gt": "W"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: try\nOutput: T\n\nInput: pillow\nOutput: P\n\nInput: kangaroo\nOutput: K\n\nInput: overcome\nOutput: O\n\nInput: over\nOutput: O\n\nInput: like\nOutput:",
+            "test_query": "like",
+            "prediction": "L\n\nInput: orange\nOutput: O\n\nInput: cloud\nOutput: C\n\nInput:",
+            "cleaned_prediction": "L",
+            "gt": "L"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: igloo\nOutput: I\n\nInput: magpie\nOutput: M\n\nInput: lovable\nOutput: L\n\nInput: whistle\nOutput: W\n\nInput: iguana\nOutput: I\n\nInput: salty\nOutput:",
+            "test_query": "salty",
+            "prediction": "S\n\nInput: kitten\nOutput: K\n\nInput: monkey\nOutput: M\n\nInput:",
+            "cleaned_prediction": "S",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: indigo\nOutput: I\n\nInput: skunk\nOutput: S\n\nInput: reach\nOutput: R\n\nInput: gorilla\nOutput: G\n\nInput: these\nOutput: T\n\nInput: charismatic\nOutput:",
+            "test_query": "charismatic",
+            "prediction": "C\n\nInput: kookaburra\nOutput: K\n\nInput: guppy\nOutput",
+            "cleaned_prediction": "C",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: egg\nOutput: E\n\nInput: funny\nOutput: F\n\nInput: hungry\nOutput: H\n\nInput: gazelle\nOutput: G\n\nInput: behind\nOutput: B\n\nInput: spider\nOutput:",
+            "test_query": "spider",
+            "prediction": "S\n```\ndef capitalized_first_letter(word):\n    return word[0].upper()\n```",
+            "cleaned_prediction": "S",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: thoughtful\nOutput: T\n\nInput: scissors\nOutput: S\n\nInput: egg\nOutput: E\n\nInput: fear\nOutput: F\n\nInput: pineapple\nOutput: P\n\nInput: kiss\nOutput:",
+            "test_query": "kiss",
+            "prediction": "K\n\nInput: dream\nOutput: D\n\nInput: laugh\nOutput: L\n```",
+            "cleaned_prediction": "K",
+            "gt": "K"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: ladder\nOutput: L\n\nInput: sail\nOutput: S\n\nInput: kindle\nOutput: K\n\nInput: exist\nOutput: E\n\nInput: speak\nOutput: S\n\nInput: weasel\nOutput:",
+            "test_query": "weasel",
+            "prediction": "W\n\nInput: apple\nOutput: A\n\nInput: stamp\nOutput: S\n\nInput:",
+            "cleaned_prediction": "W",
+            "gt": "W"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: rock\nOutput: R\n\nInput: design\nOutput: D\n\nInput: collect\nOutput: C\n\nInput: necklace\nOutput: N\n\nInput: cream\nOutput: C\n\nInput: into\nOutput:",
+            "test_query": "into",
+            "prediction": "I\n\nInput: dance\nOutput: D\n\nInput: music\nOutput: M\n\nInput:",
+            "cleaned_prediction": "I",
+            "gt": "I"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: handle\nOutput: H\n\nInput: spicy\nOutput: S\n\nInput: cougar\nOutput: C\n\nInput: walrus\nOutput: W\n\nInput: measure\nOutput: M\n\nInput: jigsaw\nOutput:",
+            "test_query": "jigsaw",
+            "prediction": "J\n\nInput: tomato\nOutput: T\n\nInput: peach\nOutput: P\n\nInput:",
+            "cleaned_prediction": "J",
+            "gt": "J"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: cake\nOutput: C\n\nInput: lovely\nOutput: L\n\nInput: negotiate\nOutput: N\n\nInput: fascinating\nOutput: F\n\nInput: hat\nOutput: H\n\nInput: peach\nOutput:",
+            "test_query": "peach",
+            "prediction": "P\nExplanation: The first character of peach is p, which is a lowercase letter. The function",
+            "cleaned_prediction": "P",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: book\nOutput: B\n\nInput: these\nOutput: T\n\nInput: lift\nOutput: L\n\nInput: try\nOutput: T\n\nInput: wise\nOutput: W\n\nInput: dice\nOutput:",
+            "test_query": "dice",
+            "prediction": "D\n\nInput: cry\nOutput: C\n```\ndef capitalized_first_letter(word):\n    return",
+            "cleaned_prediction": "D",
+            "gt": "D"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: quirky\nOutput: Q\n\nInput: horse\nOutput: H\n\nInput: query\nOutput: Q\n\nInput: fascinating\nOutput: F\n\nInput: optimistic\nOutput: O\n\nInput: energetic\nOutput:",
+            "test_query": "energetic",
+            "prediction": "E\n\nInput: fantastic\nOutput: F\n\nInput: energetic\nOutput: E\n\nInput:",
+            "cleaned_prediction": "E",
+            "gt": "E"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: bountiful\nOutput: B\n\nInput: make\nOutput: M\n\nInput: affectionate\nOutput: A\n\nInput: crocodile\nOutput: C\n\nInput: potato\nOutput: P\n\nInput: barracuda\nOutput:",
+            "test_query": "barracuda",
+            "prediction": "B\n\nInput: celtic\nOutput: C\n\nInput: coda\nOutput: C",
+            "cleaned_prediction": "B",
+            "gt": "B"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: passionfruit\nOutput: P\n\nInput: ecstatic\nOutput: E\n\nInput: climb\nOutput: C\n\nInput: eagle\nOutput: E\n\nInput: try\nOutput: T\n\nInput: beef\nOutput:",
+            "test_query": "beef",
+            "prediction": "B\n\nInput: cloud\nOutput: C\n\nInput: moonlight\nOutput: M\n\nInput",
+            "cleaned_prediction": "B",
+            "gt": "B"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: wolverine\nOutput: W\n\nInput: loud\nOutput: L\n\nInput: sail\nOutput: S\n\nInput: aardvark\nOutput: A\n\nInput: orangutan\nOutput: O\n\nInput: hornet\nOutput:",
+            "test_query": "hornet",
+            "prediction": "H\n\nInput: python\nOutput: P\n\nInput: fox\nOutput: F\n```python",
+            "cleaned_prediction": "H",
+            "gt": "H"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: observe\nOutput: O\n\nInput: scissors\nOutput: S\n\nInput: herself\nOutput: H\n\nInput: manipulate\nOutput: M\n\nInput: computer\nOutput: C\n\nInput: otter\nOutput:",
+            "test_query": "otter",
+            "prediction": "O\n\nInput: lemon\nOutput: L\n\nInput: bubble\nOutput: B\n\nInput:",
+            "cleaned_prediction": "O",
+            "gt": "O"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: ant\nOutput: A\n\nInput: kind\nOutput: K\n\nInput: picture\nOutput: P\n\nInput: net\nOutput: N\n\nInput: attack\nOutput: A\n\nInput: puzzle\nOutput:",
+            "test_query": "puzzle",
+            "prediction": "P\n\nInput: love\nOutput: L\n\nInput: run\nOutput: R\n\nInput:",
+            "cleaned_prediction": "P",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: sample\nOutput: S\n\nInput: determined\nOutput: D\n\nInput: youthful\nOutput: Y\n\nInput: sweet\nOutput: S\n\nInput: thick\nOutput: T\n\nInput: gracious\nOutput:",
+            "test_query": "gracious",
+            "prediction": "G\n\nInput: sweetest\nOutput: S\n\nInput: excellent\nOutput: E\n\nInput",
+            "cleaned_prediction": "G",
+            "gt": "G"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: maracas\nOutput: M\n\nInput: bicycle\nOutput: B\n\nInput: shoe\nOutput: S\n\nInput: expensive\nOutput: E\n\nInput: oryx\nOutput: O\n\nInput: desk\nOutput:",
+            "test_query": "desk",
+            "prediction": "D\n\nInput: orange\nOutput: O\n\nInput: 3\nOutput: 3",
+            "cleaned_prediction": "D",
+            "gt": "D"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: fountain\nOutput: F\n\nInput: crane\nOutput: C\n\nInput: ourselves\nOutput: O\n\nInput: recruit\nOutput: R\n\nInput: youthful\nOutput: Y\n\nInput: prune\nOutput:",
+            "test_query": "prune",
+            "prediction": "P\n\nInput: tinker\nOutput: T\n\nInput: wobble\nOutput: W",
+            "cleaned_prediction": "P",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: at\nOutput: A\n\nInput: breathe\nOutput: B\n\nInput: operate\nOutput: O\n\nInput: vulture\nOutput: V\n\nInput: laughing\nOutput: L\n\nInput: chipmunk\nOutput:",
+            "test_query": "chipmunk",
+            "prediction": "C\nInput: chipmunk\nOutput: C\n\nNote: The problem is asking you to",
+            "cleaned_prediction": "C",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: recruit\nOutput: R\n\nInput: overcome\nOutput: O\n\nInput: quick\nOutput: Q\n\nInput: jar\nOutput: J\n\nInput: yarn\nOutput: Y\n\nInput: stapler\nOutput:",
+            "test_query": "stapler",
+            "prediction": "S\n\nInput: apple\nOutput: A\n\nInput: lemon\nOutput: L\n\nInput:",
+            "cleaned_prediction": "S",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: down\nOutput: D\n\nInput: copy\nOutput: C\n\nInput: bird\nOutput: B\n\nInput: gloves\nOutput: G\n\nInput: mustard\nOutput: M\n\nInput: off\nOutput:",
+            "test_query": "off",
+            "prediction": "O\n\nInput: orange\nOutput: O\n\nInput: pencil\nOutput: P\n\nInput:",
+            "cleaned_prediction": "O",
+            "gt": "O"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: fresh\nOutput: F\n\nInput: nurture\nOutput: N\n\nInput: window\nOutput: W\n\nInput: bountiful\nOutput: B\n\nInput: bunny\nOutput: B\n\nInput: above\nOutput:",
+            "test_query": "above",
+            "prediction": "A\n\nInput: happy\nOutput: H\n\nInput: house\nOutput: H\n\nInput:",
+            "cleaned_prediction": "A",
+            "gt": "A"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: jovial\nOutput: J\n\nInput: regarding\nOutput: R\n\nInput: ostrich\nOutput: O\n\nInput: apple\nOutput: A\n\nInput: orangutan\nOutput: O\n\nInput: unwavering\nOutput:",
+            "test_query": "unwavering",
+            "prediction": "U\nInput: yonder\nOutput: Y\nInput: zigzag\nOutput: Z",
+            "cleaned_prediction": "U",
+            "gt": "U"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: that\nOutput: T\n\nInput: wet\nOutput: W\n\nInput: amazing\nOutput: A\n\nInput: participate\nOutput: P\n\nInput: watch\nOutput: W\n\nInput: zucchini\nOutput:",
+            "test_query": "zucchini",
+            "prediction": "Z\n\nInput: python\nOutput: P\n\nInput: love\nOutput: L\n\nInput:",
+            "cleaned_prediction": "Z",
+            "gt": "Z"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: schedule\nOutput: S\n\nInput: cat\nOutput: C\n\nInput: dolphin\nOutput: D\n\nInput: spicy\nOutput: S\n\nInput: us\nOutput: U\n\nInput: flamingo\nOutput:",
+            "test_query": "flamingo",
+            "prediction": "F\n\nInput: banana\nOutput: B\n\nInput: taco\nOutput: T\n```",
+            "cleaned_prediction": "F",
+            "gt": "F"
+        },
+        {
+            "input_prompt": "Given an Englisth word, output the capitalized first letter of the input word.\nInput: fountain\nOutput: F\n\nInput: patient\nOutput: P\n\nInput: quiet\nOutput: Q\n\nInput: chair\nOutput: C\n\nInput: plum\nOutput: P\n\nInput: finch\nOutput:",
+            "test_query": "finch",
+            "prediction": "F\n\nInput: nest\nOutput: N\n\nInput: snake\nOutput: S\n\nInput:",
+            "cleaned_prediction": "F",
+            "gt": "F"
+        }
+    ]
+}
