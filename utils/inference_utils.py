@@ -136,9 +136,11 @@ def post_process(prediction, dataset_name):
             if l in prediction:
                 pred = l
     elif dataset_name == 'banking77':
-        pred = re.findall(r"[a-zA-Z]+(?:_[a-zA-Z]+)+", prediction)[0]
+        match = re.findall(r"[a-zA-Z]+(?:_[a-zA-Z]+)+", prediction)
+        pred = match[0].strip() if match else prediction.strip()
     elif dataset_name == 'clinc150':
-        pred = re.findall(r"([a-zA-Z_ ]+:[a-zA-Z_ ]+)", prediction)[0]
+        match = re.findall(r"([a-zA-Z_ ]+:[a-zA-Z_ ]+)", prediction)
+        pred = match[0].strip() if match else prediction.strip()
     elif dataset_name == 'xlsum':
         match = re.findall(r"^(.*?)(?:\n\n)", prediction, re.DOTALL)
         pred = match[0].strip() if match else prediction.strip()
@@ -154,6 +156,8 @@ def post_process(prediction, dataset_name):
         pred = match[0].strip() if match else prediction.strip()
     else:
         pred = prediction
+    print(prediction)
+    print(pred)
     return pred
 
 def evaluate(pred, gt, dataset_name):

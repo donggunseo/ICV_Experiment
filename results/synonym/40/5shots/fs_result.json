@@ -1,0 +1,2023 @@
+{
+    "score": {
+        "exact_match": 0.5
+    },
+    "result": [
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: physique\nOutput: body structure\n\nInput: tone\nOutput: pitch\n\nInput: colored\nOutput: tinted\n\nInput: salvage\nOutput: recover\n\nInput: warn\nOutput: alert\n\nInput: plan\nOutput:",
+            "test_query": "plan",
+            "prediction": "scheme\n\nInput: faint\nOutput: weak\n\nInput: glide\nOutput: slide\n\nInput:",
+            "cleaned_prediction": "scheme",
+            "gt": "strategy"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: graphic\nOutput: visual\n\nInput: sink\nOutput: submerge\n\nInput: string\nOutput: cord\n\nInput: gorgeous\nOutput: stunning\n\nInput: magical\nOutput: enchanting\n\nInput: root\nOutput:",
+            "test_query": "root",
+            "prediction": "base\n\nInput: fancy\nOutput: elegant\n\nInput: happy\nOutput: joyful\n\nInput:",
+            "cleaned_prediction": "base",
+            "gt": "base"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: laud\nOutput: praise\n\nInput: withdraw\nOutput: retract\n\nInput: dare\nOutput: challenge\n\nInput: scale\nOutput: measure\n\nInput: bear\nOutput: grizzly\n\nInput: universal\nOutput:",
+            "test_query": "universal",
+            "prediction": "world-wide\n\nInput: silence\nOutput: quietness\n\nInput: fade\nOutput: decline",
+            "cleaned_prediction": "world-wide",
+            "gt": "global"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: adaptation\nOutput: adjustment\n\nInput: suspicious\nOutput: distrustful\n\nInput: horse\nOutput: equine\n\nInput: impartial\nOutput: unbiased\n\nInput: relate\nOutput: connect\n\nInput: escort\nOutput:",
+            "test_query": "escort",
+            "prediction": "accompany\n\nInput: disengage\nOutput: retreat\n\nInput: illustrate\nOutput: depict\n\nInput",
+            "cleaned_prediction": "accompany",
+            "gt": "accompany"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: morbid\nOutput: macabre\n\nInput: huge\nOutput: gigantic\n\nInput: maximum\nOutput: peak\n\nInput: militia\nOutput: armed forces\n\nInput: morality\nOutput: ethics\n\nInput: abrupt\nOutput:",
+            "test_query": "abrupt",
+            "prediction": "sudden\n\nNote: Synonyms are not exact replacements. They are similar but not the same. This",
+            "cleaned_prediction": "sudden",
+            "gt": "sudden"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: pop\nOutput: burst\n\nInput: cherish\nOutput: treasure\n\nInput: king\nOutput: monarch\n\nInput: just\nOutput: fair\n\nInput: theatre\nOutput: cinema\n\nInput: atmospheric\nOutput:",
+            "test_query": "atmospheric",
+            "prediction": "eerie\n\nThe idea is to find an English word's synonym based on its meaning. \n\nI will",
+            "cleaned_prediction": "eerie",
+            "gt": "ambient"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: late\nOutput: delayed\n\nInput: stimulation\nOutput: excitement\n\nInput: tract\nOutput: draw\n\nInput: mighty\nOutput: powerful\n\nInput: hit\nOutput: strike\n\nInput: leap\nOutput:",
+            "test_query": "leap",
+            "prediction": "jump\n\nInput: shine\nOutput: radiate\n\nInput: rain\nOutput: precipitation\n\nInput",
+            "cleaned_prediction": "jump",
+            "gt": "jump"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: trader\nOutput: merchant\n\nInput: take\nOutput: grab\n\nInput: fresh\nOutput: new\n\nInput: insightful\nOutput: perceptive\n\nInput: crest\nOutput: peak\n\nInput: foundational\nOutput:",
+            "test_query": "foundational",
+            "prediction": "basic\n\nInput: laugh\nOutput: chuckle\n\nInput: precise\nOutput: accurate\n``",
+            "cleaned_prediction": "basic",
+            "gt": "basic"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: threatening\nOutput: menacing\n\nInput: flap\nOutput: wave\n\nInput: treasurer\nOutput: custodian\n\nInput: fierce\nOutput: ferocious\n\nInput: research\nOutput: investigate\n\nInput: diminish\nOutput:",
+            "test_query": "diminish",
+            "prediction": "dwindle\n\nInput: harmony\nOutput: concord\n\nNote: The given problem seems to be",
+            "cleaned_prediction": "dwindle",
+            "gt": "reduce"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: glad\nOutput: pleased\n\nInput: preliminary\nOutput: initial\n\nInput: nation\nOutput: country\n\nInput: superstar\nOutput: celebrity\n\nInput: pleased\nOutput: satisfied\n\nInput: outspoken\nOutput:",
+            "test_query": "outspoken",
+            "prediction": "outspoken\n\nInput: country\nOutput: nation\n\nInput: celebrity\nOutput: superstar\n\nInput:",
+            "cleaned_prediction": "outspoken",
+            "gt": "forthright"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: remainder\nOutput: residue\n\nInput: incompatible\nOutput: inharmonious\n\nInput: pal\nOutput: buddy\n\nInput: shy\nOutput: bashful\n\nInput: natural\nOutput: organic\n\nInput: specific\nOutput:",
+            "test_query": "specific",
+            "prediction": "particular\n\nInput: weird\nOutput: bizarre\n\nInput: pretty\nOutput: attractive\n\nInput:",
+            "cleaned_prediction": "particular",
+            "gt": "particular"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: chicken\nOutput: poultry\n\nInput: affluent\nOutput: wealthy\n\nInput: oral\nOutput: spoken\n\nInput: horizontal\nOutput: parallel\n\nInput: narrative\nOutput: story\n\nInput: red\nOutput:",
+            "test_query": "red",
+            "prediction": "crimson\n\nInput: delicate\nOutput: dainty\n\nInput: horizontal\nOutput: parallel\n\nInput",
+            "cleaned_prediction": "crimson",
+            "gt": "crimson"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: shooter\nOutput: marksman\n\nInput: comic\nOutput: funny\n\nInput: mathematical\nOutput: numerical\n\nInput: plentiful\nOutput: abundant\n\nInput: foreign\nOutput: international\n\nInput: cancel\nOutput:",
+            "test_query": "cancel",
+            "prediction": "rescind\n\nNote: Synonyms are not always exact and may differ in usage and connotation,",
+            "cleaned_prediction": "rescind",
+            "gt": "terminate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: effective\nOutput: efficient\n\nInput: ferment\nOutput: brew\n\nInput: affirmative\nOutput: positive\n\nInput: bright\nOutput: luminous\n\nInput: phase\nOutput: stage\n\nInput: placement\nOutput:",
+            "test_query": "placement",
+            "prediction": "position\n\nInput: pleasant\nOutput: agreeable\n\nInput: polite\nOutput: courteous\n\nInput",
+            "cleaned_prediction": "position",
+            "gt": "position"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: prompt\nOutput: immediate\n\nInput: elementary\nOutput: primary\n\nInput: worried\nOutput: anxious\n\nInput: undercover\nOutput: covert\n\nInput: feeble\nOutput: weak\n\nInput: approval\nOutput:",
+            "test_query": "approval",
+            "prediction": "endorsement\n\nInput: furious\nOutput: enraged\n\nInput: peaceful\nOutput: serene\n\nInput:",
+            "cleaned_prediction": "endorsement",
+            "gt": "endorsement"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sort\nOutput: organize\n\nInput: patron\nOutput: customer\n\nInput: formula\nOutput: equation\n\nInput: secure\nOutput: safe\n\nInput: contest\nOutput: competition\n\nInput: fund\nOutput:",
+            "test_query": "fund",
+            "prediction": "money\n\nInput: register\nOutput: enroll\n\nInput: chair\nOutput: seat\n\nInput:",
+            "cleaned_prediction": "money",
+            "gt": "finance"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: behaviour\nOutput: conduct\n\nInput: establish\nOutput: found\n\nInput: amateur\nOutput: novice\n\nInput: accurate\nOutput: precise\n\nInput: deceptive\nOutput: misleading\n\nInput: invasion\nOutput:",
+            "test_query": "invasion",
+            "prediction": "entry\n\nNote: These pairs of words are randomly chosen and the synonyms are not guaranteed to be the",
+            "cleaned_prediction": "entry",
+            "gt": "incursion"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: identical\nOutput: similar\n\nInput: tame\nOutput: domesticated\n\nInput: least\nOutput: minimal\n\nInput: spike\nOutput: point\n\nInput: labor\nOutput: work\n\nInput: dedication\nOutput:",
+            "test_query": "dedication",
+            "prediction": "commitment\n\nInput: fierce\nOutput: fierce\n```\n\n### Solution\nHere is a Python program",
+            "cleaned_prediction": "commitment",
+            "gt": "commitment"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: weapon\nOutput: armament\n\nInput: poor\nOutput: impoverished\n\nInput: agile\nOutput: nimble\n\nInput: calculated\nOutput: computed\n\nInput: fit\nOutput: healthy\n\nInput: accept\nOutput:",
+            "test_query": "accept",
+            "prediction": "receive\n\nInput: confused\nOutput: perplexed\n\nInput: fragile\nOutput: delicate\n\nInput",
+            "cleaned_prediction": "receive",
+            "gt": "agree"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: purpose\nOutput: aim\n\nInput: leaf\nOutput: foliage\n\nInput: anxious\nOutput: worried\n\nInput: evade\nOutput: avoid\n\nInput: infer\nOutput: deduce\n\nInput: waiter\nOutput:",
+            "test_query": "waiter",
+            "prediction": "server\n\nNote that the word may be in lowercase or uppercase, but the output should be lowercase.",
+            "cleaned_prediction": "server",
+            "gt": "server"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: player\nOutput: gamer\n\nInput: alternative\nOutput: option\n\nInput: organization\nOutput: association\n\nInput: interpret\nOutput: translate\n\nInput: search\nOutput: look for\n\nInput: privilege\nOutput:",
+            "test_query": "privilege",
+            "prediction": "benefit\n\nInput: difficulty\nOutput: trouble\n\nInput: communication\nOutput: contact\n\nInput:",
+            "cleaned_prediction": "benefit",
+            "gt": "advantage"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: informal\nOutput: casual\n\nInput: temper\nOutput: anger\n\nInput: helm\nOutput: steering wheel\n\nInput: descent\nOutput: downfall\n\nInput: pleased\nOutput: satisfied\n\nInput: machine\nOutput:",
+            "test_query": "machine",
+            "prediction": "equipment\n\nInput: delight\nOutput: pleasure\n\nInput: fierce\nOutput: savage\n\nInput:",
+            "cleaned_prediction": "equipment",
+            "gt": "device"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: spill\nOutput: pour\n\nInput: significant\nOutput: important\n\nInput: compassion\nOutput: empathy\n\nInput: pure\nOutput: untainted\n\nInput: inform\nOutput: notify\n\nInput: collected\nOutput:",
+            "test_query": "collected",
+            "prediction": "gathered\n\nInput: confusion\nOutput: puzzlement\n\nInput: imagination\nOutput: creativity\n\nInput",
+            "cleaned_prediction": "gathered",
+            "gt": "gathered"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: reluctant\nOutput: hesitant\n\nInput: repetition\nOutput: reiteration\n\nInput: employment\nOutput: job\n\nInput: march\nOutput: advance\n\nInput: impression\nOutput: perception\n\nInput: streetcar\nOutput:",
+            "test_query": "streetcar",
+            "prediction": "tram\n\nInput: calendar\nOutput: planner\n\nInput: calendar\nOutput: planner\n\nInput:",
+            "cleaned_prediction": "tram",
+            "gt": "tram"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: delight\nOutput: pleasure\n\nInput: collective\nOutput: grouped\n\nInput: middle\nOutput: center\n\nInput: assorted\nOutput: varied\n\nInput: dear\nOutput: beloved\n\nInput: embody\nOutput:",
+            "test_query": "embody",
+            "prediction": "represent\n\nInput: rough\nOutput: coarse\n\nInput: bitter\nOutput: acrid\n\nInput",
+            "cleaned_prediction": "represent",
+            "gt": "represent"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: procedure\nOutput: process\n\nInput: render\nOutput: provide\n\nInput: symbol\nOutput: sign\n\nInput: treaty\nOutput: agreement\n\nInput: send\nOutput: dispatch\n\nInput: tick\nOutput:",
+            "test_query": "tick",
+            "prediction": "beat\n\nExplanation:\nThe idea here is to provide a random synonym for an English word. It's",
+            "cleaned_prediction": "beat",
+            "gt": "tock"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: seminal\nOutput: foundational\n\nInput: stamp\nOutput: seal\n\nInput: improper\nOutput: inappropriate\n\nInput: establish\nOutput: found\n\nInput: timid\nOutput: shy\n\nInput: land\nOutput:",
+            "test_query": "land",
+            "prediction": "soil\n\nNote: The synonyms are not necessarily exact word-for-word replacements, and they may vary based",
+            "cleaned_prediction": "soil",
+            "gt": "ground"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: blame\nOutput: accuse\n\nInput: contemplate\nOutput: ponder\n\nInput: cost\nOutput: price\n\nInput: hairy\nOutput: furry\n\nInput: able\nOutput: capable\n\nInput: conquer\nOutput:",
+            "test_query": "conquer",
+            "prediction": "subdue\n```\n\nBelow is an example implementation using Python:\n```python\n# Define a simple",
+            "cleaned_prediction": "subdue",
+            "gt": "overcome"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: embrace\nOutput: hug\n\nInput: picture\nOutput: image\n\nInput: sugar\nOutput: sweetener\n\nInput: faint\nOutput: weak\n\nInput: paranormal\nOutput: supernatural\n\nInput: incur\nOutput:",
+            "test_query": "incur",
+            "prediction": "contract\n\nInput: ocean\nOutput: sea\n\nInput: ocean\nOutput: lake\n\nInput:",
+            "cleaned_prediction": "contract",
+            "gt": "sustain"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: prostitute\nOutput: sex worker\n\nInput: mansion\nOutput: estate\n\nInput: passive\nOutput: inactive\n\nInput: favour\nOutput: preference\n\nInput: descent\nOutput: downfall\n\nInput: kit\nOutput:",
+            "test_query": "kit",
+            "prediction": "set\n\nInput: brave\nOutput: fearless\n\nInput: cage\nOutput: enclosure\n\nInput:",
+            "cleaned_prediction": "set",
+            "gt": "set"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: tart\nOutput: sour\n\nInput: disposed\nOutput: inclined\n\nInput: difficult\nOutput: challenging\n\nInput: postpone\nOutput: delay\n\nInput: resistance\nOutput: opposition\n\nInput: grant\nOutput:",
+            "test_query": "grant",
+            "prediction": "award\n\nInput: fragile\nOutput: delicate\n\nInput: gentle\nOutput: mild\n\nInput:",
+            "cleaned_prediction": "award",
+            "gt": "award"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: gloomy\nOutput: dismal\n\nInput: interior\nOutput: inside\n\nInput: wave\nOutput: gesture\n\nInput: announcement\nOutput: declaration\n\nInput: interchangeable\nOutput: exchangeable\n\nInput: lowly\nOutput:",
+            "test_query": "lowly",
+            "prediction": "humble\n\nInput: rough\nOutput: coarse\n```python\nimport random\n\n# Dictionary of word",
+            "cleaned_prediction": "humble",
+            "gt": "humble"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: instruction\nOutput: guidance\n\nInput: usable\nOutput: functional\n\nInput: motivation\nOutput: inspiration\n\nInput: unsafe\nOutput: dangerous\n\nInput: average\nOutput: normal\n\nInput: whole\nOutput:",
+            "test_query": "whole",
+            "prediction": "complete\n\nInput: unusual\nOutput: strange\n\nInput: unhappy\nOutput: miserable\n\nInput:",
+            "cleaned_prediction": "complete",
+            "gt": "complete"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: calculate\nOutput: compute\n\nInput: overt\nOutput: explicit\n\nInput: prevalent\nOutput: widespread\n\nInput: fatal\nOutput: deadly\n\nInput: clever\nOutput: ingenious\n\nInput: peculiar\nOutput:",
+            "test_query": "peculiar",
+            "prediction": "strange\n\nInput: ambiguous\nOutput: unclear\n\nInput: trivial\nOutput: insignificant\n\nInput:",
+            "cleaned_prediction": "strange",
+            "gt": "strange"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: shopping\nOutput: purchasing\n\nInput: parallel\nOutput: concurrent\n\nInput: notification\nOutput: alert\n\nInput: replica\nOutput: copy\n\nInput: mod\nOutput: modern\n\nInput: troubled\nOutput:",
+            "test_query": "troubled",
+            "prediction": "problematic\n\nInput: difficulty\nOutput: challenge\n\nInput: duplicate\nOutput: repeat\n\nInput:",
+            "cleaned_prediction": "problematic",
+            "gt": "distressed"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: persecution\nOutput: oppression\n\nInput: needy\nOutput: dependent\n\nInput: reading\nOutput: studying\n\nInput: manner\nOutput: behavior\n\nInput: will\nOutput: determination\n\nInput: posting\nOutput:",
+            "test_query": "posting",
+            "prediction": "placing\n\nInput: kindness\nOutput: gentleness\n\nInput: glisten\nOutput: sparkle",
+            "cleaned_prediction": "placing",
+            "gt": "publishing"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: glad\nOutput: pleased\n\nInput: casual\nOutput: informal\n\nInput: luck\nOutput: fortune\n\nInput: genuine\nOutput: authentic\n\nInput: limited\nOutput: restricted\n\nInput: monarch\nOutput:",
+            "test_query": "monarch",
+            "prediction": "king\n\nInput: rigid\nOutput: stiff\n\nInput: silent\nOutput: noiseless\n\nInput",
+            "cleaned_prediction": "king",
+            "gt": "sovereign"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: parade\nOutput: procession\n\nInput: crest\nOutput: peak\n\nInput: prefer\nOutput: favor\n\nInput: giant\nOutput: enormous\n\nInput: dictate\nOutput: command\n\nInput: item\nOutput:",
+            "test_query": "item",
+            "prediction": "article\n\nInput: fragile\nOutput: delicate\n\nInput: storm\nOutput: tempest\n\nInput",
+            "cleaned_prediction": "article",
+            "gt": "product"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: catch\nOutput: grab\n\nInput: urgency\nOutput: emergency\n\nInput: plead\nOutput: beg\n\nInput: infectious\nOutput: contagious\n\nInput: donate\nOutput: give\n\nInput: graphical\nOutput:",
+            "test_query": "graphical",
+            "prediction": "visual\n\nInput: reckless\nOutput: wild\n\nInput: fierce\nOutput: fierce\n\nInput:",
+            "cleaned_prediction": "visual",
+            "gt": "visual"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: embark\nOutput: set out\n\nInput: prime\nOutput: primary\n\nInput: correlation\nOutput: association\n\nInput: unfounded\nOutput: baseless\n\nInput: favour\nOutput: preference\n\nInput: bogus\nOutput:",
+            "test_query": "bogus",
+            "prediction": "fake\n\nInput: real\nOutput: actual\n\nInput: unreal\nOutput: imaginary\n\nInput:",
+            "cleaned_prediction": "fake",
+            "gt": "fake"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: impart\nOutput: convey\n\nInput: bitters\nOutput: sour\n\nInput: lend\nOutput: borrow\n\nInput: tart\nOutput: sour\n\nInput: operative\nOutput: functional\n\nInput: busy\nOutput:",
+            "test_query": "busy",
+            "prediction": "idle\n\nInput: bland\nOutput: flavorless\n\nInput: fierce\nOutput: mild\n\nInput",
+            "cleaned_prediction": "idle",
+            "gt": "occupied"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: drag\nOutput: pull\n\nInput: present\nOutput: gift\n\nInput: shiny\nOutput: glossy\n\nInput: tragic\nOutput: catastrophic\n\nInput: restoration\nOutput: renewal\n\nInput: get\nOutput:",
+            "test_query": "get",
+            "prediction": "obtain\n\nInput: wonderful\nOutput: marvelous\n\nInput: tragic\nOutput: woeful\n\nInput",
+            "cleaned_prediction": "obtain",
+            "gt": "obtain"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: equipped\nOutput: furnished\n\nInput: insightful\nOutput: perceptive\n\nInput: rule\nOutput: law\n\nInput: subtle\nOutput: understated\n\nInput: formula\nOutput: equation\n\nInput: detect\nOutput:",
+            "test_query": "detect",
+            "prediction": "perceive\n\nInput: beautiful\nOutput: lovely\n\nInput: recognize\nOutput: identify\n\nInput:",
+            "cleaned_prediction": "perceive",
+            "gt": "identify"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: usable\nOutput: functional\n\nInput: hand\nOutput: palm\n\nInput: introductory\nOutput: preliminary\n\nInput: catch\nOutput: grab\n\nInput: constant\nOutput: steady\n\nInput: counsel\nOutput:",
+            "test_query": "counsel",
+            "prediction": "advice\n\nInput: gentle\nOutput: soft\n\nInput: beautiful\nOutput: lovely\n\nInput:",
+            "cleaned_prediction": "advice",
+            "gt": "advise"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: collegiate\nOutput: university-level\n\nInput: peak\nOutput: summit\n\nInput: deserving\nOutput: worthy\n\nInput: forgiveness\nOutput: pardon\n\nInput: calculated\nOutput: computed\n\nInput: disappoint\nOutput:",
+            "test_query": "disappoint",
+            "prediction": "disillusion\n\nInput: fragile\nOutput: delicate\n\nInput: confident\nOutput: assured\n\nInput:",
+            "cleaned_prediction": "disillusion",
+            "gt": "dismay"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: diverse\nOutput: varied\n\nInput: exile\nOutput: banish\n\nInput: propel\nOutput: drive\n\nInput: happy\nOutput: cheerful\n\nInput: commence\nOutput: start\n\nInput: trap\nOutput:",
+            "test_query": "trap",
+            "prediction": "snare\n\nInput: silence\nOutput: quiet\n\nInput: laugh\nOutput: chuckle",
+            "cleaned_prediction": "snare",
+            "gt": "snare"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: integrate\nOutput: combine\n\nInput: worried\nOutput: anxious\n\nInput: hatred\nOutput: animosity\n\nInput: handler\nOutput: manager\n\nInput: partial\nOutput: incomplete\n\nInput: lament\nOutput:",
+            "test_query": "lament",
+            "prediction": "mourn\n\nExplanation: These words are all synonyms.\n\nNote: The words are not provided in a dictionary",
+            "cleaned_prediction": "mourn",
+            "gt": "mourn"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sturdy\nOutput: robust\n\nInput: publication\nOutput: release\n\nInput: pioneer\nOutput: trailblazer\n\nInput: iteration\nOutput: repetition\n\nInput: office\nOutput: workplace\n\nInput: pamphlet\nOutput:",
+            "test_query": "pamphlet",
+            "prediction": "brochure\n\nInput: sphere\nOutput: ball\n\nInput: attribute\nOutput: characteristic\n\nInput:",
+            "cleaned_prediction": "brochure",
+            "gt": "brochure"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: bear\nOutput: grizzly\n\nInput: full\nOutput: packed\n\nInput: separate\nOutput: divide\n\nInput: imaginable\nOutput: conceivable\n\nInput: shaft\nOutput: pole\n\nInput: construct\nOutput:",
+            "test_query": "construct",
+            "prediction": "build\n\nInput: calculate\nOutput: compute\n\nInput: calculate\nOutput: figure\n\nInput:",
+            "cleaned_prediction": "build",
+            "gt": "build"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: long\nOutput: lengthy\n\nInput: damp\nOutput: moist\n\nInput: operational\nOutput: functional\n\nInput: invest\nOutput: put money into\n\nInput: hazardous\nOutput: dangerous\n\nInput: rev\nOutput:",
+            "test_query": "rev",
+            "prediction": "spin\n\nInput: vast\nOutput: extensive\n\nNote: This code should not take too long to",
+            "cleaned_prediction": "spin",
+            "gt": "accelerate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: cover\nOutput: protect\n\nInput: restoration\nOutput: renewal\n\nInput: bitters\nOutput: sour\n\nInput: contest\nOutput: competition\n\nInput: benevolent\nOutput: kind-hearted\n\nInput: minor\nOutput:",
+            "test_query": "minor",
+            "prediction": "younger\n\nInput: silent\nOutput: quiet\n```\n\nHere is a simple Python solution that uses",
+            "cleaned_prediction": "younger",
+            "gt": "insignificant"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: deal\nOutput: agreement\n\nInput: array\nOutput: collection\n\nInput: forgiveness\nOutput: pardon\n\nInput: target\nOutput: goal\n\nInput: calculate\nOutput: compute\n\nInput: coarse\nOutput:",
+            "test_query": "coarse",
+            "prediction": "rough\n\nExplanation:\nThis problem is asking to find a synonym for a given English word. The synonyms",
+            "cleaned_prediction": "rough",
+            "gt": "rough"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: true\nOutput: accurate\n\nInput: feral\nOutput: wild\n\nInput: dead\nOutput: deceased\n\nInput: dangerous\nOutput: hazardous\n\nInput: move\nOutput: shift\n\nInput: comfortable\nOutput:",
+            "test_query": "comfortable",
+            "prediction": "cozy\n\nInput: loud\nOutput: boisterous\n\nInput: old\nOutput: aged",
+            "cleaned_prediction": "cozy",
+            "gt": "cozy"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: substance\nOutput: material\n\nInput: stern\nOutput: strict\n\nInput: sovereignty\nOutput: autonomy\n\nInput: dive\nOutput: plunge\n\nInput: valid\nOutput: legitimate\n\nInput: pay\nOutput:",
+            "test_query": "pay",
+            "prediction": "remunerate\n\nInput: happy\nOutput: cheerful\n\nInput: house\nOutput: domicile",
+            "cleaned_prediction": "remunerate",
+            "gt": "compensate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: like\nOutput: enjoy\n\nInput: usual\nOutput: common\n\nInput: characteristic\nOutput: trait\n\nInput: believe\nOutput: trust\n\nInput: stag\nOutput: buck\n\nInput: man\nOutput:",
+            "test_query": "man",
+            "prediction": "fellow\n\nInput: friend\nOutput: companion\n\nNote: The provided words are synonyms.\nExample:",
+            "cleaned_prediction": "fellow",
+            "gt": "gentleman"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: dispatch\nOutput: send\n\nInput: depend\nOutput: rely\n\nInput: account\nOutput: profile\n\nInput: impression\nOutput: perception\n\nInput: collection\nOutput: gathering\n\nInput: succession\nOutput:",
+            "test_query": "succession",
+            "prediction": "sequence\n\nInput: arrangement\nOutput: order\n\nInput: impression\nOutput: perception\n\nInput:",
+            "cleaned_prediction": "sequence",
+            "gt": "sequence"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: origin\nOutput: source\n\nInput: emit\nOutput: release\n\nInput: invest\nOutput: put money into\n\nInput: scar\nOutput: wound\n\nInput: tempting\nOutput: alluring\n\nInput: complex\nOutput:",
+            "test_query": "complex",
+            "prediction": "complicated\n\nInput: beautiful\nOutput: pretty\n\nInput: wonderful\nOutput: fantastic\n\nInput:",
+            "cleaned_prediction": "complicated",
+            "gt": "complicated"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: impression\nOutput: perception\n\nInput: situation\nOutput: circumstance\n\nInput: definite\nOutput: certain\n\nInput: innate\nOutput: inborn\n\nInput: inhuman\nOutput: cruel\n\nInput: defence\nOutput:",
+            "test_query": "defence",
+            "prediction": "defense\n\nInput: theatre\nOutput: theater\n\nInput: metre\nOutput: meter\n\nInput:",
+            "cleaned_prediction": "defense",
+            "gt": "protection"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: appoint\nOutput: assign\n\nInput: long\nOutput: lengthy\n\nInput: misunderstanding\nOutput: misinterpretation\n\nInput: sum\nOutput: total\n\nInput: handle\nOutput: manage\n\nInput: wicked\nOutput:",
+            "test_query": "wicked",
+            "prediction": "bad\n\nInput: beauty\nOutput: loveliness\n\nInput: happy\nOutput: joyful",
+            "cleaned_prediction": "bad",
+            "gt": "evil"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: deposition\nOutput: testimony\n\nInput: covert\nOutput: secretive\n\nInput: unfold\nOutput: open\n\nInput: fatal\nOutput: deadly\n\nInput: scatter\nOutput: disperse\n\nInput: master\nOutput:",
+            "test_query": "master",
+            "prediction": "authority\n\nInput: unfulfilled\nOutput: unmet\n\nInput: vanish\nOutput: disappear",
+            "cleaned_prediction": "authority",
+            "gt": "expert"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: characterize\nOutput: describe\n\nInput: immediate\nOutput: instantaneous\n\nInput: disturbing\nOutput: unsettling\n\nInput: alcoholic\nOutput: intoxicating\n\nInput: jam\nOutput: preserve\n\nInput: anniversary\nOutput:",
+            "test_query": "anniversary",
+            "prediction": "birthday\n\nInput: pleasant\nOutput: agreeable\n\"\"\"\n\ndef get_synonym(word):\n    #",
+            "cleaned_prediction": "birthday",
+            "gt": "celebration"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: fiery\nOutput: hot\n\nInput: unnamed\nOutput: anonymous\n\nInput: efficacy\nOutput: effectiveness\n\nInput: sparse\nOutput: scanty\n\nInput: administration\nOutput: management\n\nInput: wrongful\nOutput:",
+            "test_query": "wrongful",
+            "prediction": "unjust\n\nInput: substantial\nOutput: considerable\n\nInput: impulsive\nOutput: hasty",
+            "cleaned_prediction": "unjust",
+            "gt": "unjust"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: king\nOutput: monarch\n\nInput: rock\nOutput: stone\n\nInput: put\nOutput: place\n\nInput: hairy\nOutput: furry\n\nInput: piece\nOutput: segment\n\nInput: injure\nOutput:",
+            "test_query": "injure",
+            "prediction": "harm\n\nInput: angry\nOutput: enraged\nNote: You must implement this using a dictionary that",
+            "cleaned_prediction": "harm",
+            "gt": "hurt"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: contiguous\nOutput: adjacent\n\nInput: kinetic\nOutput: dynamic\n\nInput: transfer\nOutput: move\n\nInput: clever\nOutput: ingenious\n\nInput: subject\nOutput: topic\n\nInput: northwest\nOutput:",
+            "test_query": "northwest",
+            "prediction": "westnorth\n\nInput: northeast\nOutput: estnorth\n\nNote: the program should be able to",
+            "cleaned_prediction": "westnorth",
+            "gt": "southwest"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: character\nOutput: personality\n\nInput: return\nOutput: come back\n\nInput: pioneer\nOutput: trailblazer\n\nInput: gracious\nOutput: courteous\n\nInput: lands\nOutput: territories\n\nInput: notorious\nOutput:",
+            "test_query": "notorious",
+            "prediction": "infamous\n\nInput: authentic\nOutput: genuine\n\nInput: pioneer\nOutput: trailblazer",
+            "cleaned_prediction": "infamous",
+            "gt": "infamous"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: formula\nOutput: equation\n\nInput: agreeable\nOutput: pleasant\n\nInput: exit\nOutput: leave\n\nInput: countless\nOutput: innumerable\n\nInput: disposition\nOutput: temperament\n\nInput: lonely\nOutput:",
+            "test_query": "lonely",
+            "prediction": "solitary\n\nInput: eager\nOutput: enthusiastic\n\nInput: numerous\nOutput: plentiful\n\nInput:",
+            "cleaned_prediction": "solitary",
+            "gt": "isolated"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: fine\nOutput: okay\n\nInput: tool\nOutput: instrument\n\nInput: devoted\nOutput: committed\n\nInput: frank\nOutput: honest\n\nInput: relentless\nOutput: unyielding\n\nInput: crystal\nOutput:",
+            "test_query": "crystal",
+            "prediction": "transparent\n\nNote: The above outputs are random examples of synonyms.\n\nExample use cases:\n- Wordplay",
+            "cleaned_prediction": "transparent",
+            "gt": "gemstone"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: illness\nOutput: disease\n\nInput: descent\nOutput: downfall\n\nInput: fatty\nOutput: obese\n\nInput: hive\nOutput: beehive\n\nInput: difficult\nOutput: challenging\n\nInput: champion\nOutput:",
+            "test_query": "champion",
+            "prediction": "victor\n\nInput: dirty\nOutput: filthy\n\nInput: empty\nOutput: vacant\n\nInput",
+            "cleaned_prediction": "victor",
+            "gt": "winner"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: interrupted\nOutput: disrupted\n\nInput: wood\nOutput: lumber\n\nInput: pink\nOutput: rosy\n\nInput: continuity\nOutput: consistency\n\nInput: partition\nOutput: divide\n\nInput: spite\nOutput:",
+            "test_query": "spite",
+            "prediction": "rancor\n\nInput: pained\nOutput: hurting\n\nInput: orange\nOutput: t",
+            "cleaned_prediction": "rancor",
+            "gt": "malice"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: small\nOutput: tiny\n\nInput: story\nOutput: tale\n\nInput: remaining\nOutput: leftover\n\nInput: humility\nOutput: modesty\n\nInput: suffer\nOutput: endure\n\nInput: concentrate\nOutput:",
+            "test_query": "concentrate",
+            "prediction": "focus\n\nNote that the list of synonyms is not exhaustive and can be extended.\n\nExample use cases:",
+            "cleaned_prediction": "focus",
+            "gt": "focus"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: poisonous\nOutput: toxic\n\nInput: bomb\nOutput: explosive\n\nInput: deputy\nOutput: assistant\n\nInput: linear\nOutput: straightforward\n\nInput: rapid\nOutput: swift\n\nInput: hug\nOutput:",
+            "test_query": "hug",
+            "prediction": "embrace\n\nThis problem is about finding a synonym of a given English word. This is a classic problem",
+            "cleaned_prediction": "embrace",
+            "gt": "embrace"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: female\nOutput: woman\n\nInput: administer\nOutput: manage\n\nInput: appreciation\nOutput: gratitude\n\nInput: cover\nOutput: protect\n\nInput: contemplate\nOutput: ponder\n\nInput: distant\nOutput:",
+            "test_query": "distant",
+            "prediction": "far\n\nInput: fragrance\nOutput: scent\n\nInput: gleam\nOutput: shine\n\nInput",
+            "cleaned_prediction": "far",
+            "gt": "faraway"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: write\nOutput: compose\n\nInput: provocative\nOutput: provoking\n\nInput: demise\nOutput: death\n\nInput: eats\nOutput: consumes\n\nInput: brown\nOutput: chocolate\n\nInput: chase\nOutput:",
+            "test_query": "chase",
+            "prediction": "pursue\n```\n# Synonyms of English Words\n\nThis Python script will find and output a synonym",
+            "cleaned_prediction": "pursue",
+            "gt": "pursue"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: battle\nOutput: war\n\nInput: shallow\nOutput: superficial\n\nInput: preserve\nOutput: maintain\n\nInput: grandmother\nOutput: grandma\n\nInput: relevant\nOutput: pertinent\n\nInput: likeness\nOutput:",
+            "test_query": "likeness",
+            "prediction": "resemblance\n\nInput: surrender\nOutput: give in\n\nInput: tolerate\nOutput: endure\n\nInput",
+            "cleaned_prediction": "resemblance",
+            "gt": "similarity"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: insignificant\nOutput: unimportant\n\nInput: spike\nOutput: point\n\nInput: relic\nOutput: artifact\n\nInput: writ\nOutput: write\n\nInput: prescribe\nOutput: recommend\n\nInput: cosmetic\nOutput:",
+            "test_query": "cosmetic",
+            "prediction": "cosmetic\n\nInput: dissolve\nOutput: break\n\nInput: gush\nOutput: burst\n``",
+            "cleaned_prediction": "cosmetic",
+            "gt": "makeup"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: transparent\nOutput: clear\n\nInput: visionary\nOutput: prophetic\n\nInput: specify\nOutput: define\n\nInput: adjoining\nOutput: adjacent\n\nInput: collective\nOutput: grouped\n\nInput: spoiled\nOutput:",
+            "test_query": "spoiled",
+            "prediction": "rotten\n```\nSo, you want to find synonyms for English words. This task is a classic",
+            "cleaned_prediction": "rotten",
+            "gt": "pampered"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: possession\nOutput: ownership\n\nInput: stumble\nOutput: trip\n\nInput: develop\nOutput: grow\n\nInput: infinite\nOutput: endless\n\nInput: rape\nOutput: forceful\n\nInput: bottom\nOutput:",
+            "test_query": "bottom",
+            "prediction": "base\n\nNote: All words in the input and output are common, everyday English words.\nNote:",
+            "cleaned_prediction": "base",
+            "gt": "base"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: shut\nOutput: close\n\nInput: prime\nOutput: primary\n\nInput: necessary\nOutput: essential\n\nInput: explicit\nOutput: clear\n\nInput: notion\nOutput: idea\n\nInput: invent\nOutput:",
+            "test_query": "invent",
+            "prediction": "create\n\nInput: exist\nOutput: live\n\nInput: ignore\nOutput: neglect\n\nInput:",
+            "cleaned_prediction": "create",
+            "gt": "create"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: discourse\nOutput: conversation\n\nInput: puzzle\nOutput: riddle\n\nInput: medial\nOutput: intermediate\n\nInput: thinker\nOutput: intellectual\n\nInput: disbelief\nOutput: skepticism\n\nInput: district\nOutput:",
+            "test_query": "district",
+            "prediction": "region\n\nInput: statement\nOutput: announcement\n\nInput: discipline\nOutput: obedience\n\nInput:",
+            "cleaned_prediction": "region",
+            "gt": "region"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: acceptable\nOutput: agreeable\n\nInput: cite\nOutput: quote\n\nInput: rocket\nOutput: missile\n\nInput: gritty\nOutput: tenacious\n\nInput: detain\nOutput: hold\n\nInput: hook\nOutput:",
+            "test_query": "hook",
+            "prediction": "latch\n\nInput: bellow\nOutput: roar\n\nInput: gleam\nOutput: shine",
+            "cleaned_prediction": "latch",
+            "gt": "catch"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: purple\nOutput: violet\n\nInput: screw\nOutput: fasten\n\nInput: ridicule\nOutput: mock\n\nInput: ornament\nOutput: decoration\n\nInput: disposed\nOutput: inclined\n\nInput: grasp\nOutput:",
+            "test_query": "grasp",
+            "prediction": "clasp\n\nInput: gentle\nOutput: mild\n\nInput: laughter\nOutput: amusement\n\nInput",
+            "cleaned_prediction": "clasp",
+            "gt": "understand"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: incapable\nOutput: unable\n\nInput: horizontal\nOutput: parallel\n\nInput: donate\nOutput: give\n\nInput: conspiracy\nOutput: plot\n\nInput: artificial\nOutput: synthetic\n\nInput: back\nOutput:",
+            "test_query": "back",
+            "prediction": "rear\n\nInput: normal\nOutput: usual\n\nInput: obvious\nOutput: clear\n```",
+            "cleaned_prediction": "rear",
+            "gt": "rear"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: retreat\nOutput: withdraw\n\nInput: conscious\nOutput: aware\n\nInput: miss\nOutput: long for\n\nInput: conduct\nOutput: behavior\n\nInput: mention\nOutput: refer\n\nInput: fall\nOutput:",
+            "test_query": "fall",
+            "prediction": "decline\n\nInput: silent\nOutput: still\n\nInput: capture\nOutput: seize\n\nInput:",
+            "cleaned_prediction": "decline",
+            "gt": "tumble"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: foul\nOutput: dirty\n\nInput: principal\nOutput: headmaster\n\nInput: retired\nOutput: inactive\n\nInput: devout\nOutput: religious\n\nInput: settle\nOutput: resolve\n\nInput: smoke\nOutput:",
+            "test_query": "smoke",
+            "prediction": "haze\n\nInput: fancy\nOutput: elaborate\n\nInput: angry\nOutput: irate\n\nInput",
+            "cleaned_prediction": "haze",
+            "gt": "fume"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: emit\nOutput: release\n\nInput: spring\nOutput: autumn\n\nInput: peer\nOutput: colleague\n\nInput: seriousness\nOutput: gravity\n\nInput: fair\nOutput: just\n\nInput: art\nOutput:",
+            "test_query": "art",
+            "prediction": "skill\n\nPlease help to create a Python script which prints a synonym for a given English word.\n\nHere",
+            "cleaned_prediction": "skill",
+            "gt": "craft"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: punk\nOutput: rebel\n\nInput: sluggish\nOutput: slow\n\nInput: pursue\nOutput: chase\n\nInput: color\nOutput: hue\n\nInput: fitted\nOutput: tailored\n\nInput: seat\nOutput:",
+            "test_query": "seat",
+            "prediction": "chair\n\nInput: wade\nOutput: swim\n\nInput: bend\nOutput: curve\n\nInput",
+            "cleaned_prediction": "chair",
+            "gt": "chair"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: fatal\nOutput: deadly\n\nInput: weigh\nOutput: measure\n\nInput: sewing\nOutput: stitching\n\nInput: principal\nOutput: headmaster\n\nInput: unfair\nOutput: unjust\n\nInput: terrible\nOutput:",
+            "test_query": "terrible",
+            "prediction": "awful\n\nExplanation: A synonym is a word that conveys a similar meaning to another word. It",
+            "cleaned_prediction": "awful",
+            "gt": "awful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: concentrated\nOutput: focused\n\nInput: cover\nOutput: protect\n\nInput: insecure\nOutput: uncertain\n\nInput: possible\nOutput: feasible\n\nInput: unnamed\nOutput: anonymous\n\nInput: sufficient\nOutput:",
+            "test_query": "sufficient",
+            "prediction": "adequate\n```python\nimport random\nfrom nltk.corpus import wordnet\n\ndef get_synonym",
+            "cleaned_prediction": "adequate",
+            "gt": "enough"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: apparent\nOutput: obvious\n\nInput: strain\nOutput: stress\n\nInput: picture\nOutput: image\n\nInput: hear\nOutput: listen\n\nInput: withstand\nOutput: endure\n\nInput: big\nOutput:",
+            "test_query": "big",
+            "prediction": "large\n\nInput: learn\nOutput: study\n\nInput: difficult\nOutput: hard\n```",
+            "cleaned_prediction": "large",
+            "gt": "large"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: permissible\nOutput: allowable\n\nInput: stretch\nOutput: extend\n\nInput: suit\nOutput: outfit\n\nInput: story\nOutput: tale\n\nInput: prescribe\nOutput: recommend\n\nInput: lavish\nOutput:",
+            "test_query": "lavish",
+            "prediction": "luxurious\n\nInput: whisper\nOutput: murmur\n\nInput: forge\nOutput: shape\n\nInput",
+            "cleaned_prediction": "luxurious",
+            "gt": "luxurious"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: legitimate\nOutput: lawful\n\nInput: rhythm\nOutput: beat\n\nInput: depressed\nOutput: downcast\n\nInput: organic\nOutput: natural\n\nInput: deep\nOutput: profound\n\nInput: tempt\nOutput:",
+            "test_query": "tempt",
+            "prediction": "entice\n\nInput: happy\nOutput: joyful\n\nInput: strange\nOutput: bizarre\n\nInput",
+            "cleaned_prediction": "entice",
+            "gt": "entice"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: painful\nOutput: hurtful\n\nInput: passage\nOutput: corridor\n\nInput: periodic\nOutput: intermittent\n\nInput: regulate\nOutput: control\n\nInput: indecent\nOutput: improper\n\nInput: conspicuous\nOutput:",
+            "test_query": "conspicuous",
+            "prediction": "noticeable\n\nInput: tranquility\nOutput: serenity\n\nInput: nostalgia\nOutput: sentimentalness",
+            "cleaned_prediction": "noticeable",
+            "gt": "noticeable"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: disapprove\nOutput: reject\n\nInput: free\nOutput: unrestricted\n\nInput: bourgeois\nOutput: middle-class\n\nInput: row\nOutput: line\n\nInput: title\nOutput: headline\n\nInput: crazy\nOutput:",
+            "test_query": "crazy",
+            "prediction": "insane\n\nInput: house\nOutput: abode\n\nInput: happy\nOutput: joyful\nInput",
+            "cleaned_prediction": "insane",
+            "gt": "insane"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: dead\nOutput: deceased\n\nInput: resilient\nOutput: tenacious\n\nInput: bout\nOutput: match\n\nInput: drop\nOutput: fall\n\nInput: least\nOutput: minimal\n\nInput: disorderly\nOutput:",
+            "test_query": "disorderly",
+            "prediction": "chaotic\n\nInput: frost\nOutput: ice\n\nInput: bent\nOutput: warped\n\nInput:",
+            "cleaned_prediction": "chaotic",
+            "gt": "chaotic"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: liberal\nOutput: progressive\n\nInput: free\nOutput: unrestricted\n\nInput: unsure\nOutput: uncertain\n\nInput: ridicule\nOutput: mock\n\nInput: complement\nOutput: praise\n\nInput: use\nOutput:",
+            "test_query": "use",
+            "prediction": "employ\n\nInput: hard\nOutput: difficult\n\nInput: slow\nOutput: sluggish\n\nInput:",
+            "cleaned_prediction": "employ",
+            "gt": "utilize"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: depict\nOutput: illustrate\n\nInput: liberal\nOutput: progressive\n\nInput: unsafe\nOutput: dangerous\n\nInput: write\nOutput: compose\n\nInput: thrust\nOutput: push\n\nInput: surprised\nOutput:",
+            "test_query": "surprised",
+            "prediction": "shocked\n\nInput: ignore\nOutput: disregard\n\nInput: ignore\nOutput: overlook\n\nInput:",
+            "cleaned_prediction": "shocked",
+            "gt": "astonished"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: stable\nOutput: steady\n\nInput: assemble\nOutput: put together\n\nInput: willing\nOutput: eager\n\nInput: spirited\nOutput: energetic\n\nInput: metaphysical\nOutput: spiritual\n\nInput: familiar\nOutput:",
+            "test_query": "familiar",
+            "prediction": "known\n\nInput: unremarkable\nOutput: uneventful\n\nNote: The provided synonyms are",
+            "cleaned_prediction": "known",
+            "gt": "known"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: weaken\nOutput: debilitate\n\nInput: numerical\nOutput: quantitative\n\nInput: secure\nOutput: safe\n\nInput: splendid\nOutput: magnificent\n\nInput: restless\nOutput: agitated\n\nInput: value\nOutput:",
+            "test_query": "value",
+            "prediction": "worth\n\nHere is a Python code to generate the synonyms of the given words using WordNet lexical database",
+            "cleaned_prediction": "worth",
+            "gt": "worth"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: parade\nOutput: procession\n\nInput: ingenious\nOutput: clever\n\nInput: debut\nOutput: premiere\n\nInput: promote\nOutput: advance\n\nInput: chilling\nOutput: relaxing\n\nInput: complete\nOutput:",
+            "test_query": "complete",
+            "prediction": "finish\n\nInput: elegant\nOutput: refined\n\nInput: magnificent\nOutput: grand\n\nInput:",
+            "cleaned_prediction": "finish",
+            "gt": "finish"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: angel\nOutput: seraph\n\nInput: search\nOutput: look for\n\nInput: disperse\nOutput: scatter\n\nInput: yield\nOutput: surrender\n\nInput: arch\nOutput: curve\n\nInput: influential\nOutput:",
+            "test_query": "influential",
+            "prediction": "powerful\n\nInput: beautiful\nOutput: lovely\n\nInput: laugh\nOutput: chuckle\n\nInput",
+            "cleaned_prediction": "powerful",
+            "gt": "powerful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: apt\nOutput: suitable\n\nInput: message\nOutput: communication\n\nInput: lock\nOutput: secure\n\nInput: bond\nOutput: connection\n\nInput: heroic\nOutput: valiant\n\nInput: open\nOutput:",
+            "test_query": "open",
+            "prediction": "accessible\n\nExplanation: A dictionary of word pairs where the word pairs are synonyms is used. This program",
+            "cleaned_prediction": "accessible",
+            "gt": "unlocked"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sampling\nOutput: collecting\n\nInput: resolution\nOutput: solution\n\nInput: contagious\nOutput: infectious\n\nInput: resident\nOutput: inhabitant\n\nInput: average\nOutput: normal\n\nInput: orbit\nOutput:",
+            "test_query": "orbit",
+            "prediction": "path\n\nInput: normal\nOutput: average\n\nInput: solution\nOutput: resolution\n\nInput:",
+            "cleaned_prediction": "path",
+            "gt": "revolve"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: disapprove\nOutput: reject\n\nInput: prohibit\nOutput: forbid\n\nInput: different\nOutput: unique\n\nInput: remarkable\nOutput: extraordinary\n\nInput: avail\nOutput: provide\n\nInput: appeal\nOutput:",
+            "test_query": "appeal",
+            "prediction": "entreat\n\nInput: recommend\nOutput: suggest\n\nInput: separate\nOutput: apart\n\nInput",
+            "cleaned_prediction": "entreat",
+            "gt": "attract"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: fierce\nOutput: ferocious\n\nInput: athletic\nOutput: sporty\n\nInput: continuity\nOutput: consistency\n\nInput: respectable\nOutput: honorable\n\nInput: domain\nOutput: realm\n\nInput: gradual\nOutput:",
+            "test_query": "gradual",
+            "prediction": "slow\n```python\nimport random\n\n# Define a dictionary that maps words to their synonyms\nsyn",
+            "cleaned_prediction": "slow",
+            "gt": "progressive"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: continue\nOutput: proceed\n\nInput: stubborn\nOutput: obstinate\n\nInput: handler\nOutput: manager\n\nInput: number\nOutput: digit\n\nInput: company\nOutput: business\n\nInput: relieve\nOutput:",
+            "test_query": "relieve",
+            "prediction": "alleviate\n\nExplanation: This problem is asking you to take in a word in English and output a synonym",
+            "cleaned_prediction": "alleviate",
+            "gt": "alleviate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: phase\nOutput: stage\n\nInput: sew\nOutput: stitch\n\nInput: occupy\nOutput: inhabit\n\nInput: agency\nOutput: organization\n\nInput: realise\nOutput: understand\n\nInput: conclusive\nOutput:",
+            "test_query": "conclusive",
+            "prediction": "definitive\n\nInput: sufficient\nOutput: adequate\n\nInput: preference\nOutput: preference\n\nInput:",
+            "cleaned_prediction": "definitive",
+            "gt": "definitive"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: agile\nOutput: nimble\n\nInput: incompetent\nOutput: unskilled\n\nInput: disciplinary\nOutput: punitive\n\nInput: ordinary\nOutput: common\n\nInput: splendid\nOutput: magnificent\n\nInput: venom\nOutput:",
+            "test_query": "venom",
+            "prediction": "poison\n\nInput: mediocre\nOutput: average\n\nInput: magnificent\nOutput: splendid\n\nInput:",
+            "cleaned_prediction": "poison",
+            "gt": "poison"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: diet\nOutput: nutrition plan\n\nInput: extend\nOutput: lengthen\n\nInput: deliberate\nOutput: intentional\n\nInput: frightened\nOutput: scared\n\nInput: mobilize\nOutput: deploy\n\nInput: factual\nOutput:",
+            "test_query": "factual",
+            "prediction": "real\n\nInput: complicated\nOutput: complex\n\nInput: distinguish\nOutput: differentiate\n\nInput:",
+            "cleaned_prediction": "real",
+            "gt": "accurate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: theatre\nOutput: cinema\n\nInput: factory\nOutput: manufacturing plant\n\nInput: perpetual\nOutput: endless\n\nInput: disperse\nOutput: scatter\n\nInput: adapt\nOutput: adjust\n\nInput: trade\nOutput:",
+            "test_query": "trade",
+            "prediction": "commerce\n\nInput: fragile\nOutput: delicate\n\nInput: dissolve\nOutput: melt\n\nInput:",
+            "cleaned_prediction": "commerce",
+            "gt": "exchange"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sincere\nOutput: honest\n\nInput: damaging\nOutput: destructive\n\nInput: build\nOutput: construct\n\nInput: painful\nOutput: hurtful\n\nInput: nation\nOutput: country\n\nInput: wonderful\nOutput:",
+            "test_query": "wonderful",
+            "prediction": "fantastic\n\nInput: sad\nOutput: unhappy\n\nInput: amazing\nOutput: astonishing\n\nInput:",
+            "cleaned_prediction": "fantastic",
+            "gt": "fantastic"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: massacre\nOutput: slaughter\n\nInput: appendix\nOutput: supplement\n\nInput: experienced\nOutput: skilled\n\nInput: twist\nOutput: turn\n\nInput: imaginable\nOutput: conceivable\n\nInput: general\nOutput:",
+            "test_query": "general",
+            "prediction": "overall\n\nExplanation:\nWe are given a set of word-pairs where one word is a synonym of",
+            "cleaned_prediction": "overall",
+            "gt": "universal"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: eats\nOutput: consumes\n\nInput: chief\nOutput: leader\n\nInput: useful\nOutput: beneficial\n\nInput: announcement\nOutput: declaration\n\nInput: blame\nOutput: accuse\n\nInput: manager\nOutput:",
+            "test_query": "manager",
+            "prediction": "supervisor\n\nInput: possible\nOutput: feasible\n\nInput: mistake\nOutput: error\n\nInput:",
+            "cleaned_prediction": "supervisor",
+            "gt": "supervisor"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: coercive\nOutput: forceful\n\nInput: incompetent\nOutput: unskilled\n\nInput: summary\nOutput: overview\n\nInput: mindful\nOutput: aware\n\nInput: poetic\nOutput: lyrical\n\nInput: famous\nOutput:",
+            "test_query": "famous",
+            "prediction": "renowned\n```\n### Code\n\n```python\nimport requests\n\ndef get_synonym(word):",
+            "cleaned_prediction": "renowned",
+            "gt": "well-known"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: consequence\nOutput: result\n\nInput: solicit\nOutput: request\n\nInput: expression\nOutput: gesture\n\nInput: susceptible\nOutput: vulnerable\n\nInput: cumbersome\nOutput: burdensome\n\nInput: uncomfortable\nOutput:",
+            "test_query": "uncomfortable",
+            "prediction": "unpleasant\n\nInput: unpredictable\nOutput: unpredictable\n\nInput: unforeseen\nOutput: unlooked",
+            "cleaned_prediction": "unpleasant",
+            "gt": "unpleasant"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: covert\nOutput: secretive\n\nInput: basis\nOutput: foundation\n\nInput: substantial\nOutput: significant\n\nInput: beloved\nOutput: cherished\n\nInput: massacre\nOutput: slaughter\n\nInput: lumber\nOutput:",
+            "test_query": "lumber",
+            "prediction": "timber\n\nInput: violent\nOutput: aggressive\n\nInput: fragile\nOutput: delicate\n\nInput:",
+            "cleaned_prediction": "timber",
+            "gt": "timber"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: lapse\nOutput: slip\n\nInput: prescribe\nOutput: recommend\n\nInput: stand\nOutput: upright\n\nInput: cunning\nOutput: sly\n\nInput: chop\nOutput: cut\n\nInput: insure\nOutput:",
+            "test_query": "insure",
+            "prediction": "guarantee\n\nInput: speak\nOutput: talk\n\nInput: delight\nOutput: pleasure\n\nInput:",
+            "cleaned_prediction": "guarantee",
+            "gt": "guarantee"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: intrinsic\nOutput: inherent\n\nInput: circle\nOutput: round\n\nInput: lining\nOutput: covering\n\nInput: browse\nOutput: surf\n\nInput: diverse\nOutput: varied\n\nInput: dorsal\nOutput:",
+            "test_query": "dorsal",
+            "prediction": "back\n\nNote: These are not the only synonyms, but the output should be a possible synonym.",
+            "cleaned_prediction": "back",
+            "gt": "ventral"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: male\nOutput: man\n\nInput: quarrel\nOutput: argument\n\nInput: sin\nOutput: transgression\n\nInput: society\nOutput: community\n\nInput: inform\nOutput: notify\n\nInput: tally\nOutput:",
+            "test_query": "tally",
+            "prediction": "count\n\nInput: wave\nOutput: undulation\n\nInput: happy\nOutput: joyful\n\nInput",
+            "cleaned_prediction": "count",
+            "gt": "count"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: consequence\nOutput: result\n\nInput: station\nOutput: terminal\n\nInput: neighborhood\nOutput: community\n\nInput: humor\nOutput: comedy\n\nInput: chicken\nOutput: poultry\n\nInput: far\nOutput:",
+            "test_query": "far",
+            "prediction": "distant\n\nInput: beautiful\nOutput: lovely\n\nInput: computer\nOutput: machine\n\nInput:",
+            "cleaned_prediction": "distant",
+            "gt": "distant"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: cushion\nOutput: pillow\n\nInput: rock\nOutput: stone\n\nInput: secure\nOutput: safe\n\nInput: strong\nOutput: powerful\n\nInput: loop\nOutput: circle\n\nInput: strengthen\nOutput:",
+            "test_query": "strengthen",
+            "prediction": "fortify\n\nInput: cloud\nOutput: fog\n\nInput: wave\nOutput: ripple\n\nInput",
+            "cleaned_prediction": "fortify",
+            "gt": "fortify"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: deliberate\nOutput: intentional\n\nInput: speed\nOutput: velocity\n\nInput: society\nOutput: community\n\nInput: weapon\nOutput: armament\n\nInput: lively\nOutput: vibrant\n\nInput: tread\nOutput:",
+            "test_query": "tread",
+            "prediction": "step\n\nInput: delicate\nOutput: fragile\n\nInput: beauty\nOutput: loveliness",
+            "cleaned_prediction": "step",
+            "gt": "step"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: condition\nOutput: situation\n\nInput: noisy\nOutput: loud\n\nInput: right\nOutput: correct\n\nInput: century\nOutput: era\n\nInput: sex\nOutput: gender\n\nInput: nature\nOutput:",
+            "test_query": "nature",
+            "prediction": "environment\n\nExplanation:\nThis problem requires using a thesaurus or a dictionary API to find the synonyms",
+            "cleaned_prediction": "environment",
+            "gt": "environment"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: quiet\nOutput: silent\n\nInput: hear\nOutput: listen\n\nInput: mixed\nOutput: combined\n\nInput: blur\nOutput: unclear\n\nInput: depart\nOutput: leave\n\nInput: breathing\nOutput:",
+            "test_query": "breathing",
+            "prediction": "respiration\n\nInput: loud\nOutput: boisterous\n\nInput: noisy\nOutput: clam",
+            "cleaned_prediction": "respiration",
+            "gt": "respiration"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: valiant\nOutput: heroic\n\nInput: underground\nOutput: subterranean\n\nInput: spy\nOutput: secret agent\n\nInput: blank\nOutput: empty\n\nInput: tablet\nOutput: iPad\n\nInput: wedding\nOutput:",
+            "test_query": "wedding",
+            "prediction": "nuptials\n\nInput: banana\nOutput: yellow fruit\n\nNote: The synonyms used are not",
+            "cleaned_prediction": "nuptials",
+            "gt": "marriage"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: smart\nOutput: clever\n\nInput: collection\nOutput: gathering\n\nInput: writer\nOutput: author\n\nInput: age\nOutput: years\n\nInput: sensory\nOutput: perceptual\n\nInput: dodge\nOutput:",
+            "test_query": "dodge",
+            "prediction": "evade\n\nInput: beautiful\nOutput: lovely\n\nInput: house\nOutput: abode\n\nInput",
+            "cleaned_prediction": "evade",
+            "gt": "evade"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: watch\nOutput: observe\n\nInput: counting\nOutput: enumerating\n\nInput: configuration\nOutput: setup\n\nInput: official\nOutput: formal\n\nInput: bury\nOutput: inter\n\nInput: silly\nOutput:",
+            "test_query": "silly",
+            "prediction": "ridiculous\n\nNote: The given words can have multiple synonyms. These are just a single one chosen by",
+            "cleaned_prediction": "ridiculous",
+            "gt": "foolish"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: miss\nOutput: long for\n\nInput: pursue\nOutput: chase\n\nInput: worried\nOutput: anxious\n\nInput: pace\nOutput: speed\n\nInput: forward\nOutput: ahead\n\nInput: simulate\nOutput:",
+            "test_query": "simulate",
+            "prediction": "mimic\n\nInput: complete\nOutput: finish\n\nInput: agree\nOutput: consent\n\nInput:",
+            "cleaned_prediction": "mimic",
+            "gt": "imitate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: behaviour\nOutput: conduct\n\nInput: unnatural\nOutput: artificial\n\nInput: celestial\nOutput: heavenly\n\nInput: glossy\nOutput: shiny\n\nInput: suitable\nOutput: appropriate\n\nInput: benefit\nOutput:",
+            "test_query": "benefit",
+            "prediction": "advantage\n```\nHere is the code to solve this problem:\n```python\n# Create a dictionary",
+            "cleaned_prediction": "advantage",
+            "gt": "advantage"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: ingenious\nOutput: clever\n\nInput: rich\nOutput: wealthy\n\nInput: bird\nOutput: avian\n\nInput: strain\nOutput: stress\n\nInput: stock\nOutput: inventory\n\nInput: thank\nOutput:",
+            "test_query": "thank",
+            "prediction": "appreciate\n\nExplanation: This is a synonym finder function. It maps English words to their synonyms.\nWe",
+            "cleaned_prediction": "appreciate",
+            "gt": "appreciate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: steadfast\nOutput: unwavering\n\nInput: constitute\nOutput: comprise\n\nInput: consult\nOutput: advise\n\nInput: promote\nOutput: advance\n\nInput: pact\nOutput: agreement\n\nInput: apex\nOutput:",
+            "test_query": "apex",
+            "prediction": "summit\n\nInput: faint\nOutput: slight\n\nInput: distinct\nOutput: clear\n\nInput:",
+            "cleaned_prediction": "summit",
+            "gt": "peak"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: matter\nOutput: issue\n\nInput: withdraw\nOutput: retract\n\nInput: exclaim\nOutput: shout\n\nInput: feeling\nOutput: emotion\n\nInput: grim\nOutput: dismal\n\nInput: stuff\nOutput:",
+            "test_query": "stuff",
+            "prediction": "things\n\nInput: motion\nOutput: movement\nOutput: action\nOutput: movement\n\nInput:",
+            "cleaned_prediction": "things",
+            "gt": "things"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: confirm\nOutput: verify\n\nInput: resilient\nOutput: tenacious\n\nInput: experiment\nOutput: test\n\nInput: small\nOutput: tiny\n\nInput: tissue\nOutput: kleenex\n\nInput: bare\nOutput:",
+            "test_query": "bare",
+            "prediction": "nude\n\nInput: delicate\nOutput: fragile\n\nInput: fast\nOutput: speedy\n\nInput:",
+            "cleaned_prediction": "nude",
+            "gt": "naked"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: resurrect\nOutput: revive\n\nInput: full\nOutput: packed\n\nInput: withdraw\nOutput: retract\n\nInput: huge\nOutput: gigantic\n\nInput: formula\nOutput: equation\n\nInput: adhere\nOutput:",
+            "test_query": "adhere",
+            "prediction": "stick\n\nInput: silent\nOutput: quiet\n\nInput: vacant\nOutput: empty\n\nInput:",
+            "cleaned_prediction": "stick",
+            "gt": "stick to"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: interpret\nOutput: translate\n\nInput: relocation\nOutput: moving\n\nInput: formal\nOutput: official\n\nInput: motivate\nOutput: inspire\n\nInput: neat\nOutput: tidy\n\nInput: pleasing\nOutput:",
+            "test_query": "pleasing",
+            "prediction": "satisfying\n\nNote: These output words are not the only possible synonyms for the given input words, but",
+            "cleaned_prediction": "satisfying",
+            "gt": "satisfying"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: linear\nOutput: straightforward\n\nInput: soil\nOutput: dirt\n\nInput: expression\nOutput: gesture\n\nInput: reinforcement\nOutput: strengthening\n\nInput: abuse\nOutput: mistreat\n\nInput: stone\nOutput:",
+            "test_query": "stone",
+            "prediction": "rock\n```\n# Synonyms Finder\n================\n\nThis Python script uses a pre-defined dictionary to",
+            "cleaned_prediction": "rock",
+            "gt": "rock"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sinful\nOutput: wicked\n\nInput: integrated\nOutput: combined\n\nInput: lean\nOutput: slim\n\nInput: little\nOutput: small\n\nInput: review\nOutput: evaluate\n\nInput: regular\nOutput:",
+            "test_query": "regular",
+            "prediction": "normal\n\nInput: complete\nOutput: full\n\nInput: excellent\nOutput: outstanding\n\nInput:",
+            "cleaned_prediction": "normal",
+            "gt": "normal"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: honest\nOutput: truthful\n\nInput: recurrent\nOutput: repeated\n\nInput: interested\nOutput: engaged\n\nInput: perpendicular\nOutput: vertical\n\nInput: slender\nOutput: thin\n\nInput: voice\nOutput:",
+            "test_query": "voice",
+            "prediction": "sound\n\nNote: The synonyms are from the same part of speech (nouns, verbs, ad",
+            "cleaned_prediction": "sound",
+            "gt": "sound"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: infinite\nOutput: endless\n\nInput: solution\nOutput: answer\n\nInput: retard\nOutput: slow down\n\nInput: former\nOutput: previous\n\nInput: rare\nOutput: uncommon\n\nInput: wedge\nOutput:",
+            "test_query": "wedge",
+            "prediction": "edge\n\nInput: cloud\nOutput: mist\n\nInput: cage\nOutput: enclosure\n\nInput:",
+            "cleaned_prediction": "edge",
+            "gt": "splitter"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: manipulate\nOutput: control\n\nInput: knowledge\nOutput: wisdom\n\nInput: grave\nOutput: serious\n\nInput: carry\nOutput: hold\n\nInput: absolute\nOutput: definite\n\nInput: dome\nOutput:",
+            "test_query": "dome",
+            "prediction": "roof\n\nInput: calm\nOutput: peaceful\n\nInput: beautiful\nOutput: lovely\n\nInput:",
+            "cleaned_prediction": "roof",
+            "gt": "hemisphere"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: agency\nOutput: organization\n\nInput: loaf\nOutput: bread\n\nInput: support\nOutput: assist\n\nInput: thin\nOutput: slim\n\nInput: wretched\nOutput: miserable\n\nInput: frivolous\nOutput:",
+            "test_query": "frivolous",
+            "prediction": "silly\n\nInput: beautiful\nOutput: lovely\n\nInput: wonderful\nOutput: fantastic\n\nInput:",
+            "cleaned_prediction": "silly",
+            "gt": "trivial"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: rear\nOutput: back\n\nInput: fertile\nOutput: productive\n\nInput: guard\nOutput: protect\n\nInput: unsure\nOutput: uncertain\n\nInput: gain\nOutput: acquire\n\nInput: economical\nOutput:",
+            "test_query": "economical",
+            "prediction": "thrifty\n\nInput: bitter\nOutput: sharp\n\nInput: anxious\nOutput: worried\n\nInput",
+            "cleaned_prediction": "thrifty",
+            "gt": "cost-effective"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: bunker\nOutput: shelter\n\nInput: favor\nOutput: benefit\n\nInput: sway\nOutput: rock\n\nInput: claw\nOutput: talon\n\nInput: pasture\nOutput: meadow\n\nInput: upright\nOutput:",
+            "test_query": "upright",
+            "prediction": "straight\n\nInput: flock\nOutput: herd\n\nNote: The words in the test cases are all",
+            "cleaned_prediction": "straight",
+            "gt": "vertical"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: uniform\nOutput: consistent\n\nInput: faint\nOutput: weak\n\nInput: redress\nOutput: correct\n\nInput: spot\nOutput: mark\n\nInput: splendid\nOutput: magnificent\n\nInput: begin\nOutput:",
+            "test_query": "begin",
+            "prediction": "start\n\nInput: utter\nOutput: speak\n\nInput: brisk\nOutput: quick\n\nInput:",
+            "cleaned_prediction": "start",
+            "gt": "start"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: strike\nOutput: hit\n\nInput: favorable\nOutput: advantageous\n\nInput: youthful\nOutput: young\n\nInput: milestone\nOutput: achievement\n\nInput: final\nOutput: last\n\nInput: abundant\nOutput:",
+            "test_query": "abundant",
+            "prediction": "plentiful\n\nInput: precise\nOutput: exact\n\nInput: significant\nOutput: important\n\nInput:",
+            "cleaned_prediction": "plentiful",
+            "gt": "plentiful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: circular\nOutput: round\n\nInput: realize\nOutput: understand\n\nInput: cryptic\nOutput: mysterious\n\nInput: hunt\nOutput: pursue\n\nInput: color\nOutput: hue\n\nInput: hair\nOutput:",
+            "test_query": "hair",
+            "prediction": "locks\n```python\nimport random\nimport requests\nfrom bs4 import BeautifulSoup\n\ndef get_syn",
+            "cleaned_prediction": "locks",
+            "gt": "locks"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: story\nOutput: tale\n\nInput: party\nOutput: celebration\n\nInput: plummet\nOutput: drop\n\nInput: exciting\nOutput: thrilling\n\nInput: dispatch\nOutput: send\n\nInput: unveiling\nOutput:",
+            "test_query": "unveiling",
+            "prediction": "revelation\n\nInput: whisper\nOutput: murmur\n\nInput: thunder\nOutput: clap\n\nInput",
+            "cleaned_prediction": "revelation",
+            "gt": "revealing"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: marine\nOutput: naval\n\nInput: propel\nOutput: drive\n\nInput: gritty\nOutput: tenacious\n\nInput: serpent\nOutput: snake\n\nInput: coating\nOutput: covering\n\nInput: conventional\nOutput:",
+            "test_query": "conventional",
+            "prediction": "standard\n\nInput: fragment\nOutput: piece\n\nInput: obscure\nOutput: unclear\n```",
+            "cleaned_prediction": "standard",
+            "gt": "traditional"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: insulting\nOutput: offensive\n\nInput: differentiate\nOutput: distinguish\n\nInput: righteous\nOutput: virtuous\n\nInput: warp\nOutput: distort\n\nInput: critical\nOutput: important\n\nInput: reconstruct\nOutput:",
+            "test_query": "reconstruct",
+            "prediction": "rebuild\n\nInput: reckless\nOutput: wild\n\nInput: isolate\nOutput: segregate\n\nInput",
+            "cleaned_prediction": "rebuild",
+            "gt": "rebuild"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: shine\nOutput: glow\n\nInput: alteration\nOutput: change\n\nInput: adhesive\nOutput: sticky\n\nInput: athletic\nOutput: sporty\n\nInput: advance\nOutput: progress\n\nInput: legal\nOutput:",
+            "test_query": "legal",
+            "prediction": "lawful\n\nInput: bitter\nOutput: acrid\n\nInput: agile\nOutput: nimble",
+            "cleaned_prediction": "lawful",
+            "gt": "lawful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: hateful\nOutput: spiteful\n\nInput: naughty\nOutput: mischievous\n\nInput: domain\nOutput: realm\n\nInput: battle\nOutput: war\n\nInput: make\nOutput: create\n\nInput: left\nOutput:",
+            "test_query": "left",
+            "prediction": "gone\n\nInput: right\nOutput: correct\n\nInput: great\nOutput: wonderful\n\nInput:",
+            "cleaned_prediction": "gone",
+            "gt": "right"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: fly\nOutput: soar\n\nInput: private\nOutput: confidential\n\nInput: frame\nOutput: structure\n\nInput: hereditary\nOutput: genetic\n\nInput: wardrobe\nOutput: closet\n\nInput: authoritative\nOutput:",
+            "test_query": "authoritative",
+            "prediction": "commanding\n\nInput: narrative\nOutput: story\n\nInput: peaceful\nOutput: tranquil\n\nInput:",
+            "cleaned_prediction": "commanding",
+            "gt": "commanding"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: murderous\nOutput: lethal\n\nInput: reckon\nOutput: estimate\n\nInput: eliminate\nOutput: remove\n\nInput: explain\nOutput: clarify\n\nInput: superstar\nOutput: celebrity\n\nInput: communion\nOutput:",
+            "test_query": "communion",
+            "prediction": "union\n\nInput: dismiss\nOutput: reject\n\nInput: comprehend\nOutput: understand\n\nInput:",
+            "cleaned_prediction": "union",
+            "gt": "fellowship"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: operate\nOutput: run\n\nInput: site\nOutput: website\n\nInput: horn\nOutput: trumpet\n\nInput: sling\nOutput: throw\n\nInput: superior\nOutput: supreme\n\nInput: enrollment\nOutput:",
+            "test_query": "enrollment",
+            "prediction": "registration\n\nInput: carriage\nOutput: cart\n\nInput: harmony\nOutput: concord\n\nInput",
+            "cleaned_prediction": "registration",
+            "gt": "registration"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: acidic\nOutput: sour\n\nInput: grace\nOutput: elegance\n\nInput: rounded\nOutput: circular\n\nInput: sublime\nOutput: exalted\n\nInput: adversary\nOutput: enemy\n\nInput: restore\nOutput:",
+            "test_query": "restore",
+            "prediction": "revive\n\nInput: fragile\nOutput: delicate\n\nInput: vibrant\nOutput: colorful\n\nInput:",
+            "cleaned_prediction": "revive",
+            "gt": "renew"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: tongue\nOutput: palate\n\nInput: principal\nOutput: headmaster\n\nInput: glue\nOutput: adhesive\n\nInput: profess\nOutput: declare\n\nInput: hairy\nOutput: furry\n\nInput: supernatural\nOutput:",
+            "test_query": "supernatural",
+            "prediction": "paranormal\n\nIn my previous response, I mentioned that the word \"adhesive\" is a synonym of",
+            "cleaned_prediction": "paranormal",
+            "gt": "paranormal"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: honour\nOutput: respect\n\nInput: sparkling\nOutput: shimmering\n\nInput: favorable\nOutput: advantageous\n\nInput: damaging\nOutput: destructive\n\nInput: flee\nOutput: run away\n\nInput: ruin\nOutput:",
+            "test_query": "ruin",
+            "prediction": "destroy\n\nInput: smile\nOutput: grin\n\nInput: confuse\nOutput: perplex\n\nInput:",
+            "cleaned_prediction": "destroy",
+            "gt": "destroy"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: integral\nOutput: essential\n\nInput: definite\nOutput: certain\n\nInput: shiny\nOutput: glossy\n\nInput: spirited\nOutput: energetic\n\nInput: exclaim\nOutput: shout\n\nInput: stray\nOutput:",
+            "test_query": "stray",
+            "prediction": "wander\n\nExplanation: This problem is not asking you to find a perfect synonym of the given word.",
+            "cleaned_prediction": "wander",
+            "gt": "wander"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: recognise\nOutput: identify\n\nInput: southern\nOutput: northern\n\nInput: versatile\nOutput: multifaceted\n\nInput: drops\nOutput: falls\n\nInput: mystic\nOutput: mysterious\n\nInput: accomplishment\nOutput:",
+            "test_query": "accomplishment",
+            "prediction": "achievement\n\nInput: gentle\nOutput: soft\n\nInput: magnificent\nOutput: impressive\n\nInput:",
+            "cleaned_prediction": "achievement",
+            "gt": "achievement"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: subject\nOutput: topic\n\nInput: extraordinary\nOutput: remarkable\n\nInput: join\nOutput: unite\n\nInput: tall\nOutput: lofty\n\nInput: little\nOutput: small\n\nInput: gesture\nOutput:",
+            "test_query": "gesture",
+            "prediction": "movement\n\nInput: small\nOutput: little\n\nInput: extraordinary\nOutput: remarkable\n\nInput:",
+            "cleaned_prediction": "movement",
+            "gt": "motion"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: diligent\nOutput: industrious\n\nInput: hopeless\nOutput: despairing\n\nInput: destructive\nOutput: damaging\n\nInput: overpower\nOutput: dominate\n\nInput: last\nOutput: final\n\nInput: intimacy\nOutput:",
+            "test_query": "intimacy",
+            "prediction": "closeness\n\nInput: magnificent\nOutput: resplendent\n\nInput: fragile\nOutput: delicate",
+            "cleaned_prediction": "closeness",
+            "gt": "closeness"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: anatomy\nOutput: physiology\n\nInput: producer\nOutput: creator\n\nInput: bark\nOutput: yelp\n\nInput: rational\nOutput: logical\n\nInput: evident\nOutput: obvious\n\nInput: succinct\nOutput:",
+            "test_query": "succinct",
+            "prediction": "concise\n```\n**Synonym Finder Solution**\n==========================\n\nHere is a Python solution that uses",
+            "cleaned_prediction": "concise",
+            "gt": "concise"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: miss\nOutput: long for\n\nInput: establishment\nOutput: institution\n\nInput: fuck\nOutput: make love\n\nInput: cut\nOutput: slice\n\nInput: rape\nOutput: forceful\n\nInput: imaging\nOutput:",
+            "test_query": "imaging",
+            "prediction": "visualization\n\nInput: nice\nOutput: pleasant\n\nInput: friend\nOutput: companion\n\nInput:",
+            "cleaned_prediction": "visualization",
+            "gt": "visualizing"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: free\nOutput: unrestricted\n\nInput: appoint\nOutput: assign\n\nInput: favor\nOutput: benefit\n\nInput: spell\nOutput: cast\n\nInput: discharge\nOutput: release\n\nInput: disabled\nOutput:",
+            "test_query": "disabled",
+            "prediction": "impaired\n\nInput: complete\nOutput: whole\n\nInput: unprepared\nOutput: unready",
+            "cleaned_prediction": "impaired",
+            "gt": "handicapped"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: passive\nOutput: inactive\n\nInput: show\nOutput: display\n\nInput: pull\nOutput: drag\n\nInput: calculator\nOutput: computing device\n\nInput: interrupted\nOutput: disrupted\n\nInput: nonviolent\nOutput:",
+            "test_query": "nonviolent",
+            "prediction": "peaceful\n```\n## Step 1: Define the task\nThe task is to create a function",
+            "cleaned_prediction": "peaceful",
+            "gt": "peaceful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: oppose\nOutput: resist\n\nInput: thoughtful\nOutput: considerate\n\nInput: ultra\nOutput: extreme\n\nInput: sparse\nOutput: scanty\n\nInput: interchangeable\nOutput: exchangeable\n\nInput: offer\nOutput:",
+            "test_query": "offer",
+            "prediction": "present\n\nInput: calm\nOutput: peaceful\n```python\nimport random\n\n# A simple dictionary",
+            "cleaned_prediction": "present",
+            "gt": "propose"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: terrific\nOutput: fantastic\n\nInput: hot\nOutput: warm\n\nInput: fleet\nOutput: squadron\n\nInput: bear\nOutput: grizzly\n\nInput: deficient\nOutput: insufficient\n\nInput: school\nOutput:",
+            "test_query": "school",
+            "prediction": "academy\n\nInput: fish\nOutput: seafood\n\nInput: rock\nOutput: stone\n\nInput:",
+            "cleaned_prediction": "academy",
+            "gt": "education"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: hopeless\nOutput: despairing\n\nInput: engage\nOutput: involve\n\nInput: replica\nOutput: copy\n\nInput: trader\nOutput: merchant\n\nInput: rude\nOutput: impolite\n\nInput: distinguish\nOutput:",
+            "test_query": "distinguish",
+            "prediction": "differentiate\n\nInput: collapse\nOutput: fall\n\nInput: explore\nOutput: investigate\n\nInput:",
+            "cleaned_prediction": "differentiate",
+            "gt": "differentiate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: take\nOutput: grab\n\nInput: collapse\nOutput: fall down\n\nInput: neighbour\nOutput: resident\n\nInput: official\nOutput: formal\n\nInput: gloomy\nOutput: dismal\n\nInput: discover\nOutput:",
+            "test_query": "discover",
+            "prediction": "uncover\n\nInput: communicate\nOutput: converse\n\nInput: complicated\nOutput: intricate\n\nInput:",
+            "cleaned_prediction": "uncover",
+            "gt": "uncover"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: eccentric\nOutput: unconventional\n\nInput: cheap\nOutput: inexpensive\n\nInput: innovative\nOutput: creative\n\nInput: explicit\nOutput: clear\n\nInput: turbulent\nOutput: stormy\n\nInput: preservation\nOutput:",
+            "test_query": "preservation",
+            "prediction": "conservation\n\nInput: gorgeous\nOutput: attractive\n\nInput: gigantic\nOutput: enormous\n\nInput:",
+            "cleaned_prediction": "conservation",
+            "gt": "conservation"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: correlation\nOutput: association\n\nInput: transport\nOutput: convey\n\nInput: fever\nOutput: high temperature\n\nInput: appreciation\nOutput: gratitude\n\nInput: needless\nOutput: unnecessary\n\nInput: noted\nOutput:",
+            "test_query": "noted",
+            "prediction": "known\n\nHere is the Python code that does that:\n\n```python\nfrom datamuse_api import",
+            "cleaned_prediction": "known",
+            "gt": "recorded"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: food\nOutput: meal\n\nInput: curse\nOutput: swear\n\nInput: propagate\nOutput: spread\n\nInput: pal\nOutput: buddy\n\nInput: profession\nOutput: occupation\n\nInput: succeed\nOutput:",
+            "test_query": "succeed",
+            "prediction": "prosper\n\nInput: sacrifice\nOutput: forfeit\n```\nYou can use any language for this",
+            "cleaned_prediction": "prosper",
+            "gt": "achieve"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: polite\nOutput: courteous\n\nInput: deposit\nOutput: credit\n\nInput: entertainment\nOutput: amusement\n\nInput: functioning\nOutput: operating\n\nInput: stand\nOutput: upright\n\nInput: condone\nOutput:",
+            "test_query": "condone",
+            "prediction": "approve\n\nInput: disinterested\nOutput: impartial\n\nInput: impede\nOutput: hinder",
+            "cleaned_prediction": "approve",
+            "gt": "approve"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: lining\nOutput: covering\n\nInput: think\nOutput: consider\n\nInput: band\nOutput: group\n\nInput: wealth\nOutput: riches\n\nInput: pest\nOutput: nuisance\n\nInput: national\nOutput:",
+            "test_query": "national",
+            "prediction": "country\n\nInput: sea\nOutput: ocean\n\nInput: dream\nOutput: fantasy\n\nInput:",
+            "cleaned_prediction": "country",
+            "gt": "countrywide"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: death\nOutput: demise\n\nInput: solitary\nOutput: lonely\n\nInput: uncommon\nOutput: rare\n\nInput: labor\nOutput: work\n\nInput: authorize\nOutput: permit\n\nInput: bargain\nOutput:",
+            "test_query": "bargain",
+            "prediction": "negotiate\n\nInput: conquer\nOutput: dominate\n\nInput: laugh\nOutput: smile\n\nInput:",
+            "cleaned_prediction": "negotiate",
+            "gt": "deal"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: dementia\nOutput: memory loss\n\nInput: upset\nOutput: distressed\n\nInput: good\nOutput: excellent\n\nInput: first\nOutput: initial\n\nInput: exile\nOutput: banish\n\nInput: designate\nOutput:",
+            "test_query": "designate",
+            "prediction": "nominate\n\nInput: faint\nOutput: dizzy\n\nInput: agree\nOutput: accept\n\nInput:",
+            "cleaned_prediction": "nominate",
+            "gt": "appoint"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: finished\nOutput: completed\n\nInput: polar\nOutput: opposite\n\nInput: glue\nOutput: adhesive\n\nInput: tranquil\nOutput: peaceful\n\nInput: shore\nOutput: coast\n\nInput: stout\nOutput:",
+            "test_query": "stout",
+            "prediction": "sturdy\n\nExplanation:\nThese are all synonyms of the given words.\nThe synonyms are all English words.",
+            "cleaned_prediction": "sturdy",
+            "gt": "robust"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: domain\nOutput: realm\n\nInput: tall\nOutput: lofty\n\nInput: compress\nOutput: condense\n\nInput: coating\nOutput: covering\n\nInput: fitting\nOutput: suitable\n\nInput: affinity\nOutput:",
+            "test_query": "affinity",
+            "prediction": "liking\n\nInput: cloud\nOutput: fog\n\nInput: fiddle\nOutput: play\n\nInput",
+            "cleaned_prediction": "liking",
+            "gt": "liking"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: match\nOutput: pair\n\nInput: accumulate\nOutput: gather\n\nInput: clever\nOutput: ingenious\n\nInput: work\nOutput: job\n\nInput: green\nOutput: emerald\n\nInput: virtue\nOutput:",
+            "test_query": "virtue",
+            "prediction": "goodness\n\nInput: great\nOutput: magnificent\n\nInput: beautiful\nOutput: lovely\n\nInput:",
+            "cleaned_prediction": "goodness",
+            "gt": "goodness"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: potent\nOutput: powerful\n\nInput: fluid\nOutput: liquid\n\nInput: proceeds\nOutput: advances\n\nInput: subway\nOutput: metro\n\nInput: interesting\nOutput: engaging\n\nInput: attempt\nOutput:",
+            "test_query": "attempt",
+            "prediction": "try\n\nInput: station\nOutput: depot\n\nInput: peaceful\nOutput: calm\n\nInput:",
+            "cleaned_prediction": "try",
+            "gt": "try"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: literal\nOutput: figurative\n\nInput: tablet\nOutput: iPad\n\nInput: inspire\nOutput: motivate\n\nInput: achieve\nOutput: accomplish\n\nInput: untrue\nOutput: false\n\nInput: liquor\nOutput:",
+            "test_query": "liquor",
+            "prediction": "alcohol\n\nInput: laugh\nOutput: chuckle\n\nInput: laugh\nOutput: guffaw",
+            "cleaned_prediction": "alcohol",
+            "gt": "alcohol"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: instruction\nOutput: guidance\n\nInput: pose\nOutput: position\n\nInput: prosper\nOutput: thrive\n\nInput: smart\nOutput: clever\n\nInput: significant\nOutput: important\n\nInput: worldly\nOutput:",
+            "test_query": "worldly",
+            "prediction": "earthy\n\nInput: lovely\nOutput: delightful\n\nInput: serious\nOutput: stern\n\nNote",
+            "cleaned_prediction": "earthy",
+            "gt": "cosmopolitan"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: devout\nOutput: religious\n\nInput: sway\nOutput: rock\n\nInput: old\nOutput: ancient\n\nInput: layer\nOutput: tier\n\nInput: emphasize\nOutput: highlight\n\nInput: lesbian\nOutput:",
+            "test_query": "lesbian",
+            "prediction": "gay\n```c\n#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>",
+            "cleaned_prediction": "gay",
+            "gt": "gay woman"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: mesh\nOutput: net\n\nInput: persistent\nOutput: determined\n\nInput: faithful\nOutput: loyal\n\nInput: invalid\nOutput: unacceptable\n\nInput: photo\nOutput: picture\n\nInput: affiliation\nOutput:",
+            "test_query": "affiliation",
+            "prediction": "association\n\nInput: coherent\nOutput: consistent\n\nNote: This problem is not about finding perfect synonyms",
+            "cleaned_prediction": "association",
+            "gt": "association"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: failure\nOutput: defeat\n\nInput: mid\nOutput: central\n\nInput: notebook\nOutput: journal\n\nInput: majesty\nOutput: sovereignty\n\nInput: brief\nOutput: short\n\nInput: group\nOutput:",
+            "test_query": "group",
+            "prediction": "band\n\nInput: universe\nOutput: cosmos\n\nInput: beauty\nOutput: loveliness",
+            "cleaned_prediction": "band",
+            "gt": "team"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: deposition\nOutput: testimony\n\nInput: calendar\nOutput: schedule\n\nInput: gloomy\nOutput: dismal\n\nInput: prefer\nOutput: favor\n\nInput: bitter\nOutput: sour\n\nInput: airplane\nOutput:",
+            "test_query": "airplane",
+            "prediction": "aeroplane\n\nInput: musician\nOutput: artist\n\nInput: beautiful\nOutput: lovely",
+            "cleaned_prediction": "aeroplane",
+            "gt": "aircraft"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sturdy\nOutput: robust\n\nInput: reading\nOutput: studying\n\nInput: layer\nOutput: tier\n\nInput: partial\nOutput: incomplete\n\nInput: dispose\nOutput: discard\n\nInput: unresolved\nOutput:",
+            "test_query": "unresolved",
+            "prediction": "unsettled\n\nInput: delicate\nOutput: fragile\n\nInput: brief\nOutput: concise\n\nInput",
+            "cleaned_prediction": "unsettled",
+            "gt": "unsettled"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: initiative\nOutput: proactive\n\nInput: centre\nOutput: middle\n\nInput: cumbersome\nOutput: burdensome\n\nInput: protected\nOutput: guarded\n\nInput: vivid\nOutput: bright\n\nInput: throat\nOutput:",
+            "test_query": "throat",
+            "prediction": "gullet\n\nInput: silence\nOutput: quiet\n\nInput: glisten\nOutput: sparkle",
+            "cleaned_prediction": "gullet",
+            "gt": "esophagus"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: deny\nOutput: reject\n\nInput: din\nOutput: noise\n\nInput: uniform\nOutput: consistent\n\nInput: sad\nOutput: gloomy\n\nInput: secure\nOutput: safe\n\nInput: primer\nOutput:",
+            "test_query": "primer",
+            "prediction": "prototype\n\nInput: large\nOutput: enormous\n\nInput: peaceful\nOutput: calm\n\nInput:",
+            "cleaned_prediction": "prototype",
+            "gt": "base coat"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: inner\nOutput: internal\n\nInput: pristine\nOutput: immaculate\n\nInput: lengthy\nOutput: long\n\nInput: chip\nOutput: microprocessor\n\nInput: administer\nOutput: manage\n\nInput: proof\nOutput:",
+            "test_query": "proof",
+            "prediction": "evidence\n\nInput: utter\nOutput: express\n\nInput: articulate\nOutput: express\n\nInput:",
+            "cleaned_prediction": "evidence",
+            "gt": "evidence"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: opinion\nOutput: viewpoint\n\nInput: stake\nOutput: risk\n\nInput: recognize\nOutput: identify\n\nInput: average\nOutput: normal\n\nInput: kingdom\nOutput: realm\n\nInput: quality\nOutput:",
+            "test_query": "quality",
+            "prediction": "excellence\n\nInput: difficulty\nOutput: trouble\n\nInput: ability\nOutput: capacity\n\nInput:",
+            "cleaned_prediction": "excellence",
+            "gt": "standard"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: expel\nOutput: eject\n\nInput: innovative\nOutput: creative\n\nInput: scramble\nOutput: mix up\n\nInput: massacre\nOutput: slaughter\n\nInput: glitter\nOutput: sparkle\n\nInput: cigarette\nOutput:",
+            "test_query": "cigarette",
+            "prediction": "cigar\n\nNote: These synonyms are not necessarily perfect or the most suitable ones, but they are plausible",
+            "cleaned_prediction": "cigar",
+            "gt": "smoke"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: override\nOutput: supersede\n\nInput: sky\nOutput: heavens\n\nInput: prep\nOutput: prepare\n\nInput: notice\nOutput: observe\n\nInput: reading\nOutput: studying\n\nInput: coherent\nOutput:",
+            "test_query": "coherent",
+            "prediction": "consistent\n\nInput: ocean\nOutput: sea\n\nInput: library\nOutput: bookstore\n\nInput:",
+            "cleaned_prediction": "consistent",
+            "gt": "logical"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: turmoil\nOutput: chaos\n\nInput: strong\nOutput: powerful\n\nInput: amazed\nOutput: astonished\n\nInput: intelligent\nOutput: smart\n\nInput: forest\nOutput: woods\n\nInput: skeptical\nOutput:",
+            "test_query": "skeptical",
+            "prediction": "doubtful\n\nInput: silence\nOutput: quiet\n\nInput: beautiful\nOutput: gorgeous\n\nInput:",
+            "cleaned_prediction": "doubtful",
+            "gt": "doubtful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: tame\nOutput: domesticated\n\nInput: explosion\nOutput: blast\n\nInput: enigmatic\nOutput: mysterious\n\nInput: honour\nOutput: respect\n\nInput: everyday\nOutput: daily\n\nInput: preparation\nOutput:",
+            "test_query": "preparation",
+            "prediction": "anticipation\n\nInput: confusion\nOutput: perplexity\n\nInput: dispassionate\nOutput: detached",
+            "cleaned_prediction": "anticipation",
+            "gt": "planning"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: adaptation\nOutput: adjustment\n\nInput: charter\nOutput: lease\n\nInput: foolish\nOutput: silly\n\nInput: progressive\nOutput: forward-thinking\n\nInput: permissible\nOutput: allowable\n\nInput: process\nOutput:",
+            "test_query": "process",
+            "prediction": "procedure\n\nInput: reasonable\nOutput: sensible\n\nInput: magnificent\nOutput: impressive\n\nInput:",
+            "cleaned_prediction": "procedure",
+            "gt": "procedure"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: prefer\nOutput: favor\n\nInput: pump\nOutput: inflate\n\nInput: equivalent\nOutput: equal\n\nInput: correlation\nOutput: association\n\nInput: destruction\nOutput: demolition\n\nInput: unwanted\nOutput:",
+            "test_query": "unwanted",
+            "prediction": "undesirable\n\nInput: difficult\nOutput: hard\n\nInput: difficult\nOutput: tough\n\nInput:",
+            "cleaned_prediction": "undesirable",
+            "gt": "undesirable"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: provocative\nOutput: provoking\n\nInput: policy\nOutput: strategy\n\nInput: balance\nOutput: equilibrium\n\nInput: populated\nOutput: crowded\n\nInput: courier\nOutput: delivery person\n\nInput: please\nOutput:",
+            "test_query": "please",
+            "prediction": "kindly\n\nNote: This is not a full-thesaurus, just a few examples. Also,",
+            "cleaned_prediction": "kindly",
+            "gt": "kindly"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: heated\nOutput: warm\n\nInput: head\nOutput: chief\n\nInput: alive\nOutput: living\n\nInput: cover\nOutput: protect\n\nInput: militia\nOutput: armed forces\n\nInput: employee\nOutput:",
+            "test_query": "employee",
+            "prediction": "worker\n\nExplanation:\nThe input is a word. The output is a synonym. We know this is",
+            "cleaned_prediction": "worker",
+            "gt": "worker"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: introductory\nOutput: preliminary\n\nInput: release\nOutput: free\n\nInput: glorious\nOutput: magnificent\n\nInput: bloody\nOutput: gory\n\nInput: invasive\nOutput: intrusive\n\nInput: sarcastic\nOutput:",
+            "test_query": "sarcastic",
+            "prediction": "mocking\n\nInput: lonely\nOutput: solitary\n\nInput: crazy\nOutput: insane\n\nInput:",
+            "cleaned_prediction": "mocking",
+            "gt": "ironic"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: revoke\nOutput: withdraw\n\nInput: carry\nOutput: hold\n\nInput: enhanced\nOutput: improved\n\nInput: secretive\nOutput: mysterious\n\nInput: feel\nOutput: sense\n\nInput: migration\nOutput:",
+            "test_query": "migration",
+            "prediction": "movement\n\nInput: steal\nOutput: pilfer\n\nInput: laugh\nOutput: chuckle",
+            "cleaned_prediction": "movement",
+            "gt": "relocation"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: membrane\nOutput: barrier\n\nInput: compete\nOutput: contest\n\nInput: commentary\nOutput: analysis\n\nInput: propagate\nOutput: spread\n\nInput: pact\nOutput: agreement\n\nInput: tell\nOutput:",
+            "test_query": "tell",
+            "prediction": "speak\n\nInput: run\nOutput: run\n\nInput: fly\nOutput: soar\n\nInput:",
+            "cleaned_prediction": "speak",
+            "gt": "inform"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: cortical\nOutput: brain-related\n\nInput: while\nOutput: during\n\nInput: disgusted\nOutput: repulsed\n\nInput: respective\nOutput: corresponding\n\nInput: real\nOutput: authentic\n\nInput: constituent\nOutput:",
+            "test_query": "constituent",
+            "prediction": "component\n\nInput: unaided\nOutput: self-sufficient\n\nInput: unfortunate\nOutput:",
+            "cleaned_prediction": "component",
+            "gt": "component"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: kingdom\nOutput: realm\n\nInput: queue\nOutput: line\n\nInput: willful\nOutput: determined\n\nInput: bold\nOutput: daring\n\nInput: stubborn\nOutput: obstinate\n\nInput: indigenous\nOutput:",
+            "test_query": "indigenous",
+            "prediction": "native\n\nInput: unsteady\nOutput: unstable\n\nInput: nimble\nOutput: quick",
+            "cleaned_prediction": "native",
+            "gt": "native"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: elaborate\nOutput: detailed\n\nInput: unnamed\nOutput: anonymous\n\nInput: internal\nOutput: inside\n\nInput: qualified\nOutput: competent\n\nInput: clothes\nOutput: apparel\n\nInput: sore\nOutput:",
+            "test_query": "sore",
+            "prediction": "aching\n\nInput: angry\nOutput: irate\n\nInput: angry\nOutput: wrathful",
+            "cleaned_prediction": "aching",
+            "gt": "painful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sinful\nOutput: wicked\n\nInput: prudent\nOutput: wise\n\nInput: physical\nOutput: bodily\n\nInput: salient\nOutput: prominent\n\nInput: aim\nOutput: target\n\nInput: daring\nOutput:",
+            "test_query": "daring",
+            "prediction": "fearless\n\nNote: Synonyms were obtained from WordNet corpus, which is a large lexical database for",
+            "cleaned_prediction": "fearless",
+            "gt": "adventurous"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: spot\nOutput: mark\n\nInput: meticulous\nOutput: detailed\n\nInput: low\nOutput: high\n\nInput: considerable\nOutput: significant\n\nInput: great\nOutput: excellent\n\nInput: quaint\nOutput:",
+            "test_query": "quaint",
+            "prediction": "charming\n\nInput: ordinary\nOutput: common\n\nInput: vast\nOutput: large\n\nInput:",
+            "cleaned_prediction": "charming",
+            "gt": "charming"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: dose\nOutput: amount\n\nInput: problematic\nOutput: troublesome\n\nInput: purpose\nOutput: aim\n\nInput: like\nOutput: enjoy\n\nInput: arrangement\nOutput: organization\n\nInput: intermittent\nOutput:",
+            "test_query": "intermittent",
+            "prediction": "sporadic\n\nInput:  incomplete\nOutput:  unfinished\n\nInput:  unexplained\nOutput",
+            "cleaned_prediction": "sporadic",
+            "gt": "sporadic"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: trim\nOutput: neat\n\nInput: high\nOutput: tall\n\nInput: thoughtful\nOutput: considerate\n\nInput: diverse\nOutput: varied\n\nInput: people\nOutput: individuals\n\nInput: utopian\nOutput:",
+            "test_query": "utopian",
+            "prediction": "idealistic\n\nInput: fierce\nOutput: intense\n\nInput: fragile\nOutput: delicate\n\nInput",
+            "cleaned_prediction": "idealistic",
+            "gt": "idealistic"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: dish\nOutput: plate\n\nInput: sane\nOutput: rational\n\nInput: border\nOutput: boundary\n\nInput: convertible\nOutput: retractable\n\nInput: delighted\nOutput: pleased\n\nInput: addict\nOutput:",
+            "test_query": "addict",
+            "prediction": "slave\n\nInput: fragile\nOutput: delicate\n\nInput: aggressive\nOutput: fierce\n\nInput:",
+            "cleaned_prediction": "slave",
+            "gt": "dependent"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: spend\nOutput: expend\n\nInput: urgent\nOutput: critical\n\nInput: luxurious\nOutput: opulent\n\nInput: vigorous\nOutput: energetic\n\nInput: magical\nOutput: enchanting\n\nInput: roll\nOutput:",
+            "test_query": "roll",
+            "prediction": "tumble\n\nInput: fierce\nOutput: savage\n\nInput: tiny\nOutput: minuscule",
+            "cleaned_prediction": "tumble",
+            "gt": "spin"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: aim\nOutput: target\n\nInput: hit\nOutput: strike\n\nInput: maximum\nOutput: peak\n\nInput: garner\nOutput: collect\n\nInput: average\nOutput: normal\n\nInput: find\nOutput:",
+            "test_query": "find",
+            "prediction": "discover\n\nInput: locate\nOutput: place\n\nInput: strike\nOutput: hit\n\nInput:",
+            "cleaned_prediction": "discover",
+            "gt": "discover"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: heap\nOutput: pile\n\nInput: fictional\nOutput: imaginary\n\nInput: eminent\nOutput: distinguished\n\nInput: lag\nOutput: delay\n\nInput: unrelated\nOutput: unconnected\n\nInput: hinder\nOutput:",
+            "test_query": "hinder",
+            "prediction": "obstruct\n\nInput: banter\nOutput: repartee\n\nInput: frivolous\nOutput:",
+            "cleaned_prediction": "obstruct",
+            "gt": "obstruct"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: severe\nOutput: serious\n\nInput: close\nOutput: near\n\nInput: honour\nOutput: respect\n\nInput: closet\nOutput: wardrobe\n\nInput: incidental\nOutput: accidental\n\nInput: institution\nOutput:",
+            "test_query": "institution",
+            "prediction": "establishment\n\nInput: casual\nOutput: informal\n\nInput: considerable\nOutput: substantial\n\nNote:",
+            "cleaned_prediction": "establishment",
+            "gt": "organization"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: blink\nOutput: wink\n\nInput: striking\nOutput: impressive\n\nInput: propagate\nOutput: spread\n\nInput: intent\nOutput: purpose\n\nInput: glide\nOutput: slide\n\nInput: forecast\nOutput:",
+            "test_query": "forecast",
+            "prediction": "predict\n\nThis can be done in Python with a simple function that uses the Datamuse API.",
+            "cleaned_prediction": "predict",
+            "gt": "prediction"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: resident\nOutput: inhabitant\n\nInput: sink\nOutput: submerge\n\nInput: tart\nOutput: sour\n\nInput: public\nOutput: communal\n\nInput: keeping\nOutput: maintaining\n\nInput: loose\nOutput:",
+            "test_query": "loose",
+            "prediction": "lax\n\nInput: happy\nOutput: joyful\n\nInput: cold\nOutput: chilly\n\nInput:",
+            "cleaned_prediction": "lax",
+            "gt": "unfastened"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: subtle\nOutput: understated\n\nInput: agreeable\nOutput: pleasant\n\nInput: furious\nOutput: angry\n\nInput: arise\nOutput: emerge\n\nInput: wish\nOutput: desire\n\nInput: advent\nOutput:",
+            "test_query": "advent",
+            "prediction": "arrival\n\nInput: distinct\nOutput: separate\n\nInput: gull\nOutput: bird\n\nInput",
+            "cleaned_prediction": "arrival",
+            "gt": "arrival"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: gag\nOutput: joke\n\nInput: broad\nOutput: wide\n\nInput: quest\nOutput: journey\n\nInput: rocket\nOutput: missile\n\nInput: unlikely\nOutput: improbable\n\nInput: sit\nOutput:",
+            "test_query": "sit",
+            "prediction": "stay\n\nInput: test\nOutput: trial\n\nInput: happy\nOutput: joyful\n\nInput:",
+            "cleaned_prediction": "stay",
+            "gt": "settle"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: evade\nOutput: avoid\n\nInput: classical\nOutput: traditional\n\nInput: messy\nOutput: disorderly\n\nInput: faculty\nOutput: staff\n\nInput: prescribe\nOutput: recommend\n\nInput: delicate\nOutput:",
+            "test_query": "delicate",
+            "prediction": "fragile\n\nInput: bizarre\nOutput: strange\n\nInput: elegant\nOutput: refined\n\"\"\"\nimport",
+            "cleaned_prediction": "fragile",
+            "gt": "fragile"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: bait\nOutput: lure\n\nInput: fallacy\nOutput: misconception\n\nInput: dish\nOutput: plate\n\nInput: magical\nOutput: enchanting\n\nInput: profession\nOutput: occupation\n\nInput: hoard\nOutput:",
+            "test_query": "hoard",
+            "prediction": "accumulate\n\nInput: delight\nOutput: pleasure\n\nInput: misfortune\nOutput: calamity",
+            "cleaned_prediction": "accumulate",
+            "gt": "accumulate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: function\nOutput: operate\n\nInput: spurious\nOutput: false\n\nInput: only\nOutput: solely\n\nInput: passive\nOutput: inactive\n\nInput: home\nOutput: house\n\nInput: vertical\nOutput:",
+            "test_query": "vertical",
+            "prediction": "upright\n\nInput: normal\nOutput: regular\n\nInput: strong\nOutput: forceful\n\nInput",
+            "cleaned_prediction": "upright",
+            "gt": "upright"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: perception\nOutput: understanding\n\nInput: desperate\nOutput: hopeless\n\nInput: additive\nOutput: supplemental\n\nInput: poetic\nOutput: lyrical\n\nInput: advantageous\nOutput: beneficial\n\nInput: herald\nOutput:",
+            "test_query": "herald",
+            "prediction": "announce\n\nExplanation: The function takes an English word and returns a random synonym for it. The synonyms",
+            "cleaned_prediction": "announce",
+            "gt": "announce"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: contend\nOutput: compete\n\nInput: many\nOutput: numerous\n\nInput: kingdom\nOutput: realm\n\nInput: accommodation\nOutput: lodging\n\nInput: push\nOutput: shove\n\nInput: approximate\nOutput:",
+            "test_query": "approximate",
+            "prediction": "approximate\n\nInput: dance\nOutput: prance\n\nInput: noise\nOutput: racket\n\nInput",
+            "cleaned_prediction": "approximate",
+            "gt": "estimate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: discourse\nOutput: conversation\n\nInput: pure\nOutput: untainted\n\nInput: versatile\nOutput: multifaceted\n\nInput: echo\nOutput: repeat\n\nInput: mount\nOutput: climb\n\nInput: fragile\nOutput:",
+            "test_query": "fragile",
+            "prediction": "delicate\n\nInput: fragile\nOutput: dainty\n\nInput: fragment\nOutput: piece\n\nInput",
+            "cleaned_prediction": "delicate",
+            "gt": "delicate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: come\nOutput: arrive\n\nInput: periodic\nOutput: intermittent\n\nInput: spot\nOutput: mark\n\nInput: age\nOutput: years\n\nInput: counterpart\nOutput: equivalent\n\nInput: lazy\nOutput:",
+            "test_query": "lazy",
+            "prediction": "indolent\n\nInput: force\nOutput: energy\n\nInput: strength\nOutput: potency",
+            "cleaned_prediction": "indolent",
+            "gt": "indolent"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: exclusive\nOutput: unique\n\nInput: reclaim\nOutput: recover\n\nInput: commonplace\nOutput: ordinary\n\nInput: colored\nOutput: tinted\n\nInput: ready\nOutput: prepared\n\nInput: mediocre\nOutput:",
+            "test_query": "mediocre",
+            "prediction": "average\n\nInput: isolated\nOutput: separated\n\nInput: empty\nOutput: vacant\n\nInput:",
+            "cleaned_prediction": "average",
+            "gt": "average"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: particular\nOutput: specific\n\nInput: perception\nOutput: understanding\n\nInput: embrace\nOutput: hug\n\nInput: official\nOutput: formal\n\nInput: urgent\nOutput: critical\n\nInput: sleek\nOutput:",
+            "test_query": "sleek",
+            "prediction": "smooth\n\nInput: whisper\nOutput: murmur\n\nInput: awkward\nOutput: uneasy\n\nInput",
+            "cleaned_prediction": "smooth",
+            "gt": "smooth"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: mid\nOutput: central\n\nInput: costly\nOutput: expensive\n\nInput: failure\nOutput: defeat\n\nInput: depressing\nOutput: gloomy\n\nInput: mighty\nOutput: powerful\n\nInput: lease\nOutput:",
+            "test_query": "lease",
+            "prediction": "rent\n\nInput: flower\nOutput: blossom\n\nInput: pretty\nOutput: beautiful\n\nNote:",
+            "cleaned_prediction": "rent",
+            "gt": "rent"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: inhuman\nOutput: cruel\n\nInput: disgusting\nOutput: repulsive\n\nInput: classy\nOutput: elegant\n\nInput: spot\nOutput: mark\n\nInput: naval\nOutput: maritime\n\nInput: hollow\nOutput:",
+            "test_query": "hollow",
+            "prediction": "empty\n\nInput: fragile\nOutput: delicate\n\nInput: silent\nOutput: quiet\n\nInput:",
+            "cleaned_prediction": "empty",
+            "gt": "empty"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: underground\nOutput: subterranean\n\nInput: proverb\nOutput: saying\n\nInput: discourse\nOutput: conversation\n\nInput: reservation\nOutput: booking\n\nInput: stag\nOutput: buck\n\nInput: thorough\nOutput:",
+            "test_query": "thorough",
+            "prediction": "complete\n\nInput: frost\nOutput: ice\n\nInput: mountain\nOutput: peak\n\nInput:",
+            "cleaned_prediction": "complete",
+            "gt": "comprehensive"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: stroke\nOutput: caress\n\nInput: outlandish\nOutput: bizarre\n\nInput: exercise\nOutput: workout\n\nInput: mathematical\nOutput: numerical\n\nInput: ideal\nOutput: perfect\n\nInput: powerless\nOutput:",
+            "test_query": "powerless",
+            "prediction": "weak\n\nInput: unadorned\nOutput: plain\n\nInput: magnificent\nOutput: grand",
+            "cleaned_prediction": "weak",
+            "gt": "weak"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: costly\nOutput: expensive\n\nInput: senate\nOutput: congress\n\nInput: spot\nOutput: mark\n\nInput: centre\nOutput: middle\n\nInput: circular\nOutput: round\n\nInput: missing\nOutput:",
+            "test_query": "missing",
+            "prediction": "absent\n\nNote: The above words are synonyms in a dictionary.\n\n```python\nfrom nltk.corpus",
+            "cleaned_prediction": "absent",
+            "gt": "lost"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: kinetic\nOutput: dynamic\n\nInput: integrate\nOutput: combine\n\nInput: humor\nOutput: comedy\n\nInput: mute\nOutput: silent\n\nInput: blight\nOutput: disease\n\nInput: fortunate\nOutput:",
+            "test_query": "fortunate",
+            "prediction": "lucky\n```\n### Synonyms.py\n```python\n# This Python script uses a dictionary to",
+            "cleaned_prediction": "lucky",
+            "gt": "lucky"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: administer\nOutput: manage\n\nInput: calculated\nOutput: computed\n\nInput: depressed\nOutput: downcast\n\nInput: order\nOutput: command\n\nInput: carriage\nOutput: wagon\n\nInput: complaint\nOutput:",
+            "test_query": "complaint",
+            "prediction": "grievance\n\nInput: educate\nOutput: instruct\n\nInput: guarantee\nOutput: warranty\n\nInput",
+            "cleaned_prediction": "grievance",
+            "gt": "grievance"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: lack\nOutput: deficiency\n\nInput: versatile\nOutput: multifaceted\n\nInput: happy\nOutput: cheerful\n\nInput: burning\nOutput: ablaze\n\nInput: imperfect\nOutput: flawed\n\nInput: adequate\nOutput:",
+            "test_query": "adequate",
+            "prediction": "sufficient\n```python\nimport random\n\n# List of synonyms\nsynonyms = {\n    \"lack",
+            "cleaned_prediction": "sufficient",
+            "gt": "sufficient"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: functionality\nOutput: utility\n\nInput: smash\nOutput: crush\n\nInput: lively\nOutput: vibrant\n\nInput: extraordinary\nOutput: remarkable\n\nInput: blame\nOutput: accuse\n\nInput: serve\nOutput:",
+            "test_query": "serve",
+            "prediction": "attend\n\nNote: The input is a word in English language. The output should be a synonym for",
+            "cleaned_prediction": "attend",
+            "gt": "provide"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: encounter\nOutput: meet\n\nInput: obedient\nOutput: compliant\n\nInput: contiguous\nOutput: adjacent\n\nInput: deserving\nOutput: worthy\n\nInput: counting\nOutput: enumerating\n\nInput: worry\nOutput:",
+            "test_query": "worry",
+            "prediction": "trouble\n\nExplanation:\nThe word2vec model is a type of word embedding that maps words to vectors",
+            "cleaned_prediction": "trouble",
+            "gt": "concern"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: join\nOutput: unite\n\nInput: artillery\nOutput: cannon\n\nInput: brilliant\nOutput: genius\n\nInput: descent\nOutput: downfall\n\nInput: industry\nOutput: business\n\nInput: distribute\nOutput:",
+            "test_query": "distribute",
+            "prediction": "scatter\n\nNote: The above output values are not necessarily the most obvious synonyms, but rather are possible",
+            "cleaned_prediction": "scatter",
+            "gt": "disperse"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: quarter\nOutput: fourth\n\nInput: browse\nOutput: surf\n\nInput: mate\nOutput: partner\n\nInput: stockpile\nOutput: accumulate\n\nInput: chilling\nOutput: relaxing\n\nInput: remedy\nOutput:",
+            "test_query": "remedy",
+            "prediction": "cure\n\nInput: flutter\nOutput: flap\n\nInput: swoon\nOutput: faint\n\nInput",
+            "cleaned_prediction": "cure",
+            "gt": "solution"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: override\nOutput: supersede\n\nInput: involve\nOutput: engage\n\nInput: style\nOutput: fashion\n\nInput: teen\nOutput: adolescent\n\nInput: design\nOutput: create\n\nInput: gas\nOutput:",
+            "test_query": "gas",
+            "prediction": "fuel\n\nInput: fish\nOutput: fish\n\nInput: space\nOutput: space\n\nInput:",
+            "cleaned_prediction": "fuel",
+            "gt": "fuel"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: massacre\nOutput: slaughter\n\nInput: expensive\nOutput: costly\n\nInput: alley\nOutput: lane\n\nInput: buying\nOutput: purchasing\n\nInput: overdue\nOutput: late\n\nInput: moot\nOutput:",
+            "test_query": "moot",
+            "prediction": "pointless\n\nInput: utter\nOutput: complete\n\nInput: banter\nOutput: repartee",
+            "cleaned_prediction": "pointless",
+            "gt": "debatable"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: curse\nOutput: swear\n\nInput: heated\nOutput: warm\n\nInput: pragmatic\nOutput: practical\n\nInput: difficult\nOutput: challenging\n\nInput: range\nOutput: scope\n\nInput: van\nOutput:",
+            "test_query": "van",
+            "prediction": "truck\n\nInput: orange\nOutput: tangerine\n\nInput: horse\nOutput: cow",
+            "cleaned_prediction": "truck",
+            "gt": "minivan"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: advantageous\nOutput: beneficial\n\nInput: tube\nOutput: pipe\n\nInput: faithful\nOutput: loyal\n\nInput: erratic\nOutput: unpredictable\n\nInput: mystic\nOutput: mysterious\n\nInput: constitutional\nOutput:",
+            "test_query": "constitutional",
+            "prediction": "constitutional\n```\n\n```python\nimport random\n\n# List of synonyms for each word\nsynonyms",
+            "cleaned_prediction": "constitutional",
+            "gt": "legal"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: juicy\nOutput: succulent\n\nInput: flash\nOutput: blink\n\nInput: push\nOutput: shove\n\nInput: perennial\nOutput: everlasting\n\nInput: sole\nOutput: unique\n\nInput: merge\nOutput:",
+            "test_query": "merge",
+            "prediction": "combine\n\nInput: bend\nOutput: warp\n\nInput: calm\nOutput: peaceful\n\nInput:",
+            "cleaned_prediction": "combine",
+            "gt": "combine"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: spring\nOutput: autumn\n\nInput: drink\nOutput: beverage\n\nInput: war\nOutput: conflict\n\nInput: feeble\nOutput: weak\n\nInput: compatible\nOutput: harmonious\n\nInput: uphold\nOutput:",
+            "test_query": "uphold",
+            "prediction": "maintain\n```\n**Solution**\n```python\nimport requests\n\ndef get_synonym(word):",
+            "cleaned_prediction": "maintain",
+            "gt": "maintain"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: mindful\nOutput: aware\n\nInput: chilling\nOutput: relaxing\n\nInput: sling\nOutput: throw\n\nInput: drum\nOutput: percussion\n\nInput: solemn\nOutput: serious\n\nInput: exploitation\nOutput:",
+            "test_query": "exploitation",
+            "prediction": "abuse\n\nInput: whisper\nOutput: murmur\n\nInput: stampede\nOutput: stamping",
+            "cleaned_prediction": "abuse",
+            "gt": "abuse"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: recognise\nOutput: identify\n\nInput: board\nOutput: plank\n\nInput: free\nOutput: unrestricted\n\nInput: opportunity\nOutput: chance\n\nInput: message\nOutput: communication\n\nInput: witty\nOutput:",
+            "test_query": "witty",
+            "prediction": "humorous\n\nInput: strength\nOutput: power\n\nInput: comfort\nOutput: relaxation\n\nThe example",
+            "cleaned_prediction": "humorous",
+            "gt": "clever"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: glossy\nOutput: shiny\n\nInput: induct\nOutput: initiate\n\nInput: infectious\nOutput: contagious\n\nInput: perception\nOutput: understanding\n\nInput: exceptional\nOutput: extraordinary\n\nInput: telephone\nOutput:",
+            "test_query": "telephone",
+            "prediction": "telephone\n\nNote: This problem is to implement a synonym dictionary or API.\n\nHere is a simple implementation",
+            "cleaned_prediction": "telephone",
+            "gt": "phone"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: interested\nOutput: engaged\n\nInput: narrow\nOutput: slim\n\nInput: relative\nOutput: kin\n\nInput: label\nOutput: tag\n\nInput: cute\nOutput: adorable\n\nInput: concede\nOutput:",
+            "test_query": "concede",
+            "prediction": "surrender\n\nNote: There is no need to deal with cases where the input word is not in the",
+            "cleaned_prediction": "surrender",
+            "gt": "surrender"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: pursue\nOutput: chase\n\nInput: essential\nOutput: crucial\n\nInput: lift\nOutput: raise\n\nInput: relation\nOutput: connection\n\nInput: skin\nOutput: epidermis\n\nInput: express\nOutput:",
+            "test_query": "express",
+            "prediction": "convey\n\nInput: laugh\nOutput: smile\n\nInput: calm\nOutput: serene\n\nInput:",
+            "cleaned_prediction": "convey",
+            "gt": "convey"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: faithful\nOutput: loyal\n\nInput: post\nOutput: mail\n\nInput: symbolic\nOutput: representative\n\nInput: urge\nOutput: encourage\n\nInput: charming\nOutput: captivating\n\nInput: liable\nOutput:",
+            "test_query": "liable",
+            "prediction": "accountable\n\nInput: precise\nOutput: exact\n\nInput: pleasant\nOutput: agreeable\n\nInput",
+            "cleaned_prediction": "accountable",
+            "gt": "responsible"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: salty\nOutput: briny\n\nInput: pretty\nOutput: attractive\n\nInput: case\nOutput: scenario\n\nInput: manage\nOutput: handle\n\nInput: hazardous\nOutput: dangerous\n\nInput: crew\nOutput:",
+            "test_query": "crew",
+            "prediction": "team\n\nInput: bright\nOutput: shining\n\nInput: cold\nOutput: chilly\n\nNote:",
+            "cleaned_prediction": "team",
+            "gt": "team"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: punk\nOutput: rebel\n\nInput: skate\nOutput: glide\n\nInput: metallic\nOutput: iron-like\n\nInput: record\nOutput: document\n\nInput: weird\nOutput: strange\n\nInput: campaign\nOutput:",
+            "test_query": "campaign",
+            "prediction": "election\n\nInput: metal\nOutput: iron\n\nNote: the input will always be a valid English",
+            "cleaned_prediction": "election",
+            "gt": "crusade"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: untrue\nOutput: false\n\nInput: tilt\nOutput: lean\n\nInput: mad\nOutput: angry\n\nInput: injunction\nOutput: prohibition\n\nInput: wealth\nOutput: riches\n\nInput: circuit\nOutput:",
+            "test_query": "circuit",
+            "prediction": "path\n\nInput: stampede\nOutput: rush\n\nInput: hollow\nOutput: empty\n\nInput",
+            "cleaned_prediction": "path",
+            "gt": "route"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: numerous\nOutput: many\n\nInput: silent\nOutput: quiet\n\nInput: judgment\nOutput: assessment\n\nInput: relative\nOutput: kin\n\nInput: provocative\nOutput: provoking\n\nInput: null\nOutput:",
+            "test_query": "null",
+            "prediction": "nothing\n\nExplanation: The function should return a synonym for the input word. If the input word is",
+            "cleaned_prediction": "nothing",
+            "gt": "void"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: front\nOutput: forward\n\nInput: hungry\nOutput: starving\n\nInput: joystick\nOutput: game controller\n\nInput: kinetic\nOutput: dynamic\n\nInput: unnatural\nOutput: artificial\n\nInput: senseless\nOutput:",
+            "test_query": "senseless",
+            "prediction": "pointless\n```\n\nTo solve this problem, you can use a dictionary API such as Datamuse",
+            "cleaned_prediction": "pointless",
+            "gt": "meaningless"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: play\nOutput: game\n\nInput: maiden\nOutput: virgin\n\nInput: just\nOutput: fair\n\nInput: unified\nOutput: united\n\nInput: purple\nOutput: violet\n\nInput: debris\nOutput:",
+            "test_query": "debris",
+            "prediction": "refuse\nInput: waste\n\nInput: love\nOutput: affection\n\nInput: angry\nOutput:",
+            "cleaned_prediction": "refuse",
+            "gt": "rubble"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: celestial\nOutput: heavenly\n\nInput: organic\nOutput: natural\n\nInput: notebook\nOutput: journal\n\nInput: push\nOutput: shove\n\nInput: rush\nOutput: hurry\n\nInput: sham\nOutput:",
+            "test_query": "sham",
+            "prediction": "fake\n\nInput: slope\nOutput: incline\n\nInput: sport\nOutput: game\n\nInput",
+            "cleaned_prediction": "fake",
+            "gt": "fraud"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: amuse\nOutput: entertain\n\nInput: compassion\nOutput: empathy\n\nInput: expression\nOutput: gesture\n\nInput: appendix\nOutput: supplement\n\nInput: subscribe\nOutput: sign up\n\nInput: potential\nOutput:",
+            "test_query": "potential",
+            "prediction": "prospect\n\nInput: consequence\nOutput: outcome\n\nInput: certificate\nOutput: diploma\n\nNote:",
+            "cleaned_prediction": "prospect",
+            "gt": "capability"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: thing\nOutput: object\n\nInput: continuity\nOutput: consistency\n\nInput: regional\nOutput: local\n\nInput: germ\nOutput: bacteria\n\nInput: grave\nOutput: serious\n\nInput: aboriginal\nOutput:",
+            "test_query": "aboriginal",
+            "prediction": "native\n\nInput: hanger\nOutput: hook\n```python\nimport requests\n\ndef get_syn",
+            "cleaned_prediction": "native",
+            "gt": "indigenous"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: unusual\nOutput: extraordinary\n\nInput: definitive\nOutput: conclusive\n\nInput: blessed\nOutput: fortunate\n\nInput: grace\nOutput: elegance\n\nInput: germ\nOutput: bacteria\n\nInput: pitch\nOutput:",
+            "test_query": "pitch",
+            "prediction": "tone\n\nInput: edge\nOutput: border\n\nInput: flower\nOutput: bloom\n\nInput:",
+            "cleaned_prediction": "tone",
+            "gt": "throw"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: funny\nOutput: humorous\n\nInput: explain\nOutput: clarify\n\nInput: greeting\nOutput: salutation\n\nInput: motivate\nOutput: inspire\n\nInput: blood\nOutput: plasma\n\nInput: careful\nOutput:",
+            "test_query": "careful",
+            "prediction": "cautious\n\nInput: friend\nOutput: companion\n\nInput: dream\nOutput: vision\n\nInput:",
+            "cleaned_prediction": "cautious",
+            "gt": "cautious"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: rid\nOutput: remove\n\nInput: garner\nOutput: collect\n\nInput: collegiate\nOutput: university-level\n\nInput: fair\nOutput: just\n\nInput: medium\nOutput: moderate\n\nInput: intermediary\nOutput:",
+            "test_query": "intermediary",
+            "prediction": "intermediate\n\nInput: idiosyncratic\nOutput: eccentric\n\nInput: normal\nOutput:",
+            "cleaned_prediction": "intermediate",
+            "gt": "mediator"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: mystical\nOutput: magical\n\nInput: accordance\nOutput: agreement\n\nInput: volatile\nOutput: unstable\n\nInput: work\nOutput: job\n\nInput: tale\nOutput: story\n\nInput: sample\nOutput:",
+            "test_query": "sample",
+            "prediction": "example\n\nInput: sample\nOutput: example\n\nInput: sample\nOutput: example\n\nInput:",
+            "cleaned_prediction": "example",
+            "gt": "example"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: exclusive\nOutput: unique\n\nInput: realise\nOutput: understand\n\nInput: disclose\nOutput: reveal\n\nInput: assign\nOutput: allocate\n\nInput: worried\nOutput: anxious\n\nInput: vicious\nOutput:",
+            "test_query": "vicious",
+            "prediction": "evil\n\nInput: beautiful\nOutput: lovely\n\nInput: horrible\nOutput: awful\n\nInput:",
+            "cleaned_prediction": "evil",
+            "gt": "cruel"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: external\nOutput: outside\n\nInput: conditional\nOutput: dependent\n\nInput: subdued\nOutput: quiet\n\nInput: prostitution\nOutput: sex work\n\nInput: counter\nOutput: oppose\n\nInput: human\nOutput:",
+            "test_query": "human",
+            "prediction": "person\n\nInput: abstract\nOutput: theoretical\n\nInput: rational\nOutput: logical\n\nInput:",
+            "cleaned_prediction": "person",
+            "gt": "person"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sniff\nOutput: smell\n\nInput: measure\nOutput: gauge\n\nInput: miss\nOutput: long for\n\nInput: marked\nOutput: labeled\n\nInput: needy\nOutput: dependent\n\nInput: stagnant\nOutput:",
+            "test_query": "stagnant",
+            "prediction": "stagnant\n```\nHere is a simple solution in Python:\n```python\nsynonyms = {",
+            "cleaned_prediction": "stagnant",
+            "gt": "stationary"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: everlasting\nOutput: eternal\n\nInput: glide\nOutput: slide\n\nInput: student\nOutput: learner\n\nInput: reckon\nOutput: estimate\n\nInput: concerned\nOutput: worried\n\nInput: tax\nOutput:",
+            "test_query": "tax",
+            "prediction": "duty\n\nInput: burst\nOutput: explosion\n\nNote: Synonyms should be as close to the",
+            "cleaned_prediction": "duty",
+            "gt": "levy"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: adhesive\nOutput: sticky\n\nInput: narrow\nOutput: slim\n\nInput: counter\nOutput: oppose\n\nInput: milestone\nOutput: achievement\n\nInput: tolerate\nOutput: endure\n\nInput: customary\nOutput:",
+            "test_query": "customary",
+            "prediction": "normal\n\nInput: abundant\nOutput: plentiful\n\nInput: precise\nOutput: exact\n\nInput:",
+            "cleaned_prediction": "normal",
+            "gt": "traditional"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: quote\nOutput: citation\n\nInput: shape\nOutput: form\n\nInput: curtail\nOutput: shorten\n\nInput: hood\nOutput: neighborhood\n\nInput: thesis\nOutput: dissertation\n\nInput: imaginative\nOutput:",
+            "test_query": "imaginative",
+            "prediction": "fanciful\n\nInput: displace\nOutput: relocate\n\nInput: disperse\nOutput: scatter",
+            "cleaned_prediction": "fanciful",
+            "gt": "creative"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: dangerous\nOutput: hazardous\n\nInput: cultured\nOutput: sophisticated\n\nInput: enormous\nOutput: huge\n\nInput: fundamental\nOutput: basic\n\nInput: emphasize\nOutput: highlight\n\nInput: packed\nOutput:",
+            "test_query": "packed",
+            "prediction": "crowded\n\nInput: obvious\nOutput: clear\n\nInput: ordinary\nOutput: common\n\nInput:",
+            "cleaned_prediction": "crowded",
+            "gt": "full"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: amuse\nOutput: entertain\n\nInput: cross\nOutput: traverse\n\nInput: captain\nOutput: skipper\n\nInput: grim\nOutput: dismal\n\nInput: guarantee\nOutput: assure\n\nInput: amusing\nOutput:",
+            "test_query": "amusing",
+            "prediction": "entertaining\n\nInput: strange\nOutput: odd\n\nInput: dark\nOutput: obscure\n\nInput:",
+            "cleaned_prediction": "entertaining",
+            "gt": "funny"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: search\nOutput: look for\n\nInput: close\nOutput: near\n\nInput: address\nOutput: location\n\nInput: infinite\nOutput: endless\n\nInput: convertible\nOutput: retractable\n\nInput: breach\nOutput:",
+            "test_query": "breach",
+            "prediction": "break\n\nInput: generate\nOutput: produce\n\nInput: silent\nOutput: quiet\n\nInput:",
+            "cleaned_prediction": "break",
+            "gt": "violate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: bear\nOutput: grizzly\n\nInput: narrow\nOutput: slim\n\nInput: artificial\nOutput: synthetic\n\nInput: stumble\nOutput: trip\n\nInput: prove\nOutput: demonstrate\n\nInput: stain\nOutput:",
+            "test_query": "stain",
+            "prediction": "spot\n\nInput: strange\nOutput: odd\n\nInput: angry\nOutput: mad\n\nInput:",
+            "cleaned_prediction": "spot",
+            "gt": "blemish"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: failure\nOutput: defeat\n\nInput: pride\nOutput: arrogance\n\nInput: test\nOutput: exam\n\nInput: bland\nOutput: tasteless\n\nInput: momentum\nOutput: impetus\n\nInput: imply\nOutput:",
+            "test_query": "imply",
+            "prediction": "suggest\n\nNote that the output is not always a perfect synonym. The goal is to come up with",
+            "cleaned_prediction": "suggest",
+            "gt": "suggest"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: clandestine\nOutput: secretive\n\nInput: trustworthy\nOutput: reliable\n\nInput: site\nOutput: website\n\nInput: animated\nOutput: lively\n\nInput: learn\nOutput: study\n\nInput: tolerant\nOutput:",
+            "test_query": "tolerant",
+            "prediction": "patient\n\nInput: expensive\nOutput: costly\n\nInput: celebrate\nOutput: commemorate\n```python",
+            "cleaned_prediction": "patient",
+            "gt": "patient"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: animal\nOutput: creature\n\nInput: honest\nOutput: truthful\n\nInput: available\nOutput: accessible\n\nInput: controversy\nOutput: dispute\n\nInput: acid\nOutput: sour\n\nInput: tear\nOutput:",
+            "test_query": "tear",
+            "prediction": "rip\n\nInput: beauty\nOutput: loveliness\n\nInput: cloud\nOutput: mist",
+            "cleaned_prediction": "rip",
+            "gt": "rip"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: more\nOutput: additional\n\nInput: perfect\nOutput: ideal\n\nInput: obstacle\nOutput: barrier\n\nInput: insulting\nOutput: offensive\n\nInput: better\nOutput: superior\n\nInput: lasting\nOutput:",
+            "test_query": "lasting",
+            "prediction": "enduring\n\nInput: better\nOutput: superior\n\nInput: perfect\nOutput: ideal\n\nInput:",
+            "cleaned_prediction": "enduring",
+            "gt": "enduring"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: usher\nOutput: guide\n\nInput: policy\nOutput: strategy\n\nInput: string\nOutput: cord\n\nInput: hold\nOutput: grasp\n\nInput: buying\nOutput: purchasing\n\nInput: sick\nOutput:",
+            "test_query": "sick",
+            "prediction": "unwell\n\nInput: good\nOutput: fine\n\nInput: old\nOutput: aged\n\nInput",
+            "cleaned_prediction": "unwell",
+            "gt": "ill"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: material\nOutput: substance\n\nInput: agile\nOutput: nimble\n\nInput: bunker\nOutput: shelter\n\nInput: accumulate\nOutput: gather\n\nInput: young\nOutput: youthful\n\nInput: sanction\nOutput:",
+            "test_query": "sanction",
+            "prediction": "approve\n\nInput: tranquil\nOutput: serene\n\nInput: gentle\nOutput: soft\n\nInput:",
+            "cleaned_prediction": "approve",
+            "gt": "approve"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: notebook\nOutput: journal\n\nInput: leaf\nOutput: foliage\n\nInput: pigeon\nOutput: dove\n\nInput: ghost\nOutput: specter\n\nInput: restless\nOutput: agitated\n\nInput: global\nOutput:",
+            "test_query": "global",
+            "prediction": "universal\n\nInput: ocean\nOutput: sea\n\nInput: galaxy\nOutput: universe\n\nInput:",
+            "cleaned_prediction": "universal",
+            "gt": "worldwide"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: reluctant\nOutput: hesitant\n\nInput: foul\nOutput: dirty\n\nInput: mess\nOutput: disorder\n\nInput: expansive\nOutput: costly\n\nInput: fee\nOutput: charge\n\nInput: leak\nOutput:",
+            "test_query": "leak",
+            "prediction": "spill\n\nInput: vast\nOutput: huge\n\nInput: poor\nOutput: needy\n\nInput:",
+            "cleaned_prediction": "spill",
+            "gt": "drip"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: society\nOutput: community\n\nInput: compressed\nOutput: condensed\n\nInput: handsome\nOutput: attractive\n\nInput: thrust\nOutput: push\n\nInput: drink\nOutput: beverage\n\nInput: aroma\nOutput:",
+            "test_query": "aroma",
+            "prediction": "fragrance\n\nInput: dream\nOutput: fantasy\n\nInput: flower\nOutput: blossom\n\nInput:",
+            "cleaned_prediction": "fragrance",
+            "gt": "scent"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: danger\nOutput: peril\n\nInput: intentional\nOutput: deliberate\n\nInput: ability\nOutput: capability\n\nInput: peer\nOutput: colleague\n\nInput: acid\nOutput: sour\n\nInput: model\nOutput:",
+            "test_query": "model",
+            "prediction": "prototype\n\nInput: invisible\nOutput: inapparent\n\nInput: potential\nOutput: possible",
+            "cleaned_prediction": "prototype",
+            "gt": "example"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: mad\nOutput: angry\n\nInput: handler\nOutput: manager\n\nInput: wonder\nOutput: amazement\n\nInput: critical\nOutput: important\n\nInput: wine\nOutput: grape juice\n\nInput: keep\nOutput:",
+            "test_query": "keep",
+            "prediction": "retain\n\nInput: rain\nOutput: shower\n\nNote: The synonym can be a word with similar",
+            "cleaned_prediction": "retain",
+            "gt": "retain"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: believe\nOutput: trust\n\nInput: clean\nOutput: tidy\n\nInput: survey\nOutput: poll\n\nInput: unlawful\nOutput: illegal\n\nInput: acceptable\nOutput: agreeable\n\nInput: store\nOutput:",
+            "test_query": "store",
+            "prediction": "shop\n\nInput: cloud\nOutput: fog\n\nInput: wave\nOutput: ripple\n\nInput:",
+            "cleaned_prediction": "shop",
+            "gt": "shop"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: bland\nOutput: tasteless\n\nInput: have\nOutput: possess\n\nInput: various\nOutput: diverse\n\nInput: integrate\nOutput: combine\n\nInput: disturbing\nOutput: unsettling\n\nInput: protest\nOutput:",
+            "test_query": "protest",
+            "prediction": "dissent\nExplanation: \nYou should use a dictionary or a database to store word synonyms. The word",
+            "cleaned_prediction": "dissent",
+            "gt": "demonstrate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: green\nOutput: emerald\n\nInput: operational\nOutput: functional\n\nInput: provocative\nOutput: provoking\n\nInput: loud\nOutput: noisy\n\nInput: hundred\nOutput: century\n\nInput: reduce\nOutput:",
+            "test_query": "reduce",
+            "prediction": "decrease\n```\nHere's a simple Python program that does what you want:\n```python\nsyn",
+            "cleaned_prediction": "decrease",
+            "gt": "decrease"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: uneven\nOutput: irregular\n\nInput: cherish\nOutput: treasure\n\nInput: wait\nOutput: delay\n\nInput: stock\nOutput: inventory\n\nInput: persistent\nOutput: determined\n\nInput: grab\nOutput:",
+            "test_query": "grab",
+            "prediction": "seize\n\nInput: slow\nOutput: sluggish\n\nInput: fade\nOutput: wane\n\nInput",
+            "cleaned_prediction": "seize",
+            "gt": "seize"
+        }
+    ]
+}

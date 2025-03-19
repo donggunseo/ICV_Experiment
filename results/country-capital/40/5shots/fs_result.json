@@ -1,0 +1,140 @@
+{
+    "score": {
+        "exact_match": 0.9473684210526315
+    },
+    "result": [
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Qatar\nOutput: Doha\n\nInput: Ukraine\nOutput: Kiev\n\nInput: Sri Lanka\nOutput: Colombo\n\nInput: Azerbaijan\nOutput: Baku\n\nInput: Indonesia\nOutput: Jakarta\n\nInput: Finland\nOutput:",
+            "test_query": "Finland",
+            "prediction": "Helsinki\n\nInput: China\nOutput: Beijing\n\nInput: Argentina\nOutput: Buenos Aires\n\nInput",
+            "cleaned_prediction": "Helsinki",
+            "gt": "Helsinki"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Kosovo\nOutput: Pristina\n\nInput: Georgia\nOutput: Tbilisi\n\nInput: Congo\nOutput: Kinshasa\n\nInput: Mauritius\nOutput: Port Louis\n\nInput: Kazakhstan\nOutput: Astana\n\nInput: Tonga\nOutput:",
+            "test_query": "Tonga",
+            "prediction": "Nuku'alofa\n\nInput: United Kingdom\nOutput: London\n\nInput: Chile\nOutput",
+            "cleaned_prediction": "Nuku'alofa",
+            "gt": "Nuku\u02bbalofa"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Papua New Guinea\nOutput: Port Moresby\n\nInput: Austria\nOutput: Vienna\n\nInput: Suriname\nOutput: Paramaribo\n\nInput: Costa Rica\nOutput: San Jos\u00e9\n\nInput: Benin\nOutput: Porto-Novo\n\nInput: Paraguay\nOutput:",
+            "test_query": "Paraguay",
+            "prediction": "Asunci\u00f3n\n\nInput: Japan\nOutput: Tokyo\n\nInput: France\nOutput: Paris",
+            "cleaned_prediction": "Asunci\u00f3n",
+            "gt": "Asunci\u00f3n"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Gambia\nOutput: Banjul\n\nInput: Yemen\nOutput: Sana'a\n\nInput: Qatar\nOutput: Doha\n\nInput: Belarus\nOutput: Minsk\n\nInput: Eritrea\nOutput: Asmara\n\nInput: Zambia\nOutput:",
+            "test_query": "Zambia",
+            "prediction": "Lusaka\n\nInput: Uruguay\nOutput: Montevideo\n\nInput: Cyprus\nOutput:",
+            "cleaned_prediction": "Lusaka",
+            "gt": "Lusaka"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Vanuatu\nOutput: Port Vila\n\nInput: Liechtenstein\nOutput: Vaduz\n\nInput: Chile\nOutput: Santiago\n\nInput: Iraq\nOutput: Baghdad\n\nInput: Malawi\nOutput: Lilongwe\n\nInput: Zimbabwe\nOutput:",
+            "test_query": "Zimbabwe",
+            "prediction": "Harare\n\nInput: Bahamas\nOutput: Nassau\n\nInput: Luxembourg\nOutput: Luxembourg City",
+            "cleaned_prediction": "Harare",
+            "gt": "Harare"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Cyprus\nOutput: Nicosia\n\nInput: South Africa\nOutput: Pretoria\n\nInput: Spain\nOutput: Madrid\n\nInput: Cabo Verde\nOutput: Praia\n\nInput: Nigeria\nOutput: Abuja\n\nInput: Thailand\nOutput:",
+            "test_query": "Thailand",
+            "prediction": "Bangkok\n\nInput: Poland\nOutput: Warsaw\n\nInput: Singapore\nOutput: Singapore\n\nInput:",
+            "cleaned_prediction": "Bangkok",
+            "gt": "Bangkok"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Barbados\nOutput: Bridgetown\n\nInput: Liechtenstein\nOutput: Vaduz\n\nInput: Maldives\nOutput: Mal\u00e9\n\nInput: Guinea-Bissau\nOutput: Bissau\n\nInput: Dominica\nOutput: Roseau\n\nInput: Antigua and Barbuda\nOutput:",
+            "test_query": "Antigua and Barbuda",
+            "prediction": "St. John's\n\nInput: Bahamas\nOutput: Nassau\n\nInput: Andorra\nOutput",
+            "cleaned_prediction": "St. John's",
+            "gt": "St. John's"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Libya\nOutput: Tripoli\n\nInput: Ecuador\nOutput: Quito\n\nInput: Spain\nOutput: Madrid\n\nInput: Laos\nOutput: Vientiane\n\nInput: Romania\nOutput: Bucharest\n\nInput: North Macedonia\nOutput:",
+            "test_query": "North Macedonia",
+            "prediction": "Skopje\n```\n### Capital Cities\n\nBelow is a Python solution that utilizes a dictionary to",
+            "cleaned_prediction": "Skopje",
+            "gt": "Skopje"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Dominican Republic\nOutput: Santo Domingo\n\nInput: United Kingdom\nOutput: London\n\nInput: Germany\nOutput: Berlin\n\nInput: Senegal\nOutput: Dakar\n\nInput: Palestine\nOutput: Ramallah\n\nInput: Belgium\nOutput:",
+            "test_query": "Belgium",
+            "prediction": "Brussels\n\nInput: United States\nOutput: Washington D.C.\n\nInput: Peru\nOutput: Lima",
+            "cleaned_prediction": "Brussels",
+            "gt": "Brussels"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: South Korea\nOutput: Seoul\n\nInput: Bhutan\nOutput: Thimphu\n\nInput: El Salvador\nOutput: San Salvador\n\nInput: United Arab Emirates\nOutput: Abu Dhabi\n\nInput: Georgia\nOutput: Tbilisi\n\nInput: Ethiopia\nOutput:",
+            "test_query": "Ethiopia",
+            "prediction": "Addis Ababa\n\nInput: Singapore\nOutput: Singapore\n\nInput: Djibouti",
+            "cleaned_prediction": "Addis Ababa",
+            "gt": "Addis Ababa"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Vatican City\nOutput: Vatican City\n\nInput: United Arab Emirates\nOutput: Abu Dhabi\n\nInput: Algeria\nOutput: Algiers\n\nInput: Bulgaria\nOutput: Sofia\n\nInput: Russia\nOutput: Moscow\n\nInput: Czech Republic\nOutput:",
+            "test_query": "Czech Republic",
+            "prediction": "Prague\n\nInput: Canada\nOutput: Ottawa\n\nInput: China\nOutput: Beijing\n\nInput:",
+            "cleaned_prediction": "Prague",
+            "gt": "Prague"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Venezuela\nOutput: Caracas\n\nInput: Lesotho\nOutput: Maseru\n\nInput: Chad\nOutput: N'Djamena\n\nInput: Fiji\nOutput: Suva\n\nInput: Iceland\nOutput: Reykjavik\n\nInput: Somalia\nOutput:",
+            "test_query": "Somalia",
+            "prediction": "Mogadishu\n\nInput: Papua New Guinea\nOutput: Port Moresby\n\nInput:",
+            "cleaned_prediction": "Mogadishu",
+            "gt": "Mogadishu"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Romania\nOutput: Bucharest\n\nInput: Portugal\nOutput: Lisbon\n\nInput: Cambodia\nOutput: Phnom Penh\n\nInput: Saint Kitts and Nevis\nOutput: Basseterre\n\nInput: Malaysia\nOutput: Kuala Lumpur\n\nInput: Armenia\nOutput:",
+            "test_query": "Armenia",
+            "prediction": "Yerevan\nInput: Azerbaijan\nOutput: Baku\nInput: Belarus\nOutput: M",
+            "cleaned_prediction": "Yerevan",
+            "gt": "Yerevan"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Portugal\nOutput: Lisbon\n\nInput: Kosovo\nOutput: Pristina\n\nInput: Sweden\nOutput: Stockholm\n\nInput: Tuvalu\nOutput: Funafuti\n\nInput: Iran\nOutput: Tehran\n\nInput: Sudan\nOutput:",
+            "test_query": "Sudan",
+            "prediction": "Khartoum\n\nInput: Sri Lanka\nOutput: Sri Jayawardenepura Kotte",
+            "cleaned_prediction": "Khartoum",
+            "gt": "Khartoum"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Bolivia\nOutput: La Paz\n\nInput: Bahamas\nOutput: Nassau\n\nInput: Djibouti\nOutput: Djibouti City\n\nInput: Vatican City\nOutput: Vatican City\n\nInput: Namibia\nOutput: Windhoek\n\nInput: Turkey\nOutput:",
+            "test_query": "Turkey",
+            "prediction": "Ankara\n\nInput: Nauru\nOutput: Yaren\n\nInput: Australia\nOutput: Canberra",
+            "cleaned_prediction": "Ankara",
+            "gt": "Ankara"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Eswatini\nOutput: Mbabane\n\nInput: Philippines\nOutput: Manila\n\nInput: Central African Republic\nOutput: Bangui\n\nInput: Norway\nOutput: Oslo\n\nInput: Fiji\nOutput: Suva\n\nInput: Haiti\nOutput:",
+            "test_query": "Haiti",
+            "prediction": "Port-au-Prince\n\nInput: Egypt\nOutput: Cairo\n\nInput: Peru\nOutput: Lima",
+            "cleaned_prediction": "Port-au-Prince",
+            "gt": "Port-au-Prince"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: United Kingdom\nOutput: London\n\nInput: Angola\nOutput: Luanda\n\nInput: Oman\nOutput: Muscat\n\nInput: Saint Vincent and the Grenadines\nOutput: Kingstown\n\nInput: South Korea\nOutput: Seoul\n\nInput: Samoa\nOutput:",
+            "test_query": "Samoa",
+            "prediction": "Apia\n```\n### Capital Cities\n\nThis solution utilizes a dictionary to store country names as keys",
+            "cleaned_prediction": "Apia",
+            "gt": "Apia"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Iceland\nOutput: Reykjavik\n\nInput: Grenada\nOutput: St. George's\n\nInput: Papua New Guinea\nOutput: Port Moresby\n\nInput: France\nOutput: Paris\n\nInput: El Salvador\nOutput: San Salvador\n\nInput: Jamaica\nOutput:",
+            "test_query": "Jamaica",
+            "prediction": "Kingston\n\nInput: Croatia\nOutput: Zagreb\n\nInput: South Korea\nOutput: Seoul",
+            "cleaned_prediction": "Kingston",
+            "gt": "Kingston"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Dominican Republic\nOutput: Santo Domingo\n\nInput: Liberia\nOutput: Monrovia\n\nInput: Iraq\nOutput: Baghdad\n\nInput: Burkina Faso\nOutput: Ouagadougou\n\nInput: Equatorial Guinea\nOutput: Malabo\n\nInput: Taiwan\nOutput:",
+            "test_query": "Taiwan",
+            "prediction": "Taipei\n\nInput: Kiribati\nOutput: Tarawa\n\nInput: Qatar\nOutput: D",
+            "cleaned_prediction": "Taipei",
+            "gt": "Taipei"
+        }
+    ]
+}

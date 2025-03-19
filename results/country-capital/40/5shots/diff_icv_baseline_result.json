@@ -1,0 +1,175 @@
+{
+    "score": {
+        "exact_match": 0.9473684210526315
+    },
+    "intervention_layer": 10,
+    "result": [
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Finland\nOutput:",
+            "test_query": "Finland",
+            "prediction": "Helsinki\n\nInput: Japan\nOutput: Tokyo\n\nInput: Brazil\nOutput: Bras\u00edlia\n\nInput:",
+            "cleaned_prediction": "Helsinki",
+            "gt": "Helsinki"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Tonga\nOutput:",
+            "test_query": "Tonga",
+            "prediction": "Nuku'alofa\n\nInput: Peru\nOutput: Lima\n\nInput: Japan\nOutput: Tokyo",
+            "cleaned_prediction": "Nuku'alofa",
+            "gt": "Nuku\u02bbalofa"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Paraguay\nOutput:",
+            "test_query": "Paraguay",
+            "prediction": "Asunci\u00f3n\nInput: Germany\nOutput: Berlin\nInput: China\nOutput: Beijing\n\nHere",
+            "cleaned_prediction": "Asunci\u00f3n",
+            "gt": "Asunci\u00f3n"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Zambia\nOutput:",
+            "test_query": "Zambia",
+            "prediction": "Lusaka\nInput: Japan\nOutput: Tokyo\nInput: USA\nOutput: Washington\nInput",
+            "cleaned_prediction": "Lusaka",
+            "gt": "Lusaka"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Zimbabwe\nOutput:",
+            "test_query": "Zimbabwe",
+            "prediction": "Harare\nInput: Egypt\nOutput: Cairo\nInput: Japan\nOutput: Tokyo\nInput:",
+            "cleaned_prediction": "Harare",
+            "gt": "Harare"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Thailand\nOutput:",
+            "test_query": "Thailand",
+            "prediction": "Bangkok\nInput: France\nOutput: Paris\nInput: Germany\nOutput: Berlin\nInput: Russia",
+            "cleaned_prediction": "Bangkok",
+            "gt": "Bangkok"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Antigua and Barbuda\nOutput:",
+            "test_query": "Antigua and Barbuda",
+            "prediction": "St. John's\n\nInput: France\nOutput: Paris\n\nInput: India\nOutput: New Delhi",
+            "cleaned_prediction": "St. John's",
+            "gt": "St. John's"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: North Macedonia\nOutput:",
+            "test_query": "North Macedonia",
+            "prediction": "Skopje\nInput: France\nOutput: Paris\nInput: United States\nOutput: Washington,",
+            "cleaned_prediction": "Skopje",
+            "gt": "Skopje"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Belgium\nOutput:",
+            "test_query": "Belgium",
+            "prediction": "Brussels\nInput: Australia\nOutput: Canberra\nInput: Germany\nOutput: Berlin\nInput: China",
+            "cleaned_prediction": "Brussels",
+            "gt": "Brussels"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Ethiopia\nOutput:",
+            "test_query": "Ethiopia",
+            "prediction": "Addis Ababa\n\nInput: Japan\nOutput: Tokyo\n\nInput: France\nOutput: Paris",
+            "cleaned_prediction": "Addis Ababa",
+            "gt": "Addis Ababa"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Czech Republic\nOutput:",
+            "test_query": "Czech Republic",
+            "prediction": "Prague\n\nInput: Egypt\nOutput: Cairo\n\nInput: United Kingdom\nOutput: London\n\nInput:",
+            "cleaned_prediction": "Prague",
+            "gt": "Prague"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Somalia\nOutput:",
+            "test_query": "Somalia",
+            "prediction": "Mogadishu\nInput: Australia\nOutput: Canberra\nInput: China\nOutput: Beijing",
+            "cleaned_prediction": "Mogadishu",
+            "gt": "Mogadishu"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Armenia\nOutput:",
+            "test_query": "Armenia",
+            "prediction": "Yerevan\n\nInput: Belarus\nOutput: Minsk\n\nInput: Kazakhstan\nOutput: Astana",
+            "cleaned_prediction": "Yerevan",
+            "gt": "Yerevan"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Sudan\nOutput:",
+            "test_query": "Sudan",
+            "prediction": "Khartoum\n\nInput: Germany\nOutput: Berlin\n\nInput: Nepal\nOutput: Kathmand",
+            "cleaned_prediction": "Khartoum",
+            "gt": "Khartoum"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Turkey\nOutput:",
+            "test_query": "Turkey",
+            "prediction": "Ankara\n\nInput: France\nOutput: Paris\n\nInput: Germany\nOutput: Berlin\n\nInput: Italy",
+            "cleaned_prediction": "Ankara",
+            "gt": "Ankara"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Haiti\nOutput:",
+            "test_query": "Haiti",
+            "prediction": "Port-au-Prince\n\nThis function works for the following countries:\n* Albania - Tirana\n* Algeria",
+            "cleaned_prediction": "Port-au-Prince",
+            "gt": "Port-au-Prince"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Samoa\nOutput:",
+            "test_query": "Samoa",
+            "prediction": "Apia\nGiven a name of a country, output the name of the capital city.\nInput: Portugal",
+            "cleaned_prediction": "Apia",
+            "gt": "Apia"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Jamaica\nOutput:",
+            "test_query": "Jamaica",
+            "prediction": "Kingston\n\nInput: France\nOutput: Paris\n\nInput: Argentina\nOutput: Buenos Aires\n\nInput:",
+            "cleaned_prediction": "Kingston",
+            "gt": "Kingston"
+        },
+        {
+            "input_prompt": "Given a name of a country, output the name of the capital city.\nInput: Taiwan\nOutput:",
+            "test_query": "Taiwan",
+            "prediction": "Taipei\n\nInput: Japan\nOutput: Tokyo\n\nInput: Australia\nOutput: Canberra\n\nInput: China",
+            "cleaned_prediction": "Taipei",
+            "gt": "Taipei"
+        }
+    ],
+    "val_f1_per_layer": {
+        "0": 0.7894736842105263,
+        "1": 0.7894736842105263,
+        "2": 0.7894736842105263,
+        "3": 0.7368421052631579,
+        "4": 0.6842105263157895,
+        "5": 0.7368421052631579,
+        "6": 0.8421052631578947,
+        "7": 0.7368421052631579,
+        "8": 0.7894736842105263,
+        "9": 0.8421052631578947,
+        "10": 0.8947368421052632,
+        "11": 0.7894736842105263,
+        "12": 0.8421052631578947,
+        "13": 0.7894736842105263,
+        "14": 0.7894736842105263,
+        "15": 0.8421052631578947,
+        "16": 0.7894736842105263,
+        "17": 0.7894736842105263,
+        "18": 0.7894736842105263,
+        "19": 0.7368421052631579,
+        "20": 0.7894736842105263,
+        "21": 0.7894736842105263,
+        "22": 0.7894736842105263,
+        "23": 0.7894736842105263,
+        "24": 0.8421052631578947,
+        "25": 0.8421052631578947,
+        "26": 0.7894736842105263,
+        "27": 0.8421052631578947,
+        "28": 0.8947368421052632,
+        "29": 0.7894736842105263,
+        "30": 0.8947368421052632,
+        "31": 0.8421052631578947
+    }
+}

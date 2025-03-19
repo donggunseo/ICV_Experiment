@@ -1,0 +1,2023 @@
+{
+    "score": {
+        "exact_match": 0.4236111111111111
+    },
+    "result": [
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: plan\nOutput:",
+            "test_query": "plan",
+            "prediction": "scheme\nInput: apple\nOutput: fruit\nInput: fish\nOutput: seafood\nNote",
+            "cleaned_prediction": "scheme",
+            "gt": "strategy"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: root\nOutput:",
+            "test_query": "root",
+            "prediction": "rooter\n\nExplanation: \"rooter\" is the English word that has the same meaning as \"",
+            "cleaned_prediction": "rooter",
+            "gt": "base"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: universal\nOutput:",
+            "test_query": "universal",
+            "prediction": "general\n\"\"\"\nimport random\nfrom nltk.corpus import wordnet\n\ndef get_synonym(word):",
+            "cleaned_prediction": "general",
+            "gt": "global"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: escort\nOutput:",
+            "test_query": "escort",
+            "prediction": "accompaniment\n\nInput: hello\nOutput: greeting\n\nInput: test\nOutput: evaluation",
+            "cleaned_prediction": "accompaniment",
+            "gt": "accompany"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: abrupt\nOutput:",
+            "test_query": "abrupt",
+            "prediction": "sudden\n\nNote: Synonyms are words that have the same or nearly the same meaning as the original",
+            "cleaned_prediction": "sudden",
+            "gt": "sudden"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: atmospheric\nOutput:",
+            "test_query": "atmospheric",
+            "prediction": "weather\nThe idea is to use WordNet, a lexical database for the English language.\nFirst,",
+            "cleaned_prediction": "weather",
+            "gt": "ambient"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: leap\nOutput:",
+            "test_query": "leap",
+            "prediction": "jump\n\nHere is a simple solution using NLTK library in python:\n```python\nimport nltk",
+            "cleaned_prediction": "jump",
+            "gt": "jump"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: foundational\nOutput:",
+            "test_query": "foundational",
+            "prediction": "fundamental\nExplanation: The given program will return the fundamental word of the English word foundational.\n \nExample",
+            "cleaned_prediction": "fundamental",
+            "gt": "basic"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: diminish\nOutput:",
+            "test_query": "diminish",
+            "prediction": "reduce\n\nExplanation: reduce is a synonym of diminish.\n\nExample: \nInput: \"small\"",
+            "cleaned_prediction": "reduce",
+            "gt": "reduce"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: outspoken\nOutput:",
+            "test_query": "outspoken",
+            "prediction": "frank\nThis problem is not a trivial problem. There are many approaches to solve this problem. However",
+            "cleaned_prediction": "frank",
+            "gt": "forthright"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: specific\nOutput:",
+            "test_query": "specific",
+            "prediction": "particular\n\nNote that this might not be a perfect synonym, but it is a good approximation.\n\nThis",
+            "cleaned_prediction": "particular",
+            "gt": "particular"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: red\nOutput:",
+            "test_query": "red",
+            "prediction": "scarlet\n\nNote: The output should be a synonym of the input word, not just any word",
+            "cleaned_prediction": "scarlet",
+            "gt": "crimson"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: cancel\nOutput:",
+            "test_query": "cancel",
+            "prediction": "cancel, reject, abolish, annul, rescind\n\nGiven a list of words, output a",
+            "cleaned_prediction": "cancel, reject, abolish, annul, rescind",
+            "gt": "terminate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: placement\nOutput:",
+            "test_query": "placement",
+            "prediction": "position\n\nI can solve this task by using a dictionary API. In this example I'll be using",
+            "cleaned_prediction": "position",
+            "gt": "position"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: approval\nOutput:",
+            "test_query": "approval",
+            "prediction": "endorsement\n\nExplanation: The word \"approval\" is a synonym of \"endorsement\".\nNote:",
+            "cleaned_prediction": "endorsement",
+            "gt": "endorsement"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: fund\nOutput:",
+            "test_query": "fund",
+            "prediction": "money\n\nExplanation: \"fund\" and \"money\" are synonyms.\n\nExample 2:\nInput:",
+            "cleaned_prediction": "money",
+            "gt": "finance"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: invasion\nOutput:",
+            "test_query": "invasion",
+            "prediction": "attack\nNote: There are multiple ways to solve this problem. One approach is using a wordnet",
+            "cleaned_prediction": "attack",
+            "gt": "incursion"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: dedication\nOutput:",
+            "test_query": "dedication",
+            "prediction": "commitment\n\nGiven an English word, output an antonym.\nInput: dedication\nOutput: apathy",
+            "cleaned_prediction": "commitment",
+            "gt": "commitment"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: accept\nOutput:",
+            "test_query": "accept",
+            "prediction": "approve\n\nIn Python, you can use the Datamuse API to find synonyms. \n\nHere's",
+            "cleaned_prediction": "approve",
+            "gt": "agree"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: waiter\nOutput:",
+            "test_query": "waiter",
+            "prediction": "server\n\nNote:\n- The word should be in lowercase.\n- The synonyms should be chosen from a",
+            "cleaned_prediction": "server",
+            "gt": "server"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: privilege\nOutput:",
+            "test_query": "privilege",
+            "prediction": "benefit\n\nGiven an English word, output an synonym.\nInput: advantage\nOutput: benefit\n\nGiven",
+            "cleaned_prediction": "benefit",
+            "gt": "advantage"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: machine\nOutput:",
+            "test_query": "machine",
+            "prediction": "equipment\n\nInput: big\nOutput: large\n\nInput: small\nOutput: little\n\nInput:",
+            "cleaned_prediction": "equipment",
+            "gt": "device"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: collected\nOutput:",
+            "test_query": "collected",
+            "prediction": "gathered\n\nIn this problem, we need to find a synonym of a given word. We can use",
+            "cleaned_prediction": "gathered",
+            "gt": "gathered"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: streetcar\nOutput:",
+            "test_query": "streetcar",
+            "prediction": "tram\n\nExplanation: The synonym of streetcar is tram.\n\nNote: Streetcar is a noun and",
+            "cleaned_prediction": "tram",
+            "gt": "tram"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: embody\nOutput:",
+            "test_query": "embody",
+            "prediction": "embody\nInput: house\nOutput: home\n\nIn this case, the program is supposed to output",
+            "cleaned_prediction": "embody",
+            "gt": "represent"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: tick\nOutput:",
+            "test_query": "tick",
+            "prediction": "click\n\nExplanation:\nThe idea here is to find a synonym of the word. A synonym is a",
+            "cleaned_prediction": "click",
+            "gt": "tock"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: land\nOutput:",
+            "test_query": "land",
+            "prediction": "soil\n\nNote: The synonyms are based on a wordnet database.\n```python\nimport nltk",
+            "cleaned_prediction": "soil",
+            "gt": "ground"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: conquer\nOutput:",
+            "test_query": "conquer",
+            "prediction": "Overcome\n```\ndef find_synonym(word):\n    synonym_dict = {\n        \"conquer",
+            "cleaned_prediction": "Overcome",
+            "gt": "overcome"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: incur\nOutput:",
+            "test_query": "incur",
+            "prediction": "suffer\nExplanation: The word \"incur\" has a synonym \"suffer\". Note that \"",
+            "cleaned_prediction": "suffer",
+            "gt": "sustain"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: kit\nOutput:",
+            "test_query": "kit",
+            "prediction": "set\nExplanation: Kit is a synonym of set.\n\nExample 2:\nInput: cats\nOutput",
+            "cleaned_prediction": "set",
+            "gt": "set"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: grant\nOutput:",
+            "test_query": "grant",
+            "prediction": "award\n\nInput: tree\nOutput: bush\n\nInput: computer\nOutput: calculator\n\nNote:",
+            "cleaned_prediction": "award",
+            "gt": "award"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: lowly\nOutput:",
+            "test_query": "lowly",
+            "prediction": "humble\nInput: good\nOutput: excellent\nInput: large\nOutput: gigantic\nInput:",
+            "cleaned_prediction": "humble",
+            "gt": "humble"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: whole\nOutput:",
+            "test_query": "whole",
+            "prediction": "complete\n\nfrom nltk.corpus import wordnet\n\n# Synsets are similar in meaning\ndef get",
+            "cleaned_prediction": "complete",
+            "gt": "complete"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: peculiar\nOutput:",
+            "test_query": "peculiar",
+            "prediction": "strange\nExplanation: strange is a synonym of peculiar.\nExample 2:\nInput: excellent\nOutput",
+            "cleaned_prediction": "strange",
+            "gt": "strange"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: troubled\nOutput:",
+            "test_query": "troubled",
+            "prediction": "worried\n\nI have tried to use the wordnet module in python, but I couldn't figure out",
+            "cleaned_prediction": "worried",
+            "gt": "distressed"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: posting\nOutput:",
+            "test_query": "posting",
+            "prediction": "message\n\nThe code needs to be able to find synonyms for any word inputted. The word will",
+            "cleaned_prediction": "message",
+            "gt": "publishing"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: monarch\nOutput:",
+            "test_query": "monarch",
+            "prediction": "king\n\nIn this task, you have to find a synonym for a given English word. In this",
+            "cleaned_prediction": "king",
+            "gt": "sovereign"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: item\nOutput:",
+            "test_query": "item",
+            "prediction": "article\n\nimport requests\n\ndef get_synonym(word):\n    response = requests.get('https://api",
+            "cleaned_prediction": "article",
+            "gt": "product"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: graphical\nOutput:",
+            "test_query": "graphical",
+            "prediction": "visual\n\nHere is a simple Python solution using WordNet, a lexical database for the English language:",
+            "cleaned_prediction": "visual",
+            "gt": "visual"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: bogus\nOutput:",
+            "test_query": "bogus",
+            "prediction": "fake\n\nHere is an example of how the code could be written using a dictionary of synonyms:\n``",
+            "cleaned_prediction": "fake",
+            "gt": "fake"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: busy\nOutput:",
+            "test_query": "busy",
+            "prediction": "idle\nInput: happy\nOutput: joyful\nInput: sleepy\nOutput: awake\n\nI can",
+            "cleaned_prediction": "idle",
+            "gt": "occupied"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: get\nOutput:",
+            "test_query": "get",
+            "prediction": "obtain\nExplanation: obtain is a synonym for the word get\nConstraints:\n* The word is only",
+            "cleaned_prediction": "obtain",
+            "gt": "obtain"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: detect\nOutput:",
+            "test_query": "detect",
+            "prediction": "perceive\nGiven an English word, output a antonym.\nInput: detect\nOutput: overlook",
+            "cleaned_prediction": "perceive",
+            "gt": "identify"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: counsel\nOutput:",
+            "test_query": "counsel",
+            "prediction": "advice\nExplanation: counsel and advice are synonyms.\nExample 1:\nInput: counsel\nOutput:",
+            "cleaned_prediction": "advice",
+            "gt": "advise"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: disappoint\nOutput:",
+            "test_query": "disappoint",
+            "prediction": "disillusion\nExplanation: disillusion is a synonym of disappoint. We can use WordNet to get the synonyms",
+            "cleaned_prediction": "disillusion",
+            "gt": "dismay"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: trap\nOutput:",
+            "test_query": "trap",
+            "prediction": "snare\n\nHere is my Python function that uses WordNet and NLTK libraries:\n\n```python",
+            "cleaned_prediction": "snare",
+            "gt": "snare"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: lament\nOutput:",
+            "test_query": "lament",
+            "prediction": "mourn\n\nExplanation: The word \"lament\" has many synonyms, but one of the most common is",
+            "cleaned_prediction": "mourn",
+            "gt": "mourn"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: pamphlet\nOutput:",
+            "test_query": "pamphlet",
+            "prediction": "brochure\n\nExplanation: brochure is a synonym of pamphlet.\n\nNote: This problem is a simple synonym",
+            "cleaned_prediction": "brochure",
+            "gt": "brochure"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: construct\nOutput:",
+            "test_query": "construct",
+            "prediction": "build\n\nExplanation: build and construct are synonyms, and \"build\" is a more common word than",
+            "cleaned_prediction": "build",
+            "gt": "build"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: rev\nOutput:",
+            "test_query": "rev",
+            "prediction": "ever\n\nExplanation: The synonym of rev is ever.\n\nExample 2:\nInput: sun\nOutput",
+            "cleaned_prediction": "ever",
+            "gt": "accelerate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: minor\nOutput:",
+            "test_query": "minor",
+            "prediction": "lesser\n\nNote: There may be multiple synonyms for a word, but I only need one. In",
+            "cleaned_prediction": "lesser",
+            "gt": "insignificant"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: coarse\nOutput:",
+            "test_query": "coarse",
+            "prediction": "rough\nOr:\nInput: big\nOutput: large\n\nNote: This problem can be treated as",
+            "cleaned_prediction": "rough",
+            "gt": "rough"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: comfortable\nOutput:",
+            "test_query": "comfortable",
+            "prediction": "cozy\n\nGiven an English word, output an antonym.\nInput: happy\nOutput: sad",
+            "cleaned_prediction": "cozy",
+            "gt": "cozy"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: pay\nOutput:",
+            "test_query": "pay",
+            "prediction": "pay\n\nIn this problem, the task is to find a synonym for the given word. However,",
+            "cleaned_prediction": "pay",
+            "gt": "compensate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: man\nOutput:",
+            "test_query": "man",
+            "prediction": "fellow\nOutput: man -> fellow\n\nimport random\nfrom itertools import permutations\n\ndef find_synonym",
+            "cleaned_prediction": "fellow",
+            "gt": "gentleman"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: succession\nOutput:",
+            "test_query": "succession",
+            "prediction": "sequence\n\nHow does it work?\n- The code looks up each word in a list of words with",
+            "cleaned_prediction": "sequence",
+            "gt": "sequence"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: complex\nOutput:",
+            "test_query": "complex",
+            "prediction": "intricate\n\nIt is not necessary to check the word's existence in the dictionary or any other database.",
+            "cleaned_prediction": "intricate",
+            "gt": "complicated"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: defence\nOutput:",
+            "test_query": "defence",
+            "prediction": "defense\n\nIn the English language, a synonym is a word or phrase that conveys a similar meaning",
+            "cleaned_prediction": "defense",
+            "gt": "protection"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: wicked\nOutput:",
+            "test_query": "wicked",
+            "prediction": "bad\n\nIt seems that the task can be accomplished by using Python with a predefined dictionary.\n\nBelow is",
+            "cleaned_prediction": "bad",
+            "gt": "evil"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: master\nOutput:",
+            "test_query": "master",
+            "prediction": "chief\n\nGiven an English word, output an synonym.\nInput: friend\nOutput: buddy\n\nGiven",
+            "cleaned_prediction": "chief",
+            "gt": "expert"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: anniversary\nOutput:",
+            "test_query": "anniversary",
+            "prediction": "birthday\nIt seems like a simple problem, but it's actually a challenging problem for NLP.",
+            "cleaned_prediction": "birthday",
+            "gt": "celebration"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: wrongful\nOutput:",
+            "test_query": "wrongful",
+            "prediction": "wrong\n\nExplanation: \"wrong\" is a synonym of \"wrongful\". \n\nConstraints:\n\n- The",
+            "cleaned_prediction": "wrong",
+            "gt": "unjust"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: injure\nOutput:",
+            "test_query": "injure",
+            "prediction": "harm\n\"\"\"\nimport random\n\n# Define a list of synonyms\nsynonyms = {\n    \"in",
+            "cleaned_prediction": "harm",
+            "gt": "hurt"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: northwest\nOutput:",
+            "test_query": "northwest",
+            "prediction": "west\n\nNote: The input word can be a single word or a phrase.\n\nThe code needs to",
+            "cleaned_prediction": "west",
+            "gt": "southwest"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: notorious\nOutput:",
+            "test_query": "notorious",
+            "prediction": "infamous\n\nThis function will return the first synonym found. The words are retrieved from the WordNet lexical",
+            "cleaned_prediction": "infamous",
+            "gt": "infamous"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: lonely\nOutput:",
+            "test_query": "lonely",
+            "prediction": "solitary\n\nNote: This is not a full implementation, just a simple example to demonstrate the concept.",
+            "cleaned_prediction": "solitary",
+            "gt": "isolated"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: crystal\nOutput:",
+            "test_query": "crystal",
+            "prediction": "diamond\n\nThis problem is not well-defined. There is no way to determine a synonym for a word",
+            "cleaned_prediction": "diamond",
+            "gt": "gemstone"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: champion\nOutput:",
+            "test_query": "champion",
+            "prediction": "winner\n\nExplanation: \nThe input is \"champion\". A synonym for \"champion\" is",
+            "cleaned_prediction": "winner",
+            "gt": "winner"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: spite\nOutput:",
+            "test_query": "spite",
+            "prediction": "rancour\n\nNote: In this problem, we are not concerned with the accuracy of synonyms,",
+            "cleaned_prediction": "rancour",
+            "gt": "malice"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: concentrate\nOutput:",
+            "test_query": "concentrate",
+            "prediction": "focus\n\nHere is a simple Python script that uses the Datamuse API to find a synonym for",
+            "cleaned_prediction": "focus",
+            "gt": "focus"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: hug\nOutput:",
+            "test_query": "hug",
+            "prediction": "embrace\n\nThis problem is a simple one. The problem is asking you to find a synonym for a",
+            "cleaned_prediction": "embrace",
+            "gt": "embrace"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: distant\nOutput:",
+            "test_query": "distant",
+            "prediction": "far\n\nNote: This function uses a list of word synonyms for the word \"distant\".\n\n**",
+            "cleaned_prediction": "far",
+            "gt": "faraway"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: chase\nOutput:",
+            "test_query": "chase",
+            "prediction": "pursue\nPlease see the following code snippet:\n\n```python\nimport requests\n\ndef get_synonym(word",
+            "cleaned_prediction": "pursue",
+            "gt": "pursue"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: likeness\nOutput:",
+            "test_query": "likeness",
+            "prediction": "resemblance\n\nHere is my attempt:\n\n```python\nfrom nltk import wordnet\n\ndef synonym(word):",
+            "cleaned_prediction": "resemblance",
+            "gt": "similarity"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: cosmetic\nOutput:",
+            "test_query": "cosmetic",
+            "prediction": "beauty\n\nHere is my Python code:\n```python\nclass WordNet():\n    def __init__(",
+            "cleaned_prediction": "beauty",
+            "gt": "makeup"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: spoiled\nOutput:",
+            "test_query": "spoiled",
+            "prediction": "rotten\nExplanation: The output is a synonym of the input word \"spoiled\".\n\nExample 2",
+            "cleaned_prediction": "rotten",
+            "gt": "pampered"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: bottom\nOutput:",
+            "test_query": "bottom",
+            "prediction": "base\nNote: In this problem, we only consider the noun as a word type.\nNote2",
+            "cleaned_prediction": "base",
+            "gt": "base"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: invent\nOutput:",
+            "test_query": "invent",
+            "prediction": "create\nNote: The input is a valid English word\nThe problem is to find a synonym of",
+            "cleaned_prediction": "create",
+            "gt": "create"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: district\nOutput:",
+            "test_query": "district",
+            "prediction": "region\nInput: city\nOutput: town\n\nYou should implement the wordnet::synset::",
+            "cleaned_prediction": "region",
+            "gt": "region"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: hook\nOutput:",
+            "test_query": "hook",
+            "prediction": "clasp\n\nTo solve this task, we need to use wordnet. It is a lexical database",
+            "cleaned_prediction": "clasp",
+            "gt": "catch"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: grasp\nOutput:",
+            "test_query": "grasp",
+            "prediction": "clasp\nInput: hold\nOutput: grasp\nInput: hold\nOutput: clasp",
+            "cleaned_prediction": "clasp",
+            "gt": "understand"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: back\nOutput:",
+            "test_query": "back",
+            "prediction": "rear\n\nExplanation: \"rear\" is the synonym of \"back\".\n\nExample 2:\nInput:",
+            "cleaned_prediction": "rear",
+            "gt": "rear"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: fall\nOutput:",
+            "test_query": "fall",
+            "prediction": "decline\n\nHere is my Python solution that uses the Datamuse API to get synonyms:\n\n```python",
+            "cleaned_prediction": "decline",
+            "gt": "tumble"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: smoke\nOutput:",
+            "test_query": "smoke",
+            "prediction": "haze\nExplanation: The word \"haze\" is a synonym of the word \"smoke\".",
+            "cleaned_prediction": "haze",
+            "gt": "fume"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: art\nOutput:",
+            "test_query": "art",
+            "prediction": "creativity\n\n# Solution\nHere's a simple solution using a dictionary that maps words to their synonyms.",
+            "cleaned_prediction": "creativity",
+            "gt": "craft"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: seat\nOutput:",
+            "test_query": "seat",
+            "prediction": "chair\n\"\"\"\n\nfrom nltk.corpus import wordnet\n\ndef get_synonym(word):\n    synonyms =",
+            "cleaned_prediction": "chair",
+            "gt": "chair"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: terrible\nOutput:",
+            "test_query": "terrible",
+            "prediction": "awful\nExplanation: awful and terrible are synonyms.\nNote: There are many synonyms for a word and",
+            "cleaned_prediction": "awful",
+            "gt": "awful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sufficient\nOutput:",
+            "test_query": "sufficient",
+            "prediction": "ample\nExplanation: ample is a synonym of sufficient.\n\nExample 2:\nInput: beautiful\nOutput",
+            "cleaned_prediction": "ample",
+            "gt": "enough"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: big\nOutput:",
+            "test_query": "big",
+            "prediction": "large\n\nExamples:\n\n* small -> little\n* happy -> joyful\n* dark -> gloomy",
+            "cleaned_prediction": "large",
+            "gt": "large"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: lavish\nOutput:",
+            "test_query": "lavish",
+            "prediction": "luxurious\n\nHere is the code in Python:\n\n```python\nimport requests\n\ndef get_synonym(word",
+            "cleaned_prediction": "luxurious",
+            "gt": "luxurious"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: tempt\nOutput:",
+            "test_query": "tempt",
+            "prediction": "tempt\nInput: test\nOutput: test\n\nExplanation: \nThe program needs to be able to",
+            "cleaned_prediction": "tempt",
+            "gt": "entice"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: conspicuous\nOutput:",
+            "test_query": "conspicuous",
+            "prediction": "apparent\n\nYou can use any programming language you like, and you can use any tool or library you",
+            "cleaned_prediction": "apparent",
+            "gt": "noticeable"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: crazy\nOutput:",
+            "test_query": "crazy",
+            "prediction": "insane\nGiven a number, output the nth prime number.\nInput: 5\nOutput:",
+            "cleaned_prediction": "insane",
+            "gt": "insane"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: disorderly\nOutput:",
+            "test_query": "disorderly",
+            "prediction": "disorganized\nProcess:\n1. Tokenize the input word\n2. Use WordNet to find",
+            "cleaned_prediction": "disorganized",
+            "gt": "chaotic"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: use\nOutput:",
+            "test_query": "use",
+            "prediction": "employ\n\nExplanation: The word employ is a synonym of use.\n\nNote: This task is a simplified",
+            "cleaned_prediction": "employ",
+            "gt": "utilize"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: surprised\nOutput:",
+            "test_query": "surprised",
+            "prediction": "shocked\n\nNote: The synonyms are based on WordNet lexical database.\n\nHere is the code using NL",
+            "cleaned_prediction": "shocked",
+            "gt": "astonished"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: familiar\nOutput:",
+            "test_query": "familiar",
+            "prediction": "known\n\nExplanation: The word \"familiar\" is a synonym of the word \"known\".\n\nConstraints",
+            "cleaned_prediction": "known",
+            "gt": "known"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: value\nOutput:",
+            "test_query": "value",
+            "prediction": "Value\n\nGiven an English word, output a antonym.\nInput: Value\nOutput: Valueless",
+            "cleaned_prediction": "Value",
+            "gt": "worth"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: complete\nOutput:",
+            "test_query": "complete",
+            "prediction": "finish\n\nHere is a simple Python code to achieve this:\n\n```python\n# Define a dictionary of",
+            "cleaned_prediction": "finish",
+            "gt": "finish"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: influential\nOutput:",
+            "test_query": "influential",
+            "prediction": "powerful\n\nNote: The synonym could be any word that is related to the given word in some way",
+            "cleaned_prediction": "powerful",
+            "gt": "powerful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: open\nOutput:",
+            "test_query": "open",
+            "prediction": "ajar\nExplanation: ajar is a synonym of open.\nExplanation: a synonym of a word",
+            "cleaned_prediction": "ajar",
+            "gt": "unlocked"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: orbit\nOutput:",
+            "test_query": "orbit",
+            "prediction": "rotation\n\nFor a list of words, output a synonym for each word.\nInput: ['orbit',",
+            "cleaned_prediction": "rotation",
+            "gt": "revolve"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: appeal\nOutput:",
+            "test_query": "appeal",
+            "prediction": "entreaty\n\nHere is a code snippet that meets the requirements. This code snippet uses the Dat",
+            "cleaned_prediction": "entreaty",
+            "gt": "attract"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: gradual\nOutput:",
+            "test_query": "gradual",
+            "prediction": "steady\nThis is a basic synonym finder. I used a simple Python dictionary to store some common synonyms",
+            "cleaned_prediction": "steady",
+            "gt": "progressive"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: relieve\nOutput:",
+            "test_query": "relieve",
+            "prediction": "alleviate\nExplanation: relieve and alleviate are synonyms.\n\nExample 2:\nInput: angry\nOutput:",
+            "cleaned_prediction": "alleviate",
+            "gt": "alleviate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: conclusive\nOutput:",
+            "test_query": "conclusive",
+            "prediction": "definitive\n\nHere is an example of the code I have so far. I am trying to use the",
+            "cleaned_prediction": "definitive",
+            "gt": "definitive"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: venom\nOutput:",
+            "test_query": "venom",
+            "prediction": "poison\n\nInput: tree\nOutput: woods\n\nInput: mouse\nOutput: rat\n\nThis is",
+            "cleaned_prediction": "poison",
+            "gt": "poison"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: factual\nOutput:",
+            "test_query": "factual",
+            "prediction": "real\n\nInput: funny\nOutput: humorous\n\nInput: cloud\nOutput: vapour\n\nInput",
+            "cleaned_prediction": "real",
+            "gt": "accurate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: trade\nOutput:",
+            "test_query": "trade",
+            "prediction": "commerce\n```python\nimport random\n\n# A dictionary of synonyms\nsynonyms = {\n    \"",
+            "cleaned_prediction": "commerce",
+            "gt": "exchange"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: wonderful\nOutput:",
+            "test_query": "wonderful",
+            "prediction": "amazing\nGiven an English word, output an synonym.\nInput: wonderful\nOutput: amazing\n\n##",
+            "cleaned_prediction": "amazing",
+            "gt": "fantastic"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: general\nOutput:",
+            "test_query": "general",
+            "prediction": "normal\nExplanation: 'normal' is a synonym of 'general'.\n\nNote: The solution is case",
+            "cleaned_prediction": "normal",
+            "gt": "universal"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: manager\nOutput:",
+            "test_query": "manager",
+            "prediction": "supervisor\n\nIn the above example, supervisor is a synonym of the word manager. \nFor this problem",
+            "cleaned_prediction": "supervisor",
+            "gt": "supervisor"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: famous\nOutput:",
+            "test_query": "famous",
+            "prediction": "notable\nInput: beautiful\nOutput: lovely\nInput: strong\nOutput: powerful\n\nThe following",
+            "cleaned_prediction": "notable",
+            "gt": "well-known"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: uncomfortable\nOutput:",
+            "test_query": "uncomfortable",
+            "prediction": "unpleasant\nExplanation: uncomfortable and unpleasant have similar meanings in the context of physical sensation.\nExplanation:",
+            "cleaned_prediction": "unpleasant",
+            "gt": "unpleasant"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: lumber\nOutput:",
+            "test_query": "lumber",
+            "prediction": "timber\n\n## Step 1: Understand the Problem\nThe task is to find a synonym for the",
+            "cleaned_prediction": "timber",
+            "gt": "timber"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: insure\nOutput:",
+            "test_query": "insure",
+            "prediction": "guarantee\nExplanation: The synonym of \"insure\" is \"guarantee\".\n\nExample 2",
+            "cleaned_prediction": "guarantee",
+            "gt": "guarantee"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: dorsal\nOutput:",
+            "test_query": "dorsal",
+            "prediction": "back\n\nHere is the implementation of the wordnet.py module.\n\n```python\nimport nltk\nfrom",
+            "cleaned_prediction": "back",
+            "gt": "ventral"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: tally\nOutput:",
+            "test_query": "tally",
+            "prediction": "count\n\nExplanation: \"tally\" and \"count\" are synonyms.\nExample:\n\nInput: quick",
+            "cleaned_prediction": "count",
+            "gt": "count"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: far\nOutput:",
+            "test_query": "far",
+            "prediction": "long\n\nNote: This is a very simple problem and you can use any kind of data structures or",
+            "cleaned_prediction": "long",
+            "gt": "distant"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: strengthen\nOutput:",
+            "test_query": "strengthen",
+            "prediction": "fortify\nInput: weaken\nOutput: diminish\n\n# Synonym generation\n\nTo generate a synonym",
+            "cleaned_prediction": "fortify",
+            "gt": "fortify"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: tread\nOutput:",
+            "test_query": "tread",
+            "prediction": "step\n\nThe problem is a simple synonym generation, which can be achieved by using a pre-trained word",
+            "cleaned_prediction": "step",
+            "gt": "step"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: nature\nOutput:",
+            "test_query": "nature",
+            "prediction": "environment\n\nExplanation:\nThis problem requires using a thesaurus or a dictionary API to find the synonyms",
+            "cleaned_prediction": "environment",
+            "gt": "environment"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: breathing\nOutput:",
+            "test_query": "breathing",
+            "prediction": "respiration\nYou can use any online resource such as WordNet or Diccionario.com.",
+            "cleaned_prediction": "respiration",
+            "gt": "respiration"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: wedding\nOutput:",
+            "test_query": "wedding",
+            "prediction": "marriage\n\nExplanation: wedding and marriage are synonyms.\nExample use case:\nInput: beautiful\nOutput:",
+            "cleaned_prediction": "marriage",
+            "gt": "marriage"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: dodge\nOutput:",
+            "test_query": "dodge",
+            "prediction": "evade\n\n## Step 1: Understand the task\nThe task requires generating a synonym for a given",
+            "cleaned_prediction": "evade",
+            "gt": "evade"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: silly\nOutput:",
+            "test_query": "silly",
+            "prediction": "ridiculous\nNote: This is a problem to build a simple synonym dictionary based on word2vec,",
+            "cleaned_prediction": "ridiculous",
+            "gt": "foolish"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: simulate\nOutput:",
+            "test_query": "simulate",
+            "prediction": "mimic\nExplanation: mimic is a synonym of simulate.\n \n\nExample 1:\nInput: simulate",
+            "cleaned_prediction": "mimic",
+            "gt": "imitate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: benefit\nOutput:",
+            "test_query": "benefit",
+            "prediction": "advantage\nNote: Advantage is a synonym of benefit.\n\nGiven an English word, output a antonym",
+            "cleaned_prediction": "advantage",
+            "gt": "advantage"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: thank\nOutput:",
+            "test_query": "thank",
+            "prediction": "gratitude\nIn the above example, \u201cthank\u201d is the input English word, and \u201cgratitude",
+            "cleaned_prediction": "gratitude",
+            "gt": "appreciate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: apex\nOutput:",
+            "test_query": "apex",
+            "prediction": "peak\nFor a given English word, output an synonym.\nIn order to output an synonym, we",
+            "cleaned_prediction": "peak",
+            "gt": "peak"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: stuff\nOutput:",
+            "test_query": "stuff",
+            "prediction": "things\n\nNote: This might not always be possible as there are cases where a word has no synonyms",
+            "cleaned_prediction": "things",
+            "gt": "things"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: bare\nOutput:",
+            "test_query": "bare",
+            "prediction": "nude\n\nExplanation:\nThe idea here is to use a word embedding model like word2vec to get",
+            "cleaned_prediction": "nude",
+            "gt": "naked"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: adhere\nOutput:",
+            "test_query": "adhere",
+            "prediction": "stick\n\nExplanation:\nWe can use WordNet to find synonyms.\nThe synonyms of \"adhere\"",
+            "cleaned_prediction": "stick",
+            "gt": "stick to"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: pleasing\nOutput:",
+            "test_query": "pleasing",
+            "prediction": "satisfying\n\nNote: This problem is not as simple as it seems. You need to use some sort",
+            "cleaned_prediction": "satisfying",
+            "gt": "satisfying"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: stone\nOutput:",
+            "test_query": "stone",
+            "prediction": "rock\nExplanation:\nThe dictionary is built by mapping a word to a list of its synonyms.\nFor",
+            "cleaned_prediction": "rock",
+            "gt": "rock"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: regular\nOutput:",
+            "test_query": "regular",
+            "prediction": "normal\n\nExample use cases:\n- Input: simple\n  Output: easy\n\n- Input: difficult",
+            "cleaned_prediction": "normal",
+            "gt": "normal"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: voice\nOutput:",
+            "test_query": "voice",
+            "prediction": "sound\n\nNote: The synonyms are stored in a dictionary.\n\nSolution:\n```python\nsynonyms =",
+            "cleaned_prediction": "sound",
+            "gt": "sound"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: wedge\nOutput:",
+            "test_query": "wedge",
+            "prediction": "edge\n\nExplanation:\nIn English, the words \"wedge\" and \"edge\" are synonyms.",
+            "cleaned_prediction": "edge",
+            "gt": "splitter"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: dome\nOutput:",
+            "test_query": "dome",
+            "prediction": "cupola\nGiven a word, output a list of synonyms.\nInput: love\nOutput: [",
+            "cleaned_prediction": "cupola",
+            "gt": "hemisphere"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: frivolous\nOutput:",
+            "test_query": "frivolous",
+            "prediction": "carefree\nExplanation: carefree is a synonym of frivolous.\n\nExample cases:\nInput: brave",
+            "cleaned_prediction": "carefree",
+            "gt": "trivial"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: economical\nOutput:",
+            "test_query": "economical",
+            "prediction": "thrifty\n\nIf you want to use a different word, use the following command in the terminal:",
+            "cleaned_prediction": "thrifty",
+            "gt": "cost-effective"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: upright\nOutput:",
+            "test_query": "upright",
+            "prediction": "straight\n\nExplanation: The given word upright has synonyms like straight, vertical, perpendicular etc. \n\nNote",
+            "cleaned_prediction": "straight",
+            "gt": "vertical"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: begin\nOutput:",
+            "test_query": "begin",
+            "prediction": "start\nInput: finish\nOutput: end\n\nI just used a dictionary file. You can use",
+            "cleaned_prediction": "start",
+            "gt": "start"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: abundant\nOutput:",
+            "test_query": "abundant",
+            "prediction": "copious\n\nExplanation: The word abundant and copious have a similar meaning. One is not the",
+            "cleaned_prediction": "copious",
+            "gt": "plentiful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: hair\nOutput:",
+            "test_query": "hair",
+            "prediction": "locks\nIn this case, we're looking for a synonym for 'hair' that is a noun",
+            "cleaned_prediction": "locks",
+            "gt": "locks"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: unveiling\nOutput:",
+            "test_query": "unveiling",
+            "prediction": "revelation\n\nExplanation:\nThis problem requires to find a synonym of the given word. The synonym is a",
+            "cleaned_prediction": "revelation",
+            "gt": "revealing"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: conventional\nOutput:",
+            "test_query": "conventional",
+            "prediction": "standard\n\nHere is the code I tried:\n\n```python\nclass WordNet:\n    def __init",
+            "cleaned_prediction": "standard",
+            "gt": "traditional"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: reconstruct\nOutput:",
+            "test_query": "reconstruct",
+            "prediction": "rebuild\n\nHere is my solution in Python:\n\n```python\nfrom nltk.corpus import wordnet as",
+            "cleaned_prediction": "rebuild",
+            "gt": "rebuild"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: legal\nOutput:",
+            "test_query": "legal",
+            "prediction": "lawful\nThe goal is to find a synonym of a given English word. \nWe can use a",
+            "cleaned_prediction": "lawful",
+            "gt": "lawful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: left\nOutput:",
+            "test_query": "left",
+            "prediction": "right\n\nExplanation: The word \"left\" is a synonym of \"right\".\n\nNote: The code",
+            "cleaned_prediction": "right",
+            "gt": "right"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: authoritative\nOutput:",
+            "test_query": "authoritative",
+            "prediction": "authoritative\nIf you could not find a synonym, output a message saying the word is too common.",
+            "cleaned_prediction": "authoritative",
+            "gt": "commanding"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: communion\nOutput:",
+            "test_query": "communion",
+            "prediction": "union\n\nExplanation: We need to find a word which has the same meaning as 'communion'.",
+            "cleaned_prediction": "union",
+            "gt": "fellowship"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: enrollment\nOutput:",
+            "test_query": "enrollment",
+            "prediction": "registration\nExplanation: The synonym for enrollment is registration.\n\nExample 2:\nInput: software\nOutput",
+            "cleaned_prediction": "registration",
+            "gt": "registration"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: restore\nOutput:",
+            "test_query": "restore",
+            "prediction": "revive\n\nExplanation: This problem is a synonym finding problem. Given an English word, we need to",
+            "cleaned_prediction": "revive",
+            "gt": "renew"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: supernatural\nOutput:",
+            "test_query": "supernatural",
+            "prediction": "paranormal\n\nIn my previous post, I mentioned that the word \"supernatural\" is a synonym",
+            "cleaned_prediction": "paranormal",
+            "gt": "paranormal"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: ruin\nOutput:",
+            "test_query": "ruin",
+            "prediction": "demolition\nExplanation: The output is a synonym of the input word \"ruin\".\n\nExample 2",
+            "cleaned_prediction": "demolition",
+            "gt": "destroy"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: stray\nOutput:",
+            "test_query": "stray",
+            "prediction": "wander\nExplanation: wander and stray are synonyms.\nInput: cat\nOutput: animal\nExplanation:",
+            "cleaned_prediction": "wander",
+            "gt": "wander"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: accomplishment\nOutput:",
+            "test_query": "accomplishment",
+            "prediction": "achievement\n\nimport random\n\n# A list of synonyms for each word\nsynonyms = {\n    \"",
+            "cleaned_prediction": "achievement",
+            "gt": "achievement"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: gesture\nOutput:",
+            "test_query": "gesture",
+            "prediction": "movement\n\nExplanation: This is the definition of the word \"gesture\" from a dictionary.\n\"gesture",
+            "cleaned_prediction": "movement",
+            "gt": "motion"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: intimacy\nOutput:",
+            "test_query": "intimacy",
+            "prediction": "closeness\n```\nimport random\n\n# Define a dictionary of synonyms for each word\nsynonyms",
+            "cleaned_prediction": "closeness",
+            "gt": "closeness"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: succinct\nOutput:",
+            "test_query": "succinct",
+            "prediction": "Brief\nInput: Brief\nOutput: Succinct\n\n### Example Use Cases\n\n*   Given the",
+            "cleaned_prediction": "Brief",
+            "gt": "concise"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: imaging\nOutput:",
+            "test_query": "imaging",
+            "prediction": "imaging -> imaging\nInput: love\nOutput: love -> adoration\nInput: happy\nOutput",
+            "cleaned_prediction": "imaging -> imaging",
+            "gt": "visualizing"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: disabled\nOutput:",
+            "test_query": "disabled",
+            "prediction": "impaired\nInput: normal\nOutput: usual\nInput: strong\nOutput: powerful\n\nThe algorithm",
+            "cleaned_prediction": "impaired",
+            "gt": "handicapped"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: nonviolent\nOutput:",
+            "test_query": "nonviolent",
+            "prediction": "pacific\nExplanation: 'pacific' is a synonym of 'nonviolent'\n\nExample:\nInput",
+            "cleaned_prediction": "pacific",
+            "gt": "peaceful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: offer\nOutput:",
+            "test_query": "offer",
+            "prediction": "present\nExplanation: offer is a synonym of present.\nNote: A synonym is a word that has",
+            "cleaned_prediction": "present",
+            "gt": "propose"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: school\nOutput:",
+            "test_query": "school",
+            "prediction": "university\nGiven an English word, output an antonym.\nInput: fast\nOutput: slow",
+            "cleaned_prediction": "university",
+            "gt": "education"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: distinguish\nOutput:",
+            "test_query": "distinguish",
+            "prediction": "differentiate\n\n## Step 1: Understand the task\nWe need to find a synonym for the given",
+            "cleaned_prediction": "differentiate",
+            "gt": "differentiate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: discover\nOutput:",
+            "test_query": "discover",
+            "prediction": "uncover\n\nExample 2:\nInput: find\nOutput: locate\n\nExample 3:\nInput:",
+            "cleaned_prediction": "uncover",
+            "gt": "uncover"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: preservation\nOutput:",
+            "test_query": "preservation",
+            "prediction": "conservation\n\nThis is a simple problem with an obvious solution. However, there are many complexities when working",
+            "cleaned_prediction": "conservation",
+            "gt": "conservation"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: noted\nOutput:",
+            "test_query": "noted",
+            "prediction": "known\n\nHere is the Python code that does that:\n\n```python\nfrom datamuse import dat",
+            "cleaned_prediction": "known",
+            "gt": "recorded"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: succeed\nOutput:",
+            "test_query": "succeed",
+            "prediction": "Win\n\nGiven an English word, output the number of vowels in the word.\nInput: success",
+            "cleaned_prediction": "Win",
+            "gt": "achieve"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: condone\nOutput:",
+            "test_query": "condone",
+            "prediction": "condone\nInput: accept\nOutput: accept\n\nThere are two ways to approach this:\n\n1",
+            "cleaned_prediction": "condone",
+            "gt": "approve"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: national\nOutput:",
+            "test_query": "national",
+            "prediction": "international\n\nHere is a simple Python code snippet that fulfills this requirement:\n\n```python\nimport random",
+            "cleaned_prediction": "international",
+            "gt": "countrywide"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: bargain\nOutput:",
+            "test_query": "bargain",
+            "prediction": "discount\n\nHow does this work?\nThis algorithm works by taking an input English word, then it queries",
+            "cleaned_prediction": "discount",
+            "gt": "deal"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: designate\nOutput:",
+            "test_query": "designate",
+            "prediction": "appoint\n\nGiven an English word, output an antonym.\nInput: fast\nOutput: slow",
+            "cleaned_prediction": "appoint",
+            "gt": "appoint"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: stout\nOutput:",
+            "test_query": "stout",
+            "prediction": "robust\n\nExplanation:\nThe task is to find a synonym for the word \"stout\" in the",
+            "cleaned_prediction": "robust",
+            "gt": "robust"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: affinity\nOutput:",
+            "test_query": "affinity",
+            "prediction": "affection\n\nThe program should return a list of synonyms from a database or wordnet ( a lexical database",
+            "cleaned_prediction": "affection",
+            "gt": "liking"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: virtue\nOutput:",
+            "test_query": "virtue",
+            "prediction": "goodness\n\nNote: The word inputted is in lower case.\n\nStep 1: \nWe can",
+            "cleaned_prediction": "goodness",
+            "gt": "goodness"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: attempt\nOutput:",
+            "test_query": "attempt",
+            "prediction": "try\n\nTo do this, you would need a dictionary file with English words and their synonyms.",
+            "cleaned_prediction": "try",
+            "gt": "try"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: liquor\nOutput:",
+            "test_query": "liquor",
+            "prediction": "alcohol\nGiven an English word, output a sentence using the word.\n\nInput: chair\nOutput:",
+            "cleaned_prediction": "alcohol",
+            "gt": "alcohol"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: worldly\nOutput:",
+            "test_query": "worldly",
+            "prediction": "earthy\nThis problem is equivalent to generating all the possible permutations of the letters of the input word",
+            "cleaned_prediction": "earthy",
+            "gt": "cosmopolitan"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: lesbian\nOutput:",
+            "test_query": "lesbian",
+            "prediction": "gay\nIf there is no synonym for the word, it will output \u201cNo synonym\u201d\ndef find",
+            "cleaned_prediction": "gay",
+            "gt": "gay woman"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: affiliation\nOutput:",
+            "test_query": "affiliation",
+            "prediction": "association\n\nFor a given word, if a synonym exists, output it; otherwise output \"No synonym",
+            "cleaned_prediction": "association",
+            "gt": "association"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: group\nOutput:",
+            "test_query": "group",
+            "prediction": "band\n\nInput: apple\nOutput: fruit\n\nNote that the word 'group' has a synonym",
+            "cleaned_prediction": "band",
+            "gt": "team"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: airplane\nOutput:",
+            "test_query": "airplane",
+            "prediction": "aeroplane\nNote: \"airplane\" and \"aeroplane\" are synonyms.",
+            "cleaned_prediction": "aeroplane",
+            "gt": "aircraft"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: unresolved\nOutput:",
+            "test_query": "unresolved",
+            "prediction": "solved\nOr any other synonym of \"unresolved\" that is a valid English word.\n\n## Step",
+            "cleaned_prediction": "solved",
+            "gt": "unsettled"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: throat\nOutput:",
+            "test_query": "throat",
+            "prediction": "gullet\n\nHere is my Python solution:\n\n```python\n# Dictionary of synonyms\nsynonyms =",
+            "cleaned_prediction": "gullet",
+            "gt": "esophagus"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: primer\nOutput:",
+            "test_query": "primer",
+            "prediction": "prototype\n\nNote: The given English word is a technical term and the synonym should also be a technical",
+            "cleaned_prediction": "prototype",
+            "gt": "base coat"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: proof\nOutput:",
+            "test_query": "proof",
+            "prediction": "evidence\n\nExplanation: A synonym of \"proof\" is \"evidence\".\n\nNote: This is not",
+            "cleaned_prediction": "evidence",
+            "gt": "evidence"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: quality\nOutput:",
+            "test_query": "quality",
+            "prediction": "goodness\nIn this task, we need to find a word that is semantically equivalent to the input",
+            "cleaned_prediction": "goodness",
+            "gt": "standard"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: cigarette\nOutput:",
+            "test_query": "cigarette",
+            "prediction": "cigar\nNote: This is a very basic task and the task is to simply find a synonym for",
+            "cleaned_prediction": "cigar",
+            "gt": "smoke"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: coherent\nOutput:",
+            "test_query": "coherent",
+            "prediction": "consistent\n\nNote: This problem is a simplified version of WordNet based synonym generation and is meant to",
+            "cleaned_prediction": "consistent",
+            "gt": "logical"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: skeptical\nOutput:",
+            "test_query": "skeptical",
+            "prediction": "dubious\n\nThis task is not possible. While there are many algorithms for finding synonyms, the problem of",
+            "cleaned_prediction": "dubious",
+            "gt": "doubtful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: preparation\nOutput:",
+            "test_query": "preparation",
+            "prediction": "preparation (the word is a synonym for itself)\nInput: preparation\nOutput: arrangement\nInput:",
+            "cleaned_prediction": "preparation (the word is a synonym for itself)",
+            "gt": "planning"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: process\nOutput:",
+            "test_query": "process",
+            "prediction": "do\n\nGiven an English word, output an antonym.\nInput: good\nOutput: bad",
+            "cleaned_prediction": "do",
+            "gt": "procedure"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: unwanted\nOutput:",
+            "test_query": "unwanted",
+            "prediction": "unwanted -> surplus\n\nHere is my Python solution:\n\n```python\n# -*- coding: utf-8",
+            "cleaned_prediction": "unwanted -> surplus",
+            "gt": "undesirable"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: please\nOutput:",
+            "test_query": "please",
+            "prediction": "ask\n\nNote: This is a simple task and the solution will be very straightforward.\n\n```python",
+            "cleaned_prediction": "ask",
+            "gt": "kindly"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: employee\nOutput:",
+            "test_query": "employee",
+            "prediction": "worker\n\nExplanation:\nAn employee is a person working under the supervision of another person, especially for wages",
+            "cleaned_prediction": "worker",
+            "gt": "worker"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sarcastic\nOutput:",
+            "test_query": "sarcastic",
+            "prediction": "mocking\nExplanation: mocking is a synonym of sarcastic.\n\nExample use cases:\nInput: happy",
+            "cleaned_prediction": "mocking",
+            "gt": "ironic"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: migration\nOutput:",
+            "test_query": "migration",
+            "prediction": "movement\nInput: migration\nOutput: migration\nInput: migration\nOutput: emigration\nInput",
+            "cleaned_prediction": "movement",
+            "gt": "relocation"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: tell\nOutput:",
+            "test_query": "tell",
+            "prediction": "say\n\nThis problem can be solved by using a thesaurus API or by manually creating a list",
+            "cleaned_prediction": "say",
+            "gt": "inform"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: constituent\nOutput:",
+            "test_query": "constituent",
+            "prediction": "member\n\nHere is the code I have so far, but it's not giving me the results I",
+            "cleaned_prediction": "member",
+            "gt": "component"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: indigenous\nOutput:",
+            "test_query": "indigenous",
+            "prediction": "native\n\nHere is a simple implementation in Python:\n\n```python\nimport requests\n\ndef get_synonym",
+            "cleaned_prediction": "native",
+            "gt": "native"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sore\nOutput:",
+            "test_query": "sore",
+            "prediction": "aching\n\nIn this problem we will use a pre-computed file of synonyms and antonyms,",
+            "cleaned_prediction": "aching",
+            "gt": "painful"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: daring\nOutput:",
+            "test_query": "daring",
+            "prediction": "fearless\nNote: Synonyms were obtained from WordNet corpus, which is a large lexical database for",
+            "cleaned_prediction": "fearless",
+            "gt": "adventurous"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: quaint\nOutput:",
+            "test_query": "quaint",
+            "prediction": "charming\n\nExplanation:\nA synonym of \"quaint\" is \"charming\". The word \"qu",
+            "cleaned_prediction": "charming",
+            "gt": "charming"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: intermittent\nOutput:",
+            "test_query": "intermittent",
+            "prediction": "sporadic\n\nHere is a simple python solution that uses the NLTK library to find the synonyms.",
+            "cleaned_prediction": "sporadic",
+            "gt": "sporadic"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: utopian\nOutput:",
+            "test_query": "utopian",
+            "prediction": "ideal\n```python\nimport requests\n\ndef get_synonym(word):\n    api_url = f\"https",
+            "cleaned_prediction": "ideal",
+            "gt": "idealistic"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: addict\nOutput:",
+            "test_query": "addict",
+            "prediction": "addict (in this case, there is no other word that is a synonym, the word is the",
+            "cleaned_prediction": "addict (in this case, there is no other word that is a synonym, the word is the",
+            "gt": "dependent"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: roll\nOutput:",
+            "test_query": "roll",
+            "prediction": "tumble\n\nThis is a simple English word synonymizer.\nIt is not perfect, but it is a",
+            "cleaned_prediction": "tumble",
+            "gt": "spin"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: find\nOutput:",
+            "test_query": "find",
+            "prediction": "discover\nExplanation: The synonym of find is discover.\nExample 1:\nInput: find\nOutput",
+            "cleaned_prediction": "discover",
+            "gt": "discover"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: hinder\nOutput:",
+            "test_query": "hinder",
+            "prediction": "impede\nExplanation: The synonym of \"hinder\" is \"impede\".\nNote: The",
+            "cleaned_prediction": "impede",
+            "gt": "obstruct"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: institution\nOutput:",
+            "test_query": "institution",
+            "prediction": "organization\n\n# My solution\ndef get_synonym(word):\n    # Create a dictionary of synonyms",
+            "cleaned_prediction": "organization",
+            "gt": "organization"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: forecast\nOutput:",
+            "test_query": "forecast",
+            "prediction": "prediction\n\nThis can be done using the Datamuse API, which is a free API that returns",
+            "cleaned_prediction": "prediction",
+            "gt": "prediction"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: loose\nOutput:",
+            "test_query": "loose",
+            "prediction": "lax\nExplanation: \"lax\" is a synonym for \"loose\".\nNote: The input",
+            "cleaned_prediction": "lax",
+            "gt": "unfastened"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: advent\nOutput:",
+            "test_query": "advent",
+            "prediction": "festival\nExplanation: advent is the word used to describe Christmas. A synonym for advent is a festival",
+            "cleaned_prediction": "festival",
+            "gt": "arrival"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sit\nOutput:",
+            "test_query": "sit",
+            "prediction": "seat\n```python\nimport random\n\ndef synonym(word):\n    synonyms = {\n       'sit':",
+            "cleaned_prediction": "seat",
+            "gt": "settle"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: delicate\nOutput:",
+            "test_query": "delicate",
+            "prediction": "fragile\n\nExplanation: Here's a dictionary with the words as keys and their synonyms as values:\n```",
+            "cleaned_prediction": "fragile",
+            "gt": "fragile"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: hoard\nOutput:",
+            "test_query": "hoard",
+            "prediction": "accumulate\n\nHere is a simple Python solution using the Datamuse API to find synonyms.\n\n```python",
+            "cleaned_prediction": "accumulate",
+            "gt": "accumulate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: vertical\nOutput:",
+            "test_query": "vertical",
+            "prediction": "upright\nInput: hello\nOutput: hi\nInput: fast\nOutput: quick\n\nIt seems",
+            "cleaned_prediction": "upright",
+            "gt": "upright"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: herald\nOutput:",
+            "test_query": "herald",
+            "prediction": "announce\n\nExplanation: \"Herald\" is an English word that means \"announce\". So, the",
+            "cleaned_prediction": "announce",
+            "gt": "announce"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: approximate\nOutput:",
+            "test_query": "approximate",
+            "prediction": "approximate\n\nExplanation: The word \"approximate\" does not have a direct synonym in the given list",
+            "cleaned_prediction": "approximate",
+            "gt": "estimate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: fragile\nOutput:",
+            "test_query": "fragile",
+            "prediction": "delicate\n\nExplanation: fragile and delicate have similar meanings.\n\nHere is a simple Python program that uses the",
+            "cleaned_prediction": "delicate",
+            "gt": "delicate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: lazy\nOutput:",
+            "test_query": "lazy",
+            "prediction": "sluggish\nExplanation: sluggish is a synonym for lazy.\n\nfrom nltk.corpus import wordnet\nimport",
+            "cleaned_prediction": "sluggish",
+            "gt": "indolent"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: mediocre\nOutput:",
+            "test_query": "mediocre",
+            "prediction": "average\n\nHere is a synonym dictionary:\naverage, ordinary, mediocre, common, normal, regular,",
+            "cleaned_prediction": "average",
+            "gt": "average"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sleek\nOutput:",
+            "test_query": "sleek",
+            "prediction": "smooth\nExplanation: smooth is a synonym of sleek.\nExample 1:\nInput: sleek\nOutput",
+            "cleaned_prediction": "smooth",
+            "gt": "smooth"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: lease\nOutput:",
+            "test_query": "lease",
+            "prediction": "rent\n\nHere is a simple implementation using WordNetLemmatizer and NLTK library:\n``",
+            "cleaned_prediction": "rent",
+            "gt": "rent"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: hollow\nOutput:",
+            "test_query": "hollow",
+            "prediction": "empty\nExplanation:  The synonym for \"hollow\" is \"empty\".\n\nNote: This problem",
+            "cleaned_prediction": "empty",
+            "gt": "empty"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: thorough\nOutput:",
+            "test_query": "thorough",
+            "prediction": "detailed\nInput: extensive\nOutput: comprehensive\nInput: vague\nOutput: unclear\nInput:",
+            "cleaned_prediction": "detailed",
+            "gt": "comprehensive"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: powerless\nOutput:",
+            "test_query": "powerless",
+            "prediction": "impotent\n\nNote: There are many synonyms for a given word, this is just one.\nI",
+            "cleaned_prediction": "impotent",
+            "gt": "weak"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: missing\nOutput:",
+            "test_query": "missing",
+            "prediction": "absent\n\nNote: You need to use WordNet API.\n```python\nimport nltk\nfrom nltk",
+            "cleaned_prediction": "absent",
+            "gt": "lost"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: fortunate\nOutput:",
+            "test_query": "fortunate",
+            "prediction": "lucky\n```\n# Import the required libraries\nimport random\n\n# List of synonyms\nsynonyms",
+            "cleaned_prediction": "lucky",
+            "gt": "lucky"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: complaint\nOutput:",
+            "test_query": "complaint",
+            "prediction": "grievance\nInput: happy\nOutput: joyful\nInput: big\nOutput: large\nInput",
+            "cleaned_prediction": "grievance",
+            "gt": "grievance"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: adequate\nOutput:",
+            "test_query": "adequate",
+            "prediction": "sufficient\nExplanation: The word \"sufficient\" is a synonym of \"adequate\".\n\nExample",
+            "cleaned_prediction": "sufficient",
+            "gt": "sufficient"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: serve\nOutput:",
+            "test_query": "serve",
+            "prediction": "attend\n\nHow to implement the concept of synonyms in natural language processing:\n1. Tokenize the text",
+            "cleaned_prediction": "attend",
+            "gt": "provide"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: worry\nOutput:",
+            "test_query": "worry",
+            "prediction": "trouble\n\nYou can use any approach to solve this problem, including machine learning models, word embeddings,",
+            "cleaned_prediction": "trouble",
+            "gt": "concern"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: distribute\nOutput:",
+            "test_query": "distribute",
+            "prediction": "scatter\nExplanation: The word scatter is a synonym of the input word distribute.\nNote: The input",
+            "cleaned_prediction": "scatter",
+            "gt": "disperse"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: remedy\nOutput:",
+            "test_query": "remedy",
+            "prediction": "cure\n\nInput: cloud\nOutput: fog\n\nInput: house\nOutput: home\n\nInput:",
+            "cleaned_prediction": "cure",
+            "gt": "solution"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: gas\nOutput:",
+            "test_query": "gas",
+            "prediction": "fuel\n\nI can create a dictionary with synonyms.\n```python\nsynonyms = {\n    'gas",
+            "cleaned_prediction": "fuel",
+            "gt": "fuel"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: moot\nOutput:",
+            "test_query": "moot",
+            "prediction": "idle\n\nExplanation: moot is often used to describe idle or unnecessary discussions.\n\nConstraints:\n* This is",
+            "cleaned_prediction": "idle",
+            "gt": "debatable"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: van\nOutput:",
+            "test_query": "van",
+            "prediction": "truck\n\n// You can use the following synonyms for the problem:\n// van: truck, bus,",
+            "cleaned_prediction": "truck",
+            "gt": "minivan"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: constitutional\nOutput:",
+            "test_query": "constitutional",
+            "prediction": "constitutional\nThis is a simple synonym generation program based on the WordNet lexical database. It uses the",
+            "cleaned_prediction": "constitutional",
+            "gt": "legal"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: merge\nOutput:",
+            "test_query": "merge",
+            "prediction": "combine\n\nInput: hello\nOutput: hi\n\nInput: love\nOutput: like\nNote:",
+            "cleaned_prediction": "combine",
+            "gt": "combine"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: uphold\nOutput:",
+            "test_query": "uphold",
+            "prediction": "maintain\nExplanation:\nThe synonyms of \"uphold\" are \"maintain\", \"support\", \"",
+            "cleaned_prediction": "maintain",
+            "gt": "maintain"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: exploitation\nOutput:",
+            "test_query": "exploitation",
+            "prediction": "pillage\n\nHere is my code:\n```\ndef get_synonym(word):\n    url = f",
+            "cleaned_prediction": "pillage",
+            "gt": "abuse"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: witty\nOutput:",
+            "test_query": "witty",
+            "prediction": "clever\nIf the word is not in the wordnet, return null.\n\n```python\nimport nltk",
+            "cleaned_prediction": "clever",
+            "gt": "clever"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: telephone\nOutput:",
+            "test_query": "telephone",
+            "prediction": "phone\nGiven an English word, output a antonym.\nInput: big\nOutput: small",
+            "cleaned_prediction": "phone",
+            "gt": "phone"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: concede\nOutput:",
+            "test_query": "concede",
+            "prediction": "surrender\n\nNote: There is no need to deal with cases where the input is empty.\n\nExample use",
+            "cleaned_prediction": "surrender",
+            "gt": "surrender"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: express\nOutput:",
+            "test_query": "express",
+            "prediction": "convey\nInput: laugh\nOutput: smile\n\nHere is a solution in Python that uses a dictionary",
+            "cleaned_prediction": "convey",
+            "gt": "convey"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: liable\nOutput:",
+            "test_query": "liable",
+            "prediction": "accountable\nExplanation: The word \"liable\" means the same as \"accountable\".\nNote: \"",
+            "cleaned_prediction": "accountable",
+            "gt": "responsible"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: crew\nOutput:",
+            "test_query": "crew",
+            "prediction": "team\n\nExplanation: The word \"crew\" and \"team\" are synonyms.\n\nExample 2:",
+            "cleaned_prediction": "team",
+            "gt": "team"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: campaign\nOutput:",
+            "test_query": "campaign",
+            "prediction": "crusade\n\nNote: This is a simple synonym finder. It is not perfect and might not always",
+            "cleaned_prediction": "crusade",
+            "gt": "crusade"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: circuit\nOutput:",
+            "test_query": "circuit",
+            "prediction": "network\n\n## Step 1: Understand the task\nThe task is to find a synonym for the",
+            "cleaned_prediction": "network",
+            "gt": "route"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: null\nOutput:",
+            "test_query": "null",
+            "prediction": "an English word\n\"\"\"\nimport random\n\n# Define a dictionary of synonyms\nsynonyms = {",
+            "cleaned_prediction": "an English word",
+            "gt": "void"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: senseless\nOutput:",
+            "test_query": "senseless",
+            "prediction": "foolish\nExplanation: senseless and foolish are synonyms\nExample 1:\nInput: \"senseless",
+            "cleaned_prediction": "foolish",
+            "gt": "meaningless"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: debris\nOutput:",
+            "test_query": "debris",
+            "prediction": "trash\nInput: happiness\nOutput: bliss\nInput: danger\nOutput: peril\nInput:",
+            "cleaned_prediction": "trash",
+            "gt": "rubble"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sham\nOutput:",
+            "test_query": "sham",
+            "prediction": "fake\nExplanation: \"sham\" is an English word, \"fake\" is a synonym of",
+            "cleaned_prediction": "fake",
+            "gt": "fraud"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: potential\nOutput:",
+            "test_query": "potential",
+            "prediction": "likely\n\nHere is the example solution in Python using WordNet:\n```python\nimport nltk\nfrom",
+            "cleaned_prediction": "likely",
+            "gt": "capability"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: aboriginal\nOutput:",
+            "test_query": "aboriginal",
+            "prediction": "native\n\nNote: The function must be case insensitive.\n\n```python\nimport random\n\n# Create a",
+            "cleaned_prediction": "native",
+            "gt": "indigenous"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: pitch\nOutput:",
+            "test_query": "pitch",
+            "prediction": "tone\n\nGiven a string, output the string with all vowels removed.\nInput: hello world\nOutput",
+            "cleaned_prediction": "tone",
+            "gt": "throw"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: careful\nOutput:",
+            "test_query": "careful",
+            "prediction": "cautious\n\n## Step 1: Understand the task\nWe need to find a synonym for the given",
+            "cleaned_prediction": "cautious",
+            "gt": "cautious"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: intermediary\nOutput:",
+            "test_query": "intermediary",
+            "prediction": "intermediate\n\nExplanation: The synonyms for the word \"intermediary\" are \"intermediate\", \"",
+            "cleaned_prediction": "intermediate",
+            "gt": "mediator"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sample\nOutput:",
+            "test_query": "sample",
+            "prediction": "example\n\nNote: The synonym can be obtained by replacing the first letter of the word.\n\"\"\"\n#",
+            "cleaned_prediction": "example",
+            "gt": "example"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: vicious\nOutput:",
+            "test_query": "vicious",
+            "prediction": "evil\n\nI will provide the wordnet python library for you, which is a lexical database for the",
+            "cleaned_prediction": "evil",
+            "gt": "cruel"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: human\nOutput:",
+            "test_query": "human",
+            "prediction": "person\n\nExplanation: person and human are synonyms.\n\nThis problem is asking us to find the synonym of",
+            "cleaned_prediction": "person",
+            "gt": "person"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: stagnant\nOutput:",
+            "test_query": "stagnant",
+            "prediction": "static\nExplanation: static is a synonym of stagnant.\n\nInput: happy\nOutput: joyful\nExplanation",
+            "cleaned_prediction": "static",
+            "gt": "stationary"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: tax\nOutput:",
+            "test_query": "tax",
+            "prediction": "duty\n\nInput: apple\nOutput: fruit\n\nNote: Synonyms should be a common English word",
+            "cleaned_prediction": "duty",
+            "gt": "levy"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: customary\nOutput:",
+            "test_query": "customary",
+            "prediction": "normal\nGiven an English word, output an antonym.\nInput: happy\nOutput: unhappy",
+            "cleaned_prediction": "normal",
+            "gt": "traditional"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: imaginative\nOutput:",
+            "test_query": "imaginative",
+            "prediction": "imaginative\n\nExplanation: The word \"imaginative\" is already a synonym for itself.\n\nExample:",
+            "cleaned_prediction": "imaginative",
+            "gt": "creative"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: packed\nOutput:",
+            "test_query": "packed",
+            "prediction": "stuffed\nInput: filled\nOutput: packed\nWe need to use a dictionary to map English words",
+            "cleaned_prediction": "stuffed",
+            "gt": "full"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: amusing\nOutput:",
+            "test_query": "amusing",
+            "prediction": "funny\n\nI was thinking to just use a python library like wordnet but for this particular problem,",
+            "cleaned_prediction": "funny",
+            "gt": "funny"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: breach\nOutput:",
+            "test_query": "breach",
+            "prediction": "violation\n\nExplanation: A breach refers to a violation of a rule or law.\n\nExample: \nInput",
+            "cleaned_prediction": "violation",
+            "gt": "violate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: stain\nOutput:",
+            "test_query": "stain",
+            "prediction": "spot\n```\n# Define a function to find a synonym\ndef find_synonym(word):",
+            "cleaned_prediction": "spot",
+            "gt": "blemish"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: imply\nOutput:",
+            "test_query": "imply",
+            "prediction": "suggest\n\nNote: The program should work for most words, and the result may not always be a",
+            "cleaned_prediction": "suggest",
+            "gt": "suggest"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: tolerant\nOutput:",
+            "test_query": "tolerant",
+            "prediction": "forbearing\n\nIf you don't know the word, output: sorry, i don't know the",
+            "cleaned_prediction": "forbearing",
+            "gt": "patient"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: tear\nOutput:",
+            "test_query": "tear",
+            "prediction": "cry\nExplanation: cry is a synonym of tear.\nThe input is a word in English, so",
+            "cleaned_prediction": "cry",
+            "gt": "rip"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: lasting\nOutput:",
+            "test_query": "lasting",
+            "prediction": "enduring\nInput: long\nOutput: extended\nInput: strong\nOutput: robust\n\n**Note",
+            "cleaned_prediction": "enduring",
+            "gt": "enduring"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sick\nOutput:",
+            "test_query": "sick",
+            "prediction": "unwell\n\nInput: happy\nOutput: cheerful\n```\n# Synonyms dictionary\nsynonyms",
+            "cleaned_prediction": "unwell",
+            "gt": "ill"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: sanction\nOutput:",
+            "test_query": "sanction",
+            "prediction": "penalty\n\nThis problem is an example of an English word to synonym problem. Given an English word,",
+            "cleaned_prediction": "penalty",
+            "gt": "approve"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: global\nOutput:",
+            "test_query": "global",
+            "prediction": "worldwide\n\nNote: For simplicity, let's use a predefined list of synonyms to solve the problem.",
+            "cleaned_prediction": "worldwide",
+            "gt": "worldwide"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: leak\nOutput:",
+            "test_query": "leak",
+            "prediction": "spill\n\nThis problem is relatively simple because it involves only one operation: find synonyms. We can do",
+            "cleaned_prediction": "spill",
+            "gt": "drip"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: aroma\nOutput:",
+            "test_query": "aroma",
+            "prediction": "fragrance\n\n## Step 1: Understand the task\nThe task is to find a synonym for a",
+            "cleaned_prediction": "fragrance",
+            "gt": "scent"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: model\nOutput:",
+            "test_query": "model",
+            "prediction": "sample\n\nInput: cloud\nOutput: vapor\n\nInput: moon\nOutput: orb\n\nInput:",
+            "cleaned_prediction": "sample",
+            "gt": "example"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: keep\nOutput:",
+            "test_query": "keep",
+            "prediction": "retain\n\nExplanation: \"retain\" is a synonym of \"keep\".\n\nIn this example, we need",
+            "cleaned_prediction": "retain",
+            "gt": "retain"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: store\nOutput:",
+            "test_query": "store",
+            "prediction": "shop\n\nExplanation:\nThe problem is asking us to find a synonym of the input word \"store\".",
+            "cleaned_prediction": "shop",
+            "gt": "shop"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: protest\nOutput:",
+            "test_query": "protest",
+            "prediction": "demonstration\nExplanation: \nThe dictionary is a hashmap where the key is a word and the value is",
+            "cleaned_prediction": "demonstration",
+            "gt": "demonstrate"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: reduce\nOutput:",
+            "test_query": "reduce",
+            "prediction": "decrease\nExplanation: reduce is a synonym for decrease.\n\nIn this problem, we are given a word",
+            "cleaned_prediction": "decrease",
+            "gt": "decrease"
+        },
+        {
+            "input_prompt": "Given an English word, output an synonym.\nInput: grab\nOutput:",
+            "test_query": "grab",
+            "prediction": "seize\n\nInput: slow\nOutput: sluggish\n\nInput: eat\nOutput: devour\n\nInput:",
+            "cleaned_prediction": "seize",
+            "gt": "seize"
+        }
+    ]
+}
