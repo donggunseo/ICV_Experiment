@@ -1,8 +1,11 @@
-subset=(math_algebra math_counting_and_probability math_geometry math_intermediate_algebra math_number_theory math_prealgebra math_precalculus)
+CUDA_VISIBLE_DEVICES=2 python3 Few_shot.py --dataset_name xlsum --seed 42 --save_path_root ./results --n_shots 10 --max_new_tokens 500
+CUDA_VISIBLE_DEVICES=2 python3 Zero_shot.py --dataset_name xlsum --seed 42 --save_path_root ./results --max_new_tokens 500
+CUDA_VISIBLE_DEVICES=2 python3 Diff_icv.py --dataset_name xlsum --seed 42 --save_path_root ./results --n_shots 10 --max_new_tokens 500  
 
-for subset_name in "${subset[@]}"; do
-    echo "Processing dataset: $subset_name"
-    CUDA_VISIBLE_DEVICES=1 python3 icv_evaluate.py --dataset_name "$subset_name" --seed 41 --save_path_root ./results_bf16 --n_shots 5
-done
+CUDA_VISIBLE_DEVICES=2 python3 Few_shot.py --dataset_name xlsum --seed 41 --save_path_root ./results --n_shots 10 --max_new_tokens 500
+CUDA_VISIBLE_DEVICES=2 python3 Zero_shot.py --dataset_name xlsum --seed 41 --save_path_root ./results --max_new_tokens 500
+CUDA_VISIBLE_DEVICES=2 python3 Diff_icv.py --dataset_name xlsum --seed 41 --save_path_root ./results --n_shots 10 --max_new_tokens 500  
 
-echo "All datasets processed successfully!"
+CUDA_VISIBLE_DEVICES=2 python3 Few_shot.py --dataset_name xlsum --seed 40 --save_path_root ./results --n_shots 10 --max_new_tokens 500
+CUDA_VISIBLE_DEVICES=2 python3 Zero_shot.py --dataset_name xlsum --seed 40 --save_path_root ./results --max_new_tokens 500
+CUDA_VISIBLE_DEVICES=2 python3 Diff_icv.py --dataset_name xlsum --seed 40 --save_path_root ./results --n_shots 10 --max_new_tokens 500  
