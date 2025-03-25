@@ -1,0 +1,1680 @@
+{
+    "score": {
+        "exact_match": 0.6276150627615062
+    },
+    "result": [
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: further\nOutput:",
+            "test_query": "further",
+            "prediction": "less\nExplanation: The antonym of \"further\" is \"less\". Note that this is not",
+            "cleaned_prediction": "less",
+            "gt": "closer"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: fact\nOutput:",
+            "test_query": "fact",
+            "prediction": "fiction\n\nInput: free\nOutput: slave\n\nInput: light\nOutput: darkness\n\nInput: happy",
+            "cleaned_prediction": "fiction",
+            "gt": "fiction"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: universal\nOutput:",
+            "test_query": "universal",
+            "prediction": "particular\n\nGiven an English word, output its antonym.\nInput: huge\nOutput: tiny\n\nGiven",
+            "cleaned_prediction": "particular",
+            "gt": "specific"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: medial\nOutput:",
+            "test_query": "medial",
+            "prediction": "lateral\nInput: large\nOutput: small\nInput: fast\nOutput: slow\nInput: high",
+            "cleaned_prediction": "lateral",
+            "gt": "lateral"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: excellent\nOutput:",
+            "test_query": "excellent",
+            "prediction": "poor\nGiven an English word, output a synonym.\nInput: excellent\nOutput: superb\nGiven a",
+            "cleaned_prediction": "poor",
+            "gt": "poor"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: require\nOutput:",
+            "test_query": "require",
+            "prediction": "dispense\n\nExplanation: The words \"require\" and \"dispense\" are antonyms.\n\nNote:",
+            "cleaned_prediction": "dispense",
+            "gt": "exempt"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: convoluted\nOutput:",
+            "test_query": "convoluted",
+            "prediction": "simple\n\nInput: fragile\nOutput: strong\n\nInput: complex\nOutput: straightforward\n\nInput: beautiful",
+            "cleaned_prediction": "simple",
+            "gt": "straightforward"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: proceed\nOutput:",
+            "test_query": "proceed",
+            "prediction": "halt\n\nGiven an English word, output a synonym.\nInput: proceed\nOutput: advance\n\nGiven an",
+            "cleaned_prediction": "halt",
+            "gt": "halt"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: promote\nOutput:",
+            "test_query": "promote",
+            "prediction": "demote\n\nExplanation: A word and its antonym are synonyms in reverse order.\n\n```python\ndef",
+            "cleaned_prediction": "demote",
+            "gt": "demote"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: set\nOutput:",
+            "test_query": "set",
+            "prediction": "gather\nInput: fast\nOutput: slow\nInput: go\nOutput: stop\nInput: small",
+            "cleaned_prediction": "gather",
+            "gt": "unset"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: matter\nOutput:",
+            "test_query": "matter",
+            "prediction": "antimatter\n\nExplanation: An antonym of the word \"matter\" is \"antimatter\".\n```",
+            "cleaned_prediction": "antimatter",
+            "gt": "antimatter"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: commercial\nOutput:",
+            "test_query": "commercial",
+            "prediction": "non-commercial\n\nHowever, if the word is not found in the antonym dictionary, output a message saying",
+            "cleaned_prediction": "non-commercial",
+            "gt": "residential"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: upper\nOutput:",
+            "test_query": "upper",
+            "prediction": "lower\n\nInput: big\nOutput: small\n\nInput: fast\nOutput: slow\n\nInput: happy",
+            "cleaned_prediction": "lower",
+            "gt": "lower"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: neutral\nOutput:",
+            "test_query": "neutral",
+            "prediction": "biased\n\nGiven a binary string, output a decimal number.\nInput: 1011\nOutput:",
+            "cleaned_prediction": "biased",
+            "gt": "biased"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: arrive\nOutput:",
+            "test_query": "arrive",
+            "prediction": "leave\n\nGiven a mathematical expression, output the result of the expression.\nInput: 10 * 2",
+            "cleaned_prediction": "leave",
+            "gt": "depart"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: socialist\nOutput:",
+            "test_query": "socialist",
+            "prediction": "capitalist\nInput: freedom\nOutput: slavery\n\nThis is a code challenge. You can write in any",
+            "cleaned_prediction": "capitalist",
+            "gt": "capitalist"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: distrust\nOutput:",
+            "test_query": "distrust",
+            "prediction": "trust\nInput: fragile\nOutput: sturdy\nInput: simple\nOutput: complex\nInput: happy",
+            "cleaned_prediction": "trust",
+            "gt": "trust"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: chaotic\nOutput:",
+            "test_query": "chaotic",
+            "prediction": "orderly\nExplanation: An antonym of chaotic is orderly. Orderly means being in proper and tidy order",
+            "cleaned_prediction": "orderly",
+            "gt": "orderly"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: obedience\nOutput:",
+            "test_query": "obedience",
+            "prediction": "disobedience\n\nExamples:\n\nInput: quietness\nOutput: noise\n\nInput: silence\nOutput: loud",
+            "cleaned_prediction": "disobedience",
+            "gt": "disobedience"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: lender\nOutput:",
+            "test_query": "lender",
+            "prediction": "borrower\n\nInput: donor\nOutput: recipient\n\nInput: seller\nOutput: buyer\n\nInput: owner",
+            "cleaned_prediction": "borrower",
+            "gt": "borrower"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: intellectual\nOutput:",
+            "test_query": "intellectual",
+            "prediction": "unlearned\nExplanation: The antonym of intellectual is unlearned.\nNote: The antonym",
+            "cleaned_prediction": "unlearned",
+            "gt": "unintellectual"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: hold\nOutput:",
+            "test_query": "hold",
+            "prediction": "release\n\nGiven a string of English words, output an antonym for each word.\nInput: hold,",
+            "cleaned_prediction": "release",
+            "gt": "release"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: fugitive\nOutput:",
+            "test_query": "fugitive",
+            "prediction": "captive\n\nGiven an English word, output an antonym.\nInput: liberty\nOutput: slavery\n\nGiven",
+            "cleaned_prediction": "captive",
+            "gt": "law-abiding citizen"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: infinite\nOutput:",
+            "test_query": "infinite",
+            "prediction": "finite\n\n### Step 1: Define the Problem\nThe task is to find the antonym of a",
+            "cleaned_prediction": "finite",
+            "gt": "finite"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: offence\nOutput:",
+            "test_query": "offence",
+            "prediction": "defence\nThis task is much easier if we have a list of antonyms that we can use to look",
+            "cleaned_prediction": "defence",
+            "gt": "defence"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: outlaw\nOutput:",
+            "test_query": "outlaw",
+            "prediction": "law-abiding citizen\nExplanation: Antonyms can be subjective and context-dependent, but in this example,",
+            "cleaned_prediction": "law-abiding citizen",
+            "gt": "law-abiding citizen"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: sour\nOutput:",
+            "test_query": "sour",
+            "prediction": "sweet\nGiven a list of numbers, output the number of positive integers.\nInput: [1, -",
+            "cleaned_prediction": "sweet",
+            "gt": "sweet"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: cause\nOutput:",
+            "test_query": "cause",
+            "prediction": "effect\nGiven a noun, output a plural form of the noun.\nInput: cat\nOutput: cats",
+            "cleaned_prediction": "effect",
+            "gt": "effect"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: assail\nOutput:",
+            "test_query": "assail",
+            "prediction": "protect\n\nExplanation: The antonym of \"assail\" is \"protect\".\n\nInput: flee\nOutput",
+            "cleaned_prediction": "protect",
+            "gt": "defend"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: dirty\nOutput:",
+            "test_query": "dirty",
+            "prediction": "clean\n\nExplanation: dirty is the antonym of clean.\n\nExample Cases:\nInput: hot\nOutput:",
+            "cleaned_prediction": "clean",
+            "gt": "clean"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: chilly\nOutput:",
+            "test_query": "chilly",
+            "prediction": "warm\n\n## Step 1: Identify the meaning of the input word\nThe input word is \"ch",
+            "cleaned_prediction": "warm",
+            "gt": "warm"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: incompatible\nOutput:",
+            "test_query": "incompatible",
+            "prediction": "compatible\nInput: loud\nOutput: quiet\nInput: small\nOutput: large\nInput: happy",
+            "cleaned_prediction": "compatible",
+            "gt": "compatible"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: insufficient\nOutput:",
+            "test_query": "insufficient",
+            "prediction": "sufficient\nExplanation: An antonym of insufficient is sufficient.\n\nExample 2:\nInput: beautiful\nOutput",
+            "cleaned_prediction": "sufficient",
+            "gt": "sufficient"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: accept\nOutput:",
+            "test_query": "accept",
+            "prediction": "reject\n\nExplanation: accept and reject are antonyms of each other.\n\nNote: The word will not be",
+            "cleaned_prediction": "reject",
+            "gt": "reject"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: awake\nOutput:",
+            "test_query": "awake",
+            "prediction": "asleep\nGiven an English word, output a synonym.\nInput: awake\nOutput: alert\n\nThe following",
+            "cleaned_prediction": "asleep",
+            "gt": "asleep"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: bogus\nOutput:",
+            "test_query": "bogus",
+            "prediction": "authentic\n\nGiven a English word, output a synonym.\nInput: big\nOutput: large\n\nGiven an",
+            "cleaned_prediction": "authentic",
+            "gt": "authentic"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: spurious\nOutput:",
+            "test_query": "spurious",
+            "prediction": "authentic\n\nYou can use any programming language to complete this task.\nIn this example, we will use Python",
+            "cleaned_prediction": "authentic",
+            "gt": "authentic"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: mild\nOutput:",
+            "test_query": "mild",
+            "prediction": "extreme\nInput: happy\nOutput: sad\nInput: calm\nOutput: frantic\nInput: tired",
+            "cleaned_prediction": "extreme",
+            "gt": "severe"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: incoming\nOutput:",
+            "test_query": "incoming",
+            "prediction": "outgoing\nInput: large\nOutput: small\nInput: good\nOutput: bad\nInput: same",
+            "cleaned_prediction": "outgoing",
+            "gt": "outgoing"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: advanced\nOutput:",
+            "test_query": "advanced",
+            "prediction": "primitive\n\nInput: big\nOutput: small\n\nInput: long\nOutput: short\n\nInput: fast",
+            "cleaned_prediction": "primitive",
+            "gt": "basic"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: admit\nOutput:",
+            "test_query": "admit",
+            "prediction": "deny\n```\ndef antonym(word):\n    antonyms = {\"admit\": \"deny\", \"",
+            "cleaned_prediction": "deny",
+            "gt": "deny"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: someone\nOutput:",
+            "test_query": "someone",
+            "prediction": "no one\n\nGiven an English word, output a synonym.\nInput: someone\nOutput: a person",
+            "cleaned_prediction": "no one",
+            "gt": "no one"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: clumsy\nOutput:",
+            "test_query": "clumsy",
+            "prediction": "agile\n\nGiven an English word, output a synonym.\nInput: small\nOutput: miniature\n\nGiven an",
+            "cleaned_prediction": "agile",
+            "gt": "graceful"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: falsehood\nOutput:",
+            "test_query": "falsehood",
+            "prediction": "truth\n\nNote: There are many different antonyms, so output any of them. In this case,",
+            "cleaned_prediction": "truth",
+            "gt": "truth"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: refined\nOutput:",
+            "test_query": "refined",
+            "prediction": "crude\n\nInput: fresh\nOutput: stale\n\nInput: hot\nOutput: cold\n\nInput: strong",
+            "cleaned_prediction": "crude",
+            "gt": "crude"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: bitter\nOutput:",
+            "test_query": "bitter",
+            "prediction": "sweet\n\nNote: \nThe antonym of a word can have a different tense, number, and/or",
+            "cleaned_prediction": "sweet",
+            "gt": "sweet"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: let\nOutput:",
+            "test_query": "let",
+            "prediction": "not\n\nInput: good\nOutput: bad\n\nInput: new\nOutput: old\n\nInput: old",
+            "cleaned_prediction": "not",
+            "gt": "prevent"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: familiar\nOutput:",
+            "test_query": "familiar",
+            "prediction": "strange\n\nExplanation: The antonym of \"familiar\" is \"strange\".\n```python\ndef",
+            "cleaned_prediction": "strange",
+            "gt": "unfamiliar"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: humility\nOutput:",
+            "test_query": "humility",
+            "prediction": "arrogance\n\nInput: gentle\nOutput: harsh\n\nInput: peace\nOutput: war\n\nInput: happy",
+            "cleaned_prediction": "arrogance",
+            "gt": "pride"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: dense\nOutput:",
+            "test_query": "dense",
+            "prediction": "sparse\n\nInput: large\nOutput: small\n\nInput: fast\nOutput: slow\n\nInput: hot",
+            "cleaned_prediction": "sparse",
+            "gt": "sparse"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: miss\nOutput:",
+            "test_query": "miss",
+            "prediction": "hit\n\nExplanation: miss is antonym for hit.\n\nExample 2:\nInput: small\nOutput:",
+            "cleaned_prediction": "hit",
+            "gt": "hit"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: optional\nOutput:",
+            "test_query": "optional",
+            "prediction": "required\n\nInput: happy\nOutput: sad\n\nInput: big\nOutput: small\n\nInput: fast",
+            "cleaned_prediction": "required",
+            "gt": "mandatory"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: local\nOutput:",
+            "test_query": "local",
+            "prediction": "global\n\nInput: good\nOutput: bad\n\nInput: happy\nOutput: sad\n\nInput: big",
+            "cleaned_prediction": "global",
+            "gt": "foreign"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: uneasy\nOutput:",
+            "test_query": "uneasy",
+            "prediction": "calm\n\nExplanation: uneasy means anxious or apprehensive, so calm is the antonym.\n\n```python",
+            "cleaned_prediction": "calm",
+            "gt": "comfortable"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: wisdom\nOutput:",
+            "test_query": "wisdom",
+            "prediction": "foolishness\nExplanation: The antonym of the word wisdom is foolishness.\n\nNote: Antonyms of",
+            "cleaned_prediction": "foolishness",
+            "gt": "foolishness"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: speed\nOutput:",
+            "test_query": "speed",
+            "prediction": "slowness\n\nInput: darkness\nOutput: lightness\n\nInput: happiness\nOutput: sadness",
+            "cleaned_prediction": "slowness",
+            "gt": "slowness"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: catalyst\nOutput:",
+            "test_query": "catalyst",
+            "prediction": "inhibitor\n\nGiven a date, output the date one month from now.\nInput: 2019-04",
+            "cleaned_prediction": "inhibitor",
+            "gt": "inhibitor"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: protagonist\nOutput:",
+            "test_query": "protagonist",
+            "prediction": "antagonist\n\n## Step 1: Understand the concept of antonyms\nAn antonym is a word that",
+            "cleaned_prediction": "antagonist",
+            "gt": "antagonist"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: white\nOutput:",
+            "test_query": "white",
+            "prediction": "black\n\nGiven an English word, output a synonym.\nInput: hot\nOutput: warm\n\nGiven an",
+            "cleaned_prediction": "black",
+            "gt": "black"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: specified\nOutput:",
+            "test_query": "specified",
+            "prediction": "identical\n\nExplanation:\nThe input word is specified. This word has the opposite meaning to identical. Therefore,",
+            "cleaned_prediction": "identical",
+            "gt": "unspecified"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: rude\nOutput:",
+            "test_query": "rude",
+            "prediction": "polite\n\nHere are the steps to solve this problem:\n\n1. Use the `re` module to replace",
+            "cleaned_prediction": "polite",
+            "gt": "polite"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: tall\nOutput:",
+            "test_query": "tall",
+            "prediction": "short\n\nGiven an English word, output a plural form.\nInput: cat\nOutput: cats\n\nGiven",
+            "cleaned_prediction": "short",
+            "gt": "short"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: sink\nOutput:",
+            "test_query": "sink",
+            "prediction": "float\n\nGiven an English word, output a synonym.\nInput: float\nOutput: buoyant\n\nGiven",
+            "cleaned_prediction": "float",
+            "gt": "float"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: intelligent\nOutput:",
+            "test_query": "intelligent",
+            "prediction": "unintelligent\nExplanation: The word \"intelligent\" has an antonym of \"unintelligent\".",
+            "cleaned_prediction": "unintelligent",
+            "gt": "unintelligent"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: overt\nOutput:",
+            "test_query": "overt",
+            "prediction": "covert\nInput: good\nOutput: bad\nInput: fast\nOutput: slow\nInput: big",
+            "cleaned_prediction": "covert",
+            "gt": "covert"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: foul\nOutput:",
+            "test_query": "foul",
+            "prediction": "clean\n\nExplanation: The antonym of foul is clean. \n```python\ndef antonym(word):",
+            "cleaned_prediction": "clean",
+            "gt": "fair"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: improvement\nOutput:",
+            "test_query": "improvement",
+            "prediction": "deterioration\n\nGiven a mathematical expression, determine if it is valid.\nInput: 4 + 3 *",
+            "cleaned_prediction": "deterioration",
+            "gt": "deterioration"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: terrestrial\nOutput:",
+            "test_query": "terrestrial",
+            "prediction": "celestial\nInput: big\nOutput: small\nInput: happy\nOutput: sad\nInput: good",
+            "cleaned_prediction": "celestial",
+            "gt": "aquatic"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: martial\nOutput:",
+            "test_query": "martial",
+            "prediction": "pacifist\n\nInput: aggressive\nOutput: timid\n\nInput: violent\nOutput: non-violent",
+            "cleaned_prediction": "pacifist",
+            "gt": "civilian"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: front\nOutput:",
+            "test_query": "front",
+            "prediction": "back\nInput: big\nOutput: small\nInput: fast\nOutput: slow\n\n# Antonyms",
+            "cleaned_prediction": "back",
+            "gt": "back"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: lie\nOutput:",
+            "test_query": "lie",
+            "prediction": "truth\nInput: fast\nOutput: slow\nInput: big\nOutput: small\nInput: happy",
+            "cleaned_prediction": "truth",
+            "gt": "truth"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: northwest\nOutput:",
+            "test_query": "northwest",
+            "prediction": "southeast\nInput: south\nOutput: north\nInput: big\nOutput: small\nInput: run",
+            "cleaned_prediction": "southeast",
+            "gt": "southeast"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: red\nOutput:",
+            "test_query": "red",
+            "prediction": "blue\n\nInput: big\nOutput: small\n\nInput: happy\nOutput: sad\n\nInput: new",
+            "cleaned_prediction": "blue",
+            "gt": "blue"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: worn\nOutput:",
+            "test_query": "worn",
+            "prediction": "new\n\nGiven a string, output the string with the first and last characters swapped.\nInput: hello",
+            "cleaned_prediction": "new",
+            "gt": "new"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: kid\nOutput:",
+            "test_query": "kid",
+            "prediction": "adult\nGiven a string of English words, output an antonym for each word.\nInput: dog happy",
+            "cleaned_prediction": "adult",
+            "gt": "adult"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: periodic\nOutput:",
+            "test_query": "periodic",
+            "prediction": "non-periodic\n\nInput: random\nOutput: deterministic\n\nInput: flexible\nOutput: inflexible",
+            "cleaned_prediction": "non-periodic",
+            "gt": "aperiodic"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: misconception\nOutput:",
+            "test_query": "misconception",
+            "prediction": "understanding\nStep 1: The first step is to understand the concept of antonyms. Antonyms are",
+            "cleaned_prediction": "understanding",
+            "gt": "understanding"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: difficult\nOutput:",
+            "test_query": "difficult",
+            "prediction": "easy\n\nInput: fast\nOutput: slow\n\nInput: big\nOutput: small\n\nNote: Ant",
+            "cleaned_prediction": "easy",
+            "gt": "easy"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: lower\nOutput:",
+            "test_query": "lower",
+            "prediction": "upper\n\nInput: left\nOutput: right\n\nInput: down\nOutput: up\n\nInput: east",
+            "cleaned_prediction": "upper",
+            "gt": "upper"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: drunk\nOutput:",
+            "test_query": "drunk",
+            "prediction": "sober\nInput: hot\nOutput: cold\nInput: big\nOutput: small\n\n```python",
+            "cleaned_prediction": "sober",
+            "gt": "sober"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: unorthodox\nOutput:",
+            "test_query": "unorthodox",
+            "prediction": "conventional\n\nHere is a simple program that does this:\n\n```python\nantonyms = {\n    'un",
+            "cleaned_prediction": "conventional",
+            "gt": "orthodox"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: union\nOutput:",
+            "test_query": "union",
+            "prediction": "separation\n\nGiven an English word, output its opposite.\nInput: fast\nOutput: slow\n\nGiven an",
+            "cleaned_prediction": "separation",
+            "gt": "division"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: stuff\nOutput:",
+            "test_query": "stuff",
+            "prediction": "nothing\n\nExplanation: This is a simple antonym of \"stuff\". We are not asking for all ant",
+            "cleaned_prediction": "nothing",
+            "gt": "empty"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: major\nOutput:",
+            "test_query": "major",
+            "prediction": "minor\nInput: big\nOutput: small\nInput: fast\nOutput: slow\nInput: good",
+            "cleaned_prediction": "minor",
+            "gt": "minor"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: peripheral\nOutput:",
+            "test_query": "peripheral",
+            "prediction": "central\n\nNote: In English, an antonym is a word that is opposite in meaning to another word",
+            "cleaned_prediction": "central",
+            "gt": "central"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: worldly\nOutput:",
+            "test_query": "worldly",
+            "prediction": "unworldly\n\nGiven an English word, output a synonym.\nInput: unworldly\nOutput:",
+            "cleaned_prediction": "unworldly",
+            "gt": "spiritual"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: rapid\nOutput:",
+            "test_query": "rapid",
+            "prediction": "slow\n\nFor example, given an English word, the program will output an antonym of the word.",
+            "cleaned_prediction": "slow",
+            "gt": "slow"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: unmarked\nOutput:",
+            "test_query": "unmarked",
+            "prediction": "marked\n\nGiven an English word, output a synonym.\nInput: tall\nOutput: high\n\nGiven an",
+            "cleaned_prediction": "marked",
+            "gt": "marked"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: ladies\nOutput:",
+            "test_query": "ladies",
+            "prediction": "men\nInput: computer\nOutput: manual\nInput: software\nOutput: hardware\nInput: friend",
+            "cleaned_prediction": "men",
+            "gt": "gentlemen"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: lesbian\nOutput:",
+            "test_query": "lesbian",
+            "prediction": "heterosexual\nGiven an adjective, output an antonym.\nInput: fast\nOutput: slow\nGiven a",
+            "cleaned_prediction": "heterosexual",
+            "gt": "straight"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: plain\nOutput:",
+            "test_query": "plain",
+            "prediction": "ornate\n\nGiven a mathematical expression, output the simplified expression.\nInput: 2 * (3 +",
+            "cleaned_prediction": "ornate",
+            "gt": "fancy"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: head\nOutput:",
+            "test_query": "head",
+            "prediction": "tail\nInput: hot\nOutput: cold\n\n**Antonyms**\n\nAn antonym is a word that",
+            "cleaned_prediction": "tail",
+            "gt": "tail"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: displeasure\nOutput:",
+            "test_query": "displeasure",
+            "prediction": "pleasure\n\nGiven an English word, output a synonym.\nInput: delight\nOutput: joy\n\nGiven an",
+            "cleaned_prediction": "pleasure",
+            "gt": "pleasure"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: arise\nOutput:",
+            "test_query": "arise",
+            "prediction": "sink\nGiven a positive integer, output the number of words in the input word.\nInput: 5",
+            "cleaned_prediction": "sink",
+            "gt": "settle"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: symptom\nOutput:",
+            "test_query": "symptom",
+            "prediction": "cause\n\nExplanation:  The antonym of symptom is cause. The antonym of cause is symptom.",
+            "cleaned_prediction": "cause",
+            "gt": "cure"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: dusty\nOutput:",
+            "test_query": "dusty",
+            "prediction": "clean\n\nGiven an English word, output a synonym.\nInput: clean\nOutput: tidy\n\nGiven an",
+            "cleaned_prediction": "clean",
+            "gt": "clean"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: location\nOutput:",
+            "test_query": "location",
+            "prediction": "remote\n\nNote: In this case, the antonym is not the direct opposite word, but a word",
+            "cleaned_prediction": "remote",
+            "gt": "displacement"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: coloured\nOutput:",
+            "test_query": "coloured",
+            "prediction": "monochrome\nNote: Antonyms can be subjective and are often context-dependent. This is a simplified example",
+            "cleaned_prediction": "monochrome",
+            "gt": "monochrome"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: retrieve\nOutput:",
+            "test_query": "retrieve",
+            "prediction": "lose\nInput: active\nOutput: passive\nInput: happy\nOutput: sad\nInput: simple",
+            "cleaned_prediction": "lose",
+            "gt": "discard"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: mad\nOutput:",
+            "test_query": "mad",
+            "prediction": "calm\n\nInput: slow\nOutput: fast\n\nInput: happy\nOutput: sad\n\nInput: good",
+            "cleaned_prediction": "calm",
+            "gt": "sane"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: dark\nOutput:",
+            "test_query": "dark",
+            "prediction": "light\nInput: hot\nOutput: cold\nInput: big\nOutput: small\n\n# Problem",
+            "cleaned_prediction": "light",
+            "gt": "light"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: constructive\nOutput:",
+            "test_query": "constructive",
+            "prediction": "destructive\n\nExplanation:\nThe antonym of constructive is destructive.\n\nNote: The antonym is determined by replacing",
+            "cleaned_prediction": "destructive",
+            "gt": "destructive"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: shallow\nOutput:",
+            "test_query": "shallow",
+            "prediction": "deep\nGiven a math problem (e.g. 2 + 3 =?), output the solution",
+            "cleaned_prediction": "deep",
+            "gt": "deep"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: genuine\nOutput:",
+            "test_query": "genuine",
+            "prediction": "fake\nInput: fast\nOutput: slow\nInput: happy\nOutput: sad\nInput: good",
+            "cleaned_prediction": "fake",
+            "gt": "fake"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: short\nOutput:",
+            "test_query": "short",
+            "prediction": "long\nInput: hot\nOutput: cold\nInput: old\nOutput: new\nInput: big",
+            "cleaned_prediction": "long",
+            "gt": "long"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: evolution\nOutput:",
+            "test_query": "evolution",
+            "prediction": "devolution\nInput: creation\nOutput: destruction\n\nIn\u00a0[3]:\ndef antonym(word):",
+            "cleaned_prediction": "devolution",
+            "gt": "devolution"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: line\nOutput:",
+            "test_query": "line",
+            "prediction": "line (can be either antonym)\nInput: cold\nOutput: hot\nInput: dark\nOutput",
+            "cleaned_prediction": "line (can be either antonym)",
+            "gt": "curve"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: field\nOutput:",
+            "test_query": "field",
+            "prediction": "desert\n\nGiven a temperature in degrees Celsius, output the temperature in degrees Fahrenheit.\nInput: 30",
+            "cleaned_prediction": "desert",
+            "gt": "city"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: convergence\nOutput:",
+            "test_query": "convergence",
+            "prediction": "divergence\n\nExamples:\n- input: good\n- output: bad\n- input: fast\n- output",
+            "cleaned_prediction": "divergence",
+            "gt": "divergence"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: dim\nOutput:",
+            "test_query": "dim",
+            "prediction": "bright\nExplanation: dim and bright are antonyms.\nNote: antonyms are words with opposite meaning.",
+            "cleaned_prediction": "bright",
+            "gt": "bright"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: venerable\nOutput:",
+            "test_query": "venerable",
+            "prediction": "contemptible\n1. The antonym of \"venerable\" is \"contemptible\".",
+            "cleaned_prediction": "contemptible",
+            "gt": "disreputable"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: irresponsible\nOutput:",
+            "test_query": "irresponsible",
+            "prediction": "responsible\n\nGiven a dictionary of English words, output a list of antonyms.\nInput: [\"irres",
+            "cleaned_prediction": "responsible",
+            "gt": "responsible"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: northwestern\nOutput:",
+            "test_query": "northwestern",
+            "prediction": "southeastern\n\nExplanation:\nSince the antonym of 'north' is'south' and 'west' is",
+            "cleaned_prediction": "southeastern",
+            "gt": "southeastern"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: defensive\nOutput:",
+            "test_query": "defensive",
+            "prediction": "aggressive\nInput: beautiful\nOutput: ugly\nInput: complex\nOutput: simple\nInput: perfect",
+            "cleaned_prediction": "aggressive",
+            "gt": "offensive"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: original\nOutput:",
+            "test_query": "original",
+            "prediction": "opposite\n\nGiven a date in the format mm/dd/yyyy, output a date in the format mm/dd/yyyy",
+            "cleaned_prediction": "opposite",
+            "gt": "copy"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: subconscious\nOutput:",
+            "test_query": "subconscious",
+            "prediction": "conscious\n\nInput: silent\nOutput: loud\n\nInput: heavy\nOutput: light\n\nInput: active",
+            "cleaned_prediction": "conscious",
+            "gt": "conscious"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: copy\nOutput:",
+            "test_query": "copy",
+            "prediction": "delete\nInput: merge\nOutput: split\nInput: new\nOutput: old\nInput: save",
+            "cleaned_prediction": "delete",
+            "gt": "original"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: attract\nOutput:",
+            "test_query": "attract",
+            "prediction": "repel\n\n### Solution\n\n```python\ndef antonym(word):\n    \"\"\"\n    Returns an antonym",
+            "cleaned_prediction": "repel",
+            "gt": "repel"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: magnetic\nOutput:",
+            "test_query": "magnetic",
+            "prediction": "non-magnetic\n\nExplanation: An antonym of the adjective \u201cmagnetic\u201d is \u201cnon-magnetic",
+            "cleaned_prediction": "non-magnetic",
+            "gt": "nonmagnetic"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: injustice\nOutput:",
+            "test_query": "injustice",
+            "prediction": "justice\n\nExplanation: An antonym is a word that has the opposite meaning of the input word. In",
+            "cleaned_prediction": "justice",
+            "gt": "justice"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: mortality\nOutput:",
+            "test_query": "mortality",
+            "prediction": "immortality\n\nGiven a noun, output an antonym.\nInput: happiness\nOutput: unhappiness",
+            "cleaned_prediction": "immortality",
+            "gt": "immortality"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: laughter\nOutput:",
+            "test_query": "laughter",
+            "prediction": "silence\n\nGiven a phrase, output its antonym.\nInput: \"I love you.\"\nOutput: \"",
+            "cleaned_prediction": "silence",
+            "gt": "tears"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: inhuman\nOutput:",
+            "test_query": "inhuman",
+            "prediction": "human\n\nInput: cruel\nOutput: kind\n\nInput: slow\nOutput: fast\n\nInput: fragile",
+            "cleaned_prediction": "human",
+            "gt": "human"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: heavenly\nOutput:",
+            "test_query": "heavenly",
+            "prediction": "earthly\nExplanation: heavenly is the opposite of earthly, so an antonym of heavenly is earthly.",
+            "cleaned_prediction": "earthly",
+            "gt": "hellish"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: half\nOutput:",
+            "test_query": "half",
+            "prediction": "full\n\nGiven a word, determine whether it's a noun, verb, adjective, or adverb.",
+            "cleaned_prediction": "full",
+            "gt": "full"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: unpopular\nOutput:",
+            "test_query": "unpopular",
+            "prediction": "popular\n\nThis problem is relatively simple because it only requires looking up antonyms for each word in the input",
+            "cleaned_prediction": "popular",
+            "gt": "popular"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: recession\nOutput:",
+            "test_query": "recession",
+            "prediction": "prosperity\n\nGiven a word that represents a time in the day, output the opposite time of day.\nInput",
+            "cleaned_prediction": "prosperity",
+            "gt": "boom"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: poor\nOutput:",
+            "test_query": "poor",
+            "prediction": "rich\nInput: fast\nOutput: slow\nInput: happy\nOutput: sad\nInput: big",
+            "cleaned_prediction": "rich",
+            "gt": "rich"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: noisy\nOutput:",
+            "test_query": "noisy",
+            "prediction": "quiet\n\nIf the word ends with \"y\", it is treated as a plural noun and the antonym",
+            "cleaned_prediction": "quiet",
+            "gt": "quiet"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: specialize\nOutput:",
+            "test_query": "specialize",
+            "prediction": "generalize\n\n## Step 1: Understand the concept of antonyms\nTo find an antonym for a",
+            "cleaned_prediction": "generalize",
+            "gt": "generalize"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: polite\nOutput:",
+            "test_query": "polite",
+            "prediction": "rude\n\nGiven a word, output a synonym.\nInput: quick\nOutput: fast\n\nGiven a word",
+            "cleaned_prediction": "rude",
+            "gt": "rude"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: spacious\nOutput:",
+            "test_query": "spacious",
+            "prediction": "cramped\n\nExplanation: An antonym of \"spacious\" is \"cramped\". \nNote: An",
+            "cleaned_prediction": "cramped",
+            "gt": "cramped"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: hideous\nOutput:",
+            "test_query": "hideous",
+            "prediction": "beautiful\n\nGiven an English word, output a synonym.\nInput: run\nOutput: jog\n\nGiven an",
+            "cleaned_prediction": "beautiful",
+            "gt": "beautiful"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: judicial\nOutput:",
+            "test_query": "judicial",
+            "prediction": "non-judicial\n\nExplanation: The antonym of \"judicial\" is \"non-judicial",
+            "cleaned_prediction": "non-judicial",
+            "gt": "extrajudicial"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: observational\nOutput:",
+            "test_query": "observational",
+            "prediction": "unobservant\nGiven an adjective, output a synonym.\nInput: big\nOutput: large\n\nGiven",
+            "cleaned_prediction": "unobservant",
+            "gt": "theoretical"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: shorten\nOutput:",
+            "test_query": "shorten",
+            "prediction": "lengthen\n\n```python\ndef antonym(word):\n    antonyms = {\n        \"shorten\":",
+            "cleaned_prediction": "lengthen",
+            "gt": "lengthen"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: gay\nOutput:",
+            "test_query": "gay",
+            "prediction": "straight\n\nGiven a number, output the number of days in the month for the month with that number in",
+            "cleaned_prediction": "straight",
+            "gt": "straight"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: insignificant\nOutput:",
+            "test_query": "insignificant",
+            "prediction": "significant\n\nGiven a mathematical expression, output the value of the expression.\n\nInput: 1+1",
+            "cleaned_prediction": "significant",
+            "gt": "significant"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: stable\nOutput:",
+            "test_query": "stable",
+            "prediction": "unstable\n\nIn this challenge, we need to find the antonym of the word \"stable\". This means",
+            "cleaned_prediction": "unstable",
+            "gt": "unstable"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: concentration\nOutput:",
+            "test_query": "concentration",
+            "prediction": "distraction\nInput: solitude\nOutput: companionship\nInput: chaos\nOutput: order\nInput:",
+            "cleaned_prediction": "distraction",
+            "gt": "distraction"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: fertile\nOutput:",
+            "test_query": "fertile",
+            "prediction": "barren\n\nHere is a dictionary file:\n```\napple:fruit\nfertile:barren",
+            "cleaned_prediction": "barren",
+            "gt": "infertile"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: delete\nOutput:",
+            "test_query": "delete",
+            "prediction": "add\nExplanation: The antonym of delete is add, as they are opposite operations.\nInput: create",
+            "cleaned_prediction": "add",
+            "gt": "save"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: powdered\nOutput:",
+            "test_query": "powdered",
+            "prediction": "liquid\nInput: loud\nOutput: quiet\nInput: small\nOutput: large\nInput: happy",
+            "cleaned_prediction": "liquid",
+            "gt": "solid"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: conserve\nOutput:",
+            "test_query": "conserve",
+            "prediction": "waste\n\nHere is a simple Python solution:\n\n### Antonym Dictionary\n\nBelow is a basic Python script that",
+            "cleaned_prediction": "waste",
+            "gt": "waste"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: central\nOutput:",
+            "test_query": "central",
+            "prediction": "peripheral\n\nNote: Antonyms are not always exact opposites, and may be related to the word in",
+            "cleaned_prediction": "peripheral",
+            "gt": "peripheral"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: bulky\nOutput:",
+            "test_query": "bulky",
+            "prediction": "compact\n\nThis problem is asking for an antonym of a given word, which is a word that means",
+            "cleaned_prediction": "compact",
+            "gt": "compact"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: downhill\nOutput:",
+            "test_query": "downhill",
+            "prediction": "uphill\n\n# Problem\nCreate a Python program that finds antonyms for English words. The program should take",
+            "cleaned_prediction": "uphill",
+            "gt": "uphill"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: alter\nOutput:",
+            "test_query": "alter",
+            "prediction": "change\n\nInput: free\nOutput: bound\n\nInput: north\nOutput: south\n\nInput: same",
+            "cleaned_prediction": "change",
+            "gt": "preserve"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: note\nOutput:",
+            "test_query": "note",
+            "prediction": "reminder\nInput: speed\nOutput: slowness\n\nThis problem is asking us to generate an ant",
+            "cleaned_prediction": "reminder",
+            "gt": "silence"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: death\nOutput:",
+            "test_query": "death",
+            "prediction": "life\n\n## Step 1: Identify the word and its antonym\nThe word given is \"death",
+            "cleaned_prediction": "life",
+            "gt": "life"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: sister\nOutput:",
+            "test_query": "sister",
+            "prediction": "brother\n\nThe program should output the antonym of the word inputted.\n\nI don\u2019t have the answer",
+            "cleaned_prediction": "brother",
+            "gt": "brother"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: income\nOutput:",
+            "test_query": "income",
+            "prediction": "expense\n\nGiven an English word, output its antonym.\nInput: fast\nOutput: slow\n\nGiven",
+            "cleaned_prediction": "expense",
+            "gt": "expense"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: output\nOutput:",
+            "test_query": "output",
+            "prediction": "input\n\n## Step 1: Identify the Antonym\nThe antonym of \"output\" is \"",
+            "cleaned_prediction": "input",
+            "gt": "input"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: objective\nOutput:",
+            "test_query": "objective",
+            "prediction": "subjective\n\n### Step 1: Understand the task\nWe need to find the antonym of a given",
+            "cleaned_prediction": "subjective",
+            "gt": "subjective"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: beast\nOutput:",
+            "test_query": "beast",
+            "prediction": "gentle\n\nExplanation: The antonym of \"beast\" is \"gentle\" because \"beast",
+            "cleaned_prediction": "gentle",
+            "gt": "beauty"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: everything\nOutput:",
+            "test_query": "everything",
+            "prediction": "nothing\n\nInput: fast\nOutput: slow\n\nInput: big\nOutput: small\n\nInput: happy",
+            "cleaned_prediction": "nothing",
+            "gt": "nothing"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: nationalist\nOutput:",
+            "test_query": "nationalist",
+            "prediction": "internationalist\n\n# Problem\nGiven an English word, output an antonym.\nInput: nationalist\nOutput",
+            "cleaned_prediction": "internationalist",
+            "gt": "internationalist"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: appear\nOutput:",
+            "test_query": "appear",
+            "prediction": "disappear\n\n```python\ndef antonym(word):\n    antonyms = {\n        'appear': 'dis",
+            "cleaned_prediction": "disappear",
+            "gt": "disappear"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: favorable\nOutput:",
+            "test_query": "favorable",
+            "prediction": "unfavorable\n\nGiven an adjective, output an antonym.\nInput: large\nOutput: small\n\nGiven a",
+            "cleaned_prediction": "unfavorable",
+            "gt": "unfavorable"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: tomorrow\nOutput:",
+            "test_query": "tomorrow",
+            "prediction": "yesterday\nInput: big\nOutput: small\n\nAntonyms is a dictionary mapping words to antonyms.",
+            "cleaned_prediction": "yesterday",
+            "gt": "yesterday"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: homeless\nOutput:",
+            "test_query": "homeless",
+            "prediction": "housed\n\nGiven a word, output its antonym.  Antonyms are pairs of words that are opposite",
+            "cleaned_prediction": "housed",
+            "gt": "housed"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: unmanned\nOutput:",
+            "test_query": "unmanned",
+            "prediction": "manned\n\nExplanation:\nAntonyms are words that have opposite meanings. For the given word \"unmanned",
+            "cleaned_prediction": "manned",
+            "gt": "manned"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: reward\nOutput:",
+            "test_query": "reward",
+            "prediction": "penalty\nGiven a mathematical expression as a string, evaluate it.\nInput: \"1 + 2 *",
+            "cleaned_prediction": "penalty",
+            "gt": "punishment"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: absurd\nOutput:",
+            "test_query": "absurd",
+            "prediction": "normal\n\nNote: The antonym dictionary can be found at this [link](https://raw.githubusercontent.com",
+            "cleaned_prediction": "normal",
+            "gt": "sensible"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: confused\nOutput:",
+            "test_query": "confused",
+            "prediction": "clear\n\nGiven a pair of words, output a synonym.\nInput: confused, clear\nOutput: understandable",
+            "cleaned_prediction": "clear",
+            "gt": "clear-minded"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: believable\nOutput:",
+            "test_query": "believable",
+            "prediction": "unbelievable\nGiven an English word, output a synonym.\nInput: believable\nOutput: convincing\nGiven an",
+            "cleaned_prediction": "unbelievable",
+            "gt": "unbelievable"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: harass\nOutput:",
+            "test_query": "harass",
+            "prediction": "protect\n\nGiven an English word, output a synonym.\nInput: protect\nOutput: safeguard\n\nGiven an",
+            "cleaned_prediction": "protect",
+            "gt": "comfort"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: background\nOutput:",
+            "test_query": "background",
+            "prediction": "foreground\n\nFor this problem, you can consider the word \"background\" as \"fore\" and \"ground",
+            "cleaned_prediction": "foreground",
+            "gt": "foreground"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: fertility\nOutput:",
+            "test_query": "fertility",
+            "prediction": "infertility\n\nNote: Antonyms should be based on general antonyms rather than specific antonyms, unless there",
+            "cleaned_prediction": "infertility",
+            "gt": "infertility"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: dotted\nOutput:",
+            "test_query": "dotted",
+            "prediction": "undotted\n\nGiven a number in binary, output its decimal value.\nInput: 1011\nOutput",
+            "cleaned_prediction": "undotted",
+            "gt": "solid"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: civilian\nOutput:",
+            "test_query": "civilian",
+            "prediction": "military\n\nThis is a simple program that uses a predefined dictionary to find antonyms of words. It uses",
+            "cleaned_prediction": "military",
+            "gt": "military"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: expenditure\nOutput:",
+            "test_query": "expenditure",
+            "prediction": "income\nExplanation: The word \"expenditure\" refers to the amount of money or resources spent.",
+            "cleaned_prediction": "income",
+            "gt": "income"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: intentional\nOutput:",
+            "test_query": "intentional",
+            "prediction": "unintentional\nGiven a word, output a rhyming word.\nInput: elephant\nOutput: elephant",
+            "cleaned_prediction": "unintentional",
+            "gt": "accidental"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: criticize\nOutput:",
+            "test_query": "criticize",
+            "prediction": "praise\n\nGiven an English word, output the word's synonyms.\nInput: criticize\nOutput: condemn,",
+            "cleaned_prediction": "praise",
+            "gt": "praise"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: discomfort\nOutput:",
+            "test_query": "discomfort",
+            "prediction": "comfort\nInput: happiness\nOutput: unhappiness\nInput: peace\nOutput: war\nInput:",
+            "cleaned_prediction": "comfort",
+            "gt": "comfort"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: relax\nOutput:",
+            "test_query": "relax",
+            "prediction": "energize\n\ndef find_antonym(word):\n    antonyms = {\n       'relax': 'ener",
+            "cleaned_prediction": "energize",
+            "gt": "stress"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: extra\nOutput:",
+            "test_query": "extra",
+            "prediction": "insufficient\n\nHere is a simple code that can solve the problem:\n```python\ndef antonym(word):",
+            "cleaned_prediction": "insufficient",
+            "gt": "lacking"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: sacred\nOutput:",
+            "test_query": "sacred",
+            "prediction": "profane\n\nExplanation: An antonym of \"sacred\" is \"profane\". Profane",
+            "cleaned_prediction": "profane",
+            "gt": "profane"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: plentiful\nOutput:",
+            "test_query": "plentiful",
+            "prediction": "scarce\n\nNote: An antonym is a word that has the opposite meaning of another word.\nHere's",
+            "cleaned_prediction": "scarce",
+            "gt": "scarce"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: moral\nOutput:",
+            "test_query": "moral",
+            "prediction": "immoral\n\nLet's create a simple Python program that will take an input word and return its antonym from",
+            "cleaned_prediction": "immoral",
+            "gt": "immoral"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: smart\nOutput:",
+            "test_query": "smart",
+            "prediction": "dumb\n\nNote: Antonyms are subjective and not all words have direct antonyms, but we will assume",
+            "cleaned_prediction": "dumb",
+            "gt": "dumb"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: mark\nOutput:",
+            "test_query": "mark",
+            "prediction": "unmark\n\nGiven a string of English words, output an antonym for each word in the string.",
+            "cleaned_prediction": "unmark",
+            "gt": "unmark"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: entire\nOutput:",
+            "test_query": "entire",
+            "prediction": "whole\n\nHere are the rules:\n\n1. If the word ends with \"ly\", remove the \"ly",
+            "cleaned_prediction": "whole",
+            "gt": "partial"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: treacherous\nOutput:",
+            "test_query": "treacherous",
+            "prediction": "harmless\n\n## Step 1: Understand the task\nThe task requires generating an antonym for a given",
+            "cleaned_prediction": "harmless",
+            "gt": "trustworthy"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: inaccessible\nOutput:",
+            "test_query": "inaccessible",
+            "prediction": "accessible\n\nGiven a sentence with multiple words, output the word with its antonym.\nInput: The house",
+            "cleaned_prediction": "accessible",
+            "gt": "accessible"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: inexpensive\nOutput:",
+            "test_query": "inexpensive",
+            "prediction": "expensive\n\nExplanation: inexpensive and expensive are antonyms.\n\nInput: fast\nOutput: slow\n\nExplanation:",
+            "cleaned_prediction": "expensive",
+            "gt": "expensive"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: classify\nOutput:",
+            "test_query": "classify",
+            "prediction": "categorize\n\nInput: differentiate\nOutput: homogenize\n\nInput: distinguish\nOutput: obscure",
+            "cleaned_prediction": "categorize",
+            "gt": "disorganize"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: historical\nOutput:",
+            "test_query": "historical",
+            "prediction": "contemporary\n\nHere is a simple Python program to find the antonym of a given English word:\n\n```python",
+            "cleaned_prediction": "contemporary",
+            "gt": "contemporary"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: grow\nOutput:",
+            "test_query": "grow",
+            "prediction": "shrink\nFor a given word, find an antonym, which is a word with the opposite meaning.",
+            "cleaned_prediction": "shrink",
+            "gt": "shrink"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: repair\nOutput:",
+            "test_query": "repair",
+            "prediction": "damage\nInput: perfect\nOutput: imperfect\nInput: happy\nOutput: unhappy\nNote: All",
+            "cleaned_prediction": "damage",
+            "gt": "damage"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: decrease\nOutput:",
+            "test_query": "decrease",
+            "prediction": "increase\n\n## Step 1: Identify the meaning of the word\nThe word \"decrease\" means",
+            "cleaned_prediction": "increase",
+            "gt": "increase"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: visual\nOutput:",
+            "test_query": "visual",
+            "prediction": "invisible\nExplanation: \"visual\" and \"invisible\" are antonyms because they are opposite in meaning.",
+            "cleaned_prediction": "invisible",
+            "gt": "auditory"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: secret\nOutput:",
+            "test_query": "secret",
+            "prediction": "public\n\nInput: fast\nOutput: slow\n\nInput: easy\nOutput: hard\n\nInput: happy",
+            "cleaned_prediction": "public",
+            "gt": "public"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: unclear\nOutput:",
+            "test_query": "unclear",
+            "prediction": "clear\n\nInput: bright\nOutput: dim\n\nInput: slow\nOutput: fast\n\nInput: large",
+            "cleaned_prediction": "clear",
+            "gt": "clear"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: capable\nOutput:",
+            "test_query": "capable",
+            "prediction": "incapable\nInput: happy\nOutput: unhappy\nInput: large\nOutput: small\nInput: full",
+            "cleaned_prediction": "incapable",
+            "gt": "incapable"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: feature\nOutput:",
+            "test_query": "feature",
+            "prediction": "defect\nInput: good\nOutput: bad\nInput: small\nOutput: big\nInput: hot",
+            "cleaned_prediction": "defect",
+            "gt": "bug"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: functional\nOutput:",
+            "test_query": "functional",
+            "prediction": "dysfunctional\nInput: successful\nOutput: unsuccessful\nInput: happy\nOutput: unhappy\nInput: big",
+            "cleaned_prediction": "dysfunctional",
+            "gt": "dysfunctional"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: subdued\nOutput:",
+            "test_query": "subdued",
+            "prediction": "boisterous\n\nInput: quiet\nOutput: loud\n\nInput: peaceful\nOutput: turbulent\n\nInput",
+            "cleaned_prediction": "boisterous",
+            "gt": "vibrant"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: wake\nOutput:",
+            "test_query": "wake",
+            "prediction": "sleep\nInput: rise\nOutput: fall\nInput: large\nOutput: small\nInput: heavy",
+            "cleaned_prediction": "sleep",
+            "gt": "sleep"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: decline\nOutput:",
+            "test_query": "decline",
+            "prediction": "accept\n\n# Solution\n\nTo find the antonym of a word, we can use a dictionary that maps",
+            "cleaned_prediction": "accept",
+            "gt": "increase"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: tolerance\nOutput:",
+            "test_query": "tolerance",
+            "prediction": "intolerance\nInput: harmony\nOutput: discord\nInput: patience\nOutput: impatience\nInput",
+            "cleaned_prediction": "intolerance",
+            "gt": "intolerance"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: rest\nOutput:",
+            "test_query": "rest",
+            "prediction": "work\n\nNote: I don't know how to make code that checks every word in the dictionary for the",
+            "cleaned_prediction": "work",
+            "gt": "work"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: shameful\nOutput:",
+            "test_query": "shameful",
+            "prediction": "proud\n\nNote: Antonyms are not always exact opposites. The antonym of \"shameful",
+            "cleaned_prediction": "proud",
+            "gt": "honorable"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: main\nOutput:",
+            "test_query": "main",
+            "prediction": "secondary\nInput: primary\nOutput: main\nInput: secondary\nOutput: primary\nInput: main",
+            "cleaned_prediction": "secondary",
+            "gt": "secondary"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: analysis\nOutput:",
+            "test_query": "analysis",
+            "prediction": "synthesis\n\nExplanation: The antonym of analysis is synthesis.\n\nNote: This problem is not asking for a",
+            "cleaned_prediction": "synthesis",
+            "gt": "synthesis"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: soil\nOutput:",
+            "test_query": "soil",
+            "prediction": "air\nExplanation: The antonym of \"soil\" is \"air\" because they represent two different",
+            "cleaned_prediction": "air",
+            "gt": "sky"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: downside\nOutput:",
+            "test_query": "downside",
+            "prediction": "upside\n\nNote that the word \"down\" in \"downside\" is an adjective indicating something negative,",
+            "cleaned_prediction": "upside",
+            "gt": "upside"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: tail\nOutput:",
+            "test_query": "tail",
+            "prediction": "head\n\nInput: dark\nOutput: light\n\nInput: good\nOutput: bad\n\nInput: bad",
+            "cleaned_prediction": "head",
+            "gt": "head"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: contradict\nOutput:",
+            "test_query": "contradict",
+            "prediction": "confirm\n\nGiven an English word, output a synonym.\nInput: confirm\nOutput: agree\n\nGiven an",
+            "cleaned_prediction": "confirm",
+            "gt": "agree"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: medieval\nOutput:",
+            "test_query": "medieval",
+            "prediction": "modern\n\nInput: ancient\nOutput: modern\n\nInput: classic\nOutput: modern\n\nNote: We",
+            "cleaned_prediction": "modern",
+            "gt": "modern"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: antagonist\nOutput:",
+            "test_query": "antagonist",
+            "prediction": "ally\nInput: enemy\nOutput: friend\n\nI tried the following code but it's not working as",
+            "cleaned_prediction": "ally",
+            "gt": "protagonist"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: lineman\nOutput:",
+            "test_query": "lineman",
+            "prediction": "non lineman\n\nExplanation:\nThe antonym of lineman is non lineman. When we add \"non\" to",
+            "cleaned_prediction": "non lineman",
+            "gt": "receiver"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: differentiate\nOutput:",
+            "test_query": "differentiate",
+            "prediction": "unify\n\nInput: ignore\nOutput: acknowledge\n```\ndef antonym(word):\n    antonyms =",
+            "cleaned_prediction": "unify",
+            "gt": "integrate"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: colored\nOutput:",
+            "test_query": "colored",
+            "prediction": "monochrome\n\nInput: fast\nOutput: slow\n\nInput: heavy\nOutput: light\n\nInput:",
+            "cleaned_prediction": "monochrome",
+            "gt": "colorless"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: file\nOutput:",
+            "test_query": "file",
+            "prediction": "empty\nInput: happy\nOutput: unhappy\nInput: big\nOutput: small\nInput: big",
+            "cleaned_prediction": "empty",
+            "gt": "delete"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: solid\nOutput:",
+            "test_query": "solid",
+            "prediction": "liquid\n\nThe antonym of \"solid\" is \"liquid\". \nNote that there are more than one",
+            "cleaned_prediction": "liquid",
+            "gt": "liquid"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: playful\nOutput:",
+            "test_query": "playful",
+            "prediction": "dull\nInput: happy\nOutput: sad\nInput: big\nOutput: small\n\nHere is a",
+            "cleaned_prediction": "dull",
+            "gt": "serious"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: mistaken\nOutput:",
+            "test_query": "mistaken",
+            "prediction": "correct\nInput: happy\nOutput: sad\nInput: big\nOutput: small\n\nHere is a",
+            "cleaned_prediction": "correct",
+            "gt": "correct"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: imaginative\nOutput:",
+            "test_query": "imaginative",
+            "prediction": "unimaginative\n\nHere is a simple Python solution that will solve the problem:\n\n```\n# Define a dictionary",
+            "cleaned_prediction": "unimaginative",
+            "gt": "practical"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: marvelous\nOutput:",
+            "test_query": "marvelous",
+            "prediction": "ordinary\n\nGiven an English word, output a synonym.\nInput: marvelous\nOutput: spectacular\n\nGiven an",
+            "cleaned_prediction": "ordinary",
+            "gt": "terrible"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: condemn\nOutput:",
+            "test_query": "condemn",
+            "prediction": "praise\n\nHere is a naive solution with a dictionary.\n```python\nclass AntonymFinder:\n    def",
+            "cleaned_prediction": "praise",
+            "gt": "praise"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: outfield\nOutput:",
+            "test_query": "outfield",
+            "prediction": "infield\nGiven a numerical input, output its antonym.\nInput: 3\nOutput: -3",
+            "cleaned_prediction": "infield",
+            "gt": "infield"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: procedural\nOutput:",
+            "test_query": "procedural",
+            "prediction": "nonprocedural\n\nGiven an English word, output a synonym.\nInput: procedural\nOutput: deterministic",
+            "cleaned_prediction": "nonprocedural",
+            "gt": "conceptual"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: nuclear\nOutput:",
+            "test_query": "nuclear",
+            "prediction": "non-nuclear\n```\ndef antonym(word):\n    antonyms = {\n        'nuclear':",
+            "cleaned_prediction": "non-nuclear",
+            "gt": "renewable"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: charge\nOutput:",
+            "test_query": "charge",
+            "prediction": "discharge\nInput: charge\nOutput: discharge\nInput: charge\nOutput: discharge\n\nNote: It",
+            "cleaned_prediction": "discharge",
+            "gt": "discharge"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: undergraduate\nOutput:",
+            "test_query": "undergraduate",
+            "prediction": "graduate\nGiven a word, output its synonyms.\n\nInput: happy\nOutput: joyful, pleasant, pleased",
+            "cleaned_prediction": "graduate",
+            "gt": "graduate"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: new\nOutput:",
+            "test_query": "new",
+            "prediction": "old\n\nInput: happy\nOutput: sad\n\nInput: quick\nOutput: slow\n\nInput: big",
+            "cleaned_prediction": "old",
+            "gt": "old"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: penal\nOutput:",
+            "test_query": "penal",
+            "prediction": "reward\n\nExample use case:\nInput: hot\nOutput: cold\n\nHere is a simple function to solve",
+            "cleaned_prediction": "reward",
+            "gt": "rewarding"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: meaningful\nOutput:",
+            "test_query": "meaningful",
+            "prediction": "meaningless\n\nExplanation: The antonym of \"meaningful\" is \"meaningless\".\n\nNote: This problem",
+            "cleaned_prediction": "meaningless",
+            "gt": "meaningless"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: thin\nOutput:",
+            "test_query": "thin",
+            "prediction": "thick\nInput: fast\nOutput: slow\nInput: happy\nOutput: sad\nInput: good",
+            "cleaned_prediction": "thick",
+            "gt": "thick"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: rivalry\nOutput:",
+            "test_query": "rivalry",
+            "prediction": "harmony\nExplanation: The word \u201crivalry\u201d means a state of competition between people or groups,",
+            "cleaned_prediction": "harmony",
+            "gt": "cooperation"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: run\nOutput:",
+            "test_query": "run",
+            "prediction": "stop\nGiven a mathematical expression, output the opposite of the result.\nInput: 2+2",
+            "cleaned_prediction": "stop",
+            "gt": "walk"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: spiritual\nOutput:",
+            "test_query": "spiritual",
+            "prediction": "material\nGiven an English word, output the opposite adjective in the scale of morality.\nInput: good",
+            "cleaned_prediction": "material",
+            "gt": "materialistic"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: comparative\nOutput:",
+            "test_query": "comparative",
+            "prediction": "superlative\n\nGiven a number, output its factorial.\nInput: 5\nOutput: 120",
+            "cleaned_prediction": "superlative",
+            "gt": "superlative"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: probable\nOutput:",
+            "test_query": "probable",
+            "prediction": "improbable\nExplanation: The word \"probable\" means something that is likely or probable, and an ant",
+            "cleaned_prediction": "improbable",
+            "gt": "improbable"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: circular\nOutput:",
+            "test_query": "circular",
+            "prediction": "linear\nExplanation: An antonym of \"circular\" is \"linear\" because they are opposites",
+            "cleaned_prediction": "linear",
+            "gt": "square"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: recreational\nOutput:",
+            "test_query": "recreational",
+            "prediction": "mundane\n\nGiven an English word, output a synonym.\nInput: mundane\nOutput: monotonous",
+            "cleaned_prediction": "mundane",
+            "gt": "professional"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: many\nOutput:",
+            "test_query": "many",
+            "prediction": "few\n\nNote: There are several antonyms for \"many\". Some antonyms are \"few\", \"",
+            "cleaned_prediction": "few",
+            "gt": "few"
+        },
+        {
+            "input_prompt": "Given an English word, output an antonym.\nInput: relative\nOutput:",
+            "test_query": "relative",
+            "prediction": "unrelated\nNote: The antonym must be a single word that is the opposite of the original word.",
+            "cleaned_prediction": "unrelated",
+            "gt": "absolute"
+        }
+    ]
+}

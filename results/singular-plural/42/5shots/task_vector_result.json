@@ -1,1 +1,182 @@
-{"score": {"exact_match": 1.0}, "intervention_layer": 5, "result": [{"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: purse\nOutput:", "test_query": "purse", "prediction": "purses\n\n## Step 1: Check if the noun ends in a vowel\nThe input \"pur", "cleaned_prediction": "purses", "gt": "purses"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: glass\nOutput:", "test_query": "glass", "prediction": "glasses\nInput: fox\nOutput: foxes\nInput: bus\nOutput: buses\nInput:", "cleaned_prediction": "glasses", "gt": "glasses"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: tree\nOutput:", "test_query": "tree", "prediction": "trees\n\nInput: cat\nOutput: cats\n\nInput: mouse\nOutput: mice\n\nInput: bus", "cleaned_prediction": "trees", "gt": "trees"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: refrigerator\nOutput:", "test_query": "refrigerator", "prediction": "refrigerators\n\nInput: ox\nOutput: oxen\n\n## Step 1: Identify the rules for", "cleaned_prediction": "refrigerators", "gt": "refrigerators"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: eyeshadow\nOutput:", "test_query": "eyeshadow", "prediction": "eyeshadows\n\\end{tasklist}\n\n```python\ndef pluralize_noun(noun):", "cleaned_prediction": "eyeshadows", "gt": "eyeshadows"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: lotion\nOutput:", "test_query": "lotion", "prediction": "lotions\n\nI know there's no simple way to add -s to every noun to get the plural", "cleaned_prediction": "lotions", "gt": "lotions"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: oven\nOutput:", "test_query": "oven", "prediction": "ovens\n\n## Step 1: Determine the pattern for forming plurals in English\nEnglish plural formation", "cleaned_prediction": "ovens", "gt": "ovens"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: mug\nOutput:", "test_query": "mug", "prediction": "mugs\n\n## Step 1: Identify the noun\nThe noun given is \"mug\".\n\n##", "cleaned_prediction": "mugs", "gt": "mugs"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: toothbrush\nOutput:", "test_query": "toothbrush", "prediction": "toothbrushes\n\n## Step 1: Determine the noun\nThe noun given is \"toothbrush", "cleaned_prediction": "toothbrushes", "gt": "toothbrushes"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: wallet\nOutput:", "test_query": "wallet", "prediction": "wallets\n```\ndef pluralize(word):\n    \"\"\"\n    Given an English noun in singular form, output", "cleaned_prediction": "wallets", "gt": "wallets"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: jacket\nOutput:", "test_query": "jacket", "prediction": "jackets\n```\ndef pluralize_noun(noun: str) -> str:\n    \"\"\"\n    Convert", "cleaned_prediction": "jackets", "gt": "jackets"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: grater\nOutput:", "test_query": "grater", "prediction": "graters\n\n## Step 1: Identify the ending of the singular form of the noun.\nThe singular", "cleaned_prediction": "graters", "gt": "graters"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: lighter\nOutput:", "test_query": "lighter", "prediction": "lighters\nGiven an English noun in singular form, output the noun in its plural form.\nInput:", "cleaned_prediction": "lighters", "gt": "lighters"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: sandal\nOutput:", "test_query": "sandal", "prediction": "sandals\n\nThis problem is a simple dictionary lookup.  We can solve it using a hash table with keys", "cleaned_prediction": "sandals", "gt": "sandals"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: mixer\nOutput:", "test_query": "mixer", "prediction": "mixers\nThe program should work with any noun. This is a basic test.\nInput: car", "cleaned_prediction": "mixers", "gt": "mixers"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: cup\nOutput:", "test_query": "cup", "prediction": "cups\nGiven an English noun in plural form, output the singular form.\nInput: cats\nOutput:", "cleaned_prediction": "cups", "gt": "cups"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: ship\nOutput:", "test_query": "ship", "prediction": "ships\n\nNote:\n- The plural form of nouns with a single letter (a, e, i,", "cleaned_prediction": "ships", "gt": "ships"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: roller\nOutput:", "test_query": "roller", "prediction": "rollers\nRules:\n1. If the noun ends with y, change it to i.\n2. If", "cleaned_prediction": "rollers", "gt": "rollers"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: dryer\nOutput:", "test_query": "dryer", "prediction": "dryers\nGiven an English noun in plural form, output the noun in singular form.\nInput: dogs", "cleaned_prediction": "dryers", "gt": "dryers"}, {"input_prompt": "Given an English noun in singular form, output the plural form.\nInput: trash can\nOutput:", "test_query": "trash can", "prediction": "trash cans\nAdded bonus: input a word that starts with a vowel, the output will be slightly different", "cleaned_prediction": "trash cans", "gt": "trash cans"}], "val_f1_per_layer": {"0": 0.95, "1": 0.95, "2": 0.9, "3": 0.95, "4": 0.95, "5": 1.0, "6": 0.9, "7": 0.95, "8": 0.9, "9": 1.0, "10": 0.95, "11": 0.95, "12": 0.95, "13": 1.0, "14": 1.0, "15": 1.0, "16": 1.0, "17": 0.95, "18": 0.95, "19": 0.85, "20": 0.8, "21": 0.9, "22": 0.3, "23": 0.4, "24": 0.1, "25": 0.2, "26": 0.3, "27": 0.15, "28": 0.15, "29": 0.4, "30": 0.4, "31": 0.0}}
+{
+    "score": {
+        "exact_match": 1.0
+    },
+    "intervention_layer": 5,
+    "result": [
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: purse\nOutput:",
+            "test_query": "purse",
+            "prediction": "purses\n\n## Step 1: Check if the noun ends in a vowel\nThe input \"pur",
+            "cleaned_prediction": "purses",
+            "gt": "purses"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: glass\nOutput:",
+            "test_query": "glass",
+            "prediction": "glasses\nInput: fox\nOutput: foxes\nInput: bus\nOutput: buses\nInput:",
+            "cleaned_prediction": "glasses",
+            "gt": "glasses"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: tree\nOutput:",
+            "test_query": "tree",
+            "prediction": "trees\n\nInput: cat\nOutput: cats\n\nInput: mouse\nOutput: mice\n\nInput: bus",
+            "cleaned_prediction": "trees",
+            "gt": "trees"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: refrigerator\nOutput:",
+            "test_query": "refrigerator",
+            "prediction": "refrigerators\n\nInput: ox\nOutput: oxen\n\n## Step 1: Identify the rules for",
+            "cleaned_prediction": "refrigerators",
+            "gt": "refrigerators"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: eyeshadow\nOutput:",
+            "test_query": "eyeshadow",
+            "prediction": "eyeshadows\n\\end{tasklist}\n\n```python\ndef pluralize_noun(noun):",
+            "cleaned_prediction": "eyeshadows",
+            "gt": "eyeshadows"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: lotion\nOutput:",
+            "test_query": "lotion",
+            "prediction": "lotions\n\nI know there's no simple way to add -s to every noun to get the plural",
+            "cleaned_prediction": "lotions",
+            "gt": "lotions"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: oven\nOutput:",
+            "test_query": "oven",
+            "prediction": "ovens\n\n## Step 1: Determine the pattern for forming plurals in English\nEnglish plural formation",
+            "cleaned_prediction": "ovens",
+            "gt": "ovens"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: mug\nOutput:",
+            "test_query": "mug",
+            "prediction": "mugs\n\n## Step 1: Identify the noun\nThe noun given is \"mug\".\n\n##",
+            "cleaned_prediction": "mugs",
+            "gt": "mugs"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: toothbrush\nOutput:",
+            "test_query": "toothbrush",
+            "prediction": "toothbrushes\n\n## Step 1: Determine the noun\nThe noun given is \"toothbrush",
+            "cleaned_prediction": "toothbrushes",
+            "gt": "toothbrushes"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: wallet\nOutput:",
+            "test_query": "wallet",
+            "prediction": "wallets\n```\ndef pluralize(word):\n    \"\"\"\n    Given an English noun in singular form, output",
+            "cleaned_prediction": "wallets",
+            "gt": "wallets"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: jacket\nOutput:",
+            "test_query": "jacket",
+            "prediction": "jackets\n```\ndef pluralize_noun(noun: str) -> str:\n    \"\"\"\n    Convert",
+            "cleaned_prediction": "jackets",
+            "gt": "jackets"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: grater\nOutput:",
+            "test_query": "grater",
+            "prediction": "graters\n\n## Step 1: Identify the ending of the singular form of the noun.\nThe singular",
+            "cleaned_prediction": "graters",
+            "gt": "graters"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: lighter\nOutput:",
+            "test_query": "lighter",
+            "prediction": "lighters\nGiven an English noun in singular form, output the noun in its plural form.\nInput:",
+            "cleaned_prediction": "lighters",
+            "gt": "lighters"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: sandal\nOutput:",
+            "test_query": "sandal",
+            "prediction": "sandals\n\nThis problem is a simple dictionary lookup.  We can solve it using a hash table with keys",
+            "cleaned_prediction": "sandals",
+            "gt": "sandals"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: mixer\nOutput:",
+            "test_query": "mixer",
+            "prediction": "mixers\nThe program should work with any noun. This is a basic test.\nInput: car",
+            "cleaned_prediction": "mixers",
+            "gt": "mixers"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: cup\nOutput:",
+            "test_query": "cup",
+            "prediction": "cups\nGiven an English noun in plural form, output the singular form.\nInput: cats\nOutput:",
+            "cleaned_prediction": "cups",
+            "gt": "cups"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: ship\nOutput:",
+            "test_query": "ship",
+            "prediction": "ships\n\nNote:\n- The plural form of nouns with a single letter (a, e, i,",
+            "cleaned_prediction": "ships",
+            "gt": "ships"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: roller\nOutput:",
+            "test_query": "roller",
+            "prediction": "rollers\nRules:\n1. If the noun ends with y, change it to i.\n2. If",
+            "cleaned_prediction": "rollers",
+            "gt": "rollers"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: dryer\nOutput:",
+            "test_query": "dryer",
+            "prediction": "dryers\nGiven an English noun in plural form, output the noun in singular form.\nInput: dogs",
+            "cleaned_prediction": "dryers",
+            "gt": "dryers"
+        },
+        {
+            "input_prompt": "Given an English noun in singular form, output the plural form.\nInput: trash can\nOutput:",
+            "test_query": "trash can",
+            "prediction": "trash cans\nAdded bonus: input a word that starts with a vowel, the output will be slightly different",
+            "cleaned_prediction": "trash cans",
+            "gt": "trash cans"
+        }
+    ],
+    "val_f1_per_layer": {
+        "0": 0.95,
+        "1": 0.95,
+        "2": 0.9,
+        "3": 0.95,
+        "4": 0.95,
+        "5": 1.0,
+        "6": 0.9,
+        "7": 0.95,
+        "8": 0.9,
+        "9": 1.0,
+        "10": 0.95,
+        "11": 0.95,
+        "12": 0.95,
+        "13": 1.0,
+        "14": 1.0,
+        "15": 1.0,
+        "16": 1.0,
+        "17": 0.95,
+        "18": 0.95,
+        "19": 0.85,
+        "20": 0.8,
+        "21": 0.9,
+        "22": 0.3,
+        "23": 0.4,
+        "24": 0.1,
+        "25": 0.2,
+        "26": 0.3,
+        "27": 0.15,
+        "28": 0.15,
+        "29": 0.4,
+        "30": 0.4,
+        "31": 0.0
+    }
+}

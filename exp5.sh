@@ -1,8 +1,10 @@
-CUDA_VISIBLE_DEVICES=2 python3 Task_vector.py --dataset_name clinc150 --seed 42 --save_path_root ./results --n_shots 100 --max_new_tokens 20
-CUDA_VISIBLE_DEVICES=2 python3 Diff_icv_baseline.py --dataset_name clinc150 --seed 42 --save_path_root ./results --n_shots 100 --max_new_tokens 20  
-
-CUDA_VISIBLE_DEVICES=2 python3 Task_vector.py --dataset_name clinc150 --seed 41 --save_path_root ./results --n_shots 100 --max_new_tokens 20
-CUDA_VISIBLE_DEVICES=2 python3 Diff_icv_baseline.py --dataset_name clinc150 --seed 41 --save_path_root ./results --n_shots 100 --max_new_tokens 20  
-
-CUDA_VISIBLE_DEVICES=2 python3 Task_vector.py --dataset_name clinc150 --seed 40 --save_path_root ./results --n_shots 100 --max_new_tokens 20
-CUDA_VISIBLE_DEVICES=2 python3 Diff_icv_baseline.py --dataset_name clinc150 --seed 40 --save_path_root ./results --n_shots 100 --max_new_tokens 20  
+CUDA_VISIBLE_DEVICES=1 python3 Few_shot.py --dataset_name wmt19 --seed 41 --save_path_root ./results --n_shots 5 --max_new_tokens 200
+CUDA_VISIBLE_DEVICES=1 python3 Diff_icv.py --dataset_name wmt19 --seed 41 --save_path_root ./results --n_shots 5 --max_new_tokens 200
+CUDA_VISIBLE_DEVICES=1 python3 Few_shot.py --dataset_name wmt19 --seed 41 --save_path_root ./results --n_shots 10 --max_new_tokens 200
+CUDA_VISIBLE_DEVICES=1 python3 Diff_icv.py --dataset_name wmt19 --seed 41 --save_path_root ./results --n_shots 10 --max_new_tokens 200
+CUDA_VISIBLE_DEVICES=1 python3 Few_shot.py --dataset_name wmt19 --seed 41 --save_path_root ./results --n_shots 20 --max_new_tokens 200
+CUDA_VISIBLE_DEVICES=1 python3 Diff_icv.py --dataset_name wmt19 --seed 41 --save_path_root ./results --n_shots 20 --max_new_tokens 200
+CUDA_VISIBLE_DEVICES=1 python3 Few_shot.py --dataset_name wmt19 --seed 41 --save_path_root ./results --n_shots 30 --max_new_tokens 200
+CUDA_VISIBLE_DEVICES=1 python3 Diff_icv.py --dataset_name wmt19 --seed 41 --save_path_root ./results --n_shots 30 --max_new_tokens 200
+CUDA_VISIBLE_DEVICES=1 python3 Few_shot.py --dataset_name wmt19 --seed 41 --save_path_root ./results --n_shots 40 --max_new_tokens 200
+CUDA_VISIBLE_DEVICES=1 python3 Diff_icv.py --dataset_name wmt19 --seed 41 --save_path_root ./results --n_shots 40 --max_new_tokens 200

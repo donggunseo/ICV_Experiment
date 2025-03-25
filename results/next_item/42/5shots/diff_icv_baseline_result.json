@@ -1,0 +1,196 @@
+{
+    "score": {
+        "exact_match": 0.9090909090909091
+    },
+    "intervention_layer": 15,
+    "result": [
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: CC\nOutput:",
+            "test_query": "CC",
+            "prediction": "DD\n\nInput: DDD\nOutput: EEE\n\nInput: EEEEEE\nOutput: F",
+            "cleaned_prediction": "DD",
+            "gt": "DD"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: two\nOutput:",
+            "test_query": "two",
+            "prediction": "three\nInput: one\nOutput: two\nInput: four\nOutput: five\nInput: seven",
+            "cleaned_prediction": "three",
+            "gt": "three"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 16\nOutput:",
+            "test_query": "16",
+            "prediction": "20\nThe pattern of the sequence is obtained by adding 4 to each term.\nInput:",
+            "cleaned_prediction": "20",
+            "gt": "17"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 20\nOutput:",
+            "test_query": "20",
+            "prediction": "21\nInput: -1\nOutput: 0\nInput: 0\nOutput:",
+            "cleaned_prediction": "21",
+            "gt": "21"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: uu\nOutput:",
+            "test_query": "uu",
+            "prediction": "vv\n\nInput: oo\nOutput: oo\n\nInput: xx\nOutput: xx\n\nInput: yy",
+            "cleaned_prediction": "vv",
+            "gt": "vv"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: march\nOutput:",
+            "test_query": "march",
+            "prediction": "april\nInput: january\nOutput: february\nInput: may\nOutput: june",
+            "cleaned_prediction": "april",
+            "gt": "april"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: EE\nOutput:",
+            "test_query": "EE",
+            "prediction": "FF\n\nExplanation: The input string EE represents two consecutive even numbers. Thus, the next item in the",
+            "cleaned_prediction": "FF",
+            "gt": "FF"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: ii\nOutput:",
+            "test_query": "ii",
+            "prediction": "iii\n\nInput: abc\nOutput: abd\n\nInput: aaab\nOutput: aaab",
+            "cleaned_prediction": "iii",
+            "gt": "jj"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 4\nOutput:",
+            "test_query": "4",
+            "prediction": "5\nInput: 12\nOutput: 13\nInput: 24\nOutput:",
+            "cleaned_prediction": "5",
+            "gt": "5"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 24\nOutput:",
+            "test_query": "24",
+            "prediction": "25\n\nInput: 1\nOutput: 2\n\nInput: 7\nOutput:",
+            "cleaned_prediction": "25",
+            "gt": "25"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: R\nOutput:",
+            "test_query": "R",
+            "prediction": "S\n\nInput: T\nOutput: U\n\nInput: U\nOutput: V\n\nInput: A",
+            "cleaned_prediction": "S",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 1\nOutput:",
+            "test_query": "1",
+            "prediction": "2\n\nInput: 2\nOutput: 4\n\nInput: 4\nOutput:",
+            "cleaned_prediction": "2",
+            "gt": "2"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: ww\nOutput:",
+            "test_query": "ww",
+            "prediction": "xx\n\nExplanation:\nThe sequence starts with 'ww' which has two identical characters. The next item in",
+            "cleaned_prediction": "xx",
+            "gt": "xx"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: i\nOutput:",
+            "test_query": "i",
+            "prediction": "ii\nInput: ii\nOutput: iii\nInput: iii\nOutput: iv\nInput: iv",
+            "cleaned_prediction": "ii",
+            "gt": "ii"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: X\nOutput:",
+            "test_query": "X",
+            "prediction": "Y\nInput: Y\nOutput: Z\nInput: Z\nOutput: W\n\ndef next_item",
+            "cleaned_prediction": "Y",
+            "gt": "Y"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: g\nOutput:",
+            "test_query": "g",
+            "prediction": "h\n\nInput: a\nOutput: b\n\nInput: 1\nOutput: 2\n\nInput",
+            "cleaned_prediction": "h",
+            "gt": "h"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: November\nOutput:",
+            "test_query": "November",
+            "prediction": "December\n\nGiven an input string, output the next item in the sequence according to the inferred pattern.\nInput",
+            "cleaned_prediction": "December",
+            "gt": "December"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: b\nOutput:",
+            "test_query": "b",
+            "prediction": "c\nInput: d\nOutput: e\n\nI can generate this sequence with a simple pattern. The",
+            "cleaned_prediction": "c",
+            "gt": "c"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: sixteen\nOutput:",
+            "test_query": "sixteen",
+            "prediction": "seventeen\n\nGiven an input string, output the next item in the sequence according to the inferred pattern.\nInput",
+            "cleaned_prediction": "seventeen",
+            "gt": "seventeen"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: o\nOutput:",
+            "test_query": "o",
+            "prediction": "p\nInput: l\nOutput: m\nInput: e\nOutput: f\nInput: a",
+            "cleaned_prediction": "p",
+            "gt": "p"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: V\nOutput:",
+            "test_query": "V",
+            "prediction": "W\n\nExplanation: The pattern is a simple increment of 1 in the ASCII value of the characters.",
+            "cleaned_prediction": "W",
+            "gt": "W"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: dd\nOutput:",
+            "test_query": "dd",
+            "prediction": "ee\n\nExplanation: In the sequence, the first item is \"ab\", the second item is \"cd",
+            "cleaned_prediction": "ee",
+            "gt": "ee"
+        }
+    ],
+    "val_f1_per_layer": {
+        "0": 0.45454545454545453,
+        "1": 0.45454545454545453,
+        "2": 0.45454545454545453,
+        "3": 0.45454545454545453,
+        "4": 0.45454545454545453,
+        "5": 0.45454545454545453,
+        "6": 0.5454545454545454,
+        "7": 0.5454545454545454,
+        "8": 0.5454545454545454,
+        "9": 0.5909090909090909,
+        "10": 0.5909090909090909,
+        "11": 0.5909090909090909,
+        "12": 0.6818181818181818,
+        "13": 0.6818181818181818,
+        "14": 0.6818181818181818,
+        "15": 0.8636363636363636,
+        "16": 0.8636363636363636,
+        "17": 0.8636363636363636,
+        "18": 0.7727272727272727,
+        "19": 0.6818181818181818,
+        "20": 0.5454545454545454,
+        "21": 0.5,
+        "22": 0.5454545454545454,
+        "23": 0.6363636363636364,
+        "24": 0.5454545454545454,
+        "25": 0.5909090909090909,
+        "26": 0.45454545454545453,
+        "27": 0.5,
+        "28": 0.5454545454545454,
+        "29": 0.5454545454545454,
+        "30": 0.5,
+        "31": 0.5
+    }
+}

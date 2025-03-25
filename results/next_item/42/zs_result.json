@@ -1,1 +1,161 @@
-{"score": {"exact_match": 0.2727272727272727}, "result": [{"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: CC\nOutput:", "test_query": "CC", "prediction": "GG\n\nExplanation: The pattern is alternating between C and G, so the next character should be G", "cleaned_prediction": "GG", "gt": "DD"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: two\nOutput:", "test_query": "two", "prediction": "four\nInput: three\nOutput: five\nInput: four\nOutput: six\nInput:", "cleaned_prediction": "four", "gt": "three"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 16\nOutput:", "test_query": "16", "prediction": "15\nExplanation: The pattern in the sequence is decreasing by 1, so the next item", "cleaned_prediction": "15", "gt": "17"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 20\nOutput:", "test_query": "20", "prediction": "22\nInput: 10\nOutput: 12\nInput: 6\nOutput:", "cleaned_prediction": "22", "gt": "21"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: uu\nOutput:", "test_query": "uu", "prediction": "d\n\nThe pattern in the sequence appears to be an alphabetical shift of one position, where 'a", "cleaned_prediction": "d", "gt": "vv"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: march\nOutput:", "test_query": "march", "prediction": "april\n\nPattern: The month that comes after March.\n\n## Step 1: Identify the Pattern", "cleaned_prediction": "april", "gt": "april"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: EE\nOutput:", "test_query": "EE", "prediction": "EEE\n\nThe sequence is \"E\" repeated three times.\n\nInput: ABC\nOutput: ABC", "cleaned_prediction": "EEE", "gt": "FF"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: ii\nOutput:", "test_query": "ii", "prediction": "iii\nInput: 2 5 8 11 14\nOutput: 17", "cleaned_prediction": "iii", "gt": "jj"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 4\nOutput:", "test_query": "4", "prediction": "5\n\nInput: 2\nOutput: 4\nInput: 1\nOutput:", "cleaned_prediction": "5", "gt": "5"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 24\nOutput:", "test_query": "24", "prediction": "31\nInput: 99\nOutput: 106\nInput: 999\nOutput:", "cleaned_prediction": "31", "gt": "25"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: R\nOutput:", "test_query": "R", "prediction": "B\nInput: B\nOutput: D\n\nThe idea is to count the characters and determine the", "cleaned_prediction": "B", "gt": "S"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 1\nOutput:", "test_query": "1", "prediction": "2\n\nInput: 2\nOutput: 4\n\nInput: 3\nOutput:", "cleaned_prediction": "2", "gt": "2"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: ww\nOutput:", "test_query": "ww", "prediction": "www\nExplanation: The pattern of the input string is adding one more w to the string.\nInput", "cleaned_prediction": "www", "gt": "xx"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: i\nOutput:", "test_query": "i", "prediction": "i+1\n\nInput: abc\nOutput: bcd\n\nInput: xyz\nOutput: y", "cleaned_prediction": "i+1", "gt": "ii"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: X\nOutput:", "test_query": "X", "prediction": "X\n\nInput: aX\nOutput: bX\n\nInput: abX\nOutput: abc", "cleaned_prediction": "X", "gt": "Y"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: g\nOutput:", "test_query": "g", "prediction": "h\n\nInput: f\nOutput: g\n\nInput: e\nOutput: f\n\nInput:", "cleaned_prediction": "h", "gt": "h"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: November\nOutput:", "test_query": "November", "prediction": "December\nInput: January\nOutput: February\nInput: March\nOutput: April\nInput:", "cleaned_prediction": "December", "gt": "December"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: b\nOutput:", "test_query": "b", "prediction": "a\n\nInput: c\nOutput: b\n\nInput: d\nOutput: c\n\nExplanation:", "cleaned_prediction": "a", "gt": "c"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: sixteen\nOutput:", "test_query": "sixteen", "prediction": "seventeen\n\nExplanation: The pattern is clearly a sequence of numbers that are one more than the previous number", "cleaned_prediction": "seventeen", "gt": "seventeen"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: o\nOutput:", "test_query": "o", "prediction": "t\n\nInput: t\nOutput: a\n\nInput: a\nOutput: e\n\nInput:", "cleaned_prediction": "t", "gt": "p"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: V\nOutput:", "test_query": "V", "prediction": "VI\n\nInput: ABC\nOutput: ABD\n\nInput: ABB\nOutput: ABC\n\nInput", "cleaned_prediction": "VI", "gt": "W"}, {"input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: dd\nOutput:", "test_query": "dd", "prediction": "a\n\nInput: cc\nOutput: b\n\nInput: bb\nOutput: a\n\nInput:", "cleaned_prediction": "a", "gt": "ee"}]}
+{
+    "score": {
+        "exact_match": 0.2727272727272727
+    },
+    "result": [
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: CC\nOutput:",
+            "test_query": "CC",
+            "prediction": "GG\n\nExplanation: The pattern is alternating between C and G, so the next character should be G",
+            "cleaned_prediction": "GG",
+            "gt": "DD"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: two\nOutput:",
+            "test_query": "two",
+            "prediction": "four\nInput: three\nOutput: five\nInput: four\nOutput: six\nInput:",
+            "cleaned_prediction": "four",
+            "gt": "three"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 16\nOutput:",
+            "test_query": "16",
+            "prediction": "15\nExplanation: The pattern in the sequence is decreasing by 1, so the next item",
+            "cleaned_prediction": "15",
+            "gt": "17"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 20\nOutput:",
+            "test_query": "20",
+            "prediction": "22\nInput: 10\nOutput: 12\nInput: 6\nOutput:",
+            "cleaned_prediction": "22",
+            "gt": "21"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: uu\nOutput:",
+            "test_query": "uu",
+            "prediction": "d\n\nThe pattern in the sequence appears to be an alphabetical shift of one position, where 'a",
+            "cleaned_prediction": "d",
+            "gt": "vv"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: march\nOutput:",
+            "test_query": "march",
+            "prediction": "april\n\nPattern: The month that comes after March.\n\n## Step 1: Identify the Pattern",
+            "cleaned_prediction": "april",
+            "gt": "april"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: EE\nOutput:",
+            "test_query": "EE",
+            "prediction": "EEE\n\nThe sequence is \"E\" repeated three times.\n\nInput: ABC\nOutput: ABC",
+            "cleaned_prediction": "EEE",
+            "gt": "FF"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: ii\nOutput:",
+            "test_query": "ii",
+            "prediction": "iii\nInput: 2 5 8 11 14\nOutput: 17",
+            "cleaned_prediction": "iii",
+            "gt": "jj"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 4\nOutput:",
+            "test_query": "4",
+            "prediction": "5\n\nInput: 2\nOutput: 4\nInput: 1\nOutput:",
+            "cleaned_prediction": "5",
+            "gt": "5"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 24\nOutput:",
+            "test_query": "24",
+            "prediction": "31\nInput: 99\nOutput: 106\nInput: 999\nOutput:",
+            "cleaned_prediction": "31",
+            "gt": "25"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: R\nOutput:",
+            "test_query": "R",
+            "prediction": "B\nInput: B\nOutput: D\n\nThe idea is to count the characters and determine the",
+            "cleaned_prediction": "B",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: 1\nOutput:",
+            "test_query": "1",
+            "prediction": "2\n\nInput: 2\nOutput: 4\n\nInput: 3\nOutput:",
+            "cleaned_prediction": "2",
+            "gt": "2"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: ww\nOutput:",
+            "test_query": "ww",
+            "prediction": "www\nExplanation: The pattern of the input string is adding one more w to the string.\nInput",
+            "cleaned_prediction": "www",
+            "gt": "xx"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: i\nOutput:",
+            "test_query": "i",
+            "prediction": "i+1\n\nInput: abc\nOutput: bcd\n\nInput: xyz\nOutput: y",
+            "cleaned_prediction": "i+1",
+            "gt": "ii"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: X\nOutput:",
+            "test_query": "X",
+            "prediction": "X\n\nInput: aX\nOutput: bX\n\nInput: abX\nOutput: abc",
+            "cleaned_prediction": "X",
+            "gt": "Y"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: g\nOutput:",
+            "test_query": "g",
+            "prediction": "h\n\nInput: f\nOutput: g\n\nInput: e\nOutput: f\n\nInput:",
+            "cleaned_prediction": "h",
+            "gt": "h"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: November\nOutput:",
+            "test_query": "November",
+            "prediction": "December\nInput: January\nOutput: February\nInput: March\nOutput: April\nInput:",
+            "cleaned_prediction": "December",
+            "gt": "December"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: b\nOutput:",
+            "test_query": "b",
+            "prediction": "a\n\nInput: c\nOutput: b\n\nInput: d\nOutput: c\n\nExplanation:",
+            "cleaned_prediction": "a",
+            "gt": "c"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: sixteen\nOutput:",
+            "test_query": "sixteen",
+            "prediction": "seventeen\n\nExplanation: The pattern is clearly a sequence of numbers that are one more than the previous number",
+            "cleaned_prediction": "seventeen",
+            "gt": "seventeen"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: o\nOutput:",
+            "test_query": "o",
+            "prediction": "t\n\nInput: t\nOutput: a\n\nInput: a\nOutput: e\n\nInput:",
+            "cleaned_prediction": "t",
+            "gt": "p"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: V\nOutput:",
+            "test_query": "V",
+            "prediction": "VI\n\nInput: ABC\nOutput: ABD\n\nInput: ABB\nOutput: ABC\n\nInput",
+            "cleaned_prediction": "VI",
+            "gt": "W"
+        },
+        {
+            "input_prompt": "Given an input string, output the next item in the sequence according to the inferred pattern.\nInput: dd\nOutput:",
+            "test_query": "dd",
+            "prediction": "a\n\nInput: cc\nOutput: b\n\nInput: bb\nOutput: a\n\nInput:",
+            "cleaned_prediction": "a",
+            "gt": "ee"
+        }
+    ]
+}
