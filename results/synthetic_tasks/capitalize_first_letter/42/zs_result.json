@@ -1,0 +1,574 @@
+{
+    "score": {
+        "exact_match": 0.0
+    },
+    "result": [
+        {
+            "input_prompt": "Input: drum\nOutput:",
+            "test_query": "drum",
+            "prediction": "drum\n```python\ndef drum_roll(drum",
+            "cleaned_prediction": "drum",
+            "gt": "D"
+        },
+        {
+            "input_prompt": "Input: caribou\nOutput:",
+            "test_query": "caribou",
+            "prediction": "Caribou (also known as reindeer",
+            "cleaned_prediction": "Caribou (also known as reindeer",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Input: octopus\nOutput:",
+            "test_query": "octopus",
+            "prediction": "\"The octopus is a cephalopod",
+            "cleaned_prediction": "\"The octopus is a cephalopod",
+            "gt": "O"
+        },
+        {
+            "input_prompt": "Input: sofa\nOutput:",
+            "test_query": "sofa",
+            "prediction": "sofa\n\nInput: sofa\nOutput: sofa",
+            "cleaned_prediction": "sofa",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Input: pensive\nOutput:",
+            "test_query": "pensive",
+            "prediction": "\"pensive\" is a word.\nDefinition:",
+            "cleaned_prediction": "\"pensive\" is a word.",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Input: naive\nOutput:",
+            "test_query": "naive",
+            "prediction": "naive\nExplanation: The string \"naive\"",
+            "cleaned_prediction": "naive",
+            "gt": "N"
+        },
+        {
+            "input_prompt": "Input: garlic\nOutput:",
+            "test_query": "garlic",
+            "prediction": "Garlic is a fundamental ingredient in many cuisines around",
+            "cleaned_prediction": "Garlic is a fundamental ingredient in many cuisines around",
+            "gt": "G"
+        },
+        {
+            "input_prompt": "Input: blissful\nOutput:",
+            "test_query": "blissful",
+            "prediction": "blissful\nDefinition: (adjective) extremely",
+            "cleaned_prediction": "blissful",
+            "gt": "B"
+        },
+        {
+            "input_prompt": "Input: he\nOutput:",
+            "test_query": "he",
+            "prediction": "he\nExplanation: The string \"he\" is",
+            "cleaned_prediction": "he",
+            "gt": "H"
+        },
+        {
+            "input_prompt": "Input: woodpecker\nOutput:",
+            "test_query": "woodpecker",
+            "prediction": "\"The woodpecker is a bird that pe",
+            "cleaned_prediction": "\"The woodpecker is a bird that pe",
+            "gt": "W"
+        },
+        {
+            "input_prompt": "Input: beyond\nOutput:",
+            "test_query": "beyond",
+            "prediction": "beyond\n_____________________\nInput: beyond\nOutput",
+            "cleaned_prediction": "beyond",
+            "gt": "B"
+        },
+        {
+            "input_prompt": "Input: amiable\nOutput:",
+            "test_query": "amiable",
+            "prediction": "7\n\nInput: amiable\nOutput:",
+            "cleaned_prediction": "7",
+            "gt": "A"
+        },
+        {
+            "input_prompt": "Input: agreeable\nOutput:",
+            "test_query": "agreeable",
+            "prediction": "agreeable\nDefinition: (of a person or",
+            "cleaned_prediction": "agreeable",
+            "gt": "A"
+        },
+        {
+            "input_prompt": "Input: nectarine\nOutput:",
+            "test_query": "nectarine",
+            "prediction": "Nectarine\n\nInput: apple\nOutput:",
+            "cleaned_prediction": "Nectarine",
+            "gt": "N"
+        },
+        {
+            "input_prompt": "Input: dove\nOutput:",
+            "test_query": "dove",
+            "prediction": "\"Dove\"\nInput: hello\nOutput:",
+            "cleaned_prediction": "\"Dove\"",
+            "gt": "D"
+        },
+        {
+            "input_prompt": "Input: juggle\nOutput:",
+            "test_query": "juggle",
+            "prediction": "Juggle\nTitle: Juggle\nJuggle",
+            "cleaned_prediction": "Juggle",
+            "gt": "J"
+        },
+        {
+            "input_prompt": "Input: considering\nOutput:",
+            "test_query": "considering",
+            "prediction": "considering\nDifficult: 1\nScore:",
+            "cleaned_prediction": "considering",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Input: capybara\nOutput:",
+            "test_query": "capybara",
+            "prediction": "Capybara (Hydrochoerus hydro",
+            "cleaned_prediction": "Capybara (Hydrochoerus hydro",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Input: mellow\nOutput:",
+            "test_query": "mellow",
+            "prediction": "Mellow is a word that describes a smooth,",
+            "cleaned_prediction": "Mellow is a word that describes a smooth,",
+            "gt": "M"
+        },
+        {
+            "input_prompt": "Input: relax\nOutput:",
+            "test_query": "relax",
+            "prediction": "relax\nExplanation: The string \"relax\"",
+            "cleaned_prediction": "relax",
+            "gt": "R"
+        },
+        {
+            "input_prompt": "Input: firefly\nOutput:",
+            "test_query": "firefly",
+            "prediction": "\"Firefly\" is a 7-letter word",
+            "cleaned_prediction": "\"Firefly\" is a 7-letter word",
+            "gt": "F"
+        },
+        {
+            "input_prompt": "Input: hedgehog\nOutput:",
+            "test_query": "hedgehog",
+            "prediction": "Hedgehog\nInput: python\nOutput: Python",
+            "cleaned_prediction": "Hedgehog",
+            "gt": "H"
+        },
+        {
+            "input_prompt": "Input: jeans\nOutput:",
+            "test_query": "jeans",
+            "prediction": "\"Jeans are a type of casual, comfortable",
+            "cleaned_prediction": "\"Jeans are a type of casual, comfortable",
+            "gt": "J"
+        },
+        {
+            "input_prompt": "Input: view\nOutput:",
+            "test_query": "view",
+            "prediction": "view\nTags: math\nSpec: v2",
+            "cleaned_prediction": "view",
+            "gt": "V"
+        },
+        {
+            "input_prompt": "Input: lecture\nOutput:",
+            "test_query": "lecture",
+            "prediction": "lecture\nError: The input and output should be",
+            "cleaned_prediction": "lecture",
+            "gt": "L"
+        },
+        {
+            "input_prompt": "Input: kneel\nOutput:",
+            "test_query": "kneel",
+            "prediction": "kneel\nInput: kneel\nOutput:",
+            "cleaned_prediction": "kneel",
+            "gt": "K"
+        },
+        {
+            "input_prompt": "Input: long\nOutput:",
+            "test_query": "long",
+            "prediction": "long\nConstraint: \n1 <= a <=",
+            "cleaned_prediction": "long",
+            "gt": "L"
+        },
+        {
+            "input_prompt": "Input: snorkel\nOutput:",
+            "test_query": "snorkel",
+            "prediction": "snorkel\nDefinition: A tube or other device",
+            "cleaned_prediction": "snorkel",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Input: zesty\nOutput:",
+            "test_query": "zesty",
+            "prediction": "zesty\nDefinition: Having a strong, pleasant",
+            "cleaned_prediction": "zesty",
+            "gt": "Z"
+        },
+        {
+            "input_prompt": "Input: deliver\nOutput:",
+            "test_query": "deliver",
+            "prediction": "deliver\nInput: deliver\nOutput: deliver",
+            "cleaned_prediction": "deliver",
+            "gt": "D"
+        },
+        {
+            "input_prompt": "Input: out\nOutput:",
+            "test_query": "out",
+            "prediction": "out\nDependencies: None\n\n```python\ndef",
+            "cleaned_prediction": "out",
+            "gt": "O"
+        },
+        {
+            "input_prompt": "Input: joyous\nOutput:",
+            "test_query": "joyous",
+            "prediction": "joyous\nDefinition: (adjective) Feeling",
+            "cleaned_prediction": "joyous",
+            "gt": "J"
+        },
+        {
+            "input_prompt": "Input: consider\nOutput:",
+            "test_query": "consider",
+            "prediction": "consider\nInput: considerate\nOutput: consider",
+            "cleaned_prediction": "consider",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Input: cranberry\nOutput:",
+            "test_query": "cranberry",
+            "prediction": "\"Cranberry is a type of fruit that",
+            "cleaned_prediction": "\"Cranberry is a type of fruit that",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Input: vibrant\nOutput:",
+            "test_query": "vibrant",
+            "prediction": "vibrant\nDefinition: (adjective) Having or",
+            "cleaned_prediction": "vibrant",
+            "gt": "V"
+        },
+        {
+            "input_prompt": "Input: up\nOutput:",
+            "test_query": "up",
+            "prediction": "up\nInput: 1\nOutput:",
+            "cleaned_prediction": "up",
+            "gt": "U"
+        },
+        {
+            "input_prompt": "Input: pasta\nOutput:",
+            "test_query": "pasta",
+            "prediction": "\"Pasta is a type of food made from",
+            "cleaned_prediction": "\"Pasta is a type of food made from",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Input: hamster\nOutput:",
+            "test_query": "hamster",
+            "prediction": "\"Hamster\" is a type of rodent",
+            "cleaned_prediction": "\"Hamster\" is a type of rodent",
+            "gt": "H"
+        },
+        {
+            "input_prompt": "Input: reliable\nOutput:",
+            "test_query": "reliable",
+            "prediction": "reliable\n====================================================================================================\n\n**Reliable Input",
+            "cleaned_prediction": "reliable",
+            "gt": "R"
+        },
+        {
+            "input_prompt": "Input: plant\nOutput:",
+            "test_query": "plant",
+            "prediction": "\"Plant\"\nInput: tree\nOutput: \"",
+            "cleaned_prediction": "\"Plant\"",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Input: bright\nOutput:",
+            "test_query": "bright",
+            "prediction": "bright\nDefinition: (adjective) Having a",
+            "cleaned_prediction": "bright",
+            "gt": "B"
+        },
+        {
+            "input_prompt": "Input: past\nOutput:",
+            "test_query": "past",
+            "prediction": "past\n-------------------\nInput: future\nOutput:",
+            "cleaned_prediction": "past",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Input: hear\nOutput:",
+            "test_query": "hear",
+            "prediction": "\"hear\" is a verb that means to perceive",
+            "cleaned_prediction": "\"hear\" is a verb that means to perceive",
+            "gt": "H"
+        },
+        {
+            "input_prompt": "Input: throughout\nOutput:",
+            "test_query": "throughout",
+            "prediction": "throughout\nCategory: adverb\nInput: throughout",
+            "cleaned_prediction": "throughout",
+            "gt": "T"
+        },
+        {
+            "input_prompt": "Input: charming\nOutput:",
+            "test_query": "charming",
+            "prediction": "charming\nDefinition: (adjective) Attractive",
+            "cleaned_prediction": "charming",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Input: moose\nOutput:",
+            "test_query": "moose",
+            "prediction": "\"Moose is a large mammal that lives",
+            "cleaned_prediction": "\"Moose is a large mammal that lives",
+            "gt": "M"
+        },
+        {
+            "input_prompt": "Input: painting\nOutput:",
+            "test_query": "painting",
+            "prediction": "painting\nInput: painting\nOutput: painting",
+            "cleaned_prediction": "painting",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Input: durian\nOutput:",
+            "test_query": "durian",
+            "prediction": "\"Durian is a tropical fruit known for its",
+            "cleaned_prediction": "\"Durian is a tropical fruit known for its",
+            "gt": "D"
+        },
+        {
+            "input_prompt": "Input: lantern\nOutput:",
+            "test_query": "lantern",
+            "prediction": "\"Lantern\"\nInput: \"hello\"",
+            "cleaned_prediction": "\"Lantern\"",
+            "gt": "L"
+        },
+        {
+            "input_prompt": "Input: alarm\nOutput:",
+            "test_query": "alarm",
+            "prediction": "The alarm is ringing.\nInput: clock\nOutput",
+            "cleaned_prediction": "The alarm is ringing.",
+            "gt": "A"
+        },
+        {
+            "input_prompt": "Input: wonderful\nOutput:",
+            "test_query": "wonderful",
+            "prediction": "wonderful\nInput: wonderful\nOutput: wonderful",
+            "cleaned_prediction": "wonderful",
+            "gt": "W"
+        },
+        {
+            "input_prompt": "Input: label\nOutput:",
+            "test_query": "label",
+            "prediction": "label\nInput: label\nOutput: label",
+            "cleaned_prediction": "label",
+            "gt": "L"
+        },
+        {
+            "input_prompt": "Input: resourceful\nOutput:",
+            "test_query": "resourceful",
+            "prediction": "resourceful\nDefinition: Having a resourceful person",
+            "cleaned_prediction": "resourceful",
+            "gt": "R"
+        },
+        {
+            "input_prompt": "Input: win\nOutput:",
+            "test_query": "win",
+            "prediction": "win\nInput: lose\nOutput: lose",
+            "cleaned_prediction": "win",
+            "gt": "W"
+        },
+        {
+            "input_prompt": "Input: like\nOutput:",
+            "test_query": "like",
+            "prediction": "like\nInput: love\nOutput: love",
+            "cleaned_prediction": "like",
+            "gt": "L"
+        },
+        {
+            "input_prompt": "Input: salty\nOutput:",
+            "test_query": "salty",
+            "prediction": "1. Salt\n2. Salty",
+            "cleaned_prediction": "1. Salt",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Input: charismatic\nOutput:",
+            "test_query": "charismatic",
+            "prediction": "charismatic\nDefinition: Having a charming and attractive personality",
+            "cleaned_prediction": "charismatic",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Input: spider\nOutput:",
+            "test_query": "spider",
+            "prediction": "\"Spider\" is a type of arachnid",
+            "cleaned_prediction": "\"Spider\" is a type of arachnid",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Input: kiss\nOutput:",
+            "test_query": "kiss",
+            "prediction": "kiss\nInput: kiss\nOutput: kiss",
+            "cleaned_prediction": "kiss",
+            "gt": "K"
+        },
+        {
+            "input_prompt": "Input: weasel\nOutput:",
+            "test_query": "weasel",
+            "prediction": "\"Weasel\"\nInput: 123\nOutput",
+            "cleaned_prediction": "\"Weasel\"",
+            "gt": "W"
+        },
+        {
+            "input_prompt": "Input: into\nOutput:",
+            "test_query": "into",
+            "prediction": "into\nDuration: 1 ms\nExplanation:",
+            "cleaned_prediction": "into",
+            "gt": "I"
+        },
+        {
+            "input_prompt": "Input: jigsaw\nOutput:",
+            "test_query": "jigsaw",
+            "prediction": "\"jigsaw\"\nInput: \"jigsaw\"",
+            "cleaned_prediction": "\"jigsaw\"",
+            "gt": "J"
+        },
+        {
+            "input_prompt": "Input: peach\nOutput:",
+            "test_query": "peach",
+            "prediction": "Peaches are a juicy and sweet stone",
+            "cleaned_prediction": "Peaches are a juicy and sweet stone",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Input: dice\nOutput:",
+            "test_query": "dice",
+            "prediction": "dice\nInput: cat\nOutput: cat",
+            "cleaned_prediction": "dice",
+            "gt": "D"
+        },
+        {
+            "input_prompt": "Input: energetic\nOutput:",
+            "test_query": "energetic",
+            "prediction": "energetic\nDefinition: Having or showing a lot of",
+            "cleaned_prediction": "energetic",
+            "gt": "E"
+        },
+        {
+            "input_prompt": "Input: barracuda\nOutput:",
+            "test_query": "barracuda",
+            "prediction": "The barracuda is a large, predatory fish",
+            "cleaned_prediction": "The barracuda is a large, predatory fish",
+            "gt": "B"
+        },
+        {
+            "input_prompt": "Input: beef\nOutput:",
+            "test_query": "beef",
+            "prediction": "\"Beef is a type of red meat that",
+            "cleaned_prediction": "\"Beef is a type of red meat that",
+            "gt": "B"
+        },
+        {
+            "input_prompt": "Input: hornet\nOutput:",
+            "test_query": "hornet",
+            "prediction": "\"Hornet\" is a type of insect",
+            "cleaned_prediction": "\"Hornet\" is a type of insect",
+            "gt": "H"
+        },
+        {
+            "input_prompt": "Input: otter\nOutput:",
+            "test_query": "otter",
+            "prediction": "\"Otter is a carnivorous mammal that",
+            "cleaned_prediction": "\"Otter is a carnivorous mammal that",
+            "gt": "O"
+        },
+        {
+            "input_prompt": "Input: puzzle\nOutput:",
+            "test_query": "puzzle",
+            "prediction": "solution\nProblem: Given a 2D grid",
+            "cleaned_prediction": "solution",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Input: gracious\nOutput:",
+            "test_query": "gracious",
+            "prediction": "\"gracious\" is not a valid input.",
+            "cleaned_prediction": "\"gracious\" is not a valid input.",
+            "gt": "G"
+        },
+        {
+            "input_prompt": "Input: desk\nOutput:",
+            "test_query": "desk",
+            "prediction": "desk\nInput: table\nOutput: table",
+            "cleaned_prediction": "desk",
+            "gt": "D"
+        },
+        {
+            "input_prompt": "Input: prune\nOutput:",
+            "test_query": "prune",
+            "prediction": "prune\nDefinition: (verb) cut down or",
+            "cleaned_prediction": "prune",
+            "gt": "P"
+        },
+        {
+            "input_prompt": "Input: chipmunk\nOutput:",
+            "test_query": "chipmunk",
+            "prediction": "A chipmunk is a small, striped rod",
+            "cleaned_prediction": "A chipmunk is a small, striped rod",
+            "gt": "C"
+        },
+        {
+            "input_prompt": "Input: stapler\nOutput:",
+            "test_query": "stapler",
+            "prediction": "\"A stapler is a device used to attach",
+            "cleaned_prediction": "\"A stapler is a device used to attach",
+            "gt": "S"
+        },
+        {
+            "input_prompt": "Input: off\nOutput:",
+            "test_query": "off",
+            "prediction": "off\nRecursion: no\nTime complexity:",
+            "cleaned_prediction": "off",
+            "gt": "O"
+        },
+        {
+            "input_prompt": "Input: above\nOutput:",
+            "test_query": "above",
+            "prediction": "above\nExplanation: The string \"above\" is",
+            "cleaned_prediction": "above",
+            "gt": "A"
+        },
+        {
+            "input_prompt": "Input: unwavering\nOutput:",
+            "test_query": "unwavering",
+            "prediction": "unwavering\nDefinition: (adjective)",
+            "cleaned_prediction": "unwavering",
+            "gt": "U"
+        },
+        {
+            "input_prompt": "Input: zucchini\nOutput:",
+            "test_query": "zucchini",
+            "prediction": "\"Zucchini is a type of summer squash.",
+            "cleaned_prediction": "\"Zucchini is a type of summer squash.",
+            "gt": "Z"
+        },
+        {
+            "input_prompt": "Input: flamingo\nOutput:",
+            "test_query": "flamingo",
+            "prediction": "Flamingo\nFlamingo\nFl",
+            "cleaned_prediction": "Flamingo",
+            "gt": "F"
+        },
+        {
+            "input_prompt": "Input: finch\nOutput:",
+            "test_query": "finch",
+            "prediction": "\"The finch is a small bird that is",
+            "cleaned_prediction": "\"The finch is a small bird that is",
+            "gt": "F"
+        }
+    ]
+}

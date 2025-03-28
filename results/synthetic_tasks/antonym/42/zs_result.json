@@ -1,0 +1,1680 @@
+{
+    "score": {
+        "exact_match": 0.03765690376569038
+    },
+    "result": [
+        {
+            "input_prompt": "Input: further\nOutput:",
+            "test_query": "further",
+            "prediction": "further\nexplanation: the word \"further\"",
+            "cleaned_prediction": "further",
+            "gt": "closer"
+        },
+        {
+            "input_prompt": "Input: fact\nOutput:",
+            "test_query": "fact",
+            "prediction": "the factorial of a given integer.\ndescription: this",
+            "cleaned_prediction": "the factorial of a given integer.",
+            "gt": "fiction"
+        },
+        {
+            "input_prompt": "Input: universal\nOutput:",
+            "test_query": "universal",
+            "prediction": "universal\ninput: standard\noutput: standard",
+            "cleaned_prediction": "universal",
+            "gt": "specific"
+        },
+        {
+            "input_prompt": "Input: medial\nOutput:",
+            "test_query": "medial",
+            "prediction": "medial\ninput: medially\noutput: med",
+            "cleaned_prediction": "medial",
+            "gt": "lateral"
+        },
+        {
+            "input_prompt": "Input: excellent\nOutput:",
+            "test_query": "excellent",
+            "prediction": "excellent\ninput: great\noutput: great",
+            "cleaned_prediction": "excellent",
+            "gt": "poor"
+        },
+        {
+            "input_prompt": "Input: require\nOutput:",
+            "test_query": "require",
+            "prediction": "require\ntest: \n```javascript\nconst input",
+            "cleaned_prediction": "require",
+            "gt": "exempt"
+        },
+        {
+            "input_prompt": "Input: convoluted\nOutput:",
+            "test_query": "convoluted",
+            "prediction": "convoluted\ndefinition: (adjective)",
+            "cleaned_prediction": "convoluted",
+            "gt": "straightforward"
+        },
+        {
+            "input_prompt": "Input: proceed\nOutput:",
+            "test_query": "proceed",
+            "prediction": "proceed with caution.\ndefinition: an expression used to",
+            "cleaned_prediction": "proceed with caution.",
+            "gt": "halt"
+        },
+        {
+            "input_prompt": "Input: promote\nOutput:",
+            "test_query": "promote",
+            "prediction": "promote\npromote\nthe act of advancing or",
+            "cleaned_prediction": "promote",
+            "gt": "demote"
+        },
+        {
+            "input_prompt": "Input: set\nOutput:",
+            "test_query": "set",
+            "prediction": "a list of all subsets of the set.\n#",
+            "cleaned_prediction": "a list of all subsets of the set.",
+            "gt": "unset"
+        },
+        {
+            "input_prompt": "Input: matter\nOutput:",
+            "test_query": "matter",
+            "prediction": "energy\nprocess: nuclear fission\nthe best",
+            "cleaned_prediction": "energy",
+            "gt": "antimatter"
+        },
+        {
+            "input_prompt": "Input: commercial\nOutput:",
+            "test_query": "commercial",
+            "prediction": "commercial\ninput: commercial\noutput: commercial",
+            "cleaned_prediction": "commercial",
+            "gt": "residential"
+        },
+        {
+            "input_prompt": "Input: upper\nOutput:",
+            "test_query": "upper",
+            "prediction": "upper\nexplanation: the string \"upper\" is",
+            "cleaned_prediction": "upper",
+            "gt": "lower"
+        },
+        {
+            "input_prompt": "Input: neutral\nOutput:",
+            "test_query": "neutral",
+            "prediction": "neutral\nerror: 0.0\ninput",
+            "cleaned_prediction": "neutral",
+            "gt": "biased"
+        },
+        {
+            "input_prompt": "Input: arrive\nOutput:",
+            "test_query": "arrive",
+            "prediction": "arrived\ninput: hello\noutput: hello",
+            "cleaned_prediction": "arrived",
+            "gt": "depart"
+        },
+        {
+            "input_prompt": "Input: socialist\nOutput:",
+            "test_query": "socialist",
+            "prediction": "the socialist movement is a political and economic ideology that",
+            "cleaned_prediction": "the socialist movement is a political and economic ideology that",
+            "gt": "capitalist"
+        },
+        {
+            "input_prompt": "Input: distrust\nOutput:",
+            "test_query": "distrust",
+            "prediction": "distrust\ndefinition: lack of trust or confidence in",
+            "cleaned_prediction": "distrust",
+            "gt": "trust"
+        },
+        {
+            "input_prompt": "Input: chaotic\nOutput:",
+            "test_query": "chaotic",
+            "prediction": "chaotic\ndefinition: (adjective) marked",
+            "cleaned_prediction": "chaotic",
+            "gt": "orderly"
+        },
+        {
+            "input_prompt": "Input: obedience\nOutput:",
+            "test_query": "obedience",
+            "prediction": "obedience\nobedience is the state of being",
+            "cleaned_prediction": "obedience",
+            "gt": "disobedience"
+        },
+        {
+            "input_prompt": "Input: lender\nOutput:",
+            "test_query": "lender",
+            "prediction": "lender\ndefinition: a person or organization that lends",
+            "cleaned_prediction": "lender",
+            "gt": "borrower"
+        },
+        {
+            "input_prompt": "Input: intellectual\nOutput:",
+            "test_query": "intellectual",
+            "prediction": "intellectual\nthe input is a word, and the",
+            "cleaned_prediction": "intellectual",
+            "gt": "unintellectual"
+        },
+        {
+            "input_prompt": "Input: hold\nOutput:",
+            "test_query": "hold",
+            "prediction": "hold\nduration: 1 ms\nfuzz",
+            "cleaned_prediction": "hold",
+            "gt": "release"
+        },
+        {
+            "input_prompt": "Input: fugitive\nOutput:",
+            "test_query": "fugitive",
+            "prediction": "fugitive\ndefinition: (noun) a person",
+            "cleaned_prediction": "fugitive",
+            "gt": "law-abiding citizen"
+        },
+        {
+            "input_prompt": "Input: infinite\nOutput:",
+            "test_query": "infinite",
+            "prediction": "infinite\nexplanation: the input is an infinite stream",
+            "cleaned_prediction": "infinite",
+            "gt": "finite"
+        },
+        {
+            "input_prompt": "Input: offence\nOutput:",
+            "test_query": "offence",
+            "prediction": "offense\ncorrected word: offense\npart of",
+            "cleaned_prediction": "offense",
+            "gt": "defence"
+        },
+        {
+            "input_prompt": "Input: outlaw\nOutput:",
+            "test_query": "outlaw",
+            "prediction": "outlaw\noutput: outlaw\noutput: outlaw",
+            "cleaned_prediction": "outlaw",
+            "gt": "law-abiding citizen"
+        },
+        {
+            "input_prompt": "Input: sour\nOutput:",
+            "test_query": "sour",
+            "prediction": "sour\ninput: sour\noutput: sour",
+            "cleaned_prediction": "sour",
+            "gt": "sweet"
+        },
+        {
+            "input_prompt": "Input: cause\nOutput:",
+            "test_query": "cause",
+            "prediction": "cause\nthe word \u201ccause\u201d is a noun",
+            "cleaned_prediction": "cause",
+            "gt": "effect"
+        },
+        {
+            "input_prompt": "Input: assail\nOutput:",
+            "test_query": "assail",
+            "prediction": "assail\noutput: assail\noutput: assail",
+            "cleaned_prediction": "assail",
+            "gt": "defend"
+        },
+        {
+            "input_prompt": "Input: dirty\nOutput:",
+            "test_query": "dirty",
+            "prediction": "clean\n\nexplanation: the function takes a string as",
+            "cleaned_prediction": "clean",
+            "gt": "clean"
+        },
+        {
+            "input_prompt": "Input: chilly\nOutput:",
+            "test_query": "chilly",
+            "prediction": "the chilly weather outside is a good excuse to stay",
+            "cleaned_prediction": "the chilly weather outside is a good excuse to stay",
+            "gt": "warm"
+        },
+        {
+            "input_prompt": "Input: incompatible\nOutput:",
+            "test_query": "incompatible",
+            "prediction": "incompatible\ndiscussion:  the input is incompatible because",
+            "cleaned_prediction": "incompatible",
+            "gt": "compatible"
+        },
+        {
+            "input_prompt": "Input: insufficient\nOutput:",
+            "test_query": "insufficient",
+            "prediction": "insufficient\nexplanation: the input is insufficient to determine",
+            "cleaned_prediction": "insufficient",
+            "gt": "sufficient"
+        },
+        {
+            "input_prompt": "Input: accept\nOutput:",
+            "test_query": "accept",
+            "prediction": "accept\ninput: reject\noutput: reject",
+            "cleaned_prediction": "accept",
+            "gt": "reject"
+        },
+        {
+            "input_prompt": "Input: awake\nOutput:",
+            "test_query": "awake",
+            "prediction": "1. the effects of sleep deprivation are cumulative",
+            "cleaned_prediction": "1. the effects of sleep deprivation are cumulative",
+            "gt": "asleep"
+        },
+        {
+            "input_prompt": "Input: bogus\nOutput:",
+            "test_query": "bogus",
+            "prediction": "\"invalid input. please enter a valid number.\"",
+            "cleaned_prediction": "\"invalid input. please enter a valid number.\"",
+            "gt": "authentic"
+        },
+        {
+            "input_prompt": "Input: spurious\nOutput:",
+            "test_query": "spurious",
+            "prediction": "spurious\ndefinition: (of a signal or",
+            "cleaned_prediction": "spurious",
+            "gt": "authentic"
+        },
+        {
+            "input_prompt": "Input: mild\nOutput:",
+            "test_query": "mild",
+            "prediction": "mild\ndefinition: (adjective) not extreme",
+            "cleaned_prediction": "mild",
+            "gt": "severe"
+        },
+        {
+            "input_prompt": "Input: incoming\nOutput:",
+            "test_query": "incoming",
+            "prediction": "outgoing\ninput: outgoing\noutput: incoming",
+            "cleaned_prediction": "outgoing",
+            "gt": "outgoing"
+        },
+        {
+            "input_prompt": "Input: advanced\nOutput:",
+            "test_query": "advanced",
+            "prediction": "\"advanced\"\nduration: 6 ms\nmemory",
+            "cleaned_prediction": "\"advanced\"",
+            "gt": "basic"
+        },
+        {
+            "input_prompt": "Input: admit\nOutput:",
+            "test_query": "admit",
+            "prediction": "admit\ninput: admit\noutput: admit",
+            "cleaned_prediction": "admit",
+            "gt": "deny"
+        },
+        {
+            "input_prompt": "Input: someone\nOutput:",
+            "test_query": "someone",
+            "prediction": "someone\ninput: someone\noutput: someone",
+            "cleaned_prediction": "someone",
+            "gt": "no one"
+        },
+        {
+            "input_prompt": "Input: clumsy\nOutput:",
+            "test_query": "clumsy",
+            "prediction": "clumsy\n\ninput: clumsy\noutput:",
+            "cleaned_prediction": "clumsy",
+            "gt": "graceful"
+        },
+        {
+            "input_prompt": "Input: falsehood\nOutput:",
+            "test_query": "falsehood",
+            "prediction": "\"falsehood is a statement that is not true",
+            "cleaned_prediction": "\"falsehood is a statement that is not true",
+            "gt": "truth"
+        },
+        {
+            "input_prompt": "Input: refined\nOutput:",
+            "test_query": "refined",
+            "prediction": "refined\nrevision: 2.0\ndescription",
+            "cleaned_prediction": "refined",
+            "gt": "crude"
+        },
+        {
+            "input_prompt": "Input: bitter\nOutput:",
+            "test_query": "bitter",
+            "prediction": "\"i'm feeling bitter about the way things turned",
+            "cleaned_prediction": "\"i'm feeling bitter about the way things turned",
+            "gt": "sweet"
+        },
+        {
+            "input_prompt": "Input: let\nOutput:",
+            "test_query": "let",
+            "prediction": "let\n  x = 5;\nin x",
+            "cleaned_prediction": "let",
+            "gt": "prevent"
+        },
+        {
+            "input_prompt": "Input: familiar\nOutput:",
+            "test_query": "familiar",
+            "prediction": "familiar\nmeaning: well-known; not strange",
+            "cleaned_prediction": "familiar",
+            "gt": "unfamiliar"
+        },
+        {
+            "input_prompt": "Input: humility\nOutput:",
+            "test_query": "humility",
+            "prediction": "pride\ni have always been fascinated by the concept",
+            "cleaned_prediction": "pride",
+            "gt": "pride"
+        },
+        {
+            "input_prompt": "Input: dense\nOutput:",
+            "test_query": "dense",
+            "prediction": "sparse\nthe following code is used to convert a",
+            "cleaned_prediction": "sparse",
+            "gt": "sparse"
+        },
+        {
+            "input_prompt": "Input: miss\nOutput:",
+            "test_query": "miss",
+            "prediction": "mississippi\nexplanation: we can spell out the",
+            "cleaned_prediction": "mississippi",
+            "gt": "hit"
+        },
+        {
+            "input_prompt": "Input: optional\nOutput:",
+            "test_query": "optional",
+            "prediction": "required\nthe output of this function is a list",
+            "cleaned_prediction": "required",
+            "gt": "mandatory"
+        },
+        {
+            "input_prompt": "Input: local\nOutput:",
+            "test_query": "local",
+            "prediction": "local\nversion: 0.0.2",
+            "cleaned_prediction": "local",
+            "gt": "foreign"
+        },
+        {
+            "input_prompt": "Input: uneasy\nOutput:",
+            "test_query": "uneasy",
+            "prediction": "uneasy\ndefinition: feeling or showing anxiety or appreh",
+            "cleaned_prediction": "uneasy",
+            "gt": "comfortable"
+        },
+        {
+            "input_prompt": "Input: wisdom\nOutput:",
+            "test_query": "wisdom",
+            "prediction": "wisdom\ndefinition: the ability to discern or judge",
+            "cleaned_prediction": "wisdom",
+            "gt": "foolishness"
+        },
+        {
+            "input_prompt": "Input: speed\nOutput:",
+            "test_query": "speed",
+            "prediction": "time\n\n## step 1: understand the problem",
+            "cleaned_prediction": "time",
+            "gt": "slowness"
+        },
+        {
+            "input_prompt": "Input: catalyst\nOutput:",
+            "test_query": "catalyst",
+            "prediction": "catalyst\ntypes: chemical\ntypes: chemical reaction",
+            "cleaned_prediction": "catalyst",
+            "gt": "inhibitor"
+        },
+        {
+            "input_prompt": "Input: protagonist\nOutput:",
+            "test_query": "protagonist",
+            "prediction": "the protagonist is the main character in a story,",
+            "cleaned_prediction": "the protagonist is the main character in a story,",
+            "gt": "antagonist"
+        },
+        {
+            "input_prompt": "Input: white\nOutput:",
+            "test_query": "white",
+            "prediction": "white\ninput: gray\noutput: gray",
+            "cleaned_prediction": "white",
+            "gt": "black"
+        },
+        {
+            "input_prompt": "Input: specified\nOutput:",
+            "test_query": "specified",
+            "prediction": "specified\ndeadline: specified\n\nhere is a step",
+            "cleaned_prediction": "specified",
+            "gt": "unspecified"
+        },
+        {
+            "input_prompt": "Input: rude\nOutput:",
+            "test_query": "rude",
+            "prediction": "rude\noutput: rude\noutput: rude",
+            "cleaned_prediction": "rude",
+            "gt": "polite"
+        },
+        {
+            "input_prompt": "Input: tall\nOutput:",
+            "test_query": "tall",
+            "prediction": "tall\nexplanation: the word \"tall\"",
+            "cleaned_prediction": "tall",
+            "gt": "short"
+        },
+        {
+            "input_prompt": "Input: sink\nOutput:",
+            "test_query": "sink",
+            "prediction": "sink\nduration: 0:00\nstatus",
+            "cleaned_prediction": "sink",
+            "gt": "float"
+        },
+        {
+            "input_prompt": "Input: intelligent\nOutput:",
+            "test_query": "intelligent",
+            "prediction": "intelligent\ndefinition: having the ability to learn or",
+            "cleaned_prediction": "intelligent",
+            "gt": "unintelligent"
+        },
+        {
+            "input_prompt": "Input: overt\nOutput:",
+            "test_query": "overt",
+            "prediction": "overt\nfinal answer: the final answer is overt",
+            "cleaned_prediction": "overt",
+            "gt": "covert"
+        },
+        {
+            "input_prompt": "Input: foul\nOutput:",
+            "test_query": "foul",
+            "prediction": "foul\ninput: foul\noutput: f",
+            "cleaned_prediction": "foul",
+            "gt": "fair"
+        },
+        {
+            "input_prompt": "Input: improvement\nOutput:",
+            "test_query": "improvement",
+            "prediction": "improvement\nsynonyms: betterment, enhancement,",
+            "cleaned_prediction": "improvement",
+            "gt": "deterioration"
+        },
+        {
+            "input_prompt": "Input: terrestrial\nOutput:",
+            "test_query": "terrestrial",
+            "prediction": "terrestrial\ndefinition: (of a plant or animal",
+            "cleaned_prediction": "terrestrial",
+            "gt": "aquatic"
+        },
+        {
+            "input_prompt": "Input: martial\nOutput:",
+            "test_query": "martial",
+            "prediction": "1. martial arts\n2. martial law",
+            "cleaned_prediction": "1. martial arts",
+            "gt": "civilian"
+        },
+        {
+            "input_prompt": "Input: front\nOutput:",
+            "test_query": "front",
+            "prediction": "front\n\ninput: back\noutput: back",
+            "cleaned_prediction": "front",
+            "gt": "back"
+        },
+        {
+            "input_prompt": "Input: lie\nOutput:",
+            "test_query": "lie",
+            "prediction": "lie\ninput: lied\noutput: lie",
+            "cleaned_prediction": "lie",
+            "gt": "truth"
+        },
+        {
+            "input_prompt": "Input: northwest\nOutput:",
+            "test_query": "northwest",
+            "prediction": "\"north west\"\n\ninput: south\noutput:",
+            "cleaned_prediction": "\"north west\"",
+            "gt": "southeast"
+        },
+        {
+            "input_prompt": "Input: red\nOutput:",
+            "test_query": "red",
+            "prediction": "1\n\ninput: green\noutput:",
+            "cleaned_prediction": "1",
+            "gt": "blue"
+        },
+        {
+            "input_prompt": "Input: worn\nOutput:",
+            "test_query": "worn",
+            "prediction": "worn\nno corrections are needed.\n\n# definition for",
+            "cleaned_prediction": "worn",
+            "gt": "new"
+        },
+        {
+            "input_prompt": "Input: kid\nOutput:",
+            "test_query": "kid",
+            "prediction": "\"hello, kid!\"\ninput: teacher\noutput",
+            "cleaned_prediction": "\"hello, kid!\"",
+            "gt": "adult"
+        },
+        {
+            "input_prompt": "Input: periodic\nOutput:",
+            "test_query": "periodic",
+            "prediction": "periodic\ndate: 2021-05-",
+            "cleaned_prediction": "periodic",
+            "gt": "aperiodic"
+        },
+        {
+            "input_prompt": "Input: misconception\nOutput:",
+            "test_query": "misconception",
+            "prediction": "misconception\ndefinition: a mistaken or incorrect idea or",
+            "cleaned_prediction": "misconception",
+            "gt": "understanding"
+        },
+        {
+            "input_prompt": "Input: difficult\nOutput:",
+            "test_query": "difficult",
+            "prediction": "\"difficulty\"\nexplanation: the word \"difficulty\"",
+            "cleaned_prediction": "\"difficulty\"",
+            "gt": "easy"
+        },
+        {
+            "input_prompt": "Input: lower\nOutput:",
+            "test_query": "lower",
+            "prediction": "lower\ninput: hello\noutput: hello",
+            "cleaned_prediction": "lower",
+            "gt": "upper"
+        },
+        {
+            "input_prompt": "Input: drunk\nOutput:",
+            "test_query": "drunk",
+            "prediction": "drunk\ndefinition: drunk is a word that",
+            "cleaned_prediction": "drunk",
+            "gt": "sober"
+        },
+        {
+            "input_prompt": "Input: unorthodox\nOutput:",
+            "test_query": "unorthodox",
+            "prediction": "the term \"unorthodox\" is often used",
+            "cleaned_prediction": "the term \"unorthodox\" is often used",
+            "gt": "orthodox"
+        },
+        {
+            "input_prompt": "Input: union\nOutput:",
+            "test_query": "union",
+            "prediction": "union\ninput: union\noutput: union",
+            "cleaned_prediction": "union",
+            "gt": "division"
+        },
+        {
+            "input_prompt": "Input: stuff\nOutput:",
+            "test_query": "stuff",
+            "prediction": "stuff\ninput: 123\noutput:",
+            "cleaned_prediction": "stuff",
+            "gt": "empty"
+        },
+        {
+            "input_prompt": "Input: major\nOutput:",
+            "test_query": "major",
+            "prediction": "\"major\"\ninput: minor\noutput: \"",
+            "cleaned_prediction": "\"major\"",
+            "gt": "minor"
+        },
+        {
+            "input_prompt": "Input: peripheral\nOutput:",
+            "test_query": "peripheral",
+            "prediction": "peripheral\nperipheral: peripheral\nperipherals: peripheral",
+            "cleaned_prediction": "peripheral",
+            "gt": "central"
+        },
+        {
+            "input_prompt": "Input: worldly\nOutput:",
+            "test_query": "worldly",
+            "prediction": "worldly\ndefinition: having a practical and sensible approach",
+            "cleaned_prediction": "worldly",
+            "gt": "spiritual"
+        },
+        {
+            "input_prompt": "Input: rapid\nOutput:",
+            "test_query": "rapid",
+            "prediction": "rapid\ndiscussion: the word \"rapid\" is",
+            "cleaned_prediction": "rapid",
+            "gt": "slow"
+        },
+        {
+            "input_prompt": "Input: unmarked\nOutput:",
+            "test_query": "unmarked",
+            "prediction": "unmarked\ninput: marked\noutput: marked",
+            "cleaned_prediction": "unmarked",
+            "gt": "marked"
+        },
+        {
+            "input_prompt": "Input: ladies\nOutput:",
+            "test_query": "ladies",
+            "prediction": "ladies\nexplanation: the word \"ladies\"",
+            "cleaned_prediction": "ladies",
+            "gt": "gentlemen"
+        },
+        {
+            "input_prompt": "Input: lesbian\nOutput:",
+            "test_query": "lesbian",
+            "prediction": "a lesbian is a female who is emotionally, romant",
+            "cleaned_prediction": "a lesbian is a female who is emotionally, romant",
+            "gt": "straight"
+        },
+        {
+            "input_prompt": "Input: plain\nOutput:",
+            "test_query": "plain",
+            "prediction": "plain\ninput: plain\noutput: plain",
+            "cleaned_prediction": "plain",
+            "gt": "fancy"
+        },
+        {
+            "input_prompt": "Input: head\nOutput:",
+            "test_query": "head",
+            "prediction": "head\nexplanation: the input list has 5",
+            "cleaned_prediction": "head",
+            "gt": "tail"
+        },
+        {
+            "input_prompt": "Input: displeasure\nOutput:",
+            "test_query": "displeasure",
+            "prediction": "a person who is dissatisfied or discontent.\nsyn",
+            "cleaned_prediction": "a person who is dissatisfied or discontent.",
+            "gt": "pleasure"
+        },
+        {
+            "input_prompt": "Input: arise\nOutput:",
+            "test_query": "arise",
+            "prediction": "arise\ngender: male\noccupation:",
+            "cleaned_prediction": "arise",
+            "gt": "settle"
+        },
+        {
+            "input_prompt": "Input: symptom\nOutput:",
+            "test_query": "symptom",
+            "prediction": "\"i'm sorry, but i don't understand",
+            "cleaned_prediction": "\"i'm sorry, but i don't understand",
+            "gt": "cure"
+        },
+        {
+            "input_prompt": "Input: dusty\nOutput:",
+            "test_query": "dusty",
+            "prediction": "dusty\nexplanation: the word \"dusty\"",
+            "cleaned_prediction": "dusty",
+            "gt": "clean"
+        },
+        {
+            "input_prompt": "Input: location\nOutput:",
+            "test_query": "location",
+            "prediction": "location\ndefinition: the location where a specific event",
+            "cleaned_prediction": "location",
+            "gt": "displacement"
+        },
+        {
+            "input_prompt": "Input: coloured\nOutput:",
+            "test_query": "coloured",
+            "prediction": "\"the input string is: coloured\"\ninput:",
+            "cleaned_prediction": "\"the input string is: coloured\"",
+            "gt": "monochrome"
+        },
+        {
+            "input_prompt": "Input: retrieve\nOutput:",
+            "test_query": "retrieve",
+            "prediction": "retrieve\nmodel: gpt3-medium\nexplanation",
+            "cleaned_prediction": "retrieve",
+            "gt": "discard"
+        },
+        {
+            "input_prompt": "Input: mad\nOutput:",
+            "test_query": "mad",
+            "prediction": "mad\n\nexplanation: we have to find the second",
+            "cleaned_prediction": "mad",
+            "gt": "sane"
+        },
+        {
+            "input_prompt": "Input: dark\nOutput:",
+            "test_query": "dark",
+            "prediction": "dark\ndescription: antonyms of \"dark\"",
+            "cleaned_prediction": "dark",
+            "gt": "light"
+        },
+        {
+            "input_prompt": "Input: constructive\nOutput:",
+            "test_query": "constructive",
+            "prediction": "constructive\nexplanation: the input and output are the",
+            "cleaned_prediction": "constructive",
+            "gt": "destructive"
+        },
+        {
+            "input_prompt": "Input: shallow\nOutput:",
+            "test_query": "shallow",
+            "prediction": "deep\ninput: shallow\noutput: deep",
+            "cleaned_prediction": "deep",
+            "gt": "deep"
+        },
+        {
+            "input_prompt": "Input: genuine\nOutput:",
+            "test_query": "genuine",
+            "prediction": "genuine\ndefinition: (adjective) being in",
+            "cleaned_prediction": "genuine",
+            "gt": "fake"
+        },
+        {
+            "input_prompt": "Input: short\nOutput:",
+            "test_query": "short",
+            "prediction": "short\ninput: int\noutput: int",
+            "cleaned_prediction": "short",
+            "gt": "long"
+        },
+        {
+            "input_prompt": "Input: evolution\nOutput:",
+            "test_query": "evolution",
+            "prediction": "evolution\n================_compat\n================_input\n================",
+            "cleaned_prediction": "evolution",
+            "gt": "devolution"
+        },
+        {
+            "input_prompt": "Input: line\nOutput:",
+            "test_query": "line",
+            "prediction": "a line with the first and last character of each",
+            "cleaned_prediction": "a line with the first and last character of each",
+            "gt": "curve"
+        },
+        {
+            "input_prompt": "Input: field\nOutput:",
+            "test_query": "field",
+            "prediction": "field\nmath action: multiply\nresult: field",
+            "cleaned_prediction": "field",
+            "gt": "city"
+        },
+        {
+            "input_prompt": "Input: convergence\nOutput:",
+            "test_query": "convergence",
+            "prediction": "convergence\ntopics: convergence of a sequence",
+            "cleaned_prediction": "convergence",
+            "gt": "divergence"
+        },
+        {
+            "input_prompt": "Input: dim\nOutput:",
+            "test_query": "dim",
+            "prediction": "x\n```\ndef find_nearest_power_of",
+            "cleaned_prediction": "x",
+            "gt": "bright"
+        },
+        {
+            "input_prompt": "Input: venerable\nOutput:",
+            "test_query": "venerable",
+            "prediction": "venerable\ndefinition: (adjective) deserving",
+            "cleaned_prediction": "venerable",
+            "gt": "disreputable"
+        },
+        {
+            "input_prompt": "Input: irresponsible\nOutput:",
+            "test_query": "irresponsible",
+            "prediction": "irresponsible\ndefinition: not responsible or accountable for one",
+            "cleaned_prediction": "irresponsible",
+            "gt": "responsible"
+        },
+        {
+            "input_prompt": "Input: northwestern\nOutput:",
+            "test_query": "northwestern",
+            "prediction": "northwest\nexplanation: we can get the first and",
+            "cleaned_prediction": "northwest",
+            "gt": "southeastern"
+        },
+        {
+            "input_prompt": "Input: defensive\nOutput:",
+            "test_query": "defensive",
+            "prediction": "defensive\ndefinition: (of a player, team",
+            "cleaned_prediction": "defensive",
+            "gt": "offensive"
+        },
+        {
+            "input_prompt": "Input: original\nOutput:",
+            "test_query": "original",
+            "prediction": "original\nexplanation: the original string is \"original",
+            "cleaned_prediction": "original",
+            "gt": "copy"
+        },
+        {
+            "input_prompt": "Input: subconscious\nOutput:",
+            "test_query": "subconscious",
+            "prediction": "poetry\ni was born of darkness, a spark",
+            "cleaned_prediction": "poetry",
+            "gt": "conscious"
+        },
+        {
+            "input_prompt": "Input: copy\nOutput:",
+            "test_query": "copy",
+            "prediction": "copy\ninput: paste\noutput: paste",
+            "cleaned_prediction": "copy",
+            "gt": "original"
+        },
+        {
+            "input_prompt": "Input: attract\nOutput:",
+            "test_query": "attract",
+            "prediction": "attract\ninput: attract\noutput: attract",
+            "cleaned_prediction": "attract",
+            "gt": "repel"
+        },
+        {
+            "input_prompt": "Input: magnetic\nOutput:",
+            "test_query": "magnetic",
+            "prediction": "magnetic field\nprocess: magnetization\ndescription:",
+            "cleaned_prediction": "magnetic field",
+            "gt": "nonmagnetic"
+        },
+        {
+            "input_prompt": "Input: injustice\nOutput:",
+            "test_query": "injustice",
+            "prediction": "injustice\ndefinition: (noun) lack of justice",
+            "cleaned_prediction": "injustice",
+            "gt": "justice"
+        },
+        {
+            "input_prompt": "Input: mortality\nOutput:",
+            "test_query": "mortality",
+            "prediction": "mortality rate\nthe mortality rate is the ratio of",
+            "cleaned_prediction": "mortality rate",
+            "gt": "immortality"
+        },
+        {
+            "input_prompt": "Input: laughter\nOutput:",
+            "test_query": "laughter",
+            "prediction": "joy\nlaughter is a universal language that brings",
+            "cleaned_prediction": "joy",
+            "gt": "tears"
+        },
+        {
+            "input_prompt": "Input: inhuman\nOutput:",
+            "test_query": "inhuman",
+            "prediction": "inhuman\ndefinition: not human; unnatural;",
+            "cleaned_prediction": "inhuman",
+            "gt": "human"
+        },
+        {
+            "input_prompt": "Input: heavenly\nOutput:",
+            "test_query": "heavenly",
+            "prediction": "heavenly\ndefinition: relating to or characteristic of heaven",
+            "cleaned_prediction": "heavenly",
+            "gt": "hellish"
+        },
+        {
+            "input_prompt": "Input: half\nOutput:",
+            "test_query": "half",
+            "prediction": "half\nconstraints: half\n\ndef find_gcd",
+            "cleaned_prediction": "half",
+            "gt": "full"
+        },
+        {
+            "input_prompt": "Input: unpopular\nOutput:",
+            "test_query": "unpopular",
+            "prediction": "the word \"unpopular\" is an adjective that",
+            "cleaned_prediction": "the word \"unpopular\" is an adjective that",
+            "gt": "popular"
+        },
+        {
+            "input_prompt": "Input: recession\nOutput:",
+            "test_query": "recession",
+            "prediction": "the united states is experiencing a recession. the economy",
+            "cleaned_prediction": "the united states is experiencing a recession. the economy",
+            "gt": "boom"
+        },
+        {
+            "input_prompt": "Input: poor\nOutput:",
+            "test_query": "poor",
+            "prediction": "poor\ninput: rich\noutput: rich",
+            "cleaned_prediction": "poor",
+            "gt": "rich"
+        },
+        {
+            "input_prompt": "Input: noisy\nOutput:",
+            "test_query": "noisy",
+            "prediction": "noisy\nforum: relationships\nforum: relationships",
+            "cleaned_prediction": "noisy",
+            "gt": "quiet"
+        },
+        {
+            "input_prompt": "Input: specialize\nOutput:",
+            "test_query": "specialize",
+            "prediction": "specialize\ninput: specialise\noutput: special",
+            "cleaned_prediction": "specialize",
+            "gt": "generalize"
+        },
+        {
+            "input_prompt": "Input: polite\nOutput:",
+            "test_query": "polite",
+            "prediction": "polite\ndefinition: mannerly and considerate",
+            "cleaned_prediction": "polite",
+            "gt": "rude"
+        },
+        {
+            "input_prompt": "Input: spacious\nOutput:",
+            "test_query": "spacious",
+            "prediction": "spacious\ndefinition: having a lot of space or",
+            "cleaned_prediction": "spacious",
+            "gt": "cramped"
+        },
+        {
+            "input_prompt": "Input: hideous\nOutput:",
+            "test_query": "hideous",
+            "prediction": "hideous\ndefinition: extremely ugly or unpleasant",
+            "cleaned_prediction": "hideous",
+            "gt": "beautiful"
+        },
+        {
+            "input_prompt": "Input: judicial\nOutput:",
+            "test_query": "judicial",
+            "prediction": "judicial\ninput: judicial\noutput: judicial",
+            "cleaned_prediction": "judicial",
+            "gt": "extrajudicial"
+        },
+        {
+            "input_prompt": "Input: observational\nOutput:",
+            "test_query": "observational",
+            "prediction": "predictive\nalgorithms: gradient boosting, random forest",
+            "cleaned_prediction": "predictive",
+            "gt": "theoretical"
+        },
+        {
+            "input_prompt": "Input: shorten\nOutput:",
+            "test_query": "shorten",
+            "prediction": "shorten\nthe verb \"to shorten\" means to",
+            "cleaned_prediction": "shorten",
+            "gt": "lengthen"
+        },
+        {
+            "input_prompt": "Input: gay\nOutput:",
+            "test_query": "gay",
+            "prediction": "\"gay\" is a term used to describe a",
+            "cleaned_prediction": "\"gay\" is a term used to describe a",
+            "gt": "straight"
+        },
+        {
+            "input_prompt": "Input: insignificant\nOutput:",
+            "test_query": "insignificant",
+            "prediction": "insignificant\ndefinition: (adjective) not important",
+            "cleaned_prediction": "insignificant",
+            "gt": "significant"
+        },
+        {
+            "input_prompt": "Input: stable\nOutput:",
+            "test_query": "stable",
+            "prediction": "stable\ndefinition: (of a financial market)",
+            "cleaned_prediction": "stable",
+            "gt": "unstable"
+        },
+        {
+            "input_prompt": "Input: concentration\nOutput:",
+            "test_query": "concentration",
+            "prediction": "concentration\ncomparing concentrations\nconcentration is a",
+            "cleaned_prediction": "concentration",
+            "gt": "distraction"
+        },
+        {
+            "input_prompt": "Input: fertile\nOutput:",
+            "test_query": "fertile",
+            "prediction": "fertile\ninput: unfertile\noutput:",
+            "cleaned_prediction": "fertile",
+            "gt": "infertile"
+        },
+        {
+            "input_prompt": "Input: delete\nOutput:",
+            "test_query": "delete",
+            "prediction": "the word \"delete\" can be deleted by",
+            "cleaned_prediction": "the word \"delete\" can be deleted by",
+            "gt": "save"
+        },
+        {
+            "input_prompt": "Input: powdered\nOutput:",
+            "test_query": "powdered",
+            "prediction": "solid\nchange in state: from solid to liquid",
+            "cleaned_prediction": "solid",
+            "gt": "solid"
+        },
+        {
+            "input_prompt": "Input: conserve\nOutput:",
+            "test_query": "conserve",
+            "prediction": "conserve\nconserve\nconserve\nconserve",
+            "cleaned_prediction": "conserve",
+            "gt": "waste"
+        },
+        {
+            "input_prompt": "Input: central\nOutput:",
+            "test_query": "central",
+            "prediction": "central\ndifficultyrating:\n## step",
+            "cleaned_prediction": "central",
+            "gt": "peripheral"
+        },
+        {
+            "input_prompt": "Input: bulky\nOutput:",
+            "test_query": "bulky",
+            "prediction": "bulky (adjective) - having a large",
+            "cleaned_prediction": "bulky (adjective) - having a large",
+            "gt": "compact"
+        },
+        {
+            "input_prompt": "Input: downhill\nOutput:",
+            "test_query": "downhill",
+            "prediction": "'downhill'\ninput: uphill\noutput:",
+            "cleaned_prediction": "'downhill'",
+            "gt": "uphill"
+        },
+        {
+            "input_prompt": "Input: alter\nOutput:",
+            "test_query": "alter",
+            "prediction": "alter\nexplanation: the word \"alter\" is",
+            "cleaned_prediction": "alter",
+            "gt": "preserve"
+        },
+        {
+            "input_prompt": "Input: note\nOutput:",
+            "test_query": "note",
+            "prediction": "note\nthis is a simple note-taking application.",
+            "cleaned_prediction": "note",
+            "gt": "silence"
+        },
+        {
+            "input_prompt": "Input: death\nOutput:",
+            "test_query": "death",
+            "prediction": "death is the permanent cessation of all biological functions that",
+            "cleaned_prediction": "death is the permanent cessation of all biological functions that",
+            "gt": "life"
+        },
+        {
+            "input_prompt": "Input: sister\nOutput:",
+            "test_query": "sister",
+            "prediction": "\"the sister is a female sibling, typically younger",
+            "cleaned_prediction": "\"the sister is a female sibling, typically younger",
+            "gt": "brother"
+        },
+        {
+            "input_prompt": "Input: income\nOutput:",
+            "test_query": "income",
+            "prediction": "a list of all possible tax brackets and the tax",
+            "cleaned_prediction": "a list of all possible tax brackets and the tax",
+            "gt": "expense"
+        },
+        {
+            "input_prompt": "Input: output\nOutput:",
+            "test_query": "output",
+            "prediction": "input\nthis is a simple substitution cipher where each",
+            "cleaned_prediction": "input",
+            "gt": "input"
+        },
+        {
+            "input_prompt": "Input: objective\nOutput:",
+            "test_query": "objective",
+            "prediction": "objective\noutput: objective\noutput: objective",
+            "cleaned_prediction": "objective",
+            "gt": "subjective"
+        },
+        {
+            "input_prompt": "Input: beast\nOutput:",
+            "test_query": "beast",
+            "prediction": "'beast'\ninput: 'beast'",
+            "cleaned_prediction": "'beast'",
+            "gt": "beauty"
+        },
+        {
+            "input_prompt": "Input: everything\nOutput:",
+            "test_query": "everything",
+            "prediction": "everything\nthe output of this function will be everything",
+            "cleaned_prediction": "everything",
+            "gt": "nothing"
+        },
+        {
+            "input_prompt": "Input: nationalist\nOutput:",
+            "test_query": "nationalist",
+            "prediction": "nationalist\ndefinition: a person who advocates or supports",
+            "cleaned_prediction": "nationalist",
+            "gt": "internationalist"
+        },
+        {
+            "input_prompt": "Input: appear\nOutput:",
+            "test_query": "appear",
+            "prediction": "appear\ntime complexity: o(1)\nspace",
+            "cleaned_prediction": "appear",
+            "gt": "disappear"
+        },
+        {
+            "input_prompt": "Input: favorable\nOutput:",
+            "test_query": "favorable",
+            "prediction": "favorable\nresult: the word \"favorable\"",
+            "cleaned_prediction": "favorable",
+            "gt": "unfavorable"
+        },
+        {
+            "input_prompt": "Input: tomorrow\nOutput:",
+            "test_query": "tomorrow",
+            "prediction": "tomorrow is a noun. it refers to the day",
+            "cleaned_prediction": "tomorrow is a noun. it refers to the day",
+            "gt": "yesterday"
+        },
+        {
+            "input_prompt": "Input: homeless\nOutput:",
+            "test_query": "homeless",
+            "prediction": "the term homeless refers to an individual who lacks a",
+            "cleaned_prediction": "the term homeless refers to an individual who lacks a",
+            "gt": "housed"
+        },
+        {
+            "input_prompt": "Input: unmanned\nOutput:",
+            "test_query": "unmanned",
+            "prediction": "unmanned\ndiscussion:\nthe word \"unmanned",
+            "cleaned_prediction": "unmanned",
+            "gt": "manned"
+        },
+        {
+            "input_prompt": "Input: reward\nOutput:",
+            "test_query": "reward",
+            "prediction": "prediction\nhidden layers: 2\nhidden layer",
+            "cleaned_prediction": "prediction",
+            "gt": "punishment"
+        },
+        {
+            "input_prompt": "Input: absurd\nOutput:",
+            "test_query": "absurd",
+            "prediction": "absurd\ninput: abcd\noutput: ab",
+            "cleaned_prediction": "absurd",
+            "gt": "sensible"
+        },
+        {
+            "input_prompt": "Input: confused\nOutput:",
+            "test_query": "confused",
+            "prediction": "\"i'm not sure what you mean. can",
+            "cleaned_prediction": "\"i'm not sure what you mean. can",
+            "gt": "clear-minded"
+        },
+        {
+            "input_prompt": "Input: believable\nOutput:",
+            "test_query": "believable",
+            "prediction": "believable\ndefinition: (of a person or their",
+            "cleaned_prediction": "believable",
+            "gt": "unbelievable"
+        },
+        {
+            "input_prompt": "Input: harass\nOutput:",
+            "test_query": "harass",
+            "prediction": "(verb) to annoy or disturb repeatedly\nsyn",
+            "cleaned_prediction": "(verb) to annoy or disturb repeatedly",
+            "gt": "comfort"
+        },
+        {
+            "input_prompt": "Input: background\nOutput:",
+            "test_query": "background",
+            "prediction": "background\ninput: background\noutput: background",
+            "cleaned_prediction": "background",
+            "gt": "foreground"
+        },
+        {
+            "input_prompt": "Input: fertility\nOutput:",
+            "test_query": "fertility",
+            "prediction": "fertility\n---\n\n# fertility\n\nfertility is",
+            "cleaned_prediction": "fertility",
+            "gt": "infertility"
+        },
+        {
+            "input_prompt": "Input: dotted\nOutput:",
+            "test_query": "dotted",
+            "prediction": "dotted\ninput: dotted\noutput: dotted",
+            "cleaned_prediction": "dotted",
+            "gt": "solid"
+        },
+        {
+            "input_prompt": "Input: civilian\nOutput:",
+            "test_query": "civilian",
+            "prediction": "civilian\ndefinition: a person who is not a",
+            "cleaned_prediction": "civilian",
+            "gt": "military"
+        },
+        {
+            "input_prompt": "Input: expenditure\nOutput:",
+            "test_query": "expenditure",
+            "prediction": "income\neffect: economic growth\nthe correct answer",
+            "cleaned_prediction": "income",
+            "gt": "income"
+        },
+        {
+            "input_prompt": "Input: intentional\nOutput:",
+            "test_query": "intentional",
+            "prediction": "intentional\ndefinition: (of an act or decision",
+            "cleaned_prediction": "intentional",
+            "gt": "accidental"
+        },
+        {
+            "input_prompt": "Input: criticize\nOutput:",
+            "test_query": "criticize",
+            "prediction": "the criticism of the film was mixed, with some",
+            "cleaned_prediction": "the criticism of the film was mixed, with some",
+            "gt": "praise"
+        },
+        {
+            "input_prompt": "Input: discomfort\nOutput:",
+            "test_query": "discomfort",
+            "prediction": "discomfort\ndefinition: a feeling of physical or mental",
+            "cleaned_prediction": "discomfort",
+            "gt": "comfort"
+        },
+        {
+            "input_prompt": "Input: relax\nOutput:",
+            "test_query": "relax",
+            "prediction": "relax\nexplanation: the word \u201crelax\u201d",
+            "cleaned_prediction": "relax",
+            "gt": "stress"
+        },
+        {
+            "input_prompt": "Input: extra\nOutput:",
+            "test_query": "extra",
+            "prediction": "extra\nexplanation: the string \"extra\" is",
+            "cleaned_prediction": "extra",
+            "gt": "lacking"
+        },
+        {
+            "input_prompt": "Input: sacred\nOutput:",
+            "test_query": "sacred",
+            "prediction": "sacred\ninput: unclean\noutput: un",
+            "cleaned_prediction": "sacred",
+            "gt": "profane"
+        },
+        {
+            "input_prompt": "Input: plentiful\nOutput:",
+            "test_query": "plentiful",
+            "prediction": "plentiful\ndefinition: (of a quality or resource",
+            "cleaned_prediction": "plentiful",
+            "gt": "scarce"
+        },
+        {
+            "input_prompt": "Input: moral\nOutput:",
+            "test_query": "moral",
+            "prediction": "moral\nthe word moral is a noun that refers",
+            "cleaned_prediction": "moral",
+            "gt": "immoral"
+        },
+        {
+            "input_prompt": "Input: smart\nOutput:",
+            "test_query": "smart",
+            "prediction": "smart\ndescription: this word is a common adjective",
+            "cleaned_prediction": "smart",
+            "gt": "dumb"
+        },
+        {
+            "input_prompt": "Input: mark\nOutput:",
+            "test_query": "mark",
+            "prediction": "\"mark\"\ninput: \"mark\"\noutput:",
+            "cleaned_prediction": "\"mark\"",
+            "gt": "unmark"
+        },
+        {
+            "input_prompt": "Input: entire\nOutput:",
+            "test_query": "entire",
+            "prediction": "entire\nyou input the word \"entire\"",
+            "cleaned_prediction": "entire",
+            "gt": "partial"
+        },
+        {
+            "input_prompt": "Input: treacherous\nOutput:",
+            "test_query": "treacherous",
+            "prediction": "12\nexplanation: the word \"treacher",
+            "cleaned_prediction": "12",
+            "gt": "trustworthy"
+        },
+        {
+            "input_prompt": "Input: inaccessible\nOutput:",
+            "test_query": "inaccessible",
+            "prediction": "inaccessible\ncharacter: inaccessible\ndefinition: unable to",
+            "cleaned_prediction": "inaccessible",
+            "gt": "accessible"
+        },
+        {
+            "input_prompt": "Input: inexpensive\nOutput:",
+            "test_query": "inexpensive",
+            "prediction": "inexpensive\ndefinition: (of a product, service",
+            "cleaned_prediction": "inexpensive",
+            "gt": "expensive"
+        },
+        {
+            "input_prompt": "Input: classify\nOutput:",
+            "test_query": "classify",
+            "prediction": "classify\nconfidence: 1\ninput:",
+            "cleaned_prediction": "classify",
+            "gt": "disorganize"
+        },
+        {
+            "input_prompt": "Input: historical\nOutput:",
+            "test_query": "historical",
+            "prediction": "historical\n==\n\nthe given input \"historical",
+            "cleaned_prediction": "historical",
+            "gt": "contemporary"
+        },
+        {
+            "input_prompt": "Input: grow\nOutput:",
+            "test_query": "grow",
+            "prediction": "grow\ngrow is a verb that means to become",
+            "cleaned_prediction": "grow",
+            "gt": "shrink"
+        },
+        {
+            "input_prompt": "Input: repair\nOutput:",
+            "test_query": "repair",
+            "prediction": "repair\nthe word repair is spelled the same forwards",
+            "cleaned_prediction": "repair",
+            "gt": "damage"
+        },
+        {
+            "input_prompt": "Input: decrease\nOutput:",
+            "test_query": "decrease",
+            "prediction": "decrease\nexplanation: the word \"decrease",
+            "cleaned_prediction": "decrease",
+            "gt": "increase"
+        },
+        {
+            "input_prompt": "Input: visual\nOutput:",
+            "test_query": "visual",
+            "prediction": "visual\npublished: december 31, 201",
+            "cleaned_prediction": "visual",
+            "gt": "auditory"
+        },
+        {
+            "input_prompt": "Input: secret\nOutput:",
+            "test_query": "secret",
+            "prediction": "the input string \"secret\" is not a",
+            "cleaned_prediction": "the input string \"secret\" is not a",
+            "gt": "public"
+        },
+        {
+            "input_prompt": "Input: unclear\nOutput:",
+            "test_query": "unclear",
+            "prediction": "unclear\ndiscounts and promotions\nwe are",
+            "cleaned_prediction": "unclear",
+            "gt": "clear"
+        },
+        {
+            "input_prompt": "Input: capable\nOutput:",
+            "test_query": "capable",
+            "prediction": "capable\ninput: incapable\noutput: inc",
+            "cleaned_prediction": "capable",
+            "gt": "incapable"
+        },
+        {
+            "input_prompt": "Input: feature\nOutput:",
+            "test_query": "feature",
+            "prediction": "feature\n\n# introduction to feature engineering\n\nfeature engineering",
+            "cleaned_prediction": "feature",
+            "gt": "bug"
+        },
+        {
+            "input_prompt": "Input: functional\nOutput:",
+            "test_query": "functional",
+            "prediction": "functional\ninput: nonfunctional\noutput: non",
+            "cleaned_prediction": "functional",
+            "gt": "dysfunctional"
+        },
+        {
+            "input_prompt": "Input: subdued\nOutput:",
+            "test_query": "subdued",
+            "prediction": "subdued\ndefinition: (adjective) not bright",
+            "cleaned_prediction": "subdued",
+            "gt": "vibrant"
+        },
+        {
+            "input_prompt": "Input: wake\nOutput:",
+            "test_query": "wake",
+            "prediction": "wake up\ndefinition: to become conscious or aware",
+            "cleaned_prediction": "wake up",
+            "gt": "sleep"
+        },
+        {
+            "input_prompt": "Input: decline\nOutput:",
+            "test_query": "decline",
+            "prediction": "decline\n```python\ndef decline(word):",
+            "cleaned_prediction": "decline",
+            "gt": "increase"
+        },
+        {
+            "input_prompt": "Input: tolerance\nOutput:",
+            "test_query": "tolerance",
+            "prediction": "tolerance\nconstraints: \n1 <= tolerance <=",
+            "cleaned_prediction": "tolerance",
+            "gt": "intolerance"
+        },
+        {
+            "input_prompt": "Input: rest\nOutput:",
+            "test_query": "rest",
+            "prediction": "rest\ninput: t\noutput: t",
+            "cleaned_prediction": "rest",
+            "gt": "work"
+        },
+        {
+            "input_prompt": "Input: shameful\nOutput:",
+            "test_query": "shameful",
+            "prediction": "the word \"shameful\" is an adjective",
+            "cleaned_prediction": "the word \"shameful\" is an adjective",
+            "gt": "honorable"
+        },
+        {
+            "input_prompt": "Input: main\nOutput:",
+            "test_query": "main",
+            "prediction": "main\nmemory_error: false\ntime_error:",
+            "cleaned_prediction": "main",
+            "gt": "secondary"
+        },
+        {
+            "input_prompt": "Input: analysis\nOutput:",
+            "test_query": "analysis",
+            "prediction": "analysis\n[[0, 1, 0",
+            "cleaned_prediction": "analysis",
+            "gt": "synthesis"
+        },
+        {
+            "input_prompt": "Input: soil\nOutput:",
+            "test_query": "soil",
+            "prediction": "compost\nprocess: decomposition\ndescription: com",
+            "cleaned_prediction": "compost",
+            "gt": "sky"
+        },
+        {
+            "input_prompt": "Input: downside\nOutput:",
+            "test_query": "downside",
+            "prediction": "downsize\nexplanation: the word \"downsize",
+            "cleaned_prediction": "downsize",
+            "gt": "upside"
+        },
+        {
+            "input_prompt": "Input: tail\nOutput:",
+            "test_query": "tail",
+            "prediction": "tail\ninput: hello\noutput: hello",
+            "cleaned_prediction": "tail",
+            "gt": "head"
+        },
+        {
+            "input_prompt": "Input: contradict\nOutput:",
+            "test_query": "contradict",
+            "prediction": "contradict\ncapitalized word: contrad",
+            "cleaned_prediction": "contradict",
+            "gt": "agree"
+        },
+        {
+            "input_prompt": "Input: medieval\nOutput:",
+            "test_query": "medieval",
+            "prediction": "medieval\ninput: middle ages\noutput: medieval",
+            "cleaned_prediction": "medieval",
+            "gt": "modern"
+        },
+        {
+            "input_prompt": "Input: antagonist\nOutput:",
+            "test_query": "antagonist",
+            "prediction": "a person who opposes or competes with another person",
+            "cleaned_prediction": "a person who opposes or competes with another person",
+            "gt": "protagonist"
+        },
+        {
+            "input_prompt": "Input: lineman\nOutput:",
+            "test_query": "lineman",
+            "prediction": "linemen\ninput: mailman\noutput:",
+            "cleaned_prediction": "linemen",
+            "gt": "receiver"
+        },
+        {
+            "input_prompt": "Input: differentiate\nOutput:",
+            "test_query": "differentiate",
+            "prediction": "differentiate\ntypes: noun\ndefinition: the process",
+            "cleaned_prediction": "differentiate",
+            "gt": "integrate"
+        },
+        {
+            "input_prompt": "Input: colored\nOutput:",
+            "test_query": "colored",
+            "prediction": "\"the color of the sky is blue.\"\ninput",
+            "cleaned_prediction": "\"the color of the sky is blue.\"",
+            "gt": "colorless"
+        },
+        {
+            "input_prompt": "Input: file\nOutput:",
+            "test_query": "file",
+            "prediction": "file\ntime complexity: o(n)\nspace complexity",
+            "cleaned_prediction": "file",
+            "gt": "delete"
+        },
+        {
+            "input_prompt": "Input: solid\nOutput:",
+            "test_query": "solid",
+            "prediction": "solid\n---\ninput: liquid\noutput: liquid",
+            "cleaned_prediction": "solid",
+            "gt": "liquid"
+        },
+        {
+            "input_prompt": "Input: playful\nOutput:",
+            "test_query": "playful",
+            "prediction": "playful is an adjective that describes something or someone",
+            "cleaned_prediction": "playful is an adjective that describes something or someone",
+            "gt": "serious"
+        },
+        {
+            "input_prompt": "Input: mistaken\nOutput:",
+            "test_query": "mistaken",
+            "prediction": "mistaken\ndefinition: incorrect or wrong\n\nthe word",
+            "cleaned_prediction": "mistaken",
+            "gt": "correct"
+        },
+        {
+            "input_prompt": "Input: imaginative\nOutput:",
+            "test_query": "imaginative",
+            "prediction": "innovative\ninnovative: having new and original",
+            "cleaned_prediction": "innovative",
+            "gt": "practical"
+        },
+        {
+            "input_prompt": "Input: marvelous\nOutput:",
+            "test_query": "marvelous",
+            "prediction": "marvelous\ninput: marvelous\noutput: marvelous",
+            "cleaned_prediction": "marvelous",
+            "gt": "terrible"
+        },
+        {
+            "input_prompt": "Input: condemn\nOutput:",
+            "test_query": "condemn",
+            "prediction": "i condemn\ninput: condemned\noutput: i",
+            "cleaned_prediction": "i condemn",
+            "gt": "praise"
+        },
+        {
+            "input_prompt": "Input: outfield\nOutput:",
+            "test_query": "outfield",
+            "prediction": "out field\nexplanation: the word \"outfield",
+            "cleaned_prediction": "out field",
+            "gt": "infield"
+        },
+        {
+            "input_prompt": "Input: procedural\nOutput:",
+            "test_query": "procedural",
+            "prediction": "procedural\noutput: procedural\noutput: procedural",
+            "cleaned_prediction": "procedural",
+            "gt": "conceptual"
+        },
+        {
+            "input_prompt": "Input: nuclear\nOutput:",
+            "test_query": "nuclear",
+            "prediction": "nuclear\n================\n\n### nuclear energy\n\nnuclear",
+            "cleaned_prediction": "nuclear",
+            "gt": "renewable"
+        },
+        {
+            "input_prompt": "Input: charge\nOutput:",
+            "test_query": "charge",
+            "prediction": "charge\nmodel: charge\nunits: coul",
+            "cleaned_prediction": "charge",
+            "gt": "discharge"
+        },
+        {
+            "input_prompt": "Input: undergraduate\nOutput:",
+            "test_query": "undergraduate",
+            "prediction": "the undergraduate program is designed to provide students with a",
+            "cleaned_prediction": "the undergraduate program is designed to provide students with a",
+            "gt": "graduate"
+        },
+        {
+            "input_prompt": "Input: new\nOutput:",
+            "test_query": "new",
+            "prediction": "new\n\nexplanation: the function should return the input",
+            "cleaned_prediction": "new",
+            "gt": "old"
+        },
+        {
+            "input_prompt": "Input: penal\nOutput:",
+            "test_query": "penal",
+            "prediction": "penal\npenalty function for the penalized likelihood",
+            "cleaned_prediction": "penal",
+            "gt": "rewarding"
+        },
+        {
+            "input_prompt": "Input: meaningful\nOutput:",
+            "test_query": "meaningful",
+            "prediction": "meaningful\ndefinition: (adjective) having or",
+            "cleaned_prediction": "meaningful",
+            "gt": "meaningless"
+        },
+        {
+            "input_prompt": "Input: thin\nOutput:",
+            "test_query": "thin",
+            "prediction": "thin\ndefinition: (of a person or animal",
+            "cleaned_prediction": "thin",
+            "gt": "thick"
+        },
+        {
+            "input_prompt": "Input: rivalry\nOutput:",
+            "test_query": "rivalry",
+            "prediction": "the rivalry between the two teams has been intense throughout",
+            "cleaned_prediction": "the rivalry between the two teams has been intense throughout",
+            "gt": "cooperation"
+        },
+        {
+            "input_prompt": "Input: run\nOutput:",
+            "test_query": "run",
+            "prediction": "run\ndefinition: (verb) move fast by",
+            "cleaned_prediction": "run",
+            "gt": "walk"
+        },
+        {
+            "input_prompt": "Input: spiritual\nOutput:",
+            "test_query": "spiritual",
+            "prediction": "spiritual\nthe word \"spiritual\" is a",
+            "cleaned_prediction": "spiritual",
+            "gt": "materialistic"
+        },
+        {
+            "input_prompt": "Input: comparative\nOutput:",
+            "test_query": "comparative",
+            "prediction": "comparative\ncomparative form of \"to be\"",
+            "cleaned_prediction": "comparative",
+            "gt": "superlative"
+        },
+        {
+            "input_prompt": "Input: probable\nOutput:",
+            "test_query": "probable",
+            "prediction": "probable\ndefinition: (of an event or situation",
+            "cleaned_prediction": "probable",
+            "gt": "improbable"
+        },
+        {
+            "input_prompt": "Input: circular\nOutput:",
+            "test_query": "circular",
+            "prediction": "circular\nexplanation: the input string is a circular",
+            "cleaned_prediction": "circular",
+            "gt": "square"
+        },
+        {
+            "input_prompt": "Input: recreational\nOutput:",
+            "test_query": "recreational",
+            "prediction": "recreational\ndefinition: (adjective) engaged",
+            "cleaned_prediction": "recreational",
+            "gt": "professional"
+        },
+        {
+            "input_prompt": "Input: many\nOutput:",
+            "test_query": "many",
+            "prediction": "many\ndifficulty: 1\nproblem:",
+            "cleaned_prediction": "many",
+            "gt": "few"
+        },
+        {
+            "input_prompt": "Input: relative\nOutput:",
+            "test_query": "relative",
+            "prediction": "absolute\nalgorithm:\n1. start at the top",
+            "cleaned_prediction": "absolute",
+            "gt": "absolute"
+        }
+    ]
+}

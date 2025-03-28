@@ -1,0 +1,182 @@
+{
+    "score": {
+        "exact_match": 0.95
+    },
+    "intervention_layer": 15,
+    "result": [
+        {
+            "input_prompt": "Input: purse\nOutput:",
+            "test_query": "purse",
+            "prediction": "purses\n\nnoun\na small bag used for",
+            "cleaned_prediction": "purses",
+            "gt": "purses"
+        },
+        {
+            "input_prompt": "Input: glass\nOutput:",
+            "test_query": "glass",
+            "prediction": "glasses\nchange the word 'glass' to 'g",
+            "cleaned_prediction": "glasses",
+            "gt": "glasses"
+        },
+        {
+            "input_prompt": "Input: tree\nOutput:",
+            "test_query": "tree",
+            "prediction": "list of nodes at each level\ndef level_order_tr",
+            "cleaned_prediction": "list of nodes at each level",
+            "gt": "trees"
+        },
+        {
+            "input_prompt": "Input: refrigerator\nOutput:",
+            "test_query": "refrigerator",
+            "prediction": "refrigerators\n\ndef pluralize(word):\n    if word",
+            "cleaned_prediction": "refrigerators",
+            "gt": "refrigerators"
+        },
+        {
+            "input_prompt": "Input: eyeshadow\nOutput:",
+            "test_query": "eyeshadow",
+            "prediction": "eyeshadows\nquestion: what is the plural form",
+            "cleaned_prediction": "eyeshadows",
+            "gt": "eyeshadows"
+        },
+        {
+            "input_prompt": "Input: lotion\nOutput:",
+            "test_query": "lotion",
+            "prediction": "lotions\ninput: dog\noutput: dogs",
+            "cleaned_prediction": "lotions",
+            "gt": "lotions"
+        },
+        {
+            "input_prompt": "Input: oven\nOutput:",
+            "test_query": "oven",
+            "prediction": "ovens\n\n# rule 1\nif a noun",
+            "cleaned_prediction": "ovens",
+            "gt": "ovens"
+        },
+        {
+            "input_prompt": "Input: mug\nOutput:",
+            "test_query": "mug",
+            "prediction": "mugs\npluralize the noun \"mug",
+            "cleaned_prediction": "mugs",
+            "gt": "mugs"
+        },
+        {
+            "input_prompt": "Input: toothbrush\nOutput:",
+            "test_query": "toothbrush",
+            "prediction": "toothbrushes\n\ninput: mouse\noutput: mice",
+            "cleaned_prediction": "toothbrushes",
+            "gt": "toothbrushes"
+        },
+        {
+            "input_prompt": "Input: wallet\nOutput:",
+            "test_query": "wallet",
+            "prediction": "wallets\nplural form of wallet\n\ninput: cat",
+            "cleaned_prediction": "wallets",
+            "gt": "wallets"
+        },
+        {
+            "input_prompt": "Input: jacket\nOutput:",
+            "test_query": "jacket",
+            "prediction": "jackets\npluralize the word \"jacket\".",
+            "cleaned_prediction": "jackets",
+            "gt": "jackets"
+        },
+        {
+            "input_prompt": "Input: grater\nOutput:",
+            "test_query": "grater",
+            "prediction": "graters\nrule id: gr_001\nrule",
+            "cleaned_prediction": "graters",
+            "gt": "graters"
+        },
+        {
+            "input_prompt": "Input: lighter\nOutput:",
+            "test_query": "lighter",
+            "prediction": "lighters\npluralize the noun \"lighter",
+            "cleaned_prediction": "lighters",
+            "gt": "lighters"
+        },
+        {
+            "input_prompt": "Input: sandal\nOutput:",
+            "test_query": "sandal",
+            "prediction": "sandals\n\nexplanation: the plural form of \"sandal",
+            "cleaned_prediction": "sandals",
+            "gt": "sandals"
+        },
+        {
+            "input_prompt": "Input: mixer\nOutput:",
+            "test_query": "mixer",
+            "prediction": "mixers\naggregation: join\njoin type:",
+            "cleaned_prediction": "mixers",
+            "gt": "mixers"
+        },
+        {
+            "input_prompt": "Input: cup\nOutput:",
+            "test_query": "cup",
+            "prediction": "cups\n\ndef pluralize(word):\n    if word.endswith",
+            "cleaned_prediction": "cups",
+            "gt": "cups"
+        },
+        {
+            "input_prompt": "Input: ship\nOutput:",
+            "test_query": "ship",
+            "prediction": "ships\npluralize the word \"ship\".\ninput",
+            "cleaned_prediction": "ships",
+            "gt": "ships"
+        },
+        {
+            "input_prompt": "Input: roller\nOutput:",
+            "test_query": "roller",
+            "prediction": "rollers\nfunction: pluralize\ninput: mouse",
+            "cleaned_prediction": "rollers",
+            "gt": "rollers"
+        },
+        {
+            "input_prompt": "Input: dryer\nOutput:",
+            "test_query": "dryer",
+            "prediction": "dryers\ninput: cars\noutput: cars",
+            "cleaned_prediction": "dryers",
+            "gt": "dryers"
+        },
+        {
+            "input_prompt": "Input: trash can\nOutput:",
+            "test_query": "trash can",
+            "prediction": "trash cans\npluralize a word\nplural",
+            "cleaned_prediction": "trash cans",
+            "gt": "trash cans"
+        }
+    ],
+    "val_f1_per_layer": {
+        "0": 0.05,
+        "1": 0.05,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.05,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.05,
+        "10": 0.05,
+        "11": 0.05,
+        "12": 0.1,
+        "13": 0.5,
+        "14": 0.65,
+        "15": 0.95,
+        "16": 0.9,
+        "17": 0.9,
+        "18": 0.9,
+        "19": 0.9,
+        "20": 0.9,
+        "21": 0.8,
+        "22": 0.8,
+        "23": 0.75,
+        "24": 0.8,
+        "25": 0.65,
+        "26": 0.75,
+        "27": 0.7,
+        "28": 0.65,
+        "29": 0.35,
+        "30": 0.2,
+        "31": 0.05
+    }
+}

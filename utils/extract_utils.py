@@ -14,7 +14,7 @@ from .model_utils import *
 import torch.nn.functional as F
 
 
-def get_mean_hidden_states(train_dataset, model, model_config, tokenizer, n_icl_examples, N_TRIALS, prefixes=None, separators=None):
+def get_mean_hidden_states(train_dataset, model, model_config, tokenizer, n_icl_examples, N_TRIALS, prefixes=None, separators=None, insert_inst = True):
     dummy_dataset = random.sample(train_dataset, N_TRIALS)
     train_dataset_filtered = [item for item in train_dataset if item not in dummy_dataset]
     device = model.device
@@ -23,7 +23,7 @@ def get_mean_hidden_states(train_dataset, model, model_config, tokenizer, n_icl_
         demonstrations = random.sample(train_dataset_filtered, n_icl_examples)
 
         dummy_query = dummy_dataset[n]['input']
-        prompt = create_prompt(demonstrations, dummy_query, prefixes, separators, insert_inst=True)
+        prompt = create_prompt(demonstrations, dummy_query, prefixes, separators, insert_inst=insert_inst)
         
         fs_inputs = tokenizer(prompt, return_tensors='pt').to(device)
 
@@ -38,7 +38,7 @@ def get_mean_hidden_states(train_dataset, model, model_config, tokenizer, n_icl_
     return mean_hidden_states
 
 
-def get_diff_mean_hidden_states(train_dataset, model, model_config, tokenizer, n_icl_examples, N_TRIALS, prefixes=None, separators=None):
+def get_diff_mean_hidden_states(train_dataset, model, model_config, tokenizer, n_icl_examples, N_TRIALS, prefixes=None, separators=None, insert_inst=True):
     dummy_dataset = random.sample(train_dataset, N_TRIALS)
     train_dataset_filtered = [item for item in train_dataset if item not in dummy_dataset]
     device = model.device
@@ -46,9 +46,9 @@ def get_diff_mean_hidden_states(train_dataset, model, model_config, tokenizer, n
     for n in tqdm(range(N_TRIALS)):
         demonstrations = random.sample(train_dataset_filtered, n_icl_examples)
         dummy_query = dummy_dataset[n]['input']
-        fs_prompt = create_prompt(demonstrations, dummy_query, prefixes, separators, insert_inst=True)
+        fs_prompt = create_prompt(demonstrations, dummy_query, prefixes, separators, insert_inst=insert_inst)
         fs_inputs = tokenizer(fs_prompt, return_tensors='pt').to(device)
-        zs_prompt = create_prompt([], dummy_query, prefixes, separators, insert_inst=True)
+        zs_prompt = create_prompt([], dummy_query, prefixes, separators, insert_inst=insert_inst)
         zs_inputs = tokenizer(zs_prompt, return_tensors='pt').to(device)
 
         with TraceDict(model, layers = model_config['layer_hook_names'], retain_output=True) as td:
@@ -81,7 +81,7 @@ def diff_act(edit_layer, act, device, idx=-1):
             return output
     return add_act
 
-def get_diff_stacked_hidden_states(train_dataset, model, model_config, tokenizer, n_icl_examples, N_TRIALS, prefixes=None, separators=None):
+def get_diff_stacked_hidden_states(train_dataset, model, model_config, tokenizer, n_icl_examples, N_TRIALS, prefixes=None, separators=None, insert_inst=True):
     dummy_dataset = random.sample(train_dataset, N_TRIALS)
     train_dataset_filtered = [item for item in train_dataset if item not in dummy_dataset]
     device = model.device
@@ -89,9 +89,9 @@ def get_diff_stacked_hidden_states(train_dataset, model, model_config, tokenizer
     for n in tqdm(range(N_TRIALS)):
         demonstrations = random.sample(train_dataset_filtered, n_icl_examples)
         dummy_query = dummy_dataset[n]['input']
-        fs_prompt = create_prompt(demonstrations, dummy_query, prefixes, separators, insert_inst=True)
+        fs_prompt = create_prompt(demonstrations, dummy_query, prefixes, separators, insert_inst=insert_inst)
         fs_inputs = tokenizer(fs_prompt, return_tensors='pt').to(device)
-        zs_prompt = create_prompt([],dummy_query,prefixes, separators, insert_inst=True)
+        zs_prompt = create_prompt([],dummy_query,prefixes, separators, insert_inst=insert_inst)
         zs_inputs = tokenizer(zs_prompt, return_tensors='pt').to(device)
         with torch.no_grad():
             with TraceDict(model, layers = model_config['layer_hook_names'], retain_output=True) as td:

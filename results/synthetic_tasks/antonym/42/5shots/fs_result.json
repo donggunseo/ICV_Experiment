@@ -1,0 +1,1680 @@
+{
+    "score": {
+        "exact_match": 0.6401673640167364
+    },
+    "result": [
+        {
+            "input_prompt": "Input: sharp\nOutput: dull\n\nInput: folly\nOutput: wisdom\n\nInput: naked\nOutput: clothed\n\nInput: elevate\nOutput: depress\n\nInput: improper\nOutput: proper\n\nInput: further\nOutput:",
+            "test_query": "further",
+            "prediction": "closer\n\ninput: sharper\noutput: duller",
+            "cleaned_prediction": "closer",
+            "gt": "closer"
+        },
+        {
+            "input_prompt": "Input: insane\nOutput: sane\n\nInput: medical\nOutput: non-medical\n\nInput: desirable\nOutput: undesirable\n\nInput: fiction\nOutput: nonfiction\n\nInput: hope\nOutput: despair\n\nInput: fact\nOutput:",
+            "test_query": "fact",
+            "prediction": "fiction\n\ninput: rational\noutput: irrational",
+            "cleaned_prediction": "fiction",
+            "gt": "fiction"
+        },
+        {
+            "input_prompt": "Input: correct\nOutput: incorrect\n\nInput: spending\nOutput: saving\n\nInput: hazardous\nOutput: safe\n\nInput: perpendicular\nOutput: parallel\n\nInput: regular\nOutput: irregular\n\nInput: universal\nOutput:",
+            "test_query": "universal",
+            "prediction": "specific\n\ninput: standard\noutput: nonstandard",
+            "cleaned_prediction": "specific",
+            "gt": "specific"
+        },
+        {
+            "input_prompt": "Input: climb\nOutput: descend\n\nInput: handsome\nOutput: ugly\n\nInput: prosecution\nOutput: defense\n\nInput: indistinguishable\nOutput: distinguishable\n\nInput: lightweight\nOutput: heavyweight\n\nInput: medial\nOutput:",
+            "test_query": "medial",
+            "prediction": "lateral\n\ninput: progressive\noutput: regressive",
+            "cleaned_prediction": "lateral",
+            "gt": "lateral"
+        },
+        {
+            "input_prompt": "Input: written\nOutput: spoken\n\nInput: nonviolent\nOutput: violent\n\nInput: intersect\nOutput: separate\n\nInput: rounded\nOutput: sharp\n\nInput: furious\nOutput: calm\n\nInput: excellent\nOutput:",
+            "test_query": "excellent",
+            "prediction": "poor\n\ninput: fragile\noutput: robust",
+            "cleaned_prediction": "poor",
+            "gt": "poor"
+        },
+        {
+            "input_prompt": "Input: oust\nOutput: install\n\nInput: preserve\nOutput: destroy\n\nInput: appropriate\nOutput: inappropriate\n\nInput: forbid\nOutput: allow\n\nInput: rise\nOutput: fall\n\nInput: require\nOutput:",
+            "test_query": "require",
+            "prediction": "prohibit\n\ninput: restore\noutput: ruin",
+            "cleaned_prediction": "prohibit",
+            "gt": "exempt"
+        },
+        {
+            "input_prompt": "Input: perpendicular\nOutput: parallel\n\nInput: dry\nOutput: wet\n\nInput: past\nOutput: future\n\nInput: remote\nOutput: nearby\n\nInput: long\nOutput: short\n\nInput: convoluted\nOutput:",
+            "test_query": "convoluted",
+            "prediction": "simple\n\ninput: dense\noutput: sparse",
+            "cleaned_prediction": "simple",
+            "gt": "straightforward"
+        },
+        {
+            "input_prompt": "Input: economic\nOutput: uneconomic\n\nInput: powerful\nOutput: weak\n\nInput: uncertain\nOutput: certain\n\nInput: luxury\nOutput: poverty\n\nInput: rusty\nOutput: shiny\n\nInput: proceed\nOutput:",
+            "test_query": "proceed",
+            "prediction": "stop\n\ninput: complicated\noutput: simple",
+            "cleaned_prediction": "stop",
+            "gt": "halt"
+        },
+        {
+            "input_prompt": "Input: uncommon\nOutput: common\n\nInput: reciprocal\nOutput: direct\n\nInput: systemic\nOutput: nonsystemic\n\nInput: depart\nOutput: arrive\n\nInput: analytic\nOutput: synthetic\n\nInput: promote\nOutput:",
+            "test_query": "promote",
+            "prediction": "demote\n\ninput: unifying\noutput:",
+            "cleaned_prediction": "demote",
+            "gt": "demote"
+        },
+        {
+            "input_prompt": "Input: economic\nOutput: uneconomic\n\nInput: melody\nOutput: discord\n\nInput: complain\nOutput: praise\n\nInput: violent\nOutput: peaceful\n\nInput: full\nOutput: empty\n\nInput: set\nOutput:",
+            "test_query": "set",
+            "prediction": "unset\n\ninput: clear\noutput: obscure",
+            "cleaned_prediction": "unset",
+            "gt": "unset"
+        },
+        {
+            "input_prompt": "Input: hope\nOutput: despair\n\nInput: commence\nOutput: conclude\n\nInput: belief\nOutput: doubt\n\nInput: worsen\nOutput: improve\n\nInput: remember\nOutput: forget\n\nInput: matter\nOutput:",
+            "test_query": "matter",
+            "prediction": "trivial\n\ninput: peace\noutput: war",
+            "cleaned_prediction": "trivial",
+            "gt": "antimatter"
+        },
+        {
+            "input_prompt": "Input: mandatory\nOutput: optional\n\nInput: incomplete\nOutput: complete\n\nInput: actual\nOutput: potential\n\nInput: cockpit\nOutput: cabin\n\nInput: issue\nOutput: solution\n\nInput: commercial\nOutput:",
+            "test_query": "commercial",
+            "prediction": "private\n\ninput: technical\noutput: non-",
+            "cleaned_prediction": "private",
+            "gt": "residential"
+        },
+        {
+            "input_prompt": "Input: legislative\nOutput: executive\n\nInput: hopeless\nOutput: hopeful\n\nInput: dishonest\nOutput: honest\n\nInput: come\nOutput: go\n\nInput: hit\nOutput: miss\n\nInput: upper\nOutput:",
+            "test_query": "upper",
+            "prediction": "lower\n\ninput: loud\noutput: quiet",
+            "cleaned_prediction": "lower",
+            "gt": "lower"
+        },
+        {
+            "input_prompt": "Input: dominant\nOutput: submissive\n\nInput: juvenile\nOutput: mature\n\nInput: expected\nOutput: unexpected\n\nInput: idiot\nOutput: genius\n\nInput: polluted\nOutput: clean\n\nInput: neutral\nOutput:",
+            "test_query": "neutral",
+            "prediction": "biased\n\ninput: conservative\noutput: liberal",
+            "cleaned_prediction": "biased",
+            "gt": "biased"
+        },
+        {
+            "input_prompt": "Input: fragile\nOutput: durable\n\nInput: extinct\nOutput: alive\n\nInput: jerk\nOutput: gentleman\n\nInput: vacant\nOutput: occupied\n\nInput: off\nOutput: on\n\nInput: arrive\nOutput:",
+            "test_query": "arrive",
+            "prediction": "depart\n\ninput: noise\noutput: silence",
+            "cleaned_prediction": "depart",
+            "gt": "depart"
+        },
+        {
+            "input_prompt": "Input: nonpartisan\nOutput: partisan\n\nInput: surrender\nOutput: resist\n\nInput: emit\nOutput: absorb\n\nInput: side\nOutput: center\n\nInput: authorize\nOutput: prohibit\n\nInput: socialist\nOutput:",
+            "test_query": "socialist",
+            "prediction": "capitalist\n\ninput: protest\noutput: support",
+            "cleaned_prediction": "capitalist",
+            "gt": "capitalist"
+        },
+        {
+            "input_prompt": "Input: disregard\nOutput: consider\n\nInput: antitrust\nOutput: pro-trust\n\nInput: monarch\nOutput: commoner\n\nInput: progress\nOutput: regress\n\nInput: deep\nOutput: shallow\n\nInput: distrust\nOutput:",
+            "test_query": "distrust",
+            "prediction": "trust\n\ninput: self\noutput: other",
+            "cleaned_prediction": "trust",
+            "gt": "trust"
+        },
+        {
+            "input_prompt": "Input: bra\nOutput: panties\n\nInput: analogue\nOutput: digital\n\nInput: nonviolent\nOutput: violent\n\nInput: yield\nOutput: resist\n\nInput: abandon\nOutput: keep\n\nInput: chaotic\nOutput:",
+            "test_query": "chaotic",
+            "prediction": "orderly\n\ninput: silent\noutput: loud",
+            "cleaned_prediction": "orderly",
+            "gt": "orderly"
+        },
+        {
+            "input_prompt": "Input: belief\nOutput: doubt\n\nInput: economic\nOutput: uneconomic\n\nInput: attack\nOutput: defend\n\nInput: surreal\nOutput: realistic\n\nInput: free\nOutput: expensive\n\nInput: obedience\nOutput:",
+            "test_query": "obedience",
+            "prediction": "disobedience\n\ninput: harmony\noutput: discord",
+            "cleaned_prediction": "disobedience",
+            "gt": "disobedience"
+        },
+        {
+            "input_prompt": "Input: ill\nOutput: healthy\n\nInput: constant\nOutput: variable\n\nInput: length\nOutput: width\n\nInput: few\nOutput: many\n\nInput: enter\nOutput: exit\n\nInput: lender\nOutput:",
+            "test_query": "lender",
+            "prediction": "borrower\n\ninput: light\noutput: dark",
+            "cleaned_prediction": "borrower",
+            "gt": "borrower"
+        },
+        {
+            "input_prompt": "Input: ceiling\nOutput: floor\n\nInput: crooked\nOutput: straight\n\nInput: connected\nOutput: disconnected\n\nInput: bravery\nOutput: cowardice\n\nInput: stationary\nOutput: moving\n\nInput: intellectual\nOutput:",
+            "test_query": "intellectual",
+            "prediction": "uneducated\n\ninput: calm\noutput: turbulent",
+            "cleaned_prediction": "uneducated",
+            "gt": "unintellectual"
+        },
+        {
+            "input_prompt": "Input: swim\nOutput: walk\n\nInput: shy\nOutput: outgoing\n\nInput: delicate\nOutput: sturdy\n\nInput: unconditional\nOutput: conditional\n\nInput: regulated\nOutput: unregulated\n\nInput: hold\nOutput:",
+            "test_query": "hold",
+            "prediction": "release\n\ninput: firm\noutput: soft",
+            "cleaned_prediction": "release",
+            "gt": "release"
+        },
+        {
+            "input_prompt": "Input: inefficient\nOutput: efficient\n\nInput: heaven\nOutput: hell\n\nInput: insane\nOutput: sane\n\nInput: explicit\nOutput: implicit\n\nInput: tread\nOutput: untread\n\nInput: fugitive\nOutput:",
+            "test_query": "fugitive",
+            "prediction": "captive\n\ninput: corrupt\noutput: uncor",
+            "cleaned_prediction": "captive",
+            "gt": "law-abiding citizen"
+        },
+        {
+            "input_prompt": "Input: insanity\nOutput: sanity\n\nInput: debtor\nOutput: creditor\n\nInput: weakening\nOutput: strengthening\n\nInput: overweight\nOutput: underweight\n\nInput: urban\nOutput: rural\n\nInput: infinite\nOutput:",
+            "test_query": "infinite",
+            "prediction": "finite\n\ninput: chaos\noutput: order",
+            "cleaned_prediction": "finite",
+            "gt": "finite"
+        },
+        {
+            "input_prompt": "Input: adolescent\nOutput: elderly\n\nInput: sane\nOutput: insane\n\nInput: buy\nOutput: sell\n\nInput: maximal\nOutput: minimal\n\nInput: core\nOutput: periphery\n\nInput: offence\nOutput:",
+            "test_query": "offence",
+            "prediction": "defence\n\ninput: peace\noutput: war",
+            "cleaned_prediction": "defence",
+            "gt": "defence"
+        },
+        {
+            "input_prompt": "Input: obligatory\nOutput: optional\n\nInput: void\nOutput: full\n\nInput: contingent\nOutput: inevitable\n\nInput: direct\nOutput: indirect\n\nInput: growth\nOutput: decline\n\nInput: outlaw\nOutput:",
+            "test_query": "outlaw",
+            "prediction": "law-abiding\n\ninput: in\noutput:",
+            "cleaned_prediction": "law-abiding",
+            "gt": "law-abiding citizen"
+        },
+        {
+            "input_prompt": "Input: prosecution\nOutput: defense\n\nInput: paid\nOutput: unpaid\n\nInput: power\nOutput: weakness\n\nInput: utopian\nOutput: dystopian\n\nInput: immature\nOutput: mature\n\nInput: sour\nOutput:",
+            "test_query": "sour",
+            "prediction": "sweet\n\ninput: chaos\noutput: order",
+            "cleaned_prediction": "sweet",
+            "gt": "sweet"
+        },
+        {
+            "input_prompt": "Input: link\nOutput: unlink\n\nInput: remove\nOutput: add\n\nInput: resist\nOutput: surrender\n\nInput: plural\nOutput: singular\n\nInput: enlightenment\nOutput: ignorance\n\nInput: cause\nOutput:",
+            "test_query": "cause",
+            "prediction": "effect\n\ninput: change\noutput: remain",
+            "cleaned_prediction": "effect",
+            "gt": "effect"
+        },
+        {
+            "input_prompt": "Input: diagonal\nOutput: straight\n\nInput: lead\nOutput: follow\n\nInput: blame\nOutput: praise\n\nInput: vegetable\nOutput: meat\n\nInput: responsible\nOutput: irresponsible\n\nInput: assail\nOutput:",
+            "test_query": "assail",
+            "prediction": "defend\n\ninput: happy\noutput: sad",
+            "cleaned_prediction": "defend",
+            "gt": "defend"
+        },
+        {
+            "input_prompt": "Input: involve\nOutput: exclude\n\nInput: public\nOutput: private\n\nInput: stretch\nOutput: shrink\n\nInput: dislike\nOutput: like\n\nInput: gray\nOutput: colorful\n\nInput: dirty\nOutput:",
+            "test_query": "dirty",
+            "prediction": "clean\n\ninput: angry\noutput: happy",
+            "cleaned_prediction": "clean",
+            "gt": "clean"
+        },
+        {
+            "input_prompt": "Input: ongoing\nOutput: completed\n\nInput: broken\nOutput: fixed\n\nInput: desirable\nOutput: undesirable\n\nInput: volatile\nOutput: stable\n\nInput: special\nOutput: ordinary\n\nInput: chilly\nOutput:",
+            "test_query": "chilly",
+            "prediction": "warm\n\ninput: heavy\noutput: light",
+            "cleaned_prediction": "warm",
+            "gt": "warm"
+        },
+        {
+            "input_prompt": "Input: oust\nOutput: install\n\nInput: radical\nOutput: conservative\n\nInput: creditor\nOutput: debtor\n\nInput: truth\nOutput: lie\n\nInput: strengthening\nOutput: weakening\n\nInput: incompatible\nOutput:",
+            "test_query": "incompatible",
+            "prediction": "compatible\n\ninput: negative\noutput: positive",
+            "cleaned_prediction": "compatible",
+            "gt": "compatible"
+        },
+        {
+            "input_prompt": "Input: basic\nOutput: advanced\n\nInput: northern\nOutput: southern\n\nInput: autonomous\nOutput: dependent\n\nInput: decorative\nOutput: plain\n\nInput: troubled\nOutput: peaceful\n\nInput: insufficient\nOutput:",
+            "test_query": "insufficient",
+            "prediction": "abundant\n\ninput: unpredictable\noutput: predictable",
+            "cleaned_prediction": "abundant",
+            "gt": "sufficient"
+        },
+        {
+            "input_prompt": "Input: sane\nOutput: insane\n\nInput: leftist\nOutput: rightist\n\nInput: lax\nOutput: strict\n\nInput: leave\nOutput: arrive\n\nInput: smile\nOutput: frown\n\nInput: accept\nOutput:",
+            "test_query": "accept",
+            "prediction": "reject\n\ninput: calm\noutput: frantic",
+            "cleaned_prediction": "reject",
+            "gt": "reject"
+        },
+        {
+            "input_prompt": "Input: spread\nOutput: gather\n\nInput: reliable\nOutput: unreliable\n\nInput: fluid\nOutput: solid\n\nInput: definite\nOutput: indefinite\n\nInput: forfeit\nOutput: claim\n\nInput: awake\nOutput:",
+            "test_query": "awake",
+            "prediction": "asleep\n\ninput: certain\noutput: uncertain",
+            "cleaned_prediction": "asleep",
+            "gt": "asleep"
+        },
+        {
+            "input_prompt": "Input: relevant\nOutput: irrelevant\n\nInput: southern\nOutput: northern\n\nInput: boycott\nOutput: support\n\nInput: spectral\nOutput: nonspectral\n\nInput: handsome\nOutput: ugly\n\nInput: bogus\nOutput:",
+            "test_query": "bogus",
+            "prediction": "authentic\n\ninput: gullible\noutput:",
+            "cleaned_prediction": "authentic",
+            "gt": "authentic"
+        },
+        {
+            "input_prompt": "Input: trivial\nOutput: significant\n\nInput: approval\nOutput: disapproval\n\nInput: girl\nOutput: boy\n\nInput: disappointed\nOutput: satisfied\n\nInput: young\nOutput: mature\n\nInput: spurious\nOutput:",
+            "test_query": "spurious",
+            "prediction": "genuine\n\ninput: anxious\noutput: calm",
+            "cleaned_prediction": "genuine",
+            "gt": "authentic"
+        },
+        {
+            "input_prompt": "Input: exaggeration\nOutput: understatement\n\nInput: fictional\nOutput: real\n\nInput: giant\nOutput: dwarf\n\nInput: successful\nOutput: unsuccessful\n\nInput: sorry\nOutput: forgiven\n\nInput: mild\nOutput:",
+            "test_query": "mild",
+            "prediction": "extreme\n\ninput: calm\noutput: stormy",
+            "cleaned_prediction": "extreme",
+            "gt": "severe"
+        },
+        {
+            "input_prompt": "Input: compressed\nOutput: expanded\n\nInput: spectral\nOutput: nonspectral\n\nInput: mutual\nOutput: individual\n\nInput: mean\nOutput: kind\n\nInput: unsuccessful\nOutput: successful\n\nInput: incoming\nOutput:",
+            "test_query": "incoming",
+            "prediction": "outgoing\n\ninput: complete\noutput: incomplete",
+            "cleaned_prediction": "outgoing",
+            "gt": "outgoing"
+        },
+        {
+            "input_prompt": "Input: ineffective\nOutput: effective\n\nInput: uniform\nOutput: varied\n\nInput: statutory\nOutput: non-statutory\n\nInput: crooked\nOutput: straight\n\nInput: anxious\nOutput: calm\n\nInput: advanced\nOutput:",
+            "test_query": "advanced",
+            "prediction": "basic\n\ninput: steady\noutput: unsteady",
+            "cleaned_prediction": "basic",
+            "gt": "basic"
+        },
+        {
+            "input_prompt": "Input: rainy\nOutput: sunny\n\nInput: analytic\nOutput: synthetic\n\nInput: folly\nOutput: wisdom\n\nInput: dwarf\nOutput: giant\n\nInput: intake\nOutput: output\n\nInput: admit\nOutput:",
+            "test_query": "admit",
+            "prediction": "deny\n\ninput: dark\noutput: light",
+            "cleaned_prediction": "deny",
+            "gt": "deny"
+        },
+        {
+            "input_prompt": "Input: inaction\nOutput: action\n\nInput: consistent\nOutput: inconsistent\n\nInput: practical\nOutput: impractical\n\nInput: green\nOutput: red\n\nInput: unstable\nOutput: stable\n\nInput: someone\nOutput:",
+            "test_query": "someone",
+            "prediction": "no one\n\ninput: beautiful\noutput: ugly",
+            "cleaned_prediction": "no one",
+            "gt": "no one"
+        },
+        {
+            "input_prompt": "Input: nasty\nOutput: nice\n\nInput: genius\nOutput: fool\n\nInput: punishable\nOutput: forgivable\n\nInput: endemic\nOutput: widespread\n\nInput: conception\nOutput: birth\n\nInput: clumsy\nOutput:",
+            "test_query": "clumsy",
+            "prediction": "deft\n\ninput: calamitous\noutput:",
+            "cleaned_prediction": "deft",
+            "gt": "graceful"
+        },
+        {
+            "input_prompt": "Input: masculine\nOutput: feminine\n\nInput: finish\nOutput: start\n\nInput: weak\nOutput: strong\n\nInput: unfavorable\nOutput: favorable\n\nInput: alert\nOutput: drowsy\n\nInput: falsehood\nOutput:",
+            "test_query": "falsehood",
+            "prediction": "truth\n\ninput: empty\noutput: full",
+            "cleaned_prediction": "truth",
+            "gt": "truth"
+        },
+        {
+            "input_prompt": "Input: monumental\nOutput: insignificant\n\nInput: detach\nOutput: attach\n\nInput: incompetence\nOutput: competence\n\nInput: masculine\nOutput: feminine\n\nInput: delicate\nOutput: sturdy\n\nInput: refined\nOutput:",
+            "test_query": "refined",
+            "prediction": "coarse\n\ninput: vulnerable\noutput: resilient",
+            "cleaned_prediction": "coarse",
+            "gt": "crude"
+        },
+        {
+            "input_prompt": "Input: preserve\nOutput: destroy\n\nInput: forfeit\nOutput: claim\n\nInput: waste\nOutput: conserve\n\nInput: analytical\nOutput: intuitive\n\nInput: safety\nOutput: danger\n\nInput: bitter\nOutput:",
+            "test_query": "bitter",
+            "prediction": "sweet\n\ninput: surrender\noutput: resist",
+            "cleaned_prediction": "sweet",
+            "gt": "sweet"
+        },
+        {
+            "input_prompt": "Input: latter\nOutput: former\n\nInput: criminal\nOutput: law-abiding citizen\n\nInput: happy\nOutput: unhappy\n\nInput: hole\nOutput: solid\n\nInput: philosophical\nOutput: practical\n\nInput: let\nOutput:",
+            "test_query": "let",
+            "prediction": "stop\n\ninput: bad\noutput: good",
+            "cleaned_prediction": "stop",
+            "gt": "prevent"
+        },
+        {
+            "input_prompt": "Input: orthodox\nOutput: unorthodox\n\nInput: consistency\nOutput: inconsistency\n\nInput: formal\nOutput: informal\n\nInput: negate\nOutput: affirm\n\nInput: cloudy\nOutput: clear\n\nInput: familiar\nOutput:",
+            "test_query": "familiar",
+            "prediction": "unfamiliar\n\ninput: correct\noutput: incorrect",
+            "cleaned_prediction": "unfamiliar",
+            "gt": "unfamiliar"
+        },
+        {
+            "input_prompt": "Input: question\nOutput: answer\n\nInput: peculiar\nOutput: normal\n\nInput: accompany\nOutput: leave alone\n\nInput: dismiss\nOutput: appoint\n\nInput: circumference\nOutput: diameter\n\nInput: humility\nOutput:",
+            "test_query": "humility",
+            "prediction": "arrogance\n\ninput: silence\noutput: noise",
+            "cleaned_prediction": "arrogance",
+            "gt": "pride"
+        },
+        {
+            "input_prompt": "Input: issue\nOutput: solution\n\nInput: historic\nOutput: modern\n\nInput: unpaid\nOutput: paid\n\nInput: old\nOutput: new\n\nInput: near\nOutput: far\n\nInput: dense\nOutput:",
+            "test_query": "dense",
+            "prediction": "sparse\n\ninput: full\noutput: empty",
+            "cleaned_prediction": "sparse",
+            "gt": "sparse"
+        },
+        {
+            "input_prompt": "Input: late\nOutput: early\n\nInput: plural\nOutput: singular\n\nInput: expected\nOutput: unexpected\n\nInput: stale\nOutput: fresh\n\nInput: essential\nOutput: nonessential\n\nInput: miss\nOutput:",
+            "test_query": "miss",
+            "prediction": "hit\n\ninput: rare\noutput: common",
+            "cleaned_prediction": "hit",
+            "gt": "hit"
+        },
+        {
+            "input_prompt": "Input: buying\nOutput: selling\n\nInput: grandson\nOutput: grandmother\n\nInput: concept\nOutput: reality\n\nInput: mineral\nOutput: animal\n\nInput: localized\nOutput: widespread\n\nInput: optional\nOutput:",
+            "test_query": "optional",
+            "prediction": "mandatory\n\ninput: fundamental\noutput: superficial",
+            "cleaned_prediction": "mandatory",
+            "gt": "mandatory"
+        },
+        {
+            "input_prompt": "Input: sanction\nOutput: penalty\n\nInput: conservative\nOutput: liberal\n\nInput: collect\nOutput: disperse\n\nInput: uncomfortable\nOutput: comfortable\n\nInput: sleeping\nOutput: awake\n\nInput: local\nOutput:",
+            "test_query": "local",
+            "prediction": "global\n\ninput: complicated\noutput: simple",
+            "cleaned_prediction": "global",
+            "gt": "foreign"
+        },
+        {
+            "input_prompt": "Input: rational\nOutput: irrational\n\nInput: defective\nOutput: functional\n\nInput: broken\nOutput: fixed\n\nInput: liberate\nOutput: imprison\n\nInput: subjective\nOutput: objective\n\nInput: uneasy\nOutput:",
+            "test_query": "uneasy",
+            "prediction": "calm\n\ninput: chaotic\noutput: organized",
+            "cleaned_prediction": "calm",
+            "gt": "comfortable"
+        },
+        {
+            "input_prompt": "Input: wonderful\nOutput: terrible\n\nInput: launch\nOutput: land\n\nInput: wholesale\nOutput: retail\n\nInput: peculiar\nOutput: normal\n\nInput: latter\nOutput: former\n\nInput: wisdom\nOutput:",
+            "test_query": "wisdom",
+            "prediction": "foolishness\n\ninput: silence\noutput: noise",
+            "cleaned_prediction": "foolishness",
+            "gt": "foolishness"
+        },
+        {
+            "input_prompt": "Input: costly\nOutput: cheap\n\nInput: hopeless\nOutput: hopeful\n\nInput: defence\nOutput: attack\n\nInput: intermittent\nOutput: continuous\n\nInput: broad\nOutput: narrow\n\nInput: speed\nOutput:",
+            "test_query": "speed",
+            "prediction": "slow\n\ninput: aggressive\noutput: passive",
+            "cleaned_prediction": "slow",
+            "gt": "slowness"
+        },
+        {
+            "input_prompt": "Input: disclaimer\nOutput: endorsement\n\nInput: decorative\nOutput: plain\n\nInput: poetic\nOutput: prosaic\n\nInput: forbid\nOutput: allow\n\nInput: follower\nOutput: leader\n\nInput: catalyst\nOutput:",
+            "test_query": "catalyst",
+            "prediction": "inhibitor\n\ninput: negative\noutput: positive",
+            "cleaned_prediction": "inhibitor",
+            "gt": "inhibitor"
+        },
+        {
+            "input_prompt": "Input: unusual\nOutput: usual\n\nInput: bipartisan\nOutput: partisan\n\nInput: outer\nOutput: inner\n\nInput: romantic\nOutput: platonic\n\nInput: united\nOutput: divided\n\nInput: protagonist\nOutput:",
+            "test_query": "protagonist",
+            "prediction": "antagonist\n\ninput: happy\noutput: sad",
+            "cleaned_prediction": "antagonist",
+            "gt": "antagonist"
+        },
+        {
+            "input_prompt": "Input: open\nOutput: closed\n\nInput: rough\nOutput: smooth\n\nInput: eastern\nOutput: western\n\nInput: closing\nOutput: opening\n\nInput: disappoint\nOutput: satisfy\n\nInput: white\nOutput:",
+            "test_query": "white",
+            "prediction": "black\n\ninput: north\noutput: south",
+            "cleaned_prediction": "black",
+            "gt": "black"
+        },
+        {
+            "input_prompt": "Input: oval\nOutput: round\n\nInput: dawn\nOutput: dusk\n\nInput: build\nOutput: destroy\n\nInput: student\nOutput: teacher\n\nInput: past\nOutput: future\n\nInput: specified\nOutput:",
+            "test_query": "specified",
+            "prediction": "vague\n\ninput: silent\noutput: loud",
+            "cleaned_prediction": "vague",
+            "gt": "unspecified"
+        },
+        {
+            "input_prompt": "Input: stimulate\nOutput: inhibit\n\nInput: absent\nOutput: present\n\nInput: catchy\nOutput: forgettable\n\nInput: cheap\nOutput: expensive\n\nInput: centrist\nOutput: extremist\n\nInput: rude\nOutput:",
+            "test_query": "rude",
+            "prediction": "polite\n\ninput: tired\noutput: energized",
+            "cleaned_prediction": "polite",
+            "gt": "polite"
+        },
+        {
+            "input_prompt": "Input: complicated\nOutput: simple\n\nInput: barren\nOutput: fertile\n\nInput: bounce\nOutput: stick\n\nInput: restore\nOutput: destroy\n\nInput: lifelong\nOutput: temporary\n\nInput: tall\nOutput:",
+            "test_query": "tall",
+            "prediction": "short\n\ninput: expand\noutput: contract",
+            "cleaned_prediction": "short",
+            "gt": "short"
+        },
+        {
+            "input_prompt": "Input: tremendous\nOutput: insignificant\n\nInput: absent\nOutput: present\n\nInput: whole\nOutput: partial\n\nInput: equal\nOutput: unequal\n\nInput: minimum\nOutput: maximum\n\nInput: sink\nOutput:",
+            "test_query": "sink",
+            "prediction": "rise\n\ninput: noise\noutput: silence",
+            "cleaned_prediction": "rise",
+            "gt": "float"
+        },
+        {
+            "input_prompt": "Input: affluent\nOutput: impoverished\n\nInput: conditional\nOutput: unconditional\n\nInput: finished\nOutput: unfinished\n\nInput: latter\nOutput: former\n\nInput: disadvantaged\nOutput: advantaged\n\nInput: intelligent\nOutput:",
+            "test_query": "intelligent",
+            "prediction": "unintelligent\n\ninput: uneducated\noutput:",
+            "cleaned_prediction": "unintelligent",
+            "gt": "unintelligent"
+        },
+        {
+            "input_prompt": "Input: live\nOutput: die\n\nInput: shrink\nOutput: expand\n\nInput: possible\nOutput: impossible\n\nInput: success\nOutput: failure\n\nInput: smooth\nOutput: rough\n\nInput: overt\nOutput:",
+            "test_query": "overt",
+            "prediction": "covert\n\ninput: active\noutput: inactive",
+            "cleaned_prediction": "covert",
+            "gt": "covert"
+        },
+        {
+            "input_prompt": "Input: fill\nOutput: empty\n\nInput: liking\nOutput: disliking\n\nInput: abundant\nOutput: scarce\n\nInput: origin\nOutput: destination\n\nInput: potential\nOutput: actual\n\nInput: foul\nOutput:",
+            "test_query": "foul",
+            "prediction": "fair\n\ninput: complete\noutput: incomplete",
+            "cleaned_prediction": "fair",
+            "gt": "fair"
+        },
+        {
+            "input_prompt": "Input: software\nOutput: hardware\n\nInput: permission\nOutput: prohibition\n\nInput: worsen\nOutput: improve\n\nInput: humid\nOutput: dry\n\nInput: lack\nOutput: abundance\n\nInput: improvement\nOutput:",
+            "test_query": "improvement",
+            "prediction": "deterioration\n\ninput: noise\noutput: silence",
+            "cleaned_prediction": "deterioration",
+            "gt": "deterioration"
+        },
+        {
+            "input_prompt": "Input: available\nOutput: unavailable\n\nInput: curl\nOutput: straight\n\nInput: vocal\nOutput: silent\n\nInput: persuade\nOutput: dissuade\n\nInput: imported\nOutput: domestic\n\nInput: terrestrial\nOutput:",
+            "test_query": "terrestrial",
+            "prediction": "extraterrestrial\n\ninput: compatible\noutput:",
+            "cleaned_prediction": "extraterrestrial",
+            "gt": "aquatic"
+        },
+        {
+            "input_prompt": "Input: heaven\nOutput: hell\n\nInput: breach\nOutput: comply\n\nInput: more\nOutput: less\n\nInput: pedestrian\nOutput: driver\n\nInput: subsidy\nOutput: tax\n\nInput: martial\nOutput:",
+            "test_query": "martial",
+            "prediction": "civilian\n\ninput: silence\noutput: noise",
+            "cleaned_prediction": "civilian",
+            "gt": "civilian"
+        },
+        {
+            "input_prompt": "Input: defend\nOutput: attack\n\nInput: undo\nOutput: do\n\nInput: helpless\nOutput: capable\n\nInput: split\nOutput: join\n\nInput: irregular\nOutput: regular\n\nInput: front\nOutput:",
+            "test_query": "front",
+            "prediction": "back\n\ninput: empty\noutput: full",
+            "cleaned_prediction": "back",
+            "gt": "back"
+        },
+        {
+            "input_prompt": "Input: heat\nOutput: cool\n\nInput: off\nOutput: on\n\nInput: intense\nOutput: mild\n\nInput: wish\nOutput: regret\n\nInput: present\nOutput: past\n\nInput: lie\nOutput:",
+            "test_query": "lie",
+            "prediction": "truth\n\ninput: truth\noutput: lie",
+            "cleaned_prediction": "truth",
+            "gt": "truth"
+        },
+        {
+            "input_prompt": "Input: software\nOutput: hardware\n\nInput: come\nOutput: go\n\nInput: boring\nOutput: interesting\n\nInput: opacity\nOutput: transparency\n\nInput: handsome\nOutput: ugly\n\nInput: northwest\nOutput:",
+            "test_query": "northwest",
+            "prediction": "southeast\n\ninput: silence\noutput: noise",
+            "cleaned_prediction": "southeast",
+            "gt": "southeast"
+        },
+        {
+            "input_prompt": "Input: borrowing\nOutput: lending\n\nInput: minimum\nOutput: maximum\n\nInput: purchase\nOutput: sell\n\nInput: adult\nOutput: child\n\nInput: solution\nOutput: problem\n\nInput: red\nOutput:",
+            "test_query": "red",
+            "prediction": "blue\n\ninput: yellow\noutput: green",
+            "cleaned_prediction": "blue",
+            "gt": "blue"
+        },
+        {
+            "input_prompt": "Input: strict\nOutput: lenient\n\nInput: bent\nOutput: straight\n\nInput: dull\nOutput: bright\n\nInput: multinational\nOutput: local\n\nInput: off\nOutput: on\n\nInput: worn\nOutput:",
+            "test_query": "worn",
+            "prediction": "new\n\ninput: complex\noutput: simple",
+            "cleaned_prediction": "new",
+            "gt": "new"
+        },
+        {
+            "input_prompt": "Input: bilateral\nOutput: unilateral\n\nInput: famous\nOutput: unknown\n\nInput: excessive\nOutput: insufficient\n\nInput: first\nOutput: last\n\nInput: grandfather\nOutput: grandson\n\nInput: kid\nOutput:",
+            "test_query": "kid",
+            "prediction": "adult\n\ninput: old\noutput: young",
+            "cleaned_prediction": "adult",
+            "gt": "adult"
+        },
+        {
+            "input_prompt": "Input: noticeable\nOutput: unnoticeable\n\nInput: artificial\nOutput: natural\n\nInput: fascism\nOutput: democracy\n\nInput: lightweight\nOutput: heavyweight\n\nInput: lengthy\nOutput: brief\n\nInput: periodic\nOutput:",
+            "test_query": "periodic",
+            "prediction": "sporadic\n\ninput: redundant\noutput: essential",
+            "cleaned_prediction": "sporadic",
+            "gt": "aperiodic"
+        },
+        {
+            "input_prompt": "Input: blank\nOutput: filled\n\nInput: father\nOutput: mother\n\nInput: hatred\nOutput: love\n\nInput: various\nOutput: uniform\n\nInput: flat\nOutput: curved\n\nInput: misconception\nOutput:",
+            "test_query": "misconception",
+            "prediction": "perception\n\ninput: unkind\noutput: kind",
+            "cleaned_prediction": "perception",
+            "gt": "understanding"
+        },
+        {
+            "input_prompt": "Input: conditional\nOutput: unconditional\n\nInput: stupid\nOutput: smart\n\nInput: mixture\nOutput: pure\n\nInput: eligible\nOutput: ineligible\n\nInput: utopian\nOutput: dystopian\n\nInput: difficult\nOutput:",
+            "test_query": "difficult",
+            "prediction": "easy\n\ninput: uncooperative\noutput:",
+            "cleaned_prediction": "easy",
+            "gt": "easy"
+        },
+        {
+            "input_prompt": "Input: unaware\nOutput: aware\n\nInput: centrist\nOutput: extremist\n\nInput: proponent\nOutput: opponent\n\nInput: revoke\nOutput: grant\n\nInput: valid\nOutput: invalid\n\nInput: lower\nOutput:",
+            "test_query": "lower",
+            "prediction": "higher\n\ninput: passive\noutput: aggressive",
+            "cleaned_prediction": "higher",
+            "gt": "upper"
+        },
+        {
+            "input_prompt": "Input: willingness\nOutput: reluctance\n\nInput: unwelcome\nOutput: welcome\n\nInput: lengthy\nOutput: brief\n\nInput: healthy\nOutput: unhealthy\n\nInput: voluntary\nOutput: involuntary\n\nInput: drunk\nOutput:",
+            "test_query": "drunk",
+            "prediction": "sober\n\ninput: certain\noutput: uncertain",
+            "cleaned_prediction": "sober",
+            "gt": "sober"
+        },
+        {
+            "input_prompt": "Input: homegrown\nOutput: imported\n\nInput: moderate\nOutput: extreme\n\nInput: launch\nOutput: land\n\nInput: fail\nOutput: succeed\n\nInput: simple\nOutput: complex\n\nInput: unorthodox\nOutput:",
+            "test_query": "unorthodox",
+            "prediction": "conventional\n\ninput: conventional\noutput: unorth",
+            "cleaned_prediction": "conventional",
+            "gt": "orthodox"
+        },
+        {
+            "input_prompt": "Input: guilty\nOutput: innocent\n\nInput: redeem\nOutput: condemn\n\nInput: premier\nOutput: inferior\n\nInput: selfish\nOutput: altruistic\n\nInput: median\nOutput: extreme\n\nInput: union\nOutput:",
+            "test_query": "union",
+            "prediction": "divide\n\ninput: harmony\noutput: discord",
+            "cleaned_prediction": "divide",
+            "gt": "division"
+        },
+        {
+            "input_prompt": "Input: clear\nOutput: cloudy\n\nInput: enlarge\nOutput: shrink\n\nInput: aversion\nOutput: attraction\n\nInput: diminish\nOutput: increase\n\nInput: earthly\nOutput: celestial\n\nInput: stuff\nOutput:",
+            "test_query": "stuff",
+            "prediction": "nothing\n\ninput: empty\noutput: full",
+            "cleaned_prediction": "nothing",
+            "gt": "empty"
+        },
+        {
+            "input_prompt": "Input: agent\nOutput: client\n\nInput: worried\nOutput: relaxed\n\nInput: moot\nOutput: debatable\n\nInput: undo\nOutput: do\n\nInput: strip\nOutput: solid\n\nInput: major\nOutput:",
+            "test_query": "major",
+            "prediction": "minor\n\ninput: exact\noutput: approximate",
+            "cleaned_prediction": "minor",
+            "gt": "minor"
+        },
+        {
+            "input_prompt": "Input: multiple\nOutput: single\n\nInput: unlikely\nOutput: likely\n\nInput: cow\nOutput: bull\n\nInput: men\nOutput: women\n\nInput: creative\nOutput: uncreative\n\nInput: peripheral\nOutput:",
+            "test_query": "peripheral",
+            "prediction": "central\n\ninput: large\noutput: small",
+            "cleaned_prediction": "central",
+            "gt": "central"
+        },
+        {
+            "input_prompt": "Input: awful\nOutput: wonderful\n\nInput: pull\nOutput: push\n\nInput: despair\nOutput: hope\n\nInput: safe\nOutput: dangerous\n\nInput: endless\nOutput: finite\n\nInput: worldly\nOutput:",
+            "test_query": "worldly",
+            "prediction": "spiritual\n\ninput: dark\noutput: light",
+            "cleaned_prediction": "spiritual",
+            "gt": "spiritual"
+        },
+        {
+            "input_prompt": "Input: summer\nOutput: winter\n\nInput: thermal\nOutput: cooling\n\nInput: include\nOutput: exclude\n\nInput: bless\nOutput: curse\n\nInput: disbelief\nOutput: belief\n\nInput: rapid\nOutput:",
+            "test_query": "rapid",
+            "prediction": "slow\n\ninput: peaceful\noutput: chaos",
+            "cleaned_prediction": "slow",
+            "gt": "slow"
+        },
+        {
+            "input_prompt": "Input: illegal\nOutput: legal\n\nInput: refreshing\nOutput: stale\n\nInput: intuitive\nOutput: counterintuitive\n\nInput: wealth\nOutput: poverty\n\nInput: necessary\nOutput: unnecessary\n\nInput: unmarked\nOutput:",
+            "test_query": "unmarked",
+            "prediction": "marked\n\ninput: complete\noutput: incomplete",
+            "cleaned_prediction": "marked",
+            "gt": "marked"
+        },
+        {
+            "input_prompt": "Input: international\nOutput: domestic\n\nInput: disappearance\nOutput: appearance\n\nInput: cease\nOutput: continue\n\nInput: grotesque\nOutput: beautiful\n\nInput: recorded\nOutput: live\n\nInput: ladies\nOutput:",
+            "test_query": "ladies",
+            "prediction": "gentlemen\n\ninput: male\noutput: female",
+            "cleaned_prediction": "gentlemen",
+            "gt": "gentlemen"
+        },
+        {
+            "input_prompt": "Input: agreement\nOutput: disagreement\n\nInput: balance\nOutput: imbalance\n\nInput: captive\nOutput: free\n\nInput: dysfunction\nOutput: function\n\nInput: comedy\nOutput: tragedy\n\nInput: lesbian\nOutput:",
+            "test_query": "lesbian",
+            "prediction": "gay\n\ninput: democracy\noutput: autocracy",
+            "cleaned_prediction": "gay",
+            "gt": "straight"
+        },
+        {
+            "input_prompt": "Input: obey\nOutput: disobey\n\nInput: specific\nOutput: general\n\nInput: confidential\nOutput: public\n\nInput: autonomous\nOutput: dependent\n\nInput: encrypt\nOutput: decrypt\n\nInput: plain\nOutput:",
+            "test_query": "plain",
+            "prediction": "encrypted\n\ninput: security\noutput: insecurity",
+            "cleaned_prediction": "encrypted",
+            "gt": "fancy"
+        },
+        {
+            "input_prompt": "Input: unhappy\nOutput: happy\n\nInput: flee\nOutput: pursue\n\nInput: singular\nOutput: plural\n\nInput: boy\nOutput: girl\n\nInput: validate\nOutput: invalidate\n\nInput: head\nOutput:",
+            "test_query": "head",
+            "prediction": "tail\n\ninput: exist\noutput: not exist",
+            "cleaned_prediction": "tail",
+            "gt": "tail"
+        },
+        {
+            "input_prompt": "Input: war\nOutput: peace\n\nInput: appropriate\nOutput: inappropriate\n\nInput: loan\nOutput: repayment\n\nInput: darkness\nOutput: lightness\n\nInput: unwelcome\nOutput: welcome\n\nInput: displeasure\nOutput:",
+            "test_query": "displeasure",
+            "prediction": "pleasure\n\ninput: unkindness\noutput:",
+            "cleaned_prediction": "pleasure",
+            "gt": "pleasure"
+        },
+        {
+            "input_prompt": "Input: involve\nOutput: exclude\n\nInput: revolutionary\nOutput: traditional\n\nInput: poetic\nOutput: prosaic\n\nInput: indecent\nOutput: decent\n\nInput: inconsistency\nOutput: consistency\n\nInput: arise\nOutput:",
+            "test_query": "arise",
+            "prediction": "descend\n\ninput: inimitable\noutput:",
+            "cleaned_prediction": "descend",
+            "gt": "settle"
+        },
+        {
+            "input_prompt": "Input: standard\nOutput: nonstandard\n\nInput: flee\nOutput: pursue\n\nInput: peculiar\nOutput: normal\n\nInput: capitalism\nOutput: socialism\n\nInput: vicious\nOutput: gentle\n\nInput: symptom\nOutput:",
+            "test_query": "symptom",
+            "prediction": "cause\n\ninput: selfish\noutput: selfless",
+            "cleaned_prediction": "cause",
+            "gt": "cure"
+        },
+        {
+            "input_prompt": "Input: contemporary\nOutput: traditional\n\nInput: privacy\nOutput: publicity\n\nInput: disperse\nOutput: gather\n\nInput: faint\nOutput: loud\n\nInput: happiness\nOutput: sadness\n\nInput: dusty\nOutput:",
+            "test_query": "dusty",
+            "prediction": "clean\n\ninput: busy\noutput: idle",
+            "cleaned_prediction": "clean",
+            "gt": "clean"
+        },
+        {
+            "input_prompt": "Input: divergence\nOutput: convergence\n\nInput: ancestor\nOutput: descendant\n\nInput: perennial\nOutput: annual\n\nInput: oversized\nOutput: undersized\n\nInput: unrestricted\nOutput: restricted\n\nInput: location\nOutput:",
+            "test_query": "location",
+            "prediction": "displacement\n\ninput: increase\noutput: decrease",
+            "cleaned_prediction": "displacement",
+            "gt": "displacement"
+        },
+        {
+            "input_prompt": "Input: unwelcome\nOutput: welcome\n\nInput: infrared\nOutput: ultraviolet\n\nInput: madness\nOutput: sanity\n\nInput: victorious\nOutput: defeated\n\nInput: southwestern\nOutput: northeastern\n\nInput: coloured\nOutput:",
+            "test_query": "coloured",
+            "prediction": "monochrome\n\ninput: invisible\noutput: visible",
+            "cleaned_prediction": "monochrome",
+            "gt": "monochrome"
+        },
+        {
+            "input_prompt": "Input: illegal\nOutput: legal\n\nInput: love\nOutput: hate\n\nInput: servicing\nOutput: neglecting\n\nInput: decent\nOutput: indecent\n\nInput: miserable\nOutput: joyful\n\nInput: retrieve\nOutput:",
+            "test_query": "retrieve",
+            "prediction": "lose\n\ninput: harmony\noutput: discord",
+            "cleaned_prediction": "lose",
+            "gt": "discard"
+        },
+        {
+            "input_prompt": "Input: inaction\nOutput: action\n\nInput: unusual\nOutput: usual\n\nInput: preparation\nOutput: improvisation\n\nInput: paste\nOutput: cut\n\nInput: stadium\nOutput: field\n\nInput: mad\nOutput:",
+            "test_query": "mad",
+            "prediction": "glad\n\ninput: quiet\noutput: loud",
+            "cleaned_prediction": "glad",
+            "gt": "sane"
+        },
+        {
+            "input_prompt": "Input: indefinite\nOutput: definite\n\nInput: emotional\nOutput: unemotional\n\nInput: issue\nOutput: solution\n\nInput: difficulty\nOutput: ease\n\nInput: fictional\nOutput: real\n\nInput: dark\nOutput:",
+            "test_query": "dark",
+            "prediction": "light\n\ninput: problem\noutput: answer",
+            "cleaned_prediction": "light",
+            "gt": "light"
+        },
+        {
+            "input_prompt": "Input: pretty\nOutput: ugly\n\nInput: brown\nOutput: white\n\nInput: health\nOutput: disease\n\nInput: disapprove\nOutput: approve\n\nInput: quick\nOutput: slow\n\nInput: constructive\nOutput:",
+            "test_query": "constructive",
+            "prediction": "destructive\n\ninput: good\noutput: bad",
+            "cleaned_prediction": "destructive",
+            "gt": "destructive"
+        },
+        {
+            "input_prompt": "Input: unsafe\nOutput: safe\n\nInput: lavish\nOutput: frugal\n\nInput: tacit\nOutput: explicit\n\nInput: late\nOutput: early\n\nInput: bare\nOutput: covered\n\nInput: shallow\nOutput:",
+            "test_query": "shallow",
+            "prediction": "deep\n\ninput: fragile\noutput: robust",
+            "cleaned_prediction": "deep",
+            "gt": "deep"
+        },
+        {
+            "input_prompt": "Input: cockpit\nOutput: cabin\n\nInput: all\nOutput: none\n\nInput: blur\nOutput: sharp\n\nInput: taxable\nOutput: nontaxable\n\nInput: shiny\nOutput: dull\n\nInput: genuine\nOutput:",
+            "test_query": "genuine",
+            "prediction": "counterfeit\n\ninput: full\noutput: empty",
+            "cleaned_prediction": "counterfeit",
+            "gt": "fake"
+        },
+        {
+            "input_prompt": "Input: successful\nOutput: unsuccessful\n\nInput: melody\nOutput: discord\n\nInput: cowardly\nOutput: brave\n\nInput: defendant\nOutput: plaintiff\n\nInput: disembark\nOutput: embark\n\nInput: short\nOutput:",
+            "test_query": "short",
+            "prediction": "tall\n\ninput: silent\noutput: loud",
+            "cleaned_prediction": "tall",
+            "gt": "long"
+        },
+        {
+            "input_prompt": "Input: experienced\nOutput: inexperienced\n\nInput: elusive\nOutput: obvious\n\nInput: crazy\nOutput: sane\n\nInput: hypothetical\nOutput: realistic\n\nInput: manage\nOutput: struggle\n\nInput: evolution\nOutput:",
+            "test_query": "evolution",
+            "prediction": "stagnation\n\ninput: progress\noutput: regression",
+            "cleaned_prediction": "stagnation",
+            "gt": "devolution"
+        },
+        {
+            "input_prompt": "Input: marked\nOutput: unmarked\n\nInput: despair\nOutput: hope\n\nInput: brittle\nOutput: durable\n\nInput: soften\nOutput: harden\n\nInput: negate\nOutput: affirm\n\nInput: line\nOutput:",
+            "test_query": "line",
+            "prediction": "curve\n\ninput: chaos\noutput: order",
+            "cleaned_prediction": "curve",
+            "gt": "curve"
+        },
+        {
+            "input_prompt": "Input: giant\nOutput: dwarf\n\nInput: bounce\nOutput: stick\n\nInput: win\nOutput: lose\n\nInput: skyrocket\nOutput: plummet\n\nInput: possibility\nOutput: impossibility\n\nInput: field\nOutput:",
+            "test_query": "field",
+            "prediction": "desert\n\ninput: wave\noutput: ripple",
+            "cleaned_prediction": "desert",
+            "gt": "city"
+        },
+        {
+            "input_prompt": "Input: commence\nOutput: conclude\n\nInput: gigantic\nOutput: tiny\n\nInput: curl\nOutput: straight\n\nInput: fragile\nOutput: durable\n\nInput: dumb\nOutput: smart\n\nInput: convergence\nOutput:",
+            "test_query": "convergence",
+            "prediction": "divergence\n\ninput: silence\noutput: noise",
+            "cleaned_prediction": "divergence",
+            "gt": "divergence"
+        },
+        {
+            "input_prompt": "Input: cut\nOutput: heal\n\nInput: mammoth\nOutput: tiny\n\nInput: general\nOutput: specific\n\nInput: salty\nOutput: sweet\n\nInput: risky\nOutput: safe\n\nInput: dim\nOutput:",
+            "test_query": "dim",
+            "prediction": "bright\n\ninput: loud\noutput: quiet",
+            "cleaned_prediction": "bright",
+            "gt": "bright"
+        },
+        {
+            "input_prompt": "Input: invasion\nOutput: retreat\n\nInput: keen\nOutput: apathetic\n\nInput: safety\nOutput: danger\n\nInput: elevate\nOutput: depress\n\nInput: beginning\nOutput: end\n\nInput: venerable\nOutput:",
+            "test_query": "venerable",
+            "prediction": "despicable\n\ninput: harmony\noutput: discord",
+            "cleaned_prediction": "despicable",
+            "gt": "disreputable"
+        },
+        {
+            "input_prompt": "Input: intact\nOutput: broken\n\nInput: susceptibility\nOutput: resistance\n\nInput: tiny\nOutput: giant\n\nInput: coarse\nOutput: fine\n\nInput: privacy\nOutput: publicity\n\nInput: irresponsible\nOutput:",
+            "test_query": "irresponsible",
+            "prediction": "responsible\n\ninput: fragile\noutput: robust",
+            "cleaned_prediction": "responsible",
+            "gt": "responsible"
+        },
+        {
+            "input_prompt": "Input: question\nOutput: answer\n\nInput: bent\nOutput: straight\n\nInput: selective\nOutput: indiscriminate\n\nInput: visionary\nOutput: practical\n\nInput: sovereign\nOutput: subservient\n\nInput: northwestern\nOutput:",
+            "test_query": "northwestern",
+            "prediction": "southeastern\n\ninput: majestic\noutput: mundane",
+            "cleaned_prediction": "southeastern",
+            "gt": "southeastern"
+        },
+        {
+            "input_prompt": "Input: lodge\nOutput: shelter\n\nInput: tough\nOutput: easy\n\nInput: authorized\nOutput: unauthorized\n\nInput: hide\nOutput: reveal\n\nInput: decent\nOutput: indecent\n\nInput: defensive\nOutput:",
+            "test_query": "defensive",
+            "prediction": "offensive\n\ninput: peaceful\noutput: violent",
+            "cleaned_prediction": "offensive",
+            "gt": "offensive"
+        },
+        {
+            "input_prompt": "Input: infantry\nOutput: cavalry\n\nInput: odd\nOutput: even\n\nInput: install\nOutput: uninstall\n\nInput: improve\nOutput: deteriorate\n\nInput: plateau\nOutput: valley\n\nInput: original\nOutput:",
+            "test_query": "original",
+            "prediction": "replica\n\ninput: upgrade\noutput: downgrade",
+            "cleaned_prediction": "replica",
+            "gt": "copy"
+        },
+        {
+            "input_prompt": "Input: penalty\nOutput: reward\n\nInput: unfair\nOutput: fair\n\nInput: offset\nOutput: aligned\n\nInput: horizontal\nOutput: vertical\n\nInput: unique\nOutput: common\n\nInput: subconscious\nOutput:",
+            "test_query": "subconscious",
+            "prediction": "conscious\n\ninput: irregular\noutput: regular",
+            "cleaned_prediction": "conscious",
+            "gt": "conscious"
+        },
+        {
+            "input_prompt": "Input: hawk\nOutput: dove\n\nInput: sorry\nOutput: forgiven\n\nInput: dysfunction\nOutput: function\n\nInput: makeshift\nOutput: permanent\n\nInput: enable\nOutput: disable\n\nInput: copy\nOutput:",
+            "test_query": "copy",
+            "prediction": "original\n\ninput: chaos\noutput: harmony",
+            "cleaned_prediction": "original",
+            "gt": "original"
+        },
+        {
+            "input_prompt": "Input: reliant\nOutput: independent\n\nInput: unsuccessful\nOutput: successful\n\nInput: adult\nOutput: child\n\nInput: worst\nOutput: best\n\nInput: extant\nOutput: extinct\n\nInput: attract\nOutput:",
+            "test_query": "attract",
+            "prediction": "repel\n\ninput: mature\noutput: immature",
+            "cleaned_prediction": "repel",
+            "gt": "repel"
+        },
+        {
+            "input_prompt": "Input: canned\nOutput: fresh\n\nInput: ascent\nOutput: descent\n\nInput: binary\nOutput: analog\n\nInput: context\nOutput: content\n\nInput: grand\nOutput: petty\n\nInput: magnetic\nOutput:",
+            "test_query": "magnetic",
+            "prediction": "non-magnetic\n\ninput: positive\noutput:",
+            "cleaned_prediction": "non-magnetic",
+            "gt": "nonmagnetic"
+        },
+        {
+            "input_prompt": "Input: flat\nOutput: curved\n\nInput: unified\nOutput: divided\n\nInput: everybody\nOutput: nobody\n\nInput: quantitative\nOutput: qualitative\n\nInput: weakening\nOutput: strengthening\n\nInput: injustice\nOutput:",
+            "test_query": "injustice",
+            "prediction": "justice\n\ninput: contradiction\noutput: agreement",
+            "cleaned_prediction": "justice",
+            "gt": "justice"
+        },
+        {
+            "input_prompt": "Input: prefrontal\nOutput: posterior\n\nInput: hatred\nOutput: love\n\nInput: eligible\nOutput: ineligible\n\nInput: wreck\nOutput: preserve\n\nInput: passive\nOutput: active\n\nInput: mortality\nOutput:",
+            "test_query": "mortality",
+            "prediction": "immortality\n\ninput: disband\noutput:",
+            "cleaned_prediction": "immortality",
+            "gt": "immortality"
+        },
+        {
+            "input_prompt": "Input: lean\nOutput: fat\n\nInput: agricultural\nOutput: industrial\n\nInput: island\nOutput: mainland\n\nInput: conscious\nOutput: unconscious\n\nInput: out\nOutput: in\n\nInput: laughter\nOutput:",
+            "test_query": "laughter",
+            "prediction": "tears\n\ninput: smile\noutput: frown",
+            "cleaned_prediction": "tears",
+            "gt": "tears"
+        },
+        {
+            "input_prompt": "Input: immortality\nOutput: mortality\n\nInput: fiction\nOutput: nonfiction\n\nInput: goodness\nOutput: evil\n\nInput: immune\nOutput: susceptible\n\nInput: attached\nOutput: detached\n\nInput: inhuman\nOutput:",
+            "test_query": "inhuman",
+            "prediction": "human\n\ninput: ideal\noutput: real",
+            "cleaned_prediction": "human",
+            "gt": "human"
+        },
+        {
+            "input_prompt": "Input: place\nOutput: displace\n\nInput: satisfaction\nOutput: dissatisfaction\n\nInput: pale\nOutput: vibrant\n\nInput: war\nOutput: peace\n\nInput: imported\nOutput: domestic\n\nInput: heavenly\nOutput:",
+            "test_query": "heavenly",
+            "prediction": "earthly\n\ninput: silence\noutput: noise",
+            "cleaned_prediction": "earthly",
+            "gt": "hellish"
+        },
+        {
+            "input_prompt": "Input: fire\nOutput: water\n\nInput: lean\nOutput: fat\n\nInput: yesterday\nOutput: tomorrow\n\nInput: crooked\nOutput: straight\n\nInput: reciprocal\nOutput: direct\n\nInput: half\nOutput:",
+            "test_query": "half",
+            "prediction": "whole\n\ninput: negative\noutput: positive",
+            "cleaned_prediction": "whole",
+            "gt": "full"
+        },
+        {
+            "input_prompt": "Input: normative\nOutput: deviant\n\nInput: rise\nOutput: fall\n\nInput: lord\nOutput: servant\n\nInput: withdrawal\nOutput: deposit\n\nInput: subjective\nOutput: objective\n\nInput: unpopular\nOutput:",
+            "test_query": "unpopular",
+            "prediction": "popular\n\ninput: positive\noutput: negative",
+            "cleaned_prediction": "popular",
+            "gt": "popular"
+        },
+        {
+            "input_prompt": "Input: spare\nOutput: occupied\n\nInput: amplify\nOutput: diminish\n\nInput: nothing\nOutput: everything\n\nInput: awkward\nOutput: graceful\n\nInput: hard\nOutput: soft\n\nInput: recession\nOutput:",
+            "test_query": "recession",
+            "prediction": "prosperity\n\ninput: chaos\noutput: order",
+            "cleaned_prediction": "prosperity",
+            "gt": "boom"
+        },
+        {
+            "input_prompt": "Input: dress\nOutput: undress\n\nInput: inexperienced\nOutput: experienced\n\nInput: naive\nOutput: experienced\n\nInput: guy\nOutput: girl\n\nInput: online\nOutput: offline\n\nInput: poor\nOutput:",
+            "test_query": "poor",
+            "prediction": "rich\n\ninput: ugly\noutput: beautiful",
+            "cleaned_prediction": "rich",
+            "gt": "rich"
+        },
+        {
+            "input_prompt": "Input: savage\nOutput: civilized\n\nInput: expire\nOutput: renew\n\nInput: outset\nOutput: conclusion\n\nInput: monarch\nOutput: commoner\n\nInput: pass\nOutput: fail\n\nInput: noisy\nOutput:",
+            "test_query": "noisy",
+            "prediction": "quiet\n\ninput: fierce\noutput: mild",
+            "cleaned_prediction": "quiet",
+            "gt": "quiet"
+        },
+        {
+            "input_prompt": "Input: invent\nOutput: destroy\n\nInput: uncomfortable\nOutput: comfortable\n\nInput: generic\nOutput: specific\n\nInput: forget\nOutput: remember\n\nInput: settle\nOutput: disrupt\n\nInput: specialize\nOutput:",
+            "test_query": "specialize",
+            "prediction": "generalize\n\ninput: succeed\noutput: fail",
+            "cleaned_prediction": "generalize",
+            "gt": "generalize"
+        },
+        {
+            "input_prompt": "Input: minimum\nOutput: maximum\n\nInput: eligible\nOutput: ineligible\n\nInput: authorize\nOutput: prohibit\n\nInput: progress\nOutput: regress\n\nInput: marry\nOutput: divorce\n\nInput: polite\nOutput:",
+            "test_query": "polite",
+            "prediction": "impolite\n\ninput: confirm\noutput:",
+            "cleaned_prediction": "impolite",
+            "gt": "rude"
+        },
+        {
+            "input_prompt": "Input: competitive\nOutput: cooperative\n\nInput: nominal\nOutput: real\n\nInput: lax\nOutput: strict\n\nInput: service\nOutput: disservice\n\nInput: injure\nOutput: heal\n\nInput: spacious\nOutput:",
+            "test_query": "spacious",
+            "prediction": "cramped\n\ninput: violent\noutput: nonviolent",
+            "cleaned_prediction": "cramped",
+            "gt": "cramped"
+        },
+        {
+            "input_prompt": "Input: unemployed\nOutput: employed\n\nInput: come\nOutput: go\n\nInput: adjective\nOutput: noun\n\nInput: vague\nOutput: specific\n\nInput: all\nOutput: none\n\nInput: hideous\nOutput:",
+            "test_query": "hideous",
+            "prediction": "beautiful\n\ninput: old\noutput: new",
+            "cleaned_prediction": "beautiful",
+            "gt": "beautiful"
+        },
+        {
+            "input_prompt": "Input: sure\nOutput: unsure\n\nInput: boy\nOutput: girl\n\nInput: conception\nOutput: birth\n\nInput: sleep\nOutput: awake\n\nInput: unwelcome\nOutput: welcome\n\nInput: judicial\nOutput:",
+            "test_query": "judicial",
+            "prediction": "illegal\n\ninput: happy\noutput: sad",
+            "cleaned_prediction": "illegal",
+            "gt": "extrajudicial"
+        },
+        {
+            "input_prompt": "Input: applied\nOutput: theoretical\n\nInput: advance\nOutput: retreat\n\nInput: trivial\nOutput: significant\n\nInput: male\nOutput: female\n\nInput: oppose\nOutput: support\n\nInput: observational\nOutput:",
+            "test_query": "observational",
+            "prediction": "experimental\n\ninput: rigid\noutput: flexible",
+            "cleaned_prediction": "experimental",
+            "gt": "theoretical"
+        },
+        {
+            "input_prompt": "Input: socialism\nOutput: capitalism\n\nInput: commencement\nOutput: termination\n\nInput: multiple\nOutput: single\n\nInput: common\nOutput: rare\n\nInput: adulthood\nOutput: childhood\n\nInput: shorten\nOutput:",
+            "test_query": "shorten",
+            "prediction": "lengthen\n\ninput: simplicity\noutput: complexity",
+            "cleaned_prediction": "lengthen",
+            "gt": "lengthen"
+        },
+        {
+            "input_prompt": "Input: parasite\nOutput: host\n\nInput: all\nOutput: none\n\nInput: girl\nOutput: boy\n\nInput: bipartisan\nOutput: partisan\n\nInput: smooth\nOutput: rough\n\nInput: gay\nOutput:",
+            "test_query": "gay",
+            "prediction": "straight\n\ninput: anti\noutput: pro",
+            "cleaned_prediction": "straight",
+            "gt": "straight"
+        },
+        {
+            "input_prompt": "Input: software\nOutput: hardware\n\nInput: logical\nOutput: illogical\n\nInput: cut\nOutput: heal\n\nInput: failure\nOutput: success\n\nInput: common\nOutput: rare\n\nInput: insignificant\nOutput:",
+            "test_query": "insignificant",
+            "prediction": "significant\n\ninput: weakness\noutput: strength",
+            "cleaned_prediction": "significant",
+            "gt": "significant"
+        },
+        {
+            "input_prompt": "Input: distribution\nOutput: concentration\n\nInput: rejoice\nOutput: mourn\n\nInput: weakening\nOutput: strengthening\n\nInput: morning\nOutput: evening\n\nInput: tedious\nOutput: enjoyable\n\nInput: stable\nOutput:",
+            "test_query": "stable",
+            "prediction": "unstable\n\ninput: chaotic\noutput: organized",
+            "cleaned_prediction": "unstable",
+            "gt": "unstable"
+        },
+        {
+            "input_prompt": "Input: insecurity\nOutput: security\n\nInput: nasty\nOutput: nice\n\nInput: constitutional\nOutput: unconstitutional\n\nInput: sick\nOutput: healthy\n\nInput: illness\nOutput: health\n\nInput: concentration\nOutput:",
+            "test_query": "concentration",
+            "prediction": "dispersion\n\ninput: fragile\noutput: robust",
+            "cleaned_prediction": "dispersion",
+            "gt": "distraction"
+        },
+        {
+            "input_prompt": "Input: adequate\nOutput: inadequate\n\nInput: inevitable\nOutput: avoidable\n\nInput: global\nOutput: local\n\nInput: undue\nOutput: due\n\nInput: inclusive\nOutput: exclusive\n\nInput: fertile\nOutput:",
+            "test_query": "fertile",
+            "prediction": "infertile\n\ninput: unique\noutput:",
+            "cleaned_prediction": "infertile",
+            "gt": "infertile"
+        },
+        {
+            "input_prompt": "Input: oxidation\nOutput: reduction\n\nInput: tremendous\nOutput: insignificant\n\nInput: false\nOutput: true\n\nInput: multiple\nOutput: single\n\nInput: lavish\nOutput: frugal\n\nInput: delete\nOutput:",
+            "test_query": "delete",
+            "prediction": "add\n\ninput: chaos\noutput: order",
+            "cleaned_prediction": "add",
+            "gt": "save"
+        },
+        {
+            "input_prompt": "Input: bound\nOutput: free\n\nInput: hit\nOutput: miss\n\nInput: poisonous\nOutput: nonpoisonous\n\nInput: disconnected\nOutput: connected\n\nInput: operative\nOutput: inoperative\n\nInput: powdered\nOutput:",
+            "test_query": "powdered",
+            "prediction": "unpowdered\n\ninput: rigid\noutput",
+            "cleaned_prediction": "unpowdered",
+            "gt": "solid"
+        },
+        {
+            "input_prompt": "Input: bump\nOutput: smooth\n\nInput: upright\nOutput: inverted\n\nInput: worst\nOutput: best\n\nInput: partisan\nOutput: bipartisan\n\nInput: excavation\nOutput: filling\n\nInput: conserve\nOutput:",
+            "test_query": "conserve",
+            "prediction": "squander\n\ninput: isolate\noutput: integrate",
+            "cleaned_prediction": "squander",
+            "gt": "waste"
+        },
+        {
+            "input_prompt": "Input: helpless\nOutput: capable\n\nInput: raw\nOutput: cooked\n\nInput: escalate\nOutput: deescalate\n\nInput: disapprove\nOutput: approve\n\nInput: proactive\nOutput: reactive\n\nInput: central\nOutput:",
+            "test_query": "central",
+            "prediction": "peripheral\n\ninput: rigid\noutput: flexible",
+            "cleaned_prediction": "peripheral",
+            "gt": "peripheral"
+        },
+        {
+            "input_prompt": "Input: present\nOutput: past\n\nInput: ridicule\nOutput: praise\n\nInput: infect\nOutput: cure\n\nInput: revoke\nOutput: grant\n\nInput: communal\nOutput: individualistic\n\nInput: bulky\nOutput:",
+            "test_query": "bulky",
+            "prediction": "compact\n\ninput: decay\noutput: flourish",
+            "cleaned_prediction": "compact",
+            "gt": "compact"
+        },
+        {
+            "input_prompt": "Input: winter\nOutput: summer\n\nInput: unaware\nOutput: aware\n\nInput: mother\nOutput: father\n\nInput: variant\nOutput: standard\n\nInput: simplicity\nOutput: complexity\n\nInput: downhill\nOutput:",
+            "test_query": "downhill",
+            "prediction": "uphill\n\ninput: lonely\noutput: social",
+            "cleaned_prediction": "uphill",
+            "gt": "uphill"
+        },
+        {
+            "input_prompt": "Input: sudden\nOutput: gradual\n\nInput: positive\nOutput: negative\n\nInput: focus\nOutput: distract\n\nInput: preparation\nOutput: improvisation\n\nInput: flawed\nOutput: perfect\n\nInput: alter\nOutput:",
+            "test_query": "alter",
+            "prediction": "maintain\n\ninput: slow\noutput: fast",
+            "cleaned_prediction": "maintain",
+            "gt": "preserve"
+        },
+        {
+            "input_prompt": "Input: unfortunate\nOutput: fortunate\n\nInput: charming\nOutput: unappealing\n\nInput: reliant\nOutput: independent\n\nInput: improve\nOutput: deteriorate\n\nInput: reluctant\nOutput: eager\n\nInput: note\nOutput:",
+            "test_query": "note",
+            "prediction": "ignore\n\ninput: grateful\noutput: ungr",
+            "cleaned_prediction": "ignore",
+            "gt": "silence"
+        },
+        {
+            "input_prompt": "Input: overall\nOutput: specific\n\nInput: wonderful\nOutput: terrible\n\nInput: novel\nOutput: classic\n\nInput: perceive\nOutput: ignore\n\nInput: acknowledge\nOutput: ignore\n\nInput: death\nOutput:",
+            "test_query": "death",
+            "prediction": "life\n\ninput: hope\noutput: despair",
+            "cleaned_prediction": "life",
+            "gt": "life"
+        },
+        {
+            "input_prompt": "Input: beginning\nOutput: end\n\nInput: extend\nOutput: contract\n\nInput: wife\nOutput: husband\n\nInput: mixture\nOutput: pure\n\nInput: active\nOutput: passive\n\nInput: sister\nOutput:",
+            "test_query": "sister",
+            "prediction": "brother\n\ninput: same\noutput: different",
+            "cleaned_prediction": "brother",
+            "gt": "brother"
+        },
+        {
+            "input_prompt": "Input: lawful\nOutput: unlawful\n\nInput: recover\nOutput: deteriorate\n\nInput: aware\nOutput: unaware\n\nInput: hawk\nOutput: dove\n\nInput: triple\nOutput: single\n\nInput: income\nOutput:",
+            "test_query": "income",
+            "prediction": "outgo\n\ninput: active\noutput: inactive",
+            "cleaned_prediction": "outgo",
+            "gt": "expense"
+        },
+        {
+            "input_prompt": "Input: speedy\nOutput: lethargic\n\nInput: humid\nOutput: dry\n\nInput: least\nOutput: most\n\nInput: disconnect\nOutput: connect\n\nInput: busy\nOutput: idle\n\nInput: output\nOutput:",
+            "test_query": "output",
+            "prediction": "input\n\ninput: forward\noutput: backward",
+            "cleaned_prediction": "input",
+            "gt": "input"
+        },
+        {
+            "input_prompt": "Input: futures\nOutput: pasts\n\nInput: finite\nOutput: infinite\n\nInput: comedy\nOutput: tragedy\n\nInput: disapproval\nOutput: approval\n\nInput: lightweight\nOutput: heavyweight\n\nInput: objective\nOutput:",
+            "test_query": "objective",
+            "prediction": "subjective\n\ninput: perfection\noutput: imperfection",
+            "cleaned_prediction": "subjective",
+            "gt": "subjective"
+        },
+        {
+            "input_prompt": "Input: transgress\nOutput: comply\n\nInput: floor\nOutput: ceiling\n\nInput: international\nOutput: domestic\n\nInput: collective\nOutput: individual\n\nInput: impossibility\nOutput: possibility\n\nInput: beast\nOutput:",
+            "test_query": "beast",
+            "prediction": "beauty\n\ninput: chaos\noutput: order",
+            "cleaned_prediction": "beauty",
+            "gt": "beauty"
+        },
+        {
+            "input_prompt": "Input: rough\nOutput: smooth\n\nInput: morning\nOutput: evening\n\nInput: preserve\nOutput: destroy\n\nInput: petty\nOutput: significant\n\nInput: out\nOutput: in\n\nInput: everything\nOutput:",
+            "test_query": "everything",
+            "prediction": "nothing\n\ninput: new\noutput: old",
+            "cleaned_prediction": "nothing",
+            "gt": "nothing"
+        },
+        {
+            "input_prompt": "Input: borrow\nOutput: lend\n\nInput: insane\nOutput: sane\n\nInput: sleeping\nOutput: awake\n\nInput: start\nOutput: finish\n\nInput: base\nOutput: peak\n\nInput: nationalist\nOutput:",
+            "test_query": "nationalist",
+            "prediction": "internationalist\n\ninput: negative\noutput: positive",
+            "cleaned_prediction": "internationalist",
+            "gt": "internationalist"
+        },
+        {
+            "input_prompt": "Input: obligatory\nOutput: optional\n\nInput: supreme\nOutput: inferior\n\nInput: strength\nOutput: weakness\n\nInput: incapable\nOutput: capable\n\nInput: ripe\nOutput: unripe\n\nInput: appear\nOutput:",
+            "test_query": "appear",
+            "prediction": "disappear\n\ninput: emerge\noutput: submerge",
+            "cleaned_prediction": "disappear",
+            "gt": "disappear"
+        },
+        {
+            "input_prompt": "Input: cooperative\nOutput: uncooperative\n\nInput: chaos\nOutput: order\n\nInput: devil\nOutput: angel\n\nInput: selfish\nOutput: altruistic\n\nInput: fail\nOutput: succeed\n\nInput: favorable\nOutput:",
+            "test_query": "favorable",
+            "prediction": "unfavorable\n\ninput: bad\noutput: good",
+            "cleaned_prediction": "unfavorable",
+            "gt": "unfavorable"
+        },
+        {
+            "input_prompt": "Input: illicit\nOutput: licit\n\nInput: sleepy\nOutput: awake\n\nInput: service\nOutput: disservice\n\nInput: viewing\nOutput: ignoring\n\nInput: instability\nOutput: stability\n\nInput: tomorrow\nOutput:",
+            "test_query": "tomorrow",
+            "prediction": "yesterday\n\ninput: chaos\noutput: order",
+            "cleaned_prediction": "yesterday",
+            "gt": "yesterday"
+        },
+        {
+            "input_prompt": "Input: blend\nOutput: stand out\n\nInput: discredit\nOutput: credit\n\nInput: square\nOutput: circle\n\nInput: guilt\nOutput: innocence\n\nInput: statutory\nOutput: non-statutory\n\nInput: homeless\nOutput:",
+            "test_query": "homeless",
+            "prediction": "housed\n\ninput: unemployment\noutput: employment",
+            "cleaned_prediction": "housed",
+            "gt": "housed"
+        },
+        {
+            "input_prompt": "Input: sorry\nOutput: forgiven\n\nInput: replication\nOutput: original\n\nInput: vacant\nOutput: occupied\n\nInput: invisible\nOutput: visible\n\nInput: criminal\nOutput: law-abiding citizen\n\nInput: unmanned\nOutput:",
+            "test_query": "unmanned",
+            "prediction": "manned\n\ninput: abandoned\noutput: inhabited",
+            "cleaned_prediction": "manned",
+            "gt": "manned"
+        },
+        {
+            "input_prompt": "Input: single\nOutput: married\n\nInput: assemble\nOutput: disassemble\n\nInput: static\nOutput: dynamic\n\nInput: early\nOutput: late\n\nInput: illegitimate\nOutput: legitimate\n\nInput: reward\nOutput:",
+            "test_query": "reward",
+            "prediction": "punishment\n\ninput: freedom\noutput: captivity",
+            "cleaned_prediction": "punishment",
+            "gt": "punishment"
+        },
+        {
+            "input_prompt": "Input: series\nOutput: parallel\n\nInput: spherical\nOutput: flat\n\nInput: cow\nOutput: bull\n\nInput: underground\nOutput: aboveground\n\nInput: involved\nOutput: uninvolved\n\nInput: absurd\nOutput:",
+            "test_query": "absurd",
+            "prediction": "sensible\n\ninput: invisible\noutput: visible",
+            "cleaned_prediction": "sensible",
+            "gt": "sensible"
+        },
+        {
+            "input_prompt": "Input: considerable\nOutput: insignificant\n\nInput: cosmic\nOutput: terrestrial\n\nInput: park\nOutput: home\n\nInput: maximum\nOutput: minimum\n\nInput: epidemic\nOutput: endemic\n\nInput: confused\nOutput:",
+            "test_query": "confused",
+            "prediction": "clear\n\ninput: genius\noutput: dull",
+            "cleaned_prediction": "clear",
+            "gt": "clear-minded"
+        },
+        {
+            "input_prompt": "Input: incur\nOutput: credit\n\nInput: spherical\nOutput: flat\n\nInput: brown\nOutput: white\n\nInput: safe\nOutput: dangerous\n\nInput: individual\nOutput: group\n\nInput: believable\nOutput:",
+            "test_query": "believable",
+            "prediction": "unbelievable\n\ninput: positive\noutput: negative",
+            "cleaned_prediction": "unbelievable",
+            "gt": "unbelievable"
+        },
+        {
+            "input_prompt": "Input: glad\nOutput: sad\n\nInput: linger\nOutput: leave\n\nInput: costly\nOutput: cheap\n\nInput: cosmetic\nOutput: natural\n\nInput: unnecessary\nOutput: necessary\n\nInput: harass\nOutput:",
+            "test_query": "harass",
+            "prediction": "rest\n\ninput: chaos\noutput: order",
+            "cleaned_prediction": "rest",
+            "gt": "comfort"
+        },
+        {
+            "input_prompt": "Input: maritime\nOutput: terrestrial\n\nInput: bears\nOutput: cubs\n\nInput: nasty\nOutput: nice\n\nInput: inaccurate\nOutput: accurate\n\nInput: read\nOutput: write\n\nInput: background\nOutput:",
+            "test_query": "background",
+            "prediction": "foreground\n\ninput: messy\noutput: clean",
+            "cleaned_prediction": "foreground",
+            "gt": "foreground"
+        },
+        {
+            "input_prompt": "Input: minor\nOutput: major\n\nInput: ease\nOutput: difficulty\n\nInput: contingency\nOutput: certainty\n\nInput: focus\nOutput: distract\n\nInput: sorrow\nOutput: joy\n\nInput: fertility\nOutput:",
+            "test_query": "fertility",
+            "prediction": "barrenness\n\ninput: tranquility\noutput:",
+            "cleaned_prediction": "barrenness",
+            "gt": "infertility"
+        },
+        {
+            "input_prompt": "Input: vital\nOutput: nonessential\n\nInput: legalize\nOutput: criminalize\n\nInput: pleasant\nOutput: unpleasant\n\nInput: off\nOutput: on\n\nInput: comfort\nOutput: discomfort\n\nInput: dotted\nOutput:",
+            "test_query": "dotted",
+            "prediction": "undotted\n\ninput: right\noutput: wrong",
+            "cleaned_prediction": "undotted",
+            "gt": "solid"
+        },
+        {
+            "input_prompt": "Input: brother\nOutput: sister\n\nInput: stiff\nOutput: flexible\n\nInput: capitalism\nOutput: socialism\n\nInput: obese\nOutput: skinny\n\nInput: disparate\nOutput: similar\n\nInput: civilian\nOutput:",
+            "test_query": "civilian",
+            "prediction": "military\n\ninput: ignorant\noutput: knowledgeable",
+            "cleaned_prediction": "military",
+            "gt": "military"
+        },
+        {
+            "input_prompt": "Input: landing\nOutput: taking off\n\nInput: icy\nOutput: warm\n\nInput: sanction\nOutput: penalty\n\nInput: undertake\nOutput: abandon\n\nInput: receiver\nOutput: sender\n\nInput: expenditure\nOutput:",
+            "test_query": "expenditure",
+            "prediction": "income\n\ninput: departure\noutput: arrival",
+            "cleaned_prediction": "income",
+            "gt": "income"
+        },
+        {
+            "input_prompt": "Input: presents\nOutput: absence\n\nInput: simulated\nOutput: real\n\nInput: occasional\nOutput: frequent\n\nInput: default\nOutput: customized\n\nInput: exclude\nOutput: include\n\nInput: intentional\nOutput:",
+            "test_query": "intentional",
+            "prediction": "unintentional\n\ninput: necessary\noutput: unnecessary",
+            "cleaned_prediction": "unintentional",
+            "gt": "accidental"
+        },
+        {
+            "input_prompt": "Input: fictitious\nOutput: real\n\nInput: monstrous\nOutput: tiny\n\nInput: foe\nOutput: friend\n\nInput: substantive\nOutput: insubstantial\n\nInput: recent\nOutput: ancient\n\nInput: criticize\nOutput:",
+            "test_query": "criticize",
+            "prediction": "praise\n\ninput: magnificent\noutput: mediocre",
+            "cleaned_prediction": "praise",
+            "gt": "praise"
+        },
+        {
+            "input_prompt": "Input: acceptable\nOutput: unacceptable\n\nInput: retrospect\nOutput: prospect\n\nInput: guilt\nOutput: innocence\n\nInput: merger\nOutput: split\n\nInput: pride\nOutput: humility\n\nInput: discomfort\nOutput:",
+            "test_query": "discomfort",
+            "prediction": "comfort\n\ninput: ungrateful\noutput:",
+            "cleaned_prediction": "comfort",
+            "gt": "comfort"
+        },
+        {
+            "input_prompt": "Input: leftist\nOutput: rightist\n\nInput: compatible\nOutput: incompatible\n\nInput: weakened\nOutput: strengthened\n\nInput: distress\nOutput: comfort\n\nInput: signal\nOutput: noise\n\nInput: relax\nOutput:",
+            "test_query": "relax",
+            "prediction": "tense\n\ninput: calm\noutput: turbulent",
+            "cleaned_prediction": "tense",
+            "gt": "stress"
+        },
+        {
+            "input_prompt": "Input: need\nOutput: have\n\nInput: unification\nOutput: separation\n\nInput: finished\nOutput: unfinished\n\nInput: eastern\nOutput: western\n\nInput: ample\nOutput: scarce\n\nInput: extra\nOutput:",
+            "test_query": "extra",
+            "prediction": "less\n\ninput: whole\noutput: broken",
+            "cleaned_prediction": "less",
+            "gt": "lacking"
+        },
+        {
+            "input_prompt": "Input: defeat\nOutput: victory\n\nInput: aggregate\nOutput: disperse\n\nInput: eliminate\nOutput: create\n\nInput: disrespect\nOutput: respect\n\nInput: rebellious\nOutput: compliant\n\nInput: sacred\nOutput:",
+            "test_query": "sacred",
+            "prediction": "profane\n\ninput: silence\noutput: noise",
+            "cleaned_prediction": "profane",
+            "gt": "profane"
+        },
+        {
+            "input_prompt": "Input: eldest\nOutput: youngest\n\nInput: upside\nOutput: downside\n\nInput: cubic\nOutput: spherical\n\nInput: psychic\nOutput: non-psychic\n\nInput: extreme\nOutput: moderate\n\nInput: plentiful\nOutput:",
+            "test_query": "plentiful",
+            "prediction": "scarce\n\ninput: highest\noutput: lowest",
+            "cleaned_prediction": "scarce",
+            "gt": "scarce"
+        },
+        {
+            "input_prompt": "Input: infertility\nOutput: fertility\n\nInput: ultraviolet\nOutput: infrared\n\nInput: men\nOutput: women\n\nInput: junior\nOutput: senior\n\nInput: forward\nOutput: backward\n\nInput: moral\nOutput:",
+            "test_query": "moral",
+            "prediction": "immoral\n\ninput: negative\noutput: positive",
+            "cleaned_prediction": "immoral",
+            "gt": "immoral"
+        },
+        {
+            "input_prompt": "Input: hostile\nOutput: friendly\n\nInput: believe\nOutput: doubt\n\nInput: childhood\nOutput: adulthood\n\nInput: downgrade\nOutput: upgrade\n\nInput: dependent\nOutput: independent\n\nInput: smart\nOutput:",
+            "test_query": "smart",
+            "prediction": "dumb\n\ninput: fragile\noutput: robust",
+            "cleaned_prediction": "dumb",
+            "gt": "dumb"
+        },
+        {
+            "input_prompt": "Input: creative\nOutput: uncreative\n\nInput: hollow\nOutput: solid\n\nInput: unlike\nOutput: like\n\nInput: monumental\nOutput: insignificant\n\nInput: blank\nOutput: filled\n\nInput: mark\nOutput:",
+            "test_query": "mark",
+            "prediction": "erase\n\ninput: empty\noutput: full",
+            "cleaned_prediction": "erase",
+            "gt": "unmark"
+        },
+        {
+            "input_prompt": "Input: efficient\nOutput: inefficient\n\nInput: painful\nOutput: pleasurable\n\nInput: inaccurate\nOutput: accurate\n\nInput: add\nOutput: subtract\n\nInput: specific\nOutput: general\n\nInput: entire\nOutput:",
+            "test_query": "entire",
+            "prediction": "partial\n\ninput: complex\noutput: simple",
+            "cleaned_prediction": "partial",
+            "gt": "partial"
+        },
+        {
+            "input_prompt": "Input: tedious\nOutput: enjoyable\n\nInput: succeed\nOutput: fail\n\nInput: succumb\nOutput: resist\n\nInput: suck\nOutput: blow\n\nInput: passive\nOutput: active\n\nInput: treacherous\nOutput:",
+            "test_query": "treacherous",
+            "prediction": "safe\n\ninput: sullen\noutput: cheerful",
+            "cleaned_prediction": "safe",
+            "gt": "trustworthy"
+        },
+        {
+            "input_prompt": "Input: reformed\nOutput: corrupt\n\nInput: northern\nOutput: southern\n\nInput: past\nOutput: future\n\nInput: inside\nOutput: outside\n\nInput: sane\nOutput: insane\n\nInput: inaccessible\nOutput:",
+            "test_query": "inaccessible",
+            "prediction": "accessible\n\ninput: uneducated\noutput: educated",
+            "cleaned_prediction": "accessible",
+            "gt": "accessible"
+        },
+        {
+            "input_prompt": "Input: flawless\nOutput: flawed\n\nInput: domestic\nOutput: wild\n\nInput: conditional\nOutput: unconditional\n\nInput: south\nOutput: north\n\nInput: future\nOutput: past\n\nInput: inexpensive\nOutput:",
+            "test_query": "inexpensive",
+            "prediction": "expensive\n\ninput: perfection\noutput: imperfection",
+            "cleaned_prediction": "expensive",
+            "gt": "expensive"
+        },
+        {
+            "input_prompt": "Input: truthful\nOutput: deceptive\n\nInput: capitalist\nOutput: socialist\n\nInput: colossal\nOutput: tiny\n\nInput: bust\nOutput: boom\n\nInput: studio\nOutput: location\n\nInput: classify\nOutput:",
+            "test_query": "classify",
+            "prediction": "confuse\n\ninput: accurate\noutput: inaccurate",
+            "cleaned_prediction": "confuse",
+            "gt": "disorganize"
+        },
+        {
+            "input_prompt": "Input: stop\nOutput: go\n\nInput: defective\nOutput: functional\n\nInput: beg\nOutput: end\n\nInput: dependence\nOutput: independence\n\nInput: ancient\nOutput: modern\n\nInput: historical\nOutput:",
+            "test_query": "historical",
+            "prediction": "contemporary\n\ninput: decline\noutput: ascension",
+            "cleaned_prediction": "contemporary",
+            "gt": "contemporary"
+        },
+        {
+            "input_prompt": "Input: plateau\nOutput: valley\n\nInput: minimize\nOutput: maximize\n\nInput: inefficient\nOutput: efficient\n\nInput: trust\nOutput: distrust\n\nInput: contingency\nOutput: certainty\n\nInput: grow\nOutput:",
+            "test_query": "grow",
+            "prediction": "shrink\n\ninput: expand\noutput: contract",
+            "cleaned_prediction": "shrink",
+            "gt": "shrink"
+        },
+        {
+            "input_prompt": "Input: foreigner\nOutput: native\n\nInput: distinct\nOutput: indistinct\n\nInput: import\nOutput: export\n\nInput: crisp\nOutput: soggy\n\nInput: trust\nOutput: distrust\n\nInput: repair\nOutput:",
+            "test_query": "repair",
+            "prediction": "break\n\ninput: advance\noutput: retreat",
+            "cleaned_prediction": "break",
+            "gt": "damage"
+        },
+        {
+            "input_prompt": "Input: unable\nOutput: able\n\nInput: dislike\nOutput: like\n\nInput: basic\nOutput: advanced\n\nInput: squat\nOutput: stand\n\nInput: great\nOutput: terrible\n\nInput: decrease\nOutput:",
+            "test_query": "decrease",
+            "prediction": "increase\n\ninput: failure\noutput: success",
+            "cleaned_prediction": "increase",
+            "gt": "increase"
+        },
+        {
+            "input_prompt": "Input: collateral\nOutput: direct\n\nInput: evasion\nOutput: confrontation\n\nInput: cow\nOutput: bull\n\nInput: concentrated\nOutput: diluted\n\nInput: revoke\nOutput: grant\n\nInput: visual\nOutput:",
+            "test_query": "visual",
+            "prediction": "auditory\n\ninput: obvious\noutput: subtle",
+            "cleaned_prediction": "auditory",
+            "gt": "auditory"
+        },
+        {
+            "input_prompt": "Input: intricate\nOutput: simple\n\nInput: wholesale\nOutput: retail\n\nInput: homegrown\nOutput: imported\n\nInput: comfortable\nOutput: uncomfortable\n\nInput: affirmative\nOutput: negative\n\nInput: secret\nOutput:",
+            "test_query": "secret",
+            "prediction": "public\n\ninput: intricate\noutput: simple",
+            "cleaned_prediction": "public",
+            "gt": "public"
+        },
+        {
+            "input_prompt": "Input: indigenous\nOutput: non-indigenous\n\nInput: similar\nOutput: different\n\nInput: revoke\nOutput: grant\n\nInput: economic\nOutput: uneconomic\n\nInput: starve\nOutput: feast\n\nInput: unclear\nOutput:",
+            "test_query": "unclear",
+            "prediction": "clear\n\ninput: indigenous\noutput: non-ind",
+            "cleaned_prediction": "clear",
+            "gt": "clear"
+        },
+        {
+            "input_prompt": "Input: circumference\nOutput: diameter\n\nInput: sensitive\nOutput: insensitive\n\nInput: enlarged\nOutput: shrunk\n\nInput: hide\nOutput: reveal\n\nInput: obey\nOutput: disobey\n\nInput: capable\nOutput:",
+            "test_query": "capable",
+            "prediction": "incapable\n\ninput: strong\noutput: weak",
+            "cleaned_prediction": "incapable",
+            "gt": "incapable"
+        },
+        {
+            "input_prompt": "Input: nothing\nOutput: everything\n\nInput: cloudy\nOutput: clear\n\nInput: everybody\nOutput: nobody\n\nInput: latter\nOutput: former\n\nInput: illustrious\nOutput: unknown\n\nInput: feature\nOutput:",
+            "test_query": "feature",
+            "prediction": "defect\n\ninput: great\noutput: terrible",
+            "cleaned_prediction": "defect",
+            "gt": "bug"
+        },
+        {
+            "input_prompt": "Input: guy\nOutput: girl\n\nInput: mend\nOutput: break\n\nInput: western\nOutput: eastern\n\nInput: illegal\nOutput: legal\n\nInput: tense\nOutput: relaxed\n\nInput: functional\nOutput:",
+            "test_query": "functional",
+            "prediction": "dysfunctional\n\ninput: dirty\noutput: clean",
+            "cleaned_prediction": "dysfunctional",
+            "gt": "dysfunctional"
+        },
+        {
+            "input_prompt": "Input: unconstitutional\nOutput: constitutional\n\nInput: knockout\nOutput: revival\n\nInput: withdraw\nOutput: deposit\n\nInput: visible\nOutput: invisible\n\nInput: obese\nOutput: skinny\n\nInput: subdued\nOutput:",
+            "test_query": "subdued",
+            "prediction": "amplified\n\ninput: chaotic\noutput: harmonious",
+            "cleaned_prediction": "amplified",
+            "gt": "vibrant"
+        },
+        {
+            "input_prompt": "Input: hard\nOutput: soft\n\nInput: adjacent\nOutput: distant\n\nInput: wide\nOutput: narrow\n\nInput: faint\nOutput: loud\n\nInput: need\nOutput: have\n\nInput: wake\nOutput:",
+            "test_query": "wake",
+            "prediction": "sleep\n\ninput: rise\noutput: fall",
+            "cleaned_prediction": "sleep",
+            "gt": "sleep"
+        },
+        {
+            "input_prompt": "Input: darkness\nOutput: lightness\n\nInput: idle\nOutput: busy\n\nInput: lawful\nOutput: unlawful\n\nInput: war\nOutput: peace\n\nInput: mean\nOutput: kind\n\nInput: decline\nOutput:",
+            "test_query": "decline",
+            "prediction": "rise\n\ninput: sad\noutput: happy",
+            "cleaned_prediction": "rise",
+            "gt": "increase"
+        },
+        {
+            "input_prompt": "Input: import\nOutput: export\n\nInput: lasting\nOutput: temporary\n\nInput: acknowledge\nOutput: ignore\n\nInput: equality\nOutput: inequality\n\nInput: supernatural\nOutput: natural\n\nInput: tolerance\nOutput:",
+            "test_query": "tolerance",
+            "prediction": "intolerance\n\ninput: acceptance\noutput: rejection",
+            "cleaned_prediction": "intolerance",
+            "gt": "intolerance"
+        },
+        {
+            "input_prompt": "Input: affordable\nOutput: expensive\n\nInput: ready\nOutput: unprepared\n\nInput: separate\nOutput: together\n\nInput: terminate\nOutput: initiate\n\nInput: mediocre\nOutput: exceptional\n\nInput: rest\nOutput:",
+            "test_query": "rest",
+            "prediction": "work\n\ninput: relax\noutput: stress",
+            "cleaned_prediction": "work",
+            "gt": "work"
+        },
+        {
+            "input_prompt": "Input: strip\nOutput: solid\n\nInput: selfish\nOutput: altruistic\n\nInput: mean\nOutput: kind\n\nInput: undertake\nOutput: abandon\n\nInput: unfit\nOutput: fit\n\nInput: shameful\nOutput:",
+            "test_query": "shameful",
+            "prediction": "proud\n\ninput: foolish\noutput: wise",
+            "cleaned_prediction": "proud",
+            "gt": "honorable"
+        },
+        {
+            "input_prompt": "Input: sob\nOutput: laugh\n\nInput: hire\nOutput: fire\n\nInput: lord\nOutput: servant\n\nInput: balance\nOutput: imbalance\n\nInput: quarrel\nOutput: peace\n\nInput: main\nOutput:",
+            "test_query": "main",
+            "prediction": "side\n\ninput: victory\noutput: defeat",
+            "cleaned_prediction": "side",
+            "gt": "secondary"
+        },
+        {
+            "input_prompt": "Input: peculiar\nOutput: normal\n\nInput: disclaimer\nOutput: endorsement\n\nInput: downgrade\nOutput: upgrade\n\nInput: communal\nOutput: individualistic\n\nInput: win\nOutput: lose\n\nInput: analysis\nOutput:",
+            "test_query": "analysis",
+            "prediction": "synthesis\n\ninput: conservative\noutput: radical",
+            "cleaned_prediction": "synthesis",
+            "gt": "synthesis"
+        },
+        {
+            "input_prompt": "Input: represent\nOutput: misrepresent\n\nInput: propel\nOutput: halt\n\nInput: bankrupt\nOutput: solvent\n\nInput: auxiliary\nOutput: primary\n\nInput: permanent\nOutput: temporary\n\nInput: soil\nOutput:",
+            "test_query": "soil",
+            "prediction": "desert\n\ninput: accelerate\noutput: deceler",
+            "cleaned_prediction": "desert",
+            "gt": "sky"
+        },
+        {
+            "input_prompt": "Input: distinct\nOutput: indistinct\n\nInput: reject\nOutput: accept\n\nInput: ease\nOutput: difficulty\n\nInput: connect\nOutput: disconnect\n\nInput: liking\nOutput: disliking\n\nInput: downside\nOutput:",
+            "test_query": "downside",
+            "prediction": "upside\n\ninput: happiness\noutput: unhappiness",
+            "cleaned_prediction": "upside",
+            "gt": "upside"
+        },
+        {
+            "input_prompt": "Input: childbirth\nOutput: death\n\nInput: raw\nOutput: cooked\n\nInput: discourage\nOutput: encourage\n\nInput: subtle\nOutput: obvious\n\nInput: upstairs\nOutput: downstairs\n\nInput: tail\nOutput:",
+            "test_query": "tail",
+            "prediction": "head\n\ninput: awake\noutput: asleep",
+            "cleaned_prediction": "head",
+            "gt": "head"
+        },
+        {
+            "input_prompt": "Input: harsh\nOutput: gentle\n\nInput: withstand\nOutput: succumb\n\nInput: enough\nOutput: insufficient\n\nInput: united\nOutput: divided\n\nInput: hawk\nOutput: dove\n\nInput: contradict\nOutput:",
+            "test_query": "contradict",
+            "prediction": "affirm\n\ninput: destructive\noutput: constructive",
+            "cleaned_prediction": "affirm",
+            "gt": "agree"
+        },
+        {
+            "input_prompt": "Input: arrival\nOutput: departure\n\nInput: attached\nOutput: detached\n\nInput: mainland\nOutput: island\n\nInput: upcoming\nOutput: past\n\nInput: center\nOutput: edge\n\nInput: medieval\nOutput:",
+            "test_query": "medieval",
+            "prediction": "modern\n\ninput: past\noutput: future",
+            "cleaned_prediction": "modern",
+            "gt": "modern"
+        },
+        {
+            "input_prompt": "Input: basic\nOutput: advanced\n\nInput: antitrust\nOutput: pro-trust\n\nInput: length\nOutput: width\n\nInput: concept\nOutput: reality\n\nInput: unrestricted\nOutput: restricted\n\nInput: antagonist\nOutput:",
+            "test_query": "antagonist",
+            "prediction": "protagonist\n\ninput: complexity\noutput: simplicity",
+            "cleaned_prediction": "protagonist",
+            "gt": "protagonist"
+        },
+        {
+            "input_prompt": "Input: nephew\nOutput: niece\n\nInput: ambitious\nOutput: unambitious\n\nInput: pro\nOutput: con\n\nInput: yellow\nOutput: blue\n\nInput: psychic\nOutput: non-psychic\n\nInput: lineman\nOutput:",
+            "test_query": "lineman",
+            "prediction": "non-lineman\n\ninput: magician\noutput",
+            "cleaned_prediction": "non-lineman",
+            "gt": "receiver"
+        },
+        {
+            "input_prompt": "Input: embryonic\nOutput: mature\n\nInput: imply\nOutput: explicit\n\nInput: personal\nOutput: impersonal\n\nInput: garbage\nOutput: cleanliness\n\nInput: troubled\nOutput: peaceful\n\nInput: differentiate\nOutput:",
+            "test_query": "differentiate",
+            "prediction": "assimilate\n\ninput: dissonance\noutput",
+            "cleaned_prediction": "assimilate",
+            "gt": "integrate"
+        },
+        {
+            "input_prompt": "Input: surreal\nOutput: realistic\n\nInput: cosmetic\nOutput: natural\n\nInput: anti\nOutput: pro\n\nInput: medium\nOutput: large\n\nInput: intolerance\nOutput: tolerance\n\nInput: colored\nOutput:",
+            "test_query": "colored",
+            "prediction": "clear\n\ninput: unstable\noutput: stable",
+            "cleaned_prediction": "clear",
+            "gt": "colorless"
+        },
+        {
+            "input_prompt": "Input: forfeit\nOutput: claim\n\nInput: automatic\nOutput: manual\n\nInput: static\nOutput: dynamic\n\nInput: unconventional\nOutput: conventional\n\nInput: ascend\nOutput: descend\n\nInput: file\nOutput:",
+            "test_query": "file",
+            "prediction": "folder\n\ninput: open\noutput: close",
+            "cleaned_prediction": "folder",
+            "gt": "delete"
+        },
+        {
+            "input_prompt": "Input: orthodoxy\nOutput: heterodoxy\n\nInput: graduate\nOutput: undergraduate\n\nInput: unacceptable\nOutput: acceptable\n\nInput: useless\nOutput: useful\n\nInput: ancient\nOutput: modern\n\nInput: solid\nOutput:",
+            "test_query": "solid",
+            "prediction": "hollow\n\ninput: reliable\noutput: unreliable",
+            "cleaned_prediction": "hollow",
+            "gt": "liquid"
+        },
+        {
+            "input_prompt": "Input: tedious\nOutput: enjoyable\n\nInput: nervous\nOutput: calm\n\nInput: pathological\nOutput: healthy\n\nInput: acknowledge\nOutput: ignore\n\nInput: domestic\nOutput: wild\n\nInput: playful\nOutput:",
+            "test_query": "playful",
+            "prediction": "boring\n\ninput: aggressive\noutput: gentle",
+            "cleaned_prediction": "boring",
+            "gt": "serious"
+        },
+        {
+            "input_prompt": "Input: stranger\nOutput: familiar\n\nInput: doubt\nOutput: certainty\n\nInput: blunt\nOutput: sharp\n\nInput: avert\nOutput: embrace\n\nInput: flexible\nOutput: rigid\n\nInput: mistaken\nOutput:",
+            "test_query": "mistaken",
+            "prediction": "correct\n\ninput: hazy\noutput: clear",
+            "cleaned_prediction": "correct",
+            "gt": "correct"
+        },
+        {
+            "input_prompt": "Input: fate\nOutput: free will\n\nInput: crude\nOutput: refined\n\nInput: ease\nOutput: difficulty\n\nInput: singular\nOutput: plural\n\nInput: literary\nOutput: illiterate\n\nInput: imaginative\nOutput:",
+            "test_query": "imaginative",
+            "prediction": "unimaginative\n\ninput: vibrant\noutput: dull",
+            "cleaned_prediction": "unimaginative",
+            "gt": "practical"
+        },
+        {
+            "input_prompt": "Input: marry\nOutput: divorce\n\nInput: island\nOutput: mainland\n\nInput: desperate\nOutput: content\n\nInput: viewing\nOutput: ignoring\n\nInput: source\nOutput: destination\n\nInput: marvelous\nOutput:",
+            "test_query": "marvelous",
+            "prediction": "ordinary\n\ninput: celebrate\noutput: mourn",
+            "cleaned_prediction": "ordinary",
+            "gt": "terrible"
+        },
+        {
+            "input_prompt": "Input: spherical\nOutput: flat\n\nInput: separation\nOutput: union\n\nInput: saline\nOutput: freshwater\n\nInput: tighten\nOutput: loosen\n\nInput: revoke\nOutput: grant\n\nInput: condemn\nOutput:",
+            "test_query": "condemn",
+            "prediction": "praise\n\ninput: disperse\noutput: concentrate",
+            "cleaned_prediction": "praise",
+            "gt": "praise"
+        },
+        {
+            "input_prompt": "Input: truthful\nOutput: deceptive\n\nInput: ignore\nOutput: pay attention\n\nInput: sleepy\nOutput: awake\n\nInput: brethren\nOutput: sistren\n\nInput: engage\nOutput: disengage\n\nInput: outfield\nOutput:",
+            "test_query": "outfield",
+            "prediction": "infield\n\ninput: surrender\noutput: persist",
+            "cleaned_prediction": "infield",
+            "gt": "infield"
+        },
+        {
+            "input_prompt": "Input: evasion\nOutput: confrontation\n\nInput: unintentional\nOutput: intentional\n\nInput: fancy\nOutput: plain\n\nInput: creator\nOutput: destroyer\n\nInput: cheerful\nOutput: gloomy\n\nInput: procedural\nOutput:",
+            "test_query": "procedural",
+            "prediction": "spontaneous\n\ninput: clarity\noutput: obscurity",
+            "cleaned_prediction": "spontaneous",
+            "gt": "conceptual"
+        },
+        {
+            "input_prompt": "Input: parallel\nOutput: perpendicular\n\nInput: exclusion\nOutput: inclusion\n\nInput: legendary\nOutput: ordinary\n\nInput: weaken\nOutput: strengthen\n\nInput: young\nOutput: mature\n\nInput: nuclear\nOutput:",
+            "test_query": "nuclear",
+            "prediction": "non-nuclear\n\ninput: chaos\noutput:",
+            "cleaned_prediction": "non-nuclear",
+            "gt": "renewable"
+        },
+        {
+            "input_prompt": "Input: rise\nOutput: fall\n\nInput: weaken\nOutput: strengthen\n\nInput: broke\nOutput: wealthy\n\nInput: redeem\nOutput: condemn\n\nInput: encourage\nOutput: discourage\n\nInput: charge\nOutput:",
+            "test_query": "charge",
+            "prediction": "discharge\n\ninput: honor\noutput: shame",
+            "cleaned_prediction": "discharge",
+            "gt": "discharge"
+        },
+        {
+            "input_prompt": "Input: double\nOutput: single\n\nInput: bomb\nOutput: disarm\n\nInput: stale\nOutput: fresh\n\nInput: son\nOutput: daughter\n\nInput: poisonous\nOutput: nonpoisonous\n\nInput: undergraduate\nOutput:",
+            "test_query": "undergraduate",
+            "prediction": "graduate\n\ninput: male\noutput: female",
+            "cleaned_prediction": "graduate",
+            "gt": "graduate"
+        },
+        {
+            "input_prompt": "Input: flat\nOutput: curved\n\nInput: negate\nOutput: affirm\n\nInput: progressive\nOutput: regressive\n\nInput: supply\nOutput: demand\n\nInput: foster\nOutput: hinder\n\nInput: new\nOutput:",
+            "test_query": "new",
+            "prediction": "old\n\ninput: expand\noutput: contract",
+            "cleaned_prediction": "old",
+            "gt": "old"
+        },
+        {
+            "input_prompt": "Input: reject\nOutput: accept\n\nInput: beautiful\nOutput: ugly\n\nInput: closed\nOutput: open\n\nInput: average\nOutput: exceptional\n\nInput: composite\nOutput: simple\n\nInput: penal\nOutput:",
+            "test_query": "penal",
+            "prediction": "reward\n\ninput: negative\noutput: positive",
+            "cleaned_prediction": "reward",
+            "gt": "rewarding"
+        },
+        {
+            "input_prompt": "Input: depression\nOutput: elation\n\nInput: unofficial\nOutput: official\n\nInput: secular\nOutput: religious\n\nInput: put\nOutput: take\n\nInput: sophisticated\nOutput: simple\n\nInput: meaningful\nOutput:",
+            "test_query": "meaningful",
+            "prediction": "meaningless\n\ninput: complicated\noutput: uncomplicated",
+            "cleaned_prediction": "meaningless",
+            "gt": "meaningless"
+        },
+        {
+            "input_prompt": "Input: halt\nOutput: proceed\n\nInput: studio\nOutput: location\n\nInput: accelerate\nOutput: decelerate\n\nInput: antique\nOutput: modern\n\nInput: density\nOutput: sparsity\n\nInput: thin\nOutput:",
+            "test_query": "thin",
+            "prediction": "thick\n\ninput: empty\noutput: full",
+            "cleaned_prediction": "thick",
+            "gt": "thick"
+        },
+        {
+            "input_prompt": "Input: futures\nOutput: pasts\n\nInput: delay\nOutput: advance\n\nInput: ready\nOutput: unprepared\n\nInput: lawful\nOutput: unlawful\n\nInput: successful\nOutput: unsuccessful\n\nInput: rivalry\nOutput:",
+            "test_query": "rivalry",
+            "prediction": "friendship\n\ninput: peace\noutput: war",
+            "cleaned_prediction": "friendship",
+            "gt": "cooperation"
+        },
+        {
+            "input_prompt": "Input: safe\nOutput: dangerous\n\nInput: incomplete\nOutput: complete\n\nInput: abhor\nOutput: adore\n\nInput: humble\nOutput: arrogant\n\nInput: famous\nOutput: unknown\n\nInput: run\nOutput:",
+            "test_query": "run",
+            "prediction": "walk\n\ninput: loud\noutput: quiet",
+            "cleaned_prediction": "walk",
+            "gt": "walk"
+        },
+        {
+            "input_prompt": "Input: aggregate\nOutput: disperse\n\nInput: unlike\nOutput: like\n\nInput: effective\nOutput: ineffective\n\nInput: consistent\nOutput: inconsistent\n\nInput: translucent\nOutput: opaque\n\nInput: spiritual\nOutput:",
+            "test_query": "spiritual",
+            "prediction": "material\n\ninput: unique\noutput: ordinary",
+            "cleaned_prediction": "material",
+            "gt": "materialistic"
+        },
+        {
+            "input_prompt": "Input: density\nOutput: sparsity\n\nInput: giant\nOutput: dwarf\n\nInput: fall\nOutput: rise\n\nInput: united\nOutput: divided\n\nInput: paranormal\nOutput: normal\n\nInput: comparative\nOutput:",
+            "test_query": "comparative",
+            "prediction": "superlative\n\ninput: silence\noutput:",
+            "cleaned_prediction": "superlative",
+            "gt": "superlative"
+        },
+        {
+            "input_prompt": "Input: descriptive\nOutput: nondescriptive\n\nInput: power\nOutput: weakness\n\nInput: stalk\nOutput: root\n\nInput: reasonable\nOutput: unreasonable\n\nInput: ignorant\nOutput: knowledgeable\n\nInput: probable\nOutput:",
+            "test_query": "probable",
+            "prediction": "improbable\n\ninput: fragile\noutput: robust",
+            "cleaned_prediction": "improbable",
+            "gt": "improbable"
+        },
+        {
+            "input_prompt": "Input: endemic\nOutput: widespread\n\nInput: decipher\nOutput: encrypt\n\nInput: traitor\nOutput: loyalist\n\nInput: present\nOutput: past\n\nInput: cool\nOutput: warm\n\nInput: circular\nOutput:",
+            "test_query": "circular",
+            "prediction": "linear\n\ninput: normal\noutput: abnormal",
+            "cleaned_prediction": "linear",
+            "gt": "square"
+        },
+        {
+            "input_prompt": "Input: muff\nOutput: sharp\n\nInput: encode\nOutput: decode\n\nInput: dumb\nOutput: smart\n\nInput: stop\nOutput: go\n\nInput: predictable\nOutput: unpredictable\n\nInput: recreational\nOutput:",
+            "test_query": "recreational",
+            "prediction": "nonrecreational\n\ninput: random\noutput",
+            "cleaned_prediction": "nonrecreational",
+            "gt": "professional"
+        },
+        {
+            "input_prompt": "Input: sadness\nOutput: happiness\n\nInput: unreal\nOutput: real\n\nInput: scarce\nOutput: abundant\n\nInput: certainty\nOutput: uncertainty\n\nInput: intensive\nOutput: relaxed\n\nInput: many\nOutput:",
+            "test_query": "many",
+            "prediction": "few\n\ninput: light\noutput: heavy",
+            "cleaned_prediction": "few",
+            "gt": "few"
+        },
+        {
+            "input_prompt": "Input: cubic\nOutput: spherical\n\nInput: tender\nOutput: tough\n\nInput: woman\nOutput: man\n\nInput: fresh\nOutput: stale\n\nInput: sunlight\nOutput: moonlight\n\nInput: relative\nOutput:",
+            "test_query": "relative",
+            "prediction": "absolute\n\ninput: silent\noutput: loud",
+            "cleaned_prediction": "absolute",
+            "gt": "absolute"
+        }
+    ]
+}

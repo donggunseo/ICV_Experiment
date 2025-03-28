@@ -20,6 +20,7 @@ if __name__ == "__main__":
     parser.add_argument('--n_shots', help="Number of shots in each in-context prompt", type=int, required=False, default=100)
     parser.add_argument('--max_new_tokens', help="Number of tokens to generate", type=int, required=False, default=500)
     parser.add_argument('--load_icv', help="load already computed icv", action="store_true")
+    parser.add_argument('--insert_inst', help="whether insert task instructino or not", action="store_false")
     args = parser.parse_args()
 
     seed = args.seed
@@ -29,6 +30,7 @@ if __name__ == "__main__":
     save_path_root = f"{args.save_path_root}/{dataset_name}/{seed}/{n_shots}shots/"
     device = args.device
     max_new_tokens = args.max_new_tokens
+    insert_inst = args.insert_inst
 
     prefixes = PREFIX_DICT[dataset_name]
     separators = {"input":"\n", "output":"\n\n", "instructions":"\n"}
@@ -58,17 +60,17 @@ if __name__ == "__main__":
     if load_icv:
         icv = torch.load(save_path_root+'diff_icv_baseline.pt')
     else:
-        icv = get_diff_mean_hidden_states(train_dataset=train_dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots, N_TRIALS=len(test_dataset), prefixes=prefixes, separators=separators)
+        icv = get_diff_mean_hidden_states(train_dataset=train_dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots, N_TRIALS=len(test_dataset), prefixes=prefixes, separators=separators, insert_inst=insert_inst)
         torch.save(icv, save_path_root+'diff_icv_baseline.pt')
     val_score_per_layer = {l:0 for l in EDIT_LAYER}
     for l in tqdm(EDIT_LAYER):
         edit_layer = [l]
         _, diff_icv_baseline_val_score = icl_with_intervention(test_dataset=val_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, 
-                                                       prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer, add=True, generate_str=generate_str, dataset_name=dataset_name, max_new_tokens=max_new_tokens)
+                                                       prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer, add=True, generate_str=generate_str, dataset_name=dataset_name, max_new_tokens=max_new_tokens, insert_inst=insert_inst)
         val_score_per_layer[l] = choose_repre_metric(diff_icv_baseline_val_score, dataset_name)
     edit_layer = [max(val_score_per_layer, key=val_score_per_layer.get)]
     diff_icv_baseline_res, diff_icv_baseline_score = icl_with_intervention(test_dataset=test_dataset, icv=icv, model=model, model_config=model_config, tokenizer=tokenizer, 
-                                                       prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer, add=True, generate_str=generate_str, dataset_name=dataset_name, max_new_tokens=max_new_tokens)
+                                                       prefixes=prefixes, separators=separators, eval_edit_layer=edit_layer, add=True, generate_str=generate_str, dataset_name=dataset_name, max_new_tokens=max_new_tokens, insert_inst=insert_inst)
     print(f"Diff-ICV Baseline result: {diff_icv_baseline_score} with edit layer {edit_layer[0]}")
     diff_icv_baseline_val_score_per_layer = val_score_per_layer
     diff_icv_baseline_res = {'score': diff_icv_baseline_score, 'intervention_layer' : edit_layer[0], 'result':diff_icv_baseline_res, 'val_f1_per_layer': diff_icv_baseline_val_score_per_layer}

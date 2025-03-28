@@ -1,0 +1,140 @@
+{
+    "score": {
+        "exact_match": 0.0
+    },
+    "result": [
+        {
+            "input_prompt": "Input: Finland\nOutput:",
+            "test_query": "Finland",
+            "prediction": "Finland\nInput: Finland\nOutput: Finland",
+            "cleaned_prediction": "Finland",
+            "gt": "Helsinki"
+        },
+        {
+            "input_prompt": "Input: Tonga\nOutput:",
+            "test_query": "Tonga",
+            "prediction": "Tonga\nPronunciation: /t\ufffd",
+            "cleaned_prediction": "Tonga",
+            "gt": "Nuku\u02bbalofa"
+        },
+        {
+            "input_prompt": "Input: Paraguay\nOutput:",
+            "test_query": "Paraguay",
+            "prediction": "Paraguay\nParaguay is a landlocked country",
+            "cleaned_prediction": "Paraguay",
+            "gt": "Asunci\u00f3n"
+        },
+        {
+            "input_prompt": "Input: Zambia\nOutput:",
+            "test_query": "Zambia",
+            "prediction": "Zambia\nZambia is a landlocked country in",
+            "cleaned_prediction": "Zambia",
+            "gt": "Lusaka"
+        },
+        {
+            "input_prompt": "Input: Zimbabwe\nOutput:",
+            "test_query": "Zimbabwe",
+            "prediction": "Zimbabwe\nZimbabwe is a landlocked country located",
+            "cleaned_prediction": "Zimbabwe",
+            "gt": "Harare"
+        },
+        {
+            "input_prompt": "Input: Thailand\nOutput:",
+            "test_query": "Thailand",
+            "prediction": "Thailand\nInput: Thailand\nOutput: Thailand",
+            "cleaned_prediction": "Thailand",
+            "gt": "Bangkok"
+        },
+        {
+            "input_prompt": "Input: Antigua and Barbuda\nOutput:",
+            "test_query": "Antigua and Barbuda",
+            "prediction": "Antigua and Barbuda\nAntigua and Barb",
+            "cleaned_prediction": "Antigua and Barbuda",
+            "gt": "St. John's"
+        },
+        {
+            "input_prompt": "Input: North Macedonia\nOutput:",
+            "test_query": "North Macedonia",
+            "prediction": "North Macedonia\nNorth Macedonia (Macedonian:",
+            "cleaned_prediction": "North Macedonia",
+            "gt": "Skopje"
+        },
+        {
+            "input_prompt": "Input: Belgium\nOutput:",
+            "test_query": "Belgium",
+            "prediction": "Belgium\nInput: Belgium\nOutput: Belgium",
+            "cleaned_prediction": "Belgium",
+            "gt": "Brussels"
+        },
+        {
+            "input_prompt": "Input: Ethiopia\nOutput:",
+            "test_query": "Ethiopia",
+            "prediction": "Ethiopia\nEthiopia is a country located in",
+            "cleaned_prediction": "Ethiopia",
+            "gt": "Addis Ababa"
+        },
+        {
+            "input_prompt": "Input: Czech Republic\nOutput:",
+            "test_query": "Czech Republic",
+            "prediction": "Czech Republic\nCzech Republic (Czech:",
+            "cleaned_prediction": "Czech Republic",
+            "gt": "Prague"
+        },
+        {
+            "input_prompt": "Input: Somalia\nOutput:",
+            "test_query": "Somalia",
+            "prediction": "Somalia\nSomalia (Somali: Sooma",
+            "cleaned_prediction": "Somalia",
+            "gt": "Mogadishu"
+        },
+        {
+            "input_prompt": "Input: Armenia\nOutput:",
+            "test_query": "Armenia",
+            "prediction": "Armenia\nArmenia is a landlocked country",
+            "cleaned_prediction": "Armenia",
+            "gt": "Yerevan"
+        },
+        {
+            "input_prompt": "Input: Sudan\nOutput:",
+            "test_query": "Sudan",
+            "prediction": "Sudan\nInput: Sudan\nOutput: Sudan",
+            "cleaned_prediction": "Sudan",
+            "gt": "Khartoum"
+        },
+        {
+            "input_prompt": "Input: Turkey\nOutput:",
+            "test_query": "Turkey",
+            "prediction": "Turkey\nInput: Turkey\nOutput: Turkey",
+            "cleaned_prediction": "Turkey",
+            "gt": "Ankara"
+        },
+        {
+            "input_prompt": "Input: Haiti\nOutput:",
+            "test_query": "Haiti",
+            "prediction": "Haiti\nHaiti is a country located on",
+            "cleaned_prediction": "Haiti",
+            "gt": "Port-au-Prince"
+        },
+        {
+            "input_prompt": "Input: Samoa\nOutput:",
+            "test_query": "Samoa",
+            "prediction": "Samoa\nInput: Samoa\nOutput: Samoa",
+            "cleaned_prediction": "Samoa",
+            "gt": "Apia"
+        },
+        {
+            "input_prompt": "Input: Jamaica\nOutput:",
+            "test_query": "Jamaica",
+            "prediction": "Jamaica\nJamaica is a country located in",
+            "cleaned_prediction": "Jamaica",
+            "gt": "Kingston"
+        },
+        {
+            "input_prompt": "Input: Taiwan\nOutput:",
+            "test_query": "Taiwan",
+            "prediction": "Taiwan\nTaiwan is an island country located in",
+            "cleaned_prediction": "Taiwan",
+            "gt": "Taipei"
+        }
+    ]
+}

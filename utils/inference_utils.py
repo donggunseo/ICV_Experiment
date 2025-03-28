@@ -21,9 +21,9 @@ def n_shot_eval(inputs, model, tokenizer, generate_str=False, max_new_tokens=500
         output_str = tokenizer.decode(output.squeeze()[og_length:], skip_speical_tokens=True)
         output_str = output_str.strip()
     else:
-        output = model.generate(**inputs, max_new_tokens = max_new_tokens, pad_token_id=tokenizer.eos_token_id, eos_token_id = tokenizer.eos_token_id, tokenizer=tokenizer, past_key_values = kv_cache, stop_strings=stop_strings).detach().cpu()
+        output = model.generate(**inputs, max_new_tokens = max_new_tokens, pad_token_id=tokenizer.eos_token_id, eos_token_id = tokenizer.eos_token_id, tokenizer=tokenizer, past_key_values = kv_cache, stop_strings=stop_strings, do_sample=False).detach().cpu()
         output_str = tokenizer.decode(output.squeeze()[og_length:], skip_speical_tokens=True)
-        output_str = output_str.lower().strip()
+        output_str = output_str.strip()
     return output_str
 
 def add_icv(edit_layer, icv, device, idx=-1):
@@ -131,16 +131,18 @@ def post_process(prediction, dataset_name):
             49: "numeric:weight"
         }
         label_list = list(id2label.values())
-        pred=prediction
+        pred=prediction.lower()
         for l in label_list:
-            if l in prediction:
+            if l in prediction.lower():
                 pred = l
     elif dataset_name == 'banking77':
         match = re.findall(r"[a-zA-Z]+(?:_[a-zA-Z]+)+", prediction)
         pred = match[0].strip() if match else prediction.strip()
+        pred = pred.lower()
     elif dataset_name == 'clinc150':
         match = re.findall(r"([a-zA-Z_ ]+:[a-zA-Z_ ]+)", prediction)
         pred = match[0].strip() if match else prediction.strip()
+        pred = pred.lower()
     elif dataset_name == 'xlsum':
         match = re.findall(r"^(.*?)(?:\n\n)", prediction, re.DOTALL)
         pred = match[0].strip() if match else prediction.strip()
@@ -157,7 +159,9 @@ def post_process(prediction, dataset_name):
     else:
         pred = prediction
     print(prediction)
+    print("_____________")
     print(pred)
+    print("_____________")
     return pred
 
 def evaluate(pred, gt, dataset_name):
@@ -188,7 +192,7 @@ def evaluate(pred, gt, dataset_name):
         
 
 def icl_without_intervention(train_dataset, test_dataset, n_shots, model, tokenizer,  
-                             prefixes=None, separators=None, generate_str = False, dataset_name = None, max_new_tokens=500):
+                             prefixes=None, separators=None, generate_str = False, dataset_name = None, max_new_tokens=500, insert_inst=True):
     res = []
     gt = []
     pred = []
@@ -200,7 +204,7 @@ def icl_without_intervention(train_dataset, test_dataset, n_shots, model, tokeni
             demonstrations = random.sample(train_dataset, n_shots)
             # stop_strings=['\n\n']
         test_query = test_dataset[j]['input']
-        prompt = create_prompt(demonstrations, test_query, prefixes, separators, insert_inst=True)
+        prompt = create_prompt(demonstrations, test_query, prefixes, separators, insert_inst=insert_inst)
         inputs = tokenizer(prompt, return_tensors='pt')
         test_target = test_dataset[j]['output']
         output_str = n_shot_eval(inputs, model, tokenizer, generate_str=generate_str, max_new_tokens=max_new_tokens, stop_strings=stop_strings)
@@ -219,14 +223,13 @@ def icl_without_intervention(train_dataset, test_dataset, n_shots, model, tokeni
 
 
 def icl_with_intervention(test_dataset, icv, model, model_config, tokenizer, 
-                          prefixes=None, separators=None, eval_edit_layer=[0], add=True, generate_str = False, dataset_name=None, max_new_tokens=500):
+                          prefixes=None, separators=None, eval_edit_layer=[0], add=True, generate_str = False, dataset_name=None, max_new_tokens=500, insert_inst = True):
     res = []
     gt = []
     pred = []
-    stop_strings=None
     for j in tqdm(range(len(test_dataset)), total = len(test_dataset)):
         test_query = test_dataset[j]['input']
-        prompt = create_prompt([], test_query, prefixes, separators, insert_inst=True)
+        prompt = create_prompt([], test_query, prefixes, separators, insert_inst=insert_inst)
         test_target = test_dataset[j]['output']
         intervention_output = n_shot_eval_intervention(prompt, eval_edit_layer, icv, model, model_config, tokenizer, add, generate_str, max_new_tokens)
         cleaned_output_str = post_process(intervention_output, dataset_name=dataset_name)
@@ -253,18 +256,7 @@ def choose_repre_metric(score, dataset_name=None):
         return score['exact_match']
     elif 'math' in dataset_name:
         return score['exact_match']
-    elif dataset_name in ['next_item',
- 'capitalize_first_letter',
- 'choose_first_of_5',
- 'english-french',
- 'english-german',
- 'park-country',
- 'landmark-country',
- 'english-spanish',
- 'synonym',
- 'country-capital',
- 'singular-plural',
- 'antonym']:
+    elif dataset_name in ['next_item', 'capitalize_first_letter', 'choose_first_of_5', 'english-french', 'english-german', 'park-country', 'landmark-country', 'english-spanish', 'synonym', 'country-capital', 'singular-plural', 'antonym']:
         return score['exact_match']
     else:
         return None

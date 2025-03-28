@@ -41,7 +41,7 @@ def is_generate_sampling(dataset_name):
     'singular-plural',
     'antonym'
     ]:
-        generate_str=True
+        generate_str=False
     else:
         generate_str=False
     return generate_str

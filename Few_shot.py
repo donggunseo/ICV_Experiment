@@ -19,6 +19,7 @@ if __name__ == "__main__":
     parser.add_argument('--device', help='Device to run on',type=str, required=False, default='cuda' if torch.cuda.is_available() else 'cpu')
     parser.add_argument('--n_shots', help="Number of shots in each in-context prompt", type=int, required=False, default=100)
     parser.add_argument('--max_new_tokens', help="Number of tokens to generate", type=int, required=False, default=500)
+    parser.add_argument('--insert_inst', help="whether insert task instructino or not", action="store_false")
     args = parser.parse_args()
 
     seed = args.seed
@@ -28,6 +29,7 @@ if __name__ == "__main__":
     save_path_root = f"{args.save_path_root}/{dataset_name}/{seed}/{n_shots}shots/"
     device = args.device
     max_new_tokens = args.max_new_tokens
+    insert_inst = args.insert_inst
 
     prefixes = PREFIX_DICT[dataset_name]
     separators = {"input":"\n", "output":"\n\n", "instructions":"\n"}
@@ -51,7 +53,7 @@ if __name__ == "__main__":
 
     print(f"Vanilla {n_shots}shots-ICL")
     fs_result, fs_score= icl_without_intervention(train_dataset=train_dataset, test_dataset=test_dataset, n_shots=n_shots, model=model, tokenizer=tokenizer, 
-                                                  prefixes=prefixes, separators=separators, generate_str=generate_str, dataset_name=dataset_name, max_new_tokens=max_new_tokens)
+                                                  prefixes=prefixes, separators=separators, generate_str=generate_str, dataset_name=dataset_name, max_new_tokens=max_new_tokens, insert_inst=insert_inst)
     print(f"Vanilla ICL result: {fs_score}")
     fs_result = {'score': fs_score, 'result':fs_result}
     with open(save_path_root+"fs_result.json", 'w') as f:

@@ -1,0 +1,140 @@
+{
+    "score": {
+        "exact_match": 0.9473684210526315
+    },
+    "result": [
+        {
+            "input_prompt": "Input: Chad\nOutput: N'Djamena\n\nInput: Australia\nOutput: Canberra\n\nInput: Kazakhstan\nOutput: Astana\n\nInput: Indonesia\nOutput: Jakarta\n\nInput: Guatemala\nOutput: Guatemala City\n\nInput: Finland\nOutput:",
+            "test_query": "Finland",
+            "prediction": "Helsinki\n\nInput: South Africa\nOutput: Pret",
+            "cleaned_prediction": "Helsinki",
+            "gt": "Helsinki"
+        },
+        {
+            "input_prompt": "Input: Croatia\nOutput: Zagreb\n\nInput: Canada\nOutput: Ottawa\n\nInput: Tajikistan\nOutput: Dushanbe\n\nInput: Bulgaria\nOutput: Sofia\n\nInput: United States of America\nOutput: Washington, D.C.\n\nInput: Tonga\nOutput:",
+            "test_query": "Tonga",
+            "prediction": "Nuku'alofa\n\nInput: Peru",
+            "cleaned_prediction": "Nuku'alofa",
+            "gt": "Nuku\u02bbalofa"
+        },
+        {
+            "input_prompt": "Input: Pakistan\nOutput: Islamabad\n\nInput: Azerbaijan\nOutput: Baku\n\nInput: Austria\nOutput: Vienna\n\nInput: Burkina Faso\nOutput: Ouagadougou\n\nInput: Greece\nOutput: Athens\n\nInput: Paraguay\nOutput:",
+            "test_query": "Paraguay",
+            "prediction": "Asunci\u00f3n\n\nInput: Romania\nOutput:",
+            "cleaned_prediction": "Asunci\u00f3n",
+            "gt": "Asunci\u00f3n"
+        },
+        {
+            "input_prompt": "Input: Guyana\nOutput: Georgetown\n\nInput: Slovakia\nOutput: Bratislava\n\nInput: Vanuatu\nOutput: Port Vila\n\nInput: Australia\nOutput: Canberra\n\nInput: Trinidad and Tobago\nOutput: Port of Spain\n\nInput: Zambia\nOutput:",
+            "test_query": "Zambia",
+            "prediction": "Lusaka\n\nInput: Kuwait\nOutput:",
+            "cleaned_prediction": "Lusaka",
+            "gt": "Lusaka"
+        },
+        {
+            "input_prompt": "Input: Gabon\nOutput: Libreville\n\nInput: Tajikistan\nOutput: Dushanbe\n\nInput: Oman\nOutput: Muscat\n\nInput: Grenada\nOutput: St. George's\n\nInput: Philippines\nOutput: Manila\n\nInput: Zimbabwe\nOutput:",
+            "test_query": "Zimbabwe",
+            "prediction": "Harare\n\nInput: Kiribati\nOutput",
+            "cleaned_prediction": "Harare",
+            "gt": "Harare"
+        },
+        {
+            "input_prompt": "Input: United Kingdom\nOutput: London\n\nInput: Kenya\nOutput: Nairobi\n\nInput: Albania\nOutput: Tirana\n\nInput: Dominican Republic\nOutput: Santo Domingo\n\nInput: Pakistan\nOutput: Islamabad\n\nInput: Thailand\nOutput:",
+            "test_query": "Thailand",
+            "prediction": "Bangkok\n\nInput: Australia\nOutput: Canberra",
+            "cleaned_prediction": "Bangkok",
+            "gt": "Bangkok"
+        },
+        {
+            "input_prompt": "Input: Malta\nOutput: Valletta\n\nInput: Kenya\nOutput: Nairobi\n\nInput: Dominica\nOutput: Roseau\n\nInput: Greece\nOutput: Athens\n\nInput: Mali\nOutput: Bamako\n\nInput: Antigua and Barbuda\nOutput:",
+            "test_query": "Antigua and Barbuda",
+            "prediction": "St. John's\n\nInput: Cyprus\nOutput",
+            "cleaned_prediction": "St. John's",
+            "gt": "St. John's"
+        },
+        {
+            "input_prompt": "Input: Canada\nOutput: Ottawa\n\nInput: Burkina Faso\nOutput: Ouagadougou\n\nInput: Myanmar\nOutput: Naypyidaw\n\nInput: Cabo Verde\nOutput: Praia\n\nInput: Moldova\nOutput: Chisinau\n\nInput: North Macedonia\nOutput:",
+            "test_query": "North Macedonia",
+            "prediction": "Skopje\n\nInput: Niger\nOutput:",
+            "cleaned_prediction": "Skopje",
+            "gt": "Skopje"
+        },
+        {
+            "input_prompt": "Input: Marshall Islands\nOutput: Majuro\n\nInput: Vanuatu\nOutput: Port Vila\n\nInput: Italy\nOutput: Rome\n\nInput: Bangladesh\nOutput: Dhaka\n\nInput: Qatar\nOutput: Doha\n\nInput: Belgium\nOutput:",
+            "test_query": "Belgium",
+            "prediction": "Brussels\n\nInput: Sri Lanka\nOutput: Col",
+            "cleaned_prediction": "Brussels",
+            "gt": "Brussels"
+        },
+        {
+            "input_prompt": "Input: Switzerland\nOutput: Bern\n\nInput: Comoros\nOutput: Moroni\n\nInput: Mozambique\nOutput: Maputo\n\nInput: Brazil\nOutput: Brasilia\n\nInput: Timor-Leste\nOutput: Dili\n\nInput: Ethiopia\nOutput:",
+            "test_query": "Ethiopia",
+            "prediction": "Addis Ababa\n\nInput: Djibout",
+            "cleaned_prediction": "Addis Ababa",
+            "gt": "Addis Ababa"
+        },
+        {
+            "input_prompt": "Input: Latvia\nOutput: Riga\n\nInput: Yemen\nOutput: Sana'a\n\nInput: Monaco\nOutput: Monaco-Ville\n\nInput: Uganda\nOutput: Kampala\n\nInput: France\nOutput: Paris\n\nInput: Czech Republic\nOutput:",
+            "test_query": "Czech Republic",
+            "prediction": "Prague\n\nInput: United States\nOutput: Washington",
+            "cleaned_prediction": "Prague",
+            "gt": "Prague"
+        },
+        {
+            "input_prompt": "Input: Bolivia\nOutput: La Paz\n\nInput: Bangladesh\nOutput: Dhaka\n\nInput: Guinea-Bissau\nOutput: Bissau\n\nInput: Laos\nOutput: Vientiane\n\nInput: Brazil\nOutput: Brasilia\n\nInput: Somalia\nOutput:",
+            "test_query": "Somalia",
+            "prediction": "Mogadishu\n\nInput: Bhutan",
+            "cleaned_prediction": "Mogadishu",
+            "gt": "Mogadishu"
+        },
+        {
+            "input_prompt": "Input: Guyana\nOutput: Georgetown\n\nInput: Cambodia\nOutput: Phnom Penh\n\nInput: Myanmar\nOutput: Naypyidaw\n\nInput: Kenya\nOutput: Nairobi\n\nInput: Portugal\nOutput: Lisbon\n\nInput: Armenia\nOutput:",
+            "test_query": "Armenia",
+            "prediction": "Yerevan\n\nInput: Sri Lanka\nOutput",
+            "cleaned_prediction": "Yerevan",
+            "gt": "Yerevan"
+        },
+        {
+            "input_prompt": "Input: Mongolia\nOutput: Ulaanbaatar\n\nInput: Ecuador\nOutput: Quito\n\nInput: Montenegro\nOutput: Podgorica\n\nInput: Mexico\nOutput: Mexico City\n\nInput: Germany\nOutput: Berlin\n\nInput: Sudan\nOutput:",
+            "test_query": "Sudan",
+            "prediction": "Khartoum\n\nInput: Sri Lanka",
+            "cleaned_prediction": "Khartoum",
+            "gt": "Khartoum"
+        },
+        {
+            "input_prompt": "Input: Japan\nOutput: Tokyo\n\nInput: Bosnia and Herzegovina\nOutput: Sarajevo\n\nInput: Vatican City\nOutput: Vatican City\n\nInput: El Salvador\nOutput: San Salvador\n\nInput: Sweden\nOutput: Stockholm\n\nInput: Turkey\nOutput:",
+            "test_query": "Turkey",
+            "prediction": "Ankara\n\nInput: United States\nOutput: Washington",
+            "cleaned_prediction": "Ankara",
+            "gt": "Ankara"
+        },
+        {
+            "input_prompt": "Input: Indonesia\nOutput: Jakarta\n\nInput: Ecuador\nOutput: Quito\n\nInput: Romania\nOutput: Bucharest\n\nInput: Myanmar\nOutput: Naypyidaw\n\nInput: Jordan\nOutput: Amman\n\nInput: Haiti\nOutput:",
+            "test_query": "Haiti",
+            "prediction": "Port-au-Prince\n\nInput: Sri Lanka",
+            "cleaned_prediction": "Port-au-Prince",
+            "gt": "Port-au-Prince"
+        },
+        {
+            "input_prompt": "Input: Togo\nOutput: Lome\n\nInput: Grenada\nOutput: St. George's\n\nInput: Malawi\nOutput: Lilongwe\n\nInput: Belize\nOutput: Belmopan\n\nInput: Guinea-Bissau\nOutput: Bissau\n\nInput: Samoa\nOutput:",
+            "test_query": "Samoa",
+            "prediction": "Apia\n\nInput: Dominica\nOutput:",
+            "cleaned_prediction": "Apia",
+            "gt": "Apia"
+        },
+        {
+            "input_prompt": "Input: Azerbaijan\nOutput: Baku\n\nInput: Liechtenstein\nOutput: Vaduz\n\nInput: New Zealand\nOutput: Wellington\n\nInput: Japan\nOutput: Tokyo\n\nInput: Bhutan\nOutput: Thimphu\n\nInput: Jamaica\nOutput:",
+            "test_query": "Jamaica",
+            "prediction": "Kingston\n\nInput: Norway\nOutput: Oslo",
+            "cleaned_prediction": "Kingston",
+            "gt": "Kingston"
+        },
+        {
+            "input_prompt": "Input: Ghana\nOutput: Accra\n\nInput: Turkmenistan\nOutput: Ashgabat\n\nInput: Liechtenstein\nOutput: Vaduz\n\nInput: Sierra Leone\nOutput: Freetown\n\nInput: Netherlands\nOutput: Amsterdam\n\nInput: Taiwan\nOutput:",
+            "test_query": "Taiwan",
+            "prediction": "Taipei\n\nInput: Luxembourg\nOutput: Luxembourg City",
+            "cleaned_prediction": "Taipei",
+            "gt": "Taipei"
+        }
+    ]
+}

@@ -1,0 +1,623 @@
+{
+    "score": {
+        "exact_match": 0.8313253012048193
+    },
+    "intervention_layer": 14,
+    "result": [
+        {
+            "input_prompt": "Input: Tampere Cathedral\nOutput:",
+            "test_query": "Tampere Cathedral",
+            "prediction": "Finland\nInput: Helsinki Cathedral\nOutput: Finland",
+            "cleaned_prediction": "Finland",
+            "gt": "Finland"
+        },
+        {
+            "input_prompt": "Input: Gulf of Bothnia\nOutput:",
+            "test_query": "Gulf of Bothnia",
+            "prediction": "Finland\nThe Gulf of Bothnia is a part of",
+            "cleaned_prediction": "Finland",
+            "gt": "Finland"
+        },
+        {
+            "input_prompt": "Input: Gazzola\nOutput:",
+            "test_query": "Gazzola",
+            "prediction": "Italy\nInput: Gazzola\nOutput: Italy",
+            "cleaned_prediction": "Italy",
+            "gt": "Italy"
+        },
+        {
+            "input_prompt": "Input: Holmenkollen National Arena\nOutput:",
+            "test_query": "Holmenkollen National Arena",
+            "prediction": "Norway\nInput: 2010 Winter Olympics\nOutput",
+            "cleaned_prediction": "Norway",
+            "gt": "Norway"
+        },
+        {
+            "input_prompt": "Input: Desolation Lava Field\nOutput:",
+            "test_query": "Desolation Lava Field",
+            "prediction": "Iceland\nThe Desolation Lava Field is a large",
+            "cleaned_prediction": "Iceland",
+            "gt": "Canada"
+        },
+        {
+            "input_prompt": "Input: Guggenheim Museum\nOutput:",
+            "test_query": "Guggenheim Museum",
+            "prediction": "United States\nThe Solomon R. Guggenheim Museum",
+            "cleaned_prediction": "United States",
+            "gt": "Spain"
+        },
+        {
+            "input_prompt": "Input: Gasunie\nOutput:",
+            "test_query": "Gasunie",
+            "prediction": "Netherlands\nTask: Gasunie is a Dutch gas",
+            "cleaned_prediction": "Netherlands",
+            "gt": "Netherlands"
+        },
+        {
+            "input_prompt": "Input: Trans-Sahara Highway\nOutput:",
+            "test_query": "Trans-Sahara Highway",
+            "prediction": "Niger\nThe Trans-Saharan Highway is a major highway that",
+            "cleaned_prediction": "Niger",
+            "gt": "Nigeria"
+        },
+        {
+            "input_prompt": "Input: Indus River\nOutput:",
+            "test_query": "Indus River",
+            "prediction": "Pakistan\nThe Indus River is a major river in",
+            "cleaned_prediction": "Pakistan",
+            "gt": "India"
+        },
+        {
+            "input_prompt": "Input: Mbale District\nOutput:",
+            "test_query": "Mbale District",
+            "prediction": "Uganda\nOutput: Mbale District\nOutput: Uganda",
+            "cleaned_prediction": "Uganda",
+            "gt": "Uganda"
+        },
+        {
+            "input_prompt": "Input: Circuit des Ardennes\nOutput:",
+            "test_query": "Circuit des Ardennes",
+            "prediction": "France\nCircuit des Ardennes\nThe Circuit des",
+            "cleaned_prediction": "France",
+            "gt": "Belgium"
+        },
+        {
+            "input_prompt": "Input: Mediolanum Forum\nOutput:",
+            "test_query": "Mediolanum Forum",
+            "prediction": "Italy\nMediolanum Forum is a large indoor",
+            "cleaned_prediction": "Italy",
+            "gt": "Italy"
+        },
+        {
+            "input_prompt": "Input: Kaniv Reservoir\nOutput:",
+            "test_query": "Kaniv Reservoir",
+            "prediction": "Ukraine\nKaniv Reservoir\nKaniv",
+            "cleaned_prediction": "Ukraine",
+            "gt": "Ukraine"
+        },
+        {
+            "input_prompt": "Input: Blennerville\nOutput:",
+            "test_query": "Blennerville",
+            "prediction": "Ireland\nInput: Blennerville\nOutput: Ireland",
+            "cleaned_prediction": "Ireland",
+            "gt": "Ireland"
+        },
+        {
+            "input_prompt": "Input: Khasavyurt\nOutput:",
+            "test_query": "Khasavyurt",
+            "prediction": "Russia\nInput: Khasavyurt\nOutput:",
+            "cleaned_prediction": "Russia",
+            "gt": "Russia"
+        },
+        {
+            "input_prompt": "Input: Askola\nOutput:",
+            "test_query": "Askola",
+            "prediction": "Finland\nAskola is a municipality of Finland. It",
+            "cleaned_prediction": "Finland",
+            "gt": "Finland"
+        },
+        {
+            "input_prompt": "Input: Tartessos\nOutput:",
+            "test_query": "Tartessos",
+            "prediction": "Spain\nInput: Tarragona\nOutput:",
+            "cleaned_prediction": "Spain",
+            "gt": "Spain"
+        },
+        {
+            "input_prompt": "Input: Valdemarsvik\nOutput:",
+            "test_query": "Valdemarsvik",
+            "prediction": "Sweden\nInput: Stockholm\nOutput: Sweden\nInput",
+            "cleaned_prediction": "Sweden",
+            "gt": "Sweden"
+        },
+        {
+            "input_prompt": "Input: Sarnia\nOutput:",
+            "test_query": "Sarnia",
+            "prediction": "Canada\nInput: Toronto\nOutput: Canada\nInput",
+            "cleaned_prediction": "Canada",
+            "gt": "Canada"
+        },
+        {
+            "input_prompt": "Input: Moscato d'Asti\nOutput:",
+            "test_query": "Moscato d'Asti",
+            "prediction": "Italy\nGrape(s): Moscato\nT",
+            "cleaned_prediction": "Italy",
+            "gt": "Italy"
+        },
+        {
+            "input_prompt": "Input: Neighbourhoods in Kolkata\nOutput:",
+            "test_query": "Neighbourhoods in Kolkata",
+            "prediction": "India\nLocation: Kolkata\nKolkata is a city",
+            "cleaned_prediction": "India",
+            "gt": "India"
+        },
+        {
+            "input_prompt": "Input: Saint-Jacques-de-la-Lande\nOutput:",
+            "test_query": "Saint-Jacques-de-la-Lande",
+            "prediction": "France\nInput: Saint-Jacques-de-la-L",
+            "cleaned_prediction": "France",
+            "gt": "France"
+        },
+        {
+            "input_prompt": "Input: Nizhneserginsky District\nOutput:",
+            "test_query": "Nizhneserginsky District",
+            "prediction": "Russia\nInput: Nizhneserginsky District",
+            "cleaned_prediction": "Russia",
+            "gt": "Russia"
+        },
+        {
+            "input_prompt": "Input: Lamongan\nOutput:",
+            "test_query": "Lamongan",
+            "prediction": "Indonesia\nInput: Bandung\nOutput: Indonesia",
+            "cleaned_prediction": "Indonesia",
+            "gt": "Indonesia"
+        },
+        {
+            "input_prompt": "Input: regiopolis\nOutput:",
+            "test_query": "regiopolis",
+            "prediction": "Romania\nExplanation: The word \"regiopolis",
+            "cleaned_prediction": "Romania",
+            "gt": "Germany"
+        },
+        {
+            "input_prompt": "Input: Sialkot district\nOutput:",
+            "test_query": "Sialkot district",
+            "prediction": "Pakistan\nInput: Sialkot district\nOutput",
+            "cleaned_prediction": "Pakistan",
+            "gt": "Pakistan"
+        },
+        {
+            "input_prompt": "Input: Cunter\nOutput:",
+            "test_query": "Cunter",
+            "prediction": "United\nInput: Cunter\nOutput: United",
+            "cleaned_prediction": "United",
+            "gt": "Switzerland"
+        },
+        {
+            "input_prompt": "Input: Ikaalinen\nOutput:",
+            "test_query": "Ikaalinen",
+            "prediction": "Finland\nIkaalinen is a municipality of Finland",
+            "cleaned_prediction": "Finland",
+            "gt": "Finland"
+        },
+        {
+            "input_prompt": "Input: Helmbrechts\nOutput:",
+            "test_query": "Helmbrechts",
+            "prediction": "Germany\nInput: Helmbrechts\nOutput:",
+            "cleaned_prediction": "Germany",
+            "gt": "Germany"
+        },
+        {
+            "input_prompt": "Input: Baturyn\nOutput:",
+            "test_query": "Baturyn",
+            "prediction": "Ukraine\nInput: Baturyn\nOutput: Ukraine",
+            "cleaned_prediction": "Ukraine",
+            "gt": "Ukraine"
+        },
+        {
+            "input_prompt": "Input: Mahur Berenji Rural District\nOutput:",
+            "test_query": "Mahur Berenji Rural District",
+            "prediction": "Iran\nMahur Berenji Rural District\nMah",
+            "cleaned_prediction": "Iran",
+            "gt": "Iran"
+        },
+        {
+            "input_prompt": "Input: Aventine Hill\nOutput:",
+            "test_query": "Aventine Hill",
+            "prediction": "Italy\nAventine Hill is one of the seven",
+            "cleaned_prediction": "Italy",
+            "gt": "Italy"
+        },
+        {
+            "input_prompt": "Input: Abbey of Echternach\nOutput:",
+            "test_query": "Abbey of Echternach",
+            "prediction": "Luxembourg\nThe Abbey of Echternach is a",
+            "cleaned_prediction": "Luxembourg",
+            "gt": "Luxembourg"
+        },
+        {
+            "input_prompt": "Input: House of Representatives\nOutput:",
+            "test_query": "House of Representatives",
+            "prediction": "Australia\nThe House of Representatives is the lower house of",
+            "cleaned_prediction": "Australia",
+            "gt": "Libya"
+        },
+        {
+            "input_prompt": "Input: Mont Saint-Bruno\nOutput:",
+            "test_query": "Mont Saint-Bruno",
+            "prediction": "Canada\nMont Saint-Bruno is a mountain in",
+            "cleaned_prediction": "Canada",
+            "gt": "Canada"
+        },
+        {
+            "input_prompt": "Input: Iraklis F.C.\nOutput:",
+            "test_query": "Iraklis F.C.",
+            "prediction": "Greece\nIraklis F.C. is a Greek",
+            "cleaned_prediction": "Greece",
+            "gt": "Greece"
+        },
+        {
+            "input_prompt": "Input: Logatec\nOutput:",
+            "test_query": "Logatec",
+            "prediction": "Slovenia\nYou are here: Home > Countries > Slovenia",
+            "cleaned_prediction": "Slovenia",
+            "gt": "Slovenia"
+        },
+        {
+            "input_prompt": "Input: Ikuno-ku\nOutput:",
+            "test_query": "Ikuno-ku",
+            "prediction": "Japan\nInput: 1\nOutput: 1",
+            "cleaned_prediction": "Japan",
+            "gt": "Japan"
+        },
+        {
+            "input_prompt": "Input: Scheibbs District\nOutput:",
+            "test_query": "Scheibbs District",
+            "prediction": "Austria\nScheibbs District is a district in",
+            "cleaned_prediction": "Austria",
+            "gt": "Austria"
+        },
+        {
+            "input_prompt": "Input: Emscher\nOutput:",
+            "test_query": "Emscher",
+            "prediction": "Germany\nThe Emscher is a river in North",
+            "cleaned_prediction": "Germany",
+            "gt": "Germany"
+        },
+        {
+            "input_prompt": "Input: Ruhla\nOutput:",
+            "test_query": "Ruhla",
+            "prediction": "Germany\nInput: Ruhla\nOutput: Germany",
+            "cleaned_prediction": "Germany",
+            "gt": "Germany"
+        },
+        {
+            "input_prompt": "Input: Whiteshell Laboratories\nOutput:",
+            "test_query": "Whiteshell Laboratories",
+            "prediction": "Canada\nWhiteshell Laboratories\nWhiteshell Laboratories",
+            "cleaned_prediction": "Canada",
+            "gt": "Canada"
+        },
+        {
+            "input_prompt": "Input: Alpokalja\nOutput:",
+            "test_query": "Alpokalja",
+            "prediction": "Hungary\nInput: Alpilles\nOutput: France",
+            "cleaned_prediction": "Hungary",
+            "gt": "Hungary"
+        },
+        {
+            "input_prompt": "Input: Cocconato\nOutput:",
+            "test_query": "Cocconato",
+            "prediction": "Italy\nInput: Coccodrillo\nOutput",
+            "cleaned_prediction": "Italy",
+            "gt": "Italy"
+        },
+        {
+            "input_prompt": "Input: Passeier Valley\nOutput:",
+            "test_query": "Passeier Valley",
+            "prediction": "Italy\nThe Passeier Valley (German: P",
+            "cleaned_prediction": "Italy",
+            "gt": "Italy"
+        },
+        {
+            "input_prompt": "Input: Illertissen\nOutput:",
+            "test_query": "Illertissen",
+            "prediction": "Germany\nPlease click on any of the markers to see",
+            "cleaned_prediction": "Germany",
+            "gt": "Germany"
+        },
+        {
+            "input_prompt": "Input: Hotel Oloffson\nOutput:",
+            "test_query": "Hotel Oloffson",
+            "prediction": "Haiti\nThe Hotel Oloffson is a hotel in",
+            "cleaned_prediction": "Haiti",
+            "gt": "Haiti"
+        },
+        {
+            "input_prompt": "Input: Davan\nOutput:",
+            "test_query": "Davan",
+            "prediction": "India\nInput: Davon\nOutput: India",
+            "cleaned_prediction": "India",
+            "gt": "Iran"
+        },
+        {
+            "input_prompt": "Input: Guldborg\nOutput:",
+            "test_query": "Guldborg",
+            "prediction": "Denmark\nInput: Gudbrandsdalen\nOutput",
+            "cleaned_prediction": "Denmark",
+            "gt": "Denmark"
+        },
+        {
+            "input_prompt": "Input: Sarpsborg 08 FF\nOutput:",
+            "test_query": "Sarpsborg 08 FF",
+            "prediction": "Norway\nSarpsborg 08 FF is a",
+            "cleaned_prediction": "Norway",
+            "gt": "Norway"
+        },
+        {
+            "input_prompt": "Input: Monarcas Morelia\nOutput:",
+            "test_query": "Monarcas Morelia",
+            "prediction": "Mexico\nInput: Monarcas Morelia\nOutput",
+            "cleaned_prediction": "Mexico",
+            "gt": "Mexico"
+        },
+        {
+            "input_prompt": "Input: Tarnobrzeg Voivodeship\nOutput:",
+            "test_query": "Tarnobrzeg Voivodeship",
+            "prediction": "Poland\nTarnobrzeg Voivodeship",
+            "cleaned_prediction": "Poland",
+            "gt": "Poland"
+        },
+        {
+            "input_prompt": "Input: Rock al Parque\nOutput:",
+            "test_query": "Rock al Parque",
+            "prediction": "Colombia\nRock al Parque is a free music festival",
+            "cleaned_prediction": "Colombia",
+            "gt": "Colombia"
+        },
+        {
+            "input_prompt": "Input: Menangle Park\nOutput:",
+            "test_query": "Menangle Park",
+            "prediction": "Australia\nMenangle Park is a suburb of Sydney,",
+            "cleaned_prediction": "Australia",
+            "gt": "Australia"
+        },
+        {
+            "input_prompt": "Input: cadastral municipality\nOutput:",
+            "test_query": "cadastral municipality",
+            "prediction": "Czech Republic\nCadastral municipality ( Czech : kata",
+            "cleaned_prediction": "Czech Republic",
+            "gt": "Netherlands"
+        },
+        {
+            "input_prompt": "Input: Santa Maria da Feira Municipality\nOutput:",
+            "test_query": "Santa Maria da Feira Municipality",
+            "prediction": "Portugal\nSanta Maria da Feira Municipality is a",
+            "cleaned_prediction": "Portugal",
+            "gt": "Portugal"
+        },
+        {
+            "input_prompt": "Input: Circuito da Boavista\nOutput:",
+            "test_query": "Circuito da Boavista",
+            "prediction": "Portugal\nCircuito da Boavista\nThe",
+            "cleaned_prediction": "Portugal",
+            "gt": "Portugal"
+        },
+        {
+            "input_prompt": "Input: Munich Residence\nOutput:",
+            "test_query": "Munich Residence",
+            "prediction": "Germany\nInput: Munich Residence\nOutput: Germany",
+            "cleaned_prediction": "Germany",
+            "gt": "Germany"
+        },
+        {
+            "input_prompt": "Input: Ba F.C.\nOutput:",
+            "test_query": "Ba F.C.",
+            "prediction": "Vietnam\nBa F.C. is a Vietnamese football club",
+            "cleaned_prediction": "Vietnam",
+            "gt": "Fiji"
+        },
+        {
+            "input_prompt": "Input: Delta Works\nOutput:",
+            "test_query": "Delta Works",
+            "prediction": "Netherlands\nThe Delta Works is a series of dams and",
+            "cleaned_prediction": "Netherlands",
+            "gt": "Netherlands"
+        },
+        {
+            "input_prompt": "Input: Plougonven\nOutput:",
+            "test_query": "Plougonven",
+            "prediction": "France\nInput: Plougonven\nOutput:",
+            "cleaned_prediction": "France",
+            "gt": "France"
+        },
+        {
+            "input_prompt": "Input: Wabush Airport\nOutput:",
+            "test_query": "Wabush Airport",
+            "prediction": "Canada\nWabush Airport is located in Canada",
+            "cleaned_prediction": "Canada",
+            "gt": "Canada"
+        },
+        {
+            "input_prompt": "Input: Achelous River\nOutput:",
+            "test_query": "Achelous River",
+            "prediction": "Greece\nThe Achelous River ( Greek : \ufffd",
+            "cleaned_prediction": "Greece",
+            "gt": "Greece"
+        },
+        {
+            "input_prompt": "Input: Palupera Rural Municipality\nOutput:",
+            "test_query": "Palupera Rural Municipality",
+            "prediction": "Estonia\nPalupera Rural Municipality is a rural",
+            "cleaned_prediction": "Estonia",
+            "gt": "Estonia"
+        },
+        {
+            "input_prompt": "Input: The Forks, Winnipeg\nOutput:",
+            "test_query": "The Forks, Winnipeg",
+            "prediction": "Canada\nThe Forks is a historic site located at",
+            "cleaned_prediction": "Canada",
+            "gt": "Canada"
+        },
+        {
+            "input_prompt": "Input: Bilecik Province\nOutput:",
+            "test_query": "Bilecik Province",
+            "prediction": "Turkey\nInput: Bilecik Province\nOutput",
+            "cleaned_prediction": "Turkey",
+            "gt": "Turkey"
+        },
+        {
+            "input_prompt": "Input: Queens Gardens, Brisbane\nOutput:",
+            "test_query": "Queens Gardens, Brisbane",
+            "prediction": "Australia\nInput: Sydney Opera House, Sydney\nOutput",
+            "cleaned_prediction": "Australia",
+            "gt": "Australia"
+        },
+        {
+            "input_prompt": "Input: University of Zaragoza\nOutput:",
+            "test_query": "University of Zaragoza",
+            "prediction": "Spain\nThe University of Zaragoza is a public",
+            "cleaned_prediction": "Spain",
+            "gt": "Spain"
+        },
+        {
+            "input_prompt": "Input: Canton of Schaffhausen\nOutput:",
+            "test_query": "Canton of Schaffhausen",
+            "prediction": "Switzerland\nInput: Canton of Schaffhausen\nOutput",
+            "cleaned_prediction": "Switzerland",
+            "gt": "Switzerland"
+        },
+        {
+            "input_prompt": "Input: Gobardanga\nOutput:",
+            "test_query": "Gobardanga",
+            "prediction": "India\nGobardanga is a city in the",
+            "cleaned_prediction": "India",
+            "gt": "India"
+        },
+        {
+            "input_prompt": "Input: Puerto Maldonado\nOutput:",
+            "test_query": "Puerto Maldonado",
+            "prediction": "Peru\nInput: Lima\nOutput: Peru\nInput",
+            "cleaned_prediction": "Peru",
+            "gt": "Peru"
+        },
+        {
+            "input_prompt": "Input: Sena Medal\nOutput:",
+            "test_query": "Sena Medal",
+            "prediction": "India\nThe Sena Medal is a military decoration of",
+            "cleaned_prediction": "India",
+            "gt": "India"
+        },
+        {
+            "input_prompt": "Input: Zelenchukskaya\nOutput:",
+            "test_query": "Zelenchukskaya",
+            "prediction": "Russia\nNow, let's try to solve this problem",
+            "cleaned_prediction": "Russia",
+            "gt": "Russia"
+        },
+        {
+            "input_prompt": "Input: Mittag-Leffler Institute\nOutput:",
+            "test_query": "Mittag-Leffler Institute",
+            "prediction": "Sweden\nThe Mittag-Leffler Institute is a",
+            "cleaned_prediction": "Sweden",
+            "gt": "Sweden"
+        },
+        {
+            "input_prompt": "Input: Windischeschenbach\nOutput:",
+            "test_query": "Windischeschenbach",
+            "prediction": "Germany\nInput: Windischeschenbach\nOutput:",
+            "cleaned_prediction": "Germany",
+            "gt": "Germany"
+        },
+        {
+            "input_prompt": "Input: Fischenthal\nOutput:",
+            "test_query": "Fischenthal",
+            "prediction": "Germany\nThe village of Fischenthal is located in",
+            "cleaned_prediction": "Germany",
+            "gt": "Switzerland"
+        },
+        {
+            "input_prompt": "Input: Bannu\nOutput:",
+            "test_query": "Bannu",
+            "prediction": "Pakistan\nInput: Baku\nOutput: Azerbaijan",
+            "cleaned_prediction": "Pakistan",
+            "gt": "Pakistan"
+        },
+        {
+            "input_prompt": "Input: Trigono\nOutput:",
+            "test_query": "Trigono",
+            "prediction": "Greece\nInput: Trigono\nOutput: Greece",
+            "cleaned_prediction": "Greece",
+            "gt": "Greece"
+        },
+        {
+            "input_prompt": "Input: Pannonhalma Archabbey\nOutput:",
+            "test_query": "Pannonhalma Archabbey",
+            "prediction": "Hungary\nInput: Pannonhalma Archabbey",
+            "cleaned_prediction": "Hungary",
+            "gt": "Hungary"
+        },
+        {
+            "input_prompt": "Input: Were Ilu\nOutput:",
+            "test_query": "Were Ilu",
+            "prediction": "Turkey\nInput: Were Ilu\nOutput: Turkey",
+            "cleaned_prediction": "Turkey",
+            "gt": "Ethiopia"
+        },
+        {
+            "input_prompt": "Input: Subarnapur district\nOutput:",
+            "test_query": "Subarnapur district",
+            "prediction": "Odisha\nInput: Subarnapur district\nOutput",
+            "cleaned_prediction": "Odisha",
+            "gt": "India"
+        },
+        {
+            "input_prompt": "Input: Peremyshliany\nOutput:",
+            "test_query": "Peremyshliany",
+            "prediction": "Ukraine\nInput: Krasnodar\nOutput:",
+            "cleaned_prediction": "Ukraine",
+            "gt": "Ukraine"
+        },
+        {
+            "input_prompt": "Input: Thiruvattar\nOutput:",
+            "test_query": "Thiruvattar",
+            "prediction": "India\nInput: Thiruvattar\nOutput",
+            "cleaned_prediction": "India",
+            "gt": "India"
+        }
+    ],
+    "val_f1_per_layer": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.024096385542168676,
+        "8": 0.060240963855421686,
+        "9": 0.3614457831325301,
+        "10": 0.4939759036144578,
+        "11": 0.2289156626506024,
+        "12": 0.3132530120481928,
+        "13": 0.7831325301204819,
+        "14": 0.8795180722891566,
+        "15": 0.8795180722891566,
+        "16": 0.8795180722891566,
+        "17": 0.7108433734939759,
+        "18": 0.6626506024096386,
+        "19": 0.6867469879518072,
+        "20": 0.6024096385542169,
+        "21": 0.6024096385542169,
+        "22": 0.42168674698795183,
+        "23": 0.3373493975903614,
+        "24": 0.1686746987951807,
+        "25": 0.10843373493975904,
+        "26": 0.14457831325301204,
+        "27": 0.14457831325301204,
+        "28": 0.012048192771084338,
+        "29": 0.0,
+        "30": 0.0,
+        "31": 0.0
+    }
+}

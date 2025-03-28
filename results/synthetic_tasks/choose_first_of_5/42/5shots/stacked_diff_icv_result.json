@@ -1,0 +1,707 @@
+{
+    "score": {
+        "exact_match": 0.41
+    },
+    "result": [
+        {
+            "input_prompt": "Input: fresh, vacuum, since, key, barracuda\nOutput:",
+            "test_query": "fresh, vacuum, since, key, barracuda",
+            "prediction": "fresh, since, key, barracuda, vacuum",
+            "cleaned_prediction": "fresh, since, key, barracuda, vacuum",
+            "gt": "fresh"
+        },
+        {
+            "input_prompt": "Input: cheetah, guitar, quirky, earring, diligent\nOutput:",
+            "test_query": "cheetah, guitar, quirky, earring, diligent",
+            "prediction": "quirky\nthe word \"quirky\" is a common",
+            "cleaned_prediction": "quirky",
+            "gt": "cheetah"
+        },
+        {
+            "input_prompt": "Input: rock, cranberry, knowledgeable, rhinoceros, butterfly\nOutput:",
+            "test_query": "rock, cranberry, knowledgeable, rhinoceros, butterfly",
+            "prediction": "rock\nexplanation: the word \"rock\" is the",
+            "cleaned_prediction": "rock",
+            "gt": "rock"
+        },
+        {
+            "input_prompt": "Input: ecstatic, upon, earmuffs, fork, turtle\nOutput:",
+            "test_query": "ecstatic, upon, earmuffs, fork, turtle",
+            "prediction": "ecstatic\nthe word \"ecstatic\" is the longest",
+            "cleaned_prediction": "ecstatic",
+            "gt": "ecstatic"
+        },
+        {
+            "input_prompt": "Input: aardvark, reliable, adoring, sloth, climb\nOutput:",
+            "test_query": "aardvark, reliable, adoring, sloth, climb",
+            "prediction": "sloth\nthe longest word in the list is \"",
+            "cleaned_prediction": "sloth",
+            "gt": "aardvark"
+        },
+        {
+            "input_prompt": "Input: fascinating, chinchilla, gather, juice, hedgehog\nOutput:",
+            "test_query": "fascinating, chinchilla, gather, juice, hedgehog",
+            "prediction": "fascinating\nthe word \"fascinating\" is a",
+            "cleaned_prediction": "fascinating",
+            "gt": "fascinating"
+        },
+        {
+            "input_prompt": "Input: ostrich, race, maracas, maximize, mild\nOutput:",
+            "test_query": "ostrich, race, maracas, maximize, mild",
+            "prediction": "ostrich\nexplanation: the longest word is \"o",
+            "cleaned_prediction": "ostrich",
+            "gt": "ostrich"
+        },
+        {
+            "input_prompt": "Input: yo-yo, key, thick, pork, rhinoceros\nOutput:",
+            "test_query": "yo-yo, key, thick, pork, rhinoceros",
+            "prediction": "key\ninput: yo-yo, key, thick",
+            "cleaned_prediction": "key",
+            "gt": "yo-yo"
+        },
+        {
+            "input_prompt": "Input: decide, devoted, question, mellow, examine\nOutput:",
+            "test_query": "decide, devoted, question, mellow, examine",
+            "prediction": "decide\nthe word \"decide\" is the best",
+            "cleaned_prediction": "decide",
+            "gt": "decide"
+        },
+        {
+            "input_prompt": "Input: pencil, narwhal, dragonfly, bird, negotiate\nOutput:",
+            "test_query": "pencil, narwhal, dragonfly, bird, negotiate",
+            "prediction": "negotiate\nexplanation: the only word that can be spelled",
+            "cleaned_prediction": "negotiate",
+            "gt": "pencil"
+        },
+        {
+            "input_prompt": "Input: hippopotamus, save, achieve, try, lettuce\nOutput:",
+            "test_query": "hippopotamus, save, achieve, try, lettuce",
+            "prediction": "hippopotamus\n\nexplanation: the word \"hippop",
+            "cleaned_prediction": "hippopotamus",
+            "gt": "hippopotamus"
+        },
+        {
+            "input_prompt": "Input: capybara, candle, peach, she, playful\nOutput:",
+            "test_query": "capybara, candle, peach, she, playful",
+            "prediction": "peach\nthe word that is closest to the middle of",
+            "cleaned_prediction": "peach",
+            "gt": "capybara"
+        },
+        {
+            "input_prompt": "Input: mirror, hedgehog, mango, mirthful, grapefruit\nOutput:",
+            "test_query": "mirror, hedgehog, mango, mirthful, grapefruit",
+            "prediction": "mango\n\nexplanation:\nthe word \"mango\" is",
+            "cleaned_prediction": "mango",
+            "gt": "mirror"
+        },
+        {
+            "input_prompt": "Input: moth, beneath, airplane, onto, penguin\nOutput:",
+            "test_query": "moth, beneath, airplane, onto, penguin",
+            "prediction": "airplane\nexplanation: the word \"airplane\" is",
+            "cleaned_prediction": "airplane",
+            "gt": "moth"
+        },
+        {
+            "input_prompt": "Input: prepare, caterpillar, socks, pelican, jubilant\nOutput:",
+            "test_query": "prepare, caterpillar, socks, pelican, jubilant",
+            "prediction": "pelican\nthe longest palindromic subsequence",
+            "cleaned_prediction": "pelican",
+            "gt": "prepare"
+        },
+        {
+            "input_prompt": "Input: sincere, wallet, zesty, jackfruit, underneath\nOutput:",
+            "test_query": "sincere, wallet, zesty, jackfruit, underneath",
+            "prediction": "sincere\nthe word \"sincere\" is the",
+            "cleaned_prediction": "sincere",
+            "gt": "sincere"
+        },
+        {
+            "input_prompt": "Input: transform, serious, gorilla, kangaroo, kneel\nOutput:",
+            "test_query": "transform, serious, gorilla, kangaroo, kneel",
+            "prediction": "serious\nthe word \"serious\" is the only word",
+            "cleaned_prediction": "serious",
+            "gt": "transform"
+        },
+        {
+            "input_prompt": "Input: teapot, charming, live, crab, grapefruit\nOutput:",
+            "test_query": "teapot, charming, live, crab, grapefruit",
+            "prediction": "charming\nexplanation: the word \"charming\" is",
+            "cleaned_prediction": "charming",
+            "gt": "teapot"
+        },
+        {
+            "input_prompt": "Input: perform, climb, cold, dislike, gloves\nOutput:",
+            "test_query": "perform, climb, cold, dislike, gloves",
+            "prediction": "perform\n\nexplanation: the word \"perform\" is the",
+            "cleaned_prediction": "perform",
+            "gt": "perform"
+        },
+        {
+            "input_prompt": "Input: caterpillar, validate, bison, kayak, minimize\nOutput:",
+            "test_query": "caterpillar, validate, bison, kayak, minimize",
+            "prediction": "kayak\nexplanation: the word \"kayak\"",
+            "cleaned_prediction": "kayak",
+            "gt": "caterpillar"
+        },
+        {
+            "input_prompt": "Input: turtle, butterfly, yield, charismatic, whom\nOutput:",
+            "test_query": "turtle, butterfly, yield, charismatic, whom",
+            "prediction": "turtle\nthe word \"turtle\" is the most common",
+            "cleaned_prediction": "turtle",
+            "gt": "turtle"
+        },
+        {
+            "input_prompt": "Input: of, chimpanzee, zealous, explore, map\nOutput:",
+            "test_query": "of, chimpanzee, zealous, explore, map",
+            "prediction": "of, chimpanzee, explore, map, zealous",
+            "cleaned_prediction": "of, chimpanzee, explore, map, zealous",
+            "gt": "of"
+        },
+        {
+            "input_prompt": "Input: bountiful, paint, hornet, luminous, as\nOutput:",
+            "test_query": "bountiful, paint, hornet, luminous, as",
+            "prediction": "bountiful\nexplanation: the word \"bount",
+            "cleaned_prediction": "bountiful",
+            "gt": "bountiful"
+        },
+        {
+            "input_prompt": "Input: bitter, mantis, dove, make, about\nOutput:",
+            "test_query": "bitter, mantis, dove, make, about",
+            "prediction": "bitter\nexplanation: the word \"bitter\" can",
+            "cleaned_prediction": "bitter",
+            "gt": "bitter"
+        },
+        {
+            "input_prompt": "Input: rug, who, bee, lemur, peaceful\nOutput:",
+            "test_query": "rug, who, bee, lemur, peaceful",
+            "prediction": "rug\n\nexplanation: the word \"rug\" has a",
+            "cleaned_prediction": "rug",
+            "gt": "rug"
+        },
+        {
+            "input_prompt": "Input: eloquent, soda, olive, bicycle, him\nOutput:",
+            "test_query": "eloquent, soda, olive, bicycle, him",
+            "prediction": "him\n\nexplanation: the word \"him\" is the",
+            "cleaned_prediction": "him",
+            "gt": "eloquent"
+        },
+        {
+            "input_prompt": "Input: motorcycle, chipmunk, talented, them, qualify\nOutput:",
+            "test_query": "motorcycle, chipmunk, talented, them, qualify",
+            "prediction": "talented\nthe word \"talented\" is the only",
+            "cleaned_prediction": "talented",
+            "gt": "motorcycle"
+        },
+        {
+            "input_prompt": "Input: ibex, skunk, hate, uplifting, discover\nOutput:",
+            "test_query": "ibex, skunk, hate, uplifting, discover",
+            "prediction": "uplifting\nthe word \"uplifting\" is the most",
+            "cleaned_prediction": "uplifting",
+            "gt": "ibex"
+        },
+        {
+            "input_prompt": "Input: ferret, observe, dark, serene, shoe\nOutput:",
+            "test_query": "ferret, observe, dark, serene, shoe",
+            "prediction": "shoe\n\nthe word \"shoe\" is the only",
+            "cleaned_prediction": "shoe",
+            "gt": "ferret"
+        },
+        {
+            "input_prompt": "Input: narwhal, vibrant, underneath, coral, rice\nOutput:",
+            "test_query": "narwhal, vibrant, underneath, coral, rice",
+            "prediction": "vibrant\n\nthe most vibrant color among the given words is",
+            "cleaned_prediction": "vibrant",
+            "gt": "narwhal"
+        },
+        {
+            "input_prompt": "Input: car, persuade, zucchini, me, resolute\nOutput:",
+            "test_query": "car, persuade, zucchini, me, resolute",
+            "prediction": "resolute\nthe word \"resolute\" is the",
+            "cleaned_prediction": "resolute",
+            "gt": "car"
+        },
+        {
+            "input_prompt": "Input: duster, sail, hot, sad, lemur\nOutput:",
+            "test_query": "duster, sail, hot, sad, lemur",
+            "prediction": "sail\n\nexplanation: the word \"sail\" is",
+            "cleaned_prediction": "sail",
+            "gt": "duster"
+        },
+        {
+            "input_prompt": "Input: wolverine, noble, tangerine, observant, socks\nOutput:",
+            "test_query": "wolverine, noble, tangerine, observant, socks",
+            "prediction": "noble\nexplanation:\nthe word \"noble\" has",
+            "cleaned_prediction": "noble",
+            "gt": "wolverine"
+        },
+        {
+            "input_prompt": "Input: joyous, down, oven, concerning, guitar\nOutput:",
+            "test_query": "joyous, down, oven, concerning, guitar",
+            "prediction": "joyous\nthe word \"joyous\" is an",
+            "cleaned_prediction": "joyous",
+            "gt": "joyous"
+        },
+        {
+            "input_prompt": "Input: lobster, faithful, rock, pear, study\nOutput:",
+            "test_query": "lobster, faithful, rock, pear, study",
+            "prediction": "lobster\nexplanation:\nthe word \"lobster\" is",
+            "cleaned_prediction": "lobster",
+            "gt": "lobster"
+        },
+        {
+            "input_prompt": "Input: into, knife, door, accordion, penguin\nOutput:",
+            "test_query": "into, knife, door, accordion, penguin",
+            "prediction": "into\n\nexplanation: the word \"into\" is a",
+            "cleaned_prediction": "into",
+            "gt": "into"
+        },
+        {
+            "input_prompt": "Input: spider, modest, basket, guava, like\nOutput:",
+            "test_query": "spider, modest, basket, guava, like",
+            "prediction": "modest\n\nexplanation: the word \"modest\" is",
+            "cleaned_prediction": "modest",
+            "gt": "spider"
+        },
+        {
+            "input_prompt": "Input: jar, candlestick, earring, agreeable, fascinating\nOutput:",
+            "test_query": "jar, candlestick, earring, agreeable, fascinating",
+            "prediction": "agreeable\nexplanation: the word \"agreeable\"",
+            "cleaned_prediction": "agreeable",
+            "gt": "jar"
+        },
+        {
+            "input_prompt": "Input: calculate, upon, deer, it, release\nOutput:",
+            "test_query": "calculate, upon, deer, it, release",
+            "prediction": "calculate\nexplanation: the word \"calculate\" is the",
+            "cleaned_prediction": "calculate",
+            "gt": "calculate"
+        },
+        {
+            "input_prompt": "Input: yogurt, write, egg, charming, barracuda\nOutput:",
+            "test_query": "yogurt, write, egg, charming, barracuda",
+            "prediction": "yogurt\nthe word \"yogurt\" is a",
+            "cleaned_prediction": "yogurt",
+            "gt": "yogurt"
+        },
+        {
+            "input_prompt": "Input: globe, realize, pepper, skates, select\nOutput:",
+            "test_query": "globe, realize, pepper, skates, select",
+            "prediction": "select\nexplanation: the word \"select\" is a",
+            "cleaned_prediction": "select",
+            "gt": "globe"
+        },
+        {
+            "input_prompt": "Input: chocolate, wonderful, query, octopus, boomerang\nOutput:",
+            "test_query": "chocolate, wonderful, query, octopus, boomerang",
+            "prediction": "wonderful\nexplanation\nthe given words can be arranged in",
+            "cleaned_prediction": "wonderful",
+            "gt": "chocolate"
+        },
+        {
+            "input_prompt": "Input: fast, cube, laugh, serious, kiwifruit\nOutput:",
+            "test_query": "fast, cube, laugh, serious, kiwifruit",
+            "prediction": "fast, laugh, kiwifruit\nthe longest",
+            "cleaned_prediction": "fast, laugh, kiwifruit",
+            "gt": "fast"
+        },
+        {
+            "input_prompt": "Input: crane, without, guitar, persimmon, bitter\nOutput:",
+            "test_query": "crane, without, guitar, persimmon, bitter",
+            "prediction": "guitar\nexplanation: the word \"guitar\" is",
+            "cleaned_prediction": "guitar",
+            "gt": "crane"
+        },
+        {
+            "input_prompt": "Input: koala, bat, pigeon, need, slow\nOutput:",
+            "test_query": "koala, bat, pigeon, need, slow",
+            "prediction": "need\n\nexplanation: the word \"need\" is the",
+            "cleaned_prediction": "need",
+            "gt": "koala"
+        },
+        {
+            "input_prompt": "Input: salty, crocodile, harmonious, intuitive, dice\nOutput:",
+            "test_query": "salty, crocodile, harmonious, intuitive, dice",
+            "prediction": "salty\nthe word \"salty\" is a noun",
+            "cleaned_prediction": "salty",
+            "gt": "salty"
+        },
+        {
+            "input_prompt": "Input: amiable, mellow, kite, guitar, study\nOutput:",
+            "test_query": "amiable, mellow, kite, guitar, study",
+            "prediction": "kite\n\nthe word \"kite\" is the most",
+            "cleaned_prediction": "kite",
+            "gt": "amiable"
+        },
+        {
+            "input_prompt": "Input: unwavering, xylophone, duster, slow, discover\nOutput:",
+            "test_query": "unwavering, xylophone, duster, slow, discover",
+            "prediction": "unwavering\nunwavering is the correct answer",
+            "cleaned_prediction": "unwavering",
+            "gt": "unwavering"
+        },
+        {
+            "input_prompt": "Input: myself, glasses, relax, boat, they\nOutput:",
+            "test_query": "myself, glasses, relax, boat, they",
+            "prediction": "myself, glasses, relax, boat, they\nthe",
+            "cleaned_prediction": "myself, glasses, relax, boat, they",
+            "gt": "myself"
+        },
+        {
+            "input_prompt": "Input: overcome, watermelon, beneath, view, tiger\nOutput:",
+            "test_query": "overcome, watermelon, beneath, view, tiger",
+            "prediction": "view\nexplanation: the word \"view\" is the",
+            "cleaned_prediction": "view",
+            "gt": "overcome"
+        },
+        {
+            "input_prompt": "Input: before, chair, laugh, gentle, rotten\nOutput:",
+            "test_query": "before, chair, laugh, gentle, rotten",
+            "prediction": "chair\nexplanation: the word \"chair\" is the",
+            "cleaned_prediction": "chair",
+            "gt": "before"
+        },
+        {
+            "input_prompt": "Input: buffalo, decide, read, jigsaw, dumbbell\nOutput:",
+            "test_query": "buffalo, decide, read, jigsaw, dumbbell",
+            "prediction": "buffalo\n\nexplanation: the longest common prefix is \"buff",
+            "cleaned_prediction": "buffalo",
+            "gt": "buffalo"
+        },
+        {
+            "input_prompt": "Input: at, upon, boomerang, gracious, gecko\nOutput:",
+            "test_query": "at, upon, boomerang, gracious, gecko",
+            "prediction": "boomerang\n\nexplanation:\nthe word \"boomer",
+            "cleaned_prediction": "boomerang",
+            "gt": "at"
+        },
+        {
+            "input_prompt": "Input: focus, after, quilt, anteater, fierce\nOutput:",
+            "test_query": "focus, after, quilt, anteater, fierce",
+            "prediction": "focus\nexplanation: the word \"focus\" is a",
+            "cleaned_prediction": "focus",
+            "gt": "focus"
+        },
+        {
+            "input_prompt": "Input: blithe, bicycle, puzzle, serious, earring\nOutput:",
+            "test_query": "blithe, bicycle, puzzle, serious, earring",
+            "prediction": "bicycle\n```\n\nthis model is trained on a dataset",
+            "cleaned_prediction": "bicycle",
+            "gt": "blithe"
+        },
+        {
+            "input_prompt": "Input: at, coyote, rice, speak, query\nOutput:",
+            "test_query": "at, coyote, rice, speak, query",
+            "prediction": "coyote\nexplanation: the word \u201ccoyote",
+            "cleaned_prediction": "coyote",
+            "gt": "at"
+        },
+        {
+            "input_prompt": "Input: candle, smart, knot, down, delightful\nOutput:",
+            "test_query": "candle, smart, knot, down, delightful",
+            "prediction": "delightful\ninput: smart, smart, clever, down",
+            "cleaned_prediction": "delightful",
+            "gt": "candle"
+        },
+        {
+            "input_prompt": "Input: gentle, glass, ibex, prepare, practice\nOutput:",
+            "test_query": "gentle, glass, ibex, prepare, practice",
+            "prediction": "gentle\nthe word \"gentle\" is a synonym",
+            "cleaned_prediction": "gentle",
+            "gt": "gentle"
+        },
+        {
+            "input_prompt": "Input: deer, write, book, moray, hornet\nOutput:",
+            "test_query": "deer, write, book, moray, hornet",
+            "prediction": "deer\nexplanation: the longest common prefix among all words",
+            "cleaned_prediction": "deer",
+            "gt": "deer"
+        },
+        {
+            "input_prompt": "Input: coral, serious, yogurt, key, gloves\nOutput:",
+            "test_query": "coral, serious, yogurt, key, gloves",
+            "prediction": "key\nthe word \"key\" is the only word",
+            "cleaned_prediction": "key",
+            "gt": "coral"
+        },
+        {
+            "input_prompt": "Input: round, yellow, panther, versatile, lemur\nOutput:",
+            "test_query": "round, yellow, panther, versatile, lemur",
+            "prediction": "lemur\nthe word \"lemur\" is the",
+            "cleaned_prediction": "lemur",
+            "gt": "round"
+        },
+        {
+            "input_prompt": "Input: upbeat, develop, focus, throughout, faithful\nOutput:",
+            "test_query": "upbeat, develop, focus, throughout, faithful",
+            "prediction": "upbeat\nthe word \"upbeat\" is the most",
+            "cleaned_prediction": "upbeat",
+            "gt": "upbeat"
+        },
+        {
+            "input_prompt": "Input: solve, chimpanzee, necklace, blue, upbeat\nOutput:",
+            "test_query": "solve, chimpanzee, necklace, blue, upbeat",
+            "prediction": "solve\n\nexplanation: the word \"solve\" is the",
+            "cleaned_prediction": "solve",
+            "gt": "solve"
+        },
+        {
+            "input_prompt": "Input: fan, banana, uncover, whistle, validate\nOutput:",
+            "test_query": "fan, banana, uncover, whistle, validate",
+            "prediction": "whistle\nexplanation: the word \u201cwhistle\u201d can",
+            "cleaned_prediction": "whistle",
+            "gt": "fan"
+        },
+        {
+            "input_prompt": "Input: mirthful, candy, clean, breathe, gather\nOutput:",
+            "test_query": "mirthful, candy, clean, breathe, gather",
+            "prediction": "candy\n\nexplanation: the word \"candy\" is",
+            "cleaned_prediction": "candy",
+            "gt": "mirthful"
+        },
+        {
+            "input_prompt": "Input: wise, participate, yourself, out, land\nOutput:",
+            "test_query": "wise, participate, yourself, out, land",
+            "prediction": "wise\nexplanation: the word \"wise\" is the",
+            "cleaned_prediction": "wise",
+            "gt": "wise"
+        },
+        {
+            "input_prompt": "Input: baboon, lettuce, serious, hear, moth\nOutput:",
+            "test_query": "baboon, lettuce, serious, hear, moth",
+            "prediction": "serious\nexplanation: the word \"serious\" is the",
+            "cleaned_prediction": "serious",
+            "gt": "baboon"
+        },
+        {
+            "input_prompt": "Input: panther, short, anchor, down, ecstatic\nOutput:",
+            "test_query": "panther, short, anchor, down, ecstatic",
+            "prediction": "ecstatic\nexplanation: the word \"ecstatic\" has",
+            "cleaned_prediction": "ecstatic",
+            "gt": "panther"
+        },
+        {
+            "input_prompt": "Input: jackfruit, raccoon, upon, jovial, sculpture\nOutput:",
+            "test_query": "jackfruit, raccoon, upon, jovial, sculpture",
+            "prediction": "jovial\nthe word \"jovial\" is",
+            "cleaned_prediction": "jovial",
+            "gt": "jackfruit"
+        },
+        {
+            "input_prompt": "Input: zany, finish, speak, unite, beyond\nOutput:",
+            "test_query": "zany, finish, speak, unite, beyond",
+            "prediction": "finish\nexplanation: the word \"finish\" is the",
+            "cleaned_prediction": "finish",
+            "gt": "zany"
+        },
+        {
+            "input_prompt": "Input: caterpillar, yield, from, watermelon, rotten\nOutput:",
+            "test_query": "caterpillar, yield, from, watermelon, rotten",
+            "prediction": "caterpillar, from, watermelon, rotten, yield",
+            "cleaned_prediction": "caterpillar, from, watermelon, rotten, yield",
+            "gt": "caterpillar"
+        },
+        {
+            "input_prompt": "Input: fear, bat, arrive, eloquent, kangaroo\nOutput:",
+            "test_query": "fear, bat, arrive, eloquent, kangaroo",
+            "prediction": "kangaroo\nexplanation: the word \"kangaroo",
+            "cleaned_prediction": "kangaroo",
+            "gt": "fear"
+        },
+        {
+            "input_prompt": "Input: skunk, energetic, bad, impala, hopeful\nOutput:",
+            "test_query": "skunk, energetic, bad, impala, hopeful",
+            "prediction": "impala\nthe word \"impala\" is the",
+            "cleaned_prediction": "impala",
+            "gt": "skunk"
+        },
+        {
+            "input_prompt": "Input: except, question, doubt, strawberry, consult\nOutput:",
+            "test_query": "except, question, doubt, strawberry, consult",
+            "prediction": "except\nexplanation: the word \"except\" is the",
+            "cleaned_prediction": "except",
+            "gt": "except"
+        },
+        {
+            "input_prompt": "Input: yellow, glass, whom, jeans, tenacious\nOutput:",
+            "test_query": "yellow, glass, whom, jeans, tenacious",
+            "prediction": "yellow\nexplanation: the word \"yellow\" is the",
+            "cleaned_prediction": "yellow",
+            "gt": "yellow"
+        },
+        {
+            "input_prompt": "Input: net, wallet, deer, benevolent, reindeer\nOutput:",
+            "test_query": "net, wallet, deer, benevolent, reindeer",
+            "prediction": "deer\nexplanation: the word \"deer\" is the",
+            "cleaned_prediction": "deer",
+            "gt": "net"
+        },
+        {
+            "input_prompt": "Input: choose, loud, upbeat, emu, panda\nOutput:",
+            "test_query": "choose, loud, upbeat, emu, panda",
+            "prediction": "choose\nexplanation: the word \"choose\" is the",
+            "cleaned_prediction": "choose",
+            "gt": "choose"
+        },
+        {
+            "input_prompt": "Input: long, clementine, work, frog, jog\nOutput:",
+            "test_query": "long, clementine, work, frog, jog",
+            "prediction": "long\nexplanation: the word \"long\" has a",
+            "cleaned_prediction": "long",
+            "gt": "long"
+        },
+        {
+            "input_prompt": "Input: celebrate, behind, choose, papaya, charming\nOutput:",
+            "test_query": "celebrate, behind, choose, papaya, charming",
+            "prediction": "charming\nthe word \"charming\" is the most",
+            "cleaned_prediction": "charming",
+            "gt": "celebrate"
+        },
+        {
+            "input_prompt": "Input: gray, falcon, silly, toward, curtain\nOutput:",
+            "test_query": "gray, falcon, silly, toward, curtain",
+            "prediction": "falcon\n\nexplanation:\nthe word \"falcon\"",
+            "cleaned_prediction": "falcon",
+            "gt": "gray"
+        },
+        {
+            "input_prompt": "Input: teapot, calculate, basket, hippopotamus, candle\nOutput:",
+            "test_query": "teapot, calculate, basket, hippopotamus, candle",
+            "prediction": "teapot\n\nexplanation: the word \"teapot\"",
+            "cleaned_prediction": "teapot",
+            "gt": "teapot"
+        },
+        {
+            "input_prompt": "Input: vacuum, they, camera, flower, small\nOutput:",
+            "test_query": "vacuum, they, camera, flower, small",
+            "prediction": "vacuum\ninput: vacuum, they, camera, flower",
+            "cleaned_prediction": "vacuum",
+            "gt": "vacuum"
+        },
+        {
+            "input_prompt": "Input: x-ray, sensitive, believe, violet, map\nOutput:",
+            "test_query": "x-ray, sensitive, believe, violet, map",
+            "prediction": "violet\ninput: x-ray, sensitive, believe,",
+            "cleaned_prediction": "violet",
+            "gt": "x-ray"
+        },
+        {
+            "input_prompt": "Input: consider, television, dazzling, plate, across\nOutput:",
+            "test_query": "consider, television, dazzling, plate, across",
+            "prediction": "television\nexplanation: the word \"television\" is",
+            "cleaned_prediction": "television",
+            "gt": "consider"
+        },
+        {
+            "input_prompt": "Input: tambourine, chicken, funny, resolute, warmhearted\nOutput:",
+            "test_query": "tambourine, chicken, funny, resolute, warmhearted",
+            "prediction": "funny\nthe word \"funny\" is the most",
+            "cleaned_prediction": "funny",
+            "gt": "tambourine"
+        },
+        {
+            "input_prompt": "Input: explore, book, naughty, jackfruit, negotiate\nOutput:",
+            "test_query": "explore, book, naughty, jackfruit, negotiate",
+            "prediction": "explore\nthe input sentence is a collection of words,",
+            "cleaned_prediction": "explore",
+            "gt": "explore"
+        },
+        {
+            "input_prompt": "Input: silver, modern, affable, hoop, ink\nOutput:",
+            "test_query": "silver, modern, affable, hoop, ink",
+            "prediction": "silver\nthe word \"silver\" can be associated with",
+            "cleaned_prediction": "silver",
+            "gt": "silver"
+        },
+        {
+            "input_prompt": "Input: tender, slow, talented, rock, passionfruit\nOutput:",
+            "test_query": "tender, slow, talented, rock, passionfruit",
+            "prediction": "tender\nthe word \"tender\" is the only",
+            "cleaned_prediction": "tender",
+            "gt": "tender"
+        },
+        {
+            "input_prompt": "Input: breathe, bunny, eager, qualify, emu\nOutput:",
+            "test_query": "breathe, bunny, eager, qualify, emu",
+            "prediction": "breathe\nexplanation: the word \"breathe\"",
+            "cleaned_prediction": "breathe",
+            "gt": "breathe"
+        },
+        {
+            "input_prompt": "Input: fierce, between, yellow, tranquil, understand\nOutput:",
+            "test_query": "fierce, between, yellow, tranquil, understand",
+            "prediction": "fierce\nthe word \"fierce\" is an adjective",
+            "cleaned_prediction": "fierce",
+            "gt": "fierce"
+        },
+        {
+            "input_prompt": "Input: ecstatic, realize, amiable, copy, painting\nOutput:",
+            "test_query": "ecstatic, realize, amiable, copy, painting",
+            "prediction": "ecstatic\nthe word \"ecstatic\" is an adjective",
+            "cleaned_prediction": "ecstatic",
+            "gt": "ecstatic"
+        },
+        {
+            "input_prompt": "Input: alpaca, net, open, optimistic, kindle\nOutput:",
+            "test_query": "alpaca, net, open, optimistic, kindle",
+            "prediction": "open\nexplanation: the word \"open\" is the",
+            "cleaned_prediction": "open",
+            "gt": "alpaca"
+        },
+        {
+            "input_prompt": "Input: maracas, brave, passionfruit, sweet, cockroach\nOutput:",
+            "test_query": "maracas, brave, passionfruit, sweet, cockroach",
+            "prediction": "cockroach\nthe word \"cockroach\" is a",
+            "cleaned_prediction": "cockroach",
+            "gt": "maracas"
+        },
+        {
+            "input_prompt": "Input: win, gorilla, smart, chipmunk, joyful\nOutput:",
+            "test_query": "win, gorilla, smart, chipmunk, joyful",
+            "prediction": "joyful\nexplanation: the word \"joyful\" has",
+            "cleaned_prediction": "joyful",
+            "gt": "win"
+        },
+        {
+            "input_prompt": "Input: gather, race, witty, recruit, ferret\nOutput:",
+            "test_query": "gather, race, witty, recruit, ferret",
+            "prediction": "gather\ngather is the right word. gather is",
+            "cleaned_prediction": "gather",
+            "gt": "gather"
+        },
+        {
+            "input_prompt": "Input: think, justify, grow, microphone, unwavering\nOutput:",
+            "test_query": "think, justify, grow, microphone, unwavering",
+            "prediction": "think\ninput: believe, motivate, inspire, ignite",
+            "cleaned_prediction": "think",
+            "gt": "think"
+        },
+        {
+            "input_prompt": "Input: since, bicycle, olive, I, humble\nOutput:",
+            "test_query": "since, bicycle, olive, I, humble",
+            "prediction": "humble\nexplanation: the word \"humble\" is",
+            "cleaned_prediction": "humble",
+            "gt": "since"
+        },
+        {
+            "input_prompt": "Input: yearn, armadillo, fierce, clean, wolverine\nOutput:",
+            "test_query": "yearn, armadillo, fierce, clean, wolverine",
+            "prediction": "wolverine\nthe word \"wolverine\"",
+            "cleaned_prediction": "wolverine",
+            "gt": "yearn"
+        },
+        {
+            "input_prompt": "Input: otter, hungry, camera, ferret, passionate\nOutput:",
+            "test_query": "otter, hungry, camera, ferret, passionate",
+            "prediction": "otter\nthe word \"otter\" is a",
+            "cleaned_prediction": "otter",
+            "gt": "otter"
+        },
+        {
+            "input_prompt": "Input: match, above, hammock, adoring, blithe\nOutput:",
+            "test_query": "match, above, hammock, adoring, blithe",
+            "prediction": "hammock\n\nthe word \"hammock\" is the",
+            "cleaned_prediction": "hammock",
+            "gt": "match"
+        }
+    ]
+}

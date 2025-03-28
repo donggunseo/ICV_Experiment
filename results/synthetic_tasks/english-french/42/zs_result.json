@@ -1,0 +1,3290 @@
+{
+    "score": {
+        "exact_match": 0.0
+    },
+    "result": [
+        {
+            "input_prompt": "Input: printing\nOutput:",
+            "test_query": "printing",
+            "prediction": "printing\n================\nprinting\n--------\n\n### printing to",
+            "cleaned_prediction": "printing",
+            "gt": "impression"
+        },
+        {
+            "input_prompt": "Input: iceland\nOutput:",
+            "test_query": "iceland",
+            "prediction": "the land of fire and ice, iceland is known",
+            "cleaned_prediction": "the land of fire and ice, iceland is known",
+            "gt": "Islande"
+        },
+        {
+            "input_prompt": "Input: fault\nOutput:",
+            "test_query": "fault",
+            "prediction": "fault\nfault (noun)\ndefinition: a mistake",
+            "cleaned_prediction": "fault",
+            "gt": "faute"
+        },
+        {
+            "input_prompt": "Input: arrest\nOutput:",
+            "test_query": "arrest",
+            "prediction": "arrest\ninput: arrest\noutput: arrest",
+            "cleaned_prediction": "arrest",
+            "gt": "arr\u00eater"
+        },
+        {
+            "input_prompt": "Input: reducing\nOutput:",
+            "test_query": "reducing",
+            "prediction": "reducing\ndefinition: (verb) make less in",
+            "cleaned_prediction": "reducing",
+            "gt": "r\u00e9duisant"
+        },
+        {
+            "input_prompt": "Input: chart\nOutput:",
+            "test_query": "chart",
+            "prediction": "chart\nexplanation: the problem requires us to find",
+            "cleaned_prediction": "chart",
+            "gt": "graphique"
+        },
+        {
+            "input_prompt": "Input: compromise\nOutput:",
+            "test_query": "compromise",
+            "prediction": "compromise\nrelated: conflict resolution\ncompromise is",
+            "cleaned_prediction": "compromise",
+            "gt": "compromis"
+        },
+        {
+            "input_prompt": "Input: compared\nOutput:",
+            "test_query": "compared",
+            "prediction": "compared\ninsufficient input. please provide a word",
+            "cleaned_prediction": "compared",
+            "gt": "compar\u00e9"
+        },
+        {
+            "input_prompt": "Input: thousands\nOutput:",
+            "test_query": "thousands",
+            "prediction": "thousands\n====\n\n### input: thousands\n\nthe",
+            "cleaned_prediction": "thousands",
+            "gt": "milliers"
+        },
+        {
+            "input_prompt": "Input: prevent\nOutput:",
+            "test_query": "prevent",
+            "prediction": "prevent\nexplanation: the word \u201cprevent\u201d is",
+            "cleaned_prediction": "prevent",
+            "gt": "pr\u00e9venir"
+        },
+        {
+            "input_prompt": "Input: foundation\nOutput:",
+            "test_query": "foundation",
+            "prediction": "foundation\nduration: 3 sec\n\ninput:",
+            "cleaned_prediction": "foundation",
+            "gt": "fondation"
+        },
+        {
+            "input_prompt": "Input: tribes\nOutput:",
+            "test_query": "tribes",
+            "prediction": "tribes\nerror: no data available for the selected",
+            "cleaned_prediction": "tribes",
+            "gt": "tribus"
+        },
+        {
+            "input_prompt": "Input: vocals\nOutput:",
+            "test_query": "vocals",
+            "prediction": "vocals\npressure: 2.3 bar",
+            "cleaned_prediction": "vocals",
+            "gt": "voix"
+        },
+        {
+            "input_prompt": "Input: intermediate\nOutput:",
+            "test_query": "intermediate",
+            "prediction": "intermediate\ntime complexity: o(n)\nspace complexity",
+            "cleaned_prediction": "intermediate",
+            "gt": "interm\u00e9diaire"
+        },
+        {
+            "input_prompt": "Input: gallery\nOutput:",
+            "test_query": "gallery",
+            "prediction": "gallery\n=====================================\n\ngallery\n--------\n\na gallery",
+            "cleaned_prediction": "gallery",
+            "gt": "galerie"
+        },
+        {
+            "input_prompt": "Input: especially\nOutput:",
+            "test_query": "especially",
+            "prediction": "especially\n1. especially (adv.) especially,",
+            "cleaned_prediction": "especially",
+            "gt": "particuli\u00e8rement"
+        },
+        {
+            "input_prompt": "Input: arguing\nOutput:",
+            "test_query": "arguing",
+            "prediction": "arguing\nthe two friends were still arguing over who",
+            "cleaned_prediction": "arguing",
+            "gt": "se disputer"
+        },
+        {
+            "input_prompt": "Input: conservative\nOutput:",
+            "test_query": "conservative",
+            "prediction": "conservative\n=====================================\n\nconservative\n------------",
+            "cleaned_prediction": "conservative",
+            "gt": "conservateur"
+        },
+        {
+            "input_prompt": "Input: processes\nOutput:",
+            "test_query": "processes",
+            "prediction": "processes\nfunctions\n1. `processes`",
+            "cleaned_prediction": "processes",
+            "gt": "processus"
+        },
+        {
+            "input_prompt": "Input: platform\nOutput:",
+            "test_query": "platform",
+            "prediction": "# -*- coding: utf-8 -*-\n\"\"\"",
+            "cleaned_prediction": "# -*- coding: utf-8 -*-",
+            "gt": "plateforme"
+        },
+        {
+            "input_prompt": "Input: scope\nOutput:",
+            "test_query": "scope",
+            "prediction": "scope\ntypes: scope\ncategories: language",
+            "cleaned_prediction": "scope",
+            "gt": "port\u00e9e"
+        },
+        {
+            "input_prompt": "Input: contributors\nOutput:",
+            "test_query": "contributors",
+            "prediction": "contributors\ndescription: this task is used to generate",
+            "cleaned_prediction": "contributors",
+            "gt": "contributeurs"
+        },
+        {
+            "input_prompt": "Input: colleges\nOutput:",
+            "test_query": "colleges",
+            "prediction": "* list of colleges in the united states",
+            "cleaned_prediction": "* list of colleges in the united states",
+            "gt": "universit\u00e9s"
+        },
+        {
+            "input_prompt": "Input: audiences\nOutput:",
+            "test_query": "audiences",
+            "prediction": "5\naudience members are the people attending",
+            "cleaned_prediction": "5",
+            "gt": "publics"
+        },
+        {
+            "input_prompt": "Input: waiting\nOutput:",
+            "test_query": "waiting",
+            "prediction": "waiting\nexplanation: the word \"waiting\" is",
+            "cleaned_prediction": "waiting",
+            "gt": "attente"
+        },
+        {
+            "input_prompt": "Input: bike\nOutput:",
+            "test_query": "bike",
+            "prediction": "a bike is a vehicle with two wheels, powered",
+            "cleaned_prediction": "a bike is a vehicle with two wheels, powered",
+            "gt": "v\u00e9lo"
+        },
+        {
+            "input_prompt": "Input: serbia\nOutput:",
+            "test_query": "serbia",
+            "prediction": "serbia\ninput: usa\noutput: united states",
+            "cleaned_prediction": "serbia",
+            "gt": "Serbie"
+        },
+        {
+            "input_prompt": "Input: unfortunately\nOutput:",
+            "test_query": "unfortunately",
+            "prediction": "unfortunately\ncorrected output: unfortunately\nexplanation:",
+            "cleaned_prediction": "unfortunately",
+            "gt": "malheureusement"
+        },
+        {
+            "input_prompt": "Input: separation\nOutput:",
+            "test_query": "separation",
+            "prediction": "separation\ntopics: linguistics\nthe terms \"",
+            "cleaned_prediction": "separation",
+            "gt": "s\u00e9paration"
+        },
+        {
+            "input_prompt": "Input: rain\nOutput:",
+            "test_query": "rain",
+            "prediction": "rain is a type of precipitation that occurs when water",
+            "cleaned_prediction": "rain is a type of precipitation that occurs when water",
+            "gt": "pluie"
+        },
+        {
+            "input_prompt": "Input: gradually\nOutput:",
+            "test_query": "gradually",
+            "prediction": "gradually\ndefinition: (adverb) at a",
+            "cleaned_prediction": "gradually",
+            "gt": "progressivement"
+        },
+        {
+            "input_prompt": "Input: leo\nOutput:",
+            "test_query": "leo",
+            "prediction": "leo tolstoy\nleo fender",
+            "cleaned_prediction": "leo tolstoy",
+            "gt": "lion"
+        },
+        {
+            "input_prompt": "Input: birthday\nOutput:",
+            "test_query": "birthday",
+            "prediction": "\"you are 18 years old.\"\n\ninput:",
+            "cleaned_prediction": "\"you are 18 years old.\"",
+            "gt": "anniversaire"
+        },
+        {
+            "input_prompt": "Input: listed\nOutput:",
+            "test_query": "listed",
+            "prediction": "listed\noutput: listed\noutput: listed",
+            "cleaned_prediction": "listed",
+            "gt": "\u00e9num\u00e9r\u00e9"
+        },
+        {
+            "input_prompt": "Input: separately\nOutput:",
+            "test_query": "separately",
+            "prediction": "separately\ndefinition: in a separate or individual manner",
+            "cleaned_prediction": "separately",
+            "gt": "s\u00e9par\u00e9ment"
+        },
+        {
+            "input_prompt": "Input: land\nOutput:",
+            "test_query": "land",
+            "prediction": "\"land\"\nexplanation: this is a simple spelling",
+            "cleaned_prediction": "\"land\"",
+            "gt": "terre"
+        },
+        {
+            "input_prompt": "Input: particularly\nOutput:",
+            "test_query": "particularly",
+            "prediction": "particularly\noutput: particularly\noutput: particularly",
+            "cleaned_prediction": "particularly",
+            "gt": "particuli\u00e8rement"
+        },
+        {
+            "input_prompt": "Input: moses\nOutput:",
+            "test_query": "moses",
+            "prediction": "moses\nexplanation: the input string \"moses",
+            "cleaned_prediction": "moses",
+            "gt": "Mo\u00efse"
+        },
+        {
+            "input_prompt": "Input: explorer\nOutput:",
+            "test_query": "explorer",
+            "prediction": "an explorer is a person who travels into a new",
+            "cleaned_prediction": "an explorer is a person who travels into a new",
+            "gt": "explorateur"
+        },
+        {
+            "input_prompt": "Input: animals\nOutput:",
+            "test_query": "animals",
+            "prediction": "{\"animals\": [\"lion\", \"tiger\",",
+            "cleaned_prediction": "{\"animals\": [\"lion\", \"tiger\",",
+            "gt": "animaux"
+        },
+        {
+            "input_prompt": "Input: legend\nOutput:",
+            "test_query": "legend",
+            "prediction": "1\n---\ninput: legend\noutput:",
+            "cleaned_prediction": "1",
+            "gt": "l\u00e9gende"
+        },
+        {
+            "input_prompt": "Input: arms\nOutput:",
+            "test_query": "arms",
+            "prediction": "1. arms\n2. arms\n3",
+            "cleaned_prediction": "1. arms",
+            "gt": "bras"
+        },
+        {
+            "input_prompt": "Input: notably\nOutput:",
+            "test_query": "notably",
+            "prediction": "notably\ndefinition: (adverb) in a",
+            "cleaned_prediction": "notably",
+            "gt": "notamment"
+        },
+        {
+            "input_prompt": "Input: throne\nOutput:",
+            "test_query": "throne",
+            "prediction": "the throne is a symbol of power and authority.",
+            "cleaned_prediction": "the throne is a symbol of power and authority.",
+            "gt": "tr\u00f4ne"
+        },
+        {
+            "input_prompt": "Input: competitive\nOutput:",
+            "test_query": "competitive",
+            "prediction": "competitive\ninput: uncompetitive\noutput: un",
+            "cleaned_prediction": "competitive",
+            "gt": "comp\u00e9titif"
+        },
+        {
+            "input_prompt": "Input: quickly\nOutput:",
+            "test_query": "quickly",
+            "prediction": "'quickly'\ninput: hello world\noutput",
+            "cleaned_prediction": "'quickly'",
+            "gt": "rapidement"
+        },
+        {
+            "input_prompt": "Input: frank\nOutput:",
+            "test_query": "frank",
+            "prediction": "frank\n\ninput: jack\noutput: jack",
+            "cleaned_prediction": "frank",
+            "gt": "franc"
+        },
+        {
+            "input_prompt": "Input: burial\nOutput:",
+            "test_query": "burial",
+            "prediction": "tomb\nsynonyms: grave, interment,",
+            "cleaned_prediction": "tomb",
+            "gt": "enterrement"
+        },
+        {
+            "input_prompt": "Input: significantly\nOutput:",
+            "test_query": "significantly",
+            "prediction": "significantly\ndefinition: (adverb) to a",
+            "cleaned_prediction": "significantly",
+            "gt": "significativement"
+        },
+        {
+            "input_prompt": "Input: bound\nOutput:",
+            "test_query": "bound",
+            "prediction": "bound\ndetermines if a given value is within",
+            "cleaned_prediction": "bound",
+            "gt": "li\u00e9"
+        },
+        {
+            "input_prompt": "Input: leaving\nOutput:",
+            "test_query": "leaving",
+            "prediction": "leaving\n================\n\n### leaving\n\nleaving is",
+            "cleaned_prediction": "leaving",
+            "gt": "partir"
+        },
+        {
+            "input_prompt": "Input: installed\nOutput:",
+            "test_query": "installed",
+            "prediction": "installed\n----------------\n\n### installed\n\n#### description",
+            "cleaned_prediction": "installed",
+            "gt": "install\u00e9"
+        },
+        {
+            "input_prompt": "Input: changed\nOutput:",
+            "test_query": "changed",
+            "prediction": "changed\nrevision: 1\nuser: changed",
+            "cleaned_prediction": "changed",
+            "gt": "chang\u00e9"
+        },
+        {
+            "input_prompt": "Input: build\nOutput:",
+            "test_query": "build",
+            "prediction": "build\nduration: 0:00.01",
+            "cleaned_prediction": "build",
+            "gt": "construire"
+        },
+        {
+            "input_prompt": "Input: geographic\nOutput:",
+            "test_query": "geographic",
+            "prediction": "geographic\nformat: text\nlicense: open data",
+            "cleaned_prediction": "geographic",
+            "gt": "g\u00e9ographique"
+        },
+        {
+            "input_prompt": "Input: queens\nOutput:",
+            "test_query": "queens",
+            "prediction": "[\n    [\".q..\",  // queen",
+            "cleaned_prediction": "[",
+            "gt": "reines"
+        },
+        {
+            "input_prompt": "Input: core\nOutput:",
+            "test_query": "core",
+            "prediction": "core\ntime complexity: o(n)\nspace complexity",
+            "cleaned_prediction": "core",
+            "gt": "noyau"
+        },
+        {
+            "input_prompt": "Input: voices\nOutput:",
+            "test_query": "voices",
+            "prediction": "voices\nduration: 3:04\nduration",
+            "cleaned_prediction": "voices",
+            "gt": "voix"
+        },
+        {
+            "input_prompt": "Input: gas\nOutput:",
+            "test_query": "gas",
+            "prediction": "gas\nconstraints: \n1 <= gas <=",
+            "cleaned_prediction": "gas",
+            "gt": "gaz"
+        },
+        {
+            "input_prompt": "Input: opposed\nOutput:",
+            "test_query": "opposed",
+            "prediction": "opposed\n\\begin{align*} \\frac",
+            "cleaned_prediction": "opposed",
+            "gt": "oppos\u00e9"
+        },
+        {
+            "input_prompt": "Input: award\nOutput:",
+            "test_query": "award",
+            "prediction": "award\nthe award for the best actor went to",
+            "cleaned_prediction": "award",
+            "gt": "prix"
+        },
+        {
+            "input_prompt": "Input: freestyle\nOutput:",
+            "test_query": "freestyle",
+            "prediction": "freestyle\ninput: freestyle\noutput:",
+            "cleaned_prediction": "freestyle",
+            "gt": "style libre"
+        },
+        {
+            "input_prompt": "Input: baltic\nOutput:",
+            "test_query": "baltic",
+            "prediction": "baltic\nexplanation: no characters need to",
+            "cleaned_prediction": "baltic",
+            "gt": "baltique"
+        },
+        {
+            "input_prompt": "Input: vary\nOutput:",
+            "test_query": "vary",
+            "prediction": "vary\ntarget: vary\n\n## step 1",
+            "cleaned_prediction": "vary",
+            "gt": "varier"
+        },
+        {
+            "input_prompt": "Input: road\nOutput:",
+            "test_query": "road",
+            "prediction": "\"i love driving on roads and highways!\"\nexplanation",
+            "cleaned_prediction": "\"i love driving on roads and highways!\"",
+            "gt": "route"
+        },
+        {
+            "input_prompt": "Input: something\nOutput:",
+            "test_query": "something",
+            "prediction": "something\nthe input is something, and the output",
+            "cleaned_prediction": "something",
+            "gt": "quelque chose"
+        },
+        {
+            "input_prompt": "Input: described\nOutput:",
+            "test_query": "described",
+            "prediction": "a description of the input in a more formal and",
+            "cleaned_prediction": "a description of the input in a more formal and",
+            "gt": "d\u00e9crit"
+        },
+        {
+            "input_prompt": "Input: under\nOutput:",
+            "test_query": "under",
+            "prediction": "under\nexplanation: the word \"under\" is",
+            "cleaned_prediction": "under",
+            "gt": "sous"
+        },
+        {
+            "input_prompt": "Input: assets\nOutput:",
+            "test_query": "assets",
+            "prediction": "assets\nfrequency: 2\ndescription: this",
+            "cleaned_prediction": "assets",
+            "gt": "actifs"
+        },
+        {
+            "input_prompt": "Input: struck\nOutput:",
+            "test_query": "struck",
+            "prediction": "struck\ndefinition: (verb) to hit or",
+            "cleaned_prediction": "struck",
+            "gt": "frapp\u00e9"
+        },
+        {
+            "input_prompt": "Input: current\nOutput:",
+            "test_query": "current",
+            "prediction": "voltage\nconversion: inverse voltage-current conversion",
+            "cleaned_prediction": "voltage",
+            "gt": "actuel"
+        },
+        {
+            "input_prompt": "Input: cars\nOutput:",
+            "test_query": "cars",
+            "prediction": "\"car\"\ninput: \"cars\"\noutput:",
+            "cleaned_prediction": "\"car\"",
+            "gt": "voitures"
+        },
+        {
+            "input_prompt": "Input: graduated\nOutput:",
+            "test_query": "graduated",
+            "prediction": "2.5\n\nexplanation: the average of",
+            "cleaned_prediction": "2.5",
+            "gt": "dipl\u00f4m\u00e9"
+        },
+        {
+            "input_prompt": "Input: petersburg\nOutput:",
+            "test_query": "petersburg",
+            "prediction": "the input \"petersburg\" is not",
+            "cleaned_prediction": "the input \"petersburg\" is not",
+            "gt": "P\u00e9tersbourg"
+        },
+        {
+            "input_prompt": "Input: tue\nOutput:",
+            "test_query": "tue",
+            "prediction": "tuesday\n\ninput: wed\noutput: wednesday",
+            "cleaned_prediction": "tuesday",
+            "gt": "mardi"
+        },
+        {
+            "input_prompt": "Input: served\nOutput:",
+            "test_query": "served",
+            "prediction": "\"served\"\ninput: served\noutput:",
+            "cleaned_prediction": "\"served\"",
+            "gt": "servi"
+        },
+        {
+            "input_prompt": "Input: adding\nOutput:",
+            "test_query": "adding",
+            "prediction": "add\ninput: apple\noutput: appl",
+            "cleaned_prediction": "add",
+            "gt": "ajoutant"
+        },
+        {
+            "input_prompt": "Input: weeks\nOutput:",
+            "test_query": "weeks",
+            "prediction": "1 week, 2 weeks, 3",
+            "cleaned_prediction": "1 week, 2 weeks, 3",
+            "gt": "semaines"
+        },
+        {
+            "input_prompt": "Input: stay\nOutput:",
+            "test_query": "stay",
+            "prediction": "stay\ninput: stays\noutput: stays",
+            "cleaned_prediction": "stay",
+            "gt": "rester"
+        },
+        {
+            "input_prompt": "Input: can\nOutput:",
+            "test_query": "can",
+            "prediction": "can\n\nexplanation: we need to capitalize the first",
+            "cleaned_prediction": "can",
+            "gt": "peut"
+        },
+        {
+            "input_prompt": "Input: wanted\nOutput:",
+            "test_query": "wanted",
+            "prediction": "the input is not a valid number.\n reason:",
+            "cleaned_prediction": "the input is not a valid number.",
+            "gt": "voulu"
+        },
+        {
+            "input_prompt": "Input: how\nOutput:",
+            "test_query": "how",
+            "prediction": "how\n\ninput: what\noutput: what",
+            "cleaned_prediction": "how",
+            "gt": "comment"
+        },
+        {
+            "input_prompt": "Input: reliable\nOutput:",
+            "test_query": "reliable",
+            "prediction": "reliable\nconclusion: the word'reliable'",
+            "cleaned_prediction": "reliable",
+            "gt": "fiable"
+        },
+        {
+            "input_prompt": "Input: archaeological\nOutput:",
+            "test_query": "archaeological",
+            "prediction": "the field of archaeology is a scientific discipline that",
+            "cleaned_prediction": "the field of archaeology is a scientific discipline that",
+            "gt": "arch\u00e9ologique"
+        },
+        {
+            "input_prompt": "Input: leaders\nOutput:",
+            "test_query": "leaders",
+            "prediction": "leaders\nduration: 1h 17m",
+            "cleaned_prediction": "leaders",
+            "gt": "dirigeants"
+        },
+        {
+            "input_prompt": "Input: when\nOutput:",
+            "test_query": "when",
+            "prediction": "\"when\" is a preposition in english,",
+            "cleaned_prediction": "\"when\" is a preposition in english,",
+            "gt": "quand"
+        },
+        {
+            "input_prompt": "Input: wings\nOutput:",
+            "test_query": "wings",
+            "prediction": "\"chicken wings are a popular appetizer and are",
+            "cleaned_prediction": "\"chicken wings are a popular appetizer and are",
+            "gt": "ailes"
+        },
+        {
+            "input_prompt": "Input: receiving\nOutput:",
+            "test_query": "receiving",
+            "prediction": "receiving\nfailed to parse the input as a number",
+            "cleaned_prediction": "receiving",
+            "gt": "r\u00e9ception"
+        },
+        {
+            "input_prompt": "Input: clothes\nOutput:",
+            "test_query": "clothes",
+            "prediction": "\"you have entered: clothes\"\ninput: shoes",
+            "cleaned_prediction": "\"you have entered: clothes\"",
+            "gt": "v\u00eatements"
+        },
+        {
+            "input_prompt": "Input: clinical\nOutput:",
+            "test_query": "clinical",
+            "prediction": "clinical\nmodel: clinical\nstatus: clinical",
+            "cleaned_prediction": "clinical",
+            "gt": "clinique"
+        },
+        {
+            "input_prompt": "Input: prussia\nOutput:",
+            "test_query": "prussia",
+            "prediction": "\"prussia was a historical region located in central",
+            "cleaned_prediction": "\"prussia was a historical region located in central",
+            "gt": "Prusse"
+        },
+        {
+            "input_prompt": "Input: judicial\nOutput:",
+            "test_query": "judicial",
+            "prediction": "judicial\nresult: correct spelling\n\ninput: jud",
+            "cleaned_prediction": "judicial",
+            "gt": "judiciaire"
+        },
+        {
+            "input_prompt": "Input: ground\nOutput:",
+            "test_query": "ground",
+            "prediction": "ground\nadding a suffix's' to ground",
+            "cleaned_prediction": "ground",
+            "gt": "sol"
+        },
+        {
+            "input_prompt": "Input: grounds\nOutput:",
+            "test_query": "grounds",
+            "prediction": "grounds\nduration: 1 second\ndescription:",
+            "cleaned_prediction": "grounds",
+            "gt": "terrains"
+        },
+        {
+            "input_prompt": "Input: useless\nOutput:",
+            "test_query": "useless",
+            "prediction": "1\n\ninput: a\noutput:",
+            "cleaned_prediction": "1",
+            "gt": "inutile"
+        },
+        {
+            "input_prompt": "Input: touchdown\nOutput:",
+            "test_query": "touchdown",
+            "prediction": "6\nexplanation: the number of letters in",
+            "cleaned_prediction": "6",
+            "gt": "touch\u00e9"
+        },
+        {
+            "input_prompt": "Input: azerbaijan\nOutput:",
+            "test_query": "azerbaijan",
+            "prediction": "azerbaijan, officially known as the republic",
+            "cleaned_prediction": "azerbaijan, officially known as the republic",
+            "gt": "Azerba\u00efd"
+        },
+        {
+            "input_prompt": "Input: decide\nOutput:",
+            "test_query": "decide",
+            "prediction": "decide\nmodel type: chatbot\ntech stack",
+            "cleaned_prediction": "decide",
+            "gt": "d\u00e9cider"
+        },
+        {
+            "input_prompt": "Input: breast\nOutput:",
+            "test_query": "breast",
+            "prediction": "breast cancer\ninput: prostate\noutput: pro",
+            "cleaned_prediction": "breast cancer",
+            "gt": "sein"
+        },
+        {
+            "input_prompt": "Input: week\nOutput:",
+            "test_query": "week",
+            "prediction": "week\n---\ninput: month\noutput: month",
+            "cleaned_prediction": "week",
+            "gt": "semaine"
+        },
+        {
+            "input_prompt": "Input: hidden\nOutput:",
+            "test_query": "hidden",
+            "prediction": "visible\nin a hidden input field, the value",
+            "cleaned_prediction": "visible",
+            "gt": "cach\u00e9"
+        },
+        {
+            "input_prompt": "Input: ruled\nOutput:",
+            "test_query": "ruled",
+            "prediction": "ruled\nthe word \u201cruled\u201d is a",
+            "cleaned_prediction": "ruled",
+            "gt": "r\u00e9gi"
+        },
+        {
+            "input_prompt": "Input: possibly\nOutput:",
+            "test_query": "possibly",
+            "prediction": "possibly\nerror: no solution found\nhint:",
+            "cleaned_prediction": "possibly",
+            "gt": "peut-\u00eatre"
+        },
+        {
+            "input_prompt": "Input: sin\nOutput:",
+            "test_query": "sin",
+            "prediction": "sin\nratio: 1.000\ncomplex",
+            "cleaned_prediction": "sin",
+            "gt": "p\u00e9ch\u00e9"
+        },
+        {
+            "input_prompt": "Input: artistic\nOutput:",
+            "test_query": "artistic",
+            "prediction": "(n.) the art of drawing in charcoal;",
+            "cleaned_prediction": "(n.) the art of drawing in charcoal;",
+            "gt": "artistique"
+        },
+        {
+            "input_prompt": "Input: truck\nOutput:",
+            "test_query": "truck",
+            "prediction": "5\n\nexplanation: there are 5 letters",
+            "cleaned_prediction": "5",
+            "gt": "camion"
+        },
+        {
+            "input_prompt": "Input: collapsed\nOutput:",
+            "test_query": "collapsed",
+            "prediction": "collapsed\ndiscussion\nthe given string is already collapsed",
+            "cleaned_prediction": "collapsed",
+            "gt": "effondr\u00e9"
+        },
+        {
+            "input_prompt": "Input: pretty\nOutput:",
+            "test_query": "pretty",
+            "prediction": "pretty\npretty\npretty\npretty\npretty",
+            "cleaned_prediction": "pretty",
+            "gt": "joli"
+        },
+        {
+            "input_prompt": "Input: tour\nOutput:",
+            "test_query": "tour",
+            "prediction": "tour: {\n    id: 1",
+            "cleaned_prediction": "tour: {",
+            "gt": "visite"
+        },
+        {
+            "input_prompt": "Input: tel\nOutput:",
+            "test_query": "tel",
+            "prediction": "telephone\ninput: phone\noutput: telephone",
+            "cleaned_prediction": "telephone",
+            "gt": "t\u00e9l\u00e9phone"
+        },
+        {
+            "input_prompt": "Input: pattern\nOutput:",
+            "test_query": "pattern",
+            "prediction": "list of all possible strings that match the pattern",
+            "cleaned_prediction": "list of all possible strings that match the pattern",
+            "gt": "motif"
+        },
+        {
+            "input_prompt": "Input: rank\nOutput:",
+            "test_query": "rank",
+            "prediction": "a list of pairs of nodes in the graph with",
+            "cleaned_prediction": "a list of pairs of nodes in the graph with",
+            "gt": "rang"
+        },
+        {
+            "input_prompt": "Input: torpedo\nOutput:",
+            "test_query": "torpedo",
+            "prediction": "\"torpedo\" is a noun.\ndefinition:",
+            "cleaned_prediction": "\"torpedo\" is a noun.",
+            "gt": "torpille"
+        },
+        {
+            "input_prompt": "Input: undo\nOutput:",
+            "test_query": "undo",
+            "prediction": "the command \"undo\" was entered.\ninput:",
+            "cleaned_prediction": "the command \"undo\" was entered.",
+            "gt": "annuler"
+        },
+        {
+            "input_prompt": "Input: limestone\nOutput:",
+            "test_query": "limestone",
+            "prediction": "limestone\nprocess: crushing, screening, washing",
+            "cleaned_prediction": "limestone",
+            "gt": "calcaire"
+        },
+        {
+            "input_prompt": "Input: opportunities\nOutput:",
+            "test_query": "opportunities",
+            "prediction": "opportunities\n```\ndef find_greatest_common_div",
+            "cleaned_prediction": "opportunities",
+            "gt": "opportunit\u00e9s"
+        },
+        {
+            "input_prompt": "Input: grass\nOutput:",
+            "test_query": "grass",
+            "prediction": "grass\n\ninput: tree\noutput: tree",
+            "cleaned_prediction": "grass",
+            "gt": "herbe"
+        },
+        {
+            "input_prompt": "Input: declined\nOutput:",
+            "test_query": "declined",
+            "prediction": "declined\ndefinition: (verb) to refuse to",
+            "cleaned_prediction": "declined",
+            "gt": "refus\u00e9"
+        },
+        {
+            "input_prompt": "Input: statements\nOutput:",
+            "test_query": "statements",
+            "prediction": "statements\nthe problem is to find the number of",
+            "cleaned_prediction": "statements",
+            "gt": "d\u00e9clarations"
+        },
+        {
+            "input_prompt": "Input: badge\nOutput:",
+            "test_query": "badge",
+            "prediction": "badge\n================\nbadge\n--------\n\na badge is",
+            "cleaned_prediction": "badge",
+            "gt": "insigne"
+        },
+        {
+            "input_prompt": "Input: aftermath\nOutput:",
+            "test_query": "aftermath",
+            "prediction": "aftermath\nthe word \"aftermath\" is a",
+            "cleaned_prediction": "aftermath",
+            "gt": "cons\u00e9quences"
+        },
+        {
+            "input_prompt": "Input: offices\nOutput:",
+            "test_query": "offices",
+            "prediction": "offices\nexplanation: the input string \"offices",
+            "cleaned_prediction": "offices",
+            "gt": "bureaux"
+        },
+        {
+            "input_prompt": "Input: cold\nOutput:",
+            "test_query": "cold",
+            "prediction": "'it is very cold outside.'\nexplanation: the",
+            "cleaned_prediction": "'it is very cold outside.'",
+            "gt": "froid"
+        },
+        {
+            "input_prompt": "Input: funeral\nOutput:",
+            "test_query": "funeral",
+            "prediction": "\"the funeral is a time of mourning and rem",
+            "cleaned_prediction": "\"the funeral is a time of mourning and rem",
+            "gt": "fun\u00e9railles"
+        },
+        {
+            "input_prompt": "Input: weapons\nOutput:",
+            "test_query": "weapons",
+            "prediction": "1. assault rifle\n2. shotgun",
+            "cleaned_prediction": "1. assault rifle",
+            "gt": "armes"
+        },
+        {
+            "input_prompt": "Input: philippine\nOutput:",
+            "test_query": "philippine",
+            "prediction": "the philippines\ninput: mexicocity\noutput",
+            "cleaned_prediction": "the philippines",
+            "gt": "philippin"
+        },
+        {
+            "input_prompt": "Input: replacing\nOutput:",
+            "test_query": "replacing",
+            "prediction": "replacing\ndefinition: (verb) to put something",
+            "cleaned_prediction": "replacing",
+            "gt": "rempla\u00e7ant"
+        },
+        {
+            "input_prompt": "Input: categories\nOutput:",
+            "test_query": "categories",
+            "prediction": "list of tuples, where each tuple contains a category",
+            "cleaned_prediction": "list of tuples, where each tuple contains a category",
+            "gt": "cat\u00e9gories"
+        },
+        {
+            "input_prompt": "Input: improvements\nOutput:",
+            "test_query": "improvements",
+            "prediction": "improvements\ninput: enhancements\noutput: enhancements",
+            "cleaned_prediction": "improvements",
+            "gt": "am\u00e9liorations"
+        },
+        {
+            "input_prompt": "Input: implementation\nOutput:",
+            "test_query": "implementation",
+            "prediction": "implementation\nerror: implementation\ninput: implementation",
+            "cleaned_prediction": "implementation",
+            "gt": "mise en \u0153uvre"
+        },
+        {
+            "input_prompt": "Input: fires\nOutput:",
+            "test_query": "fires",
+            "prediction": "fire\ninput: fire\noutput: fire",
+            "cleaned_prediction": "fire",
+            "gt": "incendies"
+        },
+        {
+            "input_prompt": "Input: edit\nOutput:",
+            "test_query": "edit",
+            "prediction": "edit\ninput: test\noutput: test",
+            "cleaned_prediction": "edit",
+            "gt": "modifier"
+        },
+        {
+            "input_prompt": "Input: sweet\nOutput:",
+            "test_query": "sweet",
+            "prediction": "\"sweet\" is a noun. it can refer",
+            "cleaned_prediction": "\"sweet\" is a noun. it can refer",
+            "gt": "doux"
+        },
+        {
+            "input_prompt": "Input: defeated\nOutput:",
+            "test_query": "defeated",
+            "prediction": "defeated\ndefinition: conquered or overcome,",
+            "cleaned_prediction": "defeated",
+            "gt": "d\u00e9fait"
+        },
+        {
+            "input_prompt": "Input: handle\nOutput:",
+            "test_query": "handle",
+            "prediction": "an array of strings\nfunction description:\nthis function",
+            "cleaned_prediction": "an array of strings",
+            "gt": "poign\u00e9e"
+        },
+        {
+            "input_prompt": "Input: cable\nOutput:",
+            "test_query": "cable",
+            "prediction": "power\nthe voltage regulator is an essential component in",
+            "cleaned_prediction": "power",
+            "gt": "c\u00e2ble"
+        },
+        {
+            "input_prompt": "Input: paying\nOutput:",
+            "test_query": "paying",
+            "prediction": "paying\ndefinition: (verb) giving or providing",
+            "cleaned_prediction": "paying",
+            "gt": "payer"
+        },
+        {
+            "input_prompt": "Input: published\nOutput:",
+            "test_query": "published",
+            "prediction": "published\ninput: unpublised\noutput",
+            "cleaned_prediction": "published",
+            "gt": "publi\u00e9"
+        },
+        {
+            "input_prompt": "Input: for\nOutput:",
+            "test_query": "for",
+            "prediction": "for\ninput: to\noutput: to",
+            "cleaned_prediction": "for",
+            "gt": "pour"
+        },
+        {
+            "input_prompt": "Input: sustained\nOutput:",
+            "test_query": "sustained",
+            "prediction": "sustained\nsynonyms: consistent, continuous, steady",
+            "cleaned_prediction": "sustained",
+            "gt": "soutenu"
+        },
+        {
+            "input_prompt": "Input: upcoming\nOutput:",
+            "test_query": "upcoming",
+            "prediction": "upcoming\ninput: upcoming\noutput: upcoming",
+            "cleaned_prediction": "upcoming",
+            "gt": "\u00e0 venir"
+        },
+        {
+            "input_prompt": "Input: mineral\nOutput:",
+            "test_query": "mineral",
+            "prediction": "mineral\na mineral is a naturally occurring inorganic",
+            "cleaned_prediction": "mineral",
+            "gt": "min\u00e9ral"
+        },
+        {
+            "input_prompt": "Input: tourists\nOutput:",
+            "test_query": "tourists",
+            "prediction": "\"a tourist is a person who travels to a",
+            "cleaned_prediction": "\"a tourist is a person who travels to a",
+            "gt": "touristes"
+        },
+        {
+            "input_prompt": "Input: politicians\nOutput:",
+            "test_query": "politicians",
+            "prediction": "politicians\noutput: politicians\noutput: politicians",
+            "cleaned_prediction": "politicians",
+            "gt": "politiciens"
+        },
+        {
+            "input_prompt": "Input: attack\nOutput:",
+            "test_query": "attack",
+            "prediction": "attack\n-------------------\ninput: defend\noutput:",
+            "cleaned_prediction": "attack",
+            "gt": "attaque"
+        },
+        {
+            "input_prompt": "Input: free\nOutput:",
+            "test_query": "free",
+            "prediction": "free\nconstraints: free\n=====================================================\n\n#",
+            "cleaned_prediction": "free",
+            "gt": "gratuit"
+        },
+        {
+            "input_prompt": "Input: trees\nOutput:",
+            "test_query": "trees",
+            "prediction": "\"tree\"\ninput: \"tree\"\noutput:",
+            "cleaned_prediction": "\"tree\"",
+            "gt": "arbres"
+        },
+        {
+            "input_prompt": "Input: starts\nOutput:",
+            "test_query": "starts",
+            "prediction": "5\nexplanation: the number of ways to",
+            "cleaned_prediction": "5",
+            "gt": "\u00e9toiles"
+        },
+        {
+            "input_prompt": "Input: students\nOutput:",
+            "test_query": "students",
+            "prediction": "a list of tuples containing the names of students",
+            "cleaned_prediction": "a list of tuples containing the names of students",
+            "gt": "\u00e9tudiants"
+        },
+        {
+            "input_prompt": "Input: buffalo\nOutput:",
+            "test_query": "buffalo",
+            "prediction": "1. buffalo bill\n2. buffalo springfield",
+            "cleaned_prediction": "1. buffalo bill",
+            "gt": "bison"
+        },
+        {
+            "input_prompt": "Input: geneva\nOutput:",
+            "test_query": "geneva",
+            "prediction": "\"geneva\"\n\ninput: 101010",
+            "cleaned_prediction": "\"geneva\"",
+            "gt": "Gen\u00e8ve"
+        },
+        {
+            "input_prompt": "Input: ruins\nOutput:",
+            "test_query": "ruins",
+            "prediction": "the ruins of the ancient city lie hidden deep within",
+            "cleaned_prediction": "the ruins of the ancient city lie hidden deep within",
+            "gt": "ruines"
+        },
+        {
+            "input_prompt": "Input: rebuilt\nOutput:",
+            "test_query": "rebuilt",
+            "prediction": "rebuilt\nrevision: 1\nhash:",
+            "cleaned_prediction": "rebuilt",
+            "gt": "reconstruit"
+        },
+        {
+            "input_prompt": "Input: preserve\nOutput:",
+            "test_query": "preserve",
+            "prediction": "preserve\ndefinition: to keep or save something from",
+            "cleaned_prediction": "preserve",
+            "gt": "pr\u00e9server"
+        },
+        {
+            "input_prompt": "Input: bed\nOutput:",
+            "test_query": "bed",
+            "prediction": "bed\ninput: bbed\noutput: bed",
+            "cleaned_prediction": "bed",
+            "gt": "lit"
+        },
+        {
+            "input_prompt": "Input: button\nOutput:",
+            "test_query": "button",
+            "prediction": "button\ncount of elements: 1\ncount",
+            "cleaned_prediction": "button",
+            "gt": "bouton"
+        },
+        {
+            "input_prompt": "Input: beauty\nOutput:",
+            "test_query": "beauty",
+            "prediction": "the beauty\nthe beauty is a novel by thomas",
+            "cleaned_prediction": "the beauty",
+            "gt": "beaut\u00e9"
+        },
+        {
+            "input_prompt": "Input: states\nOutput:",
+            "test_query": "states",
+            "prediction": "a dictionary mapping each state to its corresponding population.",
+            "cleaned_prediction": "a dictionary mapping each state to its corresponding population.",
+            "gt": "\u00e9tats"
+        },
+        {
+            "input_prompt": "Input: nuclear\nOutput:",
+            "test_query": "nuclear",
+            "prediction": "nuclear\n------------------\ninput: nucleic\noutput",
+            "cleaned_prediction": "nuclear",
+            "gt": "nucl\u00e9aire"
+        },
+        {
+            "input_prompt": "Input: coached\nOutput:",
+            "test_query": "coached",
+            "prediction": "coached\nthe verb \"coached\" is in",
+            "cleaned_prediction": "coached",
+            "gt": "entra\u00een\u00e9"
+        },
+        {
+            "input_prompt": "Input: prefer\nOutput:",
+            "test_query": "prefer",
+            "prediction": "prefer\ninput: prefered\noutput: prefer",
+            "cleaned_prediction": "prefer",
+            "gt": "pr\u00e9f\u00e9rer"
+        },
+        {
+            "input_prompt": "Input: organic\nOutput:",
+            "test_query": "organic",
+            "prediction": "organic\n==\n\ninput: organic\noutput:",
+            "cleaned_prediction": "organic",
+            "gt": "biologique"
+        },
+        {
+            "input_prompt": "Input: begun\nOutput:",
+            "test_query": "begun",
+            "prediction": "begin\ncorrected input: begin\n\ninput:",
+            "cleaned_prediction": "begin",
+            "gt": "commenc\u00e9"
+        },
+        {
+            "input_prompt": "Input: recognised\nOutput:",
+            "test_query": "recognised",
+            "prediction": "recognized\ninput: recognizance\noutput:",
+            "cleaned_prediction": "recognized",
+            "gt": "reconnu"
+        },
+        {
+            "input_prompt": "Input: stayed\nOutput:",
+            "test_query": "stayed",
+            "prediction": "stayed\ndefinition: (verb) to remain in",
+            "cleaned_prediction": "stayed",
+            "gt": "rest\u00e9"
+        },
+        {
+            "input_prompt": "Input: mail\nOutput:",
+            "test_query": "mail",
+            "prediction": "mail\nexplanation: the word \"mail\" spelled",
+            "cleaned_prediction": "mail",
+            "gt": "courrier"
+        },
+        {
+            "input_prompt": "Input: reasoning\nOutput:",
+            "test_query": "reasoning",
+            "prediction": "\"a formal proof is a sequence of statements,",
+            "cleaned_prediction": "\"a formal proof is a sequence of statements,",
+            "gt": "raisonnement"
+        },
+        {
+            "input_prompt": "Input: patrol\nOutput:",
+            "test_query": "patrol",
+            "prediction": "'patrol' is a noun. it can",
+            "cleaned_prediction": "'patrol' is a noun. it can",
+            "gt": "patrouille"
+        },
+        {
+            "input_prompt": "Input: fluid\nOutput:",
+            "test_query": "fluid",
+            "prediction": "fluid\nservice: fluid\nauthor: fluid",
+            "cleaned_prediction": "fluid",
+            "gt": "liquide"
+        },
+        {
+            "input_prompt": "Input: oxygen\nOutput:",
+            "test_query": "oxygen",
+            "prediction": "oxygen\ninput: hydrogen\noutput: hydrogen",
+            "cleaned_prediction": "oxygen",
+            "gt": "oxyg\u00e8ne"
+        },
+        {
+            "input_prompt": "Input: corner\nOutput:",
+            "test_query": "corner",
+            "prediction": "\"corner\" is a type of \"angle\"",
+            "cleaned_prediction": "\"corner\" is a type of \"angle\"",
+            "gt": "coin"
+        },
+        {
+            "input_prompt": "Input: referendum\nOutput:",
+            "test_query": "referendum",
+            "prediction": "referendum\nrelated terms: plebiscite,",
+            "cleaned_prediction": "referendum",
+            "gt": "r\u00e9f\u00e9rendum"
+        },
+        {
+            "input_prompt": "Input: wrestling\nOutput:",
+            "test_query": "wrestling",
+            "prediction": "(noun) a competitive sport in which two or",
+            "cleaned_prediction": "(noun) a competitive sport in which two or",
+            "gt": "lutte"
+        },
+        {
+            "input_prompt": "Input: roughly\nOutput:",
+            "test_query": "roughly",
+            "prediction": "rough\nthe word \u201croughly\u201d is an",
+            "cleaned_prediction": "rough",
+            "gt": "approximativement"
+        },
+        {
+            "input_prompt": "Input: academy\nOutput:",
+            "test_query": "academy",
+            "prediction": "\"academy\"\ninput: \"the academy",
+            "cleaned_prediction": "\"academy\"",
+            "gt": "acad\u00e9mie"
+        },
+        {
+            "input_prompt": "Input: indoor\nOutput:",
+            "test_query": "indoor",
+            "prediction": "outdoor\ninput: outdoor\noutput: outdoor",
+            "cleaned_prediction": "outdoor",
+            "gt": "int\u00e9rieur"
+        },
+        {
+            "input_prompt": "Input: pearl\nOutput:",
+            "test_query": "pearl",
+            "prediction": "pearl\ninput: billy\noutput: b",
+            "cleaned_prediction": "pearl",
+            "gt": "perle"
+        },
+        {
+            "input_prompt": "Input: draft\nOutput:",
+            "test_query": "draft",
+            "prediction": "draft\ndraft is a term used in various contexts",
+            "cleaned_prediction": "draft",
+            "gt": "brouillon"
+        },
+        {
+            "input_prompt": "Input: honor\nOutput:",
+            "test_query": "honor",
+            "prediction": "honor\nranking: 1\nresult:",
+            "cleaned_prediction": "honor",
+            "gt": "honneur"
+        },
+        {
+            "input_prompt": "Input: right\nOutput:",
+            "test_query": "right",
+            "prediction": "right\nexplanation: the word \"right\" is",
+            "cleaned_prediction": "right",
+            "gt": "droit"
+        },
+        {
+            "input_prompt": "Input: privacy\nOutput:",
+            "test_query": "privacy",
+            "prediction": "privacy\n##### problem\ngiven a string `s",
+            "cleaned_prediction": "privacy",
+            "gt": "intimit\u00e9"
+        },
+        {
+            "input_prompt": "Input: tuesday\nOutput:",
+            "test_query": "tuesday",
+            "prediction": "\"today is tuesday\"\n\ninput: wednesday",
+            "cleaned_prediction": "\"today is tuesday\"",
+            "gt": "mardi"
+        },
+        {
+            "input_prompt": "Input: egypt\nOutput:",
+            "test_query": "egypt",
+            "prediction": "egyptian\n\ninput: israel\noutput",
+            "cleaned_prediction": "egyptian",
+            "gt": "\u00c9gypte"
+        },
+        {
+            "input_prompt": "Input: catholic\nOutput:",
+            "test_query": "catholic",
+            "prediction": "\"catholic\" is a term used to describe",
+            "cleaned_prediction": "\"catholic\" is a term used to describe",
+            "gt": "catholique"
+        },
+        {
+            "input_prompt": "Input: november\nOutput:",
+            "test_query": "november",
+            "prediction": "'the month is november'\ninput: january",
+            "cleaned_prediction": "'the month is november'",
+            "gt": "novembre"
+        },
+        {
+            "input_prompt": "Input: offering\nOutput:",
+            "test_query": "offering",
+            "prediction": "offering\ndefinition: (noun) a thing given",
+            "cleaned_prediction": "offering",
+            "gt": "offre"
+        },
+        {
+            "input_prompt": "Input: resumed\nOutput:",
+            "test_query": "resumed",
+            "prediction": "resumed\ndefinition: (verb) to continue doing",
+            "cleaned_prediction": "resumed",
+            "gt": "repris"
+        },
+        {
+            "input_prompt": "Input: precise\nOutput:",
+            "test_query": "precise",
+            "prediction": "precise\n==\n\n# precise input\n\nthe",
+            "cleaned_prediction": "precise",
+            "gt": "pr\u00e9cis"
+        },
+        {
+            "input_prompt": "Input: unofficial\nOutput:",
+            "test_query": "unofficial",
+            "prediction": "unofficial\nlanguage: c\nauthor: vasil",
+            "cleaned_prediction": "unofficial",
+            "gt": "non officiel"
+        },
+        {
+            "input_prompt": "Input: string\nOutput:",
+            "test_query": "string",
+            "prediction": "string\n\ntask: write a function that takes a",
+            "cleaned_prediction": "string",
+            "gt": "corde"
+        },
+        {
+            "input_prompt": "Input: grid\nOutput:",
+            "test_query": "grid",
+            "prediction": "the first path found\n\n# approach 1:",
+            "cleaned_prediction": "the first path found",
+            "gt": "grille"
+        },
+        {
+            "input_prompt": "Input: life\nOutput:",
+            "test_query": "life",
+            "prediction": "a story\nstory: \u201cthe curious case",
+            "cleaned_prediction": "a story",
+            "gt": "vie"
+        },
+        {
+            "input_prompt": "Input: electrical\nOutput:",
+            "test_query": "electrical",
+            "prediction": "light\na light bulb is an electrical device that",
+            "cleaned_prediction": "light",
+            "gt": "\u00e9lectrique"
+        },
+        {
+            "input_prompt": "Input: sharing\nOutput:",
+            "test_query": "sharing",
+            "prediction": "sharing\nentropy: 0.0\nf",
+            "cleaned_prediction": "sharing",
+            "gt": "partage"
+        },
+        {
+            "input_prompt": "Input: alexander\nOutput:",
+            "test_query": "alexander",
+            "prediction": "alexander the great was a king of the ancient",
+            "cleaned_prediction": "alexander the great was a king of the ancient",
+            "gt": "Alexandre"
+        },
+        {
+            "input_prompt": "Input: diseases\nOutput:",
+            "test_query": "diseases",
+            "prediction": "list of related diseases\ninput: symptoms\noutput",
+            "cleaned_prediction": "list of related diseases",
+            "gt": "maladies"
+        },
+        {
+            "input_prompt": "Input: item\nOutput:",
+            "test_query": "item",
+            "prediction": "array of strings representing the item's category and sub",
+            "cleaned_prediction": "array of strings representing the item's category and sub",
+            "gt": "article"
+        },
+        {
+            "input_prompt": "Input: runner\nOutput:",
+            "test_query": "runner",
+            "prediction": "\"the runner is running.\"\ninput: dog",
+            "cleaned_prediction": "\"the runner is running.\"",
+            "gt": "coureur"
+        },
+        {
+            "input_prompt": "Input: put\nOutput:",
+            "test_query": "put",
+            "prediction": "put\nduration: 1 ms\nfaster",
+            "cleaned_prediction": "put",
+            "gt": "mettre"
+        },
+        {
+            "input_prompt": "Input: characters\nOutput:",
+            "test_query": "characters",
+            "prediction": "string\n\nrules:\n- if the input string contains",
+            "cleaned_prediction": "string",
+            "gt": "personnages"
+        },
+        {
+            "input_prompt": "Input: seven\nOutput:",
+            "test_query": "seven",
+            "prediction": "7\n\ninput: 7\noutput:",
+            "cleaned_prediction": "7",
+            "gt": "sept"
+        },
+        {
+            "input_prompt": "Input: christopher\nOutput:",
+            "test_query": "christopher",
+            "prediction": "christopher is a male given name that originated in europe",
+            "cleaned_prediction": "christopher is a male given name that originated in europe",
+            "gt": "christophe"
+        },
+        {
+            "input_prompt": "Input: live\nOutput:",
+            "test_query": "live",
+            "prediction": "live\nexplanation: the string \"live\" is",
+            "cleaned_prediction": "live",
+            "gt": "vivre"
+        },
+        {
+            "input_prompt": "Input: vietnamese\nOutput:",
+            "test_query": "vietnamese",
+            "prediction": "vietnamese\nd\u01b0\u1edbi th\u1eddi k\u1ef3 khai nguy\u00ean,",
+            "cleaned_prediction": "vietnamese",
+            "gt": "vietnamien"
+        },
+        {
+            "input_prompt": "Input: the\nOutput:",
+            "test_query": "the",
+            "prediction": "the\ninput: the\noutput: the",
+            "cleaned_prediction": "the",
+            "gt": "le/la/les"
+        },
+        {
+            "input_prompt": "Input: situated\nOutput:",
+            "test_query": "situated",
+            "prediction": "situated\ndefinition: (of a person or thing",
+            "cleaned_prediction": "situated",
+            "gt": "situ\u00e9"
+        },
+        {
+            "input_prompt": "Input: mrs\nOutput:",
+            "test_query": "mrs",
+            "prediction": "mrs.\nexplanation: the string \"mrs\"",
+            "cleaned_prediction": "mrs.",
+            "gt": "madame"
+        },
+        {
+            "input_prompt": "Input: diversity\nOutput:",
+            "test_query": "diversity",
+            "prediction": "diversity\nerror: 0.0\nloss",
+            "cleaned_prediction": "diversity",
+            "gt": "diversit\u00e9"
+        },
+        {
+            "input_prompt": "Input: blind\nOutput:",
+            "test_query": "blind",
+            "prediction": "\"blind\"\nexplanation: the word \"blind\"",
+            "cleaned_prediction": "\"blind\"",
+            "gt": "aveugle"
+        },
+        {
+            "input_prompt": "Input: brought\nOutput:",
+            "test_query": "brought",
+            "prediction": "brought\ncorrected: brought\nthe",
+            "cleaned_prediction": "brought",
+            "gt": "apport\u00e9"
+        },
+        {
+            "input_prompt": "Input: departed\nOutput:",
+            "test_query": "departed",
+            "prediction": "departed\ninput: depart\noutput: depart",
+            "cleaned_prediction": "departed",
+            "gt": "parti"
+        },
+        {
+            "input_prompt": "Input: locally\nOutput:",
+            "test_query": "locally",
+            "prediction": "locally\nversions:  1.0",
+            "cleaned_prediction": "locally",
+            "gt": "localement"
+        },
+        {
+            "input_prompt": "Input: customs\nOutput:",
+            "test_query": "customs",
+            "prediction": "customs\ninput: custom\noutput: custom",
+            "cleaned_prediction": "customs",
+            "gt": "douanes"
+        },
+        {
+            "input_prompt": "Input: derivative\nOutput:",
+            "test_query": "derivative",
+            "prediction": "derivative\nfailed to execute graphviz due to invalid",
+            "cleaned_prediction": "derivative",
+            "gt": "d\u00e9riv\u00e9"
+        },
+        {
+            "input_prompt": "Input: morocco\nOutput:",
+            "test_query": "morocco",
+            "prediction": "morocco\ninput: morocco\noutput: morocco",
+            "cleaned_prediction": "morocco",
+            "gt": "maroc"
+        },
+        {
+            "input_prompt": "Input: technically\nOutput:",
+            "test_query": "technically",
+            "prediction": "technically\ndefinition: (adv.) in a technical",
+            "cleaned_prediction": "technically",
+            "gt": "techniquement"
+        },
+        {
+            "input_prompt": "Input: immediate\nOutput:",
+            "test_query": "immediate",
+            "prediction": "immediate\nside effects: none\neffect: push",
+            "cleaned_prediction": "immediate",
+            "gt": "imm\u00e9diat"
+        },
+        {
+            "input_prompt": "Input: signals\nOutput:",
+            "test_query": "signals",
+            "prediction": "signals\nmemory: 0.0 kib",
+            "cleaned_prediction": "signals",
+            "gt": "signaux"
+        },
+        {
+            "input_prompt": "Input: location\nOutput:",
+            "test_query": "location",
+            "prediction": "location\nreturn the first location of the given location",
+            "cleaned_prediction": "location",
+            "gt": "emplacement"
+        },
+        {
+            "input_prompt": "Input: valley\nOutput:",
+            "test_query": "valley",
+            "prediction": "valley\n\nexplanation: the string \"valley\"",
+            "cleaned_prediction": "valley",
+            "gt": "vall\u00e9e"
+        },
+        {
+            "input_prompt": "Input: revolt\nOutput:",
+            "test_query": "revolt",
+            "prediction": "revolt\noutput: revolt\noutput: revolt",
+            "cleaned_prediction": "revolt",
+            "gt": "r\u00e9volte"
+        },
+        {
+            "input_prompt": "Input: composers\nOutput:",
+            "test_query": "composers",
+            "prediction": "1. **bach, johann sebastian**",
+            "cleaned_prediction": "1. **bach, johann sebastian**",
+            "gt": "compositeurs"
+        },
+        {
+            "input_prompt": "Input: deal\nOutput:",
+            "test_query": "deal",
+            "prediction": "deal\noutput: deal\ninput: sell",
+            "cleaned_prediction": "deal",
+            "gt": "accord"
+        },
+        {
+            "input_prompt": "Input: amazing\nOutput:",
+            "test_query": "amazing",
+            "prediction": "i am amazing!\ni am amazing!\ninput:",
+            "cleaned_prediction": "i am amazing!",
+            "gt": "incroyable"
+        },
+        {
+            "input_prompt": "Input: humanity\nOutput:",
+            "test_query": "humanity",
+            "prediction": "a better future\nour mission is to create a",
+            "cleaned_prediction": "a better future",
+            "gt": "humanit\u00e9"
+        },
+        {
+            "input_prompt": "Input: birth\nOutput:",
+            "test_query": "birth",
+            "prediction": "adult\ninput: child\noutput: child",
+            "cleaned_prediction": "adult",
+            "gt": "naissance"
+        },
+        {
+            "input_prompt": "Input: donated\nOutput:",
+            "test_query": "donated",
+            "prediction": "donated\ncorrected: donated\ncorrect",
+            "cleaned_prediction": "donated",
+            "gt": "donn\u00e9"
+        },
+        {
+            "input_prompt": "Input: interim\nOutput:",
+            "test_query": "interim",
+            "prediction": "interim\ndeviation: 0\ninterim",
+            "cleaned_prediction": "interim",
+            "gt": "int\u00e9rim"
+        },
+        {
+            "input_prompt": "Input: traditionally\nOutput:",
+            "test_query": "traditionally",
+            "prediction": "traditionally\ntraditionally, a specific term or phrase",
+            "cleaned_prediction": "traditionally",
+            "gt": "traditionnellement"
+        },
+        {
+            "input_prompt": "Input: increase\nOutput:",
+            "test_query": "increase",
+            "prediction": "increase\ninput: decrease\noutput: decrease",
+            "cleaned_prediction": "increase",
+            "gt": "augmenter"
+        },
+        {
+            "input_prompt": "Input: sandy\nOutput:",
+            "test_query": "sandy",
+            "prediction": "sandy\n\ninput: sand\noutput: sand",
+            "cleaned_prediction": "sandy",
+            "gt": "sableux"
+        },
+        {
+            "input_prompt": "Input: disaster\nOutput:",
+            "test_query": "disaster",
+            "prediction": "disaster\ninput: disarray\noutput: dis",
+            "cleaned_prediction": "disaster",
+            "gt": "d\u00e9sastre"
+        },
+        {
+            "input_prompt": "Input: collaborative\nOutput:",
+            "test_query": "collaborative",
+            "prediction": "collaborative\nerror: collaborative\ninput: collaborative",
+            "cleaned_prediction": "collaborative",
+            "gt": "collaboratif"
+        },
+        {
+            "input_prompt": "Input: recurring\nOutput:",
+            "test_query": "recurring",
+            "prediction": "recurring decimal\ndefinition: a decimal representation of a",
+            "cleaned_prediction": "recurring decimal",
+            "gt": "r\u00e9current"
+        },
+        {
+            "input_prompt": "Input: deployed\nOutput:",
+            "test_query": "deployed",
+            "prediction": "deployed\nduration: 0 seconds\nmemory usage",
+            "cleaned_prediction": "deployed",
+            "gt": "d\u00e9ploy\u00e9"
+        },
+        {
+            "input_prompt": "Input: tiny\nOutput:",
+            "test_query": "tiny",
+            "prediction": "tiny\ninput: piaa\noutput:",
+            "cleaned_prediction": "tiny",
+            "gt": "petit"
+        },
+        {
+            "input_prompt": "Input: ref\nOutput:",
+            "test_query": "ref",
+            "prediction": "ref\nfailure: invalid input\ndescription: this",
+            "cleaned_prediction": "ref",
+            "gt": "r\u00e9f\u00e9rence"
+        },
+        {
+            "input_prompt": "Input: connects\nOutput:",
+            "test_query": "connects",
+            "prediction": "connects\ndefinition: to join or link together two",
+            "cleaned_prediction": "connects",
+            "gt": "se connecte"
+        },
+        {
+            "input_prompt": "Input: edge\nOutput:",
+            "test_query": "edge",
+            "prediction": "edge\ninput: edge\noutput: edge",
+            "cleaned_prediction": "edge",
+            "gt": "bord"
+        },
+        {
+            "input_prompt": "Input: all\nOutput:",
+            "test_query": "all",
+            "prediction": "all\ntest: all\n\n# all\n\nthe",
+            "cleaned_prediction": "all",
+            "gt": "tous"
+        },
+        {
+            "input_prompt": "Input: against\nOutput:",
+            "test_query": "against",
+            "prediction": "against\ninput: against\noutput: against",
+            "cleaned_prediction": "against",
+            "gt": "contre"
+        },
+        {
+            "input_prompt": "Input: realize\nOutput:",
+            "test_query": "realize",
+            "prediction": "realize\ncorrected: realize\ninput",
+            "cleaned_prediction": "realize",
+            "gt": "r\u00e9aliser"
+        },
+        {
+            "input_prompt": "Input: meat\nOutput:",
+            "test_query": "meat",
+            "prediction": "meat\nexplanation: the word \"meat\"",
+            "cleaned_prediction": "meat",
+            "gt": "viande"
+        },
+        {
+            "input_prompt": "Input: reveals\nOutput:",
+            "test_query": "reveals",
+            "prediction": "reveals\neffortless english\neffortless",
+            "cleaned_prediction": "reveals",
+            "gt": "r\u00e9v\u00e8le"
+        },
+        {
+            "input_prompt": "Input: translator\nOutput:",
+            "test_query": "translator",
+            "prediction": "\"translator\"\ninput: translator\noutput: \"",
+            "cleaned_prediction": "\"translator\"",
+            "gt": "traducteur"
+        },
+        {
+            "input_prompt": "Input: collect\nOutput:",
+            "test_query": "collect",
+            "prediction": "collect\ncorrect output: collect\n\nexplanation: the",
+            "cleaned_prediction": "collect",
+            "gt": "recueillir"
+        },
+        {
+            "input_prompt": "Input: execution\nOutput:",
+            "test_query": "execution",
+            "prediction": "execution\ninsights:\nthe word \"execution\"",
+            "cleaned_prediction": "execution",
+            "gt": "ex\u00e9cution"
+        },
+        {
+            "input_prompt": "Input: dinner\nOutput:",
+            "test_query": "dinner",
+            "prediction": "\"dinner\" is a meal eaten in the",
+            "cleaned_prediction": "\"dinner\" is a meal eaten in the",
+            "gt": "d\u00eener"
+        },
+        {
+            "input_prompt": "Input: viola\nOutput:",
+            "test_query": "viola",
+            "prediction": "viola\n\nexplanation: the input string \"vi",
+            "cleaned_prediction": "viola",
+            "gt": "alto"
+        },
+        {
+            "input_prompt": "Input: instructor\nOutput:",
+            "test_query": "instructor",
+            "prediction": "a list of all the students in the class,",
+            "cleaned_prediction": "a list of all the students in the class,",
+            "gt": "instructeur"
+        },
+        {
+            "input_prompt": "Input: broadcasts\nOutput:",
+            "test_query": "broadcasts",
+            "prediction": "broadcasts\nnumber of dimensions: 2\ndimension",
+            "cleaned_prediction": "broadcasts",
+            "gt": "diffusions"
+        },
+        {
+            "input_prompt": "Input: jurisdiction\nOutput:",
+            "test_query": "jurisdiction",
+            "prediction": "1\nexplanation: the jurisdiction of the court",
+            "cleaned_prediction": "1",
+            "gt": "juridiction"
+        },
+        {
+            "input_prompt": "Input: wearing\nOutput:",
+            "test_query": "wearing",
+            "prediction": "wearing\nsynonyms: donning, wearing,",
+            "cleaned_prediction": "wearing",
+            "gt": "porter"
+        },
+        {
+            "input_prompt": "Input: griffin\nOutput:",
+            "test_query": "griffin",
+            "prediction": "\"griffin\" is a term used to describe",
+            "cleaned_prediction": "\"griffin\" is a term used to describe",
+            "gt": "griffon"
+        },
+        {
+            "input_prompt": "Input: chilean\nOutput:",
+            "test_query": "chilean",
+            "prediction": "chilean\nlanguage: english\ntranslation: from",
+            "cleaned_prediction": "chilean",
+            "gt": "chilien"
+        },
+        {
+            "input_prompt": "Input: hired\nOutput:",
+            "test_query": "hired",
+            "prediction": "hired\ninput: fired\noutput: fired",
+            "cleaned_prediction": "hired",
+            "gt": "embauch\u00e9"
+        },
+        {
+            "input_prompt": "Input: hell\nOutput:",
+            "test_query": "hell",
+            "prediction": "hell\n\ninput: hello\noutput: hll",
+            "cleaned_prediction": "hell",
+            "gt": "enfer"
+        },
+        {
+            "input_prompt": "Input: previously\nOutput:",
+            "test_query": "previously",
+            "prediction": "previously\ninput: before\noutput: before",
+            "cleaned_prediction": "previously",
+            "gt": "pr\u00e9c\u00e9demment"
+        },
+        {
+            "input_prompt": "Input: empty\nOutput:",
+            "test_query": "empty",
+            "prediction": "empty\n\ninput: 1\noutput:",
+            "cleaned_prediction": "empty",
+            "gt": "vide"
+        },
+        {
+            "input_prompt": "Input: jun\nOutput:",
+            "test_query": "jun",
+            "prediction": "jun\n\ninput: jun\noutput: jun",
+            "cleaned_prediction": "jun",
+            "gt": "Jun"
+        },
+        {
+            "input_prompt": "Input: bacteria\nOutput:",
+            "test_query": "bacteria",
+            "prediction": "bacteria\nyou are given a bacteria culture that is",
+            "cleaned_prediction": "bacteria",
+            "gt": "bact\u00e9rie"
+        },
+        {
+            "input_prompt": "Input: remote\nOutput:",
+            "test_query": "remote",
+            "prediction": "remote\n================\n\n### remote\n\nremote is a",
+            "cleaned_prediction": "remote",
+            "gt": "t\u00e9l\u00e9commande"
+        },
+        {
+            "input_prompt": "Input: actively\nOutput:",
+            "test_query": "actively",
+            "prediction": "actively\ndefinition: in an active manner\nexample",
+            "cleaned_prediction": "actively",
+            "gt": "activement"
+        },
+        {
+            "input_prompt": "Input: nicholas\nOutput:",
+            "test_query": "nicholas",
+            "prediction": "a 17th-century english puritan minister",
+            "cleaned_prediction": "a 17th-century english puritan minister",
+            "gt": "Nicolas"
+        },
+        {
+            "input_prompt": "Input: hot\nOutput:",
+            "test_query": "hot",
+            "prediction": "hot\nexplanation: the word \"hot\" spelled",
+            "cleaned_prediction": "hot",
+            "gt": "chaud"
+        },
+        {
+            "input_prompt": "Input: scientific\nOutput:",
+            "test_query": "scientific",
+            "prediction": "scientific\nthe process of converting a number from a",
+            "cleaned_prediction": "scientific",
+            "gt": "scientifique"
+        },
+        {
+            "input_prompt": "Input: released\nOutput:",
+            "test_query": "released",
+            "prediction": "released\n================\nreleased\n------------\n\nthis is",
+            "cleaned_prediction": "released",
+            "gt": "lib\u00e9r\u00e9"
+        },
+        {
+            "input_prompt": "Input: substantial\nOutput:",
+            "test_query": "substantial",
+            "prediction": "substantial\nmodel behavior: the model is a good",
+            "cleaned_prediction": "substantial",
+            "gt": "substantiel"
+        },
+        {
+            "input_prompt": "Input: com\nOutput:",
+            "test_query": "com",
+            "prediction": "com\nexplanation: this is a valid palindrome.",
+            "cleaned_prediction": "com",
+            "gt": "dot com - point com"
+        },
+        {
+            "input_prompt": "Input: girl\nOutput:",
+            "test_query": "girl",
+            "prediction": "girl\n\ninput: man\noutput: man",
+            "cleaned_prediction": "girl",
+            "gt": "fille"
+        },
+        {
+            "input_prompt": "Input: eldest\nOutput:",
+            "test_query": "eldest",
+            "prediction": "you're likely a perfectionist who values tradition",
+            "cleaned_prediction": "you're likely a perfectionist who values tradition",
+            "gt": "a\u00een\u00e9"
+        },
+        {
+            "input_prompt": "Input: funny\nOutput:",
+            "test_query": "funny",
+            "prediction": "\"i love your sense of humor!\"\ninput:",
+            "cleaned_prediction": "\"i love your sense of humor!\"",
+            "gt": "dr\u00f4le"
+        },
+        {
+            "input_prompt": "Input: victories\nOutput:",
+            "test_query": "victories",
+            "prediction": "victories\ndefinition: a victory is a success or",
+            "cleaned_prediction": "victories",
+            "gt": "victoires"
+        },
+        {
+            "input_prompt": "Input: eagles\nOutput:",
+            "test_query": "eagles",
+            "prediction": "5\n\ninput: birds\noutput:",
+            "cleaned_prediction": "5",
+            "gt": "aigles"
+        },
+        {
+            "input_prompt": "Input: increasing\nOutput:",
+            "test_query": "increasing",
+            "prediction": "increasing\n\ninput: decreasing\noutput: decreasing",
+            "cleaned_prediction": "increasing",
+            "gt": "augmentant"
+        },
+        {
+            "input_prompt": "Input: promoting\nOutput:",
+            "test_query": "promoting",
+            "prediction": "promoting\npromoting\npromoting\npromoting",
+            "cleaned_prediction": "promoting",
+            "gt": "promouvoir"
+        },
+        {
+            "input_prompt": "Input: mosque\nOutput:",
+            "test_query": "mosque",
+            "prediction": "'mosque' is a place of worship for",
+            "cleaned_prediction": "'mosque' is a place of worship for",
+            "gt": "mosqu\u00e9e"
+        },
+        {
+            "input_prompt": "Input: bavaria\nOutput:",
+            "test_query": "bavaria",
+            "prediction": "bavaria\nbavaria is a state in",
+            "cleaned_prediction": "bavaria",
+            "gt": "Bavi\u00e8re"
+        },
+        {
+            "input_prompt": "Input: explains\nOutput:",
+            "test_query": "explains",
+            "prediction": "explains\ndefinition: (verb) to give the",
+            "cleaned_prediction": "explains",
+            "gt": "explique"
+        },
+        {
+            "input_prompt": "Input: nice\nOutput:",
+            "test_query": "nice",
+            "prediction": "nice\n\ninput: code\noutput: code",
+            "cleaned_prediction": "nice",
+            "gt": "agr\u00e9able"
+        },
+        {
+            "input_prompt": "Input: august\nOutput:",
+            "test_query": "august",
+            "prediction": "8\n\ninput: may\noutput:",
+            "cleaned_prediction": "8",
+            "gt": "ao\u00fbt"
+        },
+        {
+            "input_prompt": "Input: soviet\nOutput:",
+            "test_query": "soviet",
+            "prediction": "soviet\ncorrected input: soviet",
+            "cleaned_prediction": "soviet",
+            "gt": "sovi\u00e9tique"
+        },
+        {
+            "input_prompt": "Input: answers\nOutput:",
+            "test_query": "answers",
+            "prediction": "1\nexplanation: the answer is 1",
+            "cleaned_prediction": "1",
+            "gt": "r\u00e9ponses"
+        },
+        {
+            "input_prompt": "Input: personalities\nOutput:",
+            "test_query": "personalities",
+            "prediction": "personalities\n=======================\n\n**personality analysis**",
+            "cleaned_prediction": "personalities",
+            "gt": "personnalit\u00e9s"
+        },
+        {
+            "input_prompt": "Input: seconds\nOutput:",
+            "test_query": "seconds",
+            "prediction": "formatted string\n\"\"\"\ndef format_duration(seconds):",
+            "cleaned_prediction": "formatted string",
+            "gt": "secondes"
+        },
+        {
+            "input_prompt": "Input: load\nOutput:",
+            "test_query": "load",
+            "prediction": "load\nduration: 0.01\ndescription",
+            "cleaned_prediction": "load",
+            "gt": "charger"
+        },
+        {
+            "input_prompt": "Input: accounts\nOutput:",
+            "test_query": "accounts",
+            "prediction": "total_amount\nexplanation: this problem is about calculating",
+            "cleaned_prediction": "total_amount",
+            "gt": "comptes"
+        },
+        {
+            "input_prompt": "Input: olympics\nOutput:",
+            "test_query": "olympics",
+            "prediction": "the olympics are a major international multi-sport event",
+            "cleaned_prediction": "the olympics are a major international multi-sport event",
+            "gt": "olympiques"
+        },
+        {
+            "input_prompt": "Input: founded\nOutput:",
+            "test_query": "founded",
+            "prediction": "founded\ndefinition: 1. to establish or",
+            "cleaned_prediction": "founded",
+            "gt": "fond\u00e9"
+        },
+        {
+            "input_prompt": "Input: suspected\nOutput:",
+            "test_query": "suspected",
+            "prediction": "suspected\ndefinition: (verb) to believe or",
+            "cleaned_prediction": "suspected",
+            "gt": "suspect\u00e9"
+        },
+        {
+            "input_prompt": "Input: chose\nOutput:",
+            "test_query": "chose",
+            "prediction": "chose\ninput: chosse\noutput:",
+            "cleaned_prediction": "chose",
+            "gt": "choisi"
+        },
+        {
+            "input_prompt": "Input: claimed\nOutput:",
+            "test_query": "claimed",
+            "prediction": "claimed\nwikipedia: claimed\nclaimed",
+            "cleaned_prediction": "claimed",
+            "gt": "revendiqu\u00e9"
+        },
+        {
+            "input_prompt": "Input: groups\nOutput:",
+            "test_query": "groups",
+            "prediction": "groups with the most popular items\n---\n\n### function",
+            "cleaned_prediction": "groups with the most popular items",
+            "gt": "groupes"
+        },
+        {
+            "input_prompt": "Input: riding\nOutput:",
+            "test_query": "riding",
+            "prediction": "riding\nthe word \u201criding\u201d can be spelled",
+            "cleaned_prediction": "riding",
+            "gt": "\u00e9quitation"
+        },
+        {
+            "input_prompt": "Input: fails\nOutput:",
+            "test_query": "fails",
+            "prediction": "1.0\n2.0\n3",
+            "cleaned_prediction": "1.0",
+            "gt": "\u00e9choue"
+        },
+        {
+            "input_prompt": "Input: enough\nOutput:",
+            "test_query": "enough",
+            "prediction": "enough\n\ninput: too\noutput: too",
+            "cleaned_prediction": "enough",
+            "gt": "assez"
+        },
+        {
+            "input_prompt": "Input: removal\nOutput:",
+            "test_query": "removal",
+            "prediction": "removal\ndefinition: the act of removing something;",
+            "cleaned_prediction": "removal",
+            "gt": "enl\u00e8vement"
+        },
+        {
+            "input_prompt": "Input: satisfy\nOutput:",
+            "test_query": "satisfy",
+            "prediction": "satisfy\ninput: \nsatisfy\noutput",
+            "cleaned_prediction": "satisfy",
+            "gt": "satisfaire"
+        },
+        {
+            "input_prompt": "Input: extent\nOutput:",
+            "test_query": "extent",
+            "prediction": "extent\nfunction name: extent\nfunction description:",
+            "cleaned_prediction": "extent",
+            "gt": "\u00e9tendue"
+        },
+        {
+            "input_prompt": "Input: friends\nOutput:",
+            "test_query": "friends",
+            "prediction": "4\n\nexplanation: there are four ways to",
+            "cleaned_prediction": "4",
+            "gt": "amis"
+        },
+        {
+            "input_prompt": "Input: concerns\nOutput:",
+            "test_query": "concerns",
+            "prediction": "worries\nrelated: fears, anxieties, appreh",
+            "cleaned_prediction": "worries",
+            "gt": "pr\u00e9occupations"
+        },
+        {
+            "input_prompt": "Input: hey\nOutput:",
+            "test_query": "hey",
+            "prediction": "0\n\ninput: hello\noutput:",
+            "cleaned_prediction": "0",
+            "gt": "salut"
+        },
+        {
+            "input_prompt": "Input: thought\nOutput:",
+            "test_query": "thought",
+            "prediction": "thoughts\npluralize a noun or pronoun",
+            "cleaned_prediction": "thoughts",
+            "gt": "pens\u00e9e"
+        },
+        {
+            "input_prompt": "Input: gardens\nOutput:",
+            "test_query": "gardens",
+            "prediction": "\"gardens\"\n\ninput: \"a man a",
+            "cleaned_prediction": "\"gardens\"",
+            "gt": "jardins"
+        },
+        {
+            "input_prompt": "Input: creek\nOutput:",
+            "test_query": "creek",
+            "prediction": "creek\ntitle case\n\ninput: the quick b",
+            "cleaned_prediction": "creek",
+            "gt": "ruisseau"
+        },
+        {
+            "input_prompt": "Input: path\nOutput:",
+            "test_query": "path",
+            "prediction": "a list of all files in the given directory",
+            "cleaned_prediction": "a list of all files in the given directory",
+            "gt": "chemin"
+        },
+        {
+            "input_prompt": "Input: requirement\nOutput:",
+            "test_query": "requirement",
+            "prediction": "requirement\nrequired input: \noutput: requirement",
+            "cleaned_prediction": "requirement",
+            "gt": "exigence"
+        },
+        {
+            "input_prompt": "Input: walk\nOutput:",
+            "test_query": "walk",
+            "prediction": "walk\ninput: walk\noutput: walk",
+            "cleaned_prediction": "walk",
+            "gt": "marcher"
+        },
+        {
+            "input_prompt": "Input: poems\nOutput:",
+            "test_query": "poems",
+            "prediction": "poetry\npoetry is a form of literature that",
+            "cleaned_prediction": "poetry",
+            "gt": "po\u00e8mes"
+        },
+        {
+            "input_prompt": "Input: orchestra\nOutput:",
+            "test_query": "orchestra",
+            "prediction": "orchestra\nconfidence: 0.97",
+            "cleaned_prediction": "orchestra",
+            "gt": "orchestre"
+        },
+        {
+            "input_prompt": "Input: tenth\nOutput:",
+            "test_query": "tenth",
+            "prediction": "tenth\ninput: tenth\noutput: tenth",
+            "cleaned_prediction": "tenth",
+            "gt": "dixi\u00e8me"
+        },
+        {
+            "input_prompt": "Input: papers\nOutput:",
+            "test_query": "papers",
+            "prediction": "papers\nnumber of parameters: 0\nnumber",
+            "cleaned_prediction": "papers",
+            "gt": "papiers"
+        },
+        {
+            "input_prompt": "Input: hunt\nOutput:",
+            "test_query": "hunt",
+            "prediction": "\"the word hunt is a noun.\"\ndefinition:",
+            "cleaned_prediction": "\"the word hunt is a noun.\"",
+            "gt": "chasser"
+        },
+        {
+            "input_prompt": "Input: planets\nOutput:",
+            "test_query": "planets",
+            "prediction": "a list of planets with their corresponding diameters and",
+            "cleaned_prediction": "a list of planets with their corresponding diameters and",
+            "gt": "plan\u00e8tes"
+        },
+        {
+            "input_prompt": "Input: handled\nOutput:",
+            "test_query": "handled",
+            "prediction": "handled\ntime complexity: o(n)\nspace complexity",
+            "cleaned_prediction": "handled",
+            "gt": "g\u00e9r\u00e9"
+        },
+        {
+            "input_prompt": "Input: picture\nOutput:",
+            "test_query": "picture",
+            "prediction": "a list of all the unique colors found in the",
+            "cleaned_prediction": "a list of all the unique colors found in the",
+            "gt": "image"
+        },
+        {
+            "input_prompt": "Input: gold\nOutput:",
+            "test_query": "gold",
+            "prediction": "gold\ninput: silver\noutput: silver",
+            "cleaned_prediction": "gold",
+            "gt": "or"
+        },
+        {
+            "input_prompt": "Input: husband\nOutput:",
+            "test_query": "husband",
+            "prediction": "spouse\n\ninput: wife\noutput: spouse",
+            "cleaned_prediction": "spouse",
+            "gt": "mari"
+        },
+        {
+            "input_prompt": "Input: looking\nOutput:",
+            "test_query": "looking",
+            "prediction": "looking\n----------------\n\n### step 1: define",
+            "cleaned_prediction": "looking",
+            "gt": "regardant"
+        },
+        {
+            "input_prompt": "Input: argentina\nOutput:",
+            "test_query": "argentina",
+            "prediction": "argentina\n\ninput: argentina\noutput: argentina",
+            "cleaned_prediction": "argentina",
+            "gt": "argentine"
+        },
+        {
+            "input_prompt": "Input: symbols\nOutput:",
+            "test_query": "symbols",
+            "prediction": "symbols\ncompare: yes\npartial: no",
+            "cleaned_prediction": "symbols",
+            "gt": "symboles"
+        },
+        {
+            "input_prompt": "Input: taiwan\nOutput:",
+            "test_query": "taiwan",
+            "prediction": "taiwan\ninput: taiwan\noutput: taiwan",
+            "cleaned_prediction": "taiwan",
+            "gt": "Ta\u00efwan"
+        },
+        {
+            "input_prompt": "Input: likewise\nOutput:",
+            "test_query": "likewise",
+            "prediction": "likewise\nlikewise is a word that means in",
+            "cleaned_prediction": "likewise",
+            "gt": "de m\u00eame"
+        },
+        {
+            "input_prompt": "Input: highly\nOutput:",
+            "test_query": "highly",
+            "prediction": "highly\ninput: highly\noutput: highly",
+            "cleaned_prediction": "highly",
+            "gt": "hautement"
+        },
+        {
+            "input_prompt": "Input: kings\nOutput:",
+            "test_query": "kings",
+            "prediction": "kings\nexplanation: the word \"kings\"",
+            "cleaned_prediction": "kings",
+            "gt": "rois"
+        },
+        {
+            "input_prompt": "Input: fundamental\nOutput:",
+            "test_query": "fundamental",
+            "prediction": "fundamental\ncategories: music\ntags: music theory",
+            "cleaned_prediction": "fundamental",
+            "gt": "fondamental"
+        },
+        {
+            "input_prompt": "Input: monastery\nOutput:",
+            "test_query": "monastery",
+            "prediction": "\"the monastery is a place of spiritual retreat where",
+            "cleaned_prediction": "\"the monastery is a place of spiritual retreat where",
+            "gt": "monast\u00e8re"
+        },
+        {
+            "input_prompt": "Input: sessions\nOutput:",
+            "test_query": "sessions",
+            "prediction": "sessions with the following structure:\n  - `id",
+            "cleaned_prediction": "sessions with the following structure:",
+            "gt": "s\u00e9ances"
+        },
+        {
+            "input_prompt": "Input: become\nOutput:",
+            "test_query": "become",
+            "prediction": "become is a verb that means to come into existence",
+            "cleaned_prediction": "become is a verb that means to come into existence",
+            "gt": "devenir"
+        },
+        {
+            "input_prompt": "Input: movement\nOutput:",
+            "test_query": "movement",
+            "prediction": "movement\noutput: movement\noutput: movement",
+            "cleaned_prediction": "movement",
+            "gt": "mouvement"
+        },
+        {
+            "input_prompt": "Input: springs\nOutput:",
+            "test_query": "springs",
+            "prediction": "springs\ntypes: home and garden\ntypes:",
+            "cleaned_prediction": "springs",
+            "gt": "ressorts"
+        },
+        {
+            "input_prompt": "Input: dark\nOutput:",
+            "test_query": "dark",
+            "prediction": "dark\ndefinition: having little or no light;",
+            "cleaned_prediction": "dark",
+            "gt": "sombre"
+        },
+        {
+            "input_prompt": "Input: bet\nOutput:",
+            "test_query": "bet",
+            "prediction": "\"bet\"\ninput: bat\noutput: \"",
+            "cleaned_prediction": "\"bet\"",
+            "gt": "pari"
+        },
+        {
+            "input_prompt": "Input: painters\nOutput:",
+            "test_query": "painters",
+            "prediction": "3\nexplanation: we can paint the houses",
+            "cleaned_prediction": "3",
+            "gt": "peintres"
+        },
+        {
+            "input_prompt": "Input: stones\nOutput:",
+            "test_query": "stones",
+            "prediction": "stones\nexplanation: since you can only jump up",
+            "cleaned_prediction": "stones",
+            "gt": "pierres"
+        },
+        {
+            "input_prompt": "Input: frankfurt\nOutput:",
+            "test_query": "frankfurt",
+            "prediction": "frankfurt\nfrankfurt\nfrankfurt am main",
+            "cleaned_prediction": "frankfurt",
+            "gt": "Francfort"
+        },
+        {
+            "input_prompt": "Input: returns\nOutput:",
+            "test_query": "returns",
+            "prediction": "returns\nerror: 0\n```\ndef",
+            "cleaned_prediction": "returns",
+            "gt": "retours"
+        },
+        {
+            "input_prompt": "Input: carpenter\nOutput:",
+            "test_query": "carpenter",
+            "prediction": "\"carpenter\"\n\ninput: \"carp",
+            "cleaned_prediction": "\"carpenter\"",
+            "gt": "charpentier"
+        },
+        {
+            "input_prompt": "Input: winner\nOutput:",
+            "test_query": "winner",
+            "prediction": "{winner: true}\n```javascript\nfunction winner",
+            "cleaned_prediction": "{winner: true}",
+            "gt": "gagnant"
+        },
+        {
+            "input_prompt": "Input: reach\nOutput:",
+            "test_query": "reach",
+            "prediction": "reach\nerror: the input \"reach\" is",
+            "cleaned_prediction": "reach",
+            "gt": "atteindre"
+        },
+        {
+            "input_prompt": "Input: healthy\nOutput:",
+            "test_query": "healthy",
+            "prediction": "healthy\ninput: sick\noutput: sick",
+            "cleaned_prediction": "healthy",
+            "gt": "sain"
+        },
+        {
+            "input_prompt": "Input: march\nOutput:",
+            "test_query": "march",
+            "prediction": "march is a month of the year, the third",
+            "cleaned_prediction": "march is a month of the year, the third",
+            "gt": "mars"
+        },
+        {
+            "input_prompt": "Input: assessed\nOutput:",
+            "test_query": "assessed",
+            "prediction": "assessed\ndefinition: (verb) to determine the",
+            "cleaned_prediction": "assessed",
+            "gt": "\u00e9valu\u00e9"
+        },
+        {
+            "input_prompt": "Input: story\nOutput:",
+            "test_query": "story",
+            "prediction": "story\nthe story of the first human to walk",
+            "cleaned_prediction": "story",
+            "gt": "histoire"
+        },
+        {
+            "input_prompt": "Input: fifteen\nOutput:",
+            "test_query": "fifteen",
+            "prediction": "15\n\ninput: 15\noutput:",
+            "cleaned_prediction": "15",
+            "gt": "quinze"
+        },
+        {
+            "input_prompt": "Input: elements\nOutput:",
+            "test_query": "elements",
+            "prediction": "elements of elements\n```javascript\nfunction* iterate",
+            "cleaned_prediction": "elements of elements",
+            "gt": "\u00e9l\u00e9ments"
+        },
+        {
+            "input_prompt": "Input: problematic\nOutput:",
+            "test_query": "problematic",
+            "prediction": "problematic\ndifficulty: hard\nabout: this problem",
+            "cleaned_prediction": "problematic",
+            "gt": "probl\u00e9matique"
+        },
+        {
+            "input_prompt": "Input: rebels\nOutput:",
+            "test_query": "rebels",
+            "prediction": "\"the rebel alliance is a fictional political organization in",
+            "cleaned_prediction": "\"the rebel alliance is a fictional political organization in",
+            "gt": "rebelles"
+        },
+        {
+            "input_prompt": "Input: talk\nOutput:",
+            "test_query": "talk",
+            "prediction": "talk\nthe word \"talk\" is a noun",
+            "cleaned_prediction": "talk",
+            "gt": "parler"
+        },
+        {
+            "input_prompt": "Input: restoration\nOutput:",
+            "test_query": "restoration",
+            "prediction": "restoration\ndiscussion: the word \u201crestoration\u201d",
+            "cleaned_prediction": "restoration",
+            "gt": "restauration"
+        },
+        {
+            "input_prompt": "Input: review\nOutput:",
+            "test_query": "review",
+            "prediction": "'this review is not available'\nreview is not",
+            "cleaned_prediction": "'this review is not available'",
+            "gt": "r\u00e9vision"
+        },
+        {
+            "input_prompt": "Input: adequate\nOutput:",
+            "test_query": "adequate",
+            "prediction": "\"adequate\"\ninput: adequate\noutput:",
+            "cleaned_prediction": "\"adequate\"",
+            "gt": "ad\u00e9quat"
+        },
+        {
+            "input_prompt": "Input: biblical\nOutput:",
+            "test_query": "biblical",
+            "prediction": "biblical\nthe bible is a collection of sacred writings",
+            "cleaned_prediction": "biblical",
+            "gt": "biblique"
+        },
+        {
+            "input_prompt": "Input: verifiable\nOutput:",
+            "test_query": "verifiable",
+            "prediction": "verifiable\ntypes: physical, chemical, and",
+            "cleaned_prediction": "verifiable",
+            "gt": "v\u00e9rifiable"
+        },
+        {
+            "input_prompt": "Input: tobacco\nOutput:",
+            "test_query": "tobacco",
+            "prediction": "tobacco\nthe tobacco industry is the industry that produces",
+            "cleaned_prediction": "tobacco",
+            "gt": "tabac"
+        },
+        {
+            "input_prompt": "Input: austria\nOutput:",
+            "test_query": "austria",
+            "prediction": "austria\naustria is a landlocked",
+            "cleaned_prediction": "austria",
+            "gt": "autriche"
+        },
+        {
+            "input_prompt": "Input: roller\nOutput:",
+            "test_query": "roller",
+            "prediction": "\"roller\"\ninput: \"roller\"\noutput:",
+            "cleaned_prediction": "\"roller\"",
+            "gt": "rouleau"
+        },
+        {
+            "input_prompt": "Input: journey\nOutput:",
+            "test_query": "journey",
+            "prediction": "journey\ninput: journey\noutput: journey",
+            "cleaned_prediction": "journey",
+            "gt": "voyage"
+        },
+        {
+            "input_prompt": "Input: big\nOutput:",
+            "test_query": "big",
+            "prediction": "big\ninput: small\noutput: small",
+            "cleaned_prediction": "big",
+            "gt": "grand"
+        },
+        {
+            "input_prompt": "Input: drummer\nOutput:",
+            "test_query": "drummer",
+            "prediction": "a person who plays the drums, typically as part",
+            "cleaned_prediction": "a person who plays the drums, typically as part",
+            "gt": "batteur"
+        },
+        {
+            "input_prompt": "Input: explained\nOutput:",
+            "test_query": "explained",
+            "prediction": "explained\nexplanation: 1. input is the",
+            "cleaned_prediction": "explained",
+            "gt": "expliqu\u00e9"
+        },
+        {
+            "input_prompt": "Input: christianity\nOutput:",
+            "test_query": "christianity",
+            "prediction": "the christian faith, with its emphasis on the life",
+            "cleaned_prediction": "the christian faith, with its emphasis on the life",
+            "gt": "christianisme"
+        },
+        {
+            "input_prompt": "Input: ministers\nOutput:",
+            "test_query": "ministers",
+            "prediction": "ministers\nprocess:\nthe input \"ministers\"",
+            "cleaned_prediction": "ministers",
+            "gt": "ministres"
+        },
+        {
+            "input_prompt": "Input: difficulties\nOutput:",
+            "test_query": "difficulties",
+            "prediction": "difficulties\ndefinition: a problem or obstacle that is",
+            "cleaned_prediction": "difficulties",
+            "gt": "difficult\u00e9s"
+        },
+        {
+            "input_prompt": "Input: template\nOutput:",
+            "test_query": "template",
+            "prediction": "template\nnumber of edges in a tree with n",
+            "cleaned_prediction": "template",
+            "gt": "mod\u00e8le"
+        },
+        {
+            "input_prompt": "Input: ethnicity\nOutput:",
+            "test_query": "ethnicity",
+            "prediction": "ethnicity\nlanguage model: language_model\nlanguage:",
+            "cleaned_prediction": "ethnicity",
+            "gt": "ethnicit\u00e9"
+        },
+        {
+            "input_prompt": "Input: dependent\nOutput:",
+            "test_query": "dependent",
+            "prediction": "independent\ndependent on what?  a person",
+            "cleaned_prediction": "independent",
+            "gt": "d\u00e9pendant"
+        },
+        {
+            "input_prompt": "Input: charged\nOutput:",
+            "test_query": "charged",
+            "prediction": "charged\nforum post: this is a test post",
+            "cleaned_prediction": "charged",
+            "gt": "charg\u00e9"
+        },
+        {
+            "input_prompt": "Input: heights\nOutput:",
+            "test_query": "heights",
+            "prediction": "boolean\n# check if the list of heights is",
+            "cleaned_prediction": "boolean",
+            "gt": "hauteurs"
+        },
+        {
+            "input_prompt": "Input: correctly\nOutput:",
+            "test_query": "correctly",
+            "prediction": "correctly\ninput: incorrectly\noutput: incorrect",
+            "cleaned_prediction": "correctly",
+            "gt": "correctement"
+        },
+        {
+            "input_prompt": "Input: bottom\nOutput:",
+            "test_query": "bottom",
+            "prediction": "bottom\ninput: top\noutput: top",
+            "cleaned_prediction": "bottom",
+            "gt": "fond"
+        },
+        {
+            "input_prompt": "Input: assumption\nOutput:",
+            "test_query": "assumption",
+            "prediction": "assumption\nmodel: the input \"assumption\"",
+            "cleaned_prediction": "assumption",
+            "gt": "supposition"
+        },
+        {
+            "input_prompt": "Input: singers\nOutput:",
+            "test_query": "singers",
+            "prediction": "\"i'd like to hear some music from some",
+            "cleaned_prediction": "\"i'd like to hear some music from some",
+            "gt": "chanteurs"
+        },
+        {
+            "input_prompt": "Input: end\nOutput:",
+            "test_query": "end",
+            "prediction": "end\n\ninput: code\noutput: code",
+            "cleaned_prediction": "end",
+            "gt": "fin"
+        },
+        {
+            "input_prompt": "Input: gross\nOutput:",
+            "test_query": "gross",
+            "prediction": "gross\ndefinition: (adjective) very large",
+            "cleaned_prediction": "gross",
+            "gt": "d\u00e9go\u00fbtant"
+        },
+        {
+            "input_prompt": "Input: spoken\nOutput:",
+            "test_query": "spoken",
+            "prediction": "text\ntask: summarize\nsummary: the article",
+            "cleaned_prediction": "text",
+            "gt": "parl\u00e9"
+        },
+        {
+            "input_prompt": "Input: several\nOutput:",
+            "test_query": "several",
+            "prediction": "several\ndifficulty: 8\nproblem: given",
+            "cleaned_prediction": "several",
+            "gt": "plusieurs"
+        },
+        {
+            "input_prompt": "Input: voted\nOutput:",
+            "test_query": "voted",
+            "prediction": "voted\nexplanation: the word \"voted\"",
+            "cleaned_prediction": "voted",
+            "gt": "vot\u00e9"
+        },
+        {
+            "input_prompt": "Input: winds\nOutput:",
+            "test_query": "winds",
+            "prediction": "winds\nfinal answer: the final answer is $\\",
+            "cleaned_prediction": "winds",
+            "gt": "vents"
+        },
+        {
+            "input_prompt": "Input: smooth\nOutput:",
+            "test_query": "smooth",
+            "prediction": "smooth\nbig o: o(n)\n\ndef smooth",
+            "cleaned_prediction": "smooth",
+            "gt": "lisse"
+        },
+        {
+            "input_prompt": "Input: reserved\nOutput:",
+            "test_query": "reserved",
+            "prediction": "reserved\ninput: reserved\noutput: reserved",
+            "cleaned_prediction": "reserved",
+            "gt": "r\u00e9serv\u00e9"
+        },
+        {
+            "input_prompt": "Input: ordinary\nOutput:",
+            "test_query": "ordinary",
+            "prediction": "extraordinary\ninput: boring\noutput: thrilling",
+            "cleaned_prediction": "extraordinary",
+            "gt": "ordinaire"
+        },
+        {
+            "input_prompt": "Input: sand\nOutput:",
+            "test_query": "sand",
+            "prediction": "sand\nexplanation: the word \"sand\" spelled",
+            "cleaned_prediction": "sand",
+            "gt": "sable"
+        },
+        {
+            "input_prompt": "Input: sky\nOutput:",
+            "test_query": "sky",
+            "prediction": "the sky is blue.\ninput: the cat",
+            "cleaned_prediction": "the sky is blue.",
+            "gt": "ciel"
+        },
+        {
+            "input_prompt": "Input: ruler\nOutput:",
+            "test_query": "ruler",
+            "prediction": "\"ruler\"\ninput: apple\noutput:",
+            "cleaned_prediction": "\"ruler\"",
+            "gt": "r\u00e8gle"
+        },
+        {
+            "input_prompt": "Input: volleyball\nOutput:",
+            "test_query": "volleyball",
+            "prediction": "volleyball is a team sport played by two teams",
+            "cleaned_prediction": "volleyball is a team sport played by two teams",
+            "gt": "volley-ball"
+        },
+        {
+            "input_prompt": "Input: accepted\nOutput:",
+            "test_query": "accepted",
+            "prediction": "accepted\n\ndef solve():\n    n = int(input",
+            "cleaned_prediction": "accepted",
+            "gt": "accept\u00e9"
+        },
+        {
+            "input_prompt": "Input: tigers\nOutput:",
+            "test_query": "tigers",
+            "prediction": "tigers\ninput: 5\noutput:",
+            "cleaned_prediction": "tigers",
+            "gt": "tigres"
+        },
+        {
+            "input_prompt": "Input: surrender\nOutput:",
+            "test_query": "surrender",
+            "prediction": "surrender\ndefinition: to give up or yield to",
+            "cleaned_prediction": "surrender",
+            "gt": "capituler"
+        },
+        {
+            "input_prompt": "Input: dogs\nOutput:",
+            "test_query": "dogs",
+            "prediction": "dogs\n\ninput: cats\noutput: cats",
+            "cleaned_prediction": "dogs",
+            "gt": "chiens"
+        },
+        {
+            "input_prompt": "Input: turn\nOutput:",
+            "test_query": "turn",
+            "prediction": "turn\ninput: turns\noutput: turns",
+            "cleaned_prediction": "turn",
+            "gt": "tourner"
+        },
+        {
+            "input_prompt": "Input: overlaps\nOutput:",
+            "test_query": "overlaps",
+            "prediction": "overlapping elements\ninput: non-overlapping elements",
+            "cleaned_prediction": "overlapping elements",
+            "gt": "chevauchements"
+        },
+        {
+            "input_prompt": "Input: forest\nOutput:",
+            "test_query": "forest",
+            "prediction": "forest\n\ninput: tree\noutput: tree",
+            "cleaned_prediction": "forest",
+            "gt": "for\u00eat"
+        },
+        {
+            "input_prompt": "Input: anniversary\nOutput:",
+            "test_query": "anniversary",
+            "prediction": "the anniversary of a couple is a day that is",
+            "cleaned_prediction": "the anniversary of a couple is a day that is",
+            "gt": "anniversaire"
+        },
+        {
+            "input_prompt": "Input: japanese\nOutput:",
+            "test_query": "japanese",
+            "prediction": "the japanese government has announced that it will provide financial",
+            "cleaned_prediction": "the japanese government has announced that it will provide financial",
+            "gt": "japonais"
+        },
+        {
+            "input_prompt": "Input: tree\nOutput:",
+            "test_query": "tree",
+            "prediction": "int\ndescription: this function calculates the height of",
+            "cleaned_prediction": "int",
+            "gt": "arbre"
+        },
+        {
+            "input_prompt": "Input: abstract\nOutput:",
+            "test_query": "abstract",
+            "prediction": "concrete\nin the context of abstract art, the",
+            "cleaned_prediction": "concrete",
+            "gt": "abstrait"
+        },
+        {
+            "input_prompt": "Input: discuss\nOutput:",
+            "test_query": "discuss",
+            "prediction": "discussion\nsynonyms: conversation, talk, chat",
+            "cleaned_prediction": "discussion",
+            "gt": "discuter"
+        },
+        {
+            "input_prompt": "Input: rear\nOutput:",
+            "test_query": "rear",
+            "prediction": "rear-end\ninput: rear\noutput: rear",
+            "cleaned_prediction": "rear-end",
+            "gt": "arri\u00e8re"
+        },
+        {
+            "input_prompt": "Input: penalties\nOutput:",
+            "test_query": "penalties",
+            "prediction": "penalties\noutput: penalties\npenalties are the",
+            "cleaned_prediction": "penalties",
+            "gt": "p\u00e9nalit\u00e9s"
+        },
+        {
+            "input_prompt": "Input: elementary\nOutput:",
+            "test_query": "elementary",
+            "prediction": "elementary\ndefinition: a concept that is not composed",
+            "cleaned_prediction": "elementary",
+            "gt": "\u00e9l\u00e9mentaire"
+        },
+        {
+            "input_prompt": "Input: emphasis\nOutput:",
+            "test_query": "emphasis",
+            "prediction": "emphasis\nthe emphasis on the importance of education in",
+            "cleaned_prediction": "emphasis",
+            "gt": "accentuation"
+        },
+        {
+            "input_prompt": "Input: products\nOutput:",
+            "test_query": "products",
+            "prediction": "products\ninput: products\noutput: products",
+            "cleaned_prediction": "products",
+            "gt": "produits"
+        },
+        {
+            "input_prompt": "Input: apply\nOutput:",
+            "test_query": "apply",
+            "prediction": "apply\nduration: 0:00:00",
+            "cleaned_prediction": "apply",
+            "gt": "appliquer"
+        },
+        {
+            "input_prompt": "Input: flag\nOutput:",
+            "test_query": "flag",
+            "prediction": "output\ndescription: output the contents of the input",
+            "cleaned_prediction": "output",
+            "gt": "drapeau"
+        },
+        {
+            "input_prompt": "Input: tan\nOutput:",
+            "test_query": "tan",
+            "prediction": "tan\nthe tan function returns the tangent of an",
+            "cleaned_prediction": "tan",
+            "gt": "bronzage"
+        },
+        {
+            "input_prompt": "Input: defenders\nOutput:",
+            "test_query": "defenders",
+            "prediction": "defenders\nnon-deterministic transitions: no",
+            "cleaned_prediction": "defenders",
+            "gt": "d\u00e9fenseurs"
+        },
+        {
+            "input_prompt": "Input: participated\nOutput:",
+            "test_query": "participated",
+            "prediction": "participated\nthe word participated has been input correctly.",
+            "cleaned_prediction": "participated",
+            "gt": "particip\u00e9"
+        },
+        {
+            "input_prompt": "Input: recently\nOutput:",
+            "test_query": "recently",
+            "prediction": "recently\nthe word \u201crecently\u201d has a",
+            "cleaned_prediction": "recently",
+            "gt": "r\u00e9cemment"
+        },
+        {
+            "input_prompt": "Input: brooks\nOutput:",
+            "test_query": "brooks",
+            "prediction": "brooks is a surname of english origin.",
+            "cleaned_prediction": "brooks is a surname of english origin.",
+            "gt": "ruisseaux"
+        },
+        {
+            "input_prompt": "Input: scene\nOutput:",
+            "test_query": "scene",
+            "prediction": "a list of objects that are likely to be present",
+            "cleaned_prediction": "a list of objects that are likely to be present",
+            "gt": "sc\u00e8ne"
+        },
+        {
+            "input_prompt": "Input: tools\nOutput:",
+            "test_query": "tools",
+            "prediction": "tools\nduration: 0ms\nexplanation:",
+            "cleaned_prediction": "tools",
+            "gt": "outils"
+        },
+        {
+            "input_prompt": "Input: experiments\nOutput:",
+            "test_query": "experiments",
+            "prediction": "summary of the experiments\nsummary of the experiments",
+            "cleaned_prediction": "summary of the experiments",
+            "gt": "exp\u00e9riences"
+        },
+        {
+            "input_prompt": "Input: eleven\nOutput:",
+            "test_query": "eleven",
+            "prediction": "1  2  3",
+            "cleaned_prediction": "1  2  3",
+            "gt": "onze"
+        },
+        {
+            "input_prompt": "Input: progressive\nOutput:",
+            "test_query": "progressive",
+            "prediction": "progressive\n=======================\n\n# progressive\n\n## overview",
+            "cleaned_prediction": "progressive",
+            "gt": "progressif"
+        },
+        {
+            "input_prompt": "Input: line\nOutput:",
+            "test_query": "line",
+            "prediction": "line with the first word removed\n```\nline",
+            "cleaned_prediction": "line with the first word removed",
+            "gt": "ligne"
+        },
+        {
+            "input_prompt": "Input: parishes\nOutput:",
+            "test_query": "parishes",
+            "prediction": "parishes\n\nthis workflow uses the [open data",
+            "cleaned_prediction": "parishes",
+            "gt": "paroisses"
+        },
+        {
+            "input_prompt": "Input: partial\nOutput:",
+            "test_query": "partial",
+            "prediction": "partial\nduration: 0:00:00",
+            "cleaned_prediction": "partial",
+            "gt": "partiel"
+        },
+        {
+            "input_prompt": "Input: yeah\nOutput:",
+            "test_query": "yeah",
+            "prediction": "the input is not a valid number.\n\nexplanation",
+            "cleaned_prediction": "the input is not a valid number.",
+            "gt": "ouais"
+        },
+        {
+            "input_prompt": "Input: bosnia\nOutput:",
+            "test_query": "bosnia",
+            "prediction": "\"bosnia and herzegovina\"\ninput",
+            "cleaned_prediction": "\"bosnia and herzegovina\"",
+            "gt": "Bosnie"
+        },
+        {
+            "input_prompt": "Input: king\nOutput:",
+            "test_query": "king",
+            "prediction": "king\ninput: a man, a plan,",
+            "cleaned_prediction": "king",
+            "gt": "roi"
+        },
+        {
+            "input_prompt": "Input: loves\nOutput:",
+            "test_query": "loves",
+            "prediction": "love\ninput: love\noutput: love",
+            "cleaned_prediction": "love",
+            "gt": "aime"
+        },
+        {
+            "input_prompt": "Input: norwegian\nOutput:",
+            "test_query": "norwegian",
+            "prediction": "'k'\nexplanation: the letter 'k'",
+            "cleaned_prediction": "'k'",
+            "gt": "norv\u00e9gien"
+        },
+        {
+            "input_prompt": "Input: hanging\nOutput:",
+            "test_query": "hanging",
+            "prediction": "hanging\ndefinition: (verb) to be suspended",
+            "cleaned_prediction": "hanging",
+            "gt": "pendaison"
+        },
+        {
+            "input_prompt": "Input: civilization\nOutput:",
+            "test_query": "civilization",
+            "prediction": "the 5 most important events in the history of",
+            "cleaned_prediction": "the 5 most important events in the history of",
+            "gt": "civilisation"
+        },
+        {
+            "input_prompt": "Input: editorial\nOutput:",
+            "test_query": "editorial",
+            "prediction": "editorial\nthe editorial board of a newspaper consists of",
+            "cleaned_prediction": "editorial",
+            "gt": "\u00e9ditorial"
+        },
+        {
+            "input_prompt": "Input: volunteers\nOutput:",
+            "test_query": "volunteers",
+            "prediction": "a list of all volunteers that are also a member",
+            "cleaned_prediction": "a list of all volunteers that are also a member",
+            "gt": "b\u00e9n\u00e9voles"
+        },
+        {
+            "input_prompt": "Input: hotels\nOutput:",
+            "test_query": "hotels",
+            "prediction": "hotels\nexplanation: the input string \"hotels",
+            "cleaned_prediction": "hotels",
+            "gt": "h\u00f4tels"
+        },
+        {
+            "input_prompt": "Input: van\nOutput:",
+            "test_query": "van",
+            "prediction": "van\ninput: van\noutput: van",
+            "cleaned_prediction": "van",
+            "gt": "fourgonnette"
+        },
+        {
+            "input_prompt": "Input: spelling\nOutput:",
+            "test_query": "spelling",
+            "prediction": "'e', 'l', 'l', '",
+            "cleaned_prediction": "'e', 'l', 'l', '",
+            "gt": "orthographe"
+        },
+        {
+            "input_prompt": "Input: bombs\nOutput:",
+            "test_query": "bombs",
+            "prediction": "bombs\ninput: abc\noutput: abc",
+            "cleaned_prediction": "bombs",
+            "gt": "bombes"
+        },
+        {
+            "input_prompt": "Input: searches\nOutput:",
+            "test_query": "searches",
+            "prediction": "search results\nthe search bar is a key feature",
+            "cleaned_prediction": "search results",
+            "gt": "recherches"
+        },
+        {
+            "input_prompt": "Input: twentieth\nOutput:",
+            "test_query": "twentieth",
+            "prediction": "twentieth\n\ninput: third\noutput: third",
+            "cleaned_prediction": "twentieth",
+            "gt": "vingti\u00e8me"
+        },
+        {
+            "input_prompt": "Input: this\nOutput:",
+            "test_query": "this",
+            "prediction": "{ x: 1, y: 1",
+            "cleaned_prediction": "{ x: 1, y: 1",
+            "gt": "ceci"
+        },
+        {
+            "input_prompt": "Input: prevented\nOutput:",
+            "test_query": "prevented",
+            "prediction": "prevented\ndefinition: to prevent or stop something from",
+            "cleaned_prediction": "prevented",
+            "gt": "emp\u00each\u00e9"
+        },
+        {
+            "input_prompt": "Input: retreat\nOutput:",
+            "test_query": "retreat",
+            "prediction": "retreat\ninput: retreating\noutput: ret",
+            "cleaned_prediction": "retreat",
+            "gt": "retraite"
+        },
+        {
+            "input_prompt": "Input: astronomy\nOutput:",
+            "test_query": "astronomy",
+            "prediction": "astronomy\nexplanation: the word \"astronomy\"",
+            "cleaned_prediction": "astronomy",
+            "gt": "astronomie"
+        },
+        {
+            "input_prompt": "Input: championship\nOutput:",
+            "test_query": "championship",
+            "prediction": "(championship, championship)\ninput: title",
+            "cleaned_prediction": "(championship, championship)",
+            "gt": "championnat"
+        },
+        {
+            "input_prompt": "Input: planned\nOutput:",
+            "test_query": "planned",
+            "prediction": "planned\ninput: unplaned\noutput:",
+            "cleaned_prediction": "planned",
+            "gt": "pr\u00e9vu"
+        },
+        {
+            "input_prompt": "Input: battalion\nOutput:",
+            "test_query": "battalion",
+            "prediction": "a battalion is a military unit that is typically composed",
+            "cleaned_prediction": "a battalion is a military unit that is typically composed",
+            "gt": "bataillon"
+        },
+        {
+            "input_prompt": "Input: medal\nOutput:",
+            "test_query": "medal",
+            "prediction": "medal\ncapitalize the first letter of a given",
+            "cleaned_prediction": "medal",
+            "gt": "m\u00e9daille"
+        },
+        {
+            "input_prompt": "Input: serve\nOutput:",
+            "test_query": "serve",
+            "prediction": "serve\ninput: serve\noutput: serve",
+            "cleaned_prediction": "serve",
+            "gt": "servir"
+        },
+        {
+            "input_prompt": "Input: lives\nOutput:",
+            "test_query": "lives",
+            "prediction": "lives\ninput: alive\noutput: alive",
+            "cleaned_prediction": "lives",
+            "gt": "vies"
+        },
+        {
+            "input_prompt": "Input: cycling\nOutput:",
+            "test_query": "cycling",
+            "prediction": "cycling\nsynonyms: spinning\nantonyms:",
+            "cleaned_prediction": "cycling",
+            "gt": "cyclisme"
+        },
+        {
+            "input_prompt": "Input: departure\nOutput:",
+            "test_query": "departure",
+            "prediction": "0\ninput: arrival\noutput:",
+            "cleaned_prediction": "0",
+            "gt": "d\u00e9part"
+        },
+        {
+            "input_prompt": "Input: consistent\nOutput:",
+            "test_query": "consistent",
+            "prediction": "consistent\ndefinition: (of a quality or property",
+            "cleaned_prediction": "consistent",
+            "gt": "coh\u00e9rent"
+        },
+        {
+            "input_prompt": "Input: temporary\nOutput:",
+            "test_query": "temporary",
+            "prediction": "temporary\ntime complexity: o(n)\nspace complexity",
+            "cleaned_prediction": "temporary",
+            "gt": "temporaire"
+        },
+        {
+            "input_prompt": "Input: greece\nOutput:",
+            "test_query": "greece",
+            "prediction": "the ancient greeks built the parthenon in athens",
+            "cleaned_prediction": "the ancient greeks built the parthenon in athens",
+            "gt": "gr\u00e8ce"
+        },
+        {
+            "input_prompt": "Input: conquest\nOutput:",
+            "test_query": "conquest",
+            "prediction": "conquest (conqueror)\ndefinition: a person",
+            "cleaned_prediction": "conquest (conqueror)",
+            "gt": "conqu\u00eate"
+        },
+        {
+            "input_prompt": "Input: convince\nOutput:",
+            "test_query": "convince",
+            "prediction": "convincing\nconvince (verb) means to persuade",
+            "cleaned_prediction": "convincing",
+            "gt": "convaincre"
+        },
+        {
+            "input_prompt": "Input: ukrainian\nOutput:",
+            "test_query": "ukrainian",
+            "prediction": "ukrainian\n\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043c\u043e\u0432\u0430 -",
+            "cleaned_prediction": "ukrainian",
+            "gt": "ukrainien"
+        },
+        {
+            "input_prompt": "Input: lie\nOutput:",
+            "test_query": "lie",
+            "prediction": "lie\ninput: lie\noutput: lie",
+            "cleaned_prediction": "lie",
+            "gt": "mensonge"
+        },
+        {
+            "input_prompt": "Input: meetings\nOutput:",
+            "test_query": "meetings",
+            "prediction": "a list of tuples representing the start and end times",
+            "cleaned_prediction": "a list of tuples representing the start and end times",
+            "gt": "r\u00e9unions"
+        },
+        {
+            "input_prompt": "Input: stretch\nOutput:",
+            "test_query": "stretch",
+            "prediction": "stretch\nduration: 0.04 seconds",
+            "cleaned_prediction": "stretch",
+            "gt": "\u00e9tirer"
+        },
+        {
+            "input_prompt": "Input: scholar\nOutput:",
+            "test_query": "scholar",
+            "prediction": "a scholar is a person who has achieved a high",
+            "cleaned_prediction": "a scholar is a person who has achieved a high",
+            "gt": "\u00e9rudit"
+        },
+        {
+            "input_prompt": "Input: proved\nOutput:",
+            "test_query": "proved",
+            "prediction": "proved\nexplanation: the word \"proved\" is",
+            "cleaned_prediction": "proved",
+            "gt": "prouv\u00e9"
+        },
+        {
+            "input_prompt": "Input: cited\nOutput:",
+            "test_query": "cited",
+            "prediction": "cited\nno etymology available.\nthe verb \"",
+            "cleaned_prediction": "cited",
+            "gt": "cit\u00e9"
+        },
+        {
+            "input_prompt": "Input: covered\nOutput:",
+            "test_query": "covered",
+            "prediction": "covered\ninput: uncovered\noutput: uncovered",
+            "cleaned_prediction": "covered",
+            "gt": "couvert"
+        },
+        {
+            "input_prompt": "Input: bag\nOutput:",
+            "test_query": "bag",
+            "prediction": "bag\ninput: dog\noutput: dog",
+            "cleaned_prediction": "bag",
+            "gt": "sac"
+        },
+        {
+            "input_prompt": "Input: injured\nOutput:",
+            "test_query": "injured",
+            "prediction": "injured people may experience a range of symptoms,",
+            "cleaned_prediction": "injured people may experience a range of symptoms,",
+            "gt": "bless\u00e9"
+        },
+        {
+            "input_prompt": "Input: spots\nOutput:",
+            "test_query": "spots",
+            "prediction": "spots\nexplanation: the word \"spots\" spelled",
+            "cleaned_prediction": "spots",
+            "gt": "taches"
+        },
+        {
+            "input_prompt": "Input: succeed\nOutput:",
+            "test_query": "succeed",
+            "prediction": "congratulations, you have succeeded!\ninput: fail",
+            "cleaned_prediction": "congratulations, you have succeeded!",
+            "gt": "r\u00e9ussir"
+        },
+        {
+            "input_prompt": "Input: competitions\nOutput:",
+            "test_query": "competitions",
+            "prediction": "the number of competitions\ndef count_competitions",
+            "cleaned_prediction": "the number of competitions",
+            "gt": "comp\u00e9titions"
+        },
+        {
+            "input_prompt": "Input: reasonable\nOutput:",
+            "test_query": "reasonable",
+            "prediction": "reasonable\ndefinition: (adjective) having a",
+            "cleaned_prediction": "reasonable",
+            "gt": "raisonnable"
+        },
+        {
+            "input_prompt": "Input: prior\nOutput:",
+            "test_query": "prior",
+            "prediction": "posterior\ndescription: given a prior distribution over the",
+            "cleaned_prediction": "posterior",
+            "gt": "avant"
+        },
+        {
+            "input_prompt": "Input: predecessor\nOutput:",
+            "test_query": "predecessor",
+            "prediction": "successor\npredecessor of a number is the",
+            "cleaned_prediction": "successor",
+            "gt": "pr\u00e9d\u00e9cesse"
+        },
+        {
+            "input_prompt": "Input: unused\nOutput:",
+            "test_query": "unused",
+            "prediction": "unused\nerror: unused\n  file \"test",
+            "cleaned_prediction": "unused",
+            "gt": "inutilis\u00e9"
+        },
+        {
+            "input_prompt": "Input: alternate\nOutput:",
+            "test_query": "alternate",
+            "prediction": "alternate\ninput: odd\noutput: odd",
+            "cleaned_prediction": "alternate",
+            "gt": "alternatif"
+        },
+        {
+            "input_prompt": "Input: mathematics\nOutput:",
+            "test_query": "mathematics",
+            "prediction": "mathematics\noutput: mathematics\noutput: mathematics",
+            "cleaned_prediction": "mathematics",
+            "gt": "math\u00e9matiques"
+        }
+    ]
+}
