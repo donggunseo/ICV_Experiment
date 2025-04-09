@@ -9,36 +9,19 @@ from typing import *
 
 def load_model_and_tokenizer(model_name:str, device='cuda'):
     assert model_name is not None
-    if 'llama' in model_name.lower():
-        if '70b' in model_name.lower():
-            # use quantization. requires `bitsandbytes` library
-            from transformers import BitsAndBytesConfig
-            bnb_config = BitsAndBytesConfig(
-                load_in_4bit=True,
-                bnb_4bit_quant_type='nf4',
-                bnb_4bit_use_double_quant=True,
-                bnb_4bit_compute_dtype=torch.float16
-            )
-            tokenizer = LlamaTokenizer.from_pretrained(model_name)
-            model = LlamaForCausalLM.from_pretrained(
-                    model_name,
-                    trust_remote_code=True,
-                    quantization_config=bnb_config
-            )
-        else:
-            model_dtype = torch.bfloat16
-            tokenizer = AutoTokenizer.from_pretrained(model_name)
-            model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=model_dtype).to(device)
+    model_dtype = torch.bfloat16
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=model_dtype).to(device)
 
-        MODEL_CONFIG={"n_heads":model.config.num_attention_heads,
-                      "n_layers":model.config.num_hidden_layers,
-                      "resid_dim":model.config.hidden_size,
-                      "name_or_path":model.config._name_or_path,
-                      "attn_hook_names":[f'model.layers.{layer}.self_attn.o_proj' for layer in range(model.config.num_hidden_layers)],
-                      "layer_hook_names":[f'model.layers.{layer}' for layer in range(model.config.num_hidden_layers)],
-                      }
-    else:
-        raise NotImplementedError("Still working to get this model available!")
+    MODEL_CONFIG={"n_heads":model.config.num_attention_heads,
+                    "n_layers":model.config.num_hidden_layers,
+                    "resid_dim":model.config.hidden_size,
+                    "name_or_path":model.config._name_or_path,
+                    "attn_hook_names":[f'model.layers.{layer}.self_attn.o_proj' for layer in range(model.config.num_hidden_layers)],
+                    "layer_hook_names":[f'model.layers.{layer}' for layer in range(model.config.num_hidden_layers)],
+                    }
+    # else:
+    #     raise NotImplementedError("Still working to get this model available!")
 
     
     return model, tokenizer, MODEL_CONFIG

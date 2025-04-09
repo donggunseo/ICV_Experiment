@@ -1,0 +1,708 @@
+{
+    "score": {
+        "accuracy": 0.0,
+        "f1-score": 0.0
+    },
+    "result": [
+        {
+            "input_prompt": "Query: I made an out of country transfer and it hasn't went through yet.\nIntent:",
+            "test_query": "I made an out of country transfer and it hasn't went through yet.",
+            "prediction": "transfer not completed\nPossible reasons for this issue:\n1",
+            "cleaned_prediction": "transfer not completed\npossible reasons for this issue:\n1",
+            "gt": "balance_not_updated_after_bank_transfer"
+        },
+        {
+            "input_prompt": "Query: How do disposable cards work?\nIntent:",
+            "test_query": "How do disposable cards work?",
+            "prediction": "card-not-present transactions\nDisposable cards, also known as",
+            "cleaned_prediction": "card-not-present transactions\ndisposable cards, also known as",
+            "gt": "get_disposable_virtual_card"
+        },
+        {
+            "input_prompt": "Query: Where is the tracking number for the card you sent me?\nIntent:",
+            "test_query": "Where is the tracking number for the card you sent me?",
+            "prediction": "card tracking number\nSuggested response: I'm happy",
+            "cleaned_prediction": "card tracking number\nsuggested response: i'm happy",
+            "gt": "card_arrival"
+        },
+        {
+            "input_prompt": "Query: Why don't I see my top up in my wallet?\nIntent:",
+            "test_query": "Why don't I see my top up in my wallet?",
+            "prediction": "top up not showing in wallet\nPossible reasons: The",
+            "cleaned_prediction": "top up not showing in wallet\npossible reasons: the",
+            "gt": "topping_up_by_card"
+        },
+        {
+            "input_prompt": "Query: I think the atm ate my card.\nIntent:",
+            "test_query": "I think the atm ate my card.",
+            "prediction": "card not present\nContext: The customer is calling to",
+            "cleaned_prediction": "card not present\ncontext: the customer is calling to",
+            "gt": "card_swallowed"
+        },
+        {
+            "input_prompt": "Query: My card declined\nIntent:",
+            "test_query": "My card declined",
+            "prediction": "card declined\nPossible responses:\n- Sorry, your card",
+            "cleaned_prediction": "card declined\npossible responses:\n- sorry, your card",
+            "gt": "declined_card_payment"
+        },
+        {
+            "input_prompt": "Query: I expected a higher exchange rate when I withdrew money. Can you tell me current exchange rates?\nIntent:",
+            "test_query": "I expected a higher exchange rate when I withdrew money. Can you tell me current exchange rates?",
+            "prediction": "exchange rate\nQuery: I am looking for a job",
+            "cleaned_prediction": "exchange rate\nquery: i am looking for a job",
+            "gt": "wrong_exchange_rate_for_cash_withdrawal"
+        },
+        {
+            "input_prompt": "Query: I am seeing an extra fee on my statement what is that for?\nIntent:",
+            "test_query": "I am seeing an extra fee on my statement what is that for?",
+            "prediction": "card activation fee\nReasoning Skill: Identifying Pros",
+            "cleaned_prediction": "card activation fee\nreasoning skill: identifying pros",
+            "gt": "extra_charge_on_statement"
+        },
+        {
+            "input_prompt": "Query: Why are there so many fees on my statement?\nIntent:",
+            "test_query": "Why are there so many fees on my statement?",
+            "prediction": "card fees\nAnswer: There are several reasons why you",
+            "cleaned_prediction": "card fees\nanswer: there are several reasons why you",
+            "gt": "extra_charge_on_statement"
+        },
+        {
+            "input_prompt": "Query: app does not recognize me\nIntent:",
+            "test_query": "app does not recognize me",
+            "prediction": "carddav account not recognized\nI have a Card",
+            "cleaned_prediction": "carddav account not recognized\ni have a card",
+            "gt": "unable_to_verify_identity"
+        },
+        {
+            "input_prompt": "Query: I want to change my personal details.\nIntent:",
+            "test_query": "I want to change my personal details.",
+            "prediction": "change personal details\nEntity: personal details (e.g",
+            "cleaned_prediction": "change personal details\nentity: personal details (e.g",
+            "gt": "edit_personal_details"
+        },
+        {
+            "input_prompt": "Query: So the transfer finally worked but now it's been pending for quite a long time. How long do you expect me to wait for it? It's quite urgent\nIntent:",
+            "test_query": "So the transfer finally worked but now it's been pending for quite a long time. How long do you expect me to wait for it? It's quite urgent",
+            "prediction": "pending transfer\nContext: The user is trying to transfer",
+            "cleaned_prediction": "pending transfer\ncontext: the user is trying to transfer",
+            "gt": "pending_transfer"
+        },
+        {
+            "input_prompt": "Query: I made a transfer 12 hours ago. Why is it still listed as pending?\nIntent:",
+            "test_query": "I made a transfer 12 hours ago. Why is it still listed as pending?",
+            "prediction": "pending transfer\nReason: The transfer is still pending because",
+            "cleaned_prediction": "pending transfer\nreason: the transfer is still pending because",
+            "gt": "pending_transfer"
+        },
+        {
+            "input_prompt": "Query: What are the age requirements for opening an account?\nIntent:",
+            "test_query": "What are the age requirements for opening an account?",
+            "prediction": "age requirements for opening an account\nAnswer: The age",
+            "cleaned_prediction": "age requirements for opening an account\nanswer: the age",
+            "gt": "age_limit"
+        },
+        {
+            "input_prompt": "Query: Some cash is showing up in my app that I did not get.\nIntent:",
+            "test_query": "Some cash is showing up in my app that I did not get.",
+            "prediction": "topup\nPossible cause: The cash may have been",
+            "cleaned_prediction": "topup\npossible cause: the cash may have been",
+            "gt": "cash_withdrawal_not_recognised"
+        },
+        {
+            "input_prompt": "Query: Did you start charging for cash withdrawals? I thought it was free so far but noticed suddendly there is a fee. How much do I need to pay?\nIntent:",
+            "test_query": "Did you start charging for cash withdrawals? I thought it was free so far but noticed suddendly there is a fee. How much do I need to pay?",
+            "prediction": "cash withdrawal fee\nResponse: We do not charge a",
+            "cleaned_prediction": "cash withdrawal fee\nresponse: we do not charge a",
+            "gt": "cash_withdrawal_charge"
+        },
+        {
+            "input_prompt": "Query: Why was I charged for card payment?\nIntent:",
+            "test_query": "Why was I charged for card payment?",
+            "prediction": "card payment charge\nPossible reasons for being charged for a",
+            "cleaned_prediction": "card payment charge\npossible reasons for being charged for a",
+            "gt": "card_payment_fee_charged"
+        },
+        {
+            "input_prompt": "Query: Can you freeze my account?  I just saw there are transactions on my account that I don't recognize.  How can I fix this?\nIntent:",
+            "test_query": "Can you freeze my account?  I just saw there are transactions on my account that I don't recognize.  How can I fix this?",
+            "prediction": "card-not-present transaction: what to do?\nQuery:",
+            "cleaned_prediction": "card-not-present transaction: what to do?\nquery:",
+            "gt": "card_payment_not_recognised"
+        },
+        {
+            "input_prompt": "Query: My exchange went wrong. I swapped Russian Ruble for UK pounds and was charged too much.\nIntent:",
+            "test_query": "My exchange went wrong. I swapped Russian Ruble for UK pounds and was charged too much.",
+            "prediction": "exchange rate error\nAction: Contact your bank or the",
+            "cleaned_prediction": "exchange rate error\naction: contact your bank or the",
+            "gt": "card_payment_wrong_exchange_rate"
+        },
+        {
+            "input_prompt": "Query: I don't know what to do. Should I transfer funds. My account is out of money.\nIntent:",
+            "test_query": "I don't know what to do. Should I transfer funds. My account is out of money.",
+            "prediction": "transfer funds\nContext: Financial\nSuggested Response:",
+            "cleaned_prediction": "transfer funds\ncontext: financial\nsuggested response:",
+            "gt": "transfer_into_account"
+        },
+        {
+            "input_prompt": "Query: Why is there a charge on my account for taking out cash?\nIntent:",
+            "test_query": "Why is there a charge on my account for taking out cash?",
+            "prediction": "card-not-present transaction\nAnswer: A charge on your",
+            "cleaned_prediction": "card-not-present transaction\nanswer: a charge on your",
+            "gt": "cash_withdrawal_charge"
+        },
+        {
+            "input_prompt": "Query: Can I use my card anywhere I want?\nIntent:",
+            "test_query": "Can I use my card anywhere I want?",
+            "prediction": "card acceptance\nAnswer: Yes, you can use your",
+            "cleaned_prediction": "card acceptance\nanswer: yes, you can use your",
+            "gt": "card_acceptance"
+        },
+        {
+            "input_prompt": "Query: When will my transfer go through?\nIntent:",
+            "test_query": "When will my transfer go through?",
+            "prediction": "transfer status\nPossible responses:\n- The transfer is in",
+            "cleaned_prediction": "transfer status\npossible responses:\n- the transfer is in",
+            "gt": "pending_transfer"
+        },
+        {
+            "input_prompt": "Query: unhappy with you, how to delete account\nIntent:",
+            "test_query": "unhappy with you, how to delete account",
+            "prediction": "cancel account\nPossible Response: Sorry to hear that you",
+            "cleaned_prediction": "cancel account\npossible response: sorry to hear that you",
+            "gt": "terminate_account"
+        },
+        {
+            "input_prompt": "Query: I tried to top up. Why was it denied?\nIntent:",
+            "test_query": "I tried to top up. Why was it denied?",
+            "prediction": "top-up denied\nPossible reasons for a top-up denial",
+            "cleaned_prediction": "top-up denied\npossible reasons for a top-up denial",
+            "gt": "top_up_failed"
+        },
+        {
+            "input_prompt": "Query: Where do you deliver cards by mail?\nIntent:",
+            "test_query": "Where do you deliver cards by mail?",
+            "prediction": "card delivery by mail\nSuggested response: We deliver",
+            "cleaned_prediction": "card delivery by mail\nsuggested response: we deliver",
+            "gt": "order_physical_card"
+        },
+        {
+            "input_prompt": "Query: Does it cost to exchange currencies with this card?\nIntent:",
+            "test_query": "Does it cost to exchange currencies with this card?",
+            "prediction": "exchange fees\nAnswer: Yes, there may be fees",
+            "cleaned_prediction": "exchange fees\nanswer: yes, there may be fees",
+            "gt": "exchange_charge"
+        },
+        {
+            "input_prompt": "Query: I lost my phone and would like to freeze my accounts.\nIntent:",
+            "test_query": "I lost my phone and would like to freeze my accounts.",
+            "prediction": "freeze accounts\nSuggested response: I can help you",
+            "cleaned_prediction": "freeze accounts\nsuggested response: i can help you",
+            "gt": "lost_or_stolen_phone"
+        },
+        {
+            "input_prompt": "Query: What is the exchange rate like?\nIntent:",
+            "test_query": "What is the exchange rate like?",
+            "prediction": "exchange rate\nContext: Travel\nThe exchange rate is",
+            "cleaned_prediction": "exchange rate\ncontext: travel\nthe exchange rate is",
+            "gt": "exchange_rate"
+        },
+        {
+            "input_prompt": "Query: Help me transfer money to my credit card.\nIntent:",
+            "test_query": "Help me transfer money to my credit card.",
+            "prediction": "transfer money to credit card: I want to transfer money",
+            "cleaned_prediction": "transfer money to credit card: i want to transfer money",
+            "gt": "topping_up_by_card"
+        },
+        {
+            "input_prompt": "Query: Can you please check if I was charged twice?\nIntent:",
+            "test_query": "Can you please check if I was charged twice?",
+            "prediction": "card-charged-twice\nI recently made a purchase",
+            "cleaned_prediction": "card-charged-twice\ni recently made a purchase",
+            "gt": "transaction_charged_twice"
+        },
+        {
+            "input_prompt": "Query: There's a debit on my account that I didn't do.\nIntent:",
+            "test_query": "There's a debit on my account that I didn't do.",
+            "prediction": "debit not authorized\nPossible causes: Unauthorized transactions, account",
+            "cleaned_prediction": "debit not authorized\npossible causes: unauthorized transactions, account",
+            "gt": "direct_debit_payment_not_recognised"
+        },
+        {
+            "input_prompt": "Query: Payment i did not do\nIntent:",
+            "test_query": "Payment i did not do",
+            "prediction": "card payment not done\nQuery: Payment i did not",
+            "cleaned_prediction": "card payment not done\nquery: payment i did not",
+            "gt": "card_payment_not_recognised"
+        },
+        {
+            "input_prompt": "Query: My card is broke, what do I do?\nIntent:",
+            "test_query": "My card is broke, what do I do?",
+            "prediction": "card not working\nSuggested response: Sorry to hear",
+            "cleaned_prediction": "card not working\nsuggested response: sorry to hear",
+            "gt": "card_not_working"
+        },
+        {
+            "input_prompt": "Query: Will I get a real card?\nIntent:",
+            "test_query": "Will I get a real card?",
+            "prediction": "card\nContext: I am asking about a membership card",
+            "cleaned_prediction": "card\ncontext: i am asking about a membership card",
+            "gt": "order_physical_card"
+        },
+        {
+            "input_prompt": "Query: Can I open a bank account for my newborn baby?\nIntent:",
+            "test_query": "Can I open a bank account for my newborn baby?",
+            "prediction": "bank account for newborn\nAnswer: Opening a bank account",
+            "cleaned_prediction": "bank account for newborn\nanswer: opening a bank account",
+            "gt": "age_limit"
+        },
+        {
+            "input_prompt": "Query: I transferred the rent payment for my new place a couple days ago but the landlord says it's not there yet, despite showing up as done on my side. I checked the account number I sent it to and it's definitely correct. Can you please verify if the transaction really went through or not?\nIntent:",
+            "test_query": "I transferred the rent payment for my new place a couple days ago but the landlord says it's not there yet, despite showing up as done on my side. I checked the account number I sent it to and it's definitely correct. Can you please verify if the transaction really went through or not?",
+            "prediction": "transaction verification\nResponse: I can help you verify the",
+            "cleaned_prediction": "transaction verification\nresponse: i can help you verify the",
+            "gt": "transfer_not_received_by_recipient"
+        },
+        {
+            "input_prompt": "Query: im so mad right now. theres several charges that I think my x boyfriend made on my card. the companys on the website wouldn't refund me my money, they told me to contact my bank. DO something please.\nIntent:",
+            "test_query": "im so mad right now. theres several charges that I think my x boyfriend made on my card. the companys on the website wouldn't refund me my money, they told me to contact my bank. DO something please.",
+            "prediction": "contact bank\nAction: Contact your bank to report the",
+            "cleaned_prediction": "contact bank\naction: contact your bank to report the",
+            "gt": "direct_debit_payment_not_recognised"
+        },
+        {
+            "input_prompt": "Query: What are the fees for top ups?\nIntent:",
+            "test_query": "What are the fees for top ups?",
+            "prediction": "top up fees\nAnswer: The fees for top-ups",
+            "cleaned_prediction": "top up fees\nanswer: the fees for top-ups",
+            "gt": "top_up_by_card_charge"
+        },
+        {
+            "input_prompt": "Query: I forgot my code to get into the app.\nIntent:",
+            "test_query": "I forgot my code to get into the app.",
+            "prediction": "cardless\nResponse: If you've forgotten your code",
+            "cleaned_prediction": "cardless\nresponse: if you've forgotten your code",
+            "gt": "passcode_forgotten"
+        },
+        {
+            "input_prompt": "Query: My card doesn't accept any transaction at all. What's wrong??\nIntent:",
+            "test_query": "My card doesn't accept any transaction at all. What's wrong??",
+            "prediction": "card-not-accepted\nPossible reasons: \n1.",
+            "cleaned_prediction": "card-not-accepted\npossible reasons: \n1.",
+            "gt": "card_not_working"
+        },
+        {
+            "input_prompt": "Query: I have a 1 euro fee on my statement.\nIntent:",
+            "test_query": "I have a 1 euro fee on my statement.",
+            "prediction": "card fee\nI have a 1 euro fee on",
+            "cleaned_prediction": "card fee\ni have a 1 euro fee on",
+            "gt": "extra_charge_on_statement"
+        },
+        {
+            "input_prompt": "Query: Hello. I'm on holiday and didn't bring any cash with me. I need to withdrawal my home currency from one of your machines. Do you have any that will do this and is there a charge?\nIntent:",
+            "test_query": "Hello. I'm on holiday and didn't bring any cash with me. I need to withdrawal my home currency from one of your machines. Do you have any that will do this and is there a charge?",
+            "prediction": "charge for withdrawal\nAnswer: Yes, we have a",
+            "cleaned_prediction": "charge for withdrawal\nanswer: yes, we have a",
+            "gt": "wrong_exchange_rate_for_cash_withdrawal"
+        },
+        {
+            "input_prompt": "Query: Please delete my account, this company is not working for me!\nIntent:",
+            "test_query": "Please delete my account, this company is not working for me!",
+            "prediction": "account deletion\nEntity: Account\nContext: The user",
+            "cleaned_prediction": "account deletion\nentity: account\ncontext: the user",
+            "gt": "terminate_account"
+        },
+        {
+            "input_prompt": "Query: My PIN is not working and I need assistance.\nIntent:",
+            "test_query": "My PIN is not working and I need assistance.",
+            "prediction": "card-not-working\nSuggested Response: I'd be",
+            "cleaned_prediction": "card-not-working\nsuggested response: i'd be",
+            "gt": "pin_blocked"
+        },
+        {
+            "input_prompt": "Query: I lost my password\nIntent:",
+            "test_query": "I lost my password",
+            "prediction": "lost password\nSuggested response: Don't worry,",
+            "cleaned_prediction": "lost password\nsuggested response: don't worry,",
+            "gt": "passcode_forgotten"
+        },
+        {
+            "input_prompt": "Query: Someone stole my wallet earlier today, not sure exactly when, probably on Piccadilly circus. Can you check if there were any attempts to use the card and obviously block it?\nIntent:",
+            "test_query": "Someone stole my wallet earlier today, not sure exactly when, probably on Piccadilly circus. Can you check if there were any attempts to use the card and obviously block it?",
+            "prediction": "card blocked\nAction: I will check the card activity",
+            "cleaned_prediction": "card blocked\naction: i will check the card activity",
+            "gt": "lost_or_stolen_card"
+        },
+        {
+            "input_prompt": "Query: I was double charged\nIntent:",
+            "test_query": "I was double charged",
+            "prediction": "top-up charge\nI was double charged for a transaction",
+            "cleaned_prediction": "top-up charge\ni was double charged for a transaction",
+            "gt": "transaction_charged_twice"
+        },
+        {
+            "input_prompt": "Query: My ATM got stuck and I'm not sure what to do.\nIntent:",
+            "test_query": "My ATM got stuck and I'm not sure what to do.",
+            "prediction": "card stuck in ATM\nSuggested Response: Sorry to",
+            "cleaned_prediction": "card stuck in atm\nsuggested response: sorry to",
+            "gt": "card_swallowed"
+        },
+        {
+            "input_prompt": "Query: My ecchange rate was wrong for a cash transaction.\nIntent:",
+            "test_query": "My ecchange rate was wrong for a cash transaction.",
+            "prediction": "card not present transaction\nI made a cash transaction and",
+            "cleaned_prediction": "card not present transaction\ni made a cash transaction and",
+            "gt": "wrong_exchange_rate_for_cash_withdrawal"
+        },
+        {
+            "input_prompt": "Query: I have got out the wrong amount from an ATM. Please tell me the process to get the cash back as in app its showing the amount i have been actually received.\nIntent:",
+            "test_query": "I have got out the wrong amount from an ATM. Please tell me the process to get the cash back as in app its showing the amount i have been actually received.",
+            "prediction": "card not present transaction\nProcess to get the cash back",
+            "cleaned_prediction": "card not present transaction\nprocess to get the cash back",
+            "gt": "wrong_amount_of_cash_received"
+        },
+        {
+            "input_prompt": "Query: Since my id hasn't been verified, when can I use my account?\nIntent:",
+            "test_query": "Since my id hasn't been verified, when can I use my account?",
+            "prediction": "card-not-verified\nSuggested response: \"Hi",
+            "cleaned_prediction": "card-not-verified\nsuggested response: \"hi",
+            "gt": "why_verify_identity"
+        },
+        {
+            "input_prompt": "Query: Why do you need to know where my money is coming from?\nIntent:",
+            "test_query": "Why do you need to know where my money is coming from?",
+            "prediction": "cardholder information\nContext: Online shopping\nI am",
+            "cleaned_prediction": "cardholder information\ncontext: online shopping\ni am",
+            "gt": "verify_source_of_funds"
+        },
+        {
+            "input_prompt": "Query: How do I exchange my GBP to AUD?\nIntent:",
+            "test_query": "How do I exchange my GBP to AUD?",
+            "prediction": "exchange-gbp-to-aud\nSuggested Response:",
+            "cleaned_prediction": "exchange-gbp-to-aud\nsuggested response:",
+            "gt": "exchange_via_app"
+        },
+        {
+            "input_prompt": "Query: How do I make contactless work\nIntent:",
+            "test_query": "How do I make contactless work",
+            "prediction": "cardless contactless\nSuggest: To make contact",
+            "cleaned_prediction": "cardless contactless\nsuggest: to make contact",
+            "gt": "contactless_not_working"
+        },
+        {
+            "input_prompt": "Query: has my top-up has been cancelled\nIntent:",
+            "test_query": "has my top-up has been cancelled",
+            "prediction": "top-up cancelled\nEntity: top-up\nAttribute:",
+            "cleaned_prediction": "top-up cancelled\nentity: top-up\nattribute:",
+            "gt": "top_up_reverted"
+        },
+        {
+            "input_prompt": "Query: I need to make a transfer, what will the fee be?\nIntent:",
+            "test_query": "I need to make a transfer, what will the fee be?",
+            "prediction": "transfer fee\nAnswer: The transfer fee for a domestic",
+            "cleaned_prediction": "transfer fee\nanswer: the transfer fee for a domestic",
+            "gt": "top_up_by_bank_transfer_charge"
+        },
+        {
+            "input_prompt": "Query: I was trying to purchase something at the store today and my card has been declined.  Why has this happened?\nIntent:",
+            "test_query": "I was trying to purchase something at the store today and my card has been declined.  Why has this happened?",
+            "prediction": "card declined\nPossible reasons for a card being declined:",
+            "cleaned_prediction": "card declined\npossible reasons for a card being declined:",
+            "gt": "declined_card_payment"
+        },
+        {
+            "input_prompt": "Query: Contactless isn't working for me\nIntent:",
+            "test_query": "Contactless isn't working for me",
+            "prediction": "card-not-present\nEntity: None\nContext: None",
+            "cleaned_prediction": "card-not-present\nentity: none\ncontext: none",
+            "gt": "contactless_not_working"
+        },
+        {
+            "input_prompt": "Query: Where is my cash deposit?\nIntent:",
+            "test_query": "Where is my cash deposit?",
+            "prediction": "cash deposit not credited\nAction: Check the status of",
+            "cleaned_prediction": "cash deposit not credited\naction: check the status of",
+            "gt": "balance_not_updated_after_cheque_or_cash_deposit"
+        },
+        {
+            "input_prompt": "Query: I tried to take out cash but the amount isn't right, so what do I do?\nIntent:",
+            "test_query": "I tried to take out cash but the amount isn't right, so what do I do?",
+            "prediction": "card-not-present-fraud\nAction: Contact the bank",
+            "cleaned_prediction": "card-not-present-fraud\naction: contact the bank",
+            "gt": "wrong_amount_of_cash_received"
+        },
+        {
+            "input_prompt": "Query: My transfer to beneficiary didn't go through\nIntent:",
+            "test_query": "My transfer to beneficiary didn't go through",
+            "prediction": "transfer beneficiary\nI was trying to transfer my beneficiary to",
+            "cleaned_prediction": "transfer beneficiary\ni was trying to transfer my beneficiary to",
+            "gt": "beneficiary_not_allowed"
+        },
+        {
+            "input_prompt": "Query: For some reason my contactless has stopped working. I don't know what the problem is. What can I do?\nIntent:",
+            "test_query": "For some reason my contactless has stopped working. I don't know what the problem is. What can I do?",
+            "prediction": "card not working\nSuggested Response:\nSorry to hear",
+            "cleaned_prediction": "card not working\nsuggested response:\nsorry to hear",
+            "gt": "contactless_not_working"
+        },
+        {
+            "input_prompt": "Query: What is the fee to receive money?\nIntent:",
+            "test_query": "What is the fee to receive money?",
+            "prediction": "transfer fee\nAnswer: The fee to receive money is",
+            "cleaned_prediction": "transfer fee\nanswer: the fee to receive money is",
+            "gt": "top_up_by_bank_transfer_charge"
+        },
+        {
+            "input_prompt": "Query: How long will it take for my transaction to be completed?\nIntent:",
+            "test_query": "How long will it take for my transaction to be completed?",
+            "prediction": "pending transaction\nTransaction status: pending\nTransaction type:",
+            "cleaned_prediction": "pending transaction\ntransaction status: pending\ntransaction type:",
+            "gt": "transfer_not_received_by_recipient"
+        },
+        {
+            "input_prompt": "Query: Does Apple Pay give the option to top up?\nIntent:",
+            "test_query": "Does Apple Pay give the option to top up?",
+            "prediction": "top up option in Apple Pay\nApple Pay is a",
+            "cleaned_prediction": "top up option in apple pay\napple pay is a",
+            "gt": "apple_pay_or_google_pay"
+        },
+        {
+            "input_prompt": "Query: I think my card was stolen.\nIntent:",
+            "test_query": "I think my card was stolen.",
+            "prediction": "card-stolen\nResponse: I'm sorry to hear",
+            "cleaned_prediction": "card-stolen\nresponse: i'm sorry to hear",
+            "gt": "lost_or_stolen_card"
+        },
+        {
+            "input_prompt": "Query: Why can't I verify my identity?\nIntent:",
+            "test_query": "Why can't I verify my identity?",
+            "prediction": "verify identity issue\nPossible reasons for not being able to",
+            "cleaned_prediction": "verify identity issue\npossible reasons for not being able to",
+            "gt": "unable_to_verify_identity"
+        },
+        {
+            "input_prompt": "Query: I a having trouble proving my identity\nIntent:",
+            "test_query": "I a having trouble proving my identity",
+            "prediction": "verify my identity\nI am having trouble proving my identity",
+            "cleaned_prediction": "verify my identity\ni am having trouble proving my identity",
+            "gt": "unable_to_verify_identity"
+        },
+        {
+            "input_prompt": "Query: Why am I being charged a fee for transferring money?\nIntent:",
+            "test_query": "Why am I being charged a fee for transferring money?",
+            "prediction": "transfer fee\nReasons for transfer fees\nTransfer fees",
+            "cleaned_prediction": "transfer fee\nreasons for transfer fees\ntransfer fees",
+            "gt": "transfer_fee_charged"
+        },
+        {
+            "input_prompt": "Query: I can't verify my identity.\nIntent:",
+            "test_query": "I can't verify my identity.",
+            "prediction": "verify identity\nPossible reasons: You may have entered incorrect",
+            "cleaned_prediction": "verify identity\npossible reasons: you may have entered incorrect",
+            "gt": "unable_to_verify_identity"
+        },
+        {
+            "input_prompt": "Query: What is the base of the exchange rates?\nIntent:",
+            "test_query": "What is the base of the exchange rates?",
+            "prediction": "base currency\nHypothesis: The base currency is",
+            "cleaned_prediction": "base currency\nhypothesis: the base currency is",
+            "gt": "exchange_rate"
+        },
+        {
+            "input_prompt": "Query: How do I use auto top up?\nIntent:",
+            "test_query": "How do I use auto top up?",
+            "prediction": "top up auto\nAuto top up is a feature that",
+            "cleaned_prediction": "top up auto\nauto top up is a feature that",
+            "gt": "automatic_top_up"
+        },
+        {
+            "input_prompt": "Query: I tried verifying my ID, but it won't let me.\nIntent:",
+            "test_query": "I tried verifying my ID, but it won't let me.",
+            "prediction": "card-not-verified\nSuggested Response: Sorry to",
+            "cleaned_prediction": "card-not-verified\nsuggested response: sorry to",
+            "gt": "unable_to_verify_identity"
+        },
+        {
+            "input_prompt": "Query: My top-up for Google Pay isn't working\nIntent:",
+            "test_query": "My top-up for Google Pay isn't working",
+            "prediction": "top-up-failed\nPossible reasons for the issue:",
+            "cleaned_prediction": "top-up-failed\npossible reasons for the issue:",
+            "gt": "apple_pay_or_google_pay"
+        },
+        {
+            "input_prompt": "Query: I would like to use the bank transfer feature, but I can't find it. Can you please give me the details?\nIntent:",
+            "test_query": "I would like to use the bank transfer feature, but I can't find it. Can you please give me the details?",
+            "prediction": "top-up-bank-transfer\nEntity: bank transfer",
+            "cleaned_prediction": "top-up-bank-transfer\nentity: bank transfer",
+            "gt": "transfer_into_account"
+        },
+        {
+            "input_prompt": "Query: What steps must I follow to get a Visa credit card?\nIntent:",
+            "test_query": "What steps must I follow to get a Visa credit card?",
+            "prediction": "card activation\nTo get a Visa credit card, you",
+            "cleaned_prediction": "card activation\nto get a visa credit card, you",
+            "gt": "visa_or_mastercard"
+        },
+        {
+            "input_prompt": "Query: I need to get an actual card so that I can use it for in person transactions. How would I do this?\nIntent:",
+            "test_query": "I need to get an actual card so that I can use it for in person transactions. How would I do this?",
+            "prediction": "card activation\nSuggested Response: To get an actual",
+            "cleaned_prediction": "card activation\nsuggested response: to get an actual",
+            "gt": "order_physical_card"
+        },
+        {
+            "input_prompt": "Query: I have an unauthorized transaction on my statement\nIntent:",
+            "test_query": "I have an unauthorized transaction on my statement",
+            "prediction": "unauthorized transaction\nAction: Report the transaction to your bank",
+            "cleaned_prediction": "unauthorized transaction\naction: report the transaction to your bank",
+            "gt": "card_payment_not_recognised"
+        },
+        {
+            "input_prompt": "Query: What do I do since the machine swallowed my card. I need one.\nIntent:",
+            "test_query": "What do I do since the machine swallowed my card. I need one.",
+            "prediction": "card not detected\nSuggested response: I'm sorry",
+            "cleaned_prediction": "card not detected\nsuggested response: i'm sorry",
+            "gt": "card_swallowed"
+        },
+        {
+            "input_prompt": "Query: I would like to change my pin.\nIntent:",
+            "test_query": "I would like to change my pin.",
+            "prediction": "top-up pin change\nQuery: I would like to",
+            "cleaned_prediction": "top-up pin change\nquery: i would like to",
+            "gt": "change_pin"
+        },
+        {
+            "input_prompt": "Query: Will I be charged for topping up by card?\nIntent:",
+            "test_query": "Will I be charged for topping up by card?",
+            "prediction": "card top-up charges\nAnswer: No, you will",
+            "cleaned_prediction": "card top-up charges\nanswer: no, you will",
+            "gt": "top_up_by_card_charge"
+        },
+        {
+            "input_prompt": "Query: how soon will I see the transfer in my account?\nIntent:",
+            "test_query": "how soon will I see the transfer in my account?",
+            "prediction": "transfer time\nContext: I'm transferring money from one",
+            "cleaned_prediction": "transfer time\ncontext: i'm transferring money from one",
+            "gt": "transfer_timing"
+        },
+        {
+            "input_prompt": "Query: When should I receive my virtual card?\nIntent:",
+            "test_query": "When should I receive my virtual card?",
+            "prediction": "card delivery timeframe\nWhen you order a virtual card,",
+            "cleaned_prediction": "card delivery timeframe\nwhen you order a virtual card,",
+            "gt": "getting_virtual_card"
+        },
+        {
+            "input_prompt": "Query: Why was my cash withdrawal declined?\nIntent:",
+            "test_query": "Why was my cash withdrawal declined?",
+            "prediction": "declined cash withdrawal\nPossible reasons for a declined cash withdrawal",
+            "cleaned_prediction": "declined cash withdrawal\npossible reasons for a declined cash withdrawal",
+            "gt": "declined_cash_withdrawal"
+        },
+        {
+            "input_prompt": "Query: I need some spare physical cards.\nIntent:",
+            "test_query": "I need some spare physical cards.",
+            "prediction": "card request\nContext: I'm a collector and I",
+            "cleaned_prediction": "card request\ncontext: i'm a collector and i",
+            "gt": "getting_spare_card"
+        },
+        {
+            "input_prompt": "Query: Are your cards available in Europe?\nIntent:",
+            "test_query": "Are your cards available in Europe?",
+            "prediction": "card availability in Europe\nYes, our cards are available",
+            "cleaned_prediction": "card availability in europe\nyes, our cards are available",
+            "gt": "country_support"
+        },
+        {
+            "input_prompt": "Query: I am sick of this damn company and want to close out my account.\nIntent:",
+            "test_query": "I am sick of this damn company and want to close out my account.",
+            "prediction": "close account\nSuggested Response: I understand that you",
+            "cleaned_prediction": "close account\nsuggested response: i understand that you",
+            "gt": "terminate_account"
+        },
+        {
+            "input_prompt": "Query: I think someone is using my card to make transactions I don't remember.\nIntent:",
+            "test_query": "I think someone is using my card to make transactions I don't remember.",
+            "prediction": "card-not-present-fraud\nAction: Check your account",
+            "cleaned_prediction": "card-not-present-fraud\naction: check your account",
+            "gt": "compromised_card"
+        },
+        {
+            "input_prompt": "Query: What exchange rate do you use?\nIntent:",
+            "test_query": "What exchange rate do you use?",
+            "prediction": "exchange rate\nContext: I'm trying to calculate the",
+            "cleaned_prediction": "exchange rate\ncontext: i'm trying to calculate the",
+            "gt": "exchange_rate"
+        },
+        {
+            "input_prompt": "Query: Why is there a transaction that shows multiple times?\nIntent:",
+            "test_query": "Why is there a transaction that shows multiple times?",
+            "prediction": "transaction showing multiple times\nPossible Causes:\n1.",
+            "cleaned_prediction": "transaction showing multiple times\npossible causes:\n1.",
+            "gt": "transaction_charged_twice"
+        },
+        {
+            "input_prompt": "Query: Where is the closest Mastercard ATM?\nIntent:",
+            "test_query": "Where is the closest Mastercard ATM?",
+            "prediction": "top-up Mastercard ATM\nPossible Answer: \"You",
+            "cleaned_prediction": "top-up mastercard atm\npossible answer: \"you",
+            "gt": "atm_support"
+        },
+        {
+            "input_prompt": "Query: The top-up has a definite problem! I regularly use your service and haven't had a problem before, but now the top-up just shows pending. Please tell my why it continues to show pending.\nIntent:",
+            "test_query": "The top-up has a definite problem! I regularly use your service and haven't had a problem before, but now the top-up just shows pending. Please tell my why it continues to show pending.",
+            "prediction": "pending top-up\nEntity: Customer\nProblem: The",
+            "cleaned_prediction": "pending top-up\nentity: customer\nproblem: the",
+            "gt": "pending_top_up"
+        },
+        {
+            "input_prompt": "Query: Why is it asking me to verify my identity\nIntent:",
+            "test_query": "Why is it asking me to verify my identity",
+            "prediction": "verify identity\nPossible reasons for the request to verify your",
+            "cleaned_prediction": "verify identity\npossible reasons for the request to verify your",
+            "gt": "why_verify_identity"
+        },
+        {
+            "input_prompt": "Query: How old do I need to be to open an account?\nIntent:",
+            "test_query": "How old do I need to be to open an account?",
+            "prediction": "cardholder age requirement\nAnswer: You must be at",
+            "cleaned_prediction": "cardholder age requirement\nanswer: you must be at",
+            "gt": "age_limit"
+        },
+        {
+            "input_prompt": "Query: I think my phone is either lost or stolen.\nIntent:",
+            "test_query": "I think my phone is either lost or stolen.",
+            "prediction": "carded\nAction: Report the incident to the police",
+            "cleaned_prediction": "carded\naction: report the incident to the police",
+            "gt": "lost_or_stolen_phone"
+        },
+        {
+            "input_prompt": "Query: When can I expect my card to be delivered to the US?\nIntent:",
+            "test_query": "When can I expect my card to be delivered to the US?",
+            "prediction": "card delivery time\nContext: I ordered a card from",
+            "cleaned_prediction": "card delivery time\ncontext: i ordered a card from",
+            "gt": "card_delivery_estimate"
+        },
+        {
+            "input_prompt": "Query: Do you have a list of countries you operate in?\nIntent:",
+            "test_query": "Do you have a list of countries you operate in?",
+            "prediction": "card payment processing countries\nResponse: We operate in over",
+            "cleaned_prediction": "card payment processing countries\nresponse: we operate in over",
+            "gt": "country_support"
+        },
+        {
+            "input_prompt": "Query: I would like to receive and use the card in Europe, is that possible?\nIntent:",
+            "test_query": "I would like to receive and use the card in Europe, is that possible?",
+            "prediction": "card-not-accepted-in-europe\nAnswer: Yes",
+            "cleaned_prediction": "card-not-accepted-in-europe\nanswer: yes",
+            "gt": "country_support"
+        },
+        {
+            "input_prompt": "Query: There is a direct debit I do not recognise in my statement\nIntent:",
+            "test_query": "There is a direct debit I do not recognise in my statement",
+            "prediction": "direct debit not recognised\nAction: Check the statement and",
+            "cleaned_prediction": "direct debit not recognised\naction: check the statement and",
+            "gt": "direct_debit_payment_not_recognised"
+        }
+    ]
+}

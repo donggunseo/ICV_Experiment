@@ -9,21 +9,19 @@ from rouge import Rouge
 import sacrebleu
 from baukit import TraceDict
 from utils.postprocess_utils import *
+import torch.nn.functional as F
 
 
 def n_shot_eval(inputs, model, tokenizer, generate_str=False, max_new_tokens=500, kv_cache = None, stop_strings = None):
     device = model.device
     inputs = inputs.to(device)
     og_length = len(inputs.input_ids.squeeze())-1 if kv_cache is not None else len(inputs.input_ids.squeeze())
-
     if generate_str:
         output = model.generate(**inputs, temperature = 0.8, top_p = 0.95, do_sample = True, max_new_tokens = max_new_tokens, pad_token_id=tokenizer.eos_token_id, eos_token_id = tokenizer.eos_token_id, tokenizer=tokenizer, past_key_values = kv_cache, stop_strings=stop_strings).detach().cpu()
-        output_str = tokenizer.decode(output.squeeze()[og_length:], skip_speical_tokens=True)
-        output_str = output_str.strip()
     else:
         output = model.generate(**inputs, max_new_tokens = max_new_tokens, pad_token_id=tokenizer.eos_token_id, eos_token_id = tokenizer.eos_token_id, tokenizer=tokenizer, past_key_values = kv_cache, stop_strings=stop_strings, do_sample=False).detach().cpu()
-        output_str = tokenizer.decode(output.squeeze()[og_length:], skip_speical_tokens=True)
-        output_str = output_str.strip()
+    output_str = tokenizer.decode(output.squeeze()[og_length:], skip_speical_tokens=True)
+    output_str = output_str.strip()
     return output_str
 
 def add_icv(edit_layer, icv, device, idx=-1):
@@ -31,7 +29,10 @@ def add_icv(edit_layer, icv, device, idx=-1):
         current_layer = int(layer_name.split(".")[2])
         if current_layer in edit_layer:
             if isinstance(output, tuple):
+                org_norm = output[0][:,idx].norm(dim=-1, keepdim=True)
                 output[0][:, idx] += icv[current_layer].to(device)
+                new_norm = output[0][:,idx].norm(dim=-1, keepdim=True)
+                output[0][:, idx]*=(org_norm/new_norm)
                 return output
             else:
                 return output
@@ -66,15 +67,37 @@ def n_shot_eval_intervention(sentence, edit_layer, icv, model, model_config, tok
     with torch.no_grad():
         with TraceDict(model, layers = model_config['layer_hook_names'], edit_output=intervention_fn):
             output = model.forward(**inputs)
-        new_token_ids = torch.argmax(output.logits[:,-1,:], dim=-1)
         kv_cache_intervention = output.past_key_values
-        new_token_ids = new_token_ids.view(1,-1).to(device)
+
+        logits = output.logits
+        next_token_logits = logits[:, -1, :]
+        if generate_str:
+            temperature = 0.8
+            next_token_logits = next_token_logits / temperature
+            top_p = 0.95
+            probs = F.softmax(next_token_logits, dim=-1)
+            sorted_probs, sorted_indices = torch.sort(probs, descending=True)
+            cumulative_probs = torch.cumsum(sorted_probs, dim=-1)
+
+            sorted_mask = cumulative_probs <= top_p
+            sorted_mask[..., 1:] = sorted_mask[..., :-1].clone()
+            sorted_mask[..., 0] = True
+
+            filtered_probs = torch.where(sorted_mask, sorted_probs, torch.tensor(0.0).to(probs.device))
+            filtered_probs = filtered_probs / filtered_probs.sum(dim=-1, keepdim=True)
+
+            sampled_token = torch.multinomial(filtered_probs, num_samples=1)
+            new_token_ids = sorted_indices.gather(-1, sampled_token)
+        else:
+            new_token_ids = torch.argmax(next_token_logits, dim=-1, keepdim=True)
+        new_token_ids = new_token_ids.to(device)
         inputs['input_ids'] = torch.cat((inputs.input_ids, new_token_ids), dim=-1)
         inputs['attention_mask'] = torch.cat((inputs.attention_mask, torch.tensor([[1]]).to(device)), dim=-1)
         del output
         
         output_str = n_shot_eval(inputs, model, tokenizer, generate_str=generate_str, max_new_tokens = max_new_tokens, kv_cache = kv_cache_intervention)
     return output_str
+
 
 def post_process(prediction, dataset_name):
     if dataset_name == 'trec':

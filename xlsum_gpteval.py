@@ -2,20 +2,24 @@ import openai
 import json
 from tqdm import tqdm
 
-openai.api_key = "YOUR_API"
+openai.api_key = "YOURAPI"
 
 def build_prompt(article, reference, prediction):
     return f"""
 You are an evaluation assistant. Evaluate how well the predicted summary represents the original article, using the given reference summary as a guide. Assess the predicted summary on the following criteria, and score each from 1 (very poor) to 5 (excellent), followed by a brief justification for each.
 
-**Evaluation Criteria**:
-1. **Conciseness**: Is the summary significantly shorter than the article while keeping essential details?
-2. **Factual Accuracy**: Does the summary faithfully represent the article without adding, changing, or omitting key facts?
-3. **Coherence and Readability**: Is the summary well-structured, grammatical, and easy to understand?
-4. **Neutral and Objective Tone**: Is the tone neutral and factual without any bias or opinion?
-5. **Language Matching**: Does the summary use the same language as the original article?
+### Evaluation Criteria:
+1. **Conciseness**: Is the predicted summary significantly shorter than the article, and is its length appropriate compared to the reference summary? The prediction should ideally match the level of brevity shown in the reference summary.
+2. **Factual Accuracy**: Does the predicted summary accurately reflect the key facts from the article without omitting critical points or adding incorrect information?
+3. **Coherence and Readability**: Is the summary well-structured, grammatically correct, and easy to follow?
+4. **Neutral and Objective Tone**: Is the summary written in a neutral, factual tone without personal opinions, exaggerations, or biases?
+5. **Language Matching**: Does the summary use the same language as the article (e.g., English)?
 
-**Article**:
+---
+
+### Inputs:
+
+**Original Article**:
 {article}
 
 **Reference Summary**:
@@ -24,6 +28,7 @@ You are an evaluation assistant. Evaluate how well the predicted summary represe
 **Predicted Summary**:
 {prediction}
 
+---
 
 Rate the Summary on a scale from 1 to 5:
 1 = Very poor
